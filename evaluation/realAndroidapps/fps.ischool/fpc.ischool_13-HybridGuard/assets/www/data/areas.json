@@ -1,0 +1,44 @@
+{
+    "1":{
+        "id":1,
+        "name":"Arquitectura, edificació i urbanisme",
+        "image":"img/catalog/areas/area_home_1.jpg",
+        "url":"http://www.talent.upc.edu/professionals/searchAV/area/1",
+        "courses": 5
+    },
+    "2":{
+        "id":2,
+        "name":"Enginyeria civil",
+        "image":"img/catalog/areas/area_home_2.jpg",
+        "url":"http://www.talent.upc.edu/professionals/searchAV/area/2",
+        "courses": 5        
+    },
+    "3":{
+        "id":3,
+        "name":"Enginyeria industrial",
+        "image":"img/catalog/areas/area_home_3.jpg",
+        "url":"http://www.talent.upc.edu/professionals/searchAV/area/3",
+        "courses": 5
+    },
+    "4":{
+        "id":4,
+        "name":"Tecnologíes d'informació i comunicació",
+        "image":"img/catalog/areas/area_home_4.jpg",
+        "url":"http://www.talent.upc.edu/professionals/searchAV/area/4",
+        "courses": 5
+    },
+    "5":{
+        "id":5,
+        "name":"Gestió i organització d'empreses",
+        "image":"img/catalog/areas/area_home_5.jpg",
+        "url":"http://www.talent.upc.edu/professionals/searchAV/area/5",
+        "courses": 5      
+    },
+    "6":{
+        "id":6,
+        "name":"Sostenibilitat i medi ambient",
+        "image":"img/catalog/areas/area_home_6.jpg",
+        "url":"http://www.talent.upc.edu/professionals/searchAV/area/6",
+        "courses": 5
+    }
+}

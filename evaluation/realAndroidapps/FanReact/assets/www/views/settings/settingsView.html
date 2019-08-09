@@ -1,0 +1,281 @@
+<div id="settingsView" data-role="page">
+
+    <div data-role="content">
+
+        <div class="wrap_90">
+
+            <div class="settings">
+
+                <h2>GENERAL</h2>
+
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+
+                        <td colspan="2" class="arrow" style="cursor: pointer;">
+                            <a onclick="profileNameSpace.profileID = loginNameSpace.loggedUserID ; customNamespace.page.goTo( 'views/profile/Profile_Edit.html' );">
+                                <span>Update My Avatar</span>
+                            </a>
+                        </td>
+                    </tr>                           
+                    
+                    <tr>
+                        <td colspan="2" class="arrow"  style="cursor: pointer;">
+                            <a href="accountPreferencesView.html">
+                                <span>Update My Profile</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <!--tr>
+                        <td>Sync and share my posts on Twitter</td>
+                        <td>
+                            <select name="flip-1" id='syncTwitter' data-role="slider">
+                                <option value="false">No</option>
+                                <option value="true">Yes</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sync and share my posts on Google+</td>
+                        <td>
+                            <select name="flip-1" id='syncGoogle' data-role="slider">
+                                <option value="false">No</option>
+                                <option value="true">Yes</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>Sync and share my posts on Facebook</td>
+                        <td>
+                            <select  id='syncFacebook'  name="flip-1" data-role="slider">
+                                <option value="false">No</option>
+                                <option value="true">Yes</option>
+                            </select>
+                        </td>
+                    </tr-->
+                </table>
+
+                <h2>NOTIFICATIONS</h2>
+
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td colspan="2" class="arrow" style="cursor: pointer;">
+                            <a href="phoneNotificationsView.html">
+                                <span>Phone Notifications</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <!--tr>
+                        <td>Application Notifications</td>
+                        <td>
+                            <select name="flip-1" id='appNotification' data-role="slider">
+                                <option value="false">No</option>
+                                <option value="true">Yes</option>
+                            </select>
+                        </td>
+                    </tr-->
+                </table>
+
+                <h2>MISCELLANEOUS</h2>
+
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td colspan="2" class="arrow" style="cursor: pointer;">
+                            <!--a href="feedbackView.html"-->
+                            <a onclick="$('#submitFeedBackPopup').popup('open');">
+                                <span>Send Us Feedback</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="arrow" onclick='showAppReferrence("About")'>About</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="arrow" onclick='showAppReferrence("Condition")'>Terms &amp; Conditions</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="arrow" onclick='showAppReferrence("Privacy")'>Privacy Policy</td>
+                    </tr>
+                    <!--tr>
+
+                        <td colspan="2" class="arrow" style="cursor: pointer;">
+                            <a href="../../index.html">
+                                <span>Log Out</span>
+                            </a>
+                        </td>
+                    </tr--> 
+                    
+                    <tr>
+                        <td colspan="2" class="arrow" style="cursor: pointer;">
+                            <a href="#" onclick="deleteFeedManager()">
+                                <span>Reset My Feeds</span>
+                            </a>
+                        </td>
+                    </tr>                       
+                    
+                    <tr>
+                        <td colspan="2" class="arrow" style="cursor: pointer;">
+                            <a href="#" onclick="resetApp.resetapp()">
+                                <span>Log Out</span>
+                            </a>
+                        </td>
+					</tr>     
+                   <!-- <tr>
+                        <td colspan="2" class="arrow" style="cursor: pointer;">
+                            <a href="#" onclick="resetApp.resetapp()">
+                                <span>Log Out</span>
+                            </a>
+                        </td>
+                    </tr>   -->                   
+
+                    <!--tr>
+                        <td colspan="2" class="arrow" style="cursor: pointer;">
+                            <a href="../view-data/logged-user.html">
+                                <span>View logged user data</span>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" class="arrow" style="cursor: pointer;">
+                            <a href="../view-data/trending-feed-data.html">
+                                <span>View Trending Feed data</span>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" class="arrow" style="cursor: pointer;">
+                            <a href="../view-data/reactions-feed-data.html">
+                                <span>View Reactions Feed data</span>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" class="arrow" style="cursor: pointer;">
+                            <a href="../view-data/myfans-data.html">
+                                <span>View My Fans data</span>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" class="arrow" style="cursor: pointer;">
+                            <a href="../view-data/fansof-data.html">
+                                <span>View Fans of data</span>
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="2" class="arrow" style="cursor: pointer;">
+                            <a href="../view-data/profileFeed-data.html">
+                                <span>View Profile Feed data</span>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" class="arrow" style="cursor: pointer;">
+                            <a href="../view-data/settings-data.html">
+                                <span>View Settings data</span>
+                            </a>
+                        </td>
+                    </tr-->
+                </table>
+
+            </div>
+
+        </div><!--wrap_90-->
+
+    </div><!--content-->
+
+    <center>
+
+    <div data-role="popup" id="appPreference1" data-history="false" data-overlay-theme="a" data-theme="c" data-dismissible="true" style="max-width:400px;" class="ui-corner-all">
+
+        <h3 class="ui-title">App Preference</h3>
+        <p>App Preferrence Content</p>
+        <a  href="#" data-rel="back"  data-role="button" data-inline="true" data-theme="b" class="submitBtn" style="color:white;">Close</a>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right"></a>
+    </div>
+    </center>
+    <div data-role="popup" id="submitFeedBackPopup"  data-history="false" data-overlay-theme="a" data-theme="c" data-dismissible="true" style="max-width:400px;" class="ui-corner-all">
+
+        <h3 class="ui-title"> Send Us Feedback</h3>
+        <textarea id='#submitFeedBackPopuptext' placeholder='Your feedback is important to us.'></textarea>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right"></a>
+        <a onclick='settingViewSubmitFeedBack();' data-role="button" data-inline="true" data-theme="b" class="submitBtn" style="color:white;">Send</a>
+
+    </div>
+    
+    <div data-role="popup" id="appPreference"  data-history="false" data-overlay-theme="a" data-theme="c" data-dismissible="true" style="max-width:400px;" class="ui-corner-all">
+        <h3 class="ui-title">App Preference</h3>
+        
+        <textarea readonly value="sdfdsf" style="height:250px"></textarea>
+        <a href="#" data-rel="back" data-role="button" data-inline="true" data-theme="b" class="submitBtn">Close</a>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+    </div>
+    
+<!--    <div data-role="footer" data-position="fixed">
+        <ul>
+            <li>
+                <a href="../dashboard/followingView.html" class="active">
+                    <i class="fa fa-home"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../notifications/notificationsView.html">
+                    <i class="fa fa-bell"></i><span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" id='capturePhotoButton'>
+                    <i class="fa fa-camera"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../fans/fansView.html">
+                    <i class="fa fa-users"></i><span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="../post/postView.html" id="topostView" >
+                    <i class="fa fa-pencil-square-o"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+-->
+<script>
+    
+    
+	customNamespace.header.changeTitle( { text : 'Settings' } );
+    
+    $('#syncTwitter').change( function() {  
+        settingsNameSpace.saveSettingsIntoSQLite('syncTwitter', $('#syncTwitter').val()) ;
+    });
+    
+    $('#syncGoogle').change( function() {  
+        settingsNameSpace.saveSettingsIntoSQLite('syncGoogle', $('#syncGoogle').val()) ;
+    });
+    
+    $('#appNotification').change( function() {  
+        settingsNameSpace.saveSettingsIntoSQLite('appNotification', $('#appNotification').val()) ;
+    });
+    
+    $('#syncFacebook').change( function() {  
+        settingsNameSpace.saveSettingsIntoSQLite('syncFacebook', $('#syncFacebook').val()) ;
+    });
+    
+    settingsNameSpace.checkIfSettingsIsInSQLite();
+    settingsNameSpace.getSettingsFromSQLite();
+    
+    getAppPreferrence();
+    
+</script>    
+    
+</div>
+
+
+    

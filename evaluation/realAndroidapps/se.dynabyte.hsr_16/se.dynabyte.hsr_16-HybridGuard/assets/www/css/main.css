@@ -1,0 +1,176 @@
+.ui-page {
+    background: #009C9B;
+}
+
+.ui-header {
+    background: url(../images/backgroundNavigation.gif) no-repeat top, #009C9B;
+    background-size: 100% 42px;
+    height: 52px;
+    border: 0;
+}
+
+.ui-content {
+    background: url(../images/backgroundContentWideBottom.gif) no-repeat bottom;
+    background-size: cover;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-bottom: 10px;
+}
+
+.reportsFooter .ui-btn {
+    background: url(../images/backgroundNavigationFooter.gif) no-repeat bottom, #009C9B;
+    background-size: 100% 40px;
+    border: 1;
+}
+
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 100px;
+}
+
+#address {
+    font-size: 15px;
+    float: left;
+    max-width: 60%;
+}
+
+#image {
+    float: right;
+    width: 45px;
+    height: 45px;
+}
+
+#mapButton {
+    float: right;
+    postion: relative;
+    top: -20px;
+    vertical-align: top;
+}
+
+#map_canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#mapHeader, #mapHeaderReports {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 100;
+    height: 40px;
+}
+
+#addressSearch {
+    position: absolute;
+    z-index: 100;
+    height: 40px;
+    left: 0px;
+    width: 100%;
+    top: 31px;
+    opacity: 0.9;
+}
+
+#addressAutocomplete {
+    width: 100%;
+    height: 33px;
+
+    position: relative;
+    top: 8px;
+    line-height: 1.4;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#savedReportList li {
+    list-style-type: none;
+}
+
+.cbxlist {
+    float: left;
+    clear: left;
+}
+
+.linklist {
+    float: left;
+}
+
+#reportImage {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#showReportContent label {
+    font-weight: bold;
+}
+
+#reportCreateDate {
+    text-align: center;
+}
+
+.ui-controlgroup-controls {
+    width: 100%;
+}
+
+#saveBtn {
+    float: left;
+    width: 107px;
+}
+
+#submitBtn {
+    float: none;
+    margin-left: 107px;
+}
+
+#savedReportsGroup input, #sentReportsGroup input {
+    float: left;
+    width: 60px;
+}
+
+#savedReportsGroup a, #sentReportsGroup a {
+    float: none;
+    margin-left: 60px;
+    height: 39px;
+}
+
+#photoContainer div {
+    float: left;
+}
+
+.separator {
+    clear: both;
+}
+
+#errorMessage {
+    color: red;
+}
+
+.invalidReport {
+    color: red;
+}
+
+#facebookHSR {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+}
+
+#twitterHSR {
+    position: absolute;
+    top: 100px;
+    right: 30px;
+}
+
+#facebookHSR img, #twitterHSR img {
+    width: 20px;
+}
+
+#showReportMenuBtn {
+    position: absolute;
+    left: 3px;
+}

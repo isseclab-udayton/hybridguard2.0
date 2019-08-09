@@ -1,0 +1,2771 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+
+        <!--
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+       -->
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=1" />
+
+<!--        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">-->
+
+        <link rel="stylesheet" href="js/jquery/jQMobile_alt/jquery.mobile-1.3.2.min.css" />
+        
+        <link rel="stylesheet" type="text/css" href="js/slider/boutique/boutique.css" />
+        
+        <link rel="stylesheet" type="text/css" href="js/slider/theatre/theatre.css" />
+        
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+        <title>Mainz Und More</title>
+        
+    </head>
+    <body>
+    
+        <!-- Main -->
+        <div id="mainPage" style="background: url('bilder/Hintergrund.png');" data-role="page">
+           
+            <div data-role="header" data-position="fixed">
+                <div>
+                    <a onclick="ui.impressumsDialog('2.1.1')">
+                        <img  width="100%" style="margin-bottom: -5px;"  src="bilder/kopf/MainzMore_Home_Impressum.png"/>
+                    </a>
+                </div>
+            </div> <!-- </header -->
+
+           
+            
+            <div data-role="content" >
+                
+                              
+                <div style="background-color: black">
+             
+                <!-- City  href="#detaiSights"  href="#sehenswertes" -->
+                <div class="mainSehenswert" >
+                   
+                    <a class="kachel" onclick="navi.fromMainToNaviPage('#naviPage',1)">
+                        <img class="mainImage" src="bilder/menu/main/Sehen.png"/>
+                    </a>
+                    
+                </div>
+                
+                <!-- Shop -->
+                <div class="mainShop" >
+                    
+                    <a class="kachel" onclick="navi.fromMainToNaviPage('#naviPage', 2)">
+                        <img class="mainImage" src="bilder/menu/main/Shops.png"/>
+                    </a>
+                    
+                </div>
+                
+                <!-- Parken -->
+                <div class="mainParken">
+                    <a class="kachel" onclick="navi.fromMainToNaviPage('#naviPage', 4)">
+                        <img class="mainImage" src="bilder/menu/main/Verkehr.png"/>
+                    </a>
+                </div>
+                
+                <!-- Gastro & Clubs -->
+                <div class="mainGastro">
+                    <a class="kachel" onclick="navi.fromMainToNaviPage('#naviPage', 3)">
+                        <img class="mainImage" src="bilder/menu/main/Gastro.png"/>
+                    </a>
+                </div>
+                
+                <!-- Special -->
+                <div class="mainSpecial">
+                    <a class="kachel" onclick="navi.fromMainToNaviPage('#naviPage', 5)">
+                        <img  class="mainImage" src="bilder/menu/main/News.png"/>
+                    </a>
+                </div>
+                
+                <!-- Events  -->
+                <div class="mainEvents">
+                    <a class="kachel" onclick="navi.fromMainToNaviPage('#naviPage', 6)" >
+                        <img class="mainImage" src="bilder/menu/main/Events.png"/>
+                    </a>
+                </div>
+                </div>
+                
+                <a id="deviceIDString">ID: </a>
+            </div>
+            
+            <!-- Footer -->
+            <div data-role="footer" class="navigationBar" data-position="fixed">
+                
+                
+                <!-- Werbung -->
+                <div id="mainPageAd" >
+                    <!-- Inhalt erstellt in advertise.js -->
+                    
+                </div><!-- /Werbung -->
+                
+            </div><!-- /Footer -->
+
+        </div>
+
+        <!-- Navigation -->
+        <div id="naviPage" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                
+                <div>
+                    
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a id="headerBack" onclick="navi.changeToPage('#mainPage')">
+                            <img  class="headerImage" src="bilder/kopf/Button_Menue.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>                    
+                    
+                </div>
+
+            </div>
+            
+            <!-- Content -->
+            <div data-role="content" class="noDistanceTopLeftRight">
+                               
+                <div class="sliderNavigation">
+                    
+                    <ul id="navigation" >
+                        <li><img src="bilder/menu/main/Sehen.png"></li>
+                        <li><img src="bilder/menu/main/Shops.png"></li>
+                        <li><img src="bilder/menu/main/Gastro.png"></li>
+                        <li><img src="bilder/menu/main/Verkehr.png"></li>
+                        <li><img src="bilder/menu/main/News.png"></li>
+                        <li><img src="bilder/menu/main/Events.png"></li>
+                        
+                    </ul>
+                    <div id="leftArrow" class="leftArrow">
+                        <img onclick="slider.prevCategorie()" height="19px" src="bilder/menu/arrow/Button_Left_kl.png" />
+                    </div>
+                    <div id="rightArrow" class="rightArrow">
+                        <img onclick="slider.nextCategorie()" height="19px" src="bilder/menu/arrow/Button_Right_kl.png" />
+                    </div>
+                   
+                    
+                </div>
+                
+                
+                
+                <div style="clear: both"></div>
+                
+            
+
+                <div id="categoriePages">
+                    
+                    <!--Sehenswert -->
+                    <div class="catPage">
+                      <div class="listDown">
+                        <ul  data-role="listview">
+                            <li><a onclick="navi.changeToPage('#kirchen');">Kirchen</a></li>
+                            <li><a onclick="navi.changeToPage('#museen');">Museen</a></li>
+                            <li><a onclick="navi.changeToPage('#roemischesMainz');">Römisches Mainz</a></li>
+                            <li><a onclick="navi.changeToPage('#altstadt');">Altstadt</a></li>
+                            <li><a onclick="getStadtfuehrung(0)">Stadtführung</a></li>
+                        </ul>
+                        <br/><br/><br/>
+                      </div>
+                    </div>
+                    
+                    <!-- Shop -->
+                    <div class="catPage">
+                        <div class="listDown">
+                            <ul id="naviShop" data-role="listview">
+                                <li><a onclick="slider.showSubMenu(slider.ID_SEARCH_SHOP)" class="versial">Suche</a></li>
+                                <li><a onclick="insiderShopList()" class="versial">Insider-Tipps</a></li>
+                                <li><a onclick="slider.showSubMenu(slider.ID_MODE)">Mode &amp; Accessoires</a></li>
+                                <li><a onclick="slider.showSubMenu(slider.ID_LEBENSMITTEL)">Lebens- &amp; Genussmittel</a></li>
+                                <li><a onclick="slider.showSubMenu(slider.ID_KUNST)">Kunst &amp; Unterhaltung</a></li>
+                                <li><a onclick="slider.showSubMenu(slider.ID_SCHOENHEIT)">Schönheit &amp; Gesundheit</a></li>
+                                <li><a onclick="slider.showSubMenu(slider.ID_VERKEHR)">Verkehr und Reisen</a></li>
+                                <li><a onclick="slider.showSubMenu(slider.ID_HANDWERK)">Handwerk &amp; Industrie</a></li>
+                                <li><a onclick="slider.showSubMenu(slider.ID_COMPUTER)">Computer / Elektronik</a></li>
+                                <li><a onclick="slider.showSubMenu(slider.ID_MULTIMEDIA)">Multimedia / Marketing</a></li> 
+                                <li><a onclick="slider.showSubMenu(slider.ID_BAU)">Bau / Wohnen</a></li>  
+                                <li><a onclick="slider.showSubMenu(slider.ID_EINRICHTUNG)">Einrichten &amp; Büro</a></li>
+                                <li><a onclick="slider.showSubMenu(slider.ID_ARZT)">Ärzte</a></li>
+                                <li><a onclick="slider.showSubMenu(slider.ID_BILDUNG)">Bildung / Behörden</a></li> 
+                                <li><a onclick="slider.showSubMenu(slider.ID_GELD)">Geld &amp; Beratung</a></li>
+                                <li><a onclick="slider.showSubMenu(slider.ID_SHOP_SONSTIGES)">Sonstiges</a></li>      
+                            </ul>
+                            <br/>
+                            <br/>
+                            <br/>
+                        </div>
+                    </div>
+                                
+                    <!-- Gastro -->
+                    <div class="catPage">
+                        <div class="listDown">        
+                            <ul data-role="listview">
+                                <li><a onclick="slider.showSubMenu(slider.ID_SEARCH_GASTRO)" class="versial">Suche</a></li>
+                                <li><a onclick="slider.showSubMenu(slider.ID_GASTRO_TIPPS)"class="versial">Gastro Tipps</a></li>
+                                <li><a onclick="slider.showSubMenu(slider.ID_RESTAURANT)">Restaurants</a></li>
+                                <li><a onclick="slider.showSubMenu(slider.ID_CAFE)">Cafe &amp; Eis</a></li>
+                                <li><a onclick="slider.showSubMenu(slider.ID_BIER)">Bier &amp; Wein</a></li>
+                                <li><a onclick="slider.showSubMenu(slider.ID_BAR)">Bars &amp; Discos</a></li>
+                                <li><a onclick="slider.showSubMenu(slider.ID_KIOSK)">Kiosk &amp; Fastfood</a></li>
+                                <li><a onClick="searchSector('gastro', 'noSubMenu', 'Hotels')">Hotels</a></li>
+                                <li><a onclick="searchSector('gastro', 'noSubMenu', 'Catering')">Catering</a></li>
+                                <li><a onclick="searchSector('gastro', 'noSubMenu', 'Sonstige')">Sonstige</a></li>
+                            </ul>
+                            <br/>
+                            <br/>
+                            <br/>
+                         </div>       
+                    </div>
+            
+                                
+                    <!-- Verkehr slider.showSubMenu('tanken')-->            
+                    <div class="catPage">
+                        <div class="listDown">
+                            <ul id="mainTraffic" data-role="listview">
+                            <li><a onclick="slider.showSubMenu(slider.ID_RADAR)">Blitzer<div class="source">Mit Unterstützung von Antenne Mainz</div></a></li>
+                            <li><a onclick="slider.showSubMenu(slider.ID_TRAFFIC)">Stau<div class="source">Mit Unterstützung von Antenne Mainz</div></a></li>
+                            <li><a onclick="navi.changeToPage('#tanken')">Tanken<div class="source">Aktuelle Benzin-/Diesel-Preise der Region</div></a></li>
+                            <li><a onclick="slider.showSubMenu(slider.ID_PARKING)">Parken<div class="source">Mit Unterstützung von Parken in Mainz GmbH</div></a></li>
+                            <!-- <li><a onclick="slider.showSubMenu('mvg')">MVG<div class="source">Mainzer VerkehrsGesellschaft</div></a></li> -->
+                            </ul>
+                            <br/><br/><br/>
+
+
+                        </div>
+                    </div>
+                    
+                                        
+                    <!-- News -->            
+                    <div class="catPage">
+                        <div class="listDown">
+                            <ul  data-role="listview">
+                                <li><a onClick="newsList()">Lokalnachrichten<div class="source">Mit Unterstützung von Antenne Mainz</div></a></li>
+                                <li><a onclick="weather()">Wetter<div class="source">Mit Unterstützung von Antenne Mainz</div></a></li>
+                                <li>
+                                    <div style="color: #2F3E46;">Webradio</div>
+                                    <div style="color: #2F3E46;" class="source">Mit Unterstützung von Antenne Mainz. Bitte beachten Sie das das Abspielen  zusätzlichen Kosten verursachen kann.
+                                    </div>
+                                    <div style="padding-top: 15px;">
+                                        <audio  controls>
+                                            <source src="http://rs1.radiostreamer.com:8020/;stream/1" />
+                                        </audio>
+                                    </div>
+                                    
+
+                                </li>
+                                
+                            </ul>
+                            <br/>
+                            <br/>
+                            <br/>
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- Events  -->
+                    <div class="catPage">
+                          
+                        <div data-role="fieldcontain" >
+                            <div class="formTitle">Kategorie auswählen:</div>
+                            <fieldset data-role="controlgroup" >
+                                <input type="checkbox" name="checkboxAlle" id="checkboxAlle" class="custom" onClick="events.setKategoriesFalse()"/>
+                                <label class="formLabel" for="checkboxAlle">Alle Kategorien</label>
+                                <input type="checkbox" name="checkboxKultur" id="checkboxKultur" class="custom" onClick="events.setAllFalse()"/>
+                                <label class="formLabel" for="checkboxKultur">Kultur</label>
+                                <input type="checkbox" name="checkboxFesteMaerkte" id="checkboxFesteMaerkte" class="custom" onClick="events.setAllFalse()"/>
+                                <label class="formLabel" for="checkboxFesteMaerkte">Feste &amp; Märkte</label>
+                                <input type="checkbox" name="checkboxParty" id="checkboxParty" class="custom" onClick="events.setAllFalse()"/>
+                                <label class="formLabel" for="checkboxParty">Party</label>
+                                <input type="checkbox" name="checkboxBildung" id="checkboxBildung" class="custom" onClick="events.setAllFalse()"/>
+                                <label class="formLabel" for="checkboxBildung">Bildung &amp; Wissenschaft</label>
+                                <input class="formLabel" type="checkbox" name="checkboxMesse" id="checkboxMesse" class="custom" onClick="events.setAllFalse()"/>
+                                <label class="formLabel" for="checkboxMesse">Kongresse &amp; Messen</label>
+                                <input type="checkbox" name="checkboxGesundheit" id="checkboxGesundheit" class="custom" onClick="events.setAllFalse()"/>
+                                <label class="formLabel" for="checkboxGesundheit">Gesundheit</label>
+                                <input type="checkbox" name="checkboxSonstiges" id="checkboxSonstiges" class="custom" onClick="events.setAllFalse()" />
+                                <label class="formLabel" for="checkboxSonstiges">Sonstiges</label>
+                            </fieldset>
+                        </div >
+                        <div class="formSendButton">
+                            <a onClick="eventsList()" data-role="button" data-inline="true">Suchen</a>
+                        </div>
+                        <br/>
+                                
+                    </div>
+                    
+                    <!--- ******************************** SUBMENUS ******************** -->
+                    <!-- Blitzer -->
+                    <div class="catSubPage">
+                        <div class="listDown">
+                            <ul id="navSubRadar" data-role="listview">
+                                <li><a onclick="blitzerListe();">Blitzerliste</a></li>
+                                <li><a onclick="navi.changeToPage('#radarReport');">Blitzer melden</a></li>
+                                <!-- <li><a onclick="navi.changeToPage('#blitzerConfig');">Blitzereinstellungen</a></li> -->
+                                <a style="display: block; font-size: 13px; font-shadow: none; margin: 10px; color: #A9A9A9"><span style="color: #EB1259; font-style: italic; text-decoration: underline;">Hinweis zu Blitzer-Mitteilungen:</span><br/><br/>
+                                    Neue Blitzer-Meldungen werden Ihnen auf Ihr Smartphone per Mitteilungsdienst zugestellt.<br/>
+                                    Gleiches gilt für Apple Watch-Nutzer - Verwaltung über die jeweilige Einstellung für Mitteilungen.</a>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Stau -->
+                    <div class="catSubPage">
+                        <div class="listDown">
+                            <ul id="navSubStau" data-role="listview">
+                                <li><a onClick="trafficList()">Aktuelle Staus</a></li>
+                                <li><a href="#trafficReportPage">Staus melden</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Parken -->
+                    <div class="catSubPage">
+                        <div class="listDown">
+                            <ul id="navSubParken" data-role="listview">
+                                <li><a href="#parking">Parkhaus-Liste</a></li>
+                                <li><a onClick="showAllParkingStructureOnMap()">Parkhaus Map</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- SHOPS SUCHE -->
+                    <!-- SucheShop -->
+                    <div class="catSubPage">
+                        <div class="listDown">
+                            <div id="shopSearchForm" data-role="fieldcontain"  class="form">
+                                <div class="formLabel">
+                                    nach Name:
+                                </div>
+                                <input type="text" name="selectCompanyName" id="selectCompanyName" data-mini="true" />
+                                
+                                <br/>
+                                <div   class="formLabel">
+                                    nach Suchbegriff / Marke:
+                                </div>
+                                <input type="text" name="selectKeyword" id="selectKeyword" data-mini="true" />
+                            	
+                            	<br/>
+            					<div class="formLabel">Stadtgebiet:</div>
+            					<select name="selectShopGebiet"  id="selectShopGebiet" size="8">
+           							<option selected value="all">Alle Gebiete</option>
+           			    			<option  value="Historische Altstadt">Historische Altstadt</option>
+                        			<option  value="Neustadt">Neustadt</option>
+                        			<option  value="Brand & Dom">Brand &amp; Dom</option>
+                                    <option  value="Schiller & Lu">Schiller &amp; Lu</option>
+                                    <option  value="City-Meile-Bleiche">City-Meile-Bleiche</option>
+                                    <option  value="Bahnhofsviertel">Bahnhofsviertel</option>
+                                    <option  value="Sonst. Stadtteile">Sonst. Stadtteile</option>
+                                </select>                            
+                            </div>
+                            <br/>
+                            <div class="zentriert">
+                                <a onClick="searchKeyword('shopKeyword','#selectCompanyName', '#selectKeyword','#selectShopGebiet',slider.ID_SEARCH_SHOP)" data-role="button" data-inline="true">Suchen</a>
+                            </div>
+                            <br/> <br/><br/> <br/>
+                        </div>
+                    </div>
+                    
+                    <!-- GASTRO SUCHE--->
+                    <div class="catSubPage">
+                        <div class="listDown">
+                            
+                            <div id="shopSearchForm" data-role="fieldcontain"  class="form">
+                                <div class="formLabel" >
+                                    nach Name:
+                                </div>
+                                <input type="text" name="selectGastroCompanyName" id="selectGastroCompanyName" data-mini="true" />
+                                <br/>
+                                
+                                <div class="formLabel">
+                                    nach Suchbegriff / Marke:
+                                </div>
+                                <input type="text" name="selectGastroKeyword" id="selectGastroKeyword" data-mini="true" />
+                                <br/>
+                                
+                                <div class="formLabel">Stadtgebiet:</div>
+            					<select name="selectGastroGebiet"  id="selectGastroGebiet" size="8">
+           							<option selected value="all">Alle Gebiete</option>
+           			    			<option  value="Historische Altstadt">Historische Altstadt</option>
+                        			<option  value="Neustadt">Neustadt</option>
+                        			<option  value="Brand & Dom">Brand &amp; Dom</option>
+                                    <option  value="Schiller & Lu">Schiller &amp; Lu</option>
+                                    <option  value="City-Meile-Bleiche">City-Meile-Bleiche</option>
+                                    <option  value="Bahnhofsviertel">Bahnhofsviertel</option>
+                                    <option  value="Sonst. Stadtteile">Sonst. Stadtteile</option>
+                                </select>
+                            </div>
+                            <br/> <br/>
+                            <div class="zentriert">
+                                <a onClick="searchKeyword('gastroKeyword', '#selectGastroCompanyName', '#selectGastroKeyword', '#selectGastroGebiet', slider.ID_SEARCH_GASTRO)" data-role="button" data-inline="true">Suchen</a>
+                            </div>
+                            <br/> <br/><br/> <br/>
+                        </div>
+                    </div>
+                    
+                    <!-- SUBMENU SHOP -->
+                    <div class="catSubPage">
+                        <div class="listDown">
+                           <!-- <form id="formShop"> -->
+                            <ul id="listeSubShops" data-role="listview" data-split-icon="gear"  >
+                                    
+                            </ul>
+                            <br/>
+                            <br/>
+                            <!--
+                             </form>
+                            
+                            <div class="zentriert">
+                                <a class="sendButtonSubMenu"  data-role="button" data-inline="true">Suchen</a>
+                            </div>
+                             -->
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- SUBMENU GASTO -->
+                    <div class="catSubPage">
+                        <div class="listDown">
+                           <!-- <form id="formGastro"> data-split-icon="gear"  -->
+                            <ul id="listeSubGastro" data-role="listview"  >
+                                    
+                            </ul>
+                            <br/><br/>
+                            <!-- </form>
+                           
+                            <div class="zentriert">
+                                <a  class="sendButtonSubMenu" data-role="button" data-inline="true">Suchen</a>
+                            </div>
+                            -->
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- SUBMENU Gastro Tips -->
+                    <div class="catSubPage">
+                        <div class="listDown">
+                            <ul data-role="listview">
+                                <li><a onclick="searchGastroTipps(RESTAURANT,slider.ID_GASTRO_TIPPS)">Restaurant-Check<div class="source">vom kulinarischen Gastwirtschaftsprüfer</div></a></li>
+                                <li><a onclick="searchGastroTipps(FRUESTUECK,slider.ID_GASTRO_TIPPS)">Frühstücks-Check<div class="source">vom kulinarischen Gastwirtschaftsprüfer</div></a></li>
+                            </ul>
+                            <br/><br/>
+                        </div>
+                    </div>
+
+                    
+                </div><!-- /kategorie -->
+            
+           </div><!-- /content -->
+           
+            <!-- Footer -->
+            <div data-role="footer" class="navigationBar" data-position="fixed">
+                
+                
+                <!-- Werbung -->
+                <div id="naviPageAd">
+                    <!-- Inhalt erstellt in advertise.js -->
+        
+                </div><!-- /Werbung -->
+                
+            </div><!-- /Footer -->
+            
+        </div><!-- /page -->
+        
+        <!-- ******************************** SHOP  ************************************ -->
+        <div id="insiderListPage" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a onclick="navi.changeToPage('#naviPage')">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+                
+            </div> <!-- /Header -->
+
+            
+            <!-- Content -->
+            <div data-role="content">
+                
+                <ul id="listShopInsider"  data-role="listview">
+                        
+                        <!-- Inhalt vom Server Funktion: listeXMLInsider -->
+                        
+                        
+                 </ul>
+                
+            </div><!-- /Content -->
+            
+            <!-- Footer -->
+            <div data-role="footer" class="navigationBar" data-position="fixed">
+                
+                
+                <!-- Werbung -->
+                <div>
+                    <a  onClick="navi.showExternalPage('http://icon008.info-mainz.de/firmen/app/banner/23.php')">
+                        <img  class="adBanner" src="http://icon008.info-mainz.de/firmen/app/banner/23.png" />
+                    </a>
+                </div><!-- /Werbung -->
+               
+            </div><!-- /Footer -->
+            
+        </div><!-- /page -->
+        
+        <div id="shopGastroListPage" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a id="shopGastroBack">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+                
+            </div> <!-- /Header -->
+            
+            
+            <!-- Content -->
+            <div data-role="content">
+                
+                <ul id="shopGastroList"  data-role="listview">
+                    
+                    <!-- Inhalt vom Server Funktion: listeXMLInsider -->
+                    
+                    
+                </ul>
+                <br/>
+                
+                <fieldset id="shopGastroListNavi" class="ui-grid-b">
+                    <div id="leftNavi" class="ui-block-a"></div>
+                    <div class="ui-block-b"></div>
+                    <div id="rightNavi" class="ui-block-c"></div>
+                </fieldset><!-- /grid-b -->
+                
+            </div><!-- /Content -->
+            
+            <!-- Footer -->
+            <div data-role="footer" class="navigationBar" data-position="fixed">
+                
+                
+                <!-- Werbung -->
+                <div id="shopGastroListAd">
+                    
+                </div><!-- /Werbung -->
+                
+            </div><!-- /Footer -->
+            
+        </div><!-- /page -->
+
+        <!-- ******************************** GASTRO  ********************************** -->
+        <div id="gastroListPage" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a data-rel="back">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+                
+            </div> <!-- /Header -->
+            
+            
+            <!-- Content -->
+            <div data-role="content">
+                
+                <ul id="gastroList"  data-role="listview">
+                    
+                    <!-- Inhalt vom Server Funktion: listeXMLInsider -->
+                    
+                    
+                </ul>
+                
+            </div><!-- /Content -->
+            
+            <!-- Footer -->
+            <div data-role="footer" class="navigationBar" data-position="fixed">
+                
+                
+                <!-- Werbung -->
+                <div>
+                    <a  onClick="navi.showExternalPage('http://icon008.info-mainz.de/firmen/app/banner/21.php')">
+                        <img  class="adBanner" src="http://icon008.info-mainz.de/firmen/app/banner/21.png" />
+                    </a>
+                </div><!-- /Werbung -->
+                
+            </div><!-- /Footer -->
+            
+        </div><!-- /page -->
+        
+        <div id="gastroTippsListPage" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a data-rel="back">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+                
+            </div> <!-- /Header -->
+            
+            
+            <!-- Content -->
+            <div data-role="content">
+                
+                <ul id="gastroTippsList"  data-role="listview">
+                    
+                    <!-- Inhalt vom Server Funktion: listeXMLInsider -->
+                    
+                    
+                </ul>
+                
+            </div><!-- /Content -->
+            
+            <!-- Footer -->
+            <div data-role="footer" class="navigationBar" data-position="fixed">
+                
+                
+                <!-- Werbung -->
+                <div >
+                    <a  onClick="navi.showExternalPage('http://icon008.info-mainz.de/firmen/app/banner/21.php')">
+                        <img  class="adBanner" src="http://icon008.info-mainz.de/firmen/app/banner/21.png" />
+                    </a>
+                </div><!-- /Werbung -->
+                
+            </div><!-- /Footer -->
+            
+        </div><!-- /page -->
+        
+        <!-- ******************************** DETAIL SHOP/GASTRO ********************************** -->
+        
+        <!-- Detail Shop/Gastro -->
+        <div  id="detailPage" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a data-rel="back">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+                
+            </div> <!-- /Header -->
+            
+            
+            <div data-role="content" class="noPaddingNoMargin">
+                
+                <div id="detailPic">
+                    <!-- Inhalt vom Server Function: detailsXMLParser -->
+                </div>
+                
+                <div id="detailPicDots" class="pagingDetail paging2">
+                    <span>•</span>
+                </div>
+                
+                <div class="detailBereich">
+                    <div id="detailText" class="detailServerText">
+                        <!-- Inhalt vom Server Function: detailsXMLParser -->
+                    </div>
+                    
+                    <div id="detailVideo">
+                        <!-- Video für die Gastro Tipps -->
+                    
+                    </div>
+                    
+                    <div id="detailPdf">
+                        <!-- Inhalt vom Server function: detailsXMLParser-->
+                    </div>
+                    
+                    
+                    <div id="detailsTipp">
+                        <!-- Inhalt vom Server Function: detailsXMLParser -->
+                    </div>
+                    
+                    <br/>
+                    
+                    <!-- Telefon -->
+                    <div id="detailPhone" class="detailButton">
+                        <!-- Inhalt vom Server function: detailsXMLParser -->
+                    </div>
+                    
+                    <!-- Email -->
+                    <div id="detailEmail" class="detailButton">
+                        
+                        <!-- Inhalt vom Server function: detailsXMLParser -->
+                    </div>
+                    
+                    <!-- Web -->
+                    <div id="detailWeb" class="detailButton">
+                        
+                        <!-- Inhalt vom Server function: detailsXMLParser -->
+                    </div>
+                    
+                    <!-- Facebook -->
+                    <div id="detailFacebook" class="detailButtonFacebook" >
+                        
+                        <!-- Inhalt vom Server function: detailsXMLParser-->
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                    <div class="detailLocation">
+                        <a oncLick="detailMapXML()">Standort anzeigen</a>
+                         <!-- detailMapXML() befindet sich in der xml.js -->
+                    </div>
+                    
+                    <div class="detailInfoBox" >
+                        
+                        <div id="detailAddress">
+                            
+                            <!-- Inhalt vom Server function: detailsXMLParser-->
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="detailInfoBox">
+                        <div id="detailBusinessHours">
+                            
+                            <!-- Inhalt vom Server function: detailsXMLParser-->
+                            
+                        </div>
+                    </div>
+                    
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                </div>
+            </div>
+          	
+            <div data-role="footer" class="navigationBar" data-position="fixed">
+                
+                
+                <!-- Werbung -->
+                <div id="adDetailPage">
+                    <!-- Inhalt erstellt in advertise.js -->
+                </div>
+
+            </div>
+        </div><!-- /page -->
+        
+        <!-- Detail Gastro Tipps -->
+        <div id="detailGastoTips" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a data-rel="back">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+                
+            </div> <!-- /Header -->
+            
+            
+            <div data-role="content" class="noPaddingNoMargin">
+                
+                <div id="detailPic">
+                    <!-- Inhalt vom Server Function: detailsXMLParser -->
+                </div>
+                
+                <div id="detailPicDots" class="pagingDetail paging2">
+                    <span>•</span>
+                </div>
+                
+                <div class="detailBereich">
+                    <div id="detailText" class="detailServerText">
+                        <!-- Inhalt vom Server Function: detailsXMLParser -->
+                    </div>
+                    
+                    <br/>
+                    
+                    <div id="detailPdf">
+                        <!-- Inhalt vom Server function: detailsXMLParser-->
+                    </div>
+                    
+                    
+                    <div id="detailsTipp">
+                        <!-- Inhalt vom Server Function: detailsXMLParser -->
+                    </div>
+                    
+                    <br/>
+                    
+                    <!-- Telefon -->
+                    <div id="detailPhone" class="detailButton">
+                        <!-- Inhalt vom Server function: detailsXMLParser -->
+                    </div>
+                    
+                    <!-- Email -->
+                    <div id="detailEmail" class="detailButton">
+                        
+                        <!-- Inhalt vom Server function: detailsXMLParser -->
+                    </div>
+                    
+                    <!-- Web -->
+                    <div id="detailWeb" class="detailButton">
+                        
+                        <!-- Inhalt vom Server function: detailsXMLParser -->
+                    </div>
+                    
+                    <!-- Facebook -->
+                    <div id="detailFacebook" class="detailButtonFacebook" >
+                        
+                        <!-- Inhalt vom Server function: detailsXMLParser-->
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                    <div class="detailLocation">
+                        <a oncLick="detailMapXML()">Standort anzeigen</a>
+                        <!-- detailMapXML() befindet sich in der xml.js -->
+                    </div>
+                    
+                    <div class="detailInfoBox" >
+                        
+                        <div id="detailAddress">
+                            
+                            <!-- Inhalt vom Server function: detailsXMLParser-->
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="detailInfoBox">
+                        <div id="detailBusinessHours">
+                            
+                            <!-- Inhalt vom Server function: detailsXMLParser-->
+                            
+                        </div>
+                    </div>
+                    
+                    <br/>
+                    
+                    <br/>
+                </div>
+            </div>
+          	
+            <div data-role="footer" class="navigationBar" data-position="fixed">
+                
+                
+                <!-- Werbung -->
+                <div id="adDetailPage">
+                    <!-- Inhalt erstellt in advertise.js -->
+                </div>
+                
+            </div>
+        </div><!-- /page -->
+        
+        <!--- ******************************* EVENTS *********************************** -->
+        <!-- Events Liste -->
+        <div id="eventsListPage" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a onclick="navi.changeToPage('#naviPage')">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+                
+            </div> <!-- /Header -->
+
+            <!-- Content -->
+            <div data-role="content">
+                <div class="eventsTitle">
+                    Mainz Events in dieser Woche:
+                </div>
+                <br/>
+                <ul id="eventsSearch" class="ListeShopSearch" data-role="listview">
+                    <!-- Inhalt vom Server Funktion: listeXMLEvents -->
+                </ul>
+                
+                <br/>
+                
+                <fieldset id="eventsListNavi" class="ui-grid-b">
+                    <div id="eventsLeftNavi" class="ui-block-a"></div>
+                    <div class="ui-block-b"></div>
+                    <div id="eventsRightNavi" class="ui-block-c"></div>
+                </fieldset>
+                
+            </div><!-- /Content -->
+            
+            <!-- Footer -->
+            <div data-role="footer" class="navigationBar" data-position="fixed">
+                
+                
+                <!-- Werbung -->
+                <div>
+                    <a  onClick="navi.showExternalPage('http://icon008.info-mainz.de/firmen/app/banner/61.php')">
+                        <img  class="adBanner" src="http://icon008.info-mainz.de/firmen/app/banner/61.png" />
+                    </a>
+                </div><!-- /Werbung -->
+                
+            </div><!-- /Footer -->
+            
+        </div><!-- /page -->
+        
+        <!-- Events Detail -->
+        <div  id="eventsDetailPage" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a data-rel="back">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+                
+            </div> <!-- /Header -->
+            
+            <!-- Content -->
+            <div data-role="content" class="noPaddingNoMargin">
+                
+                <div class="detailBereich">
+                     
+                    <div id="eventDetailText" class="detailServerText">
+                        <!-- Inhalt vom Server Function: detailsXMLParser -->
+                    </div>
+                    
+                    <div class="detailInfoBox" >
+                        <div id="eventDetailTermin">
+                            
+                            <!-- Inhalt vom Server function: detailsXMLParser-->
+                            
+                        </div>
+                    </div>
+                    
+                    <br/>
+                    
+                    <div class="detailInfoBox" >
+                        <div id="eventDetailVeranstaltungsort">
+                            
+                            <!-- Inhalt vom Server function: detailsXMLParser-->
+                            
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="detailInfoBox">
+                        <div id="eventDetailVeranstalter">
+                            
+                            <!-- Inhalt vom Server function: detailsXMLParser-->
+                            
+                        </div>
+                    </div>
+                    
+                    <br/>
+                    
+                    
+                </div>
+            </div><!-- /Content -->
+            
+            <!-- Footer -->
+            <div data-role="footer" class="navigationBar" data-position="fixed">
+                
+                
+                <!-- Werbung -->
+                <div>
+                    <a  onClick="navi.showExternalPage('http://icon008.info-mainz.de/firmen/app/banner/62.php')">
+                        <img  class="adBanner" src="http://icon008.info-mainz.de/firmen/app/banner/62.png" />
+                    </a>
+                </div><!-- /werbung -->
+                
+                
+            </div><!-- /Footer -->
+            
+        </div><!-- /page -->
+
+        <!--- ******************************* SPECIAL *********************************** -->
+        <!-- News List -->
+        <div id="specialListPage" data-role="page">
+            
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild onclick="slider.goBackToNaviPage()"-->
+                    <div class="headerLeft">
+                        <a onclick="navi.changeToPage('#naviPage')">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+                
+            </div> <!-- /Header -->
+            
+            <div data-role="content">
+                <div class="specialTitle">
+                    Aktuelle News:
+                </div>
+                <br/>
+                <ul id="specialList"  data-role="listview">
+                    <!-- Inhalt vom Server Funktion: newsListParser -->
+                </ul>
+                
+                <br/>
+                
+                <fieldset id="specialListNavi" class="ui-grid-b">
+                    <div id="specialLeftNavi" class="ui-block-a"></div>
+                    <div class="ui-block-b"></div>
+                    <div id="specialRightNavi" class="ui-block-c"></div>
+                </fieldset>
+                
+            </div>
+            
+            <div data-role="footer" class="navigationBar" data-position="fixed">
+
+                <!-- Werbung -->
+                <div id="specialListPageAd">
+                    <a  onClick="navi.showExternalPage('http://icon008.info-mainz.de/firmen/app/banner/52.php')">
+                        <img  class="adBanner" src="http://icon008.info-mainz.de/firmen/app/banner/52.png" />
+                    </a>
+                </div>
+                
+            </div>
+            
+        </div><!-- /page -->
+        
+        <!-- News Details -->
+        <div  id="specialDetailPage" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a data-rel="back">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+                
+            </div> <!-- /Header -->
+            
+            <div data-role="content" class="noPaddingNoMargin">
+                
+                <div  id="newsDetailText" class="detailBereich">
+                    
+                </div>
+                
+            </div>
+            
+            <div data-role="footer" class="navigationBar" data-position="fixed">
+                
+                
+                <!-- Werbung -->
+                <div id="specialDetailPageAd">
+                    <a  onClick="navi.showExternalPage('http://icon008.info-mainz.de/firmen/app/banner/51.php')">
+                        <img  class="adBanner" src="http://icon008.info-mainz.de/firmen/app/banner/51.png" />
+                    </a>
+                </div>
+                
+            </div>
+        </div><!-- /page -->
+
+        <!--  Wetter -->
+        <div id="weatherPage" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a onclick="navi.changeToPage('#naviPage')">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div style="clear: both"></div>
+                    
+                </div>
+                
+            </div> <!-- /Header -->
+            
+            <div data-role="content" >
+                
+                <table align="center" id="weatherPicAndText" style="border: 1px solid black;">
+                    
+                </table>
+                
+                
+                <div id="weatherToDay" >
+                    
+                </div>
+                
+                <div id="weatherReport">
+                    
+                </div>
+                
+            </div>
+            
+            <div data-role="footer" class="navigationBar" data-position="fixed">
+                
+                <!-- Werbung -->
+                 <div id="weatherPageAd">
+                     <a  onClick="navi.showExternalPage('http://icon008.info-mainz.de/firmen/app/banner/53.php')">
+                         <img  class="adBanner" src="http://icon008.info-mainz.de/firmen/app/banner/53.png" />
+                     </a>
+                 </div>
+                 
+            
+            </div>
+            
+        </div><!-- /page -->
+        
+        <!--- ******************************* VERKEHR *********************************** -->
+        <!-- Blizer Melden -->
+        <div id="radarReport" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a onclick="slider.goBackToSubMenu(slider.ID_RADAR)">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+                
+            </div> <!-- /Header -->
+            
+            
+            <div data-role="content"  class="noMarginNoPadding">
+                
+                <div id="radarReportForm" data-role="fieldcontain"  class="form">
+                    <div class="radarReportTitle">Blitzer melden:</div>
+                    <div class="formLabel">Messfahrzeug</div><br/>
+<!--                    <input data-mini="true" type="text" name="radarMobile" id="radarMobile" value=""  />-->
+                    <ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Blitzer..." data-inset="true" id="radarMobileList"></ul>
+                    <div class="formLabel">Straße</div><br/>
+<!--                    <input data-mini="true" type="text" name="radarStreet" id="radarStreet" value=""  />-->
+                    <ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Straßenname..." data-inset="true" id="streetList"></ul>
+                    <div class="formLabel">Ort</div><br/>
+<!--                    <input data-mini="true" type="text" name="radarTown" id="radarTown" value=""  />-->
+                    <ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Ortsname..." data-inset="true" id="townList"></ul>
+                    <div class="formLabel">Stadtteil</div><br/>
+                    <ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Stadtteil..." data-inset="true" id="districtList"></ul>
+                    <div class="formLabel">Richtung</div>
+                    <input data-mini="true" type="text" name="radarDirection" id="radarDirection" value=""  />
+                    <div class="formLabel">Position /  Beschreibung</div>
+                    <textarea data-mini="true"  name="radarDescription" id="radarDescription"></textarea>
+                    <div  class="formLabel" >Gemeldet von:</div>
+                    <input data-mini="true" type="text" name="radarReportBy" id="radarReportBy" value=""  />
+                </div>
+                
+                <div class="zentriert">
+                    <a onClick="sendRadarReport()" data-role="button" data-inline="true">Senden</a>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                
+            </div><!-- Content -->
+            
+            <div data-role="footer" data-position="fixed">
+                
+                <!-- Werbung -->
+                 <div id="radarReportAd">
+                      <!-- Inhalt erstellt in advertise.js -->
+                     
+                 </div>
+                
+            </div><!-- Footer -->
+            
+        </div><!-- /page -->
+        
+        
+        <!--- ******************************* Blitzereinstellungen *********************************** -->
+        <!-- Blizer Melden
+        <div id="blitzerConfig" data-role="page">
+            
+            <!-- Header
+            <div data-role="header" data-position="fixed">
+                
+                <div>
+                    <!-- rechtes Bild
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild
+                    <div class="headerLeft">
+                        <a onclick="slider.goBackToSubMenu(slider.ID_RADAR)">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                <div class="clearFloat"></div>
+                    
+                </div>
+                
+            </div> <!-- /Header
+            
+            <!-- Content
+            <div data-role="content" class="noMarginNoPadding">
+                <a style="float: left;" id="pushNotificationLabel">Push Benachrichtigungen</a>
+                <input style="float: right; margin-right: 30px; height: 20px; width: 20px;" type="checkbox" id="blitzerNotificationsActive" data-role="none">
+            
+                <div>
+                    <div style="float: left; height: 1px; width: 100%; margin-top: 10px; text-align: center; background-color: #C9C9C9;"></div>
+                    <div style="float: left; height: 1px; width: 100%; text-align: center; background-color: white;"></div>
+                </div>
+                
+                <p style="float: left;"><span style="color: #EB1259; font-style: italic; text-decoration: underline;">Hinweis:</span><br/>Um Push-Benachrichtigungen auf Ihre Apple Watch zu erhalten, geben Sie die App in Ihrer Apple Watch-App frei.<br/><br/>Bitte stellen Sie außerdem sicher, dass unter "Einstellungen" der App der Button "Mitteilungen erlauben" ebenfalls aktiv ist.</p>
+            </div><!-- Content
+            
+            <div data-role="footer" data-position="fixed">
+                
+                <!-- Werbung
+                <div id="radarReportAd">
+                    <!-- Inhalt erstellt in advertise.js
+                    
+                </div>
+                
+            </div><!-- Footer
+        </div>
+<!--        ///////////////////////           -->
+        
+        <!-- Blitzerliste -->
+        <div id="radarListPage" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a onclick="slider.goBackToSubMenu(slider.ID_RADAR)">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+                
+            </div> <!-- /Header -->
+            
+            <div data-role="content">
+                
+                <ul id="radarSearch" data-role="listview" >
+                    <!-- Inhalt vom Server Funktion: blitzerListeParser -->
+                </ul>
+                
+            </div>
+            
+            <div data-role="footer"  data-position="fixed">
+                
+                <!-- Werbung -->
+                <div id="radarListPageAd">
+                    <a  onClick="navi.showExternalPage('http://icon008.info-mainz.de/firmen/app/banner/31.php')">
+                        <img  class="adBanner" src="http://icon008.info-mainz.de/firmen/app/banner/31.png" />
+                    </a>
+                </div>
+            
+            </div><!-- Footer -->
+            
+        </div><!-- /page -->
+        
+        <!-- Parkenliste -->
+        <div id="parking" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a onclick="slider.goBackToSubMenu(slider.ID_PARKING)">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+            </div> <!-- /Header -->
+
+            
+            <div data-role="content">
+                
+                <ul id="parkingList"  data-role="listview">
+                    <li >
+                        <a onClick="showOneParkingStructureOnMap(50.00455, 8.2712,'Parkhaus Rathaus', '55116 Mainz / Rheingoldhalle', 'Rheinstr. 66', '545', '6')">
+                            <h3 class="listTitle">Parkhaus Rathaus</h3>
+                            <div class="listText">55116 Mainz / Rheingoldhalle, Rheinstr. 66</div>
+                            <div class="listText">Anzahl Stellplätze: 545</div>
+                            <div class="listText">Anzahl Behindertenstellplätze: 6</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a onClick="showOneParkingStructureOnMap(50.006967, 8.270554,'Parkplatz Schloss', '55116 Mainz', 'Ernst-Ludwig-Straße', '122', '5')">
+                            <h3 class="listTitle">Parkplatz Schloss</h3>
+                            <div class="listText">55116 Mainz / Ernst-Ludwig-Straße</div>
+                            <div class="listText">Anzahl Stellplätze: 122</div>
+                            <div class="listText">Anzahl Behindertenstellplätze: 5</div>
+                        </a>
+                    </li>
+                    <li >
+                        <a onClick="showOneParkingStructureOnMap(49.9928617, 8.2472526, 'Parkhaus Theater', '55116 Mainz', 'Am Kronberger Hof', '207', '')">
+                            <h3 class="listTitle">Parkhaus Theater</h3>
+                            <div class="listText">55116 Mainz / Am Kronberger Hof</div>
+                            <div class="listText">Anzahl Stellplätze: 207</div>
+                        </a>
+                    </li>
+                    <li >
+                        <a onClick="showOneParkingStructureOnMap(50.006745, 8.270710, 'Parkhaus Rheinufer', '55131 Mainz / Linsenberg', 'Augustusstraße', '1105', '20')">
+                            <h3 class="listTitle">Parkhaus Rheinufer</h3>
+                            <div class="listText">55131 Mainz / Linsenberg, Augustusstraße</div>
+                            <div class="listText">Anzahl Stellplätze: 1105</div>
+                            <div class="listText">Anzahl Behindertenstellplätze: 20</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a onClick="showOneParkingStructureOnMap(49.998203, 8.257234,'Parkhaus CityPort', '55116 Mainz', 'Peter-Altmeier-Allee', '497', '8')">
+                            <h3 class="listTitle">Parkhaus CityPort</h3>
+                            <div class="listText">55116 Mainz / Peter-Altmeier-Allee</div>
+                            <div class="listText">Anzahl Stellplätze: 497</div>
+                            <div class="listText">Anzahl Behindertenstellplätze: 8</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a onClick="showOneParkingStructureOnMap(50.0020225, 8.2660639, 'Parkhaus Römerpassage', '55116 Mainz', 'Emmeransstraße', '181', '11')">
+                            <h3 class="listTitle">Parkhaus Römerpassage</h3>
+                            <div class="listText">55116 Mainz / Emmeransstraße</div>
+                            <div class="listText">Anzahl Stellplätze: 181</div>
+                            <div class="listText">Anzahl Behindertenstellplätze: 11</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a onClick="showOneParkingStructureOnMap(50.0004628, 8.2687309,'Parkhaus Kronberger Hof', '55116 Mainz', 'Am Kronberger Hof', '495', '4')">
+                            <h3 class="listTitle">Parkhaus Kronberger Hof</h3>
+                            <div class="listText">55116 Mainz / Am Kronberger Hof</div>
+                            <div class="listText">Anzahl Stellplätze: 495</div>
+                            <div class="listText">Anzahl Behindertenstellplätze: 4</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a onClick="showOneParkingStructureOnMap(49.993695, 8.278413, 'Parkhaus CineStar', '55116 Mainz', 'Neutorstraße', '459', '8')">
+                            <h3 class="listTitle">Parkhaus CineStar</h3>
+                            <div class="listText">55116 Mainz / Neutorstraße</div>
+                            <div class="listText">Anzahl Stellplätze: 459</div>
+                            <div class="listText">Anzahl Behindertenstellplätze: 8</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a onClick="showOneParkingStructureOnMap(50.0048703, 8.2483513, 'Parkhaus Wallstrasse', '55122 Mainz', 'Wallstraße', '303', '')">
+                            <h3 class="listTitle">Parkhaus Wallstrasse</h3>
+                            <div class="listText">55122 Mainz / Wallstraße</div>
+                            <div class="listText">Anzahl Stellplätze: 303</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a onClick="showOneParkingStructureOnMap(50.0036575, 8.2610027,'Parkhaus Bonifazius Türme', '55118 Mainz', 'Bonifaziusstraße', '450', '5')">
+                            <h3 class="listTitle">Parkhaus Bonifazius Türme</h3>
+                            <div class="listText">55118 Mainz / Bonifaziusstraße</div>
+                            <div class="listText">Anzahl Stellplätze: 450</div>
+                            <div class="listText">Anzahl Behindertenstellplätze: 5</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a onClick="showOneParkingStructureOnMap(49.99807, 8.25169,'Parkhaus Taubertsberg','55122 Mainz', 'Binger Str., Wallstr.', '767', '21')">
+                            <h3 class="listTitle">Parkhaus Taubertsberg</h3>
+                            <div class="listText">55122 Mainz / Binger Str., Wallstr.</div>
+                            <div class="listText">Anzahl Stellplätze: 767</div>
+                            <div class="listText">Anzahl Behindertenstellplätze: 21</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a onClick="showOneParkingStructureOnMap(50.00035, 8.24754,'Parkplatz Martin-Luther-King-Park', '55122 Mainz', 'Dr. Martin-Luther-King-Weg', '192', '')">
+                            <h3 class="listTitle">Parkplatz Martin-Luther-King-Park</h3>
+                            <div class="listText">55122 Mainz / Dr. Martin-Luther-King-Weg</div>
+                            <div class="listText">Anzahl Stellplätze: 192</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a onClick="showOneParkingStructureOnMap(49.9937155, 8.261362,'Parkplatz Unikliniken Kerngelände', '55131 Mainz', 'Langenbeckstraße, Am Linsenberg', '669', '10')">
+                            <h3 class="listTitle">Parkplatz Unikliniken Kerngelände</h3>
+                            <div class="listText">55131 Mainz / Langenbeckstraße, Am Linsenberg</div>
+                            <div class="listText">Anzahl Stellplätze: 669</div>
+                            <div class="listText">Anzahl Behindertenstellplätze: 10</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a onClick="showOneParkingStructureOnMap(49.992868, 8.260721,'Parkhaus Unikliniken Urol./Ortho./Kons.', '55131 Mainz', 'Langenbeckstraße, Am Linsenberg', '617', '')">
+                            <h3 class="listTitle">Parkhaus Unikliniken Urol./Ortho./Kons.</h3>
+                            <div class="listText">55131 Mainz / Langenbeckstraße, Am Linsenberg</div>
+                            <div class="listText">Anzahl Stellplätze: 617</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a onClick="showOneParkingStructureOnMap(49.992868, 8.260721,'Parkplatz Unikliniken Zahnklinik','55131 Mainz', 'Am Römerlager', '104','')">
+                            <h3 class="listTitle">Parkplatz Unikliniken Zahnklinik</h3>
+                            <div class="listText">55131 Mainz / Am Römerlager</div>
+                            <div class="listText">Anzahl Stellplätze: 104</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a onClick="showOneParkingStructureOnMap(49.9936896, 8.2600588, 'Parkhaus Augustusplatz', '55131 Mainz', 'Am Römerlager', '540', '5 pro Ebene')">
+                            <h3 class="listTitle">Parkhaus Augustusplatz </h3>
+                            <div class="listText">55131 Mainz / Am Römerlager</div>
+                            <div class="listText">Anzahl Stellplätze: 540</div>
+                            <div class="listText">Anzahl Behindertenstellplätze: 5 pro Ebene</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a onClick="showOneParkingStructureOnMap(49.993465, 8.277565,'Parkhaus Römisches Theater', '55116 Mainz', 'Holzhofstraße', '436', '10')">
+                            <h3 class="listTitle">Parkhaus Römisches Theater</h3>
+                            <div class="listText">55116 Mainz / Holzhofstraße</div>
+                            <div class="listText">Anzahl Stellplätze: 436</div>
+                            <div class="listText">Anzahl Behindertenstellplätze: 10</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a onClick="showOneParkingStructureOnMap(50.00211, 8.27417,'Parkhaus Löhrstraße', '55116 Mainz', 'Löhrstraße', '145', '')">
+                            <h3 class="listTitle">Parkhaus Löhrstraße</h3>
+                            <div class="listText">55116 Mainz / Löhrstraße</div>
+                            <div class="listText">Anzahl Stellplätze: 145</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a onClick="showOneParkingStructureOnMap(49.999316, 8.265646,'Parkhaus Schillerplatz', '55116 Mainz', 'Schillerstraße', '480', '')">
+                            <h3 class="listTitle">Parkhaus Schillerplatz</h3>
+                            <div class="listText">55116 Mainz / Schillerstraße</div>
+                            <div class="listText">Anzahl Stellplätze: 480</div>
+                        </a>
+                    </li>
+                    <li >
+                        <a onClick="showOneParkingStructureOnMap(50.003424, 8.266912,'Parkhaus Bleiche', '55116 Mainz', 'Balthasar-Maler-Gasse', '227','2 im Untergeschoss')">
+                            <h3 class="listTitle">Parkhaus Bleiche</h3>
+                            <div class="listText">55116 Mainz / Balthasar-Maler-Gasse</div>
+                            <div class="listText">Anzahl Stellplätze: 227</div>
+                            <div class="listText">Anzahl Behindertenstellplätze: 2 im Untergeschoss</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a onClick="showOneParkingStructureOnMap(50.00455, 8.2712,'Parkhaus Deutschhausplatz','55116 Mainz','Große Bleiche','190', '')">
+                            <h3 class="listTitle">Parkhaus Deutschhausplatz</h3>
+                            <div class="listText">55116 Mainz / Große Bleiche</div>
+                            <div class="listText">Anzahl Stellplätze: 190</div>
+                        </a>
+                    </li>
+                </ul>
+                
+                
+            </div><!-- Content -->
+            
+            <div data-role="footer"  data-position="fixed">
+                
+                <!-- Werbung -->
+                <div id="parkingListAd">
+                    <!-- Inhalt erstellt in advertise.js -->
+                </div>
+                <!-- Navi -->
+                
+            </div><!-- Footer -->
+        </div><!-- /page -->
+        
+        <!-- Stau -->
+        <div id="trafficListPage" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a onclick="slider.goBackToSubMenu(slider.ID_TRAFFIC)">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div style="clear: both"></div>
+                    
+                </div>
+            </div> <!-- /Header -->
+
+            
+            <div data-role="content">
+                
+                <ul id="trafficSearch" data-role="listview" >
+                    <!-- Inhalt vom Server Funktion: blitzerListeParser -->
+                </ul>
+                
+            </div>
+            
+            <div data-role="footer" class="navigationBar" data-position="fixed">
+                
+                <!-- Werbung -->
+                <div id="trafficListPageAd">
+                    <!-- Werbung -->
+                    <div id="radarListPageAd">
+                        <a  onClick="navi.showExternalPage('http://icon008.info-mainz.de/firmen/app/banner/35.php')">
+                            <img  class="adBanner" src="http://icon008.info-mainz.de/firmen/app/banner/35.png" />
+                        </a>
+                    </div>
+                </div>
+                
+            </div><!-- Footer -->
+            
+        </div><!-- /page -->
+        
+        <!-- Stau Melden -->
+        <div id="trafficReportPage" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a onclick="slider.goBackToSubMenu(slider.ID_TRAFFIC)">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div style="clear: both"></div>
+                    
+                </div>
+                
+            </div> <!-- /Header -->
+
+            
+            <div data-role="content"  class="noMarginNoPadding">
+                
+                <div id="trafficReportForm" class="form">
+                    <div class="trafficReportTitle">Stau melden:</div>
+                    <div class="formLabel">Straße:</div>
+                    <input  type="text" name="trafficStreet" id="trafficStreet" value=""  />
+                    <div class="formLabel">Richtung:</div>
+                    <input  type="text" name="trafficDirection" id="trafficDirection" value=""  />
+                    <div class="formLabel">Meldung:</div>
+                    <input  type="text" name="trafficReport" id="trafficReport" value=""  />
+                    <div  class="formLabel" >Gemeldet von:</div>
+                    <input  type="text" name="trafficReportBy" id="trafficReportBy" value=""  />
+                </div>
+                
+                
+                <div class="formSendButton">
+                    <a onClick="sendTrafficReport()" data-role="button" data-inline="true">Senden</a>
+                </div>
+                
+            </div><!-- Content -->
+            
+            <div data-role="footer" class="navigationBar" data-position="fixed">
+                
+                <!-- Werbung -->
+                <div id="trafficReportListPageAd">
+                    <!-- Inhalt erstellt in advertise.js -->
+                </div>
+                
+            </div><!-- Footer -->
+        </div><!-- /page -->
+        
+        <!-- ******************************* TANKEN *************************** -->
+        <div id="tanken" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a onclick="navi.changeToPage('#naviPage')">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+                
+            </div> <!-- /Header -->
+            
+            
+            <div data-role="content"  class="noMarginNoPadding">
+               <!--
+                <div class="formLabel">Marke:</div>
+                <select name="selectMarke"  id="selectMarke" >
+                    <option selected value="0">Alle</option>
+                    <option value="1">Agip</option>
+                    <option value="2">Aral</option>
+                    <option value="3">AVIA</option>
+                    <option value="4">bft</option>
+                    <option value="5">ESSO</option>
+                    <option value="6">JET</option>
+                    <option value="7">OIL!</option>
+                    <option value="8">OMV</option>
+                    <option value="9">Orlen</option>
+                    <option value="10">Q1</option>
+                    <option value="11">Shell</option>
+                    <option value="12">Star</option>
+                    <option value="13">Tamoil</option><option value="14">TOTAL</option><option value="15">Westfalen</option><option value="17">HEM</option><option value="18">Raiffeisen</option><option value="19">Classic</option><option value="20">ED</option><option value="21">BayWa</option><option value="22">Sprint</option><option value="23">Gulf</option><option value="24">Markant</option><option value="25">ELAN</option><option value="26">Score</option><option value="27">Globus</option><option value="28">Calpam</option><option value="29">BP</option><option value="30">Genol</option><option value="31">Avanti</option><option value="32">Lagerhaus</option><option value="33">Q8</option><option value="34">Eni</option><option value="35">Coop</option><option value="36">Migrol</option><option value="37">Agrola</option><option value="999">Sonstige</option>              
+                </select>
+                <br/>
+                -->
+                <div class="formLabel">Spritsorte:</div>
+                <select name="selectSpritsorte"  id="selectSpritsorte" size="8">
+                    <option value="1">Super (E10)</option><option value="2" selected="selected">Super (E5)</option><option value="3">Super Plus</option><option value="4">Diesel</option><option value="5">Normal</option><option value="6">V-Power Racing</option><option value="7">V-Power Diesel</option><option value="8">ultimate Super</option><option value="9">ultimate Diesel</option><option value="10">Bio Diesel</option><option value="11">Super Diesel</option><option value="12">Autogas (LPG)</option><option value="13">Erdgas (CNG)</option><option value="14">E85</option><option value="15">AdBlue</option><option value="17">LKW-Diesel</option><option value="18">Excellium Diesel</option><option value="19">Excellium Super Plus</option><option value="20">MaxxMotion Diesel</option>
+                
+                </select>
+                <br/>
+                <div class="formLabel">Suchradius</div>
+                <select id="searchRadius" name="searchRadius">
+                    <option value="5" >5km</option>
+                    <option selected="selected" value="10">10km</option>
+                    <option value="15">15km</option>
+                    <option value="20">20km</option>
+                    <option value="25">25km</option>
+                </select>
+                <br/>
+                <!--
+                <div class="formLabel">PLZ</div>
+                <input id="inputPLZ" type="tel" name="plz" min="3" max="5" maxlength="5" data-mini="true" />
+                <br/>
+                 -->
+                <div class="zentriert">
+                    <a onClick="fuelList()" data-role="button" data-inline="true">Suchen</a>
+                </div>
+                <br/><br/><br/><br/>
+                
+                
+            </div><!-- Content -->
+            
+            <div data-role="footer" data-position="fixed">
+                
+                <!-- Werbung -->
+                <div id="tankenAd">
+                    <!-- Inhalt erstellt in advertise.js -->
+                    
+                </div>
+                
+            </div><!-- Footer -->
+            
+        </div><!-- /page -->
+
+        
+        <!-- ***************************** KARTE ************************* -->
+        <!-- Karte -->
+        <div id="mapPage" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage"  src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a data-rel="back">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div style="clear: both"></div>
+                    
+                </div>
+                
+            </div> <!-- /Header -->
+            
+            <div data-role="content" class="noPaddingNoMargin">
+                
+                <div id="karte" class="showKarte" ></div>
+                
+                
+            </div><!-- Content -->
+            
+            <div data-role="footer" class="navigationBar" data-position="fixed">
+                
+                <!-- Werbung -->
+                <div id="mapPageAd">
+                  
+                </div>
+                 <!-- Inhalt erstellt in advertise.js -->
+          </div>
+        </div><!-- /page -->
+        
+        <!-- ***************************** SEHENSWERT ******************** -->
+        <!-- Kirchen -->
+        <div id="kirchen" data-role="page">
+            
+            <!-- Hintergrundbild -->
+            <img class="backgroundImage" src="bilder/sehenswert/kirchen/stMartinsDom/st.martinsdom_iphone_port.jpg"/>
+            
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage" src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a onclick="navi.changeToPage('#naviPage')">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+            </div> <!-- /Header -->
+            
+            
+            <div data-role="content" class="zentriert">
+                
+                <div class="menuePosition">
+                    
+                    <div style="text-align:left; float:left;">
+                        
+                        <a onclick="getKirche(0)">
+                            <div class="menue_sehenswert_left">
+                                <h1>Dom St. Martin</h1>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    
+                    <div  style="text-align:right;">
+                        
+                        <a onclick="getKirche(5)">
+                            <div class="menue_sehenswert_right">
+                                <h1>St. Ignaz</h1>
+                            </div>
+                        </a>
+                        
+                        
+                    </div>
+                    
+                    <div style="clear:both"></div>
+                    
+                    <div class="leftSehenswertKirchen">
+                        <a onclick="getKirche(1)">
+                            <div class="menue_sehenswert_left">
+                                <h1>Christuskirche</h1>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    
+                    <div  class="rightSehenswertKirchen">
+                        
+                        <a onclick="getKirche(6)">
+                            <div class="menue_sehenswert_right">
+                                <h1>St. Stephan</h1>
+                            </div>
+                        </a>
+                        
+                        
+                    </div>
+                    
+                    <div style="clear:both"></div>
+                    
+                    <div class="leftSehenswertKirchen">
+                        <a onclick="getKirche(2)">
+                            <div class="menue_sehenswert_left">
+                                <h1>St. Peter</h1>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    
+                    <div class="rightSehenswertKirchen">
+                        
+                        <a onclick="getKirche(7)">
+                            <div class="menue_sehenswert_right">
+                                <h1>St. Quintin</h1>
+                            </div>
+                        </a>
+                        
+                        
+                    </div>
+                    
+                    <div style="clear:both"></div>
+                    
+                    <div class="leftSehenswertKirchen">
+                        <a onclick="getKirche(3)">
+                            <div class="menue_sehenswert_left">
+                                <h1>Augustinerkirche</h1>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    
+                    <div class="rightSehenswertKirchen">
+                        
+                        <a onclick="getKirche(8)">
+                            <div class="menue_sehenswert_right">
+                                <h1>St. Antonius</h1>
+                            </div>
+                        </a>
+                        
+                        
+                    </div>
+                    
+                    <div style="clear:both"></div>
+                    
+                    <div class="leftSehenswertKirchen">
+                        <a onclick="getKirche(4)">
+                            <div class="menue_sehenswert_left">
+                                <h1>St. Christoph</h1>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+                
+            </div><!-- Content -->
+            
+            <div data-role="footer"  data-position="fixed">
+                
+                <!-- Werbung -->
+                <div id="kirchenAd">
+                    <!-- Inhalt erstellt in advertise.js -->
+                </div>
+                <!-- Navi -->
+                
+            </div><!-- Footer -->
+        </div><!-- /page -->
+
+        <!-- Museen -->
+        <div id="museen" data-role="page">
+            
+            <img class="backgroundImage" width="100%" src="bilder/sehenswert/museen/landesmuseum/landesmuseum_iphone_port.jpg"/>
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage" src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a onclick="navi.changeToPage('#naviPage')">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+            </div> <!-- /Header -->
+            
+            <div data-role="content" class="zentriert" >
+                
+                <div class="menuePosition">
+                    
+                    <a onClick="getMuseen(0)">
+                        <div class="menue_sehenswert_left">
+                            <h1>Fastnachtsmuseum</h1>
+                        </div>
+                    </a>
+                    
+                    <div class="menue_sehenswert_abstandTop">
+                        <a onClick="getMuseen(1)">
+                            <div class="menue_sehenswert_left">
+                                <h1>Gutenbergmuseum</h1>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menue_sehenswert_abstandTop">
+                        <a  onClick="getMuseen(2)">
+                            <div class="menue_sehenswert_left">
+                                <h1>Kunsthalle</h1>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menue_sehenswert_abstandTop">
+                        <a onClick="getMuseen(3)">
+                            <div class="menue_sehenswert_left">
+                                <h1>Landesmuseum</h1>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menue_sehenswert_abstandTop">
+                        <a onClick="getMuseen(4)">
+                            <div class="menue_sehenswert_left">
+                                <h1>Naturhist. Museum</h1>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menue_sehenswert_abstandTop">
+                        <a onClick="getMuseen(5)">
+                            <div class="menue_sehenswert_left">
+                                <h1>R&ouml;m-Germ Museum</h1>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menue_sehenswert_abstandTop">
+                        <a onClick="getMuseen(6)">
+                            <div class="menue_sehenswert_left">
+                                <h1> Antike Schifffahrt</h1>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div data-role="footer"  data-position="fixed">
+                
+                
+                <!-- Werbung -->
+                <div id="museenAd">
+                    <!-- Inhalt erstellt in advertise.js -->
+                </div>
+                
+            
+            </div>
+        </div><!-- /page -->
+    
+        <!-- Römisches Mainz -->
+        <div id="roemischesMainz" data-role="page">
+            
+            <img class="backgroundImage" src="bilder/sehenswert/roemisch/roemertheater/roemertheater_iphone_port.jpg"/>
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage" src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a onclick="navi.changeToPage('#naviPage')">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+            </div> <!-- /Header -->
+            
+            <div data-role="content" class="zentriert" >
+                
+                <div style="position: absolute; top: 70px; z-index: 999;">
+                    
+                    <a onClick="getRoemischMainz(0)">
+                        <div class="menue_sehenswert_left">
+                            <h1>Dativius-Victor-Bogen</h1>
+                        </div>
+                    </a>
+                    
+                    <div class="menue_sehenswert_abstandTop">
+                        <a onClick="getRoemischMainz(1)">
+                            <div class="menue_sehenswert_left">
+                                <h1>Drususstein</h1>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menue_sehenswert_abstandTop">
+                        <a  onClick="getRoemischMainz(2)">
+                            <div class="menue_sehenswert_left">
+                                <h1>Jupiters&auml;ule</h1>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menue_sehenswert_abstandTop">
+                        <a onClick="getRoemischMainz(3)">
+                            <div class="menue_sehenswert_left">
+                                <h1>R&ouml;mersteine</h1>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menue_sehenswert_abstandTop">
+                        <a onClick="getRoemischMainz(4)">
+                            <div class="menue_sehenswert_left">
+                                <h1>R&ouml;mertempel</h1>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menue_sehenswert_abstandTop">
+                        <a onClick="getRoemischMainz(5)">
+                            <div class="menue_sehenswert_left">
+                                <h1>R&ouml;mertheater</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div data-role="footer"  data-position="fixed">
+                
+                
+                <!-- Werbung -->
+                <div id="roemischesMainzAd">
+                    <!-- Inhalt erstellt in advertise.js -->
+                </div>
+                
+            </div>
+        </div><!-- /page -->
+
+        <!-- Altstadt -->
+        <div id="altstadt" data-role="page">
+            
+            <img class="backgroundImage" src="bilder/sehenswert/altstadt/markthaeuser/markthaeuser_iphone_port.jpg"/>
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage" src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a onclick="navi.changeToPage('#naviPage')">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+            </div> <!-- /Header -->
+            
+            <div data-role="content" class="zentriert" >
+                
+                <div style="position: absolute; top: 70px; z-index: 999;">
+                    
+                    <a onClick="getAltstadt(0)">
+                        <div class="menue_sehenswert_left">
+                            <h1>Gutenberg</h1>
+                        </div>
+                    </a>
+                    
+                    <div class="menue_sehenswert_abstandTop">
+                        <a onClick="getAltstadt(1)">
+                            <div class="menue_sehenswert_left">
+                                <h1>Fastnachtsbrunnen</h1>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menue_sehenswert_abstandTop">
+                        <a  onClick="getAltstadt(2)">
+                            <div class="menue_sehenswert_left">
+                                <h1>Zitadelle</h1>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menue_sehenswert_abstandTop">
+                        <a onClick="getAltstadt(3)">
+                            <div class="menue_sehenswert_left">
+                                <h1>Holzturm</h1>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menue_sehenswert_abstandTop">
+                        <a onClick="getAltstadt(4)">
+                            <div class="menue_sehenswert_left">
+                                <h1>Leichhof</h1>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menue_sehenswert_abstandTop">
+                        <a onClick="getAltstadt(5)">
+                            <div class="menue_sehenswert_left">
+                                <h1>Marktbrunnen</h1>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="menue_sehenswert_abstandTop">
+                        <a onClick="getAltstadt(6)">
+                            <div class="menue_sehenswert_left">
+                                <h1>Markth&auml;user</h1>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            <div data-role="footer" class="navigationBar" data-position="fixed">
+                
+                <!-- Werbung -->
+                <div id="altstadtAd">
+                    <!-- Inhalt erstellt in advertise.js -->
+                </div>
+            </div><!-- Footer -->
+            
+        </div><!-- /page -->
+        
+        <!-- Sehenswert Details -->
+        <div id="detaiSights" data-role="page">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed">
+                
+                <div>
+                    <!-- rechtes Bild -->
+                    <div class="headerRight">
+                        <img  class="headerImage" src="bilder/kopf/MainzMore_Home_kurz.png"/>
+                    </div>
+                    <!-- linkes Bild -->
+                    <div class="headerLeft">
+                        <a data-rel="back">
+                            <img  class="headerImage" src="bilder/kopf/Button_Back.png"/>
+                        </a>
+                    </div>
+                    
+                    <div class="clearFloat"></div>
+                    
+                </div>
+            </div> <!-- /Header -->
+            
+            <div data-role="content" class="noMarginNoPadding" >
+                
+                <div class="detailBereich">
+                
+                    <div id="pictureDetial" class="detailServerText zentriert">
+                    
+                    </div>
+                    
+                    <br/>
+                    
+                    <div id="titelDetail" class="detailTitle">
+                    
+                    </div>
+                    <div id="textDetail_1" class="detailText">
+                    
+                    </div>
+                
+                    <div class="zentriert" id="galleryDetail">
+                    
+                    </div>
+                
+                    <div id="textDetail_2" class="detailText">
+                    </div>
+                    
+                    <br/>
+                    <div class="detailInfoBox">
+                        
+                        <div id="textDetail_3" class="detailText">
+                        </div>
+                
+                        <div id="textDetail_4" class="detailText">
+                        </div>
+                    </div>
+                    
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    
+                </div>
+            </div><!-- Content -->
+            
+            <div data-role="footer" class="navigationBar" data-position="fixed">
+                
+                <!-- Werbung -->
+                <div id="detaiSightsAd">
+                    <!-- Inhalt erstellt in advertise.js -->
+                </div>
+                
+            </div><!-- Footer -->
+            
+        </div><!-- /page -->
+        
+        <!-- Dialog der Straßennamen -->
+        
+        <div data-role="page" id="streetPage">
+            <div data-role="header">
+                <p style="text-align: center;">Suche</p>
+            </div>
+            
+            <div data-role="content">
+                <button id="okStreetButton">Bestätigen</button>
+                <br/>
+<!--                <ul data-role="listview" data-filter="true" data-filter-placeholder="Straßenname..." id="streetList">-->
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Dialogende -->
+        
+        
+        
+        <!-- Dialog des Ortsnamen -->
+        
+        <div data-role="page" id="townPage">
+            <div data-role="header">
+                <p style="text-align: center;">Suche</button>
+            </div>
+            
+            <div data-role="content">
+                <button id="okTownButton">Bestätigen</button>
+                <br/>
+<!--                <ul data-role="listview" data-filter="true" data-filter-placeholder="Ortsname..." id="townList">-->
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Dialogende -->
+        
+        <!-- Dialog des Ortsnamen -->
+        
+        <div data-role="page" id="radarMobilePage">
+            <div data-role="header">
+                <p style="text-align: center;">Suche</button>
+            </div>
+            
+            <div data-role="content">
+                <button id="okMobileButton">Bestätigen</button>
+                <br/>
+<!--                <ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Blitzer..." data-inset="true" id="radarMobileList">-->
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Dialogende -->
+        
+        <!--////////////////////////////////////////////////////////////// EINBINDEN DER SCRIPTS //////////////////////////////////////////////////////////////-->
+        <!-- Cordova -->
+        <script type="text/javascript" src="cordova.js"></script>
+        
+        <!-- JQuery -->
+        <script type="text/javascript" src="js/jquery/jquery-1.8.2.min.js"></script>
+        
+        <!-- JQuery Mobile  1.2.0   -->
+        <script src="js/jquery/jQMobile_alt/jquery.mobile-1.3.2.min.js"></script>
+        
+        <!-- Google Maps -->
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+        <script type="text/javascript" src="js/maps/jquery.ui.map.js"></script>
+      	<script type="text/javascript" src="js/maps/jquery.ui.map.services.js"></script>
+      	<script type="text/javascript" src="js/maps/jquery.ui.map.extensions.js"></script>
+        
+        
+        <!-- Boutique Slider -->
+        <script type="text/javascript" src="js/slider/boutique/jquery.boutique.js"></script>
+        
+        <!-- Theater Slider -->
+        <script type="text/javascript" src="js/slider/theatre/jquery.theatre.min.js"></script>
+        
+        <!-- Bilder Swipe mit den Fingern - muss nach Jquery Mobile eingebunden werden -->
+        <script type="text/javascript" src="js/swipe/jquery.touchSwipe.min.js"></script>
+        
+        <!-- App Style -->
+
+        
+        <!-- Silder einstellungen -->
+        <script type="text/javascript" src="js/slider/slider.js"></script>
+        
+        <!-- XML parser  -->
+        <script type="text/javascript" src="js/xml.js"></script>
+        
+        <!-- Ausgabe Konsole -->
+        <script type="text/javascript" src="js/consoleOutput.js"></script>
+        
+        <!-- Anzeige von Ladedialogen und Dialogen -->
+        <script type="text/javascript" src="js/ui.js"></script>
+        
+        <!-- Push -->
+        <script type="text/javascript" src="js/push/push.js"></script>
+        <script type="text/javascript" src="js/push/PushNotification.js"></script>
+
+        <!-- Map -->
+        <script type="text/javascript" src="coreFlashJax.js"></script>
+        
+        <!-- SendData -->
+        <script type="text/javascript" src="js/sendData.js"></script>
+        
+        <!-- Werbung -->
+        <script type="text/javascript" src="js/advertise.js"></script>
+        
+        <!-- Audio -->
+        <script type="text/javascript" src="js/audio.js"></script>
+        
+        <!-- Speicher -->
+        <script type="text/javascript" src="js/localStorage.js"></script>
+        
+        <!-- Daten sehenswert -->
+        <script type="text/javascript" src="js/textDetails.js"></script>
+        
+        <!-- Datenbank Straßennamen -->
+        <script type="text/javascript" src="js/blitzer.js"></script>
+        
+        <!-- FastClick -->
+        <script type="text/javascript" src="js/fastclick.js"></script>
+        
+        <script type="text/javascript" src="js/index.js"></script>
+        
+        <script type="text/javascript">
+            
+			$( document ).ready(function() {
+    		
+				//DYNAMISCHE BILDSCHIRMANPASSUNG FÜR ANDROID
+		        $(".rightArrow").css("left", (window.innerWidth - 25) + "px");
+		        $(".sliderNavigation").css("padding-left", (window.innerWidth / 14.4) + "px");
+		        
+		        $(".kachel").css("height", (window.innerHeight / 4.22) + "px");
+		        $(".kachel").css("width", (window.innerWidth / 2.37) + "px");
+		        
+		        $("#karte").css('width', window.innerWidth + 'px');
+		        $("#karte").css('height', (window.innerHeight * 0.775) + 'px');
+          	
+    	});
+        
+        
+        
+            app.initialize();
+            
+            $.mobile.defaultPageTransition = 'none';
+            
+         
+            
+            
+            //************************ Refresh ListView *************************//
+            
+            //LISTE GASTRO & SHOPS
+            $('#shopGastroListPage').live("pagebeforeshow", function() {
+                                          
+                                          refreshList('#shopGastroList');
+                                          
+                                          });
+                                          
+                                          //Liste Events
+                                          $('#eventsListPage').live("pagebeforeshow", function() {
+                                                                    
+                                                                    refreshList('#eventsSearch');
+                                                                    
+                                                                    });
+                                                                    
+                                                                    
+                                                                    //Traffic
+                                                                    $('#trafficListPage').live("pagebeforeshow", function() {
+                                                                                               
+                                                                                               refreshList('#trafficSearch');
+                                                                                               
+                                                                                               });
+                                                                                               
+                                                                                               //News Liste
+                                                                                               $('#specialListPage').live("pagebeforeshow", function() {
+                                                                                                                          
+                                                                                                                          refreshList('#specialList');
+                                                                                                                          
+                                                                                                                          });
+                                                                                                                          
+                                                                                                                          //Radar Liste
+                                                                                                                          $('#radarListPage').live("pagebeforeshow", function() {
+                                                                                                                                                   
+                                                                                                                                                   refreshList('#radarSearch');
+                                                                                                                                                   
+                                                                                                                                                   });
+                                                                                                                                                   
+                                                                                                                                                   //Insider Liste
+                                                                                                                                                   $('#insiderListPage').live("pagebeforeshow", function() {
+                                                                                                                                                                              
+                                                                                                                                                                              refreshList('#listShopInsider');
+                                                                                                                                                                              
+                                                                                                                                                                              });
+                                                                                                                                                                              
+                                                                                                                                                                              function refreshList(id){
+                                                                                                                                                                                  
+                                                                                                                                                                                  $(id).listview('refresh');
+                                                                                                                                                                              }
+        
+        
+        /****************** WERBUNG ***********************/
+        //main
+        $('#mainPage').live("pagebeforeshow", function() {
+                            
+                            //wenn die Anwendung startet wird erst die Live Funktion aufgerufen und erst dann Phonegap somit muss beim Start die Werbung von Phonega gesetzt werden
+                            if(advertise.firstTime){
+                            
+                            advertise.setAdMain();
+                            }
+                            
+                            });
+                            
+                            
+                            //Blitzer melden
+                            $('#radarReport').live("pagebeforeshow", function() {
+                                                   
+                                                   advertise.setAdRadarReport();
+                                                   
+                                                   //autocompleteData.initRadarData();
+                                                   
+                                                   //autocompleteData.setRadarData();
+                                                   });
+                                                   
+                                                   
+                                                   //Parkenliste
+                                                   $('#parking').live("pagebeforeshow", function() {
+                                                                      refreshList('#parkingList');
+                                                                      advertise.setAdParkingList();
+                                                                      
+                                                                      
+                                                                      });
+                                                                      
+                                                                      //Stau Melden
+                                                                      $('#trafficReportPage').live("pagebeforeshow", function() {
+                                                                                                   
+                                                                                                   advertise.setAdTrafficReport();
+                                                                                                   });
+                                                                                                   
+                                                                                                   //Kirchen
+                                                                                                   $('#kirchen').live("pagebeforeshow", function() {
+                                                                                                                      
+                                                                                                                      advertise.setAdKrichen();
+                                                                                                                      });
+                                                                                                                      
+                                                                                                                      //Museen
+                                                                                                                      $('#museen').live("pagebeforeshow", function() {
+                                                                                                                                        
+                                                                                                                                        advertise.setAdMuseen();
+                                                                                                                                        });
+                                                                                                                                        
+                                                                                                                                        //Römisch Mainz
+                                                                                                                                        $('#roemischesMainz').live("pagebeforeshow", function() {
+                                                                                                                                                                   
+                                                                                                                                                                   advertise.setAdRoemischMainz();
+                                                                                                                                                                   });
+                                                                                                                                                                   
+                                                                                                                                                                   //Alstadt
+                                                                                                                                                                   $('#altstadt').live("pagebeforeshow", function() {
+                                                                                                                                                                                       
+                                                                                                                                                                                       advertise.setAdAltstadt();
+                                                                                                                                                                                       });
+                                                                                                                                                                                       
+                                                                                                                                                                                       $('#tanken').live("pagebeforeshow", function() {
+                                                                                                                                                                                                         advertise.setAdTankenSubPage();
+                                                                                                                                                                                                         });
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         /************* EVENT DETAIL  *****/
+                                                                                                                                                                                                         //ändert den Link so das er mit dem InAppBrowser geöffnet wird
+                                                                                                                                                                                                         
+                                                                                                                                                                                                         $('#eventsDetailPage').live("pagebeforeshow", function() {
+                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                     var element = $('#externerLink a');
+                                                                                                                                                                                                                                     var link = element.attr('href');
+                                                                                                                                                                                                                                     element.removeAttr('href');
+                                                                                                                                                                                                                                     element.attr('onclick',"navi.showExternalPage('"+link +"')");
+                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                     });
+                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                     var conection = {
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                         internet: function(){
+                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                             //return true;
+                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                             var networkState =  navigator.connection.type;
+                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                             if(networkState == Connection.UNKNOWN || networkState == Connection.NONE){
+                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                 return false;
+                                                                                                                                                                                                                                             }
+                                                                                                                                                                                                                                             else{
+                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                 return true;
+                                                                                                                                                                                                                                             }
+                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                         }
+                                                                                                                                                                                                                                     };
+        
+                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                     var plattform = { 
+                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                             isAndroidDevice: function(){
+                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                 if(device.platform == 'Android'){
+                                                                                                                                                                                                                                                     return true;
+                                                                                                                                                                                                                                                 }else{
+                                                                                                                                                                                                                                                     return false;
+                                                                                                                                                                                                                                                 }
+                                                                                                                                                                                                                                             }
+                                                                                                                                                                                                                                           }; 
+        var navi = {
+            index: 0,
+            fromMain: false,
+            fromMainToNaviPage: function(page,index){
+                this.setComesFromMain(true);
+                this.index = index;
+                
+                this.changeToPage(page);
+                
+            },
+            changeToPage: function(page){
+                $.mobile.changePage(page);
+            },
+            goBack: function(){
+                history.back();
+            },
+            getIndex: function(){
+                return this.index;
+            },
+            showExternalPage: function(url){
+                
+                
+                printOnConsole("showPdf","showPdf: "+url);
+                
+                if(conection.internet()){
+                    printOnConsole("showPdf","connection");
+                    
+                    if(url != '')
+                    {
+                     	
+                    	if( plattform.isAndroidDevice() )
+                    	{
+                    		window.open(url, '_system', 'location=yes');
+                    	}
+                    	else
+                    	{
+                    		window.open(url, '_blank', 'EnableViewPortScale=yes', 'location=yes');	
+                    	}
+                    	
+                        
+                        
+                    }
+                    else{
+                        ui.showDialog("Keine Informationen", "Zur Zeit sind keine Informationen vorhanden.", false);
+                    }
+                }
+                else{
+                    ui.showDialog("Keine Netzwerkverbindung", "Zur Anzeige benötigen Sie eine Netzwerkverbindung.", false);
+                }
+            },
+            comesFromMain: function(){
+                return this.fromMain;
+            },
+            setComesFromMain: function(from){
+                this.fromMain = from;
+            }
+        }
+        
+        var events = {
+            //Events Checkboxen -> alle außer der Kategorie "Alle Kategorien" auf false
+            setKategoriesFalse: function(){
+                
+                $('#checkboxKultur').attr('checked', false).checkboxradio('refresh');
+                $('#checkboxFesteMaerkte').attr('checked', false).checkboxradio('refresh');
+                $('#checkboxParty').attr('checked', false).checkboxradio('refresh');
+                $('#checkboxBildung').attr('checked', false).checkboxradio('refresh');
+                $('#checkboxMesse').attr('checked', false).checkboxradio('refresh');
+                $('#checkboxGesundheit').attr('checked', false).checkboxradio('refresh');
+                $('#checkboxSonstiges').attr('checked', false).checkboxradio('refresh');
+            },
+            //Events Checkboxen -> setzt die Checkbock "Alle Kategorie" auf false
+            setAllFalse: function(){
+                $('#checkboxAlle').attr('checked', false).checkboxradio('refresh');
+            }
+            
+            
+        }
+        
+        
+        //Autocomplete Texte für die Fromulare Blitzermelden und staumelden
+        /*
+         var autocompleteData = {
+         
+         radarCarArr: new Array(),
+         radarPlaceArr: new Array(),
+         
+         initRadarData: function(){
+         
+         //radarCarArr = ;
+         
+         },
+         setRadarData: function(){
+         
+         $("#radarMobile").autocomplete({
+         source: new Array('blauer Ford','gelber Mustan')
+         });
+         
+         }
+         
+         
+         
+         }*/
+        
+        function toMobile(mobileName){
+            $("#radarMobileList").prev().find("input").val(mobileName);
+            $("#radarMobileList").children("li").addClass("ui-screen-hidden");
+        }
+        
+        function toStreet(streetName){
+                $("#streetList").prev().find("input").val(streetName);
+                $("#streetList").children("li").addClass("ui-screen-hidden");
+        }
+        
+        function toTown(townName){
+            $("#townList").prev().find("input").val(townName);
+            $("#townList").children("li").addClass("ui-screen-hidden");
+        }
+        
+        function toDistrict(districtName){
+            $("#districtList").prev().find("input").val(districtName);
+            $("#districtList").children("li").addClass("ui-screen-hidden");
+        }
+        
+        </script>
+        
+    </body>
+</html>

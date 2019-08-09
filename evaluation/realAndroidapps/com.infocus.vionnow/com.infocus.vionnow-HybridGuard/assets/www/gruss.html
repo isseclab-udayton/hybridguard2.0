@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>vionnow</title>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0-rc.1/jquery.mobile-1.2.0-rc.1.min.css" />
+        <script type="text/javascript" charset="utf-8" src="cordova-2.1.0.js"></script>
+        <script src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+        <script type="text/javascript">$(document).on("mobileinit", function () {  $.mobile.defaultPageTransition = "none"; });</script>
+        <script src="http://code.jquery.com/mobile/1.2.0-rc.1/jquery.mobile-1.2.0-rc.1.min.js"></script>
+    </head>
+    <body>
+        
+        
+        <!-- Page: Startseite -->
+        <div data-role="page" id="start" data-theme="c">
+            
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed" data-theme="c" data-nobackbtn="true" data-tap-toggle="false">
+            	<div class="main_navbar" data-role="navbar">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Wärme</a></li>
+                        <li><a href="#">Heiz</a></li>
+                        <li><a href="#">WCM</a></li>
+                        <li><a href="#">Info</a></li>
+                    </ul>
+                </div>
+			</div>
+            
+           
+            
+            <!-- Content -->
+            <div data-role="content" id="start_content">
+            	<h3>Wärmeerzeuger</h3>
+	            <ul data-role="listview" data-theme="c">
+					<li><a href="#">Liste 1</a></li>
+					<li><a href="#">Liste 2</a></li>
+					<li><a href="#">Liste 3</a></li>
+				</ul>
+            </div>
+            <!-- Footer -->
+            <div data-role="footer" data-position="fixed" data-theme="c" data-tap-toggle="false">
+                <h1>Footer</h1>
+            </div>
+            
+        </div> <!-- End Page: Startseite -->
+    
+    </body>
+   
+</html>

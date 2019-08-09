@@ -1,0 +1,568 @@
+@CHARSET "UTF-8";
+html{width:100%;background-color:#000;}
+body{height:100%;width:100%;padding:0px;margin:0px;overflow:hidden;font-family:'Source Sans Pro'}
+section{display:none;}
+
+
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Serif'), local('NotoSerif'), url(../font/noto.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(../font/source.woff) format('woff');
+}
+
+#load{background-color:#333;height:100%;width:100%;position:absolute;top:0px;opacity:0.9;z-index:9999;}
+#load #spin{margin-top:20%;}
+
+
+.hide{display:none}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ -webkit-tap-highlight-color: rgba(0, 0, 0, 0);  
+ }
+
+
+
+#flyerleft{
+	
+position: fixed;
+top: 0;
+left: 0;
+bottom: 0;
+background: #222;
+overflow-x: hidden;
+overflow-y: auto;
+-webkit-overflow-scrolling: auto;
+z-index: 1;
+max-width: 250px;
+width:250px;
+height:100%;
+display:none;	
+}
+#flyerleft ul{margin:0px;padding:0px;}
+#flyerleft ul li a{
+color: white;
+cursor: pointer;
+background: rgb(42,42,42); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJhMmEyYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyNjI2MjYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(42,42,42,1) 0%, rgba(38,38,38,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(42,42,42,1)), color-stop(100%,rgba(38,38,38,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(42,42,42,1) 0%,rgba(38,38,38,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(42,42,42,1) 0%,rgba(38,38,38,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(42,42,42,1) 0%,rgba(38,38,38,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(42,42,42,1) 0%,rgba(38,38,38,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2a2a', endColorstr='#262626',GradientType=0 ); /* IE6-8 */
+
+
+padding-top: 24px;
+padding-right: 10px;
+padding-bottom: 24px;
+padding-left: 10px;
+line-height:30px;
+text-decoration: none;
+border-bottom: 1px solid #333;
+border-top: 1px solid black;
+text-align: right;
+letter-spacing: 1px;
+display: block;
+font-size:24px;
+}
+
+
+#result{display:none;left:0px;z-index:1000;overflow:scroll;position:fixed;bottom:0px;width:100%;height:100px;background-color:#efefef;border:1px solid #ff0000;}
+#render #preloader{
+	background-color: #000; /* Old browsers */
+	height:100%;
+	width:100%;
+
+}
+#render #downloader{
+	background-color: #000; /* Old browsers */
+	height:100%;
+	width:100%;
+	background-image:url(images/foo_tamogatok.png);
+}
+
+#render #downloader #progressBarde{
+	position:absolute;
+	bottom:30px;
+	width:100%;
+	padding:20px;
+}
+#render #downloader #progressBardeText{
+position:absolute;
+bottom:80px;
+color:#fff;
+padding-left:20px;
+font-family: Noto Serif;
+width: 100%;
+font-size:19px;
+text-align: center;
+background-color:#000;
+
+ 
+
+}
+
+
+#render #downloader .progressBardeTextAnim{
+	-webkit-animation: toRightAnim2 0.7s ease-out both;
+	-moz-animation: toRightAnim2 0.7s ease-out both;
+	-o-animation: toRightAnim2 0.7s ease-out both;
+	-ms-animation: toRightAnim2 0.7s ease-out both;
+	animation: toRightAnim2 0.7s ease-out both;
+	position:relative;
+}
+
+@-webkit-keyframes toRightAnim2{
+	0%{  opacity: 0.3; }
+	100%{  opacity: 1; }
+}
+
+#render #downloader #pg_div{width:100% !important;height:8px !important;}
+#render #downloader #pg_bar{height:6px !important}
+#render #downloader #pg_text{display:none;}
+#render #downloader #spin{margin:10%;}
+#render #preloader .txt{
+	position:absolute;
+	bottom:50%;text-align:center;width:100%;
+	color:#fff;
+	font-size:30px;
+}
+
+#render{
+	top:-1px;display:block;
+	height:100%;width:100%;z-index:3;position: relative;-webkit-box-shadow: -10px 0px 6px -6px black;
+	overflow:hidden;
+	left:0px;
+}
+
+#render .error{margin:auto;padding:20px;text-align:center;}
+#render .retry{margin:auto;display:block;width:80px;padding:10px;background-color:#111;color:#fff;}
+#render .sarga{background-color:#fcd202;min-height:100%;}
+#render .feher{background-color:#fff;min-height:100%;}
+#render .bg{background-size:100%;background-image:url(images/bg.png);background-position:center top;background-repeat:no-repeat;}
+
+
+
+
+
+#render .fblogin{background-image:url(images/fblogin.jpg);background-position:center center;background-repeat:no-repeat;}
+#render header #logo{margin-left:60px;margin-top:7px;background-repeat:no-repeat;background-image:url(img/logo_head.png);height:55px;width:190px;}
+
+#render header{
+left:-1px;
+top:-1px;
+width:101%;height:60px;
+
+
+background: rgb(0,0,0); /* Old browsers */
+
+	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 2px 1px;
+-moz-box-shadow: rgba(0,0,0,0.3) 0px 2px 2px 1px;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 2px 1px;	
+z-index:9;
+position:absolute;
+background-image:url(images/head.png);
+}
+
+#render #loginPage{
+	width:100%;
+	height:100%;
+	padding:20px;
+}
+#render #loginPage a.skip{text-decoration:none;position:absolute;right:20px;top:20px;padding:10px;color:#fff;background:rgba(255,255,255,0.2);}
+
+#render #loginPage .fbbutonwrapper{position:absolute;bottom:30px;width:100%;left:0px;}
+#render #loginPage button{display:block;background-image:url(images/fbloginbutton.jpg);width:300px;height:62px;border:0px;margin:auto;bottom:10px;}
+
+#render #salonList .item{position:relative;background-color:#f5f5f5;position:relative;width:330px;height:180px;overflow:hidden;margin:10px;box-shadow: 0px 1px 5px #aaa;border:3px solid #fff}
+#render #salonList .leaderTitle{font-size:20px;position:absolute;bottom:10px;left:10px;color:#fff;}
+
+#render #leaderPic{height:230px;width:100%;overflow:hidden;}
+#render #leaderPic img{width:100%}	
+#render .mtop{padding-top:60px;}
+
+
+
+#render .icon{
+	margin:10px;
+	background-size:50% auto;
+	background-color:rgba(187, 185, 185, 0.4);
+	border-radius:10px; 
+	box-shadow:0px 1px 2px rgba(22, 22, 22, 0.5) inset;
+	border:1px solid rgb(22, 22, 22);
+
+	
+	
+	height:40px;width:40px;background-repeat:no-repeat;cursor:pointer;display:block;background-position:center center;
+}
+
+.bighead{padding-top:160px;}
+.bighead .logo{margin:auto;width:200px;display:block;padding-top:10px;}
+
+#render #mainPage table{width:100%;margin-bottom:40px}
+#render #mainPage table td{padding:2px;text-align:center;}
+#render #laptopszalonad{
+	width:100%;
+	height:70px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-image:url(icon/lszad.png);
+	background-color:#fcd202;
+	border-top:1px solid #000;
+
+}
+
+#render .dayContainer{display:block;overflow:hidden;}
+#render #mainPage .mainIcons{font-family:'Source Sans Pro';padding-top:105px;color:#000;font-size:26px;text-transform:lowercase;font-weight:normal;text-align:center;text-decoration:none;height:160px;margin:auto;display:block;background-position:top center; background-repeat:no-repeat}
+#render #mainPage .fellepesek{background-image:url(icon/fellepesek.png);}
+#render #mainPage .terkep{background-image:url(icon/terkep.png);}
+#render #mainPage .esemenyek{background-image:url(icon/esemenyek.png);}
+#render #mainPage .informacio{background-image:url(icon/info.png);}
+#render #mainPage .etelital{background-image:url(icon/etelital.png);}
+#render #mainPage .kozlekedes{background-image:url(icon/bus.png);}
+#render #mainPage .kereses{background-image:url(icon/kereses.png);}
+#render #mainPage .tablapc{background-image:url(images/tablet.png);background-size:auto;}
+
+.scroll{overflow-y:scroll;overflow-x:hidden;height:100%}
+
+#fellepok{}
+#fellepok #ide{display:block;overflow:hidden;}
+.popup{color:#fff;position:fixed;top:0px;width:100%;margin:auto;z-index:9999;background-color:#111;
+padding:0px;min-height:100%;}
+
+#fellepok h2{cursor:pointer;box-shadow: 1px 0px 12px #000;font-family:'Source Sans Pro';padding:30px;background-color:#fffec6;color:#000;font-size:25px;border-bottom:1px solid #111;}
+#fellepok h2 span{float:right;}
+
+#fellepok article{background-color:#000;cursor:pointer;position:relative;overflow:hidden;float:none;clear:both;width:100%;border-bottom:1px solid #a88b02;border-top:1px solid #fddb2e}
+#fellepok article .img{position:relative;width:100%;height:160px;overflow:hidden;}
+#fellepok article .img img{width:100%;display:block;}
+#fellepok article .img h3 i{font-style:normal;font-family:'Source Sans Pro';}
+#fellepok article .img h3{line-height: 22px;font-weight: bold;position: absolute;top: 0px;left: 0px;color: #fff;
+font-size: 150%;padding: 10px;background-color: rgba(0,0,0,1.6);}
+#fellepok article .img h3 span{font-size:16px;font-weight:normal;color:#fdd202;}
+#fellepok article .cont{position: absolute;right: -3px;top: 110px;background-color: rgba(0,0,0,0.6);color: #fff;padding: 4px;}
+#fellepok article .cont h3{cursor:pointer;padding:5px;font-family:'Noto Serif';font-size: 180%;}
+#fellepok article .cont h4{font-size:14px;font-weight:normal;padding:5px;}
+#fellepok article .artDesc{
+	width:100%;padding:20px;min-height:200px;background-color:#000;display:none;font-size:16px;}
+
+#fellepok article .terkepicon,
+#fellepok article .kedvencicon{
+	width:60px;
+	height:50px;
+	display:block;
+	float:left;
+	background-repeat:no-repeat;
+	background-position: center center;
+	
+}
+
+#fellepok article .ezkedv{
+	position:absolute;
+	top:5px;right:5px;
+}
+
+#fellepok article .ikonsor{
+	display:block;
+	clear:both;
+	overflow:hidden;
+}
+
+#fellepok article .terkepicon{background-image:url(icon/terkep1.png);}
+#fellepok article .kedvencicon{background-image:url(icon/kedven.png);}
+
+
+.closex{position:fixed;top:10px;left:0px;background-color:#000;padding:7px;padding-right:13px;padding-left:12px;}
+
+#adatlap{}
+#adatlap article{
+border:0px !important;
+}
+#adatlap .img{height:auto !important;background-color:#111;}
+#adatlap .leaderPic{width:100%;} 
+#adatlap article .terkepicon,
+#adatlap article .kedvencicon{
+	width:60px;
+	height:50px;
+	display:block;
+	float:left;
+	background-repeat:no-repeat;
+	background-position: center center;
+	
+}
+#adatlap article .ikonsor{
+	display:block;
+	clear:both;
+	overflow:hidden;
+	background-color:#fff;
+	padding:10px;
+	border:1px solid #eee;
+}
+
+#adatlap article .ikonsor .disabled{background-image:url(icon/kedvenin.png);}
+#adatlap article #leaderTitle{color:#fff;line-height: 22px;background-color: rgba(0,0,0,0.6);font-family:'Source Sans Pro';top:10px;padding:18px !important;z-index:4;bottom:20px;right:0px;top:auto;font-size:200%;}
+#adatlap article .terkepicon{background-image:url(icon/terkep1.png);}
+#adatlap article .kedvencicon{float:right;background-image:url(icon/kedven.png);}
+#adatlap article .place{text-decoration:none;color:#222;font-size:110%;}
+#adatlap article i{font-style:normal;font-family:'Noto Serif';text-decoration:none;color:#222;font-size:150%;}
+#adatlap .artDesc2{color:#fff;box-shadow:none;background-color:#111 !important;display:block !important;padding:20px;font-size:120%;font-family:'Source Sans Pro';}
+
+
+#esemenyek{overflow-y:scroll;overflow-x:hidden;height:100%}
+#esemenyek h2{font-family:'Source Sans Pro';padding:10px;background-color:#fffec6;color:#000;font-size:25px;border-bottom:1px solid #111;}
+#esemenyek h2 span{float:right;}
+#esemenyek article table{width:100%;}
+#esemenyek article{
+	background-color:#f9db52;
+	overflow:hidden;float:none;clear:both;width:100%;border-bottom:1px solid #a88b02;
+	margin-bottom:1px;
+	}
+	
+#esemenyek article .disabled{background-image:url(icon/kedvenin.png);}
+#esemenyek article .leaderPic{float:right;height:90px;}
+#esemenyek article .conttime i{font-style:normal;font-family:'Noto Serif';}
+#esemenyek article .img h3{line-height:22px;font-weight:bold;position:absolute;bottom:0px;left:0px;color:#fff;font-size:25px;padding:10px;background-color:rgba(0,0,0,0.6);}
+#esemenyek article .img h3 span{font-size:16px;font-weight:normal;color:#fdd202;}
+#esemenyek article .conttime{width:90px;font-weight:bold;padding:10px;background-color:#9b8730;color:#fff;font-size:35px;}
+#esemenyek article .cont h3{padding:5px;font-family:'Source Sans Pro';}
+#esemenyek article .cont h4{font-size:14px;font-weight:normal;padding:5px;}
+#esemenyek article .artDesc{
+	box-shadow: inset 0px 5px 10px #000000;
+	width:100%;padding:20px;color:#fff;min-height:200px;background-color:#000;display:none;}
+
+#esemenyek article .terkepicon,
+#esemenyek article .kedvencicon{
+	width:60px;
+	height:50px;
+	display:block;
+	float:left;
+	background-repeat:no-repeat;
+	background-position: center center;
+	
+}
+#esemenyek article .ikonsor{
+	display:block;
+	clear:both;
+	overflow:hidden;
+}
+
+#esemenyek article .terkepicon{background-image:url(icon/terkep1.png);}
+#esemenyek article .kedvencicon{background-image:url(icon/kedven.png);}
+#esemenyek article .disabled{
+	background-image:url(icon/kedvenin.png);
+}
+#render #staticContent .desc{padding:20px;background-color:#fff;color:#000;font-size:100%;}
+#render #staticContent ul{padding:10px;}
+#render #staticContent ul li a{display:block;text-decoration:none;padding:15px;background-color:#333;color:#fff;font-size:150%;margin-top:10px;}
+
+
+
+#deba{display:none;}
+
+#render #searchContent #ide #keresesInfo{text-align:center;opacity:0.4;font-size:120%;}
+
+#render #searchContent #ide li{margin-top:10px;}
+#render #searchContent{padding-left:20px;padding-right:20px;}
+#render #searchContent input{
+	margin-top:10px;
+	padding:20px;width:100%;
+	background-color:#fff;
+	color:#333;
+	font-size:180%;
+	border:1px solid #999;
+	box-shadow:3px 9px 17px -7px #000;
+	margin-bottom:10px;
+	
+}
+#render #searchContent li .event{background-color:#fff;margin-bottom:1px;color:#000;display:block;padding:17px;text-decoration:none;font-size:120%;}
+#render #searchContent li .place{overflow:hidden;background-color:#fff;margin-bottom:1px;color:#000;display:block;padding:10px;text-decoration:none;}
+#render #searchContent li span{float:right;}
+#render #profileContent table{width:100%;}
+#render #profileContent .bigbuttonCont{
+	padding:20px;
+}
+#render #profileContent .hide{display:none}
+.bigbutton{
+	margin-top:10px;
+	padding:20px;
+	background-color:#fff;
+	color:#333;
+	font-size:180%;
+	border:1px solid #999;
+	width:100%;
+	display:block;
+}
+
+
+
+
+
+
+
+#render #backButton{float: left;background-image:url(icon/back.png);}
+#render #mapButton{float:right;background-image:url(icon/map.png);margin-right:20px;}
+
+#render #mapPopup{z-index:10;display:none;position:absolute;padding:20px;width:100%;height:100%;background-color:rgba(10,10,10,0.7);}
+#render #mapPopup .wrp{padding:20px;background-color:#fff;border-radius:3px;}
+#render #mapPopup .wrp h1{font-size:180%;}
+#mainPage .mainIcons:active{opacity:0.5;}
+
+#render #profileButton{background-color:#444;border:1px solid #777;float:right;top:5px;position:absolute;background-image:url(icon/profile.png);}
+#render #kedvencekButtonM{background-color:#444;border:1px solid #777;right:5px;top:5px;position:absolute;background-image:url(icon/kedvenin.png);}
+#render #mapMenuButton{background-image:url(icon/layer.png);float:right;margin-right:20px;}
+#render header span{float:left;color:#fff;font-size:150%;font-family:'Source Sans Pro';padding:14px;}
+#render #scroller{overflow-x:hidden ;overflow-y:scroll;height:100%;position:relative;}
+#render #mapLayer{
+	position:absolute;width:80%;height:100%;background:#42423c;z-index:3;right:-1px;
+-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+#render #mapWrapper #laptopszalonad{
+	position:absolute;
+	bottom:0px;
+}
+
+#render #mapLayer ul{margin-top:0px;}
+#render #mapLayer ul a{background-repeat:no-repeat;background-position:20px center;padding:30px;color:#fff;display:block;cursor:pointer;border-top:1px solid #777;border-bottom:1px solid #000;}
+#render #mapLayer ul a span{padding-left:80px;font-size:22px;}
+#render #mapLayer ul a.selected,
+#render #mapResult .selected
+{background-color:#fcd202 !important;color:#000;}
+#render  .ficon{display:block;width:50px;height:50px;float:left;}
+#render .mapi_fellepesek{background-image:url(icon/fellepesek_map.png);}
+#render .mapi_etelital{background-image:url(icon/etelital_map.png);}
+#render .mapi_info{background-image:url(icon/info_map.png);}
+#render .mapi_kozlekedes{background-image:url(icon/kozlekedes_map.png);}
+
+#render #mapLayer li.first{border-top:1px solid #000;}
+#render #mapLayer li.last{border-top:1px solid #777;}
+
+#render #mapWrapper{overflow:hidden;position:absolute;width:100%;height:100%;background:#ccc;z-index:4;}
+#render #mapWrapper #map_canvas{margin-top:60px;}
+#render #Map{width:100%;height:400px;}
+#render #mapResult{overflow:hidden;border-top:1px solid #666;cursor:pointer;height:200px;width:100%;position:absolute;bottom:-200px;z-index:9;background-color:#fff;}
+#render #mapResult #mapResultItems{overflow-y:scroll;height:80%;}
+#render  .mapMenuline{
+	background-image: url(icon/list.png);
+background-position: center;
+background-repeat: no-repeat;
+background-color: rgb(43,43,43);
+	width:100%;height:40px;position:relative;}
+
+#render #whereami,
+#render #closeResult{
+	width:50%;
+	bottom:70px;
+	background-color: rgb(43,43,43);
+	
+	display:block;position:absolute;background-position:center center; background-repeat:no-repeat;
+height:40px;border-radius:0px;
+
+
+}
+
+#render .iamlost{
+	opacity:0.4;
+}
+
+#render #closeResult{background-image:url(icon/list.png);}
+#render #whereami{background-image:url(icon/mylocation.png);right:-1px;}
+
+#render #mapResultItems div{overflow:hidden;cursor:pointer;padding:10px;display:block;border-bottom:1px solid #efefef;}
+#render #mapResultItems .event{float:right;color:#333;}
+
+@media screen and (min-width: 400px) {
+	html{height:100%;overflow:hidden;}
+	}
+
+@media screen and (min-width: 700px) {
+	#render #loginPage form{max-width:500px;margin:auto;}
+	}
+
+@media only screen and (max-width: 320px) and (orientation : portrait){
+	
+	.bighead{
+	padding-top:110px;}
+	
+	#render #mainPage .mainIcons{
+	font-family: 'Source Sans Pro';
+	padding-top: 58px;
+	color: #000;
+	font-size: 18px;
+	text-transform: lowercase;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	width: 104px;
+	height: 110px;
+	margin: auto;
+	display: block;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	}
+	#render #laptopszalonad{
+	background-size:80%;
+	}
+}
+@media(-webkit-min-device-pixel-ratio: 1)
+		 and (-webkit-max-device-pixel-ratio: 1.5) {
+			h3 {
+				font-size: 150%;
+			}
+		}
+		
+		@media(-webkit-min-device-pixel-ratio: 2)
+		 and (-webkit-max-device-pixel-ratio: 3) {
+			h3 {
+				font-size: 200%;
+			}
+		}
+		
+		@media(-webkit-min-device-pixel-ratio: 3) {
+			h3 {
+				font-size: 300%;
+			}
+		}	
+	
+
+
+
+@media screen and (min-width: 800px) {
+	#render .bg{background-image:url(images/web.png);}
+
+	#render #fellepok article{float: left;width: 30%;margin: 10px;clear:none;}
+	#render #fellepok article .img{height:225px;}
+	#render #fellepok h2{clear:both;}
+	#fellepok article .artDesc{
+		position:absolute;
+		top:70px;
+		height:155px;
+		min-height:155px;
+		overflow:hidden;
+	}
+	#render #adatlap{width:100%;background-color:rgba(0,0,0,0.7)}
+	#render #adatlap article{width: 400px;margin-right:auto !important;margin-top:10px;margin-left:auto !important;float:none !important;-moz-box-shadow: 0 0 15px 3px #000;
+-webkit-box-shadow: 0 0 15px 3px #000;
+box-shadow: 0 0 15px 3px #000;border:0px !important;}
+	#render #adatlap .closex{cursor:pointer;position:absolute;left:auto;right:0px;}
+	
+}
+@media screen and (min-height: 800px) {
+#render #mainPage #laptopszalonad{
+	position: absolute;
+	bottom: 0px;
+	
+	}
+}

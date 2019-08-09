@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="plugins/plugin-loader.js"></script>
+    <link rel="stylesheet" href="plugins/plugin-loader.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles-ui1.css" />
+</head>
+<body>
+<div id="innonewsIndexListPage" data-role="page">
+    <div data-role="header" data-position="fixed" data-theme="a">
+        <h1><a href="index.html" data-ajax="false"><img src="img/logo.png" /></a></h1>
+        <a href="innonewssearch.html" data-ajax="false" data-icon="search" class="ui-btn-right" data-iconpos="notext" data-mini="true" data-inline="true"></a>
+        <div data-role="navbar">
+            <ul>
+                <li class="navbar-txt"><a href="innonewslist.html" data-ajax="false">Headline</a></li>
+                <li class="navbar-txt"><a href="innonewshot.html" data-ajax="false">Best</a></li>
+                <li class="navbar-txt"><a href="innodblist.html" data-ajax="false">Profile</a></li>
+                <li class="navbar-txt"><a href="innocategory.html" data-ajax="false">Category</a></li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="content" data-theme="d">
+        <ul id="innonewsTop" data-role="listview" data-filter="false" data-theme="a"></ul>
+        <ul id="innonewsIndexList" data-role="listview" data-filter="false" data-theme="d"></ul>
+        <p></p>
+        <div class="ui-bar ui-bar-a">Taday's Korea</div>
+        <p></p>
+        <div class="ui-grid-a">
+            <div class="ui-block-a" id="innonewsTodayIndex1"></div>
+            <div class="ui-block-b" id="innonewsTodayIndex2"></div>
+        </div>
+        <p></p>
+        <div class="ui-bar ui-bar-a">Actor & K-POP Star</div>
+        <p></p>
+        <ul id="innodbStarIndex" data-role="listview" data-filter="false" data-theme="d"></ul>
+        <p></p>
+        <div class="ui-bar ui-bar-a">Drama & Movie</div>
+        <p></p>
+        <ul id="innodbDramaIndex" data-role="listview" data-filter="false" data-theme="d"></ul>
+        <p></p>
+        <ul id="innonewsPhotoIndex" data-role="listview" data-filter="false" data-theme="d"></ul>
+        <p></p>
+        <div class="ui-bar ui-bar-a">Today's HOT News</div>
+        <p></p>
+        <ol id="innonewsHotIndex" data-role="listview" data-filter="false" data-theme="d"></ol>
+        <p></p>
+    </div>
+    <div data-role="footer" data-position="fixed" data-theme="a">
+        <h5>&copy; innolife</h5>
+    </div>
+</div>
+<script src="js/innonewstop.js"></script>
+<script src="js/innonewsview.js"></script>
+<script src="js/innonewsindexlist.js"></script>
+<script src="js/innodbview.js"></script>
+<script src="js/innotodayview.js"></script>
+<!--
+<script src="js/innonewsphotoview.js"></script>
+<script src="js/kakao.link.js"></script>
+-->
+</body>
+</html>

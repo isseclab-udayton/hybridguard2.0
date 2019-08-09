@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PsedoApplication</string>
+    <string name="hello">Hello World!</string>
+    <string name="back_button_text">戻る</string>
+    <string name="geo_confirm_title">位置情報</string>
+    <string name="geo_confirm_message">このアプリケーションは端末の位置情報を要求しています</string>
+</resources>

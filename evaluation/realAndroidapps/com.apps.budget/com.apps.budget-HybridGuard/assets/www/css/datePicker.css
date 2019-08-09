@@ -1,0 +1,122 @@
+body .datePickerSection {
+	position:absolute;
+	background-color:#3b3e40;
+	width:auto;
+	min-width:13em;
+	height:auto;
+	z-index:91;
+	padding:10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow:0px 0px 5px #444444;
+	-webkit-box-shadow:0px 0px 5px #444444;
+	box-shadow:0px 0px 5px #444444;
+	display:none;
+}
+
+body .datePickerBackDrop {
+	height:100%;
+	width:100%;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	border:0px;
+	font-family: Arial;
+	font-weight: bold;
+	position:absolute;
+	background-color:#595b5b;
+	padding:1px;
+	opacity: .0;
+	filter:alpha(opacity=0);
+	z-index:90;
+	display:none;
+}
+
+body .datePickerSection .datePickerDate{
+	font-size: 80%;
+	padding-left: 0.5em;
+	text-align: left;
+	border-bottom: 1px solid #EFF1F1;
+}
+
+body .datePickerSection .datePickerHeader span,
+body .datePickerSection .plusDisplay a,
+body .datePickerSection .dateDisplay span, 
+body .datePickerSection .minusDisplay a {
+	display: inline-block;
+	padding:0.25em;
+	border: 0.01em solid #000000;
+	background-color: #2F3234;
+	margin:0;
+	width: 3em;
+	text-align: center;
+	white-space: nowrap;
+  	overflow: hidden;
+}
+
+body .datePickerSection .datePickerHeader span{
+	margin: 0em 0.1em;
+	background-color: #3b3e40;
+	font-size: 80%;
+	width: 3.9em;
+}
+
+body .datePickerSection .plusDisplay a,
+body .datePickerSection .dateDisplay span, 
+body .datePickerSection .minusDisplay a {
+	border-top: 1px solid rgba(0,0,0,0.36);
+	margin: 0 0.1em;
+	background-color: #595b5b;
+	-webkit-box-shadow: inset 0 1px rgba(255,255,255,0.12);
+	box-shadow: inset 0 1px rgba(255,255,255,0.12);
+}
+
+body .datePickerSection .plusDisplay a {
+	-webkit-border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	border-top-left-radius:6px;
+	border-top-right-radius:6px;
+	cursor: pointer;
+}
+
+body .datePickerSection .minusDisplay a {
+	border-top: 1px solid rgba(0,0,0,0.36);
+	-webkit-border-bottom-left-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	border-bottom-left-radius:6px;
+	border-bottom-right-radius:6px;
+	cursor: pointer;
+}
+
+.datePickerSection .plusDisplay a:active,
+.datePickerSection .plusDisplay a.is-active,
+.datePickerSection .minusDisplay a:active,
+.datePickerSection .minusDisplay a.is-active {
+  background-color: #404141;
+  -webkit-box-shadow: inset 0 1px rgba(0,0,0,0.18);
+  box-shadow: inset 0 1px rgba(0,0,0,0.18);
+}
+.datePickerSection .minusDisplay a:disabled,
+.datePickerSection .minusDisplay a.is-disabled {
+  opacity: 0.3;
+  cursor: default;
+  pointer-events: none;
+}
+
+body .datePickerSection .buttons a {
+	display: inline-block;
+	margin:0.5em;
+	width:5em;
+	padding:0.25em;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #2F3234;
+	cursor: pointer;
+}
+
+body .datePickerSection .buttons a:active {
+	-webkit-box-shadow: inset 0 1px rgba(0,0,0,0.18);
+	box-shadow: inset 0 1px rgba(0,0,0,0.18);
+	background-color: #101010;
+}

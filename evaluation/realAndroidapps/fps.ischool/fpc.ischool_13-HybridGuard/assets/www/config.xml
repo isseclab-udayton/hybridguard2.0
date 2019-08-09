@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="fpc.ischool" version="1.0.9" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Talent.upc</name>
+    <description>
+        talent.upc app
+    </description>
+    <author email="webmaster.fpc@fpc.upc.edu" href="http://www.talent.upc.edu">
+        Fundacio Politecnica de Catalunya
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <engine name="android" spec="~5.1.1" />
+</widget>

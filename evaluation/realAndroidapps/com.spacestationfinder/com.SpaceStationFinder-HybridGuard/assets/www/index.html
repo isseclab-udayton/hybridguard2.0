@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta property="og:title" content="Space Station Finder" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Get viewing information for the International Space Station (ISS) for your specific location" />
+    <meta property="og:image" content="http://dl.dropbox.com/u/3858223/SpaceStationPassPredictor/images/saturn.png" />
+    <meta property="og:url" content="http://dl.dropbox.com/u/3858223/SpaceStationPassPredictor/index.html" />
+    <meta property="og:site_name" content="Space Station Finder" />
+    <meta property="fb:admins" content="770684650" />
+    <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+    <meta name="description" content="Get viewing information for the International Space Station (ISS) for your specific location" />
+    <meta name="keywords" content="Space Station, ISS, Astronomy, star-gazing, space, satellite, novice, stars, sky, telescope" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Space Station sighting info for your current location</title>
+    <link rel="stylesheet" href="css/default.css" />
+    <script language="javascript" type="text/javascript" src="js/cordova-2.0.0.js"></script>
+    <script language="javascript" type="text/javascript" src="js/modernizr-latest.js"></script>
+    <script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+    <!-- Allows error handling of jsonp calls -->
+    <script type="text/javascript" src="js/jquery.jsonp-2.1.4.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="coreFlashJax.js"></script>
+    <script type="text/javascript" src="js/localization.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, , minimum-scale=1.0, maximum-scale=1.0" />
+    <link rel="apple-touch-icon" href="images/startupIcon.png" />
+    <!-- iPad - landscape (748x1024) -->
+    <link rel="apple-touch-startup-image" href="images/ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" />
+    <!-- iPad - portrait (768x1004) -->
+    <link rel="apple-touch-startup-image" href="images/ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" />
+    <!-- iPhone - (320x460) -->
+    <link rel="apple-touch-startup-image" href="images/iphone-ipodtouch.png" media="screen and (min-device-width: 200px) and (max-device-width: 320) and (orientation:portrait)" />
+    <script type="text/javascript">        var switchTo5x = true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">        stLight.options({ publisher: "c9fd2503-9bde-4246-847f-df6d85787a46" }); </script>
+</head>
+<body>
+    <!-- google_ad_section_start(weight=ignore) -->
+    <!-- Facebook button and tracking code starts here -->
+    <div id="fb-root">
+    </div>
+    <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+    <script>
+        (function () {
+            var e = document.createElement('script');
+            e.async = true;
+            e.src = (document.location.protocol == 'file:' ? 'http:' : document.location.protocol) + '//connect.facebook.net/en_US/all.js';
+            document.getElementById('fb-root').appendChild(e);
+        } ());
+        window.fbAsyncInit = function () {
+            FB.init({ xfbml: true });
+            FB.Event.subscribe('edge.create', function (targetUrl) { _gaq.push(['_trackSocial', 'facebook', 'like', targetUrl]); });
+            FB.Event.subscribe('edge.remove', function (targetUrl) { _gaq.push(['_trackSocial', 'facebook', 'unlike', targetUrl]); });
+            FB.Event.subscribe('message.send', function (targetUrl) { _gaq.push(['_trackSocial', 'facebook', 'send', targetUrl]); });
+            FB.Event.subscribe('comment.create', function (targetUrl) { _gaq.push(['_trackSocial', 'facebook', 'comment', targetUrl]); });
+            FB.Event.subscribe('comment.remove', function (targetUrl) { _gaq.push(['_trackSocial', 'facebook', 'uncomment', targetUrl]); });
+        }; 
+    </script>
+    <!-- Facebook button and tracking code ends here -->
+    <div id="pageGrid">
+        <div id="redWhiteMapBorder">
+        </div>
+        <div class="centeredDivContainer">
+            <div id="directionBar">
+                <div id="leftDirection" class="directionSymbol">
+                </div>
+                <div id="directionBarStartDate" class="directionSymbol">
+                </div>
+                <div id="direction03" class="directionSymbol">
+                </div>
+                <div id="direction04" class="directionSymbol">
+                </div>
+                <div id="direction06" class="directionSymbol">
+                </div>
+                <div id="direction07" class="directionSymbol">
+                </div>
+                <div id="direction08" class="directionSymbol">
+                </div>
+                <div id="rightDirection" class="directionSymbol">
+                </div>
+            </div>
+            <div id="maxDirection">
+                <div id="facingDirection">
+                    FACING
+                </div>
+            </div>
+        </div>
+        <div id="enterLocation">
+            <!-- google_ad_section_end -->
+            <!-- google_ad_section_start -->
+            <div id="spaceStationFinderLogo" title="Space Station Finder (ISS)">
+            </div>
+            <div id="uhaapi">
+                <div id="uhaapiText">
+                    Satellite data access via</div>
+                <a href="http://www.uhaapi.com">
+                    <img border="0" src="images/uhaapi.png" alt="uhaapi icon" />
+                </a>
+            </div>
+            <form action="" onsubmit="return false">
+            <div id="lblLocationNotSet" class="message">
+                Where on earth do you want to view the Space Station (ISS) from?</div>
+            <div id="specialMessage">
+                <span id="lblNote" style="color: #FFFF00;"></span><span id="lblSpecialMessage">
+            </div>
+            <div id="lblZip">
+                ZIP or City</div>
+            <input id="txtAddress" type="text" />
+            <input id="lat" type="hidden" />
+            <input id="lng" type="hidden" />
+            <input type="submit" id="btnGetLatLon" class="button green" value="SHOW VIEW" accesskey="s" /><br />
+            <button id="btnUsePhoneLatLon" class="button orange">
+                USE MY CURRENT LOCATION</button>
+            <div id="chicklets">
+                <span id="fbChicklet" class='st_facebook_large' displaytext='Share' st_title='Easy-to-follow Space Station sighting info for your current location.'
+                    st_url='http://dl.dropbox.com/u/3858223/SpaceStationPassPredictor/index.html'>
+                </span><span class='st_twitter_large' displaytext='Tweet' st_title='Easy-to-follow Space Station sighting info for your current location via @dshultz'
+                    st_url='http://www.spacestationfinder.com/'></span>
+                <!-- google_ad_section_end -->
+                <!-- google_ad_section_start(weight=ignore) -->
+            </div>
+            <div id="storedLocations">
+                <span id="lblStoredLocations">Stored Locations:</span>
+                <label id="lblClearLocations">
+                    (REMOVE ALL)</label>
+            </div>
+            </form>
+            <div id="ad">
+                <!-- Native ads -->
+                <div style="position: fixed; bottom: 0px; width: 100%">
+                    <script type="text/javascript">
+                        var admob_vars = {
+                            pubid: 'a14efe0fb9d1470', // publisher id
+                            bgcolor: '356FA8', // background color (hex)
+                            text: 'FFFFFF', // font-color (hex)
+                            test: false // test mode, set to false to receive live ads
+                        };
+                    </script>
+                    <script type="text/javascript" src="http://mmv.admob.com/static/iphone/iadmob.js"></script>
+                </div>
+            </div>
+            <div id="getVersionsSplash">
+                <a id="lnkGetFacebookVersion" class="downloadLink" title="Use the Facebook version of Space Station Finder"
+                    href="http://apps.facebook.com/spacestationfinder" target="_blank">Facebook <span
+                        class="version">Version</span>
+                    <img border="0" id="facebookButton" class="downloadButton" src="images/facebookButton16x16.png"
+                        alt="Facebook Button" /></a>
+            </div>
+        </div>
+        <div id="setLocation">
+            <div id="sputnik">
+                <span id="lblNewLocation">CHANGE LOCATION</span>
+            </div>
+        </div>
+        <div id="currentPass">
+            <div id="chicklets2">
+            </div>
+            <div id="degreesGrid">
+                <div id="degrees90">
+                    90&deg; (Directly Overhead)</div>
+                <div id="degrees80">
+                    80&deg;</div>
+                <div id="degrees70">
+                    70&deg;</div>
+                <div id="degrees60">
+                    60&deg;</div>
+                <div id="degrees50">
+                    50&deg;</div>
+                <div id="degrees40">
+                    40&deg;</div>
+                <div id="degrees30">
+                    30&deg;</div>
+                <div id="degrees20">
+                    20&deg;</div>
+                <div id="degrees10">
+                    10&deg;</div>
+                <div id="degrees0">
+                    0&deg; (HORIZON)</div>
+            </div>
+            <!-- google_ad_section_end -->
+            <input type="hidden" id="maxAlt" value="0" />
+            <input type="hidden" id="startAlt" value="0" />
+            <input type="hidden" id="endAlt" value="0" />
+            <div id="spaceStationStart" class="spaceStationStage">
+                <div id="appearsHelp" class="helpBox">
+                    <div id="suppressAppearsHelp" class="help suppressHelp">
+                        X</div>
+                    This indicates where the Space Station will initially appear in the sky. The time it will
+                    appear is shown in the yellow text below this image. The direction you'll need to
+                    face is indicated at the top of the screen directly above this image (N, NW, NNW, etc...). It's height in the sky is roughly indicated by it's height on
+                    this screen.</div>
+                <div id="lblAppears" class="smallLabel dimLabel">
+                    APPEARS</div>
+                <span class="help">?</span>
+                <div id="startTime" class="yellowLabel">
+                </div>
+            </div>
+            <div id="spaceStationMax" class="spaceStationStage">
+                <div id="maxHelp" class="helpBox">
+                    <div id="suppressMaxHelp" class="help suppressHelp">
+                        X</div>
+                    This indicates where the Space Station will be at it's high point in the sky. The time
+                    it appears at this height is shown in the yellow text below this image. The direction
+                    you'll need to face is indicated at the top of the screen directly above this image
+                    (N, NW, NNW, etc...). It's height in the sky is roughly indicated
+                    by it's height on this screen.</div>
+                <div id="lblMax" class="smallLabel dimLabel">
+                    MAX</div>
+                <span class="help">?</span>
+                <div id="maxTime" class="yellowLabel">
+                </div>
+            </div>
+            <div id="spaceStationEnd" class="spaceStationStage">
+                <div id="endsHelp" class="helpBox">
+                    <div id="suppressEndsHelp" class="help suppressHelp">
+                        X</div>
+                    This indicates where the Space Station will gradually disappear from sight. The time it
+                    will disappear is shown in the yellow text below this image. The direction you'll
+                    need to face is indicated at the top of the screen directly above this image (N, NW, NNW, etc...). It's height in the sky is roughly indicated by it's
+                    height on this screen.</div>
+                <div id="lblEnds" class="smallLabel dimLabel">
+                    VANISHES</div>
+                <span class="help">?</span>
+                <div id="endTime" class="yellowLabel">
+                </div>
+            </div>
+            <div id="saturn">
+                <span id="lblPassesInNext24Hrs">ALL PASSES</span>
+                <div id="allResultsContainer">
+                </div>
+            </div>
+            <div id="friendlyMessage" class="message">
+            </div>
+            <div id="ad2">
+                <div id="tweetViewingInfo">
+                </div>
+                <!-- Native ads -->
+                <!--<div style="position: fixed; bottom: 0px; width: 100%">
+                    <script type="text/javascript">
+                        var admob_vars = {
+                            pubid: 'a14efe0fb9d1470', // publisher id
+                            bgcolor: '356FA8', // background color (hex)
+                            text: 'FFFFFF', // font-color (hex)
+                            test: false // test mode, set to false to receive live ads
+                        };
+                    </script>
+                    <script type="text/javascript" src="http://mmv.admob.com/static/iphone/iadmob.js"></script>
+                </div>
+				-->
+            </div>
+            <div id="locationStatus">
+                <span id='lblLocation'>Loc:</span> <span id='locationText'></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

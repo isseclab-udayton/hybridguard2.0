@@ -1,0 +1,549 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>iBardahl</title>
+
+        <!-- Phonegap setup -->
+        <!--
+        
+        <script type="text/javascript" charset="utf-8" src="libs/cordova-ios-2.1.0.js"></script>
+
+        -->
+        <script type="text/javascript" charset="utf-8" src="libs/cordova-android-2.0.0.js"></script>
+            
+
+        <!-- Lawnchair (no longer needed)
+        <script type="text/javascript" charset="utf-8" src="libs/lawnchair/Lawnchair.js"></script>
+        <script type="text/javascript" charset="utf-8" src="libs/lawnchair/adapters/dom.js"></script>
+        -->
+        
+        <!-- jQuery Mobile -->
+        <!-- <link rel="stylesheet"  href="css/themes/default/jquery.mobile-1.2.0.css" /> -->
+        
+        <script src="js/jquery-1.8.3.min.js"></script>
+        <script src="js/jquery.mobile-1.2.0.min.js"></script>
+        <script src="js/jquery.form.js"></script>
+        <link rel="stylesheet"  href="css/themes/default/jquery.mobile-1.2.0.min.css" />
+        
+        <!-- Custom lib -->
+        
+        <script type="text/javascript" charset="utf-8" src="libs/SKplugins.js"></script>
+        
+        <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/catalog.js"></script>
+       
+        <script type="text/javascript" charset="utf-8" src="js/maps.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/bardahlLog.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/newsletter.js"></script>
+      
+     
+        
+        <!-- Google maps api -->
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
+        
+        <!--
+        <script type="text/javascript" charset="utf-8" src="js/googlemaps-api.js"></script>
+        <link href="css/themes/default/googlemaps-default.css" rel="stylesheet" type="text/css" />
+        -->
+
+        <script type="text/javascript">
+      
+            // Wait for Cordova to load
+            //
+            document.addEventListener("deviceready", onDeviceReady, false);
+
+            // Cordova is ready
+            //
+            function onDeviceReady() {
+                globalInit();     
+            }
+
+            
+        </script>
+
+        <script id="soap-template-catalog" type="application/soap-template">
+            <?xml version="1.0" encoding="UTF-8"?> 
+        <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"> 
+            <S:Header/> 
+            <S:Body> 
+                <ns2:getCatalog xmlns:ns2="http://services.maroil.it/"> 
+                    <settore>${settore}</settore> 
+                </ns2:getCatalog> 
+            </S:Body> 
+        </S:Envelope>
+    </script>
+    
+    <!-- Custom css -->
+        <link rel="stylesheet"  href="css/themes/bardahl/style-android.css" />
+        <!--
+        <script type="text/javascript">
+            //if($(window).width() >
+            try{
+                if( getDisplayWidth(false) > 500){
+                    document.write("<link rel='stylesheet'  href='css/themes/bardahl/style-android-large.css' />");
+                }
+                else{
+                    document.write("<link rel='stylesheet'  href='css/themes/bardahl/style-android-small.css' />");
+                }
+            }
+            catch(e){
+               //Se ci sono errori nel dubbio carico la versione small
+               document.write("<link rel='stylesheet'  href='css/themes/bardahl/style-android-small.css' />");
+            }
+        </script>
+        -->
+        
+        <link rel="stylesheet" type="text/css" media="screen and (min-width:500px)" href="css/themes/bardahl/style-android-large.css">
+        <link rel="stylesheet" type="text/css" media="screen and (max-width:499px)" href="css/themes/bardahl/style-android-small.css">
+         <script type="text/javascript" charset="utf-8" src="coreFlashJax.js"></script>
+        
+        
+        
+</head>
+
+<body>
+    <div id="background" class="background-yellow"></div>
+    <!-- HOME PAGE -->
+    <div data-role="page" id="home" class="yellowPageBg">
+        <div data-role="header" data-position="fixed">
+            <h1 id="homeTitle">iBardahl</h1>
+        </div><!-- /header -->
+        
+        <div data-role="content" id="homeContent"> 
+            <!--<div style="left: 50%; margin-left: -97px; position: absolute; height: 100%; bottom: 50%; margin-bottom: -170px; height:320px; width:194px;">-->
+            <div class="bardahlContent" > <!--style="width: 194px">-->
+                <img src="img/btnShops@2x.png" alt="Rivenditori" class="imgShop" onclick="storesButtonAction();"/>
+                <br/><br/>
+                <img src="img/btnAuto@2x.png" alt="Auto" class="imgAuto" onclick="catalogButtonAction('AU');"/>
+                <img src="img/btnMoto@2x.png" alt="Moto" class="imgMoto" onclick="catalogButtonAction('MO');"/>
+                <div style="clear: both;"></div><br/><br/><br/>
+                <img src="img/btnNewsLetter@2x.png" alt="newsletter" class="imgNews" onclick="$.mobile.changePage('#submitForm',{transition: pageTransition});"/>
+        
+         <!--   <div id="btnShop" title="Rivenditori" data-role="button" data-corners="false" data-iconpos="notext" class="seller-button">Rivenditori</div><br/>   
+            <div id="btnAuto" title="Auto" data-role="button" data-corners="false" data-iconpos="notext" class="car-button">Auto</div>
+            <div id="btnMoto" title="Moto" data-role="button" data-corners="false" data-iconpos="notext" class="moto-button">Moto</div> 
+         <div style="clear: both;"></div><br/>
+            <div id="btnNews" title="Newsletter" data-role="button" data-corners="false" data-iconpos="notext" class="newsletter-button">Newsletter</div>
+         -->
+            
+            <br/><br/><br/>
+            <!--
+            <div id="btnInfo" title="Info" data-role="button" data-corners="false" data-icon="info">Info</div>
+            -->
+            <img class="imgInfo" src="img/info_icon.png" onclick="$.mobile.changePage('#info',{transition: pageTransition});"/>
+            <div style="clear: both;"></div>
+            </div>
+        </div><!-- /content -->
+    </div><!-- /page HOME-->
+        
+        <!-- CATALOG PAGE -->
+    <div data-role="page" id="catalog" class="grayPageBg">
+
+        <div data-role="header" data-position="fixed" data-tap-toggle="false">
+            <a href="" data-rel="back" data-icon="home" data-iconpos="notext">back</a>
+            <h1 id="catalogTitle">Bardahl</h1>
+        </div><!-- /header -->
+
+        <div data-role="content" id="catalogContent">
+            <br/>
+            <ul data-role="listview" id="catalogList">
+                <!-- per prove grafiche senza js --->
+                <li>
+                    <a href="ciccio">
+                        <h3 class="catalog-text">Categoria</h3>
+                    <span class="ui-li-count">10</span>
+                    <img src="img/catalog-thumb.png" class="ui-li-thumb catalog-thumb"/>
+                    </a>
+
+                </li>
+  
+            </ul>
+        </div><!-- /content -->
+    </div><!-- /page CATALOG-->
+    
+    <!-- PRODUCTS PAGE -->
+    <div data-role="page" id="products" class="grayPageBg">
+
+        <div data-role="header" data-position="fixed" data-tap-toggle="false">
+            <a href="" data-rel="back" data-icon="back" data-iconpos="notext">back</a>
+            <h1 id="productsTitle">Bardahl</h1>
+        </div><!-- /header -->
+
+        <div data-role="content" id="productsContent">
+            <br>
+            <ul data-role="listview" id="productsList">
+                <!-- per prove grafiche senza js --->
+                <li data-role="list-divider">sezione</li>
+                <li class="ui-li-has-arrow">
+                    <a href="">
+                    <h3 class="ui-li-heading prodotti-text">Categoria</h3>
+                    <p class="ui-li-desc prodotti-text">descrizione</p>
+                    <div class="ui-li-thumb prodotti-thumb-div">
+                    <img src="http://intranet.bardahl.it/img/catalog/formato_small/BSF-OB.png" class="prodotti-thumb"/>
+                    </div>
+                    </a>
+                </li>
+                <li class="ui-li-has-arrow">
+                    <a href="null">
+                    <h3 class="ui-li-heading prodotti-text">Categoria</h3>
+                    <p class="ui-li-desc prodotti-text">descrizione</p>
+                    <div class="ui-li-thumb prodotti-thumb-div">
+                    <img src="http://intranet.bardahl.it/img/catalog/formato_small/BSF-OB.png" class="prodotti-thumb"/>
+                    </div>
+                    </a>
+                </li>
+                <!--
+                <li data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="true" data-icon="arrow-r" data-iconpos="right"
+                    data-theme="c" class=" ui-btn-icon-right ui-li-has-arrow ui-li ui-li-has-thumb ui-btn-up-c">
+                    <div class="ui-li">
+                        <div class="ui-btn-text">
+                            <a href="fake" class="ui-link-inherit">
+                                <img src="http://intranet.bardahl.it/img/catalog/formato_small/BSF-OB.png" class="ui-li-thumb prodotti-thumb"/>
+                                <h3 class="ui-li-heading prodotti-text">titolo</h3>
+                                <p class="ui-li-desc prodotti-text">descrizione</p>
+                            </a>  
+                        </div>
+                        <span class="ui-icon ui-icon-arrow-r ui-icon-shadow"></span>
+                    </div>
+                </li>
+                -->
+
+            </ul>
+        </div><!-- /content -->
+    </div><!-- /page PRODCTS-->
+    
+     <!-- PRODUCTS DETAIL PAGE -->
+    <div data-role="page" id="productDetail" class="grayPageBg">
+        <div data-role="header" data-backbtn="false" data-position="fixed" data-tap-toggle="false">
+            <a href="" data-rel="back" data-icon="back" data-iconpos="notext">back</a>
+            <h1 id="productDetailTitle">Bardahl</h1>
+        </div><!-- /header -->
+
+        <div data-role="content" id="productDetailContent">
+            <div class="bardahlContent">
+                <div id="image-preview" class="prodotto-img-div"> </div>
+                <div id="caratteristiche" class="prodotto-caratt"></div>
+                <div style="clear: both;"></div>
+                <br/>
+                <div id="plus-prodotto" class="prodotto-plus"></div>
+            </div>
+            <div data-role="footer" data-backbtn="false" data-position="fixed" data-tap-toggle="false" class="footerBar">
+                <div class="footerBar-home"> <img alt="home" src="img/homeBTN@2x.png" class="footerBar-home-img" onclick="$.mobile.changePage('#home',{transition: pageTransition});"/></div>
+            </div><!-- /footer -->
+        </div><!-- /content -->
+    </div><!-- /page PRODUCTS DETAIL-->
+    
+    <!-- STORES PAGE -->
+    <div data-role="page" id="stores" class="grayPageBg">
+        <div data-role="header" data-position="fixed" data-tap-toggle="false">
+            <a href="" data-rel="back" data-icon="home" data-iconpos="notext">back</a>
+            <h1 id="storesTitle">Rivenditori nella tua zona</h1>
+        </div><!-- /header -->
+        <div data-role="content" id="storesContent">
+            <ul data-role="listview" id="storesList">
+                <li class = "ui-li-has-arrow">
+                   <a onClick="storeDetailDraw(1); return false;">
+                       <h3 class="ui-li-heading">Ragione sociale</h3>
+                       <p class="ui-li-desc">Indirizzo + città + provincia</p>
+                       <span class="ui-li-count">1000 Km</span>
+                       </a>
+                </li>
+                <li class = "ui-li-has-arrow">
+                    <a onClick="storeDetailDraw(1); return false;">
+                        <h3 class="ui-li-heading">Ragione sociale</h3>
+                        <p class="ui-li-desc">Indirizzo + città + provincia</p>
+                        <span class="ui-li-count">1000 Km</span>
+                    </a>
+                </li>
+            </ul>
+        </div><!-- /content -->
+        <div data-role="popup" id="rangePopup" class="ui-popup ui-overlay-shadow ui-corner-all ui-body-c" aria-disabled="false" data-disabled="false" data-shadow="true" data-corners="true" data-transition="none" data-position-to="origin">
+                <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>	
+                <h3>Seleziona il raggio di ricerca</h3>
+                <ul data-role="listview">
+                    <li> <a onClick="changeRange(10); return false;"> <h3>10 Km</h3></a></li>
+                    <li> <a onClick="changeRange(25); return false;"> <h3>25 Km</h3></a></li>
+                    <li> <a onClick="changeRange(50); return false;"> <h3>50 Km</h3></a></li>
+                    <li> <a onClick="changeRange(75); return false;"> <h3>75 Km</h3></a></li>
+                </ul>
+        </div>
+        <div data-role="footer" data-backbtn="false" data-position="fixed" data-tap-toggle="false" class="footerBar">
+            <div class="footerBar-sx"> <img alt="home" src="img/radius_icon.png" class="footerBar-sx-img" onclick="openRangeDialog();"/></div>
+            <div class="footerBar-home"> <img alt="home" src="img/homeBTN@2x.png" class="footerBar-home-img" onclick="$.mobile.changePage('#home',{transition: pageTransition});"/></div>
+            <div class="footerBar-dx"> <img alt="home" src="img/map_icon.png" class="footerBar-dx-img" onclick="drawStoresMap();"/></div>
+        </div><!-- /footer -->
+    </div><!-- /page STORES-->
+    
+    <!-- STORE DETAIL PAGE -->
+    <div data-role="page" id="storeDetail" class="grayPageBg">
+        <div data-role="header" data-backbtn="false" data-position="fixed" data-tap-toggle="false">
+            <a href="" data-rel="back" data-icon="back" data-iconpos="notext">back</a>
+            <h1 id="storeDetailTitle">Bardahl</h1>
+        </div><!-- /header -->
+
+        <div data-role="content" id="storeDetailContent">     
+            <h2 id="storeTitle">Negozio</h2>        
+            <br/>
+            <ul data-role="listview" id="storeDetailList">
+                <!--
+                POPOLO LA PAGINA PER TEST
+                <script type="text/javascript">
+                    var storeList = $("#storeDetailList");
+                   storeList.append(createStoreDetailLiTag("pencil32.png", "Indirizzo", "Via tal dei tali", null));
+                   storeList.append(createStoreDetailLiTag("phone32.png", "Telefono", "333333", "tel:333333"));
+
+                </script> -->
+            </ul>
+        </div><!-- /content -->
+       <div data-role="footer" data-backbtn="false" data-position="fixed" data-tap-toggle="false" class="footerBar">
+            <div class="footerBar-sx"> <img alt="home" src="img/phone_icon.png" class="footerBar-sx-img" onclick="storePhone();"/></div>
+            <div class="footerBar-home"> <img alt="home" src="img/homeBTN@2x.png" class="footerBar-home-img" onclick="$.mobile.changePage('#home',{transition: pageTransition});"/></div>
+            <div class="footerBar-dx"> <img alt="home" src="img/route_icon.png" class="footerBar-dx-img" onclick="askDirections();"/></div>
+        </div><!-- /footer -->
+    </div><!-- /page STORE DETAIL-->
+    
+    <!-- STORES MAP -->
+    <div data-role="page" id="storesMap" class="grayPageBg">
+        <div data-role="header" data-position="fixed" data-tap-toggle="false">
+            <a href="" data-rel="back" data-icon="back" data-iconpos="notext">back</a>
+            <h1 id="storesMapTitle">Rivenditori nella tua zona</h1>
+        </div><!-- /header -->
+        <div data-role="content" id="storesMapContent">
+            <div id="map_canvas" style="height: 500px; width: 700px;"></div>
+        </div><!-- /content -->
+    </div><!-- /page STORES MAP-->
+    
+    <!-- STORE DIRECTIONS -->
+    <div data-role="page" id="storesDirectionsMap" class="grayPageBg">
+        <div data-role="header" data-position="fixed" data-tap-toggle="false">
+            <a href="" data-rel="back" data-icon="back" data-iconpos="notext">back</a>
+            <h1 id="storesDirectionsTitle">Indicazioni stradali</h1>
+        </div><!-- /header -->
+        <div data-role="content" id="storesDirectionsContent">
+            <div id="map_directions_canvas" style="height: 500px; width: 700px;"></div>
+            <div id="directionsPanel"></div>
+        </div><!-- /content -->
+    </div><!-- /page STORES DIRECTIONS-->
+    
+    
+    <!-- INFO PAGE -->
+    <div data-role="page" id="info" class="grayPageBg"> 
+        <div data-role="header" data-position="fixed"> 
+            <a href="" data-rel="back" data-icon="back" data-iconpos="notext">back</a>
+            <h1>Info</h1> 
+        </div> 
+        <div data-role="content" id="infoContent"> 
+            <div class="bardahlContent">
+                <img src="img/logoSmall.png" alt="Bardahl logo" style="width:35%;"/>
+                <div style="text-align:left;">
+                <p>Distribuito da:<br/>
+                    Maroil s.r.l. – Bardahl Italia<br/>
+                    Altopascio (Lucca)<br/>
+                    Partita IVA 01583810468<br/>
+                    Iscritto al registro imprese di Lucca in data 19/02/1996<br/>
+                    Codice Fiscale / Registro Imprese 00160000477<br/>
+                    R.E.A. di Lucca n. 84045<br/>
+                    Tutte le immagini dei prodotti sono di esclusiva proprietà di Maroil - Bardahl Italia<br/>
+                    www.bardahl.it<br/>
+                    <br/>
+                    Bardahl © è un marchio registrato<br/>
+                    Licensee of Bardahl Manufacturing Corp.<br/>
+                    Seattle, Washington 98107 U.S.A.</p>
+                </div>
+            </div>
+        </div> 
+    </div><!-- /page INFO-->
+    
+    
+    <!-- SUBMIT PAGE -->
+    <div data-role="page" id="submitForm" class="grayPageBg"> 
+        <div data-role="header" data-position="fixed"> 
+            <a href="" data-rel="back" data-icon="back" data-iconpos="notext">back</a>
+            <h1>Registrati</h1> 
+        </div> 
+        <div data-role="content" id="submitContent"> 
+            <div class="bardahlContent">
+            <form id="subscribeform" name="subscribeform" action="http://www.sendminer.it/sm/jsp/subscribe.do" method="post">    
+                <input type="hidden" name="idutente" value="ScQHIKScQ"> 
+                <input type="hidden" name="action" value="dosubscribe">   
+                <table class="formTable"> 
+                    <tr> 
+                        <td class="formTableLegend">
+                            <label class="myLabel"  for="db_nome"> <span style="color:#ff0000">*</span> Nome:</label></td> 
+                        <td class="formTableValue"> <input class="myInput" type="text" name="db_nome" id="db_nome" value=""/></td> 
+                    </tr> 
+                    <tr> 
+                        <td class="formTableLegend">
+                            <label class="myLabel" for="db_cognome"  data-mini="true"><span style="color: #ff0000">*</span> Cognome:</label></td> 
+                        <td class="formTableValue"> <input class="myInput" type="text"  name="db_cognome" id="db_cognome" value=""/></td> 
+                    </tr> 
+                    <tr> 
+                        <td class="formTableLegend">
+                            <label class="myLabel" for="db_email"><span style="color: #ff0000">*</span> eMail:</label></td> 
+                        <td class="formTableValue"> <input class="myInput" type="text" name="db_email" id="db_email" value=""/></td> 
+                    </tr> 
+                    <tr>
+                    <td class="formTableLegend">
+                        <label class="myLabel"  for="db_telefono">Telefono:</label></td> 
+                    <td class="formTableValue"> <input class="myInput" type="text" name="db_telefono" id="db_telefono" value=""/></td> 
+                    </tr> 
+                    <tr>
+                    <td class="formTableLegend">
+                        <label class="myLabel"  for="db_fax">Fax:</label></td> 
+                    <td class="formTableValue"> <input class="myInput" type="text" name="db_fax" id="db_fax" value=""/></td> 
+                    </tr> 
+                    <tr>
+                    <td class="formTableLegend">
+                        <label class="myLabel"  for="db_cellulare">Cellulare:</label></td> 
+                    <td class="formTableValue"> <input class="myInput" type="text" name="db_cellulare" id="db_cellulare" value=""/></td> 
+                    </tr> 
+                    <tr>
+                            
+                    <td class="formTableLegend">
+                        <label class="myLabel"  for="db_codprovincia">Provincia:</label></td> 
+                    <td class="formTableValue"> 
+                        <select name="db_codprovincia" id="db_codprovincia" data-mini="true" class="myInput" style="height: 20px;">
+                        <option value=""></option>
+                        <option value="AG">AG - AGRIGENTO</option>
+                        <option value="AL">AL - ALESSANDRIA</option>
+                        <option value="AN">AN - ANCONA</option>
+                        <option value="AO">AO - AOSTA</option>
+                        <option value="AP">AP - ASCOLI PICENO</option>
+                        <option value="AQ">AQ - L'AQUILA</option>
+                        <option value="AR">AR - AREZZO</option>
+                        <option value="AT">AT - ASTI</option>
+                        <option value="AV">AV - AVELLINO</option>
+                        <option value="BA">BA - BARI</option>
+                        <option value="BG">BG - BERGAMO</option>
+                        <option value="BI">BI - BIELLA</option>
+                        <option value="BL">BL - BELLUNO</option>
+                        <option value="BN">BN - BENEVENTO</option>
+                        <option value="BO">BO - BOLOGNA</option>
+                        <option value="BR">BR - BRINDISI</option>
+                        <option value="BS">BS - BRESCIA</option>
+                        <option value="BZ">BZ - BOLZANO</option>
+                        <option value="CA">CA - CAGLIARI</option>
+                        <option value="CB">CB - CAMPOBASSO</option>
+                        <option value="CE">CE - CASERTA</option>
+                        <option value="CH">CH - CHIETI</option>
+                        <option value="CL">CL - CALTANISSETTA</option>
+                        <option value="CN">CN - CUNEO</option>
+                        <option value="CO">CO - COMO</option>
+                        <option value="CR">CR - CREMONA</option>
+                        <option value="CS">CS - COSENZA</option>
+                        <option value="CT">CT - CATANIA</option>
+                        <option value="CZ">CZ - CATANZARO</option>
+                        <option value="EN">EN - ENNA</option>
+                        <option value="FE">FE - FERRARA</option>
+                        <option value="FG">FG - FOGGIA</option>
+                        <option value="FI">FI - FIRENZE</option>
+                        <option value="FO">FO - FORLI'</option>
+                        <option value="FR">FR - FROSINONE</option>
+                        <option value="GE">GE - GENOVA</option>
+                        <option value="GO">GO - GORIZIA</option>
+                        <option value="GR">GR - GROSSETO</option>
+                        <option value="IM">IM - IMPERIA</option>
+                        <option value="IS">IS - ISERNIA</option>
+                        <option value="KR">KR - CROTONE</option>
+                        <option value="LC">LC - LECCO</option>
+                        <option value="LE">LE - LECCE</option>
+                        <option value="LI">LI - LIVORNO</option>
+                        <option value="LO">LO - LODI</option>
+                        <option value="LT">LT - LATINA</option>
+                        <option value="LU">LU - LUCCA</option>
+                        <option value="MC">MC - MACERATA</option>
+                        <option value="ME">ME - MESSINA</option>
+                        <option value="MI">MI - MILANO</option>
+                        <option value="MN">MN - MANTOVA</option>
+                        <option value="MO">MO - MODENA</option>
+                        <option value="MS">MS - MASSA</option>
+                        <option value="MT">MT - MATERA</option>
+                        <option value="NA">NA - NAPOLI</option>
+                        <option value="NO">NO - NOVARA</option>
+                        <option value="NU">NU - NUORO</option>
+                        <option value="OR">OR - ORISTANO</option>
+                        <option value="PA">PA - PALERMO</option>
+                        <option value="PC">PC - PIACENZA</option>
+                        <option value="PD">PD - PADOVA</option>
+                        <option value="PE">PE - PESCARA</option>
+                        <option value="PG">PG - PERUGIA</option>
+                        <option value="PI">PI - PISA</option>
+                        <option value="PN">PN - PORDENONE</option>
+                        <option value="PO">PO - PRATO</option>
+                        <option value="PR">PR - PARMA</option>
+                        <option value="PS">PS - PESARO</option>
+                        <option value="PT">PT - PISTOIA</option>
+                        <option value="PV">PV - PAVIA</option>
+                        <option value="PZ">PZ - POTENZA</option>
+                        <option value="RA">RA - RAVENNA</option>
+                        <option value="RC">RC - REGGIO DI Calabria</option>
+                        <option value="RE">RE - REGGIO NELL'EMILIA</option>
+                        <option value="RG">RG - RAGUSA</option>
+                        <option value="RI">RI - RIETI</option>
+                        <option value="RM">RM - ROMA</option>
+                        <option value="RN">RN - RIMINI</option>
+                        <option value="RO">RO - ROVIGO</option>
+                        <option value="SA">SA - SALERNO</option>
+                        <option value="SI">SI - SIENA</option>
+                        <option value="SO">SO - SONDRIO</option>
+                        <option value="SP">SP - LA SPEZIA</option>
+                        <option value="SR">SR - SIRACUSA</option>
+                        <option value="SS">SS - SASSARI</option>
+                        <option value="SV">SV - SAVONA</option>
+                        <option value="TA">TA - TARANTO</option>
+                        <option value="TE">TE - TERAMO</option>
+                        <option value="TN">TN - TRENTO</option>
+                        <option value="TO">TO - TORINO</option>
+                        <option value="TP">TP - TRAPANI</option>
+                        <option value="TR">TR - TERNI</option>
+                        <option value="TS">TS - TRIESTE</option>
+                        <option value="TV">TV - TREVISO</option>
+                        <option value="UD">UD - UDINE</option>
+                        <option value="VA">VA - VARESE</option>
+                        <option value="VB">VB - VERBANIA CUSIO OSSOLA</option>
+                        <option value="VC">VC - VERCELLI</option>
+                        <option value="VE">VE - VENEZIA</option>
+                        <option value="VI">VI - VICENZA</option>
+                        <option value="VR">VR - VERONA</option>
+                        <option value="VT">VT - VITERBO</option>
+                        <option value="VV">VV - VIBO VALENTIA</option>
+                    </select>
+                    </td> 
+                    </tr> 
+                    
+                    <tr>
+                    <td class="formTableLegend">
+                        <label class="myLabel"><span style="color:#ff0000">*</span> Iscrizione al gruppo:</label></td> 
+                    <td class="formTableValue">
+                        <fieldset data-role="controlgroup" data-mini="true">
+                        <input class="myInput" type="radio" name="idgruppo" id="radioAuto" value="ScQFENJScQ" data-mini="true"  />
+                        <label class="myLabel" for="radioAuto">Newsletter Auto</label>  
+                        <input class="myInput" type="radio" name="idgruppo" id="radioMoto" value="ScQFENKScQ"  data-mini="true"/>
+                        <label class="myLabel" for="radioMoto">Newsletter Moto</label>
+                        <input class="myInput" type="radio" name="idgruppo" id="radioIndustria" value="ScQFENLScQ"  data-mini="true"/>
+                        <label class="myLabel" for="radioIndustria">Newsletter Industria</label>
+                    </fieldset>
+                    </td>
+                    </tr>
+
+                </table>
+ 
+                <fieldset data-role="controlgroup" data-mini="true" style="text-align: left;">
+                    <label class="myLabel" ><strong>Autorizzo Maroil - Bardahl Italia</strong> al  trattamento dei miei dati personali per le finalità connesse alla fruizione dei servizi di questa applicazione, come previsto dal Codice in materia di protezione dei dati personali.<br/>Decreto Legislativo del 30 giugno 2003 n.196.</label>
+                    <input type="checkbox" name="consenso" id="consenso" />
+                    <label for="consenso"><span style="color:#ff0000">*</span> Autorizzo</label>
+                </fieldset>
+                <br/>
+                <span  id="newsLetterBtt">
+                <input name="invia" type="button" onclick="checkForm(); return false;" value=" Iscriviti alla Newsletter " data-mini="true">     
+                </span>
+            </form>
+            </div>
+        </div> 
+    </div><!-- /page SBMIT-->
+    
+</body>
+</html>

@@ -1,0 +1,144 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_22 (Sun Microsystems Inc.)
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: UCzYT6RE8m1+z99KNVBkhnl38jY=
+
+Name: assets/www/map.html
+SHA1-Digest: imL4ds3ck/RZ8iibxT69GA/yIYk=
+
+Name: assets/www/images/splash-160x220.png
+SHA1-Digest: 9IDFiohVHZ8bxlKrXAzD/o3TwIk=
+
+Name: assets/www/images/aurelio-de-rosa.png
+SHA1-Digest: Uxrcvh2GNBVToCY0W906cKDMZc8=
+
+Name: assets/www/aurelio.html
+SHA1-Digest: 12tXqE27s6MtpC6acxRZQkirSoo=
+
+Name: assets/www/images/user-marker.png
+SHA1-Digest: R7ZANZTihcShHhliqaQBUGaUnx8=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: RQ09RDJf3yWYEKYOavo2ED4Yaz0=
+
+Name: res/xml/config.xml
+SHA1-Digest: 9Qj4MtFa3unanMemgrcn4wSsquY=
+
+Name: assets/www/js/jquery-1.8.3.min.js
+SHA1-Digest: i2ur/0e4qXk/NwNv0bGjrUHThCM=
+
+Name: res/drawable-hdpi/splash.png
+SHA1-Digest: SWB93g1bOLN9OkjitIWDRXW8Gfg=
+
+Name: resources.arsc
+SHA1-Digest: irTFqt7YDgjdn7vB85LuPCDp/bQ=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: CepliFtAgOUV73Bk6BbHeZHAdXs=
+
+Name: assets/www/phonegap.js
+SHA1-Digest: EFTj1MFfkBN7rcjiL1LsYwD9Iac=
+
+Name: assets/www/js/jquery.mobile.config.js
+SHA1-Digest: 14YyMaYXxVHgWzKQQvzjDSlBm4o=
+
+Name: assets/www/config.xml
+SHA1-Digest: Gt95+sL9Lk8rRTVrKxzan01xPgE=
+
+Name: assets/www/images/car-marker.png
+SHA1-Digest: s0wiKc0lVlpl/5kg6StqtOBdpEE=
+
+Name: assets/www/images/icons-18-black.png
+SHA1-Digest: 2zOURmgG7TYicOGnxfSucQo6Lxg=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: PWDzpt7zKvW/RSsPPsULYT/nBMc=
+
+Name: AndroidManifest.xml
+SHA1-Digest: tKyhFCaaaRTWufgKhcOr8kgpBQ8=
+
+Name: assets/www/images/splash-220x330.png
+SHA1-Digest: FscXzgiVQVrAb63PlxnGMvI8pIA=
+
+Name: assets/www/splash.png
+SHA1-Digest: FscXzgiVQVrAb63PlxnGMvI8pIA=
+
+Name: assets/www/js/maps.js
+SHA1-Digest: oGWJsJlKJRnZ2bKIiX9WQ1AgfwE=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: PWDzpt7zKvW/RSsPPsULYT/nBMc=
+
+Name: assets/www/images/splash-450x650.png
+SHA1-Digest: wKv3I5T/J4h9wqYZUN+1RzMbYKA=
+
+Name: assets/www/images/icons-18-white.png
+SHA1-Digest: Sg/1e3EgtouxOiw7H+43z5uv5Xo=
+
+Name: assets/www/js/jquery.mobile-1.2.0.min.js
+SHA1-Digest: M194251mAJHWux+clQM/P8xweHw=
+
+Name: assets/www/css/style.css
+SHA1-Digest: WBOIxSVEXEhKBBUuiR4Z0JBvnVs=
+
+Name: res/drawable-mdpi/splash.png
+SHA1-Digest: wDb/0LWtch2vnciw+sRcVoTc2i0=
+
+Name: assets/www/cordova-2.0.0.js
+SHA1-Digest: EFTj1MFfkBN7rcjiL1LsYwD9Iac=
+
+Name: res/drawable-xhdpi/splash.png
+SHA1-Digest: SWB93g1bOLN9OkjitIWDRXW8Gfg=
+
+Name: res/drawable-xhdpi/icon.png
+SHA1-Digest: PWDzpt7zKvW/RSsPPsULYT/nBMc=
+
+Name: assets/www/images/ajax-loader.gif
+SHA1-Digest: r7Wo1RXseyxOXYv8y0kPtbYDEcM=
+
+Name: assets/www/js/positions.js
+SHA1-Digest: xNiQbdotplHNqrQMdna3JP/VtKY=
+
+Name: classes.dex
+SHA1-Digest: sPHLiSAivAmq0pg5oCLaGPEk2dU=
+
+Name: res/layout/main.xml
+SHA1-Digest: buAtucg8stYzWavGZGJ58VCZcNE=
+
+Name: assets/www/cordova.js
+SHA1-Digest: EFTj1MFfkBN7rcjiL1LsYwD9Iac=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: I3MP0NXnINH3Gb4a/IxI+nMF2mw=
+
+Name: res/drawable/icon.png
+SHA1-Digest: V29pfkn63ZKvWbMehv1gXLydfEg=
+
+Name: assets/www/icon.png
+SHA1-Digest: LYQmr8HijzctPHtXVhg1zqM3L8M=
+
+Name: res/drawable-ldpi/splash.png
+SHA1-Digest: uIOR0jSvRiSaoPBQyWTZBoXk9oA=
+
+Name: assets/www/images/icons-36-black.png
+SHA1-Digest: DGqbtw+P5PhIuHjyBMRH028+Ewk=
+
+Name: assets/www/css/jquery.mobile-1.2.0.min.css
+SHA1-Digest: OklpaeWyGOQ0hMhRdbqvQGE8NHc=
+
+Name: assets/www/images/icons-36-white.png
+SHA1-Digest: vIWVJEKtjCzYnYP40K7owpeZbWA=
+
+Name: assets/www/index.html
+SHA1-Digest: s4JfZOxj6jA66mDeMIsLP9h+Bj8=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: PWDzpt7zKvW/RSsPPsULYT/nBMc=
+
+Name: assets/www/positions.html
+SHA1-Digest: 76fLeXAeqpC79OPo3Y1GlIFeGwU=
+
+Name: assets/www/js/functions.js
+SHA1-Digest: gLfRKkIOI5whJ2Jb3uzbTK8rL74=
+

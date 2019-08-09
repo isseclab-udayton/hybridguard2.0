@@ -1,0 +1,330 @@
+<!DOCTYPE HTML>
+<html lang="en" manifest="webapp.manifest">
+
+<head>
+
+<title>Fort Vancouverville</title>
+
+    <link type="text/css" rel="stylesheet" href="fortgame.css" />
+
+	<!--Javascript link-->
+	<script language="JavaScript" type="text/javascript" src="game-medium.js">
+	</script>
+	
+	<script language="JavaScript" type="text/javascript">
+		window.onbeforeunload = function() {
+			return "If you leave this page, you will lose all game progress.";
+		}
+	</script>
+
+
+</head>
+
+<body>
+
+<!-- Begin Wrapper id-->
+<div id="wrapper">
+
+<header>
+<h1>Life of a Blacksmith</h1>
+</header>
+
+
+<!-- Section where all of the sounds are housed -->
+<section id="sound_section">
+<audio id="sound_fire" src="audio/kiln_sounds.mp3" preload="auto" autobuffer></audio>
+<audio id="sound_hammer" src="audio/hammering_sounds.mp3" preload="auto" autobuffer></audio>
+<audio id="sound_grinder" src="audio/grinding_sounds.mp3" preload="auto" autobuffer></audio>
+</section>
+
+
+
+<!--PURCHASE CATALOGUE DATA-->
+<table id="catalogue_data">
+	
+	<!--Table headers-->
+	<tr id="table_headers">
+	    <th class="item_column">Item</th>
+    	<th class="price_column">Price</th>
+		<th class="item_column">Item</th>
+    	<th class="price_column">Price</th>
+	</tr>
+	
+	<!--ROW 1-->
+	<tr>
+		<td class="item_column"><a href="#" id="p-book1" onclick="purchase_book()">Book</a></td>
+		<td class="price_column" id="p-book2">6</td>
+		<td class="item_column"><a href="#" id="p-silverware1" onclick="purchase_silverware()">Silverware</a></td>
+		<td class="price_column" id="p-silverware2">9</td>
+	</tr>
+	
+	<!--ROW 2-->
+	<tr>
+		<td class="item_column"><a href="#" id="p-candle1" onclick="purchase_candlestick()">Candlestick</a></td>
+		<td class="price_column" id="p-candle2">2</td>
+		<td class="item_column"><a href="#" id="p-china1" onclick="purchase_china()">Spode China Set</a></td>
+		<td class="price_column" id="p-china2">100</td>
+	</tr>
+	
+	<!--ROW 3-->
+	<tr>
+		<td class="item_column"><a href="#" id="p-pot1" onclick="purchase_pot()">Cast Iron Pot</a></td>
+		<td class="price_column" id="p-pot2">6</td>
+		<td class="item_column"><a href="#" id="p-stool1" onclick="purchase_stool()">Stool</a></td>
+		<td class="price_column" id="p-stool2">15</td>
+	</tr>
+	
+	<!--ROW 4-->
+	<tr>
+		<td class="item_column"><a href="#" id="p-chair1" onclick="purchase_chair()">Chair</a></td>
+		<td class="price_column" id="p-chair2">17</td>
+		<td class="item_column"><a href="#" id="p-bottles1" onclick="purchase_bottles()">Storage Bottles</a></td>
+		<td class="price_column" id="p-bottles2">7</td>
+	</tr>
+	
+	<!--ROW 5-->
+	<tr>
+		<td class="item_column"><a href="#" id="p-kettle1" onclick="purchase_kettle()">Copper Kettle</a></td>
+		<td class="price_column" id="p-kettle2">2</td>
+		<td class="item_column"><a href="#" id="p-chest1" onclick="purchase_chest()">Storage Chest</a></td>
+		<td class="price_column" id="p-chest2">50</td>
+	</tr>
+	
+	<!--ROW 6-->
+	<tr>
+		<td class="item_column"><a href="#" id="p-jug1" onclick="purchase_jug()">Jug</a></td>
+		<td class="price_column" id="p-jug2">3</td>
+		<td class="item_column"><a href="#" id="p-tumbler1" onclick="purchase_tumbler()">Tin Tumbler</a></td>
+		<td class="price_column" id="p-tumbler2">5</td>
+	</tr>
+	
+	<!--ROW 7-->
+	<tr>
+		<td class="item_column"><a href="#" id="p-ladle1" onclick="purchase_ladle()">Ladle</a></td>
+		<td class="price_column" id="p-ladle2">1</td>
+		<td class="item_column"><a href="#" id="p-comforter1" onclick="purchase_comforter()">Trade Blanket</a></td>
+		<td class="price_column" id="p-comforter2">10</td>
+	</tr>
+	
+	<!--ROW 8-->
+	<tr>
+		<td class="item_column"><a href="#" id="p-musket1" onclick="purchase_musket()">Musket</a></td>
+		<td class="price_column" id="p-musket2">22</td>
+		<td class="item_column"><a href="#" id="p-shelf1" onclick="purchase_shelf()">Wall Shelf</a></td>
+		<td class="price_column" id="p-shelf2">11</td>
+	</tr>
+	
+	<!--ROW 9-->
+	<tr>
+		<td class="item_column"><a href="#" id="p-horn1" onclick="purchase_horn()">Powder Horn</a></td>
+		<td class="price_column" id="p-horn2">5</td>
+		<td class="item_column"><a href="#" id="p-basin1" onclick="purchase_basin()">Wash Basin</a></td>
+		<td class="price_column" id="p-basin2">1</td>
+	</tr>
+	
+</table>
+
+<!-- All of these images are the items you can buy in the catalogue -->
+<div id="game_images">
+<img id="basin" src="images/640x960/objects/wash_basin.png" width="52" height="24" alt="A Wash Basin" />
+<img id="book" src="images/640x960/objects/book.png" width="42" height="20" alt="A Book" />
+<img id="bottles" src="images/640x960/objects/storage_bottles.png" width="59" height="22" alt="Storage bottles" />
+<img id="comforter" src="images/640x960/objects/comforter.png" width="128" height="106" alt="A Comforter" />
+<img id="candlestick" src="images/640x960/objects/candlestick.png" width="22" height="20" alt="A candlestick" />
+<img id="chair" src="images/640x960/objects/chair.png" width="110" height="143" alt="A Chair" />
+<img id="chest" src="images/640x960/objects/storage_chest.png" width="112" height="76" alt="A storage chest" />
+<img id="china1" src="images/640x960/objects/spode_bowls.png" width="42" height="24" alt="Some china" />
+<img id="china2" src="images/640x960/objects/spode_shelf.png" width="26" height="22" alt="Some china" />
+<img id="china3" src="images/640x960/objects/spode_plates.png" width="52" height="24" alt="Some china" />
+<img id="china4" src="images/640x960/objects/spode_kettle.png" width="31" height="15" alt="Some china" />
+<img id="horn" src="images/640x960/objects/powder_horn.png" width="51" height="38" alt="A powder horn" />
+<img id="jug" src="images/640x960/objects/jug.png" width="24" height="31" alt="A Jug" />
+<img id="kettle" src="images/640x960/objects/copper_kettle.png" width="28" height="18" alt="A copper kettle" />
+<img id="ladle" src="images/640x960/objects/ladle.png" width="13" height="63" alt="A Ladle" />
+<img id="musket" src="images/640x960/objects/musket.png" width="128" height="47" alt="A Musket" />
+<img id="pot" src="images/640x960/objects/cast_iron_pot.png" width="40" height="56" alt="A Pot" />
+<img id="rug" src="images/640x960/objects/rug.png" width="148" height="84" alt="A colorful rug" />
+<img id="shelf" src="images/640x960/objects/wall_shelf.png" width="157" height="19" alt="A Shelf" />
+<img id="silverware" src="images/640x960/objects/silverware.png" width="42" height="13" alt="Some Silverware" />
+<img id="stool" src="images/640x960/objects/stool.png" width="56" height="67" alt="A Stool" />
+<img id="tumbler" src="images/640x960/objects/tin_tumbler.png" width="14" height="12" alt="A small cup" />
+<img id="game_background" src="images/640x960/backgrounds/start_screen.jpg" width="640" height="400" alt="Game Background" />
+<img id="catalogue_background" src="images/640x960/backgrounds/catalogue_background.jpg" width="512" height="320" alt="" />
+</div>
+<!-- All of these images are the items you can buy in the catalogue -->
+
+
+<div id="work_click_areas">
+<a href="#" id="selector1_link" onclick="FireKiln()">
+<img id="selector1" src="images/game_variable_images/work_selector.png" width="100" height="100" />
+</a>
+
+<a href="#" id="selector2_link" onclick="HammerAnvil()">
+<img id="selector2" src="images/game_variable_images/work_selector.png" width="100" height="100" />
+</a>
+
+<a href="#" id="selector3_link" onclick="WorkDone()">
+<img id="selector3" src="images/game_variable_images/work_selector.png" width="100" height="100" />
+</a>
+</div>
+
+
+<section>
+
+	<p id="gametext">
+	Welcome! In Fort Vancouverville, you are James, an Orkney Islander who has just come to Fort Vancouver to
+	become an apprentice blacksmith. Andr&eacute Lachapelle, a blacksmith already at the fort, has taken you
+	under his wing, and will be training you for the years to come.
+	</p>
+	
+	<div id="button_div">
+		<button id="start_button" class="standard_buttons" onclick="StartGame()">Start Game</button>
+		<button id="work_button" class="standard_buttons" onclick="GoToWork()">Go To Work</button>
+		<button id="yes_button" class="standard_buttons" onclick="ChooseYes()">Yes</button>
+		<button id="home_button" class="standard_buttons" onclick="GoHome()">Go Home</button>
+		<button id="no_button" class="standard_buttons" onclick="ChooseNo()">No</button>
+		<button id="purchase_button" class="standard_buttons" onclick="OpenCatalogue()">Sale Shop</button>
+		<button id="purchaseDone_button" class="standard_buttons" onclick="CloseCatalogue()">Close Sale Shop</button>
+	</div>
+	
+	<div id="season_display">
+	<h2>Season</h2>
+	<div id="icons_div">
+	<img id="spring_icon" src="images/game_variable_images/spring.png" width="40" height="40" alt="spring" />
+	<img id="summer_icon" src="images/game_variable_images/blank.png" width="40" height="40" alt="summer" />
+	<img id="fall_icon" src="images/game_variable_images/blank.png" width="40" height="40" alt="fall" />
+	<img id="winter_icon" src="images/game_variable_images/blank.png" width="40" height="40" alt="winter" />
+	</div>
+	</div>
+	
+	<div id="money_display">
+	<img id="money_icon" src="images/game_variable_images/money.png" width="40" height="40" alt="money image" />
+	<p id="money_display_text">
+	 
+	</p>
+	</div>
+	
+	<div id="score_display">
+	<img id="score_icon" src="images/game_variable_images/score.png" width="40" height="40" alt="score image" />
+	<p id="score_display_text">
+	</p>
+	</div>
+	
+</section>
+<!-- Close Wrapper. Remember to properly nest you divs! -->
+</div>
+
+
+<!-- This entire section is for hidden variable nodes used in the game mechanics -->
+<section id="hidden_game_variables">
+
+<div id="total_score">0</div>
+<div id="current_season">14</div>
+<div id="yearly_pay">14</div>
+<div id="money">15</div>
+<div id="last_event">0</div>
+
+<!-- These divs keep track of which events have been encountered -->
+<div id="e1">0</div>
+<div id="e2">0</div>
+<div id="e3">0</div>
+<div id="e4">0</div>
+<div id="e5">0</div>
+<div id="e6">0</div>
+<div id="e7">0</div>
+<div id="e8">0</div>
+<div id="e9">0</div>
+<div id="e10">0</div>
+<div id="e11">0</div>
+<div id="e12">0</div>
+<div id="e13">0</div>
+<div id="e14">0</div>
+<div id="e15">0</div>
+<div id="e16">0</div>
+<div id="e17">0</div>
+<div id="e18">0</div>
+<div id="e19">0</div>
+<div id="e20">0</div>
+<div id="e21">0</div>
+<div id="e22">0</div>
+<div id="e23">0</div>
+<div id="e24">0</div>
+<div id="e25">0</div>
+<div id="e26">0</div>
+
+<!-- These divs keep track of which items have been bought -->
+<div id="i-book">0</div>
+<div id="i-candlestick">0</div>
+<div id="i-cast_iron_pot">0</div>
+<div id="i-chair">0</div>
+<div id="i-comforter">0</div>
+<div id="i-copper_kettle">0</div>
+<div id="i-jug">0</div>
+<div id="i-ladle">0</div>
+<div id="i-musket">0</div>
+<div id="i-powder_horn">0</div>
+<div id="i-rug">0</div>
+<div id="i-silverware">0</div>
+<div id="i-spode_china_set">0</div>
+<div id="i-stool">0</div>
+<div id="i-storage_bottles">0</div>
+<div id="i-storage_chest">0</div>
+<div id="i-tin_tumbler">0</div>
+<div id="i-wall_shelf">0</div>
+<div id="i-wash_basin">0</div>
+
+<!-- These divs keep track of the player's choices -->
+<div id="yes_choice">0</div>
+<div id="no_choice">0</div>
+
+<!-- These divs keep track of item created at work -->
+<div id="work_item">0</div>
+
+<!-- These divs keep track of the family's happiness -->
+<div id="family_happiness">9</div>
+<div id="wife_happiness">0</div>
+<div id="daughter_happiness">0</div>
+<div id="andre_happiness">0</div>
+
+<!-- These divs keep track of which AI messages have been displayed -->
+<div id="ai_flag1">0</div>
+<div id="ai_flag2">0</div>
+<div id="ai_flag3">0</div>
+<div id="ai_flag4">0</div>
+<div id="ai_flag5">0</div>
+<div id="ai_flag6">0</div>
+<div id="ai_flag7">0</div>
+<div id="ai_flag8">0</div>
+<div id="ai_flag9">0</div>
+<div id="ai_flag10">0</div>
+<div id="ai_flag11">0</div>
+<div id="ai_flag12">0</div>
+<div id="ai_flag13">0</div>
+<div id="ai_flag14">0</div>
+<div id="ai_flag15">0</div>
+<div id="ai_flag16">0</div>
+<div id="ai_flag17">0</div>
+<div id="ai_flag18">0</div>
+<div id="ai_flag19">0</div>
+<div id="ai_flag20">0</div>
+<div id="ai_flag21">0</div>
+<div id="ai_flag22">0</div>
+<div id="ai_flag23">0</div>
+<div id="ai_flag24">0</div>
+<div id="ai_flag25">0</div>
+
+<!-- These memory divs keep track of outcomes to key events -->
+<div id="decline_friend">0</div>
+<div id="fight_andre">1</div>
+<div id="hand_burn">0</div>
+<div id="son_sickness">0</div>
+<div id="wife_garden">0</div>
+<div id="dead_friend">0</div>
+<div id="hand_burn">0</div>
+
+
+</section>
+<!-- Closes the hidden_game_variables section -->
+
+</body>
+</html>

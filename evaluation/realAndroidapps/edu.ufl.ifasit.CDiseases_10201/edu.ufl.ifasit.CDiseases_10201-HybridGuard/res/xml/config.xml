@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="edu.ufl.ifasit.CDiseases" version="1.2.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <icon density="ldpi" src="res/android/drawable-ldpi/ic_launcher.png" />
+    <icon density="mdpi" src="res/android/drawable-mdpi/ic_launcher.png" />
+    <icon density="hdpi" src="res/android/drawable-hdpi/ic_launcher.png" />
+    <icon density="xhdpi" src="res/android/drawable-xhdpi/ic_launcher.png" />
+    <icon density="xxhdpi" src="res/android/cdiseases_icon_144x144.png" />
+    <icon density="xxxhdpi" src="res/android/cdiseases_icon_192x192.png" />
+    <splash density="land-hdpi" src="res/android/drawable-land-hdpi/splash.png" />
+    <splash density="land-ldpi" src="res/android/drawable-land-ldpi/splash.png" />
+    <splash density="land-mdpi" src="res/android/drawable-land-mdpi/splash.png" />
+    <splash density="land-xhdpi" src="res/android/drawable-land-xhdpi/splash.png" />
+    <splash density="land-xxhdpi" src="res/android/CDiseases_load_screen_1536x1152.png" />
+    <splash density="port-hdpi" src="res/android/drawable-port-hdpi/splash.png" />
+    <splash density="port-ldpi" src="res/android/drawable-port-ldpi/splash.png" />
+    <splash density="port-mdpi" src="res/android/drawable-port-mdpi/splash.png" />
+    <splash density="port-xhdpi" src="res/android/drawable-port-xhdpi/splash.png" />
+    <splash density="port-xxhdpi" src="res/android/splash_1152x1536.png" />
+    <name>NPDN Citrus Diseases</name>
+    <description> Citrus Diseases App is a symptom-based, illustrated identification guide that encompasses citrus diseases that are in the United States as well as those of immediate concern.
+</description>
+    <author email="help@ifas.ufl.edu" href="http://m.ifas.ufl.edu/m/apps_support/cdiseases/"> UF IFAS IT
+</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="auto-hide-splash-screen" value="false" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="8000" />
+    <param name="android-package" value="org.apache.cordova.SplashScreen" />
+</widget>

@@ -1,0 +1,83 @@
+h1 {
+	font-size: 14px;
+}
+
+.whiteButton, .redButton, .grayButton {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.toolbar > h1 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.smartphone-hidden {
+    display: none;
+}
+
+.tablet-hidden {
+    display: block;
+}
+
+.portrait #search {
+    height: auto;
+}
+
+#category {
+    width: 84%;
+}
+
+.vendor .info label {
+    display: none;
+}
+
+#vendor-details .info label {
+    display: block;
+}
+
+#vendor-details .info span {
+    padding-left: 10px;
+}
+
+#vendor-details h1 {
+	font-size: 18px;
+	text-align: center;
+}
+
+#search-form {
+    padding: 10px 0;
+}
+
+.top .buttons {
+	display: block;
+	width: 80%;
+	margin: 10px auto;
+}
+
+.top .info {
+	display: block;
+}
+
+.vendor-list li {
+	position: relative;
+}
+
+.vendor-list .map {
+	display: block;
+	float: right;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 25px;
+	right: 0;
+}
+
+
+.dropdown {
+	display: inline-block;
+	width: 20%;
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	padding: 10px 2px;
+}

@@ -1,0 +1,1279 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: assets/www/res/screen/ipad_retina_landscape.png
+SHA1-Digest: Vdn7v72redGtvf41Nnh+5npfM0k=
+
+Name: assets/www/RESOURCES/heritage_34_FO_C2757_720_720_74auto_d7c3f62
+ a4deb1816_c1.jpg
+SHA1-Digest: xKtLJyt7hkHHTpSBVWyyRQQzfq4=
+
+Name: assets/www/RESOURCES/heritage_15_BRU001005427_720_720_74auto_527
+ f679d9eca8680_c1.jpg
+SHA1-Digest: IPqJUmHBNLBCXwI3ofB9zsW7COY=
+
+Name: assets/www/RESOURCES/single_Concertgebouw2_720_720_74auto_c1.jpg
+SHA1-Digest: 3vFGJ/Fv4qeD503apk3J0tozSc4=
+
+Name: assets/www/RESOURCES/single_REP0034_720_720_74auto_c1.jpg
+SHA1-Digest: bX6UhtcXRcqu68GBqXhjsL/Qz+8=
+
+Name: assets/www/img/greenarrow.png
+SHA1-Digest: mZVYrg7HNlK0HkriMi0sVt22Qoo=
+
+Name: assets/www/RESOURCES/single_REP0004_720_720_74auto_c1.jpg
+SHA1-Digest: seQ7xj5tQX1IYaXibMrmSRXpx6E=
+
+Name: assets/www/RESOURCES/single_JanDHondt_007_720_720_74auto_c1.jpg
+SHA1-Digest: q0mBUIv3ss+QJRx1jyhikFRmFpw=
+
+Name: assets/www/RESOURCES/single_JanDHondt_078_720_720_74auto_c1.jpg
+SHA1-Digest: 9LJBX9UTwQlhZPQYZoQ5rdLaQOs=
+
+Name: assets/www/img/clock_large.png
+SHA1-Digest: Yn2C2xrQYfbhXlRR3W3+29akK8Y=
+
+Name: assets/www/img/addlocationbutton.png
+SHA1-Digest: Vyl/VrGUny2Kd4PRwf6PgUVUQKw=
+
+Name: assets/www/img/loading.gif
+SHA1-Digest: d2dMg5PlnIFXLvHj/UkHZfgGm1Q=
+
+Name: assets/www/RESOURCES/single_JanDHondt_407_720_720_74auto_c1.jpg
+SHA1-Digest: vwlfJFBy7fcIK3342F+YbpDzx1U=
+
+Name: assets/www/RESOURCES/single_STZ040908_04_720_720_74auto_c1.jpg
+SHA1-Digest: gvvh0DygMLIkvZ38p8MrT4ZOODc=
+
+Name: assets/www/img/pointer_heritage.png
+SHA1-Digest: EqqUF1hWCEV5KEnAVJC81TvCSRA=
+
+Name: assets/www/img/home_wishlist.png
+SHA1-Digest: HI5d1WfauYI0KVim5yut+HvG6ss=
+
+Name: assets/www/RESOURCES/single_JanDhondt_505_720_720_74auto_c1.jpg
+SHA1-Digest: tg/hRdFzjDit6LarugMkuNJRWio=
+
+Name: assets/www/RESOURCES/heritage_013PatrickMonney5_720_720_74auto_c
+ 1.jpg
+SHA1-Digest: SjrMI6zFZlVOm/M519ktWGepiso=
+
+Name: assets/www/RESOURCES/single_WijnbarEST_LiveMusic_720_720_74auto_
+ c1.jpg
+SHA1-Digest: WXTueyn37284yIOD5snz+1X1fQM=
+
+Name: assets/www/HERITAGEMAPS/first/1402.jpg
+SHA1-Digest: dIv+oz83nUG0pMPdscNf0xWi/Ug=
+
+Name: assets/www/js/language.js
+SHA1-Digest: hhrZyWddJ1KO5p+uZNkqz4uN5A4=
+
+Name: assets/www/RESOURCES/single_REP0243_720_720_74auto_c1.jpg
+SHA1-Digest: 9P8kh5bn1rch1HTu+b+PuSGIa8g=
+
+Name: assets/www/img/pointer_hotels.png
+SHA1-Digest: mtItr1CJWWRgcw47JGm32SXzzL0=
+
+Name: assets/www/RESOURCES/single_JanDHondt_017_720_720_74auto_c1.jpg
+SHA1-Digest: spXb6YY/o4hG+WyzP79k/OfFVRE=
+
+Name: assets/www/HERITAGEMAPS/first/1469.jpg
+SHA1-Digest: rUQnxmBWv2BLncjc2LygPo8XmgA=
+
+Name: assets/www/img/icon_romance.png
+SHA1-Digest: EZc3xb0Jdky0ieBHg4JuNDEclmY=
+
+Name: assets/www/RESOURCES/heritage_25_mannenmethelm1_720_720_74auto_f
+ acffd7d48a7e53c_c1.jpg
+SHA1-Digest: 8TaIqLHglmhSmq7Nv/+WEkF0iec=
+
+Name: assets/www/img/h_videobutton.png
+SHA1-Digest: B7ArRw5vcJ/l/F0ieiXszgTZsnM=
+
+Name: assets/www/HERITAGEMAPS/locaties/1470.jpg
+SHA1-Digest: ZAHofo01cMaNwWxrJUD7OxWgbSk=
+
+Name: assets/www/RESOURCES/single_GEB090605_02_720_720_74auto_c1.jpg
+SHA1-Digest: d4ftvB11DQ6ynUAndE1hobNVGHM=
+
+Name: assets/www/RESOURCES/video5.mp4
+SHA1-Digest: +hN/69SMe2kPI4WQZucs8Q3k44o=
+
+Name: assets/www/res/icon/cordova_128.png
+SHA1-Digest: g+kxwSaoAuTn5iJW6S3bhzKFfKk=
+
+Name: assets/www/RESOURCES/single_JanDHondt_121_720_720_74auto_c1.jpg
+SHA1-Digest: 7/NMELSZKkqL14fgH9gbn0YEw+M=
+
+Name: assets/www/RESOURCES/single_JanDHondt_067_720_720_74auto_c1.jpg
+SHA1-Digest: pG+6pZ0G2RZjF71mWcBR+b7UaQU=
+
+Name: assets/www/RESOURCES/single_JanDHondt_005_720_720_74auto_c1.jpg
+SHA1-Digest: nXsvRl4+560QsP/eEtIBVT/vpqE=
+
+Name: assets/www/res/icon/cordova_bb_80.png
+SHA1-Digest: yV1McRBpG7jdmEdO+ysY84ER5xE=
+
+Name: assets/www/RESOURCES/single_JanDhondt_143_720_720_74auto_c1.jpg
+SHA1-Digest: xE+0y5WsO23z5nZnmjjzqMg9BEg=
+
+Name: assets/www/js/photo.js
+SHA1-Digest: 3OSkcCw+2fmGIMBOXvk63jwaSRM=
+
+Name: assets/www/RESOURCES/single_JanDHondt_062_720_720_74auto_c1.jpg
+SHA1-Digest: FvvqvHJAQZVyQtio9vdFLkxGl44=
+
+Name: assets/www/RESOURCES/single_REP0044_720_720_74auto_c1.jpg
+SHA1-Digest: Pr8dicTJ6LMesSEYEnP5A4OILOA=
+
+Name: assets/www/img/location.png
+SHA1-Digest: yEwfva/LOIj0wjD53M1f5TLR4WU=
+
+Name: assets/www/RESOURCES/single_MUS040224_01_720_720_74auto_c1.jpg
+SHA1-Digest: h8wWk9UVallsGobsVmGMw/ZJYqk=
+
+Name: assets/www/RESOURCES/single_JanDHondt_473_720_720_74auto_c1.jpg
+SHA1-Digest: 0srld0+ERfqnQslmW/mNX6K4jW8=
+
+Name: assets/www/RESOURCES/heritage_ERF121009_04_720_720_74auto_c1.jpg
+SHA1-Digest: 1Y921fzr8+ZzV/Ijg5h16WswVY8=
+
+Name: assets/www/RESOURCES/single_JanDHondt_025_720_720_74auto_c1.jpg
+SHA1-Digest: clOl/f2uqOlB+jrjEQMgLsxUZEA=
+
+Name: assets/www/img/wifi_bg.png
+SHA1-Digest: UMc1hAwkYLF6hOcucc2lq5r9hzk=
+
+Name: assets/www/img/pointer_hotels_2.png
+SHA1-Digest: 3BI+79BD8AubhRiedty0ypHBIZk=
+
+Name: assets/www/res/screen/iphone_retina_landscape.png
+SHA1-Digest: 4sZQlzxwQlx8Dn/6pfOYxVs5TBI=
+
+Name: assets/www/RESOURCES/single_JanDHondt_074_720_720_74auto_c1.jpg
+SHA1-Digest: cNY6LWI5UYn7sU8qQKaXF7JWFEo=
+
+Name: assets/www/RESOURCES/single_JanDHondt_150_720_720_74auto_c1.jpg
+SHA1-Digest: VS32aR1S7aH9Bp9xUKqgEyRz610=
+
+Name: assets/www/img/wishlist_bg.png
+SHA1-Digest: 2iranZ6jTXe5B2KIMGuGEzZ+H9A=
+
+Name: assets/www/RESOURCES/single_JanDHondt_013_720_720_74auto_c1.jpg
+SHA1-Digest: 63YtKe8DSnVOJBbAxI2SZ34wgnA=
+
+Name: assets/www/js/weather.js
+SHA1-Digest: BbTNqS1BkAqRt7XgDrrurIipyQk=
+
+Name: assets/www/img/h_infobutton.png
+SHA1-Digest: 5RquBG81ctgrpiXxyttby3FTTWc=
+
+Name: assets/www/img/pinkarrow.png
+SHA1-Digest: Apu8vKz4fmJxKUB0vSTN0SM8Usw=
+
+Name: assets/www/res/screen/ipad_portrait.png
+SHA1-Digest: ljfGDwePC5jFlsFBIRoiN+E1Zc4=
+
+Name: assets/www/RESOURCES/single_JanDHondt_021_720_720_74auto_c1.jpg
+SHA1-Digest: rn1kGCRwX5sTFsDtaMAjYGniZFQ=
+
+Name: assets/www/res/screen/iphone_retina_portrait.png
+SHA1-Digest: 4MAZxvzzYXLRdpnBg55WEgNKIh4=
+
+Name: assets/www/res/icon/cordova_ios_144.png
+SHA1-Digest: 3A2zDJxCP9FqmIX61BsBwuTDCxk=
+
+Name: assets/www/res/icon/cordova_64.png
+SHA1-Digest: lq6Qq36I6WwkpWQ/WUoCV1p74b0=
+
+Name: assets/www/res/icon/cordova_ios_114.png
+SHA1-Digest: z724/LJ5WwVZ5Gqd6iuY2ZLirl0=
+
+Name: assets/www/RESOURCES/heritage_36_speeltrommelbeiaard_720_720_74a
+ uto_5f2c39deffe2d543_c1.jpg
+SHA1-Digest: JTvE/B148eiqoRmuPwKqnZWfHts=
+
+Name: assets/www/img/languagescreen_bg.png
+SHA1-Digest: BmlPYNhqaID/jozM1YeUyK5AM78=
+
+Name: assets/www/RESOURCES/heritage_7_BRU001022707_720_720_74auto_d7c3
+ f62a4deb1816_c1.jpg
+SHA1-Digest: coUHVcL2a9jGtf+iBZfSjEbNsVM=
+
+Name: assets/www/RESOURCES/heritage_29_trouwfotovroeger_720_720_74auto
+ _73f269f63231d99d_c1.jpg
+SHA1-Digest: j/CfFZCRmGSd2XcpCkyR2X1PYhc=
+
+Name: assets/www/img/weather/little_rain.png
+SHA1-Digest: StQJhaOYGTGvN+RjssmN302kg8U=
+
+Name: assets/www/img/clock.png
+SHA1-Digest: oCz6QqCUXFiehgHf/f7P42pG2Yo=
+
+Name: assets/www/img/orangearrow.png
+SHA1-Digest: yNr9Jbf+Vu888wSQKps4yltdNwc=
+
+Name: assets/www/RESOURCES/single_Polders14_720_720_74auto_c1.jpg
+SHA1-Digest: yYnEsWOznnDWTKzgxc4Bli6HV1s=
+
+Name: assets/www/RESOURCES/single_REP0157_720_720_74auto_c1.jpg
+SHA1-Digest: lIYzPrgF003yBQ1KEdatB4q8rQE=
+
+Name: assets/www/img/icon_culture.png
+SHA1-Digest: F2J6y2WkHNnX4vGW+b+dtvJylQ8=
+
+Name: assets/www/img/pointer_food_2.png
+SHA1-Digest: HO9v8jCXBvnfcRE0/WT5mkNRqCQ=
+
+Name: assets/www/RESOURCES/single_JanDHondt_349_720_720_74auto_c1.jpg
+SHA1-Digest: V6qXPxQKAE0i0SSWJ7UczF4cJUg=
+
+Name: assets/www/RESOURCES/single_REP0150_720_720_74auto_c1.jpg
+SHA1-Digest: gXQKfpvRJorKPhTHhYSbMRLmoQw=
+
+Name: res/drawable-xhdpi/ic_action_search.png
+SHA1-Digest: WzSVDDIHZpn0cFeuxgKRJete4TU=
+
+Name: assets/www/RESOURCES/single_7_BRU001022707_720_720_74auto_c1.jpg
+SHA1-Digest: ni4LLmhJwM2P7YHiESZ/r+8EfTs=
+
+Name: assets/www/RESOURCES/heritage_47_MG_Spanjaardstraat_3_720_720_74
+ auto_30c605894a3f4015_c1.jpg
+SHA1-Digest: FbPtWGK3ZckCi4C1hpoZrXP8myY=
+
+Name: assets/www/RESOURCES/single_JanDHondt_002_720_720_74auto_c1.jpg
+SHA1-Digest: 3YabtRwsmQJlUoMUF45HHU1oNZU=
+
+Name: assets/www/img/pointer_personal_2.png
+SHA1-Digest: ESaLCPfOqkfykthmwJPDFvNxzo0=
+
+Name: assets/www/RESOURCES/heritage_35_BRU001016211_720_720_74auto_6f9
+ 7e08ae3ee45f6_c1.jpg
+SHA1-Digest: wrBJlcyPe4CXqAmyhwR/WCaKgUc=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: 9ImXQKJG7iYpnfkq4NipRVqyN4I=
+
+Name: assets/www/js/video.js
+SHA1-Digest: W3xSglHVhP9O//UogVhJS8FxM3A=
+
+Name: assets/www/RESOURCES/video3.mp4
+SHA1-Digest: aGlQbfuYhbW2418IGEIoYkQDbiw=
+
+Name: assets/www/HERITAGEMAPS/locaties/1469.jpg
+SHA1-Digest: TvD+Qkv4a7s1qnrLQ+wkFn8TS2I=
+
+Name: assets/www/RESOURCES/heritage_018P.Monney3_720_720_74auto_c1.jpg
+SHA1-Digest: mR0GDZXsBBcbneNtB7Spu/5R+O8=
+
+Name: assets/www/RESOURCES/single_lokkedize2_720_720_74auto_c1.jpg
+SHA1-Digest: eaACdItKQKRblQxgl5FKUVM22Xs=
+
+Name: assets/www/RESOURCES/single_REP0440_720_720_74auto_c1.jpg
+SHA1-Digest: zckuTGiJhUgsPNnim7wcLUbWUTc=
+
+Name: assets/www/img/arrow3.png
+SHA1-Digest: zvBT3dQKWIPPzUvf/Pg7wZPxRig=
+
+Name: assets/www/img/weather/heavy_rain.png
+SHA1-Digest: Qh/Q+EkhQdzdd/Qft3zURBfObMo=
+
+Name: assets/www/res/icon/cordova_android_36.png
+SHA1-Digest: XTzlY9RiHgdmc46DOXda0FCKGGg=
+
+Name: assets/www/RESOURCES/single_JanDHondt_452_720_720_74auto_c1.jpg
+SHA1-Digest: /cdcSPJEDnO3YLqvlIOp+e4W/AY=
+
+Name: assets/www/img/weather/night.png
+SHA1-Digest: 7m8qxn03VGq+tXUNfNJrUD93O2Q=
+
+Name: assets/www/RESOURCES/heritage_18_MG_jeruzalemkapel_3_720_720_74a
+ uto_30c605894a3f4015_c1.jpg
+SHA1-Digest: t2neCGHuTpaLwJLPUHNryhTBMVA=
+
+Name: assets/www/HERITAGEMAPS/locaties/1401.jpg
+SHA1-Digest: lw9HwW3iN0E6sxCfp6T66kV1TJE=
+
+Name: assets/www/img/weather/night_cloudy.png
+SHA1-Digest: YdFK5uDTe4na9rtpdKOdevGo3UA=
+
+Name: assets/www/RESOURCES/single_JanDHondt_448_720_720_74auto_c1.jpg
+SHA1-Digest: x7X11fsK2LRUhza36lq6v397ps8=
+
+Name: assets/www/RESOURCES/single_JanDHondt_438_720_720_74auto_c1.jpg
+SHA1-Digest: KRA7T6jmcPU8nd83EcyFxcZ3N/s=
+
+Name: assets/www/RESOURCES/single_JanDHondt_001_720_720_74auto_c1.jpg
+SHA1-Digest: ra28vyTYJC3OJ7rM/GO0r8VZNBk=
+
+Name: assets/www/RESOURCES/single_JanDHondt_008_720_720_74auto_c1.jpg
+SHA1-Digest: BV2vdFZqcecvKN3WdAXNOXAuKXk=
+
+Name: assets/www/RESOURCES/single_locatie_boudewijnseapark_720_720_74a
+ uto_c1.jpg
+SHA1-Digest: vTK+c4VHRSihwbPT1yI6btBwgBY=
+
+Name: assets/www/js/iscroll-lite.js
+SHA1-Digest: eZ9PqmCjFOYlcTeEODUPee4eUHs=
+
+Name: assets/www/RESOURCES/heritage_40_BRU001005328_720_720_74auto_d7c
+ 3f62a4deb1816_c1.jpg
+SHA1-Digest: SNbKefgsQxdU5+5NKUAHA1i/4MY=
+
+Name: assets/www/img/deletebutton.png
+SHA1-Digest: 91nJiUjJcGnCo4Bgy9lTEpLMbKc=
+
+Name: assets/www/res/icon/cordova_ios_57.png
+SHA1-Digest: 8dXWm2dJ9iZ8Q+FjhPrSPlxnDDk=
+
+Name: assets/www/RESOURCES/heritage_13_MG_Karmelietenklooster-Carmerss
+ traat2_3_720_720_74auto_30c605894a3f4015_c1.jpg
+SHA1-Digest: VTae/CgrixRYBB/Dz4hniYGhnWc=
+
+Name: assets/www/RESOURCES/heritage_31_cWolfenWolf_720_720_74auto_b0e8
+ f80be5216cee_c1.jpg
+SHA1-Digest: lxckr3zwJGO/C7rWfraMvyAM3e0=
+
+Name: assets/www/RESOURCES/heritage_43_GEB120717_01_720_720_74auto_5f2
+ c39deffe2d543_c1.jpg
+SHA1-Digest: JpSTGC/y4HmMnxAswyRUZhqQv7U=
+
+Name: assets/www/RESOURCES/single_JanDHondt_468_720_720_74auto_c1.jpg
+SHA1-Digest: dwLqTqzgRDlfceDp/565YRWibZw=
+
+Name: assets/www/RESOURCES/single_REP0257_720_720_74auto_c1.jpg
+SHA1-Digest: XCe3mrdDiYAWfC5/HmnOluyVQMg=
+
+Name: assets/www/res/icon/cordova_32.png
+SHA1-Digest: UBiCIIzuNvLVkY8NsAQdTjiGkiM=
+
+Name: assets/www/img/shadow.png
+SHA1-Digest: 9V4uax9L9sELZgBEK2Br0x/DVNU=
+
+Name: assets/www/RESOURCES/single_REP0368_720_720_74auto_c1.jpg
+SHA1-Digest: Z4OIiUzszqyrLjwFytCUU0csYAs=
+
+Name: assets/www/img/addbutton.png
+SHA1-Digest: TnRayeh2Nbqiwlx9Jo2EWuWAwt0=
+
+Name: assets/www/RESOURCES/single_JanDhondt_139_720_720_74auto_c1.jpg
+SHA1-Digest: MNiMj/5I6/4GrQpfrGxs3qQnBvI=
+
+Name: assets/www/RESOURCES/single_REP0201_720_720_74auto_c1.jpg
+SHA1-Digest: wPYG3ZQsyqv9L0tvjQT53dOpYO8=
+
+Name: assets/www/img/icon_food_white.png
+SHA1-Digest: p5H0F1P77yjKJ1XxLbcPoLwMfXk=
+
+Name: assets/www/RESOURCES/single_REP0223_720_720_74auto_c1.jpg
+SHA1-Digest: d6HPGFDAsztj4dH1ZlsQgFmUMIs=
+
+Name: assets/www/img/smallpricetag.png
+SHA1-Digest: sO30fUBg2JdWnSNVyJGo1X8nD8g=
+
+Name: assets/www/img/pointer_nature.png
+SHA1-Digest: vVAd983inhRBi2Pobn5dD/vqgz0=
+
+Name: assets/www/RESOURCES/heritage_ERF071203_065_720_720_74auto_c1.jp
+ g
+SHA1-Digest: B12h9dxkYaOey1D+9GWknhFOqB8=
+
+Name: assets/www/img/border.png
+SHA1-Digest: ksMR5WE5SIw0XApoQHThYwT3hC0=
+
+Name: assets/www/RESOURCES/single_CUL210402_18_720_720_74auto_c1.jpg
+SHA1-Digest: hhp4FAyx7u72OHDGKgUeBnyj42I=
+
+Name: assets/www/img/weather/sunshine.png
+SHA1-Digest: Jl5jsATRQ357wwm6hW6OmNh2rPc=
+
+Name: assets/www/img/icon_heritage.png
+SHA1-Digest: WCuUC94esSCiNcYN/WZgHFZxwsU=
+
+Name: assets/www/HERITAGEMAPS/locaties/1471.jpg
+SHA1-Digest: RUfMqSqq0Y+r1AOHaPasSaJ29eY=
+
+Name: assets/www/RESOURCES/single_JanDHondt_488_720_720_74auto_c1.jpg
+SHA1-Digest: Lqb4gaAqtZsTwsoVDeiRVOQLQTE=
+
+Name: assets/www/RESOURCES/single_JanDhondt_512_720_720_74auto_c1.jpg
+SHA1-Digest: PF/TXSpqU3It4zYaLSpNCqjAOxQ=
+
+Name: assets/www/img/home_food.png
+SHA1-Digest: HNwf7xtYziLoZi0rT4tpn+fbsdA=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: fh3bRnS4IWZsMb3r44eb2Jt/bv4=
+
+Name: assets/www/RESOURCES/single_Historium0_720_720_74auto_c1.jpg
+SHA1-Digest: OnAQAx/aSeYo/qdQ6vLi8Xky1i0=
+
+Name: assets/www/RESOURCES/single_westtoer_strandZB_720_720_74auto_c1.
+ jpg
+SHA1-Digest: zJBcGedEzVgbvCclg013CTbY034=
+
+Name: assets/www/css/index.css
+SHA1-Digest: x7X1P5VoGfu/hPTCXTHyI6fA3eg=
+
+Name: assets/www/API/api.json
+SHA1-Digest: I2ZQnjjTdeYtU5y6wvXL9eGUB3w=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 2PTXSEmb7Gx4GZYL79fUQzoHHo8=
+
+Name: assets/www/img/pointer_personal.png
+SHA1-Digest: LY6KcFh2lwGhcf+rdxnfrg9dhDg=
+
+Name: assets/www/RESOURCES/single_JanDHondt_443_720_720_74auto_c1.jpg
+SHA1-Digest: 2ZeqmUsSWe9nLcejvmeLVc9DR7Y=
+
+Name: assets/www/js/data.js
+SHA1-Digest: iTAK4zGMt7sDqIRkWs1dqr9Wm0E=
+
+Name: assets/www/RESOURCES/single_JanDHondt_123_720_720_74auto_c1.jpg
+SHA1-Digest: m0FeaJWxywDq3plhjsutdS52f3I=
+
+Name: assets/www/img/price.png
+SHA1-Digest: 5NFcl64UmhQK32zx7lkiYrsw5I4=
+
+Name: assets/www/img/side_arrow.png
+SHA1-Digest: 2DlP7N1ZVBGhhShh5rZaqLN74u0=
+
+Name: assets/www/RESOURCES/heritage_11_FO_E_0224_720_720_74auto_d7c3f6
+ 2a4deb1816_c1.jpg
+SHA1-Digest: c6nP+LOmQamDYSeK1qKiKs2LHjI=
+
+Name: assets/www/RESOURCES/single_JanDhondt_145_720_720_74auto_c1.jpg
+SHA1-Digest: yce7saT/MU1LQ6GIy3vNp9aXAQI=
+
+Name: assets/www/RESOURCES/single_ERF121009_02_720_720_74auto_c1.jpg
+SHA1-Digest: 1wr0S2ypGwPhJTZpjCtBc+nj/eg=
+
+Name: assets/www/img/cordova.png
+SHA1-Digest: 0fQz+aKXX8MbCT9t4Ay/19Bi9PE=
+
+Name: assets/www/RESOURCES/single_REP0242_720_720_74auto_c1.jpg
+SHA1-Digest: VhNU20ne+z7uEnKs1Lzk1bAzrwU=
+
+Name: classes.dex
+SHA1-Digest: qhjcWLb7XdtNlu0R/CmP/Mcz8uM=
+
+Name: assets/www/HERITAGEMAPS/first/1401.jpg
+SHA1-Digest: jb1VU6KcGhBTL/8fDof3l86xc1Y=
+
+Name: assets/www/RESOURCES/heritage_ERF121009_05_720_720_74auto_c1.jpg
+SHA1-Digest: 5t3MwgVcpcWZVhGQWkoOztV2wtk=
+
+Name: assets/www/img/icon_food.png
+SHA1-Digest: L3oCjQRYKrHTiOpeAjBsBwxiK1E=
+
+Name: assets/www/RESOURCES/single_rose_red__720_683_74auto_c1.jpg
+SHA1-Digest: LUwYNgPPtf/dLXlwr2LI1wocnLI=
+
+Name: assets/www/img/home_weather.png
+SHA1-Digest: aRRQ02la61YKpjRgCYkooCY1Zx4=
+
+Name: assets/www/js/jquery-noclickdelay.js
+SHA1-Digest: 5Zn3QRKQb5YbQ+nmHk8kacB24xk=
+
+Name: assets/www/RESOURCES/single_JanDHondt_422_720_720_74auto_c1.jpg
+SHA1-Digest: 5b/21MGsl0ytYQj9ic2L4d8iaQs=
+
+Name: assets/www/js/cordova-2.2.0.js
+SHA1-Digest: kyTrXJOiiyY57EXAnso5aKaYjXs=
+
+Name: assets/www/RESOURCES/single_brugge18DDK_720_720_74auto_c1.jpg
+SHA1-Digest: tYxBRU9UihBuNEfdrTgaQLWDbbo=
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: F//4mViD/QVuBqCkjwjCzCPVxTo=
+
+Name: res/drawable-mdpi/ic_action_search.png
+SHA1-Digest: XjltJdEB3tvakTn9CN7KwdaNT68=
+
+Name: assets/www/res/screen/android_mdpi_landscape.png
+SHA1-Digest: Xjxr93GAHx73ap+hkm6lRrQ6Mg4=
+
+Name: assets/www/RESOURCES/heritage_38_MG_Sint-Jacobskerk_3_720_720_74
+ auto_30c605894a3f4015_c1.jpg
+SHA1-Digest: pW8L7nirRGq/7n6Wk4UYKoQZwwI=
+
+Name: assets/www/js/touchscroll.js
+SHA1-Digest: chZ/hDvYdp41XiwhWgAk+s0DETE=
+
+Name: assets/www/RESOURCES/heritage_41_coverdvd_291_251_74auto_1021ef0
+ 6562769b2_c1.jpg
+SHA1-Digest: P4POpsfImsxJv2sHYAacg290wvs=
+
+Name: assets/www/js/gmap3.js
+SHA1-Digest: L1s67goGhzZcT9CGxkps3Hc60PU=
+
+Name: assets/www/res/screen/android_ldpi_landscape.png
+SHA1-Digest: AcNs0XMzMsraAw3kaXIfIHvAQhQ=
+
+Name: assets/www/RESOURCES/heritage_44_MG_Pottenmakersstraat_3_720_720
+ _74auto_30c605894a3f4015_c1.jpg
+SHA1-Digest: FWyJNtmII5OrgN3nt3mMO9KQ2kE=
+
+Name: assets/www/RESOURCES/heritage_27_DSCN1236_720_720_74auto_facffd7
+ d48a7e53c_c1.jpg
+SHA1-Digest: kbc5qGdCOmEl/0KNxGvCA57dPIg=
+
+Name: assets/www/js/content.js
+SHA1-Digest: ewWy7FF1hTRWPIZQDR5evB6/HGw=
+
+Name: assets/www/RESOURCES/heritage_ERF121009_01_720_720_74auto_c1.jpg
+SHA1-Digest: 31n7lDhNvMcVjImui+2dEwHVAxI=
+
+Name: assets/www/RESOURCES/single_REP0276_720_720_74auto_c1.jpg
+SHA1-Digest: CH1K6T4tUEVOYUIXvBhpcfSSRoA=
+
+Name: assets/www/img/home_walk_2.png
+SHA1-Digest: 1ElD4WmSj2rdm5dTSXYgVKcNeT8=
+
+Name: assets/www/RESOURCES/single_JanDhondt_506_2_720_720_74auto_c1.jp
+ g
+SHA1-Digest: X79SkBOWtVKUnf21dkwwkqX0bnA=
+
+Name: assets/www/RESOURCES/single_STZ040909_03_720_720_74auto_c1.jpg
+SHA1-Digest: va1cXplzgFVxgau3OOY+k5WiBX8=
+
+Name: assets/www/res/screen/blackberry_transparent_400.png
+SHA1-Digest: 7w/+zPSfqxDG7CqESXaj6QGxGmk=
+
+Name: assets/www/RESOURCES/heritage_23_FOA4915_720_650_74auto_8637bb77
+ dee36cd3_c1.jpg
+SHA1-Digest: LTpHS7Ah5pGbdzrz/C/l+77CIB8=
+
+Name: assets/www/img/trash.png
+SHA1-Digest: YE3lOmV0FuAL8TsdgTNGIaZod0c=
+
+Name: assets/www/RESOURCES/single_REP0258_720_720_74auto_c1.jpg
+SHA1-Digest: 8i3qoUROwv1dsTsE57HdXAVsCgY=
+
+Name: assets/www/img/home_walk.png
+SHA1-Digest: b+k1foxBP7B5faRDc4LWvY8Rc3A=
+
+Name: assets/www/res/screen/windows_phone_portrait.jpg
+SHA1-Digest: ROj1mWWCKoOqB8YTS/dhD26txI4=
+
+Name: assets/www/RESOURCES/heritage_39_FOA4468_720_720_74auto_8637bb77
+ dee36cd3_c1.jpg
+SHA1-Digest: WoSsrjpgsQyuMuSZWrQ4q93ocTk=
+
+Name: assets/www/HERITAGEMAPS/first/1471.jpg
+SHA1-Digest: gpZa5Vhw7WTA3RqZw7zAR8tQXoE=
+
+Name: assets/www/RESOURCES/single_JanDhondt_149_720_720_74auto_c1.jpg
+SHA1-Digest: XN0EHs+qPVsj8e7hFx5J7wvd89o=
+
+Name: assets/www/index.html
+SHA1-Digest: Ub+sm/hgLP189WubWk/PeX2GhJQ=
+
+Name: assets/www/RESOURCES/heritage_2_werkbrody1_720_720_74auto_657b13
+ 2a4c6410d5_c1.jpg
+SHA1-Digest: 5Jk/OQmJZIOMZijP7/8PbTia3uY=
+
+Name: assets/www/HERITAGEMAPS/locaties/1402.jpg
+SHA1-Digest: sduVt2AKAUGfMe9de4h5a1K3AjQ=
+
+Name: assets/www/HERITAGEMAPS/locaties/1404.jpg
+SHA1-Digest: DJtaU2rlkzu2LicS5fD5IDNo0iU=
+
+Name: assets/www/img/heritage_arrow.png
+SHA1-Digest: ItQjKHm/88FZ1bXbPFvpuYHqSaA=
+
+Name: assets/www/img/arrow.gif
+SHA1-Digest: nGno5N7RjBJNBaT90SSdaeloL/U=
+
+Name: assets/www/RESOURCES/single_JanDHondt_063_720_720_74auto_c1.jpg
+SHA1-Digest: INGXTcu2uZllwYQ7nTBA9TzJ/sU=
+
+Name: assets/www/img/h_fotobutton.png
+SHA1-Digest: 9oJu+J5+zv/eMpW0bFihfcqsOiQ=
+
+Name: assets/www/RESOURCES/single_DSC_3255_720_720_74auto_c1.jpg
+SHA1-Digest: NkKw8a44TvDOv63DRfvPcetDcaI=
+
+Name: assets/www/RESOURCES/heritage_33_MG_Markt2_3_720_720_74auto_30c6
+ 05894a3f4015_c1.jpg
+SHA1-Digest: +ddCTVE/ur6ev2TlXs0FjYOwUJw=
+
+Name: assets/www/RESOURCES/single_JanDHondt_069_720_720_74auto_c1.jpg
+SHA1-Digest: 9pTy0KwRVTYMf+lGA04rdl3YeKg=
+
+Name: assets/www/js/filter.js
+SHA1-Digest: /NORo34GlrfMMfMEi5TXaTW4WbA=
+
+Name: assets/www/RESOURCES/single_REP0297_720_720_74auto_c1.jpg
+SHA1-Digest: 6cwgugIxxZvOngnlMBlO9OWzt8Q=
+
+Name: assets/www/img/purplearrow.png
+SHA1-Digest: fQQVkAQwJoRoEbRQ++D4PtTbmQw=
+
+Name: assets/www/img/pointer_romance.png
+SHA1-Digest: Hx41FXbEls9E5WgC/Hh5NlJr9AM=
+
+Name: assets/www/RESOURCES/single_JanDHondt_433_720_720_74auto_c1.jpg
+SHA1-Digest: OoCzT6USM3xJOwmnPz8bIF8511k=
+
+Name: assets/www/RESOURCES/single_DSC_0039_bg_lr_720_536_74auto_c1.jpg
+SHA1-Digest: SrLznVyjXvYlnu+uAbhDcTgwkU4=
+
+Name: assets/www/RESOURCES/single_JanDhondt_141_720_720_74auto_c1.jpg
+SHA1-Digest: wJNCq4cxayhcbhmVnsBVuHIfjlE=
+
+Name: assets/www/img/icon_hotels.png
+SHA1-Digest: iMoYX5avusI2qYcT1OBIHT7/iYA=
+
+Name: assets/www/RESOURCES/single_Brangwynmuseum_ext_720_720_74auto_c1
+ .jpg
+SHA1-Digest: 6e6eJS6by+G9Ky3xpVJddgd3yaI=
+
+Name: assets/www/RESOURCES/single_45_BRU001003635_720_720_74auto_c1.jp
+ g
+SHA1-Digest: lkZBoX4hnzJxLBG9S8YFs4tT4Co=
+
+Name: assets/www/RESOURCES/single_GRO051122_10_720_720_74auto_c1.jpg
+SHA1-Digest: Dn8GIGwaPw6DvpwDznlU6JMVGT8=
+
+Name: assets/www/res/screen/iphone_landscape.png
+SHA1-Digest: LdrsKQbUCeGQZxDSst+kTY4IKCg=
+
+Name: res/xml/config.xml
+SHA1-Digest: oYaZEFPCBZbkIb/hdUDwUzUGRGw=
+
+Name: assets/www/RESOURCES/single_ERF121009_06_720_720_74auto_c1.jpg
+SHA1-Digest: Z2eHnYqJHuxYpc9570THhK/JpzQ=
+
+Name: assets/www/RESOURCES/single_JanDhondt_132_720_720_74auto_c1.jpg
+SHA1-Digest: LTjjgEXMKGck80X6IalbeRkqdb8=
+
+Name: assets/www/RESOURCES/heritage_4_FOA6131_720_720_74auto_8637bb77d
+ ee36cd3_c1.jpg
+SHA1-Digest: 4EcKr44M/v4y/weOLAt5wfyMFs8=
+
+Name: assets/www/RESOURCES/single_JanDhondt_513_720_720_74auto_c1.jpg
+SHA1-Digest: lNPqU5TW/ZTO0VUTsWyffcY+XpM=
+
+Name: assets/www/img/contentbutton.png
+SHA1-Digest: Fu2yQXOaSkPNoK2yeZu6WYtuokY=
+
+Name: assets/www/RESOURCES/single_JanDhondt_508_2_720_720_74auto_c1.jp
+ g
+SHA1-Digest: O/xfB6+J50kUyjyAZg9DkxL9uLI=
+
+Name: assets/www/HERITAGEMAPS/locaties/1468.jpg
+SHA1-Digest: hudfBzUTg84PJ3f5YFXOeZfDWK8=
+
+Name: assets/www/RESOURCES/single_JanDHondt_350_720_720_74auto_c1.jpg
+SHA1-Digest: +6aOj6L6vAyPePvgz1WNP7OV0og=
+
+Name: assets/www/RESOURCES/single_JanDhondt_507_720_720_74auto_c1.jpg
+SHA1-Digest: tvzWitTAlcfLTcAXWRPiUpgeA9g=
+
+Name: assets/www/RESOURCES/heritage_5_muurschilderingSpinolarei2Brody_
+ 720_720_74auto_32870e679f0c21dc_c1.jpg
+SHA1-Digest: HI7xiNkWMaBMoz6ioPlR+QW5uC8=
+
+Name: assets/www/img/heart.png
+SHA1-Digest: PjOb9H1bYVQBRwVfRR3Xz9qvXDs=
+
+Name: assets/www/RESOURCES/single_REP0336_720_720_74auto_c1.jpg
+SHA1-Digest: 6cVunSZhSc/ynrGlPMqs1K5lsTg=
+
+Name: assets/www/img/weather/windy.png
+SHA1-Digest: VkVkTDIm0oaZkHwrgksA+bUDAS4=
+
+Name: assets/www/RESOURCES/single_REP0453_720_720_74auto_c1.jpg
+SHA1-Digest: pCSTbFcAZwNkLFucBYGZQJfsiqw=
+
+Name: assets/www/res/icon/cordova_android_72.png
+SHA1-Digest: +vxYgeZ9DWnAbPSMIuW5lmQ2s3Y=
+
+Name: assets/www/res/screen/android_mdpi_portrait.png
+SHA1-Digest: T2+tfr30qJPbTg5ncLTxt3m25TY=
+
+Name: assets/www/RESOURCES/single_DIV090930_02_720_720_74auto_c1.jpg
+SHA1-Digest: IC7Ks+bTUEKeDxiRbwkkrEg4u4w=
+
+Name: assets/www/RESOURCES/single_JanDhondt_137_720_720_74auto_c1.jpg
+SHA1-Digest: vsfYpQ1dbiPvzMzk4CeGAat0EBs=
+
+Name: assets/www/RESOURCES/heritage_6_MG_gouden-handstraat_3_720_720_7
+ 4auto_30c605894a3f4015_c1.jpg
+SHA1-Digest: ZS2xcwO2jgz+A9lKRMBpKv0KadQ=
+
+Name: assets/www/img/stripes.png
+SHA1-Digest: 3l2srJ/TP3mqURf2BLp+JBQe7uo=
+
+Name: assets/www/RESOURCES/single_JanDHondt_010_720_720_74auto_c1.jpg
+SHA1-Digest: 5lMqnYOsVLVd0xXX5F2QIDR+kTo=
+
+Name: assets/www/img/star.png
+SHA1-Digest: FfZxGw0mkZHNrlW0tciI36bdgwM=
+
+Name: assets/www/img/weather/night_rainy.png
+SHA1-Digest: jsziH0tJ+RA29hmR45rRAMtIr6o=
+
+Name: assets/www/img/pointer_heritage_2.png
+SHA1-Digest: qnU+0YTZ5ROeXPzPJn5rl+SJFLQ=
+
+Name: assets/www/img/pointer_culture.png
+SHA1-Digest: YGnogf/BFisXVcVBHdac79zAKUs=
+
+Name: assets/www/RESOURCES/single_JanDHondt_034_720_720_74auto_c1.jpg
+SHA1-Digest: sZeJ7RS1El0VAl7YjaViIlV/ugE=
+
+Name: assets/www/img/cell_bg.png
+SHA1-Digest: +XuSgQ3WXhy2WvNMOQKvcmIEaVs=
+
+Name: assets/www/RESOURCES/heritage_22_720_720_74auto_c1.jpg
+SHA1-Digest: Gcw8VjbAZ42wLlEUspPxGevU+Hg=
+
+Name: assets/www/HERITAGEMAPS/first/1470.jpg
+SHA1-Digest: /YLkOr9mCDAiQjrNsWykyBLKej8=
+
+Name: assets/www/RESOURCES/single_JanDhondt_502_720_720_74auto_c1.jpg
+SHA1-Digest: +MW854snbCEqRuXEIMp74P8DAfU=
+
+Name: assets/www/RESOURCES/single_JanDHondt_053_720_720_74auto_c1.jpg
+SHA1-Digest: VPBMLy/zyg/OXHQZvqmdEoQSEaA=
+
+Name: assets/www/RESOURCES/single_REP0015_720_720_74auto_c1.jpg
+SHA1-Digest: HTE4gUsyQsvH2YBfzAG0UU+MT3s=
+
+Name: assets/www/RESOURCES/single_JanDHondt_454_720_720_74auto_c1.jpg
+SHA1-Digest: J2jxUbK9jGTCXxbNebiRJsR6kgc=
+
+Name: assets/www/RESOURCES/single_dewerf_720_720_74auto_c1.jpg
+SHA1-Digest: tlxBXFS6tTSg5r1BVpOdeK1aU94=
+
+Name: assets/www/css/jquery.mobile-1.2.0.css
+SHA1-Digest: SX8P5NrWvR2gVVVs/+NMAPVnhN0=
+
+Name: assets/www/RESOURCES/single_JanDHondt_463_720_720_74auto_c1.jpg
+SHA1-Digest: uc2I0oDGQKX9ZsfbQT2keg/vwY0=
+
+Name: assets/www/res/icon/cordova_ios_72.png
+SHA1-Digest: ta9tADDi+GguPhn4fVUAzlCdUGY=
+
+Name: assets/www/RESOURCES/single_JanDHondt_388_720_720_74auto_c1.jpg
+SHA1-Digest: w3ofpMhCtjnJGGNHhiCJR6SiB9o=
+
+Name: assets/www/RESOURCES/single_ERF121009_05_720_720_74auto_c1.jpg
+SHA1-Digest: 5t3MwgVcpcWZVhGQWkoOztV2wtk=
+
+Name: assets/www/RESOURCES/single_JanDHondt_058_720_720_74auto_c1.jpg
+SHA1-Digest: 5IJI3hQvqgQdJC6VPFb/X3EcDvg=
+
+Name: assets/www/RESOURCES/single_REP0259_720_720_74auto_c1.jpg
+SHA1-Digest: YDOrXF3+OXf4VrD0c8AWJSKFWaA=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: WZZOLfYpCKyYL64UvK+EypBdfZA=
+
+Name: assets/www/HERITAGEMAPS/first/1467.jpg
+SHA1-Digest: Ag2v+yEwz7fQROHyblgPFytRdXY=
+
+Name: assets/www/RESOURCES/heritage_014PatrickMonney5_720_720_74auto_c
+ 1.jpg
+SHA1-Digest: tqM0Tjt8t2bIT3JPPh3xoWsXOYU=
+
+Name: assets/www/css/weather.css
+SHA1-Digest: UrrvMqj63LKy30cAPiBBj0vojYk=
+
+Name: assets/www/HERITAGEMAPS/locaties/1466.jpg
+SHA1-Digest: QIdbVCcRgU+iIy4WJSIQAo9nvpQ=
+
+Name: assets/www/RESOURCES/heritage_16_FOC02047_720_720_74auto_d7c3f62
+ a4deb1816_c1.jpg
+SHA1-Digest: /xMV/ZpJX+yR2yMVE5P81Df0NyI=
+
+Name: assets/www/RESOURCES/heritage_14_FOA6424_720_720_74auto_8637bb77
+ dee36cd3_c1.jpg
+SHA1-Digest: P4ackS5hqMjFXkmfOhkuGHRuYGs=
+
+Name: assets/www/RESOURCES/heritage_24_720_720_74auto_c1.jpg
+SHA1-Digest: fVRpOaWHbTSFvRkuReNnArmoLOM=
+
+Name: assets/www/res/screen/android_ldpi_portrait.png
+SHA1-Digest: G+6ixN6FXrLqVcX/OF6iVWhvXrw=
+
+Name: assets/www/RESOURCES/single_JanDhondt_510_720_720_74auto_c1.jpg
+SHA1-Digest: Lj0elZDZbx7uvSlkpfLX6Bo2nx4=
+
+Name: assets/www/img/mylocation.png
+SHA1-Digest: NtZKbgbzei++6fEkshcu/IraVp0=
+
+Name: assets/www/RESOURCES/heritage_21_FOA1303_720_720_74auto_8637bb77
+ dee36cd3_c1.jpg
+SHA1-Digest: /ybam8ZOro1HNebH8AZH4AMs4Nk=
+
+Name: assets/www/RESOURCES/heritage_42_MON120608_02_720_720_74auto_5f2
+ c39deffe2d543_c1.jpg
+SHA1-Digest: YLGKOhDMGjsEdTFpzpR6WcpAiTk=
+
+Name: assets/www/RESOURCES/heritage_9_FOA6436_720_720_74auto_8637bb77d
+ ee36cd3_c1.jpg
+SHA1-Digest: 8xJ2sDtleo1z0+yaugHalbdieu0=
+
+Name: assets/www/RESOURCES/single_ERF121009_04_720_720_74auto_c1.jpg
+SHA1-Digest: 1Y921fzr8+ZzV/Ijg5h16WswVY8=
+
+Name: assets/www/RESOURCES/heritage_20_BRU001005368_720_720_74auto_d7c
+ 3f62a4deb1816_c1.jpg
+SHA1-Digest: qEb1HSKMqGE/QinFQHGEQndrpFA=
+
+Name: assets/www/RESOURCES/heritage_22_MG_Molenbrug2_3_720_720_74auto_
+ 30c605894a3f4015_c1.jpg
+SHA1-Digest: X0qA/y8eEM7R1pekuOUESzkpryk=
+
+Name: assets/www/RESOURCES/heritage_45_BRU001003635_720_720_74auto_6f9
+ 7e08ae3ee45f6_c1.jpg
+SHA1-Digest: PKnb92QORSdjKZ050p6bt/gb1BM=
+
+Name: assets/www/RESOURCES/heritage_12_FOA21879_720_720_74auto_d7c3f62
+ a4deb1816_c1.jpg
+SHA1-Digest: /ErjX5XdZQ8ihUkWteeAxyGbzhA=
+
+Name: assets/www/RESOURCES/single_REP0365_720_720_74auto_c1.jpg
+SHA1-Digest: iWQO7p8/Zquc1rA4rNG2vp5YFN4=
+
+Name: assets/www/RESOURCES/single_REP0264_720_720_74auto_c1.jpg
+SHA1-Digest: SGhUYu675BrCqDlWoxbrpR/Lc7Y=
+
+Name: assets/www/RESOURCES/heritage_48_BRU001001057_720_720_74auto_6f9
+ 7e08ae3ee45f6_c1.jpg
+SHA1-Digest: /srmbFTNYHilIcE2YuU4oR3sxlg=
+
+Name: assets/www/RESOURCES/single_TOE060706_08_720_720_74auto_c1.jpg
+SHA1-Digest: hrGT34Udsx8AP+pvyxyc6puEn5E=
+
+Name: assets/www/RESOURCES/heritage_50_FO_A31011_720_720_74auto_d7c3f6
+ 2a4deb1816_c1.jpg
+SHA1-Digest: 7qGwgIo6wCgt55a6RrqyckvNOkM=
+
+Name: assets/www/RESOURCES/single_JanDHondt_494_720_720_74auto_c1.jpg
+SHA1-Digest: dIGk6UgosHqyUnJMV0AQOx6DDPk=
+
+Name: assets/www/HERITAGEMAPS/first/1403.jpg
+SHA1-Digest: gEl0y91hp9xvfNvNfKoHZPdcFpA=
+
+Name: assets/www/RESOURCES/heritage_30_huwelijkindegotischezaalfotovan
+ daag_720_720_74auto_73f269f63231d99d_c1.jpg
+SHA1-Digest: mAakZ8jx6iKqO6o35ZnITjLE3sw=
+
+Name: assets/www/RESOURCES/single_ERF071203_065_720_720_74auto_c1.jpg
+SHA1-Digest: B12h9dxkYaOey1D+9GWknhFOqB8=
+
+Name: assets/www/img/arrow2.png
+SHA1-Digest: tARflfm9w+IfCfhXhvtuCN9xpcM=
+
+Name: assets/www/js/gmap3.min.js
+SHA1-Digest: UYB+8dif2R+mC6mJhOeZXkntGzM=
+
+Name: assets/www/RESOURCES/single_JanDHondt_020_720_720_74auto_c1.jpg
+SHA1-Digest: IlxVDt0oChBNETVcu4ka0fTxv5s=
+
+Name: assets/www/img/listbutton.png
+SHA1-Digest: 6JMpLDxm6N4ReuF6CFJcXpZz+Ds=
+
+Name: assets/www/RESOURCES/single_ERF121009_07_720_720_74auto_c1.jpg
+SHA1-Digest: OhFRBe2FXYzdOdNW7u7GBjZ6ulM=
+
+Name: assets/www/res/screen/android_xhdpi_portrait.png
+SHA1-Digest: 6BMoTIqrT1cLYlOVqakZ5ndRyuw=
+
+Name: assets/www/RESOURCES/single_JanDHondt_006_720_720_74auto_c1.jpg
+SHA1-Digest: da/IvCznrsnOAzjTBRGWy/bSZhk=
+
+Name: assets/www/img/icon_bcc.png
+SHA1-Digest: AT4rOZBYKzD9E/k23zZhYrAOBo0=
+
+Name: assets/www/res/icon/cordova_android_96.png
+SHA1-Digest: hzckMBuySFo1cd7HjUP48B41ud0=
+
+Name: assets/www/js/translation.js
+SHA1-Digest: ZzUgFaeM69RIXg+YcKQJS9wWdYY=
+
+Name: assets/www/img/icon_nature.png
+SHA1-Digest: UuHqzitHKC3jQE5gDz/e/gVokSE=
+
+Name: assets/www/RESOURCES/single_REP0203_720_720_74auto_c1.jpg
+SHA1-Digest: 6xrUjr+6ENgoj3WYKv9jYX1VoaY=
+
+Name: assets/www/RESOURCES/single_JanDhondt_148_720_720_74auto_c1.jpg
+SHA1-Digest: HlSs3jzDopr1aDpzGK0TPfulBoQ=
+
+Name: assets/www/img/weather/cloudy.png
+SHA1-Digest: DDVSsY54XdaKTuhqDmN/RB+ONhc=
+
+Name: assets/www/RESOURCES/single_Zeebrugge06_756_720_530_74auto_c1.jp
+ g
+SHA1-Digest: WGt8YhIl8mpBaJSKi7pqpXvpruI=
+
+Name: assets/www/RESOURCES/single_ERF121009_01_720_720_74auto_c1.jpg
+SHA1-Digest: 31n7lDhNvMcVjImui+2dEwHVAxI=
+
+Name: assets/www/RESOURCES/single_013PatrickMonney5_720_720_74auto_c1.
+ jpg
+SHA1-Digest: SjrMI6zFZlVOm/M519ktWGepiso=
+
+Name: assets/www/res/screen/android_hdpi_portrait.png
+SHA1-Digest: KZgwr9rmPjzkidq9Pil7f6dGvOw=
+
+Name: assets/www/RESOURCES/single_REP0339_720_720_74auto_c1.jpg
+SHA1-Digest: RniHqr5+MLGjUj1kUgipVNqwBSI=
+
+Name: assets/www/RESOURCES/single_brugge_estaminet_720_720_74auto_c1.j
+ pg
+SHA1-Digest: KJSpQE9YNDvd5sfT2IxkLmMKsD8=
+
+Name: assets/www/js/jquery.js
+SHA1-Digest: CAn59cqiZCud6ov1kTMYC/18HW8=
+
+Name: assets/www/RESOURCES/single_JanDHondt_070_720_720_74auto_c1.jpg
+SHA1-Digest: FxgiurwMjpL8tIxkmozPoOJyHc8=
+
+Name: assets/www/RESOURCES/single_REP0059_720_720_74auto_c1.jpg
+SHA1-Digest: o7Z0nuWqaLUk3UVeYaSbjQeEoHw=
+
+Name: assets/www/RESOURCES/single_STZ040908_01_720_720_74auto_c1.jpg
+SHA1-Digest: hfpyF/iUArZdq5yyFYeOOfUJqak=
+
+Name: assets/www/img/weather/sunshine_rainy.png
+SHA1-Digest: zAId0EzpejGveLUPD8S3JQk2rVc=
+
+Name: assets/www/RESOURCES/single_REP0355_720_720_74auto_c1.jpg
+SHA1-Digest: xxO25C6PwqOWJPLLgyeaUMxxPQQ=
+
+Name: assets/www/RESOURCES/heritage_37_GEB120208_13_720_720_74auto_5f2
+ c39deffe2d543_c1.jpg
+SHA1-Digest: 15XemSnvuzx5HW1xdazFOW6AMp0=
+
+Name: assets/www/RESOURCES/single_JanDHondt_117_720_720_74auto_c1.jpg
+SHA1-Digest: qW8Lf9jypybgFusk+qSbe6Fs+Fo=
+
+Name: assets/www/img/weather/thunder.png
+SHA1-Digest: 4r0S88YoYluhkX6U1Orzl+Do0ZQ=
+
+Name: assets/www/RESOURCES/single_JanDHondt_345_720_720_74auto_c1.jpg
+SHA1-Digest: x5wfVOKgG6C6oadDxofF6WX3mO0=
+
+Name: assets/www/HERITAGEMAPS/locaties/1403.jpg
+SHA1-Digest: q027usqG+IORM0vCNbJHnsS0EPE=
+
+Name: assets/www/RESOURCES/single_REP0301_720_720_74auto_c1.jpg
+SHA1-Digest: SWz8DH66Yb2BLrSFo438LzNSPWs=
+
+Name: assets/www/RESOURCES/single_REP0233_720_720_74auto_c1.jpg
+SHA1-Digest: g5LeT3/A9lB8fASlh8EEoDP5wG4=
+
+Name: assets/www/RESOURCES/heritage_24_VerversBritishLibrary_591_670_7
+ 4auto_63ac6fd94974dd8f_c1.jpg
+SHA1-Digest: rs09X+M26JYWoAombzysDOsUVJ8=
+
+Name: assets/www/RESOURCES/single_JanDhondt_138_720_720_74auto_c1.jpg
+SHA1-Digest: m0WuqhutAKtupBvJ44A09l4OWhM=
+
+Name: assets/www/img/weather/foggy.png
+SHA1-Digest: adxcGfpsmJEdBNxmyP9H9Eh4cXw=
+
+Name: assets/www/RESOURCES/single_JanDHondt_426_720_720_74auto_c1.jpg
+SHA1-Digest: AptFGbm2FuJ118AM7SyCYDmXN9w=
+
+Name: assets/www/css/heritagewalk.css
+SHA1-Digest: 9PT5Z2aItBD1dUkIA+qg4J3oljk=
+
+Name: assets/www/RESOURCES/single_JanDHondt_104_720_720_74auto_c1.jpg
+SHA1-Digest: CvS8JBvKLaglmVWEsqBhYNHHVBw=
+
+Name: assets/www/img/pointer_culture_2.png
+SHA1-Digest: M09omDkANqSIvt020dbspKyIMVw=
+
+Name: assets/www/HERITAGEMAPS/locaties/1467.jpg
+SHA1-Digest: UrapUqV/6X5XRidoPyHo1h7/QxM=
+
+Name: res/drawable-hdpi/ic_action_search.png
+SHA1-Digest: rOWnNxWCWKwkicf+FpYGMg1fX2Y=
+
+Name: assets/www/RESOURCES/single_48_BRU001001057_720_720_74auto_c1.jp
+ g
+SHA1-Digest: g6YdSOk+Tx5XemtfwmV4CS1TG8Q=
+
+Name: assets/www/img/pointer_nature_2.png
+SHA1-Digest: Iup9QWeiZIi1YshiNz2AAu2lvLg=
+
+Name: res/menu/activity_main.xml
+SHA1-Digest: TfxVPQP5IRVlJun7A7PdOqdkp+I=
+
+Name: assets/www/RESOURCES/heritage_19_adornesJeruzalemkapelMON060410_
+ 08_720_720_74auto_5f2c39deffe2d543_c1.jpg
+SHA1-Digest: FWtZUlK5fXUjyLdWZHnkH+z+yyI=
+
+Name: assets/www/res/icon/cordova_48.png
+SHA1-Digest: EXcIUecM4t+iQdqCR/LlZGG5Ak0=
+
+Name: assets/www/RESOURCES/heritage_26_vondstverversdijkraakvlakIMG_01
+ 09_720_720_74auto_facffd7d48a7e53c_c1.jpg
+SHA1-Digest: WawU0YoK1lpddzl3QevNuZYCh0w=
+
+Name: assets/www/RESOURCES/video1.mp4
+SHA1-Digest: SooWrv7PgtTE0bboPbqGLC/sWl8=
+
+Name: assets/www/HERITAGEMAPS/locaties/1400.jpg
+SHA1-Digest: pVn9IDgDeCXSmGAmZGw+Jrj+grk=
+
+Name: assets/www/res/icon/cordova_24.png
+SHA1-Digest: 17Z36lG8OytUd7TmN9bwkQe2ULs=
+
+Name: assets/www/RESOURCES/single_REP0096_720_720_74auto_c1.jpg
+SHA1-Digest: BOCqOt9dVfuHDKGZkttiCoktV1E=
+
+Name: assets/www/RESOURCES/single_JanDHondt_028_720_720_74auto_c1.jpg
+SHA1-Digest: HBCkeDY5Hg5DOS1alRguqo1dayw=
+
+Name: assets/www/RESOURCES/heritage_8_FOA421_720_720_74auto_8637bb77de
+ e36cd3_c1.jpg
+SHA1-Digest: l9txSMFtH4uZ2La15SByV1nAib0=
+
+Name: assets/www/img/pointer_romance_2.png
+SHA1-Digest: YOWedEM8wbN3AOhW3soynZCpNd4=
+
+Name: assets/www/RESOURCES/video2.mp4
+SHA1-Digest: Vc0RIkYetF0bAHIYCHtM8zN0tgo=
+
+Name: assets/www/RESOURCES/heritage_ERF121009_06_720_720_74auto_c1.jpg
+SHA1-Digest: Z2eHnYqJHuxYpc9570THhK/JpzQ=
+
+Name: assets/www/img/h_nextbutton.png
+SHA1-Digest: GhP8bSjsSSHdaPZJYulghwBxaaw=
+
+Name: assets/www/res/screen/android_hdpi_landscape.png
+SHA1-Digest: OoEHj4Ot0ba1fFQ+WRYtIq3wH1c=
+
+Name: resources.arsc
+SHA1-Digest: NKKbyU/T0LRISGRGkF4RrBIeV4M=
+
+Name: assets/www/RESOURCES/single_JanDHondt_023_720_720_74auto_c1.jpg
+SHA1-Digest: 99Xyvu3b7EwuOmjUk3z3/ovpzYk=
+
+Name: assets/www/res/icon/cordova_16.png
+SHA1-Digest: bP93uNwyUV3f1RKK01a8r3K2ll0=
+
+Name: assets/www/RESOURCES/single_JanDHondt_129_720_720_74auto_c1.jpg
+SHA1-Digest: eU957G0SpGfAFDIQnJqG9ovbSxI=
+
+Name: assets/www/config.xml
+SHA1-Digest: qrpaynyN0YUnO7AwX98dIiiSMkM=
+
+Name: assets/www/js/jquery.mobile.js
+SHA1-Digest: lNh81EG2z/aUvTRnItd4dFR/TmM=
+
+Name: assets/www/HERITAGEMAPS/first/1468.jpg
+SHA1-Digest: t08Co3B8RDYIsPK+BlHBUnp7Q7w=
+
+Name: assets/www/css/touchscroll.css
+SHA1-Digest: vkzgrusCVYD6ovm/Fji8jPymnDg=
+
+Name: assets/www/RESOURCES/heritage_3_werkbrody2_720_720_74auto_657b13
+ 2a4c6410d5_c1.jpg
+SHA1-Digest: Dj3f/4XI3313mRYX8VNIYRy6vmI=
+
+Name: assets/www/HERITAGEMAPS/first/1466.jpg
+SHA1-Digest: dZWY3OKggzRZNyq9kmgm0iNsco4=
+
+Name: assets/www/img/weather/rain.png
+SHA1-Digest: YY1MJmE5gn7D3ZJd/rkseCBQB4s=
+
+Name: assets/www/RESOURCES/single_JanDHondt_418_720_720_74auto_c1.jpg
+SHA1-Digest: Zzz33DLBV8i6wOXc+U6BtY2LBG4=
+
+Name: assets/www/RESOURCES/single_JanDhondt_509_720_720_74auto_c1.jpg
+SHA1-Digest: 6GLfZ5tkLLfly0uMqI5TIYgdy1E=
+
+Name: assets/www/img/contenticon.png
+SHA1-Digest: 2YotITZoYmvYwChIj5fioKQisZ0=
+
+Name: assets/www/res/screen/iphone_portrait.png
+SHA1-Digest: IGMfTLbHIf4hCVJWdOMOlp3C8Hk=
+
+Name: assets/www/RESOURCES/single_REP0047_720_720_74auto_c1.jpg
+SHA1-Digest: gQ7hmnBrxrPiI21gseaSEzyoCtA=
+
+Name: assets/www/RESOURCES/heritage_ERF121009_02_720_720_74auto_c1.jpg
+SHA1-Digest: 1wr0S2ypGwPhJTZpjCtBc+nj/eg=
+
+Name: assets/www/RESOURCES/single_REP0411_720_642_74auto_c1.jpg
+SHA1-Digest: JMEM0mlu4r9CFmmEeGOdHuZszdU=
+
+Name: assets/www/RESOURCES/single_JanDhondt_133_720_720_74auto_c1.jpg
+SHA1-Digest: JDS/cxaZRyvcZTW/4vreUmjT7jw=
+
+Name: assets/www/HERITAGEMAPS/first/1400.jpg
+SHA1-Digest: W2bCk5zRkynW+MG9sj8cXtJim9w=
+
+Name: assets/www/img/pointer_food.png
+SHA1-Digest: S/KSs5YgPQZ3C9ItQ1vUfvEFJB0=
+
+Name: assets/www/RESOURCES/heritage_ERF121009_07_720_720_74auto_c1.jpg
+SHA1-Digest: OhFRBe2FXYzdOdNW7u7GBjZ6ulM=
+
+Name: assets/www/RESOURCES/heritage_10_MG_baliestraat_3_720_720_74auto
+ _30c605894a3f4015_c1.jpg
+SHA1-Digest: AOhV2luzA1x8g+EON/8k+WM0TdQ=
+
+Name: assets/www/RESOURCES/single_JanDHondt_015_720_720_74auto_c1.jpg
+SHA1-Digest: 6TuFi+RWc2nDgfGNcehOqX5+M/U=
+
+Name: assets/www/res/screen/blackberry_transparent_300.png
+SHA1-Digest: U7g7+CDjMYgsbrk8d0Bp19WF7JM=
+
+Name: assets/www/img/mapbutton.png
+SHA1-Digest: 9G1XRlV9soT1xqnojB6/4ktCx9w=
+
+Name: assets/www/img/weather/partly_cloudy.png
+SHA1-Digest: k/A3doNMn7Fdw8+lvKCi6i8ssTQ=
+
+Name: assets/www/RESOURCES/single_REP0033_720_720_74auto_c1.jpg
+SHA1-Digest: dglB/DJXYG3MclZEg1TzNO5AO2U=
+
+Name: assets/www/res/screen/ipad_retina_portrait.png
+SHA1-Digest: WRmlQjgsRYaCHPIXe98642/pdo8=
+
+Name: assets/www/img/home_mylocations.png
+SHA1-Digest: 5KGFr4KO6ONVw91+SJno7YgSXdo=
+
+Name: assets/www/js/index.js
+SHA1-Digest: V42RYj/nQB9rl62PEFM2yLY6vKs=
+
+Name: assets/www/RESOURCES/heritage_51_kaftboekFlorenceMarryatt_583_72
+ 0_74auto_c1.jpg
+SHA1-Digest: uKQsYA28VPZom4r3kA1emlLwsCg=
+
+Name: assets/www/res/screen/android_xhdpi_landscape.png
+SHA1-Digest: j9h/O5ff8Izoex+4bUXGZ/uMiFo=
+
+Name: assets/www/HERITAGEMAPS/first/1404.jpg
+SHA1-Digest: oLeKW1l3G5YBQin41iLHg/Q3G0Q=
+
+Name: assets/www/RESOURCES/video4.mp4
+SHA1-Digest: P/gcpg4UpcLs9DOdDK4rN9J23fY=
+
+Name: assets/www/res/icon/cordova_256.png
+SHA1-Digest: sNxifCQvroxR+O6qjaEw9uoy4rw=
+
+Name: assets/www/RESOURCES/single_GRO040817_08_720_720_74auto_c1.jpg
+SHA1-Digest: O0OHZQdYDtU5ile3knifuauBoeE=
+
+Name: assets/www/RESOURCES/single_ieper.menenpoort.poppies2_720_720_74
+ auto_c1.jpg
+SHA1-Digest: f8+P8gOEUmNqeoeD2mzNT7e+qDU=
+
+Name: assets/www/img/foodarrow.png
+SHA1-Digest: ne/2ospRIf8oDJNDN2PXrzshY+I=
+
+Name: assets/www/RESOURCES/single_REP0040_720_720_74auto_c1.jpg
+SHA1-Digest: ktjOltqBuG6htM5UgK4KzNe5yzw=
+
+Name: assets/www/RESOURCES/single_JanDHondt_016_720_720_74auto_c1.jpg
+SHA1-Digest: SIlSIiJlYNnGbd7x/UWyUW2r5y4=
+
+Name: assets/www/RESOURCES/single_REP0479_720_720_74auto_c1.jpg
+SHA1-Digest: I2HNOlRREhVb4u6BBV+1DUzgTPs=
+
+Name: assets/www/RESOURCES/single_JanDHondt_115_720_720_74auto_c1.jpg
+SHA1-Digest: H9jc2vrwzPNRQC6/FzclR3fLudQ=
+
+Name: assets/www/RESOURCES/heritage_17_DIV060902_23_720_720_74auto_5f2
+ c39deffe2d543_c1.jpg
+SHA1-Digest: vxj7eS4XO9fgtV20WU64YlMu544=
+
+Name: assets/www/RESOURCES/single_REP0271_720_720_74auto_c1.jpg
+SHA1-Digest: ZIDzYAAD3OEzfZ2mXNnzdzv8QTU=
+
+Name: assets/www/res/icon/cordova_512.png
+SHA1-Digest: NBF73fo4/8Zungu2NWAVEyg+FB0=
+
+Name: assets/www/RESOURCES/single_JanDHondt_056_720_720_74auto_c1.jpg
+SHA1-Digest: MuDhm3gXB9zMM9FDfJa/g+0d5Wg=
+
+Name: assets/www/res/icon/cordova_android_48.png
+SHA1-Digest: 37X5aaSqMaeD7xQRqEIeFoHVlT0=
+
+Name: assets/www/RESOURCES/single_JanDHondt_409_720_720_74auto_c1.jpg
+SHA1-Digest: iGPP+6xdhEyesPk7pJuVDy2c4So=
+
+Name: assets/www/js/maps.js
+SHA1-Digest: DIeaZ4pcUULdePTkQANNYg7fsEs=
+
+Name: assets/www/RESOURCES/heritage_32_Activiteit17_720_720_74auto_5f2
+ c39deffe2d543_c1.jpg
+SHA1-Digest: 2IJwLKCRFKyS/61+oC+tASRODss=
+
+Name: assets/www/RESOURCES/single_STZ040902_03_720_720_74auto_c1.jpg
+SHA1-Digest: WRqhJ2vzLxGTYgD9HqI5iXFeQ/k=
+
+Name: assets/www/res/screen/ipad_landscape.png
+SHA1-Digest: NiQ3qjMVYWRyhlLSvtZ+HZl40J4=
+
+Name: assets/www/RESOURCES/heritage_49_GM_04_0034_720_720_74auto_527f6
+ 79d9eca8680_c1.jpg
+SHA1-Digest: E4b1SzjcL6RA6/Olq94T6+pxwWY=
+
+Name: assets/www/js/date.format.js
+SHA1-Digest: TIH9Tx0H/4mX+Y3Uxa1BtVh6SGI=
+
+Name: assets/www/RESOURCES/heritage_1_MG_jan-van-ecykplein_3_720_720_7
+ 4auto_30c605894a3f4015_c1.jpg
+SHA1-Digest: 5tBHr3ZoFDkn025Nz5GiBfxNMpI=
+
+Name: assets/www/img/close.png
+SHA1-Digest: bNVv0wNLuZ9/ujR56uOoWSVGJfE=
+
+Name: assets/www/RESOURCES/single_GRO060613_01_720_720_74auto_c1.jpg
+SHA1-Digest: 28lcPpQEKfqI3NEn2yaYSR9Cupo=
+
+Name: assets/www/img/noconnection_bg.png
+SHA1-Digest: UUaVX2II4RDYJaHRcO79jnHIAcY=
+
+Name: assets/www/RESOURCES/single_JanDHondt_476_720_720_74auto_c1.jpg
+SHA1-Digest: d8WV4EE8VKzaCYKp+OwthmheaKw=
+
+Name: assets/www/RESOURCES/single_JanDhondt_515_720_720_74auto_c1.jpg
+SHA1-Digest: xKjgpNtk7ccTxKH6zkhkZn0gcu8=
+
+Name: assets/www/RESOURCES/heritage_28_MG_Burg_3_720_720_74auto_30c605
+ 894a3f4015_c1.jpg
+SHA1-Digest: cQuZUXsemYl+bl3ZRua7aSEoZeQ=
+
+Name: assets/www/img/arrow.png
+SHA1-Digest: Y2d2tQCXhnjdjwSMPzPNgXkoC4E=
+
+Name: assets/www/js/heritagewalk.js
+SHA1-Digest: bbGSJ17OBYa1QQOhnl3iET7EjqE=
+
+Name: assets/www/RESOURCES/single_JanDHondt_068_720_720_74auto_c1.jpg
+SHA1-Digest: Mqu/iewZD0JOvSFgsfDo+ULQWrI=
+
+Name: assets/www/RESOURCES/single_15_BRU001005427_720_720_74auto_c1.jp
+ g
+SHA1-Digest: UmkBn9gXZGm+37CERF1m4SvjZAo=
+
+Name: assets/www/img/home_camera.png
+SHA1-Digest: 1G+GsAOPeb6PJyBZz1M7aSv1qc4=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: yhiAkx83tcCaZcKGXOHhu6c6hgM=
+
+Name: assets/www/RESOURCES/single_REP0445_720_720_74auto_c1.jpg
+SHA1-Digest: oZOCeZ/AxGsrJgpSMu0OUL2xkMo=
+
+Name: assets/www/img/weather/snowy.png
+SHA1-Digest: ILT45D8+XhB9Jk5z723TDhnMioA=
+
+Name: assets/www/RESOURCES/single_032PatrickMonney4_720_720_74auto_c1.
+ jpg
+SHA1-Digest: Nt9YtWsL9b1FpFwCC1WpbPvcruE=
+

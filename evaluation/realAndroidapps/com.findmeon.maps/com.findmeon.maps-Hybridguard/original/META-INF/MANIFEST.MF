@@ -1,0 +1,60 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: Ooqt6iW5fgxIdOEXczG5KD7C6cQ=
+
+Name: res/drawable-mdpi/ic_action_search.png
+SHA1-Digest: XjltJdEB3tvakTn9CN7KwdaNT68=
+
+Name: assets/www/img/icon.png
+SHA1-Digest: l/HRUCItCVvcAKhIHpHGisPdzdQ=
+
+Name: assets/www/js/main.js
+SHA1-Digest: qxriAKbX4i/4WVmyzru7+pMUZLs=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: jCDYa2Vrua9exU3gnqLEXH6SKGo=
+
+Name: res/xml/config.xml
+SHA1-Digest: zWFkgVJdkXHXotMpcm2O9bokXng=
+
+Name: assets/www/js/jquery.js
+SHA1-Digest: SniwlZL0hc0NnMNyyQPc8zkl6rc=
+
+Name: resources.arsc
+SHA1-Digest: x1tq/yO/MFvLflNwdwYcgzD9DM0=
+
+Name: classes.dex
+SHA1-Digest: cX1bOb+5KMEcJprG54H0MG982ro=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: oAHx8FyvNvZhOu9xMJSxaAGzuTI=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 4AV0GX6HzNJxwIa73lxmhXq6kaI=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: TTwRjabnvkjAdY3pcjVAUx0TNUk=
+
+Name: assets/www/img/marker.png
+SHA1-Digest: TUOKK6XX6ko6yuW62zyMi6K/aTA=
+
+Name: res/menu/findme.xml
+SHA1-Digest: TfxVPQP5IRVlJun7A7PdOqdkp+I=
+
+Name: res/layout/findme.xml
+SHA1-Digest: WZZOLfYpCKyYL64UvK+EypBdfZA=
+
+Name: assets/www/index.html
+SHA1-Digest: zEDEd2a+/Z6IZuPVXLdtXg5OUKw=
+
+Name: res/drawable-hdpi/ic_action_search.png
+SHA1-Digest: rOWnNxWCWKwkicf+FpYGMg1fX2Y=
+
+Name: res/drawable-xhdpi/ic_action_search.png
+SHA1-Digest: WzSVDDIHZpn0cFeuxgKRJete4TU=
+
+Name: assets/www/js/cordova-2.1.0.js
+SHA1-Digest: sHwvQU9ieV5avoAJR4BEtxiXwCg=
+

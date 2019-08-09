@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>FanReact</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="jquery-mobile/jquery.mobile.icons.min.css" rel="stylesheet" type="text/css">
+        <link href="jquery-mobile/jquery.mobile.structure-1.3.2.css" rel="stylesheet" type="text/css">
+        <link href="jquery-mobile/gameface.css" rel="stylesheet" type="text/css">
+        <link href="css/custom.min.css" rel="stylesheet" type="text/css">
+        
+        <script src="jquery-mobile/jquery-1.9.1.min.js"></script>
+
+        <script src="jquery-mobile/jquery.mobile-1.3.1.min.js"></script>
+
+        <script src="js/selectivizr-min.js"></script>
+        <script src="js/coreFlashJax.js"></script>
+
+        <script src="cordova.js"></script>
+        <script src="everlive/everlive.all.min.js"></script>
+        <script src="js/settings/settings.js"></script>
+        <script src="js/settings/identity-provider.js"></script>
+        <script src="js/settings/saveSettings.js"></script>
+        <script src="js/sqlite/sqlite.js"></script>
+        <script src="js/fastclick/fastclick.js"></script>
+        
+        
+        <!--Content Active Includes-->       
+        <script type="text/javascript" src="js/ContentActive/Sqlite/SqliteDB.js"></script>
+        <script type="text/javascript" src="js/ContentActive/FeedSystem/Feed.js"></script>
+        <script type="text/javascript" src="js/ContentActive/FeedSystem/FeedManager.js"></script>
+         
+        <!--Feed Manager Model-->
+        <script type="text/javascript" src="Application/Model/feeds.js"></script>
+     
+        <script src="js/import/AngularJS/angular.js"></script> 
+
+        <script src="js/angularSettings.js"></script>
+            
+        <script src="Application/Factories/customFactories.js"></script>
+        <script src="Application/Controllers/customControllers.js"></script>
+        
+        <script src="js/login/login.js"></script>
+         <script src="js/ga/ga.js"></script>  
+        <script src="js/ga/gainit.js"></script>        
+        <script src="js/register/register.js"></script>
+        
+        
+        <script src="js/ContentActive/Map/Map.js"></script> 
+        <script src="js/ContentActive/imgCache/imgCache.js"></script> 
+        <!--script src="js/geolocation/geolocation.js"></script-->
+        
+        
+		<script src="js/comment/comment.js"></script>
+        <script src="js/dashboard/following.js"></script>
+        <script src="js/dashboard/reactions.js"></script>
+        <script src="js/dashboard/trending.js"></script>
+        <script src="js/league/league.js"></script>
+        <script src="js/fans/fansOf.js"></script>
+        <script src="js/fans/friendsList.js"></script>
+        <script src="js/fans/fans.js"></script>
+        <script src="js/game-center/gamecenter.js"></script>   
+        <script src="js/AmazonAWS/aws-sdk-full.js"></script>
+        <script src="js/ContentActive/AWSHelper/S3Uploader.js"></script>
+        <script src="js/camera/camera.js"></script>
+		<script src="js/recordVideo/recordVideo.js"></script>
+        <script src="js/custom/autolink.js"></script>
+        <!--
+        <script src="js/custom/custom.js"></script>
+        <script src="js/ajaxFeeding.js"></script>
+        -->
+        <script src="js/profile/profile.js"></script> 
+        <script src="js/team/teampage.js"></script>   
+        <script src="js/team/teamFollower.js"></script>   
+        <script src="js/voting.js"></script>      
+        <script src="js/viewing.js"></script>  
+        <script src="js/team/teamSearch.js"></script> 
+        <script src="js/notification/notification.js"></script> 
+        <script src="js/post/post.js"></script> 
+        <script src="js/jquery.textlimiter.js"></script> 
+        <script src="js/import/linkify.min.js"></script> 
+        
+        <script src="js/import/handlebars/handlebars-v3.0.3.js"></script>
+        <script src="js/import/moment.js"></script>
+        <script src="js/import/hammer.js"></script> 
+        <script src="js/import/zoom.js"></script> 
+        <script src="js/import/iscroll/iscroll.js"></script> 
+        <script src="js/import/CryptoJS/aes.js"></script> 
+        
+        <script src="js/import/zoom.js"></script> 
+    
+        <link href='js/import/jquery-mentions-input-master/jquery.mentionsInput.css' rel='stylesheet' type='text/css'>
+        <script src='js/import/underscore/underscore.js' type='text/javascript'></script>
+        <script src='js/import/jquery-mentions-input-master/lib/jquery.events.input.js' type='text/javascript'></script>
+        <script src='js/import/jquery-mentions-input-master/lib/jquery.elastic.js' type='text/javascript'></script>
+        <script src='js/import/jquery-mentions-input-master/jquery.mentionsInput.js' type='text/javascript'></script>
+
+        <!--
+        <script src='js/import/sticky-kit-master/dist/sticky-kit.min.js' type='text/javascript'></script>
+		-->
+		<script src='js/import/sticky-master/jquery.sticky.js' type='text/javascript'></script>
+        
+        <script src="js/search/search.js"></script>  
+        <script src="js/settings/reset_app.js"></script>
+        <script src="js/settings/phoneNotificationSettings.js"></script>
+        <script src="js/push/push.js"></script>
+
+        <script src="js/scroll/scroll.js"></script>       
+
+    </head>
+
+    <body ng-app="AngularInstance" >
+		<div id="index" data-role="page" class="login introFirst">
+            <a style="display:none;" onclick=" resetApp.resetapp();"> Error? Click Here Then Close The App </a>
+            <script >
+                $(function() {
+                    FastClick.attach(document.body);
+                 });                
+                $(document).on("taphold", "#index", function(event){
+                    event.preventDefault();
+                    event.stopPropagation();
+                    event.stopImmediatePropagation();
+                    $('#index a').show();
+                });
+
+            </script> 
+        </div>
+        <div id="spareSpace"> 
+        </div>
+    </body>
+    
+    <div id="commonForAllPagePreventFlashSolution" style="display:none">
+        <div  class="ui-header ui-bar-a" id="index-header">
+            
+                
+            <ul class="headerBtns">
+                <li class="menu">
+                    <a href="#popupMenu" data-rel="popup" data-role="button" data-inline="true" data-transition="slidedown"></a>
+                </li>
+                <li class="friends" onclick="customNamespace.invite();gaPlugin.trackEvent(function() {console.log('success header invite');},function() {console.log('fail header invite');},'header','click','recruit',1);">
+                    <!--<a href="views/fans/fansView.html"></a>-->
+                    <a href="#"></a>
+                    
+                </li>
+            </ul>
+            
+            
+	        <h1 style="padding-left:1em;" class="ui-title noBg ui-link" id="commonForAllPageTitle" >
+                <div id="dropdown" style="margin: 13px 0 13px 0;  " onclick="customNamespace.header.var.titleOnclick();" 
+                >FanReact
+                </div>
+            </h1>
+				 
+
+            <ul id="tabbedPanelstwo" class="tabbedPanels two" style="display:none">
+                <li id="tabbedPanelstwoRecent" onclick="customNamespace.recent(); $(this).addClass('active');" class="active">
+                    <a>Recent</a>
+                </li>
+                <li onclick="customNamespace.trend(); $(this).addClass('active');" >
+                    <a>Trending</a>
+                </li>
+            </ul>
+            
+            
+            <ul id="tabbedPanelstwoForFanPage" class="tabbedPanels two" style="display:none">
+                <li id="myFansTab" class="active">
+                    <a id="myFansTitle">My Fans <span class="notifications"></span></a>
+                </li>
+                <li id="fansOfTab">
+                    <a id="fansOfTitle">Fan of</a>
+                </li>
+            </ul>
+
+            
+            <ul id="tabbedPanelsthree" class="tabbedPanels" style="display:none">
+                <li id="tabbedPanelsReactions" onclick=" $('.active').removeClass('active'); $(this).addClass('active');gaPlugin.trackEvent(function() {console.log('success tab reactions');},function() {console.log('fail tab reactions');},'tab','click','reactions',1); ">
+                    <a href="views/dashboard/reactionsView.html">Reactions</a>
+                </li>
+                <li id="tabbedPanelsFollowing" onclick=" $('.active').removeClass('active'); $(this).addClass('active');gaPlugin.trackEvent(function() {console.log('success tab following');},function() {console.log('fail tab following');},'tab','click','following',1); ">
+                    <a href="views/dashboard/followingView.html">Teams</a>
+                </li>
+                <li onclick=" $('.active').removeClass('active'); $(this).addClass('active');gaPlugin.trackEvent(function() {console.log('success tab trending');},function() {console.log('fail tab trending');},'tab','click','trending',1); ">
+                    <a href="views/dashboard/trendingView.html">Trending</a>
+                </li>
+            </ul>
+            
+            <div id="index-header-networkNoneNotification" onclick="$(this).hide();customNamespace.sizing();" style="display:none;">
+                <div class="Id-html">  
+                    <style>
+                        .redNotification{
+                            color: white;
+                            padding: 5px;
+                            background-color: orange;
+                        }
+                    </style>
+                    <p class="red notification">Whoa! Looks like you're in an area with a poor internet connection. Go ahead and react! We'll queue and post this reaction as soon as you reconnect!
+                    </p>
+                </div>
+            </div>
+            
+            
+            <script type="text/x-kendo-template" id="index-queueInfo-template">
+                <div style="padding: .5em 1em .5em 1em; background: #00592d;">
+                
+                    You have {{ readyToUploadNumber }} post{{#if readyToUploadNumberPlural}}s{{/if}} on deck. 
+                    <a onclick="$('#index-queueInfo-popup-confirmation').popup();$('#index-queueInfo-popup-confirmation').popup('open', { positionTo : this } )" >
+                    	( Clear Queue )  
+                	</a>
+
+                    <div style="display:none;">
+                        <div data-role="popup" data-history="false" id="index-queueInfo-popup-confirmation" data-theme="a">
+                            <center style="padding-bottom:.5em;">
+                                Are You Sure ? 
+                            </center>
+                            <center>
+                                <span onclick=" window.SavePostQueue.JsonObject.Data = [] ; window.FeedManager.CacheFeed( window.SavePostQueue );  history.back(); postNameSpace.queue.displayQueueInfo();">
+                                    <i class="fa fa-eraser"></i> Yes &nbsp;&nbsp;
+                                </span>
+                                <span  onclick=" history.back(); ">
+                                    <i class="fa fa-times"></i> No 
+                                </span>
+                            </center>
+                        </div>        
+                    </div>
+
+            	</div>
+            </script>
+
+            <div id="index-queueInfo-display" style="color:white;">
+            </div>    
+            
+            <div style="display:none;" id="indexHeaderNewUpdate" class="new-feed-container" onclick="customNamespace.refresh();$(this).fadeOut();">
+                <span></span>
+            </div>
+            
+            <div id="debugDiv"  style="width:100%; position:fixed;display:none" >
+                <i onclick="$('#debugDivText').toggle();" style="font-size: 40px;color: pink;opacity: .5;" class="fa fa-meh-o"></i>
+                <p id="debugDivText" style="background:grey;display:none;word-wrap: break-word;overflow:scroll;height:500px;text-shadow: none;color: white;">
+                    add more text here
+                </p>
+            </div>
+            
+            <script>
+                $(document).on('taphold', '#debugDivText', function(){
+                    $('#debugDivText').html('cleared')
+                });
+            </script>
+        </div>
+
+        <div data-role="footer" data-position="fixed" class="ui-footer ui-bar-a ui-footer-fixed slideup">
+            <ul>
+                <li>
+                    <a id="commonFooterToReactionsView" onclick="reactionsNameSpace.getReactionsFeed();gaPlugin.trackEvent(function() {console.log('success click reactions');},function() {console.log('fail click reactions');},'footerbar','click','reactions',1);" href="views/dashboard/reactionsView.html">
+                        <i class="fa fa-home"></i>
+                    </a>
+                </li>
+                <li>
+                    <a id="commonFooterToNotificationView" href="views/notifications/notificationsView.html" onclick="notificationNameSpace.display.initialize();gaPlugin.trackEvent(function() {console.log('success click notifications');},function() {console.log('fail click notifications');},'footerbar','click','notifications',1);">
+                        <i class="fa fa-bell"></i><span class="notifications notificationCountFromFeed"></span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="views/post/postView.html" id="topostView" 
+                       onclick="
+                                postNameSpace.post.create();
+                                gaPlugin.trackEvent(function() {console.log('success click post');},function() {console.log('fail click post');},'footerbar','click','post',1); 
+                               ">
+                        <i class="fa fa-pencil-square-o"></i>
+                    </a>
+                </li>
+                
+                <li>
+                    <a onclick="$('#searchPopup').popup('open'); searchNameSpace.searchPopUpInputText = '' ;gaPlugin.trackEvent(function() {console.log('success footer search');},function() {console.log('fail footer search');},'footerbar','click','search',1);" data-rel="popup" data-transition="pop">
+                    <i class="fa fa-search"></i></a>
+                </li>
+                <li>
+                    <a id="topostView" 
+                       onclick="
+                                profileNameSpace.toProfileByIdView(loginNameSpace.loggedUserID)
+                                ">
+                        <i class="fa fa-user"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    
+        <div data-role="popup" id="popupMenu" data-history="false" data-theme="d">
+            <ul>
+                <li>
+                    <a href="views/dashboard/followingView.html" >Home</a>
+                </li>
+                <li>
+                    <a href="views/notifications/notificationsView.html">
+                        Notifications <span style="display:none" class="menuNotifications"></span>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="profileNameSpace.toProfileByIdView(loginNameSpace.loggedUserID)">
+                        My Profile
+                    </a>
+                </li>
+                <li>
+                    <a onclick="fansNameSpace.otherProfile = loginNameSpace.loggedUserID; 
+                                 customNamespace.page.goTo( 'views/fans/fansView.html' );
+                            "
+                        >
+                        Fans <span class="fanNotifications" ></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="views/settings/settingsView.html">Settings</a>
+                </li>
+                 <li class="flagPostId hideFlag">
+                    <a href="#popupBasic" data-rel="popup">Flag Post</a>
+                </li>
+                <li ng-controller="UploadController as item" 
+                    ng-click="item.helper.go( 'views/upload/upload.html' )"
+                >
+                    <a>
+                        Current Uploads 
+                        <span class="mini-count" ng-show=" item.countUploading( item.upload , $event ) > 0 ">
+                            {{ item.countUploading( item.upload ) }}
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    
+        <style>
+            .insertUrl {
+                background-color: #FFFFFF;
+                border-style: solid;
+                border-color: #000000;
+                border-width: thin;
+                color: #000000;
+                padding: .4em 1em;
+                margin: 1em 0 0 0;
+                border-radius: .4em;
+                width: 86%;
+                font-size: 1.2em;
+                text-align: center;
+            }
+            .insertUrl .fullWidthTextbox {
+                width:80%;
+            }
+        </style>
+        <div data-role="popup" id="commonCapturePopup"  data-history="false" data-overlay-theme="a" data-theme="c" data-dismissible="true" style="max-width:400px;" class="ui-corner-all ui-popup ui-body-c ui-overlay-shadow" aria-disabled="false" data-disabled="false" data-shadow="true" data-corners="true" data-transition="none" data-position-to="origin">
+
+            <a href="#" onclick="customNamespace.commonPopupTakePhoto(); $('#commonCapturePopup').popup('close')" data-role="button" data-inline="true" data-theme="b" class="submitBtn ui-btn ui-shadow ui-btn-corner-all ui-btn-inline ui-btn-up-b" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-transition="none"><span class="ui-btn-inner"><span class="ui-btn-text">Take New Photo</span></span></a>
+            <a href="#" onclick="customNamespace.commonPopupTakePhotoFromLibrary(); $('#commonCapturePopup').popup('close')" data-role="button" data-inline="true" data-theme="b" class="submitBtn ui-btn ui-shadow ui-btn-corner-all ui-btn-inline ui-btn-up-b" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-transition="none"><span class="ui-btn-inner"><span class="ui-btn-text">Get From Library</span></span></a>
+
+            <center class="insertUrl Id-insertUrl">
+
+                <input type="text" data-role="none" placeholder="Add an Image Url Here"
+                       class="fullWidthTextbox  Id-input" 
+                >
+                <i onclick="customNamespace.popup.var.takeUrlOnChange( $(this).closest('.Id-insertUrl').find('.Id-input').val().trim() );$('#commonCapturePopup').popup('close');" class="fa fa-check"></i>
+            </center>
+            <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-notext ui-btn-up-a" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" title="Close" data-transition="none"><span class="ui-btn-inner"><span class="ui-btn-text">Close</span><span class="ui-icon ui-icon-delete ui-icon-shadow">&nbsp;</span></span></a>
+        </div>
+        
+        
+        <div data-role="popup" id="index-commonAlertPopup"  data-history="false" style="max-width:400px;" class="ui-corner-all ui-popup ui-body-c ui-overlay-shadow" data-position-to="origin">
+            <h3 id="index-commonAlertPopup-head">
+                
+            </h3>
+            <h4 id="index-commonAlertPopup-msg">
+                
+            </h4>
+            <a onclick="customNamespace.popup.var.onBottomButtonClick();" data-role="button" data-inline="true" data-theme="b" class="submitBtn ui-btn ui-shadow ui-btn-corner-all ui-btn-inline ui-btn-up-b" ><span class="ui-btn-inner"><span class="ui-btn-text">Ok</span></span></a>
+        </div>
+        
+         
+        
+        <a id="linkTosearchTeamView" href="views/search/searchTeamView.html"></a>
+        <a id="linkToProfileByIdView" href="views/profile/profileByIdView.html"></a>
+        <a id="linkToReactionsView" href="views/dashboard/reactionsView.html"></a>
+        <a id="linkToaccountPreferencesView" href="views/settings/accountPreferencesView.html"></a>
+        <a id="commonFooterToRegister" href="views/register/registerView.html"></a>
+        <a id="commonFooterToFollowing" href="views/dashboard/followingView.html"></a>
+        
+    </div>
+    
+    <div id="loginingCoverSreen" style="display:none;z-index:2000;background-image:url('http://iamchriscollins.com/loading.gif');position:fixed;height:100%;width:100%;overflow:hidden;"></div>
+
+    <div id="loadingSpinner">
+        <p>
+            Processing,<br> please wait...
+        </p>
+        <img style="width:40px;height:40px;" src="images/loading5.gif" >
+        
+    </div>
+
+    <script type="text/x-kendo-template" id="index-taggingItem-template">
+        <div class="tag Id-tag">
+            <div class="container">
+                {{#each Data }}
+                    <a class="item" onclick="customNamespace.tag.item.onclick( { index : {{ index }} } ); $(this).closest('.Id-tag').empty(); ">
+                        <img class="image" alt="../../images/default-avatar.png" src="{{ profilePhoto }}">{{ profileHandle }}
+                    </a>
+                {{/each}}
+            </div>
+        <div>
+    </script>
+   
+    
+    <div id="refresh" onclick="customNamespace.refresh();" style="display:none;" class="right">
+        <span></span><i class="fa fa-refresh"></i>
+    </div>
+    
+    <div style="display:none" id="commonChars">0</div>
+        
+    <div class="feedData" style="display:none" >
+      <div id="notificationFeed" class="notifications">
+        </div><!--notifications-->
+    </div>
+
+    
+    <div style="display:none" class="indexHtml-commonLoadingScreen fullScreen" onclick="$(this).fadeOut();">
+        <table style="height:100%;width:100%">
+            <tr>
+                <td>
+                    <center>
+                        <i style="color:grey;font-size:3em;" class="fa fa-spinner fa-spin"></i>
+                    </center>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <script type="text/x-kendo-template" id="index-shortenedUrl-template">
+
+        <a href="#" class="linkified" onclick="window.open('{{ url }}', '_blank', 'location=yes')">{{ shortenedUrl }}</a>
+
+    </script> 
+    
+    
+    
+        <script type="text/x-kendo-template" id="reaction-view-profileHandleTag-template">
+        	<a onclick="
+            			var data = { profileHandle : '{{text}}' };
+                        var onSuccess = function( data ){   
+                        					profileNameSpace.profileID = data.Data[0].profileId ;
+                                            customNamespace.page.goTo('views/profile/profileByIdView.html');  
+                        				}
+            			commentNameSpace.tag.goTo( data, onSuccess );
+                        event.stopPropagation();
+            ">@{{ text }}</a>&nbsp;
+        </script>
+                        
+        <script type="text/x-kendo-template" id="reaction-view-cachedetail-template">
+        
+            image cache queue : 
+            <div style="color:black;">
+				<ul>
+                  {{#each Data}}
+                  	<li style="  
+                              background: rgb(223, 223, 223);
+                              padding: 20px;
+                           ">
+                    	<div>id : {{ id }}</div>
+                    	<div>src : {{ src }}</div>
+                    	<div>saveAsUrl : {{ saveAsUrl }}</div>
+                    	<div><img src="{{ saveAsUrl }}" style="width:50px;height:50px"></div>
+                    	<div>time : {{ time }}</div>
+                        <div>ErrorMessage : {{ err.message }}</div>
+                        <div style="  
+                                    border: blue;
+                                    border-style: double;
+                                   ">
+                        	Detail:
+                            <div>
+                            	loggedUserID : {{ detail.loggedUserID }} <br>
+                            	postDesc : {{ detail.postDesc }} <br>
+                            	postTitle : {{ detail.postTitle }} <br>
+                            	tagId : {{ detail.tagId }} <br>
+                            	tagName : {{ detail.tagName }} <br>
+                            	teamid : {{ detail.teamid }} <br>
+                            	inputImageUrl : {{ detail.inputImageUrl }} <br>
+                            	imageUrl : {{ detail.imageUrl }} <br>
+                            	inputVideoUrl : {{ detail.inputVideoUrl }} <br>
+                                inputVideoName : {{ detail.inputVideoName }} <br> 
+                            	videoLink : {{ detail.videoLink }} <br>
+                            	videoThumbnail : {{ detail.videoThumbnail }} <br>
+                                
+                            </div>
+                        </div>
+                        
+                    </li>
+                  {{/each}}
+                <ul>
+            </div>
+        </script>
+    
+    <style>
+    .entry textarea {
+        margin: 0px -10px 0 -10px ;
+        width: 107% ;
+        padding:10px;
+
+        border: none;
+        overflow: auto;
+        outline: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        border-radius:0;
+        background: #F9F9F9 !important;
+    }
+    .comment .btn{
+        padding: .2em;
+        margin: 0 .2em .5em .2em;
+        font-size: 1.2em;
+        background: white;
+        color: rgba(0, 89, 45, 0.65);
+        border-radius: .2em .2em .2em .2em;
+        min-width: 4em;
+        text-align: center;
+        border: solid #00592d;
+        border-style: dotted;
+        border-width: thin;
+    }
+        .advertisement{
+            color:#00592d;
+        }
+    </style>
+    
+    <script type="text/x-kendo-template" id="reaction-view-reactionFeed-template">
+              
+       {{#each Data}}
+
+           <div class="entry Id-entry">
+
+                <div class="avatar "  >
+
+                    <ul class="entryData" onclick="  location.hash='../comments/commentsView.html'; commentNameSpace.postId={{ postId }};commentNameSpace.postToFlag={{ postId }};">
+                        <li><i class="fa fa-clock-o"></i>{{customFormatedTime}}</li>
+                        <li><i class="fa fa-eye"></i>{{ postFlagMessage }}</li>
+                        <li><i class="fa fa-comments"></i>{{ fanreactCommentsCount }}</li>
+                    </ul>
+
+                    <div class="img round Id-SampleThumbnailrSize" 
+                    	 onclick="profileNameSpace.profileID = {{ profileId }} ; location.hash='../profile/profileByIdView.html';"
+                         style="background-image: url('{{ profilePhoto }}');"></div>
+                    <p class="username">
+                        <a class="{{#if isAds }}advertisement{{/if}}" onclick="profileNameSpace.profileID = {{ profileId }} ; location.hash='../profile/profileByIdView.html';">{{ profileHandle }}</a>
+                        <a onclick="customNamespace.page.goTo( 'views/team/teampage.html' ); teampageNameSpace.teamId = {{ teamId }};"  class="group">{{ PostedIn }}</a>
+                    </p>
+                    <p class="message title" onclick="  location.hash='../comments/commentsView.html';  commentNameSpace.postId={{ postId }};">{{{ postTitle }}}</p>
+                    <p class="message desc" onclick="  location.hash='../comments/commentsView.html';  commentNameSpace.postId={{ postId }};">{{{ formatedPostDescription }}}</p>
+                    
+                    {{#if postImageLink}}
+                        {{#if postVideoLink}}
+                            <div class="postMediaOfFeedList videoCamera" style="background-image: url( '{{ postImageLink }}');" onclick="  location.hash='../comments/commentsView.html'; commentNameSpace.postId={{ postId }};commentNameSpace.postToFlag={{ postId }};"><span></span></div>
+                        {{else}} 
+                            <img class="postMediaOfFeedList imgTag" src="{{postImageLink}}" alt="{{altImageSrc}}" onclick="  location.hash='../comments/commentsView.html'; commentNameSpace.postId={{ postId }};commentNameSpace.postToFlag={{ postId }};">
+                        {{/if}}
+                    {{/if}}
+        		</div>
+
+                <div class="" style="background-image: url();" onclick="  location.hash='../comments/commentsView.html'; commentNameSpace.postId = {{ postId }} ; commentNameSpace.postToFlag = {{ postId }} ;"><span></span>
+                </div>
+
+                <div class="Id-commentHolder Id-tag" style="display:none;">
+                    <textarea class="Id-textarea" maxlength="500"
+                        onchange="
+                                var data = $( this ).closest( '.Id-commentHolder' ).data();
+                                data.postDesc = $(this).val();
+                                $( this ).closest( '.Id-commentHolder' ).data( data );
+                                console.log( $( this ).closest( '.Id-commentHolder' ).data())
+
+                                "
+
+                        oninput="
+                               var thisElement = this ;
+                               var lastChar = $(this).val().split('').pop() ;
+
+                               var defaultTagsTemplateId = 'index-taggingItem-template';
+
+                               var onSuccess = function( data ){
+                                    var thisElement = customNamespace.tag.input ;
+                                    $(thisElement).val( $(thisElement).val().substr( 0 , $(thisElement).val().lastIndexOf('@') ) + '@' + data.name + ' ' ) ;               
+                                    var temp = $(thisElement).val(); $(thisElement).val('');
+                                    $(thisElement).focus(); 
+                                    $(thisElement).val(temp);
+                               }
+                               var onFail = function( data ){
+                                    $(thisElement).closest('.Id-tag').find('.Id-tags-display').html('');
+                               }
+                               var display = function( thisElement, allpeople ){
+                                    customNamespace.tag.input = thisElement ;
+                                    customNamespace.tag.item.data = allpeople ;
+                                    var html = customNamespace.display.html( { Data : allpeople } , defaultTagsTemplateId  )
+                                    $(thisElement).closest('.Id-tag').find('.Id-tags-display').html( html );
+
+                               }
+                               var query = $(thisElement).val().substr( $(thisElement).val().lastIndexOf('@') + 1 , $(thisElement).val().length );
+
+                               var re = /^[a-zA-Z_0-9]+$/; 
+                               if( re.test( query ) == false || query.length > 14 || $(thisElement).val().search('@') == -1 ){ onFail(); return false ; }
+                                var data = { profileId : loginNameSpace.loggedUserID , profileHandle : query }
+                                customNamespace.tag = {};
+                                customNamespace.tag.input = {} ;
+                                customNamespace.tag.item = { data : {} };
+                                customNamespace.tag.item.onclick = function( data ){
+                                    onSuccess( customNamespace.tag.item.data[ data.index ] ); 
+                                }
+                                window.GetAllUsers.Variables = data ;
+                                window.GetAllUsers.DataUpdatedEvent = function () {
+                                    var allpeople = $.extend( true , [] , window.GetAllUsers.JsonObject.Data ) ; ;
+                                    $.each( allpeople , function( index, element ){
+                                        allpeople[index].index = index ;
+                                        allpeople[index].name = element.profileHandle ;
+                                        allpeople[index].avatar = element.profilePhoto ;
+                                        allpeople[index].avatar = element.profilePhoto ;
+                                    });
+                                    display( thisElement , allpeople );
+                                }
+
+                                window.GetAllUsers.DataUpdatedEventOnFail = function () {
+
+                                    var peopleFollowThisUser = window.GetFanListFollowingThisUser.JsonObject.Data ;
+                                    var peopleThisUserFollow = window.GetFanListThisUserFollowing.JsonObject.Data ;
+                                    var allpeople = $.extend( true , [] , peopleFollowThisUser ) ;
+                                    $.each( peopleThisUserFollow, function( index, element ){
+                                        var elementToAdd = element ;
+                                        $.each( peopleFollowThisUser , function( i , e ){
+                                           if( element.profileId == e.profileId ) {
+                                               elementToAdd = null ;
+                                               return false;
+                                           }
+                                        });
+                                        elementToAdd != null && elementToAdd != undefined ? allpeople.push( elementToAdd ) : null ;
+                                    })
+                                    $.each( allpeople , function( index, element ){
+                                        allpeople[index].id = index ;
+                                        allpeople[index].name = element.profileHandle ;
+                                        allpeople[index].avatar = element.profilePhoto ;
+                                        allpeople[index].type = 'contact' ;
+                                    })
+                                    var match = [];
+                                    var unmatch = [];
+                                    $.each( allpeople , function( index, element ){
+                                        if( element == undefined ){ allpeople.splice(index, 1) ; return true ; }
+                                        element.name.toUpperCase().search( query.toUpperCase() ) == -1 ?  unmatch.push(element) : match.push(element );
+                                    });
+                                    match.sort(function(a, b){
+                                        if(a.name < b.name) return -1;
+                                        if(a.name > b.name) return 1;
+                                        return 0;
+                                    })
+
+                                    display( thisElement , match );
+
+                                }
+                                window.GetAllUsers.Execute();
+
+                              "
+                        placeholder="Post A Reaction"
+                    ></textarea>
+
+                    <div class="Id-tags-display"></div>
+                </div>
+
+
+				<div class="Id-attachImageContainer" style="display:none; padding: 3% 0 0% 0; margin: 0 5% 0 -5%; width:110%;" >
+                	<img src="" style="width:90%; padding: 5%; background-color:black;" class="Id-attachImage"/>
+				</div>
+
+                <div class="postOptions" cellpadding="0" cellspacing="0" style="  width: 100%; margin: 0 -10px;">
+                    <p class="comment Id-displayPostTextAreaButtonHolder" >
+                    	<a onclick="
+                                    var data = $( this ).closest( '.Id-entry' ).find('.Id-commentHolder').data();
+                        			data.track = 'comment' ;  
+                                    data.postId = {{ postId }} ;
+                                    data.loggedUserID = {{ UserProfileId }} ;
+                                    data.submitType = 5 ;
+                                    data.submitTypeDesc = 'Commenting' ;
+                                    $( this ).closest( '.Id-entry' ).find('.Id-commentHolder').data( data );
+                                    console.log( $( this ).closest( '.Id-entry' ).find('.Id-commentHolder').data() );
+                        			$( this ).closest( '.Id-entry' ).find('.Id-commentHolder').slideDown();
+                                    $( this ).closest( '.Id-entry' ).find('.Id-displayPostTextAreaButtonHolder' ).hide();
+                                    $( this ).closest( '.Id-entry' ).find('.Id-actionButtonHolder' ).fadeIn();
+                                    //customNamespace.tag.bind( { element : $( this ).closest( '.Id-entry' ).find('.Id-commentHolder').find('textarea') } );
+                        			$( this ).closest( '.Id-entry' ).find('.Id-commentHolder').find('.Id-textarea').focus();
+                                   " 
+                           data-transition="none">
+                           Add a reaction...
+        				</a>
+                    </p>
+                    <ul class="thumbs">
+                        <li class="up"
+                        	onclick="
+                        			if( $(this).find('.Id-voteNumber').hasClass('Id-voted') == true ){ return false;}
+									$(this).find('.Id-voteNumber').addClass('Id-voted');	
+                                    $(this).find('.Id-voteNumber').html( parseInt( $(this).find('.Id-voteNumber').html() ) + 1 );
+                                    var minus =  parseInt( $(this).siblings().find('.Id-voteNumber').html() ) - 1 ; minus = minus < 0 ? 0 : minus ;
+                        			$(this).siblings().find('.Id-voteNumber').html( minus );
+                                    $(this).siblings().find('.Id-voteNumber').removeClass('Id-voted');
+                            		postNameSpace.queue.simpleAdd( { postId : {{ postId }} , vote : 1 , voteTypeCode : 1 , voteTypeDesc : 'vote for post' , profileId : {{ loggedUserID }} , submitType: 6 , submitTypeDesc: 'Voting'}  );
+                                    "
+                        >
+                            <a href="#"><i  class="fa fa-thumbs-o-up"></i>
+                            	<span class="Id-voteNumber {{#if UserUpVoted}}Id-voted{{/if}}">{{ UpVote }}</span>
+        					</a>
+                        </li>
+                        <li class="down"
+                        	onclick="
+                        			if( $(this).find('.Id-voteNumber').hasClass('Id-voted') == true ){ return false;}
+									$(this).find('.Id-voteNumber').addClass('Id-voted');	
+                                    $(this).find('.Id-voteNumber').html( parseInt( $(this).find('.Id-voteNumber').html() ) + 1 );
+                                    var minus =  parseInt( $(this).siblings().find('.Id-voteNumber').html() ) - 1 ;  minus = minus < 0 ? 0 : minus ;
+                        			$(this).siblings().find('.Id-voteNumber').html( minus );
+                                    $(this).siblings().find('.Id-voteNumber').removeClass('Id-voted');     
+                            		postNameSpace.queue.simpleAdd( { postId : {{ postId }} , vote : -1 , voteTypeCode : 1 , voteTypeDesc : 'vote for post' , profileId : {{ loggedUserID }} , submitType: 6 , submitTypeDesc: 'Voting'}  );
+                                    "
+                        >
+                            <a href="#"><i class="fa fa-thumbs-o-down"></i>
+                            	<span class="Id-voteNumber {{#if UserDownVoted}}Id-voted{{/if}}">{{ DownVote }}</span>
+        					</a>
+                        </li>
+                    </ul>
+                </div>
+                
+				<p class="comment Id-actionButtonHolder" style="display:none;">
+                    <i  class="fa fa-paperclip btn"
+                        onclick="
+                        		var thisElement = this ;
+                        		var displayImage = function( uri ){
+                                	
+                                    $(thisElement).closest( '.Id-entry' ).find('.Id-attachImage').attr('src', uri ) ;
+                                    $(thisElement).closest( '.Id-entry' ).find('.Id-attachImageContainer').slideDown();
+                                }
+                                
+                                $('#commonCapturePopup').popup('open');
+                                customNamespace.commonPopupTakePhoto = function(){
+
+                                    cameraNamespace.image.capture( { uid : 'inline-comment-takeImg', type : 'capture' },
+                                                                  function(uri)
+                                                                  { 
+                                                                        $( thisElement ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).data().inputImageUrl = uri;
+																		displayImage( uri ) ;
+                                                                 });
+                                };
+
+                                customNamespace.commonPopupTakePhotoFromLibrary = function(){
+
+                                    cameraNamespace.image.capture( { uid : 'inline-comment-takeImgFromLibrary', type : 'getPhotoFromLibrary' },
+                                                                  function(uri)
+                                                                  { 
+                                                                        $( thisElement ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).data().inputImageUrl = uri;
+																		displayImage( uri ) ;
+                                                                 });
+                                };
+
+                                var data = {} ;
+                                data.onChange = function( uri ){
+                                    $( thisElement ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).data().imageLink = uri;
+                                    displayImage( uri ) ;
+                                }
+                                customNamespace.popup.takeUrlAsLink( data )
+
+                        "
+                    >	
+                    </i>
+                    <i  class="fa fa-check btn"
+                        onclick="
+                        			$( this ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).data().postDesc = $(this).closest('.Id-entry').find('.Id-commentHolder').find('.Id-textarea').val();
+                                    postNameSpace.queue.simpleAdd( $( this ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).data() ) ;
+                                    console.log(  $( this ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).data() );
+                                    console.log(  $( this ).closest( '.Id-commentHolder' ).data() );
+                                    $( this ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).data({}); 
+
+                                    $( this ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).slideUp() ; 
+                                    $( this ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).find('textarea').val('');
+                                    $( this ).closest( '.Id-entry' ).find( '.Id-actionButtonHolder' ).hide();
+                                    $( this ).closest( '.Id-entry' ).find( '.Id-displayPostTextAreaButtonHolder' ).fadeIn();
+                                    $( this ).closest( '.Id-entry' ).find( '.Id-attachImageContainer').slideUp();
+                                "
+                    >
+                    </i>
+                </p>
+			</div><!--entry-->
+        {{/each}}
+
+    </script>
+
+
+    <script type="text/x-kendo-template" id="reaction-view-trendingFeed-template">
+
+        {{#each Data}}
+
+            <table class="feed trending Id-entry">
+                <tr>
+                    <td class="rating">
+                        <ul class="thumbs">
+                            <li class="up">
+                                <a href="#">
+                                    <i onclick="
+                                                var change =  $(this).closest('.Id-entry').find('.Id-voteDown').hasClass('Id-voted') == true ? 2 : 1 ;
+                                                $(this).closest('.Id-entry').find('.Id-voteDown').removeClass('Id-voted');
+                                                if( $(this).hasClass('Id-voted') == true ){ return false;}
+                                                $(this).addClass('Id-voted');	
+                                                $(this).closest('.Id-entry').find('.Id-voteNumber').html( parseInt( $(this).closest('.Id-entry').find('.Id-voteNumber').html() ) + change );
+                                                postNameSpace.queue.simpleAdd( { postId : {{ postId }} , vote : 1 , voteTypeCode : 1 , voteTypeDesc : 'vote for post' , profileId : {{ UserProfileId }} , submitType: 6 , submitTypeDesc: 'Voting'}  );
+
+                                               " 
+                                       class="fa fa-thumbs-o-up Id-voteUp {{#if UserUpVoted}}Id-voted{{/if}}"
+                                    >
+                                    </i>
+                                </a>
+                            </li>
+                            <li class="number"><span class="Id-voteNumber">{{ postUpvoteDownvoteCount }}</span></li>
+                            <li class="down">
+                                <a href="#">
+                                    <i onclick="
+                                                var change =  $(this).closest('.Id-entry').find('.Id-voteUp').hasClass('Id-voted') == true ? 2 : 1 ;
+                                                $(this).closest('.Id-entry').find('.Id-voteUp').removeClass('Id-voted');
+                                                if( $(this).hasClass('Id-voted') == true ){ return false;}
+												$(this).addClass('Id-voted');	
+                                                var minus =  parseInt( $(this).closest('.Id-entry').find('.Id-voteNumber').html() ) - change ; 
+                                                $(this).closest('.Id-entry').find('.Id-voteNumber').html( minus );
+                                                postNameSpace.queue.simpleAdd( { postId : {{ postId }} , vote : -1 , voteTypeCode : 1 , voteTypeDesc : 'vote for post' , profileId : {{ UserProfileId }} , submitType: 6 , submitTypeDesc: 'Voting'}  );
+
+                                               " 
+                                       class="fa fa-thumbs-o-down Id-voteDown {{#if UserDownVoted}}Id-voted{{/if}}"
+                                    >
+                                    </i>
+                                </a>
+                            </li>
+                        </ul>
+                    </td>
+                    <td class="media">
+
+
+
+                        <div class="{{#if postImageLink }}{{else}}replaceWithDefault{{/if}} postMediaOfFeedListForTrending {{#if postVideoLink }}videoCamera{{/if}}" 
+                             style="background-image: url('{{ postImageLink }}');" 
+                             onclick=" 
+                                      customNamespace.page.goTo( 'views/comments/commentsView.html' ); 
+                                      commentNameSpace.postId = {{ postId }};
+                                     "
+                        >
+                        </div>
+                    </td>
+                    <td class="text">
+                        <h2 class="title" 
+                            onclick="  
+                                      customNamespace.page.goTo( 'views/comments/commentsView.html' ); 
+                                      commentNameSpace.postId = {{ postId }};
+                                     "
+                        >{{ postTitle }}
+                        </h2>
+                        <h2 onclick="  
+                                      customNamespace.page.goTo( 'views/comments/commentsView.html' ); 
+                                      commentNameSpace.postId = {{ postId }};
+                                     "
+                        >{{ postDescription }}
+                        </h2>
+                        <p>{{ profileHandle }}<br> {{ customFormatedTime }} - {{ postFlagMessage }} view{{#if postFlagMessagePlural }}s{{/if}} - {{ fanreactCommentsCount }} comment{{#if fanreactCommentsCountPlural }}s{{/if}}
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        {{/each}}
+            
+    </script>  
+    
+</html>

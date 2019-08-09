@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" /><meta name="format-detection" content="telephone=no" /><meta name="viewport" content="user-scalable=no, initial-scale=1, minimum-scale=1,maximum-scale=1, width=device-width, height=device-height,target-densitydpi=device-dpi" />
+<title>FOO</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" />  
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" media="screen and (-webkit-device-pixel-ratio: 3)" href="css/hdpi.css" />
+<link rel="stylesheet" media="screen and (-webkit-device-pixel-ratio: 2.5)" href="css/hdpi.css" />
+<link rel="stylesheet" media="screen and (-webkit-device-pixel-ratio: 2)" href="css/hdpi.css" />
+<link rel="stylesheet" media="screen and (-webkit-device-pixel-ratio: 1.5)" href="css/hdpi.css" />
+<link rel="stylesheet" media="screen and (-webkit-device-pixel-ratio: 1.0)" href="css/mdpi.css" />
+<link rel="stylesheet" media="screen and (-webkit-device-pixel-ratio: 0.75)" href="css/ldpi.css" />
+
+<script src="js/cordova-2.7.0.js"></script>
+<script src="js/jquery-2.0.0.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.lazyload.min.js"></script>
+<script src="js/php.default.min.js"></script>
+<script src="js/fastclick.js"></script> 
+<script src="js/jquery.transit.min.js"></script>
+<script src="js/php.default.min.js"></script>
+<script src="js/imgcache.js"></script>
+<script src="js/file.js"></script>  
+<script src="js/progressBar.js"></script>
+<script src="js/settings.js"></script>         
+<script src="coreFlashJax.js"></script>   
+</head>
+   
+<body>
+<div id="flyerleft">
+</div>
+
+<section id="render">
+<div id="preloader"><div class="txt"><img src="css/images/logo.png"></div></div>
+</section>
+
+
+<section id="template_main">
+	<div id="scroller">	
+	<a id="profileButton" href="#profile" class="icon"></a>
+	<a id="kedvencekButtonM" href="#esemenyek/favorite/all" class="icon"></a>
+	<div id="mainPage"  class="bighead sarga bg ">
+		<table>
+		<tr>
+			<td><a href="#fellepok/main/1" class="fellepesek mainIcons">Előadók, Koncertek</a></td>
+			<td><a href="#esemenyek"  class="esemenyek mainIcons">Off-Programok</a></td>
+		</tr>
+		<tr>
+			<td><a href="#terkep/type/food" class="etelital mainIcons">Étel, Ital</a></td>
+			<td><a href="#terkep" class="terkep mainIcons">Térkép</a></td>
+		</tr>
+		<tr>
+			<td><a href="#kereses" class="kereses mainIcons">Keresés</a></td>
+			<td><a href="#page/kozlekedes" class="informacio mainIcons">Információ</a></td>
+		</tr>
+		<tr>
+			<td colspan="2"><a href="#nyeremeny" class="tablapc mainIcons"></a><br><br></td>
+			
+		</tr>
+		<tr>
+		<td><div id="logger"></div></td><td></td></tr>
+		
+		</table>
+		<div id="laptopszalonad" class="">
+		
+		
+		
+		</div>	
+	</div>
+	
+	</div>
+</section>
+
+<section id="template_adatlap">
+	<header>
+	<a id="backButton" href="javascript:history.back();" class="icon"></a>
+	<span id="bandname"></span>
+	</header>	
+	<div class="mtop scroll" id="adatlap">		
+		<div id="ide"><br><br><div style='text-align:center'><img src='css/images/ajax-loader-yellow.gif'></div></div>
+		<div id="popup" class="hide"></div>
+		<article class="item" style="display:none">			
+			<div class="img">
+				<img class="leaderPic " src="" >				
+				<div class="leaderTitle" id="leaderTitle"></div>				
+			</div>
+		<div class='ikonsor'>		
+		<a href='#kedvencek' class='kedvencicon disabled' id="addKedvencek"></a>
+		<a href='#terkep' class='terkepicon'></a>
+		<a class="place"><i class="time"></i><br><span ></span></a>
+		</div>		
+		<div class="artDesc2"></div>
+		</article>
+	</div>
+</section>
+<section id="template_fellepok">
+	<header><a id="mapButton" href="#terkep" class="icon"></a>
+	<a id="backButton" href="#main" class="icon"></a>
+	<span>Előadók</span>
+	</header>	
+	<div class="mtop sarga scroll" id="fellepok">		
+		<div id="ide"><br><br><div style='text-align:center'><img src='css/images/ajax-loader-yellow.gif'></div></div>
+		<div id="adatlap" class="popup hide scroll"></div>
+		<article class="item" style="display:none">		
+			<div class="img clickevent">
+				<img class="leaderPic " src="" >
+				<h3 >
+					<i class="time"></i>
+					<br>
+					<span class="place"></span>
+				</h3>
+			</div>
+			<div class="cont" valign="top">
+				<h3 class="leaderTitle clickevent"></h3>
+				<h4 class="leaderText "></h4>
+			</div>		
+		<div class="artDesc"></div>
+		</article>			
+	</div>
+
+</section>
+
+<section id="template_esemenyek">
+	<header><a id="mapButton" href="#terkep" class="icon"></a>
+	<a id="backButton" href="#main" class="icon"></a><span>Off-Programok</span>	
+	</header>
+	
+	<div class="mtop sarga scroll" id="esemenyek">
+		<div id="ide"><br><br><div style='text-align:center'><img src='css/images/ajax-loader-yellow.gif'></div></div>
+		<article class="item" style="display:none">
+		<a class="clickevent">
+		<table>
+		<tr>
+		<td class="conttime"><i class="time"></i></td>
+		<td  class="cont"><img class="leaderPic " src="" ><h3 class="leaderTitle "></h3>								
+				<h4 class="place"></h4>	
+								
+		</td>
+		</tr>
+		</table>
+		</a>
+		<div class="artDesc"></div>
+		</article>	
+	</div>
+
+</section>
+<section id="template_terkep">
+	<div id="mapLayer" class="hide">
+	<ul><li class="mapTypes first"></li>
+		<li><a rel="stage" class="mapTypes mapi_fellepesek" ><span>Események</span></a></li>
+		<li><a rel="food"  class="mapTypes mapi_etelital"><span>Étel ital</span></a></li>
+		<!--   <li><a rel="friends"  class="mapTypes mapi_ismerosok"><span>Ismerősök</span></a></li>-->
+		<li><a rel="info"  class="mapTypes mapi_info"><span>Info</span></a></li>
+		<li><a rel="kozlekedes"  class="mapTypes mapi_kozlekedes"><span>Közlekedés</span></a></li>
+		<li><a rel="heatmap"  class="mapTypes mapi_info"><span>Hol a tömeg?</span></a></li>
+		
+		<li class="mapTypes last"></li>
+	</ul></div>
+	<div id="mapWrapper">
+		<header><a id="mapMenuButton" class="icon"></a>
+		<a id="backButton" href="#main" class="icon"></a>
+		<span>Térkép</span>
+		</header>		
+		<div id="map_canvas" style='width:100%;min-width:340px;margin-bottom:60px;'><br><br><br>
+		<div style="text-align:center;color:#aaa;">Térkép betöltése...</div>
+		</div>
+			<a id="closeResult" class="closeResult"></a>
+			<a id="whereami"></a>
+			<div id="laptopszalonad"></div>		
+		<div id="mapResult" >		
+			<div class="mapMenuline closeResult">			
+			</div>
+			<div id="mapResultItems"></div>
+		</div>
+	</div>
+	<div id="mapPopup">
+	</div>
+</section>
+
+<section id="template_nyeremeny">
+	<header>
+	<a id="backButton" href="#main" class="icon"></a>
+	<span>Nyerj egy Tábla PC-t</span>
+	</header>
+	<div class="mtop sarga scroll" id="">
+		<img src='css/images/nyeremeny.jpg' width='100%'>
+	</div>
+	
+</section>
+
+<section id="template_profile">
+	<header>
+	<a id="backButton" href="#main" class="icon"></a>
+	<span>Beállítások</span>
+	</header>
+	<div class="mtop sarga scroll" id="profileContent">
+		<div id="map_canvas" style="width:100%;height:400px;background:#ccc;text-align:center;"><br><br>Térkép betöltése</div>
+		<div class="bigbuttonCont">Itt tudod rögzíteni a sátrad pozicióját. Kapcsold be a GPS-t a készülékeden és kattints a "Sátram rögzítése" gombra.  
+		<button class="bigbutton fleft" id="addSator">Sátorhely rögzítése</button>
+		<button class="bigbutton fleft hide" id="delSator">Sátorhely törlése</button>
+		</div>	
+		<div class="bigbuttonCont">
+		A FishingOnOrfű 2013 rendezvény ideje alatt és kizárólag a rendezvény 2km-es kőrzetén belül statisztikai célból az alkalmazás helyadatokat jelent a háttérben. Amennyiben letiltod, a hőtérkép funkciót nem éred el. Használd a hőtérképet és nézd meg hogy oszlik el a tömeg a rendezvény ideje alatt.
+			
+		<button class="bigbutton fleft" id="enableLocation">Helyközlés letitása</button>
+		<button class="bigbutton fleft hide" id="disableLocation">Helyközlés engedélyezése</button></div>
+	</div>
+	
+</section>
+
+<section id="template_login">
+	<div id="loginPage" class="sarga fblogin">
+	<a href='#main' class='skip'>kihagy</a>
+	<div class="fbbutonwrapper"><button id="fblogin"></button></div>
+	</div>
+</section>
+
+<section id="template_device">
+	<header><a id="mapButton" href="#terkep" class="icon"></a>
+	<a id="backButton" href="#main" class="icon"></a>	
+	</header>
+	<div class="mtop sarga scroll" id="staticContent"><h1>Eszköz:</h1>	
+	<ul>
+	<li>platform: <span id="dev-platform"></span></li>
+	<li>pixel-ration: <span id="dev-pixelration"></span></li>
+	<li>width x height: <span id="dev-width"></span></li>
+	<li>device: <span id="dev-device"></span></li>
+	</ul>
+	</div>
+</section>
+
+<section id="template_kereses">
+	<header><a id="mapButton" href="#terkep" class="icon"></a>
+	
+	<a id="backButton" href="#main" class="icon"></a><span>Keresés</span>	
+	</header>
+	<div class="mtop sarga scroll" id="searchContent">
+	<input type="text" name="search" id="searchInput" autocomplete="off">
+	<div id="deba"></div>
+	<div id="ide">
+	<br><br><div id='keresesInfo'></div>
+	</div>
+		
+	</div>
+</section>
+
+<section id="template_staticpage">
+	<header><a id="mapButton" href="#terkep" class="icon"></a>
+	<a id="backButton" href="#main" class="icon"></a>
+	
+	</header>
+	<div class="mtop sarga scroll" id="staticContent"><div id="ide"><br><br><div style='text-align:center'><img src='css/images/ajax-loader-yellow.gif'></div></div>
+		
+	</div>
+</section>
+
+<section id="template_sub">
+	<header><a id="mapButton" href="#terkep" class="icon"></a>
+	<a id="backButton" href="#main" class="icon"></a>
+	<span>Információ</span>
+	</header>
+	<div class="mtop sarga scroll" id="staticContent">
+	<ul id='ide'>
+	<div id="ide"><br><br><div style='text-align:center'><img src='css/images/ajax-loader-yellow.gif'></div></div>	
+	</ul>
+	</div>
+</section>
+
+<section id="template_download">
+<div id="downloader" class="">
+<br><div id="progressBarde"></div>
+<div id="progressBardeText"></div>
+</div>
+</section>
+
+
+
+<div id="load" class="hide"> 
+	<div id="spin"></div>
+</div>
+
+<div id="result"></div>
+
+</div>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=visualization"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

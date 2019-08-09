@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<restaurants>
+	<restaurant>
+		<num>1</num>
+		<nom>A Choumas'</nom>
+		<adresse>1 Place Cadelade</adresse>
+		<tel>04 71 03 03 94</tel>
+		<latitude>45.043277</latitude>
+		<longitude>3.887763</longitude>
+	</restaurant>	
+	<restaurant>
+		<num>2</num>
+		<nom>Restaurant La Pizza</nom>
+		<adresse>4 Place Cadelade</adresse>
+		<tel>04 71 04 13 13</tel>
+		<latitude>45.043118</latitude>
+		<longitude>3.888022</longitude>
+	</restaurant>
+	<restaurant>
+		<num>3</num>
+		<nom>La Taverne</nom>
+		<adresse>6 Place Cadelade</adresse>
+		<tel>04 71 04 55 55</tel>
+		<latitude>45.042996</latitude>
+		<longitude>3.888304</longitude>
+	</restaurant>
+	<restaurant>
+		<num>4</num>
+		<nom>Hippopotamus</nom>
+		<adresse>13 Place Cadelade</adresse>
+		<tel>04 71 01 26 26</tel>
+		<latitude>45.043481</latitude>
+		<longitude>3.888348</longitude>
+	</restaurant>
+	<restaurant>
+		<num>5</num>
+		<nom>Entrez Les Artistes !!! «La Taverne des Vilaines»</nom>
+		<adresse>29 Rue Pannessac</adresse>
+		<tel>04 71 09 71 78</tel>
+		<latitude>45.043791</latitude>
+		<longitude>3.881548</longitude>
+	</restaurant>
+	<restaurant>
+		<num>6</num>
+		<nom>La Table</nom>
+		<adresse>1 Avenue d'Aiguilhe</adresse>
+		<tel>04 71 02 22 22</tel>
+		<latitude>45.048100</latitude>
+		<longitude>3.879843</longitude>
+	</restaurant>
+	<restaurant>
+		<num>7</num>
+		<nom>The Black Pearl Bar</nom>
+		<adresse>22 Rue Vibert</adresse>
+		<tel>04 71 09 43 59</tel>
+		<latitude>45.041337</latitude>
+		<longitude>3.882071</longitude>
+	</restaurant>
+	<restaurant>
+		<num>8</num>
+		<nom>Brasserie Les Archers</nom>
+		<adresse>4 Rue Julien</adresse>
+		<tel>04 71 02 45 62</tel>
+		<latitude>45.043182</latitude>
+		<longitude>3.881104</longitude>
+	</restaurant>
+	<restaurant>
+		<num>9</num>
+		<nom>Chez la Baronne</nom>
+		<adresse>Place du Marché Couvert</adresse>
+		<tel>04 63 20 21 53</tel>
+		<latitude>45.043441</latitude>
+		<longitude>3.881616</longitude>
+	</restaurant>
+	<restaurant>
+		<num>10</num>
+		<nom>Le Chamarlenc</nom>
+		<adresse>19 Rue Raphaël</adresse>
+		<tel>04 71 02 17 72</tel>
+		<latitude>45.044424</latitude>
+		<longitude>3.882659</longitude>
+	</restaurant>
+	<restaurant>
+		<num>11</num>
+		<nom>Comme A la Maison</nom>
+		<adresse>7 Rue Séguret</adresse>
+		<tel>04 71 02 94 73</tel>
+		<latitude>45.045358</latitude>
+		<longitude>3.883923</longitude>
+	</restaurant>
+	<restaurant>
+		<num>12</num>
+		<nom>L'Ame des Poêtes</nom>
+		<adresse>16 Rue Séguret</adresse>
+		<tel>04 71 05 66 57</tel>
+		<latitude>45.045447</latitude>
+		<longitude>3.884062</longitude>
+	</restaurant>
+	<restaurant>
+		<num>13</num>
+		<nom>La Mappemonde</nom>
+		<adresse>6 Rue Félix Boudignon</adresse>
+		<tel>04 71 02 45 00</tel>
+		<latitude>45.042523</latitude>
+		<longitude>3.881892</longitude>
+	</restaurant>
+	<restaurant>
+		<num>14</num>
+		<nom>Le Petit Creux</nom>
+		<adresse>2 Rue Saint-Gilles</adresse>
+		<tel>06 75 37 09 61</tel>
+		<latitude>45.043154</latitude>
+		<longitude>3.882294</longitude>
+	</restaurant>
+	<restaurant>
+		<num>15</num>
+		<nom>Fleur de sel</nom>
+		<adresse>3 Place du Plot</adresse>
+		<tel>04 71 09 55 87</tel>
+		<latitude>45.043335</latitude>
+		<longitude>3.882819</longitude>
+	</restaurant>
+	<restaurant>
+		<num>16</num>
+		<nom>La Table du Plot</nom>
+		<adresse>1 Rue Pannessac</adresse>
+		<tel>04 71 57 05 28</tel>
+		<latitude>45.043472</latitude>
+		<longitude>3.882493</longitude>
+	</restaurant>
+	<restaurant>
+		<num>17</num>
+		<nom>Le Santa Lucia</nom>
+		<adresse>Place du Plot</adresse>
+		<tel>06 81 16 76 99</tel>
+		<latitude>45.043309</latitude>
+		<longitude>3.882522</longitude>
+	</restaurant>
+	<restaurant>
+		<num>18</num>
+		<nom>Casa Nostra</nom>
+		<adresse>1 Place du Plot</adresse>
+		<tel>04 71 57 89 73</tel>
+		<latitude>45.043205</latitude>
+		<longitude>3.88284</longitude>
+	</restaurant>
+	<restaurant>
+		<num>19</num>
+		<nom>Restaurant La Pizza</nom>
+		<adresse>2 Avenue Charles Massot</adresse>
+		<tel>04 71 05 66 56</tel>
+		<latitude>45.029564</latitude>
+		<longitude>3.876597</longitude>
+	</restaurant>
+	<restaurant>
+		<num>20</num>
+		<nom>Cafe Au 3 B</nom>
+		<adresse>8 Place de la Halle</adresse>
+		<tel>04 71 02 01 48</tel>
+		<latitude>45.042932</latitude>
+		<longitude>3.882654</longitude>
+	</restaurant>
+</restaurants>

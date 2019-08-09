@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html;" />
+	<META NAME="Author" CONTENT="Ignacio Pumarega Aparicio">
+		<title> Educ'Altran </title> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet"  href="../css/themes/default/jquery.mobile-1.2.0-rc.2.min.css" />
+		<script src="../js/jquery.js"></script>
+		<script src="../js/jquery.mobile-1.2.0-rc.2.min.js"></script>
+		<script src="../funciones.js"> </script>
+		<script src="../Cursos/funcionesCursos.js"></script>
+		<script src="../AltranPeople/funcionesaltranPeople.js"></script>
+		<script src="../phonegap.js"></script>
+		<script src="../childbrowser.js"></script>
+	</head> 
+	<body>				
+		<Div data-role="page" id='page'>
+			<div data-role="popup" id ="popupBasic">
+				<ul id="pop" data-role="listview" data-inset="true" style="min-width:210px;" data-theme="b">
+					<li><a href="../AltranPeople/altranPeople.html" onClick="recargaPeople()"  data-theme="a">Altran People</a></li>
+					<li><a href="../Cursos/cursos.html" onClick="recargaCursos()"  data-theme="a">Educ'Altran</a></li>
+
+				</ul>
+			</div>
+			<div data-role="header" data-theme="b"><!-- /header -->
+			
+					<a href="#popupBasic" onClick="javascript: refrescarPopup()" data-rel="popup" data-icon="gear" class="ui-btn-left"><span id='menu-tr'>Menu</span></a>
+				<h1><img src='imagenes/Educ-logo.png' width="50%" /></h1>
+					<a href="#" onClick="javascript: doLogoff();" data-icon="home" class="ui-btn-right"><span class='desconectar-tr'>Desconectar</span></a>
+						<!--<a href="#" onClick="javascript: contar();" data-icon="home" class="ui-btn-right"><span id='desconectar-tr'>Contar</span></a>-->
+				<div data-role="navbar">
+					<ul id="navegacion">
+						<li><a href="#"  onClick="javascript: consultarCursos(true,0,1)" data-role="button" data-theme="a"><span id='miformacion-tr'>Mi Formacion</span></a></li>
+						<!-- <li><a href="#"  onClick="javascript: consultarCursos(true,0,'HOY')" data-role="button" data-theme="a"><span id='miproximaformacion-tr'>Mi Proxima Formacion</span></a></li>-->
+						<li><a href="#"  onClick="javascript: consultarCursos(true,1,0)" data-role="button" data-theme="a"><span id='proximoscursos-tr'>Proximos Cursos</span></a></li>
+						<li><a href="#"  onClick="javascript: buscadorCursos()" data-role="button" data-theme="a"><span class='buscar-tr'>Buscar</span></a></li>
+					</ul>
+				</div><!-- /navbar -->
+			</div><!-- /header -->
+			<Div data-role="content">
+				<!-- Buscador de Cursos -->		
+				<div id="buscadorCursos" style="display: none; >
+					<form method="post" action="javascript: buscar(true)">
+						<div id="buscadorCursos1" data-role="fieldcontain">
+							<label for="criteriobusqueda">Busqueda de Cursos:</label>
+							<input type="text" name="criteriobusqueda" id="criteriobusqueda" value=""  />
+						</div>
+					</form>
+					<a id='BuscarCursos' onClick="javascript: buscarCurso()" data-role="button" data-icon="search" data-theme="b"><span class='buscar-tr'>Buscar</span></a>
+				</div>
+
+				
+		
+				<div id="listadoCursos" >
+					<ul data-role="listview" data-inset="true" data-filter="true" id="cursos" ></ul>
+				</div>				
+				<div id="listadoCurso" >
+					<ul data-role="listview" data-inset="true" id="curso" ></ul>
+				</div>
+				<div style="display:none" id="solicitardiv" ><a href='#' data-role='button' onClick='solicitarCurso(idcurso,idpersona,1);' data-theme="b"><span id='solicitar-tr'>Solicitar</span></a></div>
+				<div style="display:none" id="solicitardivDistancia" ><a href='#' data-role='button' onClick='solicitarCurso(idcurso,idpersona,2);' data-theme="b"><span id='solicitaradistancia-tr'>Solicitar a distancia</span></a></div>
+				<div style="display:none" id="cancelardiv" ><a href='#'  data-role='button' onClick='cancelarCurso(idcurso,idpersona);' data-theme="b"><span id='cancelar-tr'>Cancelar</span></a></div>
+			</div>
+			
+		</div>				
+		<script>
+		$(document).ready(function() {
+			Ocultar("cancelardiv");
+			Ocultar("solicitardiv");
+			Ocultar("listadoCursos");
+			Ocultar("listadoCurso");
+			Ocultar("buscadorCursos");
+			
+			if (localStorage.getItem('usuario') == '' && localStorage.getItem('clave') == '' ) {
+				document.location.href="../index.html";
+			}
+			
+			consultarCursos("true","1","0");
+			traducir("Correo|Responsable|Mi Formacion|Mi Proxima Formacion|Desconectar|Buscar|Proximos Cursos|Audiencia|Objetivo|Descripcion|Temario|Solicitar|Cancelar|Menu|Inicio Inscripcion|Fin Inscripcion|Fecha Inicio|Fecha Fin|Horario|Horas|Plazas");
+
+			function refrescarPopup(){
+			$("#pop").listview('refresh');
+			}
+		});
+		</script>
+	
+	</body>
+</html>

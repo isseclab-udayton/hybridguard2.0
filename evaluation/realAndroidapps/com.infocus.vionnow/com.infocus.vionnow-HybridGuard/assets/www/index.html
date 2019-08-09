@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>vionnow</title>
+        <meta name="viewport" content="width=device-width">
+        
+        
+        
+        
+        <link rel="stylesheet" href="flexslider/flexslider.css" />
+        <link rel="stylesheet" href="jqm/jquery.mobile-1.2.0.min.css" />
+        
+        <!-- <script type="text/javascript" charset="utf-8" src="js/jquery.lint.js"></script>-->
+        
+        <link rel="stylesheet" href="master.css" />
+        
+    </head>
+    <body>
+        
+        
+        <!-- Page: Startseite -->
+        <div data-role="page" id="start" data-theme="a">
+            
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed" data-theme="a" data-nobackbtn="true" data-tap-toggle="false">
+                
+                <h1>vionnow</h1>
+            
+                <a href="#" onclick="$('#search-overlay-start').toggle();" data-icon="search" class="ui-btn-right" data-shadow="false" data-iconpos="notext">Suche</a>
+                
+			</div>
+            
+            <!-- Search Overlay -->
+            <div id="search-overlay-start" class="search-overlay">
+                <div class="search-wrapper">
+                    
+                    <input type="text" onkeyup="suggest()" name="name" id="search_start" data-role="none" placeholder="Titel, Darsteller, Regie" />
+                    <a href="#search_movies" data-role="none" class="search-submit"><span>&raquo;</span></a>
+                    <a href="#pg_start_movies" data-rel="popup" class="vionnow-button genre"><span>Genre</span></a>
+                    <a href="#" onClick="getBarcode(0)" class="vionnow-button barcode"><span>BC</span></a>
+                    
+                    <div class="clear"></div>
+                    
+                </div>
+                <div class="suggestions" id="suggest_start"></div>
+                <div onclick="$(this).parent().hide();" class="overlay"></div>
+            </div>
+            
+            <!-- Content -->
+            <div data-role="content" id="start_content" style="display: none;">
+
+	            <!-- Banner -->
+	            <div id="stage" class="stage" style="overflow: hidden;">
+	                <div class="shadow"></div>
+                    <div class="wmuSlider">
+                        <ul class="slides">
+                            <!-- FOREACH BANNER -->
+                            
+                            <!-- END FOREACH BANNER -->
+                        </ul>
+                    </div>
+	            </div> <!-- End Banner -->
+                
+	            <div class="content-wrapper">
+                    <a class="btn-more" data-icon="arrow-r" data-role="button" data-mini="true" data-iconpos="right" href="#new_movies">Alle Top Titel</a>
+	                <h4>Top Neuheiten</h4>
+	                <div id="content_film">
+	                    <div class="ui-grid-b">
+	                        <div class="ui-block-a"></div>
+	                        <div class="ui-block-b"></div>
+	                        <div class="ui-block-c"></div>
+	                    </div>
+	                </div>
+                    <a class="btn-more" data-icon="arrow-r" data-role="button" data-mini="true" data-iconpos="right" href="#upcoming_movies">Alle Top Titel</a>
+	                <h4>Top Vorschau</h4>
+	                <div id="content_film_up">
+	                    <div class="ui-grid-b">
+	                        <div class="ui-block-a"></div>
+	                        <div class="ui-block-b"></div>
+	                        <div class="ui-block-c"></div>
+	                    </div>
+	                </div>
+	            </div>
+	            <div data-role="popup" id="pg_start_movies" data-overlay-theme="a"></div>
+	            <div data-role="popup" data-transition="pop" class="popup-content" id="popinfo_start" data-theme="c" data-overlay-theme="a">
+	            <h3>TEST</h3>
+	            <p></p>
+	            <a href="#" onclick="closePopupInfo()" data-icon="delete" data-theme="c" data-mini="true" data-role="button">Schlie&szlig;en</a>
+	            </div>      
+            </div>
+            <!-- Footer -->
+            <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+                <div class="main_navbar" data-role="navbar">
+                    <ul>
+                        <li><a data-icon="vionnow-movies" href="#start" class="ui-btn-active ui-state-persist">Movies</a></li>
+                        <li><a data-icon="vionnow-vfinder" href="#stores">Videotheken</a></li>
+                        <li><a data-icon="vionnow-myvionnow" href="#storage_list">Sammlung</a></li>
+                        <li><a data-icon="vionnow-imprint" href="#imprint">Info</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div> <!-- End Page: Startseite -->
+        
+<!-- #################################################### -->
+        
+        <!-- Page: Film Neuheiten  -->
+        <div data-role="page" id="new_movies" class="subpage" data-theme="a">
+            
+            <!-- Search Overlay -->
+            <div id="search-overlay-new" class="search-overlay">
+                <div class="search-wrapper">
+                    
+                    <input type="text" onkeyup="suggest()" name="name" id="search_new_movies"  data-role="none" placeholder="Titel, Darsteller, Regie" />
+                    <a href="#search_movies"  data-role="none" class="search-submit"><span>&raquo;</span></a>
+                    <a href="#pg_new_movies" data-rel="popup" class="vionnow-button genre"><span>Genre</span></a>
+                    <a href="#" onClick="getBarcode(0)" class="vionnow-button barcode"><span>BC</span></a>
+                    
+                    <div class="clear"></div>
+                    
+                </div>
+                <div class="suggestions" id="suggest_new_movies"></div>
+                <div onclick="$(this).parent().hide();" class="overlay"></div>
+            </div>
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed" data-theme="a" data-nobackbtn="false" data-tap-toggle="false">
+	            
+                <a href="#start" data-icon="arrow-l">Zur&uuml;ck</a>
+                
+                <h1>Neuheiten</h1>
+                
+                <a href="#" onclick="$('#search-overlay-new').toggle();" data-icon="search" class="ui-btn-right" data-shadow="false" data-iconpos="notext">Suche</a>
+                
+			</div>
+            
+            <!-- Content -->
+            <div data-role="content">
+            <div class="content-wrapper">
+                <div id="content_new_movies1" class="movie-wrapper">
+                    <div class="ui-grid-b">
+						<div class="ui-block-a"></div>
+						<div class="ui-block-b"></div>
+						<div class="ui-block-c"></div>
+                    </div>
+                </div>
+                <div id="content_new_movies2" class="movie-wrapper">
+                    <div class="ui-grid-b">
+						<div class="ui-block-a"></div>
+						<div class="ui-block-b"></div>
+						<div class="ui-block-c"></div>
+                    </div>
+                </div>
+                <div id="new_movies_dots" class="dot-wrapper"></div>
+            </div>    
+            </div>
+            
+            <!-- Footer -->
+            <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+                <div class="main_navbar" data-role="navbar">
+                    <ul>
+                        <li><a data-icon="vionnow-movies" href="#start" class="ui-btn-active ui-state-persist">Movies</a></li>
+                        <li><a data-icon="vionnow-vfinder" href="#stores">Videotheken</a></li>
+                        <li><a data-icon="vionnow-myvionnow" href="#storage_list">Sammlung</a></li>
+                        <li><a data-icon="vionnow-imprint" href="#imprint">Info</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="popup" id="pg_new_movies" data-overlay-theme="a"></div>
+            <div data-role="popup" data-transition="pop" class="popup-content" id="popinfo_new_movies" data-theme="c" data-overlay-theme="a">
+	            <h3>TEST</h3>
+	            <p></p>
+	            <a href="#" onclick="closePopupInfo()" data-icon="delete" data-theme="c" data-mini="true" data-role="button">Schlie&szlig;en</a>
+	        </div> 
+        </div><!-- End Page: Film Neuheiten -->
+        
+<!-- #################################################### -->
+        
+        <!-- Page: Film Vorschau  -->
+        <div data-role="page" id="upcoming_movies" class="subpage" data-theme="a">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed" data-theme="a" data-nobackbtn="false" data-tap-toggle="false">
+	            
+                <a href="#start" data-icon="arrow-l">Zur&uuml;ck</a>
+                
+                <h1>Vorschau</h1>
+                
+			</div>
+            <!-- Content -->
+            <div data-role="content">
+            <div class="content-wrapper">
+                <div id="content_upcoming_movies1" class="movie-wrapper">
+                    <div class="ui-grid-b">
+                        <div class="ui-block-a"></div>
+                        <div class="ui-block-b"></div>
+                        <div class="ui-block-c"></div>
+                    </div>
+                </div>
+                <div id="content_upcoming_movies2" class="movie-wrapper">
+                    <div class="ui-grid-b">
+                        <div class="ui-block-a"></div>
+                        <div class="ui-block-b"></div>
+                        <div class="ui-block-c"></div>
+                    </div>
+                </div>
+                <div id="up_movies_dots" class="dot-wrapper"></div>
+            </div>    
+            </div>
+            
+            <!-- Footer -->
+            <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+                <div class="main_navbar" data-role="navbar">
+                    <ul>
+                        <li><a data-icon="vionnow-movies" href="#start" class="ui-btn-active ui-state-persist">Movies</a></li>
+                        <li><a data-icon="vionnow-vfinder" href="#stores">Videotheken</a></li>
+                        <li><a data-icon="vionnow-myvionnow" href="#storage_list">Sammlung</a></li>
+                        <li><a data-icon="vionnow-imprint" href="#imprint">Info</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="popup" data-transition="pop" class="popup-content" id="popinfo_upcoming_movies" data-theme="c" data-overlay-theme="a">
+	            <h3>TEST</h3>
+	            <p></p>
+	            <a href="#" onclick="closePopupInfo()" data-icon="delete" data-theme="c" data-mini="true" data-role="button">Schlie&szlig;en</a>
+	        </div> 
+        </div><!-- End Page: Film Vorschau -->
+        
+<!-- #################################################### -->
+        
+        <!-- Page: Film Suche  -->
+        <div data-role="page" id="search_movies" class="subpage" data-theme="a">
+            
+            <!-- Search Overlay -->
+            <div id="search-overlay-search" class="search-overlay">
+                <div class="search-wrapper">
+                    
+                    <input type="text" onkeyup="suggest()" name="name" id="search_search_movies"  data-role="none" placeholder="Titel, Darsteller, Regie" />
+                    <a href="#search_movies"  data-role="none" class="search-submit"><span>&raquo;</span></a>
+                    <a href="#pg_search_movies" data-rel="popup" class="vionnow-button genre"><span>Genre</span></a>
+                    <a href="#" onClick="getBarcode(0)" class="vionnow-button barcode"><span>BC</span></a>
+                    
+                    <div class="clear"></div>
+                    
+                </div>
+                <div class="suggestions" id="suggest_search_movies"></div>
+                <div onclick="$(this).parent().hide();" class="overlay"></div>
+            </div>
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed" data-theme="a" data-nobackbtn="false" data-tap-toggle="false">
+	            
+                <a href="#" onClick="history.back();" data-icon="arrow-l">Zur&uuml;ck</a>
+                
+                <h1>Suche</h1>
+                
+                <a href="#" onclick="$('#search-overlay-search').toggle();" data-icon="search" class="ui-btn-right" data-shadow="false" data-iconpos="notext">Suche</a>
+                
+			</div>
+            <!-- Content -->
+            <div data-role="content">
+            <div class="content-wrapper">
+                
+                <div id="search-error" style="display: none;">
+                    <h2>Ooooops... leider keine Treffer</h2>
+                    <p>Deine Suche ergab leider kein Ergebnis. Versuche es erneut.</p>
+                </div>
+                
+                <div id="content_search_movies1" class="movie-wrapper">
+                    <div class="ui-grid-b">
+                        <div class="ui-block-a"></div>
+                        <div class="ui-block-b"></div>
+                        <div class="ui-block-c"></div>
+                    </div>
+                </div>
+                <div id="content_search_movies2" class="movie-wrapper">
+                    <div class="ui-grid-b">
+                        <div class="ui-block-a"></div>
+                        <div class="ui-block-b"></div>
+                        <div class="ui-block-c"></div>
+                    </div>
+                </div>
+                <div id="search_movies_dots" class="dot-wrapper"></div>
+            </div>    
+            </div>
+            
+            <!-- Footer -->
+            <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+                <div class="main_navbar" data-role="navbar">
+                    <ul>
+                        <li><a data-icon="vionnow-movies" href="#start" class="ui-btn-active ui-state-persist">Movies</a></li>
+                        <li><a data-icon="vionnow-vfinder" href="#stores">Videotheken</a></li>
+                        <li><a data-icon="vionnow-myvionnow" href="#storage_list">Sammlung</a></li>
+                        <li><a data-icon="vionnow-imprint" href="#imprint">Info</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="popup" id="pg_search_movies" data-overlay-theme="a"></div>
+            <div data-role="popup" data-transition="pop" class="popup-content" id="popinfo_search_movies" data-theme="c" data-overlay-theme="a">
+	            <h3>TEST</h3>
+	            <p></p>
+	            <a href="#" onclick="closePopupInfo()" data-icon="delete" data-theme="c" data-mini="true" data-role="button">Schlie&szlig;en</a>
+	        </div> 
+        </div><!-- End Page: Film Suche -->
+        
+<!-- #################################################### -->
+        
+        <!-- Page: Film Genre  -->
+        <div data-role="page" id="genre_movies" class="subpage" data-theme="a">
+            
+            <!-- Search Overlay -->
+            <div id="search-overlay-genre" class="search-overlay">
+                <div class="search-wrapper">
+                    
+                    <input type="text" onkeyup="suggest()" name="name" id="search_genre_movies"  data-role="none" placeholder="Titel, Darsteller, Regie" />
+                    <a href="#search_movies"  data-role="none" class="search-submit"><span>&raquo;</span></a>
+                    <a href="#pg_genre_movies" data-rel="popup" class="vionnow-button genre"><span>Genre</span></a>
+                    <a href="#" onClick="getBarcode(0)" class="vionnow-button barcode"><span>BC</span></a>
+                    
+                    <div class="clear"></div>
+                    
+                </div>
+                <div class="suggestions" id="suggest_genre_movies"></div>
+                <div onclick="$(this).parent().hide();" class="overlay"></div>
+            </div>
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed" data-theme="a" data-nobackbtn="false" data-tap-toggle="false">
+	            
+                <a href="#" onClick="history.back();" data-icon="arrow-l">Zur&uuml;ck</a>
+                
+                <h1>Genre</h1>
+                
+                <a href="#" onclick="$('#search-overlay-genre').toggle();" data-icon="search" class="ui-btn-right" data-shadow="false" data-iconpos="notext">Suche</a>
+                
+			</div>
+            
+            <!-- Content -->
+            <div data-role="content">
+            <div class="content-wrapper">
+                <div id="content_genre_movies1" class="movie-wrapper">
+                    <div class="ui-grid-b">
+                        <div class="ui-block-a"></div>
+                        <div class="ui-block-b"></div>
+                        <div class="ui-block-c"></div>
+                    </div>
+                </div>
+                <div id="content_genre_movies2" class="movie-wrapper">
+                    <div class="ui-grid-b">
+                        <div class="ui-block-a"></div>
+                        <div class="ui-block-b"></div>
+                        <div class="ui-block-c"></div>
+                    </div>
+                </div>
+                <div id="genre_movies_dots" class="dot-wrapper"></div>
+            </div>    
+            </div>
+            
+            <!-- Footer -->
+            <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+                <div class="main_navbar" data-role="navbar">
+                    <ul>
+                        <li><a data-icon="vionnow-movies" href="#start" class="ui-btn-active ui-state-persist">Movies</a></li>
+                        <li><a data-icon="vionnow-vfinder" href="#stores">Videotheken</a></li>
+                        <li><a data-icon="vionnow-myvionnow" href="#storage_list">Sammlung</a></li>
+                        <li><a data-icon="vionnow-imprint" href="#imprint">Info</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="popup" id="pg_genre_movies" data-overlay-theme="a"></div>
+            <div data-role="popup" data-transition="pop" class="popup-content" id="popinfo_genre_movies" data-theme="c" data-overlay-theme="a">
+	            <h3>TEST</h3>
+	            <p></p>
+	            <a href="#" onclick="closePopupInfo()" data-icon="delete" data-theme="c" data-mini="true" data-role="button">Schlie&szlig;en</a>
+	        </div> 
+        </div><!-- End Page: Film Genre -->
+        
+<!-- #################################################### -->
+        
+        <!-- Page: Random Film  -->
+        <div data-role="page" id="random_movie" data-theme="a">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed" data-tap-toggle="false">
+                <a href="#start" data-icon="arrow-l">Start</a>
+                <h1>Zufallsfilm</h1>
+            </div>
+            
+            <!-- Content -->
+            <div data-role="content">
+            <div class="content-wrapper">
+                <div id="content_random_movie"></div>
+                <p>Schütteln für Zufallsfilm!</p>
+            </div>    
+            </div>
+            
+            <!-- Footer -->
+            <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+                <div class="main_navbar" data-role="navbar">
+                    <ul>
+                        <li><a data-icon="vionnow-movies" href="#start" class="ui-btn-active ui-state-persist">Movies</a></li>
+                        <li><a data-icon="vionnow-vfinder" href="#stores">Videotheken</a></li>
+                        <li><a data-icon="vionnow-myvionnow" href="#storage_list">Sammlung</a></li>
+                        <li><a data-icon="vionnow-imprint" href="#imprint">Info</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div><!-- End Page: Random Film -->
+        
+        <!-- #################################################### -->
+        
+        <!-- Page: Impressum  -->
+        <div data-role="page" id="imprint" data-theme="a">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed" data-tap-toggle="false">
+                <h1>Info</h1>
+            </div>
+            
+            <!-- Content -->
+            <div data-role="content">
+                <div class="content-wrapper">
+                    
+                    <h2>vionnow - Die Videotheken App</h2>
+                    <p>mit vionnow hast du deine eigene Videothek immer dabei, sei es das Filmprogramm aus der Videothek um die Ecke oder auch Videos aus deiner pers&ouml;nlichen Sammlung.</p>
+                    <p>Du hast unbeschr&auml;nkten Zugriff auf unsere Movie Datenbank mit 60.000 Titeln und wirst &uuml;ber die Toptitel sowie eine Auswahl der besten Vorschautitel tagesaktuell informiert.</p>
+                    
+                    <ul>
+                        <li>Top-Neuheiten deiner Videothek in der &Uuml;bersicht</li>
+                        <li>Top-Vorschau-Titel deiner Videothek in der &Uuml;bersicht</li>
+                        <li>Umfangreiche Movie Datenbank mit Cover-Abbildungen, Inhaltstexten, Trailern uvm.</li>
+                        <li>Barcodescanner - Scanne den Barcode vom Cover deiner DVD oder Blu Ray und finde so weitere Infos zum Film oder speichere ihn in deiner Sammlung</li>
+                        <li>Speichern deiner Filme in deiner Sammlung</li>
+                        <li>Cloud-Sicherung deiner gespeicherten Sammlung zur Synchronisation mit anderen Ger&auml;ten. Optional und kostenlos!</li>
+                        <li>Videothekenfinder - Finde Videotheken in deiner Umgebung</li>
+                    </ul>
+                    
+                    <div data-role="controlgroup">
+                        <a id="btn-imprint-more" data-icon="info" data-role="button" href="http://vionnow.de/videotheken-app" rel="external" target="_blank">Mehr Infos zur App</a>
+                        <a id="btn-imprint-store" data-icon="info" data-role="button" href="http://vionnow.de/info/fur-videotheken/" rel="external"  target="_blank">F&uuml;r Videotheken</a>
+                        <a id="btn-imprint-facebook" data-icon="info" data-role="button" rel="external"  target="_blank" href="http://www.facebook.com/vionnow">Folge vionnow auf Facebook</a>
+                        <a id="btn-imprint-twitter" data-icon="info" data-role="button" rel="external"  target="_blank" href="http://www.twitter.com/vionnow">Folge vionnow auf Twitter</a>
+                    </div>
+                        
+                    <hr />
+                    
+                    <div class="devide">
+                        <h2>Infocus Media GmbH</h2>
+                        <p>Gesch&auml;ftsf&uuml;hrer: Arivert Masuhr</p>
+                        <p>Alte Holstenstra&szlig;e 31-33</p>
+                        <p>21031 Hamburg</p>
+                        <p>Tel.: 040 / 726 959 -34 / -35<br />
+                        Fax: 040 / 720 06 859<br />
+                        e-Mail: info@infocus-media.de</p>
+                        <p>Registergericht: Amtsgericht Hamburg<br />
+                        Registernummer HRB 109350</p>
+                        <p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz: DE 227289628</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer -->
+            <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+                <div class="main_navbar" data-role="navbar">
+                    <ul>
+                        <li><a data-icon="vionnow-movies" href="#start">Movies</a></li>
+                        <li><a data-icon="vionnow-vfinder" href="#stores">Videotheken</a></li>
+                        <li><a data-icon="vionnow-myvionnow" href="#storage_list">Sammlung</a></li>
+                        <li><a data-icon="vionnow-imprint" href="#imprint" class="ui-btn-active ui-state-persist">Info</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div><!-- End Page: Impressum -->
+        
+<!-- #################################################### -->
+        
+        <!-- Page: Videotheken  -->
+        <div data-role="page" id="stores" data-theme="a">
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed" data-tap-toggle="false">
+                <h1>Videotheken</h1>
+                <a href="#" data-role="button" id="list_button" data-theme="a" class="ui-btn-right">Liste</a>
+            </div>
+            
+            <!-- Content -->
+            <div id="content_stores"></div>
+            <div data-role="content">
+            
+                <div id="map_wrapper">
+                    
+                    <div class="search-wrapper map">
+
+                        <input data-role="none" onkeyup="suggest_geo()" type="text" name="map_plz" id="map_plz" placeholder="PLZ oder Ort" />
+                        <a href="#" id="geopos" class="search-submit"><span>GPS</span></a>
+                        
+                        <select data-role="none" name="select-km" id="select-km" class="vionnow-button">
+                            <option value="5">5 km</option>
+                            <option value="10">10 km</option>
+                            <option value="20">20 km</option>
+                        </select>
+
+                        <div class="clear"></div>
+                        <div style="display: none;" class="suggestions" id="suggest_geo" onclick="$(this).hide();"></div>
+                    </div>
+                    
+                    <div id="map"></div>
+
+                </div>
+                
+            </div>
+            
+            <!-- Footer -->
+            <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+                <div class="main_navbar" data-role="navbar">
+                    <ul>
+                        <li><a data-icon="vionnow-movies" href="#start">Movies</a></li>
+                        <li><a data-icon="vionnow-vfinder" href="#stores" class="ui-btn-active ui-state-persist">Videotheken</a></li>
+                        <li><a data-icon="vionnow-myvionnow" href="#storage_list">Sammlung</a></li>
+                        <li><a data-icon="vionnow-imprint" href="#imprint">Info</a></li>
+                    </ul>
+                </div>
+            </div>
+        	<div data-role="popup" data-transition="pop" class="popup-content" id="popinfo_stores" data-theme="c" data-overlay-theme="a">
+	            <h3>TEST</h3>
+	            <p></p>
+	            <a href="#" onclick="closePopupInfo()" data-icon="delete" data-theme="c" data-mini="true" data-role="button">Schlie&szlig;en</a>
+	        </div> 
+        </div><!-- End Page: Videotheken -->
+
+<!-- #################################################### -->
+        
+        <!-- Page: Merkliste  -->
+        <div data-role="page" id="storage_list" class="subpage" data-theme="a">
+ 
+            <!-- Search Overlay -->
+            <div id="search-overlay-storage" class="search-overlay">
+                <div class="search-wrapper">
+                    
+                    <input type="text" onkeyup="suggest()" name="name" id="search_storage_list"  data-role="none" placeholder="Titel, Darsteller, Regie" />
+                    <a href="#search_movies"  data-role="none" class="search-submit"><span>&raquo;</span></a>
+                    <a href="#popupStorageCat" data-rel="popup" class="vionnow-button genre"><span>Genre</span></a>
+                    <a href="#" onClick="getBarcode(1)" class="vionnow-button barcode"><span>BC</span></a>
+                    
+                    <div class="clear"></div>
+                    
+                </div>
+                <div class="suggestions" id="suggest_storage_list"></div>
+                <div onclick="$(this).parent().hide();" class="overlay"></div>
+            </div>
+            
+            <!-- Header -->
+            <div data-role="header" data-position="fixed" data-tap-toggle="false">
+                <div style="position: absolute; top: 0; right: 5px;" data-role="controlgroup" data-mini="true" data-type="horizontal">
+                    <a href="#" onclick="$('#search-overlay-storage').toggle();" data-icon="search" data-inline="true" data-iconpos="notext" data-role="button">Suche</a>
+                    <a href="#submenu" data-role="button" data-rel="popup" data-icon="arrow-d" data-iconpos="notext" data-inline="true">mehr</a>
+                </div>
+                <h1>Meine Filme</h1>
+                <div data-role="popup" id="submenu" data-overlay-theme="a">
+                    
+			    </div>
+            </div>
+            
+            <!-- Content -->
+            <div data-role="content">
+            <div class="content-wrapper">
+                <div id="content_storage1" class="movie-wrapper">
+                    
+                    <div id="myvionnow-info" style="display: none;">
+                        <h2>Deine Sammlung</h2>
+                        <p>Hier entsteht deine pers&ouml;nliche Seite mit deiner Filmsammlung, Filme die du schon gesehen hast oder gerne noch sehen m&ouml;chtest.</p>
+                        <p>Scanne dazu einfach den <a href="#" onClick="getBarcode(1)">Barcode</a> auf dem Cover deiner DVD oder Blu Ray oder durchst&ouml;bere unsere <a href="#start">Movies</a> und lege deine Favoriten in deiner Sammlung ab.</p>
+                        <p>Bei Bedarf kannst du deine Sammlung auch in unserer <a href="#login_cloud">my vionnow-Cloud</a> kostenlos sichern und mit deinen anderen Endger&auml;ten synchronisieren</p>
+                    </div>
+                    
+                    <div class="ui-grid-b">
+                        <div class="ui-block-a"></div>
+                        <div class="ui-block-b"></div>
+                        <div class="ui-block-c"></div>
+                    </div>
+                </div>
+                <div id="content_storage2" class="movie-wrapper">
+                    <div class="ui-grid-b">
+                        <div class="ui-block-a"></div>
+                        <div class="ui-block-b"></div>
+                        <div class="ui-block-c"></div>
+                    </div>
+                </div>
+                <div id="storage_movies_dots" class="dot-wrapper"></div>
+            </div>    
+            </div>
+            
+            <!-- Footer -->
+            <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+            	<div class="main_navbar" data-role="navbar">
+                    <ul>
+                        <li><a data-icon="vionnow-movies" href="#start">Movies</a></li>
+                        <li><a data-icon="vionnow-vfinder" href="#stores">Videotheken</a></li>
+                        <li><a data-icon="vionnow-myvionnow" href="#storage_list" class="ui-btn-active ui-state-persist">Sammlung</a></li>
+                        <li><a data-icon="vionnow-imprint" href="#imprint">Info</a></li>
+                    </ul>
+                </div>
+            </div>
+           
+            <div data-role="popup" id="popupStorageCat" data-theme="a"></div>
+            <div data-role="popup" data-transition="pop" class="popup-content" id="popinfo_storage_list" data-theme="c" data-overlay-theme="a">
+	            <h3>TEST</h3>
+	            <p></p>
+	            <a href="#" onclick="closePopupInfo()" data-icon="delete" data-theme="c" data-mini="true" data-role="button">Schlie&szlig;en</a>
+	        </div> 
+            
+        </div><!-- End Page: Merkliste -->
+        
+<!-- #################################################### -->
+        
+        <!-- Page: Movie Detail -->
+        <div data-role="page" id="movie_detail" data-theme="a">
+            <!-- Header -->
+            <div data-role="header" data-position="fixed" data-tap-toggle="false">
+                <a id="back_button" href="#" data-icon="arrow-l">Zur&uuml;ck</a>
+                <h1>Details</h1>
+                <a class="options-toggle" href="#storage_edit" onclick="insertMovieDB()" data-theme="e" data-inline="true" data-iconpos="notext" data-mini="true" data-icon="plus" data-role="button">speichern</a>
+                <div data-role="navbar">
+			        <ul>
+                        <li><a href="#" onclick="showDetailMain()" class="ui-btn-active ui-state-persist">Media</a></li>
+                        <li><a href="#" onclick="showDetailDetail()" class="btn-reset">Inhalt</a></li>
+                        <li><a href="#" onclick="showDetailMeta()" class="btn-reset">Bemerkung</a></li>
+                    </ul>
+			    </div>
+            </div>
+            
+            
+            <!-- Content -->
+            <div data-role="content" style="padding-top:28px;">
+            	<!-- Cover -->
+	            <div id="movie-stage" class="stage">
+	                <div class="shadow"></div>
+	                <div class="contents"></div>
+	            </div>
+	            <div class="content-wrapper">
+	                <div id="content_film_main"></div>
+	                <div id="content_film_detail"></div>
+	                <div id="content_film_meta"></div>
+	            </div>    
+            </div>
+            
+            <!-- Footer -->
+            <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+                <div class="main_navbar" data-role="navbar">
+                    <ul>
+                        <li><a data-icon="vionnow-movies" href="#start" class="ui-btn-active ui-state-persist">Movies</a></li>
+                        <li><a data-icon="vionnow-vfinder" href="#stores">Videotheken</a></li>
+                        <li><a data-icon="vionnow-myvionnow" href="#storage_list">Sammlung</a></li>
+                        <li><a data-icon="vionnow-imprint" href="#imprint">Info</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="popup" data-transition="pop" class="popup-content" id="popinfo_movie_detail" data-theme="c" data-overlay-theme="a">
+	            <h3>TEST</h3>
+	            <p></p>
+	            <a href="#" onclick="closePopupInfo()" data-icon="delete" data-theme="c" data-mini="true" data-role="button">Schlie&szlig;en</a>
+	        </div>  
+            
+        </div><!-- End Page: Movie Detail -->
+        
+<!-- #################################################### -->
+        
+        <!-- Page: register_cloud für Synchronisierung  -->
+        <div data-role="page" id="login_cloud" data-theme="a" data-add-back-btn="false">
+            
+            <!-- Header -->			
+            <div data-role="header" data-position="fixed" data-tap-toggle="false">
+                <a href="#" onClick="history.back();" data-icon="arrow-l">Zur&uuml;ck</a>
+                <h1>Daten Synchonisation</h1>
+            </div>			
+            
+            <!-- Content -->			
+            <div data-role="content">
+            <div class="content-wrapper">
+	             <div id="register">
+	             	<p>Sichere deine Sammlung v&ouml;llig kostenlos und freiwillig in unserer <strong>my vionnow</strong>-Cloud und synchronisiere sie mit all deinen Endger&auml;ten.</p>
+		             <label for="basic" class="ui-hidden-accessible">Benutzername:</label>
+					 <input type="text" name="username" id="register_name" data-mini="true" placeholder="Benutzername" />
+					  <label for="basic" class="ui-hidden-accessible">Email:</label>
+					 <input type="text" name="username" id="register_email" data-mini="true" placeholder="Email-Adresse" />
+					 <label for="basic" class="ui-hidden-accessible">Passwort:</label>
+					 <input type="password" name="password" id="register_password" data-mini="true" placeholder="Passwort" />
+					 <a href=# onClick="registerSync()" data-role="button">Registrieren</a>
+					 <a href=# onClick="showLogin()" data-role="button">Ich habe bereits einen Account</a>
+				 </div>
+				 <div id="login">
+				 	 <p>Account best&auml;tigt? Dann melde dich jetzt einmalig mit deinen Zugangsdaten zur Synchronisierung an.</p>
+		             <label for="basic" class="ui-hidden-accessible">Benutzername:</label>
+					 <input type="text" name="username" id="login_name" data-mini="true" placeholder="Benutzername" />
+					 <label for="basic" class="ui-hidden-accessible">Passwort:</label>
+					 <input type="password" name="password" id="login_password" data-mini="true" placeholder="Passwort" />
+					 <a href=# onClick="loginSync()" data-role="button">Anmelden</a>
+				 </div>
+			</div>	 
+            </div>
+            
+            <!-- Footer -->
+            <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+            	<div class="main_navbar" data-role="navbar">
+                    <ul>
+                        <li><a data-icon="vionnow-movies" href="#start">Movies</a></li>
+                        <li><a data-icon="vionnow-vfinder" href="#stores">Videotheken</a></li>
+                        <li><a data-icon="vionnow-myvionnow" href="#storage_list" class="ui-btn-active ui-state-persist">Sammlung</a></li>
+                        <li><a data-icon="vionnow-imprint" href="#imprint">Info</a></li>
+                    </ul>
+                </div>
+            </div>	
+        	<div data-role="popup" data-transition="pop" class="popup-content" id="popinfo_login_cloud" data-theme="c" data-overlay-theme="a">
+	            <h3>TEST</h3>
+	            <p></p>
+	            <a href="#" onclick="closePopupInfo()" data-icon="delete" data-theme="c" data-mini="true" data-role="button">Schlie&szlig;en</a>
+	        </div> 
+        </div><!-- End Page: register_cloud für Synchronisierung -->
+        
+<!-- #################################################### -->
+        
+        <!-- Page: Edit Storage  -->
+        <div data-role="page" id="storage_edit" data-theme="a">
+        	
+        	<!-- Header -->
+            <div data-role="header" data-position="fixed" data-tap-toggle="false">
+                <a href="#" onclick="close_storage_edit()" data-inline="true" data-mini="true" data-icon="arrow-l" data-role="button">Abbrechen</a>
+                <h1>&nbsp;</h1>
+                <div style="position: absolute; top: 0; right: 5px;" data-role="controlgroup" data-mini="true" data-type="horizontal">
+                    <a href="#" onclick="save_storage_edit()" data-inline="true" data-theme="e" data-mini="true" data-iconpos="left" data-icon="gear" data-role="button">Speichern</a>
+                    <a href="#" class="options-toggle-edit" onclick="deleteItem()" data-inline="true" data-mini="true" data-iconpos="left" data-theme="e" data-icon="delete" data-role="button">l&ouml;schen</a>
+                </div>
+            </div>
+                
+            <!-- Content -->
+            <div data-role="content">
+	 		    <div id="content_storage_edit" class="content-wrapper">
+                <div data-role="controlgroup" data-type="horizontal">
+                    <input type="radio" name="voting" id="voting_plus" value="plus" />
+                    <label for="voting_plus"><img src="img/voting_plus.png" /></label>
+                    <input type="radio" name="voting" id="voting_minus" value="minus" />
+                    <label for="voting_minus"><img src="img/voting_minus.png" /></label>
+                </div>
+                <div data-role="controlgroup" class="storage-types">
+				    <input type="radio" name="storage_reason" id="reason_1" value="1" />
+				    <label for="reason_1"> 
+                        in meiner Sammlung
+                        <span class="store-to collection"></span>
+                    </label>
+				    <input type="radio" name="storage_reason" id="reason_2" value="2" />
+				    <label for="reason_2">
+                            schon gesehen
+                            <span class="store-to watched"></span>
+                    </label>
+				    <input type="radio" name="storage_reason" id="reason_3" value="3" />
+				    <label for="reason_3">
+                        im Kino gesehen
+                        <span class="store-to cinema"></span>
+                    </label>
+				    <input type="radio" name="storage_reason" id="reason_4" value="4" />
+				    <label for="reason_4">
+                        Wunsch
+                        <span class="store-to wishlist"></span>
+                    </label>
+				    <input type="radio" name="storage_reason" id="reason_5" value="5" />
+				    <label for="reason_5">
+                        verliehen
+                        <span class="store-to rent"></span>
+                    </label>
+				</div>
+				<input type="text" name="storage_place" id="storage_place" placeholder="Ort" />
+				<textarea cols="40" rows="8" name="textarea" id="storage_textarea" placeholder="Bemerkungen"></textarea>
+	 		    </div>
+            </div>
+            
+            <!-- Footer -->
+            <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+            	<div class="main_navbar" data-role="navbar">
+                    <ul>
+                        <li><a data-icon="vionnow-movies" href="#start">Movies</a></li>
+                        <li><a data-icon="vionnow-vfinder" href="#stores">Videotheken</a></li>
+                        <li><a data-icon="vionnow-myvionnow" href="#storage_list" class="ui-btn-active ui-state-persist">Sammlung</a></li>
+                        <li><a data-icon="vionnow-imprint" href="#imprint">Info</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="popup" data-transition="pop" class="popup-content" id="popinfo_storage_edit" data-theme="c" data-overlay-theme="a">
+	            <h3>TEST</h3>
+	            <p></p>
+	            <a href="#" onclick="closePopupInfo()" data-icon="delete" data-theme="c" data-mini="true" data-role="button">Schlie&szlig;en</a>
+	        </div> 
+	        <div data-role="popup" data-transition="pop" class="popup-content" id="popconfirm_storage_edit" data-theme="c" data-overlay-theme="a">
+	            <h3>TEST</h3>
+	            <p></p>
+	            <div data-role="controlgroup" data-type="horizontal">
+	            <a id="btn_confirm_storage_edit" href="#" data-icon="check" data-theme="c" data-mini="true" data-role="button">Ja</a>
+	            <a href="#" onclick="closePopupConfirm()" data-icon="delete" data-theme="c" data-mini="true" data-role="button">Abbrechen</a>
+	            </div>
+	        </div> 	
+        </div>
+        
+    </body>
+    
+    <script type="text/javascript" charset="utf-8" src="cordova-2.1.0.js"></script>
+    
+    <script src="jqm/jquery-1.8.2.min.js"></script>
+    <script src="jqm/jquery.mobile-1.2.0.min.js"></script>
+    
+    <script type="text/javascript" charset="utf-8" src="js/genre_dlg.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/swipe.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/login_cloud.js"></script>
+    <!-- <script type="text/javascript" charset="utf-8" src="js/imgcache.js"></script>-->
+    <script type="text/javascript" charset="utf-8" src="js/init.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/start.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/new_movies.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/upcoming_movies.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/search_movies.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/genre_movies.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/random_movie.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/storage_list.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/storage_edit.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/storage_cat_dlg.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/db.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/movie_detail.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/barcode.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/suggest.js"></script>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript" charset="utf-8" src="coreFlashJax.js"></script>
+</html>

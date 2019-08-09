@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tavernes>
+	<taverne>
+		<num>1</num>
+		<nom>Auberges et Tavernes du marché</nom>
+		<adresse>Jardin Henri Vinay</adresse>
+		<latitude>45.040499</latitude>
+		<longitude>3.882598</longitude>
+	</taverne>
+	<taverne>
+		<num>2</num>
+		<nom>Taverne sans alcool des Ventres de Vaches</nom>
+		<adresse>Jardin Henri Vinay</adresse>
+		<latitude>45.040499</latitude>
+		<longitude>3.882598</longitude>
+	</taverne>
+	<taverne>
+		<num>3</num>
+		<nom>Taverne de l'Estrapade</nom>
+		<adresse>Place du marché couvert</adresse>
+		<latitude>45.043703</latitude>
+		<longitude>3.881015</longitude>
+	</taverne>
+	<taverne>
+		<num>4</num>
+		<nom>Taverne de la Méjeanne</nom>
+		<adresse>Place Saint-Mayol</adresse>
+		<latitude>45.046175</latitude>
+		<longitude>3.884791</longitude>
+	</taverne>
+	<taverne>
+		<num>5</num>
+		<nom>Taverne des Manges-Chèvres</nom>
+		<adresse>Cour Jules Vallès</adresse>
+		<latitude>45.044695</latitude>
+		<longitude>3.886666</longitude>
+	</taverne>
+</tavernes>

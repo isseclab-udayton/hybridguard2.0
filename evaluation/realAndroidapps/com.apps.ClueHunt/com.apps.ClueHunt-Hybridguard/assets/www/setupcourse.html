@@ -1,0 +1,173 @@
+<div id="s_viewmain" data-role="view" data-title="New Course" data-show="MainRefresh">
+    <div data-role="header">
+        <div data-role="navbar">
+            <a data-role="button" data-align="left" onclick="CancelGame();">Cancel</a>
+            <span data-role="view-title"></span>
+            <a id="s_btnDone" data-role="button" data-align="right" onclick="FinishedSetup()">Done</a>
+        </div>
+    </div>
+    
+    <div style="margin:20px 0px;text-align:center">
+        <a id="btnPC" data-role="button" style="width:280px" onclick="NewCheckpoint()">
+            <span style="line-height:30px">Place Checkpoint</span>
+        </a>
+    </div>
+    
+    <div id="s_divTable" style="padding:10px;">
+        <div class="listheader">
+            <span>Checkpoints</span>          
+        </div>
+        <ul id="s_tblcheckpoints" data-role="listview" data-style="inset" style="margin:0px"></ul>
+        <script id="s_cpTemplate" type="text/x-kendo-template">
+			<li>
+                <label class="km-listview-link">
+                	<div style="float:left;width:80px;padding:3px"><img alt="" src="#= Image #" style="width:80px;#= Display #"/></div>
+                	<div style="margin-left:89px;padding:2px;margin-right:18px;line-height: 1.2em;min-height:66px"><b>Clue #= Index #:</b> #= Clue #</div>
+            		<span class='hidden'>#= Index #</span><a data-role='button' class='delete'>Delete</a>
+                </label>
+			</li>
+		</script>
+        <div style="height:40px"></div>
+		<!--<table id="s_tblcheckpoints" class="table-a">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Clue</th>
+					<th style="width:80px">Image</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td colspan="3"></td>
+				</tr>
+			</tbody>
+		</table>-->
+            
+		<!--<script id="s_cpTemplate" type="text/x-kendo-template">
+			<tr onclick="EditClue(#= Index #);">
+				<td>#= Index #</td>
+				<td>#= Clue #</td>
+				<td><img alt="" src="#= Image #" style="width:80px;#= Display #"/></td>
+			</tr>
+		</script>-->
+	</div>
+    <div data-role="footer">
+        <div id="divSetupTalk" style="z-index:10; position:absolute; left:0px; right:0px; top:0px; bottom:0px;background:transparent !important;display:none">
+            <img id="imgSetupTalk" src="img/Setup.png" style=" left:50%; margin-left:-160px;width:320px; position:absolute; bottom:0px" onclick="DismissFooter(this, true)"/>
+        </div>
+    </div>
+</div>
+
+<div id="s_viewcheckpoint" data-role="view" data-title="Checkpoint" data-init="LoadRiddles">
+    <div data-role="header">
+        <div data-role="navbar">
+            <a data-role="button" data-align="left" onclick="ClueSetupBack()">Back</a>
+            <span data-role="view-title"></span>
+            <a data-role="button" data-align="right" onclick="ValidateCP1()">Next</a>
+        </div>
+    </div>
+    
+    <div style="padding:20px">        
+        <div>
+            <span>Enter a clue to find the checkpoint.  You can create a riddle or just write a general description of the location.</span>            
+        </div>
+        <div style="margin-top:16px">
+            Use an existing riddle:
+        </div>
+        <ul data-role="listview" data-style="inset">
+            <li style="height:32px">
+                <label class="km-listview-link" style="height:32px">
+                    <select id="s_ddRiddle" onblur="s_getRiddle()" onchange="s_getRiddle()" style="height:32px">                            
+                    </select>
+                    <script id="s_tRiddle" type="text/x-kendo-template">
+                        <option value="#= Riddle #">#= Answer #</option>
+                    </script>
+                </label>                    
+            </li>
+        </ul>
+        <div>
+            Or create your own clue:
+        </div>
+        <div style="margin-top:8px">
+            <textarea id="s_txtClue" style="resize: none; width:100%" rows="6"></textarea>
+        </div>
+    </div>
+</div>
+
+<div id="s_viewcheckpoint2" data-role="view" data-title="Checkpoint">
+    <div data-role="header">
+        <div data-role="navbar">
+            <a data-role="button" data-align="left" data-transition="slide:right" href="#s_viewcheckpoint">Back</a>
+            <span data-role="view-title"></span>
+            <a data-role="button" data-align="right" onclick="ValidateCP2()">Next</a>
+        </div>
+    </div>
+    
+    <div style="padding:20px">
+        <div>
+            <span>You can take a picture of something at the checkpoint.  
+            It can be anything from a close up of an object to just an overall view of the room.</span>
+        </div>
+        <div style="margin-top:8px;margin-bottom:16px">
+        	<a data-role="button" onclick="capturePhoto()"><span>Take Photo</span></a>
+        </div>
+        <div id="divPhoto" style="text-align:center; display:none;margin-top:8px;">
+            <img id="imgPhoto" alt="" style="max-width:100%;max-height:216px"/>
+        </div>
+        <div style="height:30px"></div>
+    </div>
+</div>
+
+<div id="s_viewcheckpoint3" data-role="view" data-title="Enter Code">
+    <div data-role="header">
+        <div data-role="navbar">
+            <a data-role="button" data-align="left" data-transition="slide:right" href="#s_viewcheckpoint2">Back</a>
+            <span data-role="view-title"></span>
+            <a data-role="button" data-align="right" onclick="PlaceCheckpoint()">Save</a>
+        </div>
+    </div>
+    
+    <div style="padding:20px">
+        <div><span>Please Enter Code For The Checkpoint:</span></div>
+        <div style="margin-top:8px">
+            <input id="s_txtCode" type="text" style="width:100%;" autocorrect="off"/>
+        </div>
+        <div style="text-align:center; margin-top:10px;">
+        	<img alt="" src="img/CodeNum.png" style="width:280px"/>
+            <div style="color:#333; padding:10px; background: #edeff2; border:1px solid #16232c">
+                <span>Please write a code on a piece of paper and place it at the checkpoint.  
+            	The person taking the course will then enter the code in order to confirm they have reached a checkpoint. 
+                Any number or text will do, the above picture is just an example.</span>                
+            </div> 
+        </div>
+           
+        <div style="height:30px"></div>
+    </div>
+</div>
+
+<div id="s_viewchoice" data-role="view" data-show="s_viewchoiceShow">
+    <div data-role="header">
+        <div data-role="navbar">
+            <a data-role="button" data-align="left" onclick="BackToMain()">Home</a>
+        </div>
+    </div>
+    
+    <div style="height:140px; top:50%; position:absolute; text-align:center; margin-top:-70px; left:0px; right:0px">
+        <div>
+            <a data-role="button" style="width:280px" data-transition="slide" href="playcourse.html">
+                <span style="line-height:30px">Start Course</span>
+            </a>
+        </div>
+        <div id="s_divSave" style="margin-top:40px">
+            <a data-role="button" style="width:280px" data-transition="slide" href="savecourse.html">
+                <span style="line-height:30px">Save Course</span>
+            </a>
+        </div>
+    </div>
+    
+    <div data-role="footer">
+        <div id="divDoneTalk" style="z-index:10; position:absolute; left:0px; right:0px; top:0px; bottom:0px;background:transparent !important;display:none">
+            <img id="imgDoneTalk" src="img/SetupDone.png" style=" left:50%; margin-left:-160px;width:320px; position:absolute; bottom:0px" onclick="DismissFooter(this, true)"/>
+        </div>
+    </div>
+</div>

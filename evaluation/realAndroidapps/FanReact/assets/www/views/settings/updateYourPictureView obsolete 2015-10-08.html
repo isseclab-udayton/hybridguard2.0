@@ -1,0 +1,42 @@
+<div id="updateYourPictureView" data-role="page">
+
+    <div data-role="content">
+
+
+            <div class="updatePicture">
+
+                <div class="profilePhoto">
+                    <p>Your Current Picture</p>
+                    <div id='myAvatar' class="img round updateYourPictureView-img" ></div>
+                    <img id="smallImage" src="" style="display:none;" onClick="$('#testingImage').attr('src',$(this).attr('src'));$('#myAvatar').attr('src',$(this).attr('src'));">
+                    <input type="hidden" id="hiddenImage" value="">
+                </div>
+                
+                
+                <div class="wrap_90">
+                    <div class="settings">
+                        <input id="profileDescription" placeholder="My Status" style="padding:.4em .6em;" onchange="customNamespace.capFirst(this);" />
+                    </div>
+                </div>
+                <a onclick="settingsNameSpace.updatePicture.prepareToSubmit();" class="button upload">Submit</a>
+                
+                <a onclick="cameraApp._capturePhoto();" class="button upload" >Take A Picture</a><br />
+                    
+                <a onclick="cameraApp._getPhotoFromLibrary();" class="button upload">Upload From Library</a>                
+
+
+                <img id="testingImage" style="opacity:.00001;width:100%;height:1px;" src="" />
+                        
+                
+            </div>
+
+    </div><!--content-->
+    <script>
+        
+        var elem = $("#commonChars");
+        $("#profileDescription").limiter(200, elem);
+        
+        $('#dropdown').html('Update My Picture');
+        settingsNameSpace.updatePicture.getInfo();
+    </script>
+</div>

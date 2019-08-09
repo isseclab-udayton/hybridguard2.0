@@ -1,0 +1,79 @@
+<div id="intro-MLL-view" data-role="page" ng-controller="IntroMLLController as view ">
+    
+    
+    <div data-role="content">
+        <div class="headerPadding footerPadding">
+
+            <div class="feedWrapper">
+
+                <div > 
+                    <div class="addMoreTeams">
+                        <a ng-click="view.helper.go('views/dashboard/reactionsView.html')">
+                        Finish
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <table class="feed sports">
+                    
+                    
+                    
+                    <tr ng-repeat=" x in view.team track by $index ">
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('{{ view.setUrl( x  )}}');"></div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a class="ui-link"
+                                   
+                           
+                                   >{{ x.teamName }}
+                                </a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a id="followTeam{{x.teamId}}"
+                               ng-click="view.follow( x )"
+                               class="button {{ view.isNotFollowing( x , 'active ui-link' ) }}">ollow
+                            </a>
+                        </td>
+                    </tr>
+                    
+
+                    
+                </table>
+                
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script>
+
+        
+        $(document).on('pagebeforeshow' , '#intro-MLL-view' , function( event){
+            event.preventDefault();
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+            
+            customNamespace.compileAngularElement();
+        });
+        
+        
+        $(document).on('pageshow', '#intro-MLL-view', function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+
+            // set title
+            customNamespace.header.changeTitle( { text : 'Select Teams' , onclick : function(){ console.log('do nothing')} } );
+
+        });
+
+    </script>     
+    
+</div>
+

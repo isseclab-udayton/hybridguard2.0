@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="plugins/plugin-loader.js"></script>
+    <link rel="stylesheet" href="plugins/plugin-loader.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles-ui1.css" />
+    <script>
+		//monaca.viewport({width : "device-width"});
+	</script>
+</head>
+<body>
+<div id="innodbListPage" data-role="page">
+    <div data-role="header" data-position="fixed" data-theme="a">
+        <h1><a href="index.html" data-ajax="false"><img src="img/logo.png" /></a></h1>
+        <a href="innonewssearch.html" data-ajax="false" data-icon="search" class="ui-btn-right" data-iconpos="notext" data-mini="true" data-inline="true"></a>
+        <div data-role="navbar">
+            <ul>
+                <li class="navbar-txt"><a href="innonewslist.html" data-ajax="false">Headline</a></li>
+                <li class="navbar-txt"><a href="innonewshot.html" data-ajax="false">Best</a></li>
+                <li class="navbar-txt"><a href="#" class="ui-btn-active"><span id="innodbCategory">Profile</span></a></li>
+                <li class="navbar-txt"><a href="innocategory.html" data-ajax="false">Category</a></li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="content" data-theme="d">
+        <ul id="innodbList" data-role="listview" data-filter="false" data-theme="d"></ul>
+        <ul id="innodbMore" data-role="listview" data-filter="false" data-theme="d"></ul>
+    </div>
+    <div data-role="footer" data-position="fixed" data-theme="a">
+        <h5>&copy; innolife</h5>
+    </div>
+</div>
+<script src="js/innodblist.js"></script>
+<script src="js/innodbview.js"></script>
+<script src="js/innonewsview.js"></script>
+<!--
+<script src="js/kakao.link.js"></script>
+-->
+</body>
+</html>

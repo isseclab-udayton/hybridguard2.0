@@ -1,0 +1,50 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: org.radiojoe.fort_67.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- mp3
+- jpg
+- assets/www/images/kane/KanePNG1.png.jpg
+- assets/www/images/kane/KanePNG10.png.jpg
+- assets/www/images/kane/KanePNG11.png.jpg
+- assets/www/images/kane/KanePNG12.png.jpg
+- assets/www/images/kane/KanePNG13.png.jpg
+- assets/www/images/kane/KanePNG14.png.jpg
+- assets/www/images/kane/KanePNG15.png.jpg
+- assets/www/images/kane/KanePNG16.png.jpg
+- assets/www/images/kane/KanePNG17.png.jpg
+- assets/www/images/kane/KanePNG18.png.jpg
+- assets/www/images/kane/KanePNG19.png.jpg
+- assets/www/images/kane/KanePNG2.png.jpg
+- assets/www/images/kane/KanePNG20.png.jpg
+- assets/www/images/kane/KanePNG21.png.jpg
+- assets/www/images/kane/KanePNG22.png.jpg
+- assets/www/images/kane/KanePNG23.png.jpg
+- assets/www/images/kane/KanePNG24.png.jpg
+- assets/www/images/kane/KanePNG25.png.jpg
+- assets/www/images/kane/KanePNG3.png.jpg
+- assets/www/images/kane/KanePNG4.png.jpg
+- assets/www/images/kane/KanePNG5.png.jpg
+- assets/www/images/kane/KanePNG6.png.jpg
+- assets/www/images/kane/KanePNG7.png.jpg
+- assets/www/images/kane/KanePNG8.png.jpg
+- assets/www/images/kane/KanePNG9.png.jpg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '8'
+sharedLibrary: false
+sparseResources: true
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '67'
+  versionName: '2.22'

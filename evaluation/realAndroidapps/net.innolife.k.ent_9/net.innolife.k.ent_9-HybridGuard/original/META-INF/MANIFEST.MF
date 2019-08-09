@@ -1,0 +1,345 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_191 (Oracle Corporation)
+
+Name: res/anim/monaca_slide_close_enter.xml
+SHA-256-Digest: 1OzxoJPVj+2ixAWKFa91QC787bivOiqJhuA1ofXEzCM=
+
+Name: assets/www/js/policy_config.json
+SHA-256-Digest: fhZZxn32eSX/o5cbe4FFxMCwS7VkYv7N33GKH1b5YUQ=
+
+Name: assets/www/img/kakao.png
+SHA-256-Digest: 8hYQRB7jxfRG+BzCxfunCAfQ7YkglPCFi5nfLlSU/Lo=
+
+Name: assets/www/original_index.html
+SHA-256-Digest: RIEOOsHwGw/Qg40pqf/OXcTwPlGILp+pt1dcuT+GjA0=
+
+Name: assets/www/js/HybridGuard.js
+SHA-256-Digest: qZYPTIb+aSGSsp0y9wb63UoqCGYq6XY5BBQeQbVMBjA=
+
+Name: assets/www/css/styles-ui2.css
+SHA-256-Digest: U0YgRo12hVGBZqvWviWZoHDaNccIHW8WpfO/pEIoTvE=
+
+Name: assets/www/plugins/phonegap-plugins/webIntent.js.autover
+SHA-256-Digest: iMIKd3dbDYgtylvLUkK/CpMEUz2ZqSMJGLKW5dLooDk=
+
+Name: assets/www/plugins/plugin-loader.css
+SHA-256-Digest: 7kbRyQmtkUw10Tv9RaUOFj4JzW9FCNWmijBTvkIFcg0=
+
+Name: assets/www/innonewsviewdirect.html
+SHA-256-Digest: A1azAN8z5pyKedKuAFhE7ZDb4XsKUiUyoeINk+a37X8=
+
+Name: assets/www/js/innonewssearch.js
+SHA-256-Digest: 9Ldm4P4r5ihFZudY6UlFT/xOfx8658pd9qaebMKPZaE=
+
+Name: assets/www/plugins/jquery/css-1.3/images/icons-18-white.png
+SHA-256-Digest: rfh6AUoBhUrc5DNWD/6xZFcAUrnAtQ84kV+DONk81bo=
+
+Name: res/drawable-hdpi-v4/monaca_button_frame.9.png
+SHA-256-Digest: eLhDNZNHhCoL1y59lElcuW4NR4FvahFRn6I7uESspyM=
+
+Name: assets/www/plugins/phonegap-plugins/share.js.254a0b5.android
+SHA-256-Digest: E82UJVWDpp3Ehhm1VUz7ZCr5ocWmALDImjrQcBzDu2Y=
+
+Name: assets/www/img/twitter.png
+SHA-256-Digest: Qyershv0eT2BWT2f7eREk6pFrUWSw0mI4EWxiHUy2Eg=
+
+Name: assets/www/index.html
+SHA-256-Digest: 20QcukLIExfp5ovJnNbwD9/lzlA7L+r69LRNqGCWoM0=
+
+Name: res/drawable-hdpi-v4/monaca_toolbar_bg.9.png
+SHA-256-Digest: dUBr8oNBg2wXAlzwpNbR7J5HkfgOVchFhjsPdZIjsQM=
+
+Name: assets/www/innodbviewdirect.html
+SHA-256-Digest: cWD/rVguSt9qk8y3Bi41Rhyv8uLCCyQRcBVnQkhBzCI=
+
+Name: assets/www/img/dummy.png
+SHA-256-Digest: vdFKb1Y6Qa+DBaatlSuNW5baW1kPj3Ra/zomIF/cyqQ=
+
+Name: assets/www/plugins/monaca.js/monaca.viewport.js
+SHA-256-Digest: J3DtqnBeDnIOhX1HqyWycqVod4tJpfqD8JTnk/tzsEs=
+
+Name: assets/www/innonewssearch.html
+SHA-256-Digest: ih9OQELxGCUUQncikOu3VEQsrqfKJ8lSoTcDVOYY/ao=
+
+Name: assets/www/plugins/jquery/css-1.2/images/icons-36-black.png
+SHA-256-Digest: kcO8QXPdxfB28mjbw16yYZZ1etXiYa5invuHqk7zk1M=
+
+Name: res/drawable/monaca_border_for_debug.xml
+SHA-256-Digest: N/TnoG8s4ee3VTym6X+k1n+33hifA6+J2FnJ/4VNgZc=
+
+Name: resources.arsc
+SHA-256-Digest: I2MMjzAY3cVqisPKGs58Wc5sm9XiMeqf0wTpqsnI7Qw=
+
+Name: res/drawable-hdpi-v4/monaca_button.9.png
+SHA-256-Digest: 9I/2aE5h7pjxXnAM2f+rHeH6ym0Mkp+p6bim2tZVXJs=
+
+Name: res/anim/monaca_slide_close_exit.xml
+SHA-256-Digest: 0zqLU1WqLz4sUyLPakEpnjpzz9JA9EnJyl93/uCPcqE=
+
+Name: AndroidManifest.xml
+SHA-256-Digest: juux04dz6KXEg6i/aTVOIcBBGAorBVjfOMlSK1jugMo=
+
+Name: res/drawable-hdpi-v4/monaca_unselected_tab_bg.9.png
+SHA-256-Digest: QKXuXd0sGc/AMv0/W+5xHQvpZVxy7woEnaI6oTcKEOw=
+
+Name: assets/www/js/innonewshot.js
+SHA-256-Digest: 7TBQrhE6cPJJ1FKQDqa0+TGukDg4xoa+Skds86u/QjM=
+
+Name: assets/www/js/innonewstop.js
+SHA-256-Digest: h1T0j3rv+/oLQl9xfEl+CYp22Y+Paf4CGHz+Tyd43iQ=
+
+Name: res/xml/config.xml
+SHA-256-Digest: HQ0ieqArRsBs8KnHjRl97Hz+Sty1SEkCWTNcwydU2MQ=
+
+Name: assets/www/js/innonewslist.js
+SHA-256-Digest: D9i1DFJeiNIU3vsD6grcTUlP2BZOHtvRFOUvNbcWsf0=
+
+Name: assets/www/plugins/jquery/css-1.3/images/ajax-loader.gif
+SHA-256-Digest: atFZeQWHru0uJZg1bqZZ/jJ8mZdvckOJmwEWlbmtUm8=
+
+Name: assets/www/innotodaylist.html
+SHA-256-Digest: RB+seZeutT7jNplXDrCcPaU0LpVNsPbSFGnTYr5iL9s=
+
+Name: res/drawable/shadow_bg.png
+SHA-256-Digest: OxBZGVGw72i3uV8wg91Paxe47b/TIyX+eC5yogjaabk=
+
+Name: res/drawable-hdpi-v4/monaca_segment_center.9.png
+SHA-256-Digest: Sre5yECU+0ldtKGraOdYIKhw/sT0Udog7VOeJyDboHs=
+
+Name: assets/www/js/innotodaylist.js
+SHA-256-Digest: kNBRJs/+Pf1gxxJR0LTwGPp2fRcZyXEMVusswKEmhtg=
+
+Name: res/anim/monaca_slide_right_open_enter.xml
+SHA-256-Digest: 1OzxoJPVj+2ixAWKFa91QC787bivOiqJhuA1ofXEzCM=
+
+Name: assets/www/js/innonewsview.js
+SHA-256-Digest: RWxmDdC33t6VCkDC5dEsYEcDDnHBlm/mmIQnFfKs+D8=
+
+Name: assets/app.json
+SHA-256-Digest: kbppZtQ7pnPfi5b7vKU0TaQKjOaHHydDX+hnf+CrEAU=
+
+Name: assets/www/innonewslist.html
+SHA-256-Digest: CevV7pxqsqOd2Kc1QfyUrEjHF21B9LfrmvZsMVGU5to=
+
+Name: assets/www/plugins/phonegap-plugins/share.js.autover
+SHA-256-Digest: E82UJVWDpp3Ehhm1VUz7ZCr5ocWmALDImjrQcBzDu2Y=
+
+Name: res/raw/error404.html
+SHA-256-Digest: ZqR2HbcQ2FYnTIClPB4pGazS8bd3XxLna+HNLygipc0=
+
+Name: assets/www/plugins/jquery/css-1.2/images/ajax-loader.gif
+SHA-256-Digest: atFZeQWHru0uJZg1bqZZ/jJ8mZdvckOJmwEWlbmtUm8=
+
+Name: res/drawable-mdpi-v4/icon.png
+SHA-256-Digest: mYtOxaM42Bd6GufJHVSyptmcY3rRzU5yG+sNWzWD4JE=
+
+Name: res/anim/monaca_dialog_open_exit.xml
+SHA-256-Digest: g0XNRD2lGEVjZTox7hyj4t8FAe5HsCNnSRyt18DzIlc=
+
+Name: res/drawable-hdpi-v4/monaca_tab_badge.9.png
+SHA-256-Digest: zuS80fLFF+HSMRsh//DGbLBOivoXmO6dejyRL+uarSU=
+
+Name: assets/www/innodbview.html
+SHA-256-Digest: F7W4Gd5QQ5VRQf1yteFtJW1D6USnrMg7QqqLu2MDAjc=
+
+Name: assets/www/css/styles-ui3.css
+SHA-256-Digest: fKmeYB5pcOcS68fAa6EUGB/izY6Yr874ewEgiB6KR0I=
+
+Name: res/drawable-hdpi-v4/icon.png
+SHA-256-Digest: G38EisgtAAs1zrRx9+FZFRgaLMZ/jh8fCIbJMi7wncU=
+
+Name: assets/www/js/inmobi.js
+SHA-256-Digest: t4T3XuSPfkSsV5aDrzVH6inMvDWSARLhJteubnPM77A=
+
+Name: assets/www/plugins/jquery/css-1.2/images/icons-18-white.png
+SHA-256-Digest: z+VfPYAWSEsInrurfo7+Ht6homuzPFLkWYrXQJmi67E=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA-256-Digest: roDLmErFxgwnwOUwSo73XdFhAkcvwEhaWso3Bvtd2Ow=
+
+Name: assets/www/js/innotodayview.js
+SHA-256-Digest: /dC/0I70sYN0djNFdpAdSIctYBiUZ30BFmgAbtGdFJ8=
+
+Name: res/anim/monaca_none.xml
+SHA-256-Digest: Sc8JowPdm4uSR3L0aI9hdCDRZBXmF9AI02o/A71ITFk=
+
+Name: res/drawable-hdpi-v4/monaca_selected_tab_bg.9.png
+SHA-256-Digest: qik4SxJ40hJgzvAcH26VFnHWIpMPG9NwotMYcKBn4tI=
+
+Name: res/anim/monaca_slide_open_enter.xml
+SHA-256-Digest: aJIp1AdQGF0PDVunwG64hlAom/veX+ail4i1zfEjl5E=
+
+Name: res/anim/monaca_slide_right_close_exit.xml
+SHA-256-Digest: 6KR7veFF2Y6F71UgQ67y0RzZO/Cp5TCWvw5u1hGRD9w=
+
+Name: assets/www/css/styles-ui1.css
+SHA-256-Digest: BeGVLjrgqXAEpUX+yVvw1WVBfLJx0CGBa3fON692nnc=
+
+Name: res/drawable-hdpi-v4/monaca_searchbox_bg.9.png
+SHA-256-Digest: HdkOTjOu76w4Qd6L+DD1n77M1gRfiLDJcIUb1CPuIj0=
+
+Name: res/drawable-ldpi-v4/ic_launcher.png
+SHA-256-Digest: e8CKWH9TH2LgZx55oe03B3Wh55WTkpSSlujldk9lx7Q=
+
+Name: res/anim/monaca_dialog_close_enter.xml
+SHA-256-Digest: g0XNRD2lGEVjZTox7hyj4t8FAe5HsCNnSRyt18DzIlc=
+
+Name: assets/android/splash_default.png
+SHA-256-Digest: cwyWvbiopY/6zs2Cn2yrKQUQerK7iCJt5DOxUGScyDc=
+
+Name: assets/www/js/innonewsviewdirect.js
+SHA-256-Digest: xvTVmoQvj6LbT65YhHzhoi27au2wOOyMi0F/g+/yNwI=
+
+Name: res/anim/monaca_dialog_open_enter.xml
+SHA-256-Digest: ixFs5AgctBp3TByZHu6ecwLO5INNuZMIEWgJF5gIVq0=
+
+Name: assets/www/plugins/jquery/css-1.3/images/icons-36-black.png
+SHA-256-Digest: CDwe2XTGtNK+OrFVpNR/wjcfe2UiQDgqBOFT83YFSiU=
+
+Name: assets/www/innodblist.html
+SHA-256-Digest: jrOyrPlQ7ZBeEkjQvYeHa+dqrOKGCWlIEl7Rz9nBkHs=
+
+Name: res/drawable-hdpi-v4/monaca_segment_right.9.png
+SHA-256-Digest: iV89/LLRX0/EIWKq+RftSgT3GtOwfju+dwy5FkaRtwk=
+
+Name: res/drawable-xhdpi-v4/icon.png
+SHA-256-Digest: CgXlWvSw7uIYfsfxdl8ScdIFjavfPfFJmCw4wb9bzk4=
+
+Name: res/raw/monaca_viewport.js
+SHA-256-Digest: fWY9zaN+QlwXJUvgckvzR/5QRZn61ZU5YM+cvWNZFgM=
+
+Name: res/anim/monaca_slide_right_close_enter.xml
+SHA-256-Digest: aJIp1AdQGF0PDVunwG64hlAom/veX+ail4i1zfEjl5E=
+
+Name: res/anim/monaca_dialog_close_exit.xml
+SHA-256-Digest: XAhzYhMbrNJNAL1iK8OA3IixUKPq3WCjYbPO/w1HLzk=
+
+Name: assets/www/cordova_plugins.js
+SHA-256-Digest: cmEE68iijh0CqEqAFP1IQSsJuHX9hs7GHTYVfWXGzxk=
+
+Name: assets/www/plugins/phonegap-plugins/webIntent.js.aa2c402.android
+SHA-256-Digest: iMIKd3dbDYgtylvLUkK/CpMEUz2ZqSMJGLKW5dLooDk=
+
+Name: assets/www/js/HybridGuard.js.bak
+SHA-256-Digest: D4qXVR0qOr7IQGwik6yOb+rT/L7v38+cnrLWvbEnSXA=
+
+Name: assets/www/plugins/phonegap/cordova.js.2.9.1.android
+SHA-256-Digest: L0Mf/h/PqAbC7zmHLFx+qjKX6LgdNkSzy6WJ0GvGSPw=
+
+Name: res/drawable-ldpi-v4/icon.png
+SHA-256-Digest: Iombe0hjLldYFSnd6JKVrhrFBc6/IlKYKSdo1uTmQBY=
+
+Name: res/anim/monaca_slide_right_open_exit.xml
+SHA-256-Digest: 0zqLU1WqLz4sUyLPakEpnjpzz9JA9EnJyl93/uCPcqE=
+
+Name: res/drawable/spinner.png
+SHA-256-Digest: tnpGlU9D3c1Y9OyndWjS6hP/JltYtM4HMGLVxKSjA3M=
+
+Name: res/drawable-xxhdpi-v4/icon.png
+SHA-256-Digest: NLGAh/GPUqmx2adj48RxYc5xNsLcUrGVx69ExmNB1pg=
+
+Name: assets/www/img/logo.png
+SHA-256-Digest: kjWzH6QrGCYAGRMdcjIl+k/x3xtZMpHigY5BOTD+Fyk=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA-256-Digest: t0y1aOeiztIXuyaykJok36jFKIrdiEvtsWev09gTVsQ=
+
+Name: res/drawable-hdpi-v4/monaca_search_clear.png
+SHA-256-Digest: g0flzn9V545yaFN5TtPLNy5NxDtiAkACOY44DkmGLHQ=
+
+Name: assets/www/plugins/jquery/css-1.2/images/icons-18-black.png
+SHA-256-Digest: BsqIGTeJ7TJzAlusDY0ihbkf31erYVu4zQgCesHrcX4=
+
+Name: res/drawable-hdpi-v4/monaca_segment_left.9.png
+SHA-256-Digest: m+LnzkPjysp59vCmuw9m6P0Xy2lp01o6h230gNIoSxI=
+
+Name: assets/www/plugins/jquery/js/jquery-1.9.0.js
+SHA-256-Digest: TXsBwvYEO87oOjPQ9ifcb7wn3IrrW91dhj6EMEtRLvM=
+
+Name: assets/www/img/facebook.png
+SHA-256-Digest: fkuBGXUefMc0NUd2+CbgmsOkGZL+lTpnGfcGa4NQu0I=
+
+Name: res/anim/monaca_slide_open_exit.xml
+SHA-256-Digest: 6KR7veFF2Y6F71UgQ67y0RzZO/Cp5TCWvw5u1hGRD9w=
+
+Name: res/drawable/splash.png
+SHA-256-Digest: mwNVwSkavAr1vjOQ5MPWt1ZlrqU2ppKYNesPqolZ2vM=
+
+Name: assets/www/plugins/monaca.js/monaca.js.1.5
+SHA-256-Digest: zvECw+CKkiWhLZa58Yzk5LjTrW1ZJUbd4p6SxwZm8Vg=
+
+Name: assets/www/js/innodbview.js
+SHA-256-Digest: REQCFeKnzNvzDCc8J4AMlFrNBAMNBDChk10yxV3CFu4=
+
+Name: assets/www/innotodayview.html
+SHA-256-Digest: wz8NdLKU/rPg1LCSS6r/BvWXD2zEIhz4mhCIkpwSzME=
+
+Name: assets/www/innocategory.html
+SHA-256-Digest: msIltiavJHDp1gw//xiUQEtmwHoQJAGuaDfLPoymL0s=
+
+Name: assets/www/innonewsview.html
+SHA-256-Digest: xu6TzUq1X78f+AnmrKEth9O/Y7057+V8cEEPDJvHuq0=
+
+Name: assets/www/js/innodbviewdirect.js
+SHA-256-Digest: M5BcS6nqUtF0duaPEugTmwWfMhh8QlBjg/BtDrB7Wew=
+
+Name: assets/www/plugins/monaca.js/monaca.js.autover
+SHA-256-Digest: zvECw+CKkiWhLZa58Yzk5LjTrW1ZJUbd4p6SxwZm8Vg=
+
+Name: res/drawable/childbroswer_icon_arrow_left.png
+SHA-256-Digest: gk6mrFwOc+/iXtWVykokOipxxj6W3IVeEY+ID4QGyKU=
+
+Name: assets/www/plugins/jquery/css-1.2/images/icons-36-white.png
+SHA-256-Digest: AhPMP/Ycs7AsBoPXb+yQPr56OKmG9RDk4EgqZdaMszc=
+
+Name: res/layout/main.xml
+SHA-256-Digest: NVttfMvCnJLSvfHVWPgYeOk27vzRPk6xjqncscOrv/k=
+
+Name: assets/www/js/innodblist.js
+SHA-256-Digest: E7Oa6X2OQXdl/g/Td82fJI6ejIaThL2T0VR6EJg1YVE=
+
+Name: assets/www/js/innoinmobi.js
+SHA-256-Digest: r7TQG/p7FykWb6GATMR8ZST96uRNXzERB4T19LudSt4=
+
+Name: assets/www/innonewshot.html
+SHA-256-Digest: OHDVu4XlsAJLU9SwKiUKbyvx2PyGlbdq/VY/nNuw/hU=
+
+Name: assets/www/js/innonewsindexlist.js
+SHA-256-Digest: WQCcai75FJZIjqqHw7lsOWGdzeRulfEsej7j07d2Hu8=
+
+Name: assets/www/plugins/jquery/css-1.3/images/icons-36-white.png
+SHA-256-Digest: 6+18cXLgNxnQ4htI9uvF5UNE7bjDVDwlywa5m1R11DQ=
+
+Name: assets/www/plugins/jquery/css-1.3/jquery.mobile-1.3.1.css
+SHA-256-Digest: NkAF21VsmlMSvzEyJkqjCnLKwPKQU+SMY5Z2BtgMHFQ=
+
+Name: res/drawable/childbroswer_icon_arrow_right.png
+SHA-256-Digest: fkRy9KX6CLy8y/P445mwCaDj1vESEDW/DXNaxGDsjTs=
+
+Name: res/drawable/childbroswer_icon_close.png
+SHA-256-Digest: hZrwO7GDWgSqMd/Y788xvTClncbkqf9MNpQ/keAprJU=
+
+Name: assets/www/css/styles.css
+SHA-256-Digest: 5lWzU6ZHyCJeuYFRnSwec/lzyLvMH5bvAECzyIYvQUQ=
+
+Name: res/drawable-hdpi-v4/monaca_tabbar_bg.9.png
+SHA-256-Digest: TwslA3xx6DOf1cQaVQhQWLleHFFYPbu+U7sX5QWkZEw=
+
+Name: assets/www/plugins/jquery/css-1.3/images/icons-18-black.png
+SHA-256-Digest: YkloCw4iOzmFvDlLV2Pcmdkx/LYvMmxVJldjvs8XHjs=
+
+Name: res/raw/jquery.js
+SHA-256-Digest: D7Fw8kZ1yE+CKK1rYdab9nBQMJScwv7DFrOgBuqygvg=
+
+Name: assets/www/plugins/plugin-loader.js
+SHA-256-Digest: r1IjVRGWUfhrBX+nA6lPvWYRzMIcizRryjkSB/ciYzY=
+
+Name: assets/www/plugins/phonegap/cordova.js.autover
+SHA-256-Digest: L0Mf/h/PqAbC7zmHLFx+qjKX6LgdNkSzy6WJ0GvGSPw=
+
+Name: classes.dex
+SHA-256-Digest: dwXsojhf3eLBvLkjhPSG3l5WysU194bdYPgBNjLXrR0=
+
+Name: res/drawable/shadow_bg_reverse.png
+SHA-256-Digest: rCPOzq1prmyX5WKf2WYT9AzWXKoHPOquvxOmyXhdBT0=
+

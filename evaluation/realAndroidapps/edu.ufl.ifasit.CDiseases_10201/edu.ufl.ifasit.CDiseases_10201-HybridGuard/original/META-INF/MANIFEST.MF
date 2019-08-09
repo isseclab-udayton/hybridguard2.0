@@ -1,0 +1,485 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_191 (Oracle Corporation)
+
+Name: assets/www/images/diseases/fs_images/Nitrogen_l.jpg
+SHA-256-Digest: qnNSOE7F2T/Fy2M6abB4SK6pwtrIAuAbBZ0X30+Ki9M=
+
+Name: assets/www/js/policy_config.json
+SHA-256-Digest: fhZZxn32eSX/o5cbe4FFxMCwS7VkYv7N33GKH1b5YUQ=
+
+Name: assets/www/lib/photoswipe_3.0.5/code.photoswipe.jquery-3.0.5.js
+SHA-256-Digest: Vt0T9+OvJ6qqsOK4Xdo4awjjhRB9UDBULUQSYycNGkk=
+
+Name: assets/www/images/diseases/fs_images/Tristeza_Seedling_Yellow_cr
+ op_MLP_cs.jpg
+SHA-256-Digest: rA0vYpcr8CiftQLkZCAKJLt0n9gYUPqNW1gOHMXq8hQ=
+
+Name: assets/www/images/diseases/fs_images/09Anthracnose.jpg
+SHA-256-Digest: s9p5KzxzT7dYpqgUf40h8C+0rNV9JPl1JK9GWhh6+xA=
+
+Name: assets/www/original_index.html
+SHA-256-Digest: wwp/YgLek671kD9fOkHAJoL6vQ36sM4mFOQHq5his18=
+
+Name: assets/www/images/diseases/fs_images/CVC_Alexander_Purcell_Unive
+ rsity_of_California_Bugwood.org_cs.jpg
+SHA-256-Digest: fDrZNqOt0yzYDpGLa117J/nznmwmw8U2rSto5g5gbtI=
+
+Name: assets/www/js/HybridGuard.js
+SHA-256-Digest: /ql79GReNl+ms95w/ndYL7nuteuit/bRS/2jRx7/0l8=
+
+Name: assets/www/json/cd_factsheet.json
+SHA-256-Digest: fhfusJaOpO6GoaG6EIMEv8YZmHtqok962jY/LDLAWGQ=
+
+Name: assets/www/images/diseases/fs_images/04CitrusCanker.jpg
+SHA-256-Digest: MeGv5Xw9j5Rypnewi14yPeiuF98spVVmKZP0VqECJ8I=
+
+Name: assets/www/images/diseases/fs_images/10_StemPittingtrestesia_Gra
+ pefruit.jpg
+SHA-256-Digest: S2fYZqUFND1Kaen265NUbSCAZGTvP9x1S+eaUrA1oVc=
+
+Name: assets/www/json/cd_glossary.json
+SHA-256-Digest: SfJSaIPTRz2kaWYHE1do6uTMorVmifFqFZBC6E6JUp4=
+
+Name: assets/www/images/diseases/fs_images/Chimera_on_V_a.jpg
+SHA-256-Digest: h8QaT43D8qVOn2qGusEOF1RMGfZspom6JFMxABbAy4s=
+
+Name: assets/www/images/diseases/fs_images/CBS_topleafcaption.jpg
+SHA-256-Digest: /P7qR9F57F2AqK7H9AwY1Vz01T2d6sr13fVcKzUxcb8=
+
+Name: assets/www/images/diseases/fs_images/Psorosis_Leaf_Stephen_M._Ga
+ rnsey_USDA_ARS_South_Atlantlic_Area_Bugwood.org_cs.jpg
+SHA-256-Digest: zux/PL49+sHe6PYlNWhWAcveg8SYxshcgtHwDFPQdCU=
+
+Name: assets/www/lib/jquery.mobile-1.3.2/jquery.mobile-1.3.2.min.map
+SHA-256-Digest: Mx49AFET5tx7OjOYjBWH8gyDl8txUcn8h/dtHQDfFvU=
+
+Name: assets/www/images/diseases/fs_images/03Alternaria.jpg
+SHA-256-Digest: +IA1Fodms8eaFRV/OZLnxmSVoKL3OD75MpFFN7m0qG4=
+
+Name: assets/www/images/diseases/fs_images/22Leprosis.jpg
+SHA-256-Digest: PzatZqXNlkhA4+uXuf1n9i2ZDCJOcH2LOo9mQZJsbVE=
+
+Name: assets/www/images/diseases/fs_images/18CitrusCanker.jpg
+SHA-256-Digest: clsAdHo47jNVQDVqRgm65zZSRPQa8bgIgjia40lhM38=
+
+Name: assets/www/images/icons/icon.png
+SHA-256-Digest: Wk3T/ojuBsdQE+L+b26gaTQVPT99OVR/a6CFhC6daww=
+
+Name: assets/www/images/diseases/fs_images/15CitrusCanker.jpg
+SHA-256-Digest: WS30Halpk6t75VH2RQr5EFHY7l03GqRQWHk4tzjo4Wc=
+
+Name: assets/www/images/diseases/fs_images/Tristeza_Lindsay_Quick_Decl
+ ine_2_Aug_09_MLP_Rick_Dunn_cs.jpg
+SHA-256-Digest: +ro3CteM9znh8YAFb3xR0yfBRy0ZqlXJDkiQ3iA5aDs=
+
+Name: assets/www/lib/jquery.mobile-1.3.2/images/icons-18-white.png
+SHA-256-Digest: rfh6AUoBhUrc5DNWD/6xZFcAUrnAtQ84kV+DONk81bo=
+
+Name: assets/www/plugins/org.apache.cordova.splashscreen/www/splashscr
+ een.js
+SHA-256-Digest: EgUYLuRya4RWCpiMFDsdL+siR0ve8/tFXcCB5zEUQwU=
+
+Name: res/drawable-xxhdpi-v4/ic_action_remove.png
+SHA-256-Digest: o7yXBeq0xhdwtJPatXfrHPxtlucMc1ps/W2ptEAo5yg=
+
+Name: assets/www/images/diseases/fs_images/03_CCDVchlorotic_flecking_a
+ nd_warping_on_leaves_MY_cs.jpg
+SHA-256-Digest: +M38hBUEtBsEXObXCNN3VAZUoOMt6hgHAgRkbNlsfc4=
+
+Name: assets/www/index.html
+SHA-256-Digest: ZZuBCVev8xSL774Xs4PLl1sVxbOICN0oqP9XWl0ifag=
+
+Name: assets/www/images/diseases/fs_images/15CitrusScab.jpg
+SHA-256-Digest: b0HWqR8BS9W0b7foTnRg09Pgg9BLriOI+2khjnw0nfo=
+
+Name: assets/www/images/diseases/fs_images/01Alternaria.jpg
+SHA-256-Digest: jwPAp3BFB6QLAFMkQm+X1eLFxmvNQi8j7Va6MN1zpEo=
+
+Name: assets/www/images/diseases/fs_images/06Anthracnose.jpg
+SHA-256-Digest: ftMwFfKOYcjPOf2/XBKX6imGnkiYXekxd3BP6kvctfU=
+
+Name: assets/www/images/diseases/fs_images/Zinc_a.jpg
+SHA-256-Digest: GKhbmXvvCARzjgakOwTdnG4APZZIVMrXlLkCeTUE95g=
+
+Name: assets/www/images/diseases/fs_images/GSLEAVES_TG_cs.jpg
+SHA-256-Digest: m+XLg7TOBiPltPtP5KzfzQibpmp8W17iRBX2zMb0VMc=
+
+Name: assets/www/lib/photoswipe_3.0.5/photoswipe.css
+SHA-256-Digest: N9gvECTZPP4ukLneS+sPCHeOauueFHmsRl8q/VeAg2U=
+
+Name: res/drawable-xxhdpi-v4/ic_action_next_item.png
+SHA-256-Digest: BY8VpK+hkmIOC8jkpyaPSUqJSVciM3+IntMQllWojYI=
+
+Name: assets/www/images/diseases/fs_images/Psorosis_Trunk_Stephen_M._G
+ arnsey_USDA_ARS_South_Atlantlic_Area_Bugwood.org_cs.jpg
+SHA-256-Digest: CJYBvEjnG1rco1Aoqp1hPOGqZPDwCtJgojcHHPGehMk=
+
+Name: res/drawable-xxxhdpi-v4/icon.png
+SHA-256-Digest: UULaaX/LwzvxLn4/fETCIc5/bX9QF+smtxRXWMCWZxc=
+
+Name: assets/www/images/diseases/fs_images/Elsinoe_australis_Fortunell
+ a_sp_Leaves_Positive_cs.jpg
+SHA-256-Digest: hL2ZPRWGUAPGh4kzv0NKjAcpkpnue0fPJb5HThlkAzw=
+
+Name: res/drawable-land-mdpi-v4/screen.png
+SHA-256-Digest: ugaQ+oyWrVRWMjpEInQGftluyVDLipgCvA14j32D7ug=
+
+Name: resources.arsc
+SHA-256-Digest: ZzWZlo6d910XhrsJz0R6XHah/SVsW9RB7lmSM3HFTyo=
+
+Name: assets/www/images/diseases/fs_images/03Phytophthora.jpg
+SHA-256-Digest: FFlMaST4b+xzvOnNMkpkRkS2ETEmIBE5s7wVbqFQ3PM=
+
+Name: res/drawable-mdpi-v4/ic_action_previous_item.png
+SHA-256-Digest: kDt22kXpShZsulrc8bCgfSSvE+t7ISUqjHoGyNgafIM=
+
+Name: assets/www/images/diseases/fs_images/02HLB.jpg
+SHA-256-Digest: kFqyh7qeg+oHPUE/tehddkx1NvgaLqUphtRuCVm9zvo=
+
+Name: assets/www/images/diseases/fs_images/06Phytophthora.jpg
+SHA-256-Digest: KeJEKXA+Yj1DI08cJh9TZ73BADI7Rchaaf5UGAIik7Y=
+
+Name: assets/www/images/diseases/fs_images/CVC_3Alexander_Purcell_Univ
+ ersity_of_California_Bugwood.org_cs.jpg
+SHA-256-Digest: x+NOHFhrBS/qkjU3n8W2dQ1t3vqb+J1dTRo+zNT9awQ=
+
+Name: AndroidManifest.xml
+SHA-256-Digest: EPwoSumZog17oBd8+Dh5IFXp7SGxHFaO9DLBBa4jPR4=
+
+Name: assets/www/images/diseases/fs_images/4_CRSVfruitpsorisis.jpg
+SHA-256-Digest: nYQyJiWHpgMTloHi5zyJFmUmm5oXH3W0DkG9ToNzweU=
+
+Name: assets/www/images/icons/load_screen.png
+SHA-256-Digest: deOdiQ+35Kii599yuS+bQhTL4XzXUBtqyK3pRQCMqN8=
+
+Name: assets/www/plugins/org.apache.cordova.inappbrowser/www/inappbrow
+ ser.js
+SHA-256-Digest: QkygdgwPx1gQEbXu+DG9evFmNtUmd4Sz7fIAxXqIZYs=
+
+Name: res/xml/config.xml
+SHA-256-Digest: qeOPKDSR37jrrH7R9AI5UIwABBmHzo3UvtTfvowvEDo=
+
+Name: assets/www/images/diseases/fs_images/8_Tristeza_Leaf_Flecking.jp
+ g
+SHA-256-Digest: qrBaRhWDSfNZ3+Cr0RcycatX38WZjjKbdPP2LGCc5bI=
+
+Name: assets/www/images/diseases/fs_images/1319_Ecoport_Tristeza_Fruit
+ _Lee_RF_cs.jpg
+SHA-256-Digest: 6Q3QXKNxBE5pmtRWPk22fPsFFanxX4r3AF+paDU27bQ=
+
+Name: assets/www/images/diseases/fs_images/Tristeza_Photo_3_trunk_SP_M
+ LP_cs.jpg
+SHA-256-Digest: PAB48jrKn8sd7Om4xAbCRwYYKFwtFm2QRdszvhWVcmo=
+
+Name: assets/www/images/diseases/fs_images/Boron_defic_susp.jpg
+SHA-256-Digest: zge4AWfb5N8YLczRht5UagSkxlSBqsrmqbj3p+FkMz4=
+
+Name: assets/www/images/diseases/fs_images/01Pseudocercospora.jpg
+SHA-256-Digest: dSV5SlpMsWiZAa9MW/VrjhXkrODEhkrTA44zoFcHLtE=
+
+Name: assets/www/css/custom.css
+SHA-256-Digest: wEuZjQV12tHXpNEkieEYN4A6PtI5oG1bIcl/HTQu76Q=
+
+Name: assets/www/images/diseases/fs_images/14378_Ecoport_Tristeza_frui
+ t_size_Roistacher_CN_cs.jpg
+SHA-256-Digest: SdfPLK6ObAeIVvq4eosRavMB48/QPQ0nAicmqF3VZTI=
+
+Name: assets/_where-is-www.txt
+SHA-256-Digest: d7KxWHSmG+L7ETF6oSh1BgPbyxSs/zUb2KPmnmGArkw=
+
+Name: assets/www/images/diseases/fs_images/08Anthracnose.jpg
+SHA-256-Digest: KOoskunhhDEgUSs+er2EhTayvizYD0gzEZURGd7xlXo=
+
+Name: res/drawable-mdpi-v4/ic_action_next_item.png
+SHA-256-Digest: wBQi//HkW4ZOfMm4B6g9gIaNrCvQET4Tg4UHaxpvv20=
+
+Name: assets/www/images/diseases/fs_images/Picture1_Mal_secco_symptoms
+ _on_a_Citrus_medica_branch_DE_cs.jpg
+SHA-256-Digest: yPFEx+wAnZ7+i3ocPMONZeYQs/Q2Mkg/gXkBw/Lag14=
+
+Name: res/drawable-xhdpi-v4/ic_action_remove.png
+SHA-256-Digest: VIIEBj+//tPQRYq61UpqZusJ6jdOtqlHfGC/GZ9w0oE=
+
+Name: assets/www/lib/jquery.mobile-1.3.2/images/icons-36-white.png
+SHA-256-Digest: 6+18cXLgNxnQ4htI9uvF5UNE7bjDVDwlywa5m1R11DQ=
+
+Name: res/drawable-land-ldpi-v4/screen.png
+SHA-256-Digest: LjxlIt3e2YERAvAwiaNxbfsMLc2hPOa1Xjdtjjqx3pA=
+
+Name: assets/www/images/diseases/fs_images/Septoria_JimAdaskaveg_Categ
+ ory_1_cs.jpg
+SHA-256-Digest: 6oZLZm2vUDIMdrF6LEOoDGGrS9ADoau0yFkutaq4tQY=
+
+Name: assets/www/lib/jquery.mobile-1.3.2/jquery.mobile.theme-1.3.2.min
+ .css
+SHA-256-Digest: QG3X21p7u20YYPNnoaMCCZa0WsSPUULG4ypdC4ZSAzk=
+
+Name: assets/www/lib/photoswipe_3.0.5/icons@2x.png
+SHA-256-Digest: xpWe7fDXgWYPGJwIvEGscXky8L+zy3IdzH2R9421kWc=
+
+Name: res/drawable-hdpi-v4/ic_action_next_item.png
+SHA-256-Digest: jYAsOhcuuxPqn6tjcc8tqeA848/yzR/JJO7ERqjxnN4=
+
+Name: assets/www/images/diseases/fs_images/16Leprosis.jpg
+SHA-256-Digest: nsERNfcFs5In4/mhOfg9L+C+GL/ukhbiGg88sgpV3sM=
+
+Name: res/drawable-xhdpi-v4/ic_action_previous_item.png
+SHA-256-Digest: HcO0VoZubJphLvnuwLkAOUuueEyEr06dva3QfQLNOU0=
+
+Name: assets/www/images/diseases/fs_images/RINDBLO2_TG_cs.jpg
+SHA-256-Digest: HSdb8t2hMo3qK8dbfYwygxcH166HIQA81d7DaelKEiw=
+
+Name: assets/www/images/diseases/fs_images/RINDBLOT_TG_cs.jpg
+SHA-256-Digest: SfzSKURvu/8O+UKOAY1zmiRYqhigeKYn92grEOVF2IE=
+
+Name: assets/www/lib/jquery-1.7.1.min.js
+SHA-256-Digest: iBcUE/x23aI6syuqF7EeT/+JFBxjPs5zeFJEXxumwb0=
+
+Name: assets/www/images/diseases/fs_images/02Alternaria.jpg
+SHA-256-Digest: uwbsd66HNdkboP4BTxdqTy/EU3RyMLt2v6vWwA7iiSE=
+
+Name: res/drawable-mdpi-v4/icon.png
+SHA-256-Digest: 4Io0f0wAwiF8m3jttOAxXeeNG60sE6nO3BBiVD56GJw=
+
+Name: assets/www/lib/jquery.mobile-1.3.2/jquery.mobile-1.3.2.min.css
+SHA-256-Digest: svR3sW/HQy7WzCBK1bTaLah5ZuCp0aJr87sBL10QSqw=
+
+Name: assets/www/lib/jquery.mobile-1.3.2/images/icons-18-black.png
+SHA-256-Digest: YkloCw4iOzmFvDlLV2Pcmdkx/LYvMmxVJldjvs8XHjs=
+
+Name: assets/www/images/diseases/fs_images/17CitrusScab.jpg
+SHA-256-Digest: 3DLp+2YCYYgnBz3oH/S3b3+Pee7tmgT/xtzINBzqW0g=
+
+Name: assets/www/images/diseases/fs_images/IMG_2896_Citrus_bacterial_s
+ pot_red_grapefruit_JHG_cs.jpg
+SHA-256-Digest: qWt4LBWaZtr9/otWkcQ/YXwsgi0qF5bgCP8K3cKMFhM=
+
+Name: res/drawable-port-mdpi-v4/screen.png
+SHA-256-Digest: c30Rs2Q7METbdE/vTOlrkYYY4COxSgVJaSLG9rmog+c=
+
+Name: assets/www/lib/jquery.mobile-1.3.2/jquery.mobile-1.3.2.min.js
+SHA-256-Digest: PCsrkztcyLqLREhhcihZiegSoFnAzd65vBJ9HjDPiSQ=
+
+Name: res/drawable-xxhdpi-v4/ic_action_previous_item.png
+SHA-256-Digest: DxhgKzRGlT3pYqGo1BLbNTLS7xgOwLyLPTP9NejLtcw=
+
+Name: assets/www/lib/jquery.mobile-1.3.2/images/ajax-loader.gif
+SHA-256-Digest: atFZeQWHru0uJZg1bqZZ/jJ8mZdvckOJmwEWlbmtUm8=
+
+Name: res/drawable-port-ldpi-v4/screen.png
+SHA-256-Digest: ODaLZoPM5yM/oH6QyaAy0++6jwhs6Sq/l03+0jB40Ls=
+
+Name: assets/www/images/icons/icon@2x.png
+SHA-256-Digest: xSCrnz/XJRJwez2sUDou14z1seqCOUJah5u0LBafzgM=
+
+Name: assets/www/images/diseases/fs_images/23HLB.jpg
+SHA-256-Digest: 01Vil6dGUz7B/hJKSJ5Bm4S4adqyrtAv+hq1/JkxMLQ=
+
+Name: assets/www/css/master.css
+SHA-256-Digest: aiXTLY9TULJ873/iSlj+E0B8kcmhxJOpzpvPeuLUh6U=
+
+Name: res/drawable-hdpi-v4/icon.png
+SHA-256-Digest: 2JMSMwGYDsj/2Ma+oeQZdc3ggtdeSG2gHSrpTdfnvHI=
+
+Name: assets/www/cordova.js
+SHA-256-Digest: 7q8wmbhBpGPJExkvdl24QX7mMJX/UWb5o+rlxA2po8E=
+
+Name: assets/www/images/diseases/fs_images/21HLB.jpg
+SHA-256-Digest: ZK2C3vpaEJEtKZSDmmtzT7UWp4Enz9fPTykTjSJeS64=
+
+Name: res/drawable-land-xhdpi-v4/screen.png
+SHA-256-Digest: hLRP67Unp/mgBs3bWPW7DCdN7RCsKFggHcv+YXQlSWI=
+
+Name: assets/www/images/diseases/fs_images/03Leprosis.jpg
+SHA-256-Digest: 9OyxzBuDtmRgfiprWN30m8w2wSWUIB7qZCNzea5dOpc=
+
+Name: assets/www/images/diseases/fs_images/Measles_Leaf_DSC07083a_HG_c
+ s.jpg
+SHA-256-Digest: +EhPJqAFr+7CY5/CrJowOeZMawb5HeFhZKsaBO7YEGg=
+
+Name: assets/www/images/diseases/fs_images/MVC_081F_Lime_Anthracnose_l
+ eaf_and_fruit_lesions_key_lime_Dan_Robl_cs.jpg
+SHA-256-Digest: D2DlH0jvEESi8Up5mBhvzn0698uhkWpPjne9rv8OCHU=
+
+Name: assets/www/images/diseases/fs_images/08CSD.jpg
+SHA-256-Digest: t0ccHP4tXn6T35BgrZcqfGy+FewdcbBYTMNVkKPqHLU=
+
+Name: assets/www/lib/photoswipe_3.0.5/error.gif
+SHA-256-Digest: MIXN3xhHy4RMQ3fHhQMErNGDkUFCQxk6Wl8nG3z6UDI=
+
+Name: res/drawable-land-xxhdpi-v4/screen.png
+SHA-256-Digest: gCD++O9x82n3BAAI9+/4elRBYhrAczAKzEioD0oLtgQ=
+
+Name: assets/www/images/diseases/fs_images/20_honeycombfromctv.jpg
+SHA-256-Digest: YsS8u8bdJN1rP5ohcvuWHrnzsfTef8L8Zk/4YvrzAA4=
+
+Name: assets/www/images/diseases/fs_images/IMG_2890_Citrus_bacterial_s
+ pot_red_grapefruit_JHG_cs.jpg
+SHA-256-Digest: aV7f+SAtC8NHnLxx/Xr3Z894NaSBEjaZbA+OQBPDb3g=
+
+Name: res/drawable/icon.png
+SHA-256-Digest: nqfGowznLAn2Kaf0l/QIoN+sfnbo9wPk5dFRnSe6yJs=
+
+Name: assets/www/lib/jquery.mobile-1.3.2/images/icons-36-black.png
+SHA-256-Digest: CDwe2XTGtNK+OrFVpNR/wjcfe2UiQDgqBOFT83YFSiU=
+
+Name: assets/www/images/diseases/fs_images/Septoria_JimAdaskaveg_Categ
+ ory_2_cs.jpg
+SHA-256-Digest: hV8H2USRwNR3xbIIZUg06n+w6HlhUBgJD4BzE2HpQks=
+
+Name: res/drawable-xhdpi-v4/icon.png
+SHA-256-Digest: gw9xS8kOTycGq4vYdx4wACAizOwMeR12N90Bteo7pS8=
+
+Name: assets/www/images/diseases/fs_images/04Alternaria.jpg
+SHA-256-Digest: O4R9Om82trhFqJYQpvP0xQE/L7Bev3TCLO1AtdPuKf8=
+
+Name: assets/www/images/diseases/fs_images/melanose_on_grpfrttearstrak
+ .jpg
+SHA-256-Digest: 1du9Maq77wlR2qSZVtorre8L1Y25yD2MqoVM6lRGeO8=
+
+Name: assets/www/images/diseases/fs_images/Magnesium_902.jpg
+SHA-256-Digest: bAwM5weer7qJ4NR7qYgxyUnsof7UWqtasqEIi9vV6nk=
+
+Name: res/drawable-port-xxhdpi-v4/screen.png
+SHA-256-Digest: eyxAqEqs2kzM/dKMwEKwSclNMxIDZq+aYFfly2LMtyU=
+
+Name: assets/www/images/diseases/fs_images/Tristeza_Lindsay_QD_3_Aug_0
+ 9_MLP_Rick_Dunn_cs.jpg
+SHA-256-Digest: nM7UI7lbo1fMCmg6PJik16NEDx6VzPEE3f1UyeH8gAY=
+
+Name: assets/www/json/cd_title.json
+SHA-256-Digest: bvW9V/lepD74b4TRx6cja87qALUr0VbbK5nq7ltKcAE=
+
+Name: res/drawable-hdpi-v4/ic_action_previous_item.png
+SHA-256-Digest: 0yY1n4OcPIfcIsnBM/z4pnie7Hb2J2MA0OBFpTVP6zY=
+
+Name: assets/www/cordova_plugins.js
+SHA-256-Digest: pdtNKUNOxYAZdHIYOEhOJDTE3lHd7IKzpKgc4gPltnw=
+
+Name: assets/www/images/diseases/fs_images/1336_Ecoport_Tristeza_Leave
+ s_Roistacher_CN_cs.jpg
+SHA-256-Digest: rSPVT41F/joQo+h2tldMxHicmiPhclSlibWejuwFFCI=
+
+Name: assets/www/images/diseases/launch_blackspot2.jpg
+SHA-256-Digest: PSGitV6/0EWdm01HsJ8WSfCzjfTxtPdlxGl5ZtYtjbg=
+
+Name: assets/www/js/HybridGuard.js.bak
+SHA-256-Digest: D4qXVR0qOr7IQGwik6yOb+rT/L7v38+cnrLWvbEnSXA=
+
+Name: assets/www/images/diseases/fs_images/16HLB.jpg
+SHA-256-Digest: sdmxWj6HwQCvvJoZ17leyjtwhXu3tNMFfL8QX3YHUgw=
+
+Name: res/drawable-ldpi-v4/icon.png
+SHA-256-Digest: 7B/7yvm6id82qnEpUHBXdz0/ev8ZHDqKGCldDAqYpKY=
+
+Name: assets/www/images/diseases/fs_images/04Phytophthora.jpg
+SHA-256-Digest: AqTwv/VM8KgJ/rKRoZnym+2imAYaCobT1x1aH80/P3E=
+
+Name: assets/www/images/diseases/fs_images/18CSD.jpg
+SHA-256-Digest: NEwqRpiHPvxQSLvRTvIwSydnRDtC2mPYiJoW8H8NSZQ=
+
+Name: res/drawable-xxhdpi-v4/icon.png
+SHA-256-Digest: 1kYyNs45m0CpBMn1+w7IQ6NC8utPb8WzTrWe6P5sY8k=
+
+Name: assets/www/images/diseases/fs_images/sweetorangescabonvalencia2.
+ jpg
+SHA-256-Digest: 5erQ0xnMuwKGv7bRB0M5GToaTXRxWCzT3jZoYkCheaQ=
+
+Name: assets/www/images/diseases/fs_images/MVC_198F_Melanose_on_grapef
+ ruit_leaf_star_melanose_Dan_Robl_cs.jpg
+SHA-256-Digest: jhjl+0gZLRO3C2L/u+XAE7sHRrRXYB2elsGErsUUAak=
+
+Name: res/drawable-land-hdpi-v4/screen.png
+SHA-256-Digest: wrG7mIMMRcl0gfMU2UI+dW14rNZCxFHO1WRRV4iM9wU=
+
+Name: assets/www/images/diseases/fs_images/04_CCDV_Gondol_like_leaves_
+ with_inverted_cupping_MY_cs.jpg
+SHA-256-Digest: FcX/Pt4nIOg7UwIcz59sVmOLKqx4CcMG55y1UyOLcJQ=
+
+Name: assets/www/images/diseases/fs_images/06Pseudocercospora.jpg
+SHA-256-Digest: kGQQlNWoGjgAvecGGOrMuTBUOggz577fFxIMRVkAcf4=
+
+Name: res/drawable-xhdpi-v4/ic_action_next_item.png
+SHA-256-Digest: nFfNR1kxMWmJjU9Laalr2WPDsiV1MtXtQydbUCypjmQ=
+
+Name: assets/www/images/diseases/fs_images/30HLB.jpg
+SHA-256-Digest: DkqejbF6i5utzmvwarJOirepyVr7IvBnIjPtRRP1mfM=
+
+Name: res/drawable-mdpi-v4/ic_action_remove.png
+SHA-256-Digest: /VuGTkRsYxtaQfXUD/PlIsMHP41lHrf6HrYLgMtCyF0=
+
+Name: assets/www/images/diseases/fs_images/19CitrusCanker.jpg
+SHA-256-Digest: z2mxlr+exOTj8CuVT4EQB+tpywYclmIHXQ3Gt7z7/Wo=
+
+Name: assets/www/images/diseases/fs_images/Picture2_Mal_secco_sectoria
+ l_Branch_wilt_of_lemon_tree_in_Israel_DE_cs.jpg
+SHA-256-Digest: yEgFXOTl/aZ+guuxmJAmGv9f88Ig+mhig2ay2Q8G/vo=
+
+Name: assets/www/images/diseases/fs_images/31HLB.jpg
+SHA-256-Digest: uVlO0gFFIGeQEM7p33Ww3zYWXMEPgZ+G52In2IA8gj4=
+
+Name: res/drawable-port-hdpi-v4/screen.png
+SHA-256-Digest: Quh0zVus51DxZRdUN/DXeol+Q1qM4SgywOfzioKD/Cc=
+
+Name: assets/www/images/diseases/fs_images/segmented_coloration_by_E_S
+ errano.jpg
+SHA-256-Digest: 7rc/6EdqfK8mlxQYLdnJYDfsJ938hIWjVnyNgpmozuM=
+
+Name: assets/www/images/diseases/fs_images/Fig4HGMelanoseOnSweetOrange
+ Fruit.jpg
+SHA-256-Digest: bl3jvrOyECcyFLgLni/zd71smFAsXPaIuOYJmTbZguk=
+
+Name: assets/www/images/spinner/indicator_lite_yellow.gif
+SHA-256-Digest: BV0SuC+wq6jku8GlrEf4Q0bL1GIfnlHXAh/bY4AGwO4=
+
+Name: assets/www/images/diseases/fs_images/15CSD.jpg
+SHA-256-Digest: RHOBrgotvu/RD0WgQVCjA/1KNQRzSUkEqzgB9Ye4HaE=
+
+Name: assets/www/images/diseases/fs_images/10CSD.jpg
+SHA-256-Digest: OFgF80IZCgtSBXFXDhciBb0o+8oDkuluasMt8CX83LI=
+
+Name: assets/www/lib/photoswipe_3.0.5/icons.png
+SHA-256-Digest: aOwZgbjsaYUo2LJeMWYNRRdrwUukpPnY+dHb8WmO/5s=
+
+Name: assets/www/lib/photoswipe_3.0.5/klass.min.js
+SHA-256-Digest: T4HuGd0z/dkVbsO2bJXg7+AFu6oLPNJ9qS2eSsxh21I=
+
+Name: assets/www/images/diseases/launch_HLB.jpg
+SHA-256-Digest: g3mNLRp6ZJJ2F+jpYCCNJwrVZenK7kTH4yZuk0ZKhUU=
+
+Name: assets/www/images/diseases/fs_images/Septoria_JimAdaskaveg_Categ
+ ory_1_and_2_cs.jpg
+SHA-256-Digest: CPHAGqOuISK4SH0mP63vsF+S6yXQelxe4ZyGR8PZ+oI=
+
+Name: assets/www/lib/photoswipe_3.0.5/loader.gif
+SHA-256-Digest: ur7Y3fIu0uZlkKT3V3NmEwQkKk9BZ9UuFlZS/uSSkz4=
+
+Name: res/drawable-port-xhdpi-v4/screen.png
+SHA-256-Digest: 7ZywEdPYGKnAM2OFKLkp/vGlLUrRrK9KUUXxB2Ao62s=
+
+Name: assets/www/images/diseases/fs_images/Psorosis_Staining_of_interi
+ or_wood1_CNR_cs.jpg
+SHA-256-Digest: 70lMALxXxDSojZBHHkDfj0aKLbrafxSFhru66vtk2rc=
+
+Name: assets/www/images/diseases/fs_images/Hard_spot_2_NP_bs.jpg
+SHA-256-Digest: DwZgiqOg84s/ikfS0oz7cP+gmk1F4+6VLJ4llulrn0Y=
+
+Name: assets/www/images/diseases/fs_images/Elsinoe_australis_Citrus_pa
+ radisi_Positive_and_Negative_lesions_cs.jpg
+SHA-256-Digest: I3Yd7BkNIkxAORKeCobzNQiQVwty33yHBsRuNIrBtPM=
+
+Name: res/drawable-hdpi-v4/ic_action_remove.png
+SHA-256-Digest: jtT/8wE4Sv/zNfVgIJpSFrz5CUbyZCHspBOq2wegHWw=
+
+Name: classes.dex
+SHA-256-Digest: C67PEVRCXZDYEmviNYgPpoD1zUiYRo4CQIFb4wLtt3I=
+
+Name: assets/www/images/diseases/fs_images/False_melanose_2bs.jpg
+SHA-256-Digest: tDaQY1ecYPxslq00K4aX1//KUKtZ4kO/BSlg2EQM5vM=
+
+Name: assets/www/images/diseases/fs_images/05HLB.jpg
+SHA-256-Digest: mfuLDAImLCKXxXzlLFOHahJRVJ4ebrpVCRLurMRKW6c=
+
+Name: assets/www/images/diseases/fs_images/09HLB.jpg
+SHA-256-Digest: ii8VXx9wGj/q2ilXY9/S2IYqiZFWMxhF2Z6pfNdJB9A=
+

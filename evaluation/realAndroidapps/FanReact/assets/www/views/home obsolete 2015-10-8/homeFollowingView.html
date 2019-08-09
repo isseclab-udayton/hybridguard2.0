@@ -1,0 +1,191 @@
+<div id="homeFollowingView" data-role="page">
+
+    <div data-role="header">
+
+        <ul class="headerBtns">
+            <li class="menu">
+                <a href="#popupMenu" data-rel="popup" data-role="button" data-inline="true" data-transition="slidedown"></a>
+            </li>
+            <li class="friends">
+                <a href="../fans/fansView.html"></a>
+            </li>
+            <li class="search">
+                <a href="#searchPopup" data-rel="popup" data-position-to="window" data-inline="true" data-transition="pop"></a>
+            </li>
+        </ul>
+
+        <h1>
+            <a href="#" data-rel="back">Home</a>
+        </h1>
+
+    </div>
+
+    <div data-role="popup" id="popupMenu" data-theme="d">
+        <ul>
+            <li>
+                <a href="../dashboard/followingView.html">Home</a>
+            </li>
+            <li>
+                <a href="../notifications/notificationsView.html">
+                    Notifications <span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="../profile/profileView.html">My Profile</a>
+            </li>
+            <li>
+                <a href="../fans/fansView.html">
+                    Fans <span class="notifications">8</span>
+                </a>
+            </li>
+            <li>
+                <a href="../settings/settingsView.html">Settings</a>
+            </li>
+        </ul>
+    </div>
+
+    <div data-role="content">
+
+        <div class="headerPadding footerPadding">
+
+            <ul class="tabbedPanels">
+                <li class="active">
+                    <a href="homeFollowingView.html">Following</a>
+                </li>
+                <li>
+                    <a href="homeTrendingView.html">Trending</a>
+                </li>
+            </ul>
+
+            <div id="tab-home-1" class="tabContent">
+                <p class="smHead">My following sports &amp; teams upcoming games</p>
+
+                <ul class="feed home following">
+                    <li class="chatOn">
+                        <a href="../game-center/gameCenterView.html">
+                            <div class="img round" style="background-image: url('../../images/nfl-saints-patriots.jpg');"></div>
+
+                            <div class="item">
+                                <h2>Pro Football</h2>
+                                <h3>Saints vs. Patriots</h3>
+                                <p class="live">LIVE</p>
+                            </div><!--item-->
+                        </a>
+                    </li>
+
+                    <li class="chatOn">
+                        <a href="../game-center/gameCenterView.html">
+                            <div class="img round" style="background-image: url('../../images/nfl-cowboys.jpg');"></div>
+
+                            <div class="item">
+                                <h2>Dallas Cowboys</h2>
+                                <h3>Game with Dallas Cowboys</h3>
+                                <p class="live">LIVE</p>
+                            </div><!--item-->
+                        </a>
+                    </li>
+
+                    <li class="chatOff">
+                        <a href="#">
+                            <div class="img round" style="background-image: url('../../images/nba-rockets.jpg');"></div>
+
+                            <div class="item">
+                                <h2>Houston Rockets</h2>
+                                <h3>Talk Rockets Basketball</h3>
+                                <p>Chat in 3 hours</p>
+                            </div><!--item-->
+                        </a>
+                    </li>
+
+                    <li class="chatOff">
+                        <a href="#">
+                            <div class="img round" style="background-image: url('../../images/mlb-mets.jpg');"></div>
+
+                            <div class="item">
+                                <h2>New York Mets</h2>
+                                <h3>Talk Mets Baseball</h3>
+                                <p>Chat in 22 days</p>
+                            </div><!--item-->
+                        </a>
+                    </li>
+
+                    <li class="chatOff">
+                        <a href="#">
+                            <div class="img round" style="background-image: url('../../images/mlb-talk.jpg');"></div>
+
+                            <div class="item">
+                                <h2>Pro Baseball</h2>
+                                <h3>Talk Pro Baseball</h3>
+                                <p>Chat in 22 days</p>
+                            </div><!--item-->
+                        </a>
+                    </li>
+                </ul>
+
+            </div><!--tab 1-->
+
+        </div><!--headerPadding footerPadding-->
+
+    </div><!--content-->
+
+    <div data-role="popup" id="searchPopup" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+
+        <h3 class="ui-title">Search</h3>
+        <p>Enter your search term and hit enter</p>
+        <label for="">Search for:</label>
+        <select>
+            <option value="fans">Fans</option>
+            <option value="posts">Posts</option>
+        </select>
+        <input type="text" name="search" placeholder="Search" />
+        <a href="homeFollowingView.html" data-role="button" data-inline="true" data-theme="b" class="submitBtn">Search</a>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <ul>
+            <li>
+                <a href="../dashboard/followingView.html">
+                    <i class="fa fa-home"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../notifications/notificationsView.html">
+                    <i class="fa fa-bell"></i><span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" id='capturePhotoButton'>
+                    <i class="fa fa-camera"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../fans/friendsListView.html">
+                    <i class="fa fa-users"></i><span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="../post/postView.html" id="topostView" class="active">
+                    <i class="fa fa-pencil-square-o"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+	<script>
+        // for camera to work    
+        try {
+            cameraApp.run();
+        } catch (err)
+        { alert("homeFollowingView view " + err.message) }
+    </script>
+</div>
+
+<script>
+    $(document).ready(function () {
+        // Toggles
+        $(".thumbs li").click(function() {
+            $(this).toggleClass("selected");
+            return true;
+        });
+    });
+</script>

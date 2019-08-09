@@ -1,0 +1,67 @@
+<div class="container">
+    <div class="row">
+    <div class="card animated fadeInUp anim">
+        <div class="card-content" style="padding-bottom: 0px; padding-left: 15px; padding-right: 15px; padding-top: 15px;">
+
+            <span class="card-title flow-text truncate" style="color: black; font-size: 18px">{{class['name']}}</span>
+            <div class="right" style="position: relative; bottom:10px">
+                <span class="badge badger Major darken-1">Major</span>
+                <span class="badge badger Minor darken-1">Minor</span>
+                <span class="badge badger Daily darken-1">Daily</span>
+            </div>
+        </div>
+
+        <div style="margin-left: 15px;margin-right: 15px">
+            <table class="striped">
+                <thead>
+                <tr>
+                    <th data-field="id">{{user.format[0][0]}}</th>
+                    <th data-field="price" class="truncate">{{user.format[0][2]}}</th>
+                    <th data-field="price">{{user.format[0][9]}}</th>
+                    <th data-field="price" class="hide-on-small-and-down">{{user.format[0][4]}}</th>
+                    <th class="truncate hide-on-small-and-down">{{user.format[0][3]}}</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr ng-repeat="work in class['classwork']">
+                    <td class="table {{work[3]}}">{{work[0]}}</td>
+                    <td class="table {{work[3]}}">{{work[2]}}</td>
+                    <td class="table {{work[3]}}">{{work[9]}}</td>
+                    <td class="hide-on-small-and-down table {{work[3]}}">{{work[4]}}</td>
+                    <td class="table hide-on-small-and-down {{work[3]}}">{{work[3]}}</td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="card-action" style="text-align:right; padding:15px;">
+            <h5 class="{{class['nopluslettergrade']}}" style="margin-top:0px; margin-bottom:0px;">{{class['avggrade']}}</h5>
+        </div>
+    </div>
+    <div class="ad" ng-if="ad !== null" url="{{ad['TargetUrl'] ? ad['TargetUrl']:null}}" identity="{{ad['Id'] ? ad['Id']:null}}"
+    pageId="{{ad['PageId'] ? ad['PageId']:null}}" ng-bind-html="adHTML" onclick="adClicked();">
+
+    </div>
+    
+    <div class="card animated fadeInUp anim">
+        <div class="indigo lighten-1 card-content" style="border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;">
+            <span class="card-title white-text" style="line-height: normal; font-size: 18px;">Averages</span>
+        </div>
+        <div class="card-content">
+            <table class="responsive-table">
+                <thead>
+                    <tr>
+                        <th ng-repeat="title in class['averages']['titles']">{{title}}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td ng-repeat="avg in class['averages']['itms']">{{avg}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+</div>

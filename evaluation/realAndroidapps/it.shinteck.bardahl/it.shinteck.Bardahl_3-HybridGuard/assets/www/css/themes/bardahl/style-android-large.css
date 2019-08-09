@@ -1,0 +1,46 @@
+/* 
+    Document   : style-android-large
+    Created on : 5-ott-2012, 17.05.11
+    Author     : shinmac02
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.ui-content {
+     font-size: 16pt !important;
+ }
+ 
+.myInput{
+     height: 30px;
+     width: 70%;
+     font-size: 10pt !important;
+ }
+ 
+ .myLabel{
+    text-align: right;
+    font-size: 15pt !important;
+}
+
+input.ui-input-text, textarea.ui-input-text {
+     margin: 0px !important;
+
+ }
+ 
+
+ /*PRODOTTO: DETTAGLI*/
+.prodotto-img-div{
+    height:300px;
+    margin-top: 10px;
+}
+
+/*
+.prodotto-img{
+    height:280px;
+    width:auto;    
+}*/
+
+
+.prodotto-caratt{
+    height:300px;
+    font-size: 14pt !important;
+}

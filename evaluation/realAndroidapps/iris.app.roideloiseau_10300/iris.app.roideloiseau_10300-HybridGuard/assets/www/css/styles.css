@@ -1,0 +1,303 @@
+*{padding: 0; margin: 0}
+#carte_all_points_infos_marker {height: 100% !important; width: 100% !important; position: static !important; background: none !important;}
+#liste_carte_points_infos{height: 100% !important; width: 100% !important; position: static !important; background: none !important;}
+#carte_all_points_infos #main {height: 100%}
+#CartePointsInfos #main {height: 100%}
+.page-map, 
+.ui-content, 
+#carte_all_points_infos,
+#carte_all_restaurants,
+#carte_all_camps,
+#carte_all_auberges,
+#carte_all_tavernes,
+#carte_all_lieux_spe,
+#carte_all_stationnements,
+#carte_all_points_infos { width: 100%; height: 100%; padding: 0; }
+
+
+/* FONTS */
+	@font-face {
+	    font-family: 'kingthings_petrockregular';
+	    src: url('../font/Kingthings_Petrock-webfont.eot');
+	    src: url('../font/Kingthings_Petrock-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../font/Kingthings_Petrock-webfont.woff') format('woff'),
+	         url('../font/Kingthings_Petrock-webfont.ttf') format('truetype'),
+	         url('../font/Kingthings_Petrock-webfont.svg#kingthings_petrockregular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+/* FONTS */
+
+/* GENERAL */
+html {margin: auto; font-family: Tahoma !important; }
+body {   width: 100%; font-size: 11px; font-weight:bold; padding:0; margin: 0; color:#333333;  line-height:175%; font-family: Georgia, serif;}
+
+body .content { background:  url(../images/bg-roi-oiseau.jpg) repeat 0 0 #FFF; width: 100%; box-shadow: inset 0 0 100px #563F39;}
+
+* { outline: none;} 
+.clear { clear: both;}
+.ui-page { background: transparent; -webkit-backface-visibility: hidden;}
+.ui-content { padding: 0 !important; overflow-x: visible !important; overflow-y: visible !important; }
+.ui-controlgroup { margin: 0; padding: 0;}
+.spacer { clear: both;}
+
+
+/******** page d'accueil ************/
+#index{overflow-x: hidden;}
+#index .page_daccueil {margin: 50px 0 40px -5px; }
+#container.page_daccueil .ui-listview li { float: left; width: 33%; height: 120px; overflow: hidden;}
+#container.page_daccueil .ui-listview li.points-infos { float: left; width: 100%; height: 120px; }
+#container.page_daccueil .ui-listview li a { color: #46240f; text-transform: uppercase; text-decoration: none; font-size: 9px; text-align: center; width: 100px; margin: auto; height: 100px; line-height: 180px;}
+#container.page_daccueil .ui-listview li.points-infos a {width: 93%}
+#container.page_daccueil .ui-listview li a.picto-resto { background: url(../images/picto-retaurateurs.png) no-repeat center 0; }
+#container.page_daccueil .ui-listview li a.picto-camps { background: url(../images/picto-camps-de-toile.png) no-repeat center 0; }
+#container.page_daccueil .ui-listview li a.picto-tavernes { background: url(../images/picto-tavernes.png) no-repeat center 0; }
+#container.page_daccueil .ui-listview li a.picto-auberges { background: url(../images/picto-auberges.png) no-repeat center 0; }
+#container.page_daccueil .ui-listview li a.picto-scenes { background: url(../images/picto-lieux-scientifiques.png) no-repeat center 0; }
+#container.page_daccueil .ui-listview li a.picto-stationnements { background: url(../images/picto-stationnements.png) no-repeat center 0; text-indent: -10px;}
+#container.page_daccueil .ui-listview li a.picto-infos { background: url(../images/picto-infos.png) no-repeat center 0; }
+
+
+/******** page_content ************/
+.page_liste_content .btn_retour { display: none;}
+#container.page_content { margin: 0;}
+.page_liste_content #header-home { overflow:visible; height: 60px; z-index:80; border-bottom: 1px #a8938c dashed; background: url('../images/background-header.jpg') no-repeat 0 0 ; position: fixed; width: 100%; background-size: 100%; }
+.page_liste_content span.btn-header {  right: 0; } 
+
+.page_liste_content span.btn-header a.menu { background: url(../images/picto.png) no-repeat -38px 1px; top: 10px; position: absolute; width: 38px; height: 38px; right: 50px; color: transparent; z-index: 2;} 
+.page_liste_content span.btn-header a.carte { background: url(../images/picto.png) no-repeat 0 0; top: 10px; position: absolute; right: 5px; width: 38px; height: 37px; color: transparent;} 
+.page_liste_content span.btn-header a.retour { border-radius:5px; background: url('../images/btn-retour-blanc.png') no-repeat 8px center #ed583a; top: 10px; position: absolute; right: 5px; width: 38px; height: 38px; color: transparent;} 
+
+#map span.btn-header a.actif { background: url(../images/picto.png) no-repeat 0 -37px; top: 10px; position: absolute; right: 5px; width: 38px; height: 37px; color: transparent;}
+#map span.btn-header a.menu { background: url(../images/picto.png) no-repeat -38px -37px; top: 10px; position: absolute; right: 50px; width: 38px; height: 37px; color: transparent;}
+
+#container.page_content .ui-listview { margin: 80px 10px 50px; }
+#container.page_content .ui-listview a  {text-decoration: none;}
+#container.page_content .ui-listview li{ background: url(../images/fleche-suivante-marron.png) no-repeat 98% center; text-align: left; padding: 10px 10px; border-bottom: 1px #a8938c dashed;}
+	#container.page_content .ui-listview li:active,
+	#container.page_content .ui-listview li:hover{ background: url(../images/fleche-suivante-orange.png) no-repeat 98% center;}
+#container.page_content .ui-listview  h3 { color: #46240f; width: 85%;}
+#container.page_content .ui-listview  p { color: #46240f; width: 85%; font-family: tahoma, arial, sans-serif; font-weight: normal;}
+
+
+#map #header-home h1,
+.header h1 {font-family: 'kingthings_petrockregular', georgia, sans-serif; font-weight: normal; font-size: 25px; color: #46240f; z-index: 2;
+text-align: left; padding: 25px 0 0 75px; margin: 0; height: 70px; font-weight: normal;}
+#map #header-home { padding: 0; margin: 0;}
+
+	.header-resto h1 {background: url(../images/picto-retaurateurs.png) no-repeat 0 0;}
+	.header-camps h1 {background: url(../images/picto-camps-de-toile.png) no-repeat 0 0;}
+	.header-tavernes h1 {background: url(../images/picto-tavernes.png) no-repeat 0 0;}
+	.header-auberges h1 {background: url(../images/picto-auberges.png) no-repeat 0 0;}
+	.header-lieux-spe h1 {background: url(../images/picto-lieux-scientifiques.png) no-repeat 0 0;}
+	.header-stationnements h1 {background: url(../images/picto-stationnements.png) no-repeat 0 0;}
+	.header-points-infos h1 {background: url(../images/picto-infos.png) no-repeat 0 0;}
+
+.ui-header { height: 50px; width: 100%; margin: 0 0 5px 0; padding: 5px 0 0 0; border-bottom: 1px #a8938c dashed; }
+.header-news { background: url('../images/picto-header-actu.png') no-repeat center 0;}
+.header-infos { background: url('../images/picto-header-infos.png') no-repeat center 0;}
+.header-reporter { background: url('../images/picto-header-reporter.png') no-repeat center 0;}
+.header-goodies { background: url('../images/picto-header-goodies.png') no-repeat center 0;}
+
+#liste_camps {}
+#liste_camps a { clear: both;}
+#liste_camps .icon { display: block; float: left; margin: 0 10px 0 0; background: url(../images/drapeaux_camps.png) no-repeat 0 -607px; width: 30px; height: 50px;}
+	#liste_camps .icon_1 { background-position: 0 5px;}
+	#liste_camps .icon_2 { background-position: 0 -60px;}
+	#liste_camps .icon_3 { background-position: 0 -129px;}
+	#liste_camps .icon_4 { background-position: 0 -197px;}
+	#liste_camps .icon_5 { background-position: 0 -265px;} 
+	#liste_camps .icon_6 { background-position: 0 -334px;} 
+	#liste_camps .icon_7 { background-position: 0 -402px;} 
+	#liste_camps .icon_8 { background-position: 0 -469px;}
+	#liste_camps .icon_9 { background-position: 0 -539px;}
+	#liste_camps .icon_10 { background-position: 0 -607px;} 
+	#liste_camps .icon_0 { background-position: 0 -607px;} /* camps générique */
+	#liste_camps .icon_12 { display: block; float: left; margin: 0 10px 0 0; background: url(../images/animation.png) no-repeat 0 0; width: 30px; height: 50px; } /* camps générique */
+
+#goodies #main ul{width: 100%;}
+#goodies #main ul li a {color: #46240f; text-decoration: none; font-size: 15px;}
+#goodies #main ul li{ background: url(../images/fleche-suivante-marron.png) no-repeat 98% center; text-align: left; padding: 10px 10px; height: 50px; border-bottom: 1px #a8938c dashed;}
+#goodies #main ul li:hover{ background: url(../images/fleche-suivante-orange.png) no-repeat 98% center; text-align: left; padding: 10px 10px; height: 50px; border-bottom: 1px #a8938c dashed;}
+
+
+/** affichage carte ***/
+#main #container .carte {  z-index: 1;}
+.ui-header.ui-header-carte { height: 45px;}
+#container #liste_carte .carte_goo { margin: 0; width: 320px; height: 330px; position: static !important; }
+#container #carte_all_resto_marker { margin: 0; width: 320px; height: 330px; position: static !important; }
+#container #liste_carte_resto .carte_goo { width: 320px; height: 330px; }
+#container #liste_carte_camps .carte_goo { width: 320px; height: 330px; }
+#container #liste_carte_tavernes .carte_goo { width: 320px; height: 330px; }
+#container #liste_carte_auberges .carte_goo { width: 320px; height: 330px; }
+#container #liste_carte_lieux_spe .carte_goo { width: 320px; height: 330px; }
+#container #liste_carte_stationnements .carte_goo { width: 320px; height: 330px; }
+#container #liste_carte_points_infos .carte_goo { width: 320px; height: 330px; }
+
+#container #Gcarte .infoBulle { display: none;}
+.infoBulle { background: #563f39}
+#panel {display: none;}
+
+.info { background: none repeat scroll 0 0 #563F39;  bottom: 80px;
+color: #FFFFFF; line-height: 17px; padding: 10px 25px; border-radius: 7px 0 0 7px; position: absolute; right: 0; z-index: 50; }
+.info #name {color: #ED583A; font-size: 17px; letter-spacing: 0.5px; padding-bottom: 5px; line-height: 20px;}
+
+#container #carte_toutes_auberges { width: 320px; height: 330px; margin: 0;}
+#container #legende_carte { width: 320px; margin: 0; position: absolute; top: 335px; left: 0; height: 50px;}
+	#container #legende_carte .je_suis_une { background: rgba(0,0,0,0.8); position: absolute; bottom: 0; left: 0; width: 100%; display: none;}
+	#container #legende_carte .je_suis_une img { float: right; margin: -15px 5px 5px 5px;}
+	#container #legende_carte .je_suis_une h3 { color: #FF6A00; font-size: 14px;}
+	#container #legende_carte .je_suis_une p { color: #FFF; font-size: 12px;}
+#container .infoBox { background: url('../images/pointer.png') no-repeat 50% 100% transparent;}
+#container .infoBulle { padding: 15px; width: 220px; text-align: center; margin-bottom: 5px; }
+#container .infoBulle h3 {color: #FFFFFF; font-size: 14px;}
+#container .infoBulle p {color: #957d75; font-size: 13px;}
+
+/******** page news  ***************/
+#container.page_news .ui-listview { margin: 0 0 100px; float: left; width: 100%; }
+#container.page_news .ui-listview li{ background: url(../images/fleche-suivante-marron.png) no-repeat 98% center; padding: 20px 0 15px; border-bottom: 1px dashed #a8938c; float: left; width: 100%}
+#container.page_news .ui-listview li a {text-decoration: none; }
+#container.page_news .ui-listview li:hover{ background: url(../images/fleche-suivante-orange.png) no-repeat 98% center; padding: 20px 0 15px; border-bottom: 1px dashed #a8938c;}
+#container.page_news .ui-listview .img { width: 100px; margin: 0 10px 0 5px; float: left; text-align:center; min-height: 20px;}
+	#container.page_news .ui-listview .img img { max-height: 100px; max-width: 100px; height: auto; }
+#container.page_news .ui-listview .bloc_texte  { float: left; width: 50%;}
+	#container.page_news .ui-listview .bloc_texte h3 { margin: 0 0 10px 0; font-size: 14px; line-height: 16px; text-align: left;color: #46240f;}
+	#container.page_news .ui-listview .bloc_texte h3 a{ white-space: pre-wrap; text-decoration: none;}
+	#container.page_news .ui-listview .bloc_texte  p.extrait {font-family: arial, Georgia, sans-serif; color: #342522; white-space: pre-wrap; font-size: 11px; line-height: 15px;}
+
+
+		
+/******* page_une_actu ***************/	
+.header-news-detail {height: 50px; width: 100%;  background: url('../images/picto-header-detail-actu.png') no-repeat 10px 0; margin-top: 10px; border-bottom: 1px #a8938c dashed; }
+.header-news-detail span.btn-retour { float: right; margin-right: 10px;text-indent: -999px;}
+.header-news-detail span.btn-retour a { width: 40px; height: 40px;display: block; border-radius:5px; background: url('../images/btn-retour-blanc.png') no-repeat 8px center #ed583a; }
+#container.page_news  {  }
+	#DetailActu #detail{margin: 0 0 100px 0;}
+	#container.page_news #detail  h3 { margin: 5px 0 10px 0; font-size: 18px; color: #342522; text-align: center;}
+	#container.page_news .img { text-align: center; }
+	#container.page_news .img img { text-align: center; max-width: 100% }
+	#container.page_news #detail  p.extrait { color: #342522; font-size: 12px; font-family: arial, sans-serif; margin: 0 10px;}
+
+/* page infos pratique */
+#container.page_infos #bloc_infos { margin: 0 0 100px; float: left; width: 100% }
+#container.page_infos #bloc_infos li{ background: url(../images/fleche-suivante-marron.png) no-repeat 98% center; padding: 20px 0 15px; border-bottom: 1px dashed #a8938c; float: left; width: 100%}
+#container.page_infos #bloc_infos li a {text-decoration: none; }
+#container.page_infos #bloc_infos li:hover{ background: url(../images/fleche-suivante-orange.png) no-repeat 98% center; padding: 20px 0 15px; border-bottom: 1px dashed #a8938c;}
+	#container.page_infos #bloc_infos a h3 { margin: 0 0 10px 0; font-size: 14px; line-height: 16px; text-align: left;color: #46240f;}
+	#container.page_infos #bloc_infos a h3 { white-space: pre-wrap; text-decoration: none; padding-left: 10px;}
+#container.page_infos #numero272 {display: none;}
+/* page infos pratique */
+
+/* DETAIL INFOS PRATIQUE */
+.header-infos-detail {height: 50px; width: 100%;  background: url('../images/picto-header-detail-infos.png') no-repeat 10px 0; margin-top: 10px; border-bottom: 1px #a8938c dashed; }
+.header-infos-detail span.btn-retour { float: right; margin-right: 10px;text-indent: -999px;}
+.header-infos-detail span.btn-retour a { width: 40px; height: 40px;display: block; border-radius:5px; background: url('../images/btn-retour-blanc.png') no-repeat center #ed583a; }
+
+#detailInfos { margin: 0 0 100px;}	
+#detailInfos h3 { margin: 5px 0 10px 0; font-size: 18px; color: #342522; text-align: center;}	
+#detailInfos .img { text-align: center; }
+#detailInfos .img img { text-align: center; max-width: 100% }
+#detailInfos p.extrait { color: #342522; font-size: 12px; font-family: arial, sans-serif; margin: 0 10px;}
+/* DETAIL INFOS PRATIQUE */
+
+
+/******** fond_ecrans ***************/
+#container.page_fond_ecrans {margin-bottom: 60px;}
+#container.page_fond_ecrans .un_fond { padding: 15px; border-bottom: 1px #a8938c dashed; margin: 5px 10px;}
+#container.page_fond_ecrans .un_fond .miniature { float: left; width: 100px; margin: 0 5px 0 0;}
+#container.page_fond_ecrans .un_fond .bloc_texte { float: inherit; text-align: left; margin-left: 10px;}
+#container.page_fond_ecrans .un_fond a {text-decoration: none;}
+#container.page_fond_ecrans .un_fond a .bloc_texte  h3 { margin: 0 0 10px 0; font-size: 15px; color: #FF6A00; }
+#container.page_fond_ecrans .un_fond a .bloc_texte  h3  { color: #FF6A00; }
+#container.page_fond_ecrans .un_fond a .bloc_texte  p { color: #46240f; margin: 0; }
+#container.page_fond_ecrans .un_fond .bloc_texte img { }
+.image_full {margin: 10px 10px 40px; text-align: center}
+.image_full img {max-width: 100%}
+
+
+
+/**************** REPOTER **************************/
+#reporter #container { margin: 10px 0 100px 0;}
+#reporter #container p {margin: 0 10px; font-size: 12px;}
+#reporter #container p.step { clear: both; border-bottom: 1px dashed #A8938C; padding: 5px; line-height: 60px;}
+#reporter #container p.step .icon { display: block; float: left; margin: 10px 10px 0 0; width: 31px; height: 35px;}
+	#reporter #container p.step_1 .icon { background: url(../images/blason/1.png) no-repeat 0 0;}
+	#reporter #container p.step_2 .icon { background: url(../images/blason/2.png) no-repeat 0 0;}
+	#reporter #container p.step_3 .icon { background: url(../images/blason/3.png) no-repeat 0 0;}
+#reporter #container p.step_1  img { float: right; margin: 0 0 0 10px;}
+#reporter #container p.step_2 img,
+#reporter #container p.step_3 img { float: right; margin: 5px 0 0 10px;}
+
+#reporter_suite #container { margin: 10px 0 100px 0;}
+#reporter_suite #container p {margin: 0 10px; font-size: 12px;}
+#reporter_suite #container .step { clear: both; border-bottom: 1px dashed #A8938C; padding: 5px; line-height: 60px;}
+#reporter_suite #container .img { margin: 10px auto; width: 90%; max-width: 600px; border: 3px solid #563f39;}
+#reporter_suite #container .img img { background: #FFF; width: 100%; height: auto;}
+#reporter_suite #container textarea { margin: 10px auto; width: 90%; background: #FFF; border-radius: 5px; border: none;}
+
+.butt_on { display: block; width: 200px; margin: 10px auto; padding: 8px 15px; text-decoration: none; border-radius: 3px;
+background: #ed583a; color: #FFF; text-align: center; font-weight: bold; font-size: 15px;}
+	.butt_on:active,
+	.butt_on:hover { background: #BB3D23;}
+
+
+/******** page_cartes_postales ***************/
+#container.page_cartes_postales {margin-bottom: 60px;}
+#container.page_cartes_postales .une_carte { margin: 5px 10px; padding: 5px 0; border-bottom: 1px #a8938c dashed;}
+#container.page_cartes_postales .une_carte .miniature { width: 100%; height: auto;}
+
+/******** footer ***************/
+
+#footer {width:100%; padding: 0; margin: 0; position: fixed; bottom: 0; z-index: 1; font-size: 9px; }
+#footer li {list-style-type: none;}	
+
+#footer li a { height: 50px;color: rgba(255,255,255,0.7); text-transform:uppercase; line-height: 80px; text-decoration: none; text-align: center; width: 20%; background-color: #563f39; display: block; float: left;}
+	#footer li a.ui-btn-active,
+	#footer li a:active,
+	#footer li a:hover { background: #342522; opacity: 1; }
+
+#footer li.pratique a { background: url('../images/picto-actu.png') no-repeat center 2px #563f39;  }
+	#footer li.pratique a.ui-btn-active,
+	#footer li.pratique a:active,
+	#footer li.pratique a:hover { background-position: center -90px; background-color: #342522; }
+
+#footer li.news a { background: url('../images/picto-info.png') no-repeat center 3px #563f39;  }
+	#footer li.news a.ui-btn-active,
+	#footer li.news a:active,
+	#footer li.news a:hover { background-position: center -87px; background-color: #342522;  }
+
+#footer li.index a { background: #ed583a;  border-radius: 5px 5px 0 0; padding-bottom: 5px; margin-top: -5px; position: relative;}
+#footer li.index a span.roi { position: absolute; top: -10px; left: 50%; margin-left: -26px;
+background: url(../images/logo-roi-de-loiseau.png) no-repeat center 2px; width: 53px; height: 65px; }
+	#footer li.index a.ui-btn-active,
+	#footer li.index a:active,
+	#footer li.index a:hover { background: #BB3D23; }
+
+#footer li.reporter a { background: url('../images/picto-reporter.png') no-repeat center 2px #563f39;  }
+	#footer li.reporter a.ui-btn-active,
+	#footer li.reporter a:active,
+	#footer li.reporter a:hover { background-position: center -88px; background-color: #342522; }
+
+#footer li.goodies a {background: url('../images/picto-goodies.png') no-repeat center 3px #563f39; }
+	#footer li.goodies a.ui-btn-active,
+	#footer li.goodies a:active,
+	#footer li.goodies a:hover { background-position: center -89px; background-color: #342522;}
+
+
+
+#carte_toutes_resto {width: 450px;height: 450px;}
+#liste_carte_resto{height: 600px; min-height: 600px; width:200px; }
+#carte_man { width: 100% !important; margin-top: 60px; }
+
+
+/* Loader */
+.ui-loader-default {   background: #E8D5AD;    height: 100%;   left: 0;   margin-left: 0;   margin-top: 0;
+	opacity: 1;  position: fixed;  top: 0;  width: 100%;    opacity: 0.8;}
+.ui-loader {  z-index: 9999999; }
+.ui-loader,
+.ui-body-a,
+.ui-corner-all {  top: 0 !important; }
+.ui-loader .ui-icon { top: 50%;position: absolute;
+left: 50%; background-size: 46px 46px; background: url(../images/ajax-loader.gif) no-repeat; display: block;  }
+.ui-loader .spin{display: none;}
+.ui-loader h1{display: none;}

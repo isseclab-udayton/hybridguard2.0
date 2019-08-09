@@ -1,0 +1,56 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable-xhdpi/icon.png
+SHA1-Digest: Wzm/N/xi5kE4ky4LLSun2RCiHzM=
+
+Name: assets/www/plugins/org.apache.cordova.dialogs/www/notification.j
+ s
+SHA1-Digest: nj+fpDCJHGl0WGK2YbKLtqGK9jk=
+
+Name: res/xml/config.xml
+SHA1-Digest: FLt8KFXD5JuQdVWqmONc84KokPc=
+
+Name: assets/www/js/auth.js
+SHA1-Digest: U15wWkF4OJC6MLELuGp0QOKJE2Y=
+
+Name: assets/_where-is-www.txt
+SHA1-Digest: avAF2z5NXxA7dhGqngRyQ0ETAG0=
+
+Name: resources.arsc
+SHA1-Digest: OFbHI+pf+Xt/JjiZ7fnU/cod34w=
+
+Name: classes.dex
+SHA1-Digest: YlORKNY7rtkO6WPKW4BQxbBYlXM=
+
+Name: assets/www/cordova_plugins.js
+SHA1-Digest: l0Be/Zmyz5A5Q1QYWXWDyS5EAfw=
+
+Name: assets/www/cordova.js
+SHA1-Digest: X5DudgRUvNwbqLb72KacFmKJU/E=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: NRyguidwMrmE1Gl8X7owTWGfG44=
+
+Name: AndroidManifest.xml
+SHA1-Digest: GVJVRgYbd1nFQpJmxDW7owAMyJ4=
+
+Name: res/drawable/icon.png
+SHA1-Digest: Wzm/N/xi5kE4ky4LLSun2RCiHzM=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: xtbBg+SsveoxS4y4kKZJO1h/+9c=
+
+Name: assets/www/plugins/org.apache.cordova.vibration/www/vibration.js
+SHA1-Digest: JSp3qTlvotVQ81ViGEFfGqV6MSE=
+
+Name: assets/www/plugins/org.apache.cordova.dialogs/www/android/notifi
+ cation.js
+SHA1-Digest: pU0mCtX0A7CKMJtRFGKDkRZmO/Q=
+
+Name: assets/www/index.html
+SHA1-Digest: vV7tMk1OSF+cgFH8N4VhndWJHNI=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: ZoaJ/my7Q19Jjgl1bMpvL6h9CNk=
+

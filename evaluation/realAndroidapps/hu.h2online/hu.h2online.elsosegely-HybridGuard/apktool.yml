@@ -1,0 +1,42 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: hu.h2online.elsosegely_10006.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- assets/www/res/icon/windows/Square150x150Logo.scale-100.png
+- assets/www/res/icon/windows/Square150x150Logo.scale-240.png
+- assets/www/res/icon/windows/Square30x30Logo.scale-100.png
+- assets/www/res/icon/windows/Square310x310Logo.scale-100.png
+- assets/www/res/icon/windows/Square44x44Logo.scale-100.png
+- assets/www/res/icon/windows/Square44x44Logo.scale-240.png
+- assets/www/res/icon/windows/Square70x70Logo.scale-100.png
+- assets/www/res/icon/windows/Square71x71Logo.scale-100.png
+- assets/www/res/icon/windows/Square71x71Logo.scale-240.png
+- assets/www/res/icon/windows/StoreLogo.scale-100.png
+- assets/www/res/icon/windows/StoreLogo.scale-240.png
+- assets/www/res/icon/windows/Wide310x150Logo.scale-100.png
+- assets/www/res/icon/windows/Wide310x150Logo.scale-240.png
+- assets/www/res/screen/windows/SplashScreen.scale-100.png
+- assets/www/res/screen/windows/SplashScreenPhone.scale-240.png
+- jpg
+- mp3
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '24'
+sharedLibrary: false
+sparseResources: true
+unknownFiles:
+  manifest: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '10006'
+  versionName: 2.1.2

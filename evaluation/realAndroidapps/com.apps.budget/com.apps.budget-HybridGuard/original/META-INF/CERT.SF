@@ -1,0 +1,304 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: MAC+f2B9/UZTlI/F9HXb3jjTO+A=
+
+Name: assets/www/img/ic_back.png
+SHA1-Digest: UJ8mDeTUp6RfSX3ff4QXAvob66s=
+
+Name: res/xml/config.xml
+SHA1-Digest: h/NkUJs92eHg3NG8Dg0LhUl2iVk=
+
+Name: assets/www/img/bt_logo.png
+SHA1-Digest: P26hR3wRaK9W3C5MkijNMlOXzDo=
+
+Name: assets/www/img/ic_tab_add_expense_disabled.png
+SHA1-Digest: R5jRS/9lb2Eh6tKbUpqJN9mUd/w=
+
+Name: assets/www/res/screen/android/screen-xhdpi-landscape.png
+SHA1-Digest: xbpt0vjA1S9FMNMUiGnwcjvXQhA=
+
+Name: assets/www/font/SourceSansPro-SemiboldIt.otf
+SHA1-Digest: MqeZ5lF2KIGwbGjkl8xg+mG29yg=
+
+Name: assets/www/js/jquery.min.js
+SHA1-Digest: 2Z05/Gigc3YJJTPbJoYcMUqYGYg=
+
+Name: assets/www/res/screen/android/screen-ldpi-portrait.png
+SHA1-Digest: cA04fOXgE3uWV8yg1j8loR5tElI=
+
+Name: assets/www/font/SourceSansPro-Semibold.otf
+SHA1-Digest: O2w0t0Sv0dROfS57WHTYmxs/oS4=
+
+Name: assets/www/res/screen/android/screen-xhdpi-portrait.png
+SHA1-Digest: MUmFSB9/huab4p1HVL4Hvs+PgrE=
+
+Name: assets/www/spec/lib/jasmine-1.2.0/MIT.LICENSE
+SHA1-Digest: 9UtwJzjlc8pdvgqBFzMN60y27kY=
+
+Name: assets/www/img/ic_setup.png
+SHA1-Digest: 3Y2EH6bhB1s/rtqr+t64MPGIuqU=
+
+Name: assets/www/font/SourceSansPro-BlackIt.otf
+SHA1-Digest: ZYGDV7AMhqQAXoDekXy5rPaQsjE=
+
+Name: assets/www/css/main.css
+SHA1-Digest: soz+PS2jKZj1eguH7LXy5voTfpE=
+
+Name: assets/www/res/screen/android/screen-ldpi-landscape.png
+SHA1-Digest: Txk+u4v5ue/E5oEAHrDC2Cdgbrg=
+
+Name: assets/www/plugins/jqplot.dateAxisRenderer.min.js
+SHA1-Digest: bbeQys/HDN3j3OOkr/OvzprXp04=
+
+Name: assets/www/plugins/jqplot.pieRenderer.min.js
+SHA1-Digest: hSeSXpDCHhlwXLOBFv+8dQ+4Tu8=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: 0oRDYl4wUOm0bMq8eVLJG09zkTg=
+
+Name: assets/www/css/index.css
+SHA1-Digest: C9ltlZFyCnLpYdbgPZwBUBAPPsY=
+
+Name: assets/www/img/ic_tab_list_disabled.png
+SHA1-Digest: dup0rJe+NpJQSfjoTtbI4scmQ18=
+
+Name: resources.arsc
+SHA1-Digest: NwB+l9Fu3AA0cny8Un5+qzWiLgs=
+
+Name: assets/www/font/LICENSE.txt
+SHA1-Digest: 4Zh+/fGfvp02spnytJabkPlK+FI=
+
+Name: AndroidManifest.xml
+SHA1-Digest: VIXY705uhALYWsSdJkV5J7ySzck=
+
+Name: assets/www/img/logo.png
+SHA1-Digest: YK5vVHXnrWkBUKYiYlRwAZZ/zWU=
+
+Name: assets/www/res/screen/android/screen-mdpi-landscape.png
+SHA1-Digest: +S0pfAFnuxXZEc8on/vgrRSt0r4=
+
+Name: assets/www/img/ic_tab_line_graph.png
+SHA1-Digest: CZa2nyIl+SlWr5+uac+x46abKbY=
+
+Name: assets/www/font/SourceSansPro-Light.otf
+SHA1-Digest: Utgf0gllVAvL6jxeZK45B2cx/i0=
+
+Name: res/drawable-hdpi/bt_icon.png
+SHA1-Digest: iNnA68gtCY747WBUvf5HMoPaKdE=
+
+Name: assets/www/cordova-2.7.0.js
+SHA1-Digest: c5llT775Txxp5n0TRgO9vK4nUwk=
+
+Name: assets/www/font/SourceSansPro-BoldIt.otf
+SHA1-Digest: KJXJAhEW/jP9o1RhFMrxQImmVCM=
+
+Name: assets/www/img/cordova.png
+SHA1-Digest: jAEKf4GFbxk/JNzHod2ToZ/JHlY=
+
+Name: assets/www/res/screen/android/screen-mdpi-portrait.png
+SHA1-Digest: JkoDsPrVJEbQnp838r9kpEHZ2Gk=
+
+Name: classes.dex
+SHA1-Digest: Z0xLnZBAl6Lnttyy4Qerbb9eVVU=
+
+Name: assets/www/res/icon/android/icon-48-mdpi.png
+SHA1-Digest: 8VrFc5clxPBLJz1XmFznPHzbP50=
+
+Name: res/drawable-mdpi/btsplash.9.png
+SHA1-Digest: x+IshcDjiGEsU5sQ5BbywqkPTF0=
+
+Name: assets/www/font/SourceSansPro-LightIt.otf
+SHA1-Digest: Noy46elhSe6LOrSI6VYkMEUc/LE=
+
+Name: res/drawable/icon.png
+SHA1-Digest: uvuielAB8iUnMLObHEXVenPOa+o=
+
+Name: assets/www/main.js
+SHA1-Digest: gsVsGTEk8q2f117N8GTZEmcg7ak=
+
+Name: assets/www/spec/lib/jasmine-1.2.0/jasmine.css
+SHA1-Digest: zhwhWGNeG6WRGJWq0dKoY2usHKc=
+
+Name: assets/www/img/ic_tab_add_expense.png
+SHA1-Digest: eIEJgeWd79NEf9g10ACFKWU4gSc=
+
+Name: assets/www/font/SourceCodePro-Regular.otf
+SHA1-Digest: Ibn3ueUqlAprKd7b9ZAE2WXiyIM=
+
+Name: assets/www/res/icon/android/icon-72-hdpi.png
+SHA1-Digest: IreFKrWG8ETBrgFt6g1079Gdinc=
+
+Name: assets/www/plugins/jqplot.canvasTextRenderer.min.js
+SHA1-Digest: gkIYHhvoW+k3NYT+IhvNIOyRjD0=
+
+Name: assets/www/res/screen/android/screen-hdpi-landscape.png
+SHA1-Digest: MMKALm7H/U8IRRZ/T5Yq0Bn12iA=
+
+Name: assets/www/font/SourceSansPro-Bold.otf
+SHA1-Digest: ueIy6l9wF0u3T+r4YjmiYW9GFbw=
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: HJWVdRCXqdgpLGGDT6Uzb5hkqQE=
+
+Name: assets/www/css/topcoat-mobile-dark.css
+SHA1-Digest: hg57vka9Ie+E+m91RrPhoChDhzI=
+
+Name: assets/www/js/main.js
+SHA1-Digest: rjkDWv6abod07pTHEQ1aaYP4il8=
+
+Name: assets/www/plugins/jqplot.canvasAxisLabelRenderer.min.js
+SHA1-Digest: bW2Q43sY2Q5nAHcur+QYabNGJcY=
+
+Name: res/drawable-hdpi/splash.png
+SHA1-Digest: 9X5SzlkQMRNzyaRJyuAfuDZ7L+4=
+
+Name: assets/www/master.css
+SHA1-Digest: xJBmcFSH7wxPcFFhUwr4Bf70lKs=
+
+Name: assets/www/font/SourceSansPro-Black.otf
+SHA1-Digest: 2P1R3S+RsdlWnkUu7aDFV37gqKQ=
+
+Name: assets/www/img/ic_delete.png
+SHA1-Digest: OyhdQI4cAVcTSu2v9iRHgpddPao=
+
+Name: assets/www/font/SourceSansPro-ExtraLightIt.otf
+SHA1-Digest: hcHfBi1GO0Ky9yiKIUlLpOTftc0=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: pgEItzOCOvcy4M22wawzdn8AvEc=
+
+Name: assets/www/js/datePicker.js
+SHA1-Digest: aN32/4+h4DlIYkuug1N0JBK0LEY=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: I+SEqsBnwMDqxwQwabdUcjyZR9o=
+
+Name: assets/www/font/SourceSansPro-Regular.otf
+SHA1-Digest: TbI5CPsmY4UrfYXZEdFQqcUvva8=
+
+Name: assets/www/spec.html
+SHA1-Digest: XjimEY1oGq4gS6B3Kf9NnjSCPMg=
+
+Name: res/drawable-mdpi/bt_icon.png
+SHA1-Digest: yTEcM5ek6PklJrfuZ82N9pwlXa0=
+
+Name: res/drawable-xhdpi/splash.png
+SHA1-Digest: UBivWXGLppv5EXxQHESrsCY8OZg=
+
+Name: assets/www/img/bg_dark.png
+SHA1-Digest: noBtxWotcABOLpqECoCGxYh3S8Y=
+
+Name: assets/www/font/SourceSansPro-ExtraLight.otf
+SHA1-Digest: qtbvjZ+AyACt/6k/oBldMy34nrQ=
+
+Name: assets/www/font/SourceCodePro-Semibold.otf
+SHA1-Digest: 5B+w+TMkRaIJ/IsHmyA6/HOXOmg=
+
+Name: assets/www/img/ic_tab_list.png
+SHA1-Digest: EWFK7sTO0+RwytdW/nl9gKhh1SI=
+
+Name: assets/www/res/icon/android/icon-96-xhdpi.png
+SHA1-Digest: oZdJCzyou0pjjPNVJyd7SJGl1wY=
+
+Name: assets/www/font/SourceCodePro-Light.otf
+SHA1-Digest: +5T80RrwWKrXnQzFBHqTdnDSpAE=
+
+Name: assets/www/font/SourceCodePro-Black.otf
+SHA1-Digest: oYOrFuVGbbGiKHdPq0L/ZSqE3LA=
+
+Name: assets/www/js/index.js
+SHA1-Digest: K7sTZCjtEz2j+e5f05NWI96fw/Y=
+
+Name: assets/www/plugins/jqplot.donutRenderer.min.js
+SHA1-Digest: Xg+yyaZdZyUvnaK8IyWHb3uukkM=
+
+Name: res/layout/main.xml
+SHA1-Digest: YHBl3mpZ6qS8q+vn81bm6KhuRZA=
+
+Name: res/drawable-ldpi/btsplash.9.png
+SHA1-Digest: JsCOQv7PRs4VKfRCs3fEgQMUBMo=
+
+Name: assets/www/index.html
+SHA1-Digest: T2gyYdDFWnrLOp4NrKH06E1E3tQ=
+
+Name: assets/www/spec/helper.js
+SHA1-Digest: nbFF+agtsmUFXslIGDaZq7AuAns=
+
+Name: assets/www/font/SourceCodePro-Bold.otf
+SHA1-Digest: YbaUmDTWu4amUok00zl52uIhhSw=
+
+Name: assets/www/res/icon/android/icon-36-ldpi.png
+SHA1-Digest: JOVV2oZbf7JDoGXYWC8uvvgzdcA=
+
+Name: assets/www/plugins/jqplot.canvasAxisTickRenderer.min.js
+SHA1-Digest: FwD+QP6TdtyEbBMoDb5GND5sTGA=
+
+Name: res/drawable-hdpi/btsplash.9.png
+SHA1-Digest: c+LJ6qruiMltzIWGCK4h+vqsn4I=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: 2UO3QTOJW0jA6L4fx4GV0P+TKag=
+
+Name: assets/www/spec/lib/jasmine-1.2.0/jasmine.js
+SHA1-Digest: QRiseQs5QdMnyv0qMyZIANaCmS8=
+
+Name: res/drawable-mdpi/splash.png
+SHA1-Digest: 6GY0mpR1vnhJSzhx25Za3186sk8=
+
+Name: res/drawable-xxhdpi/bt_icon.png
+SHA1-Digest: sQ8/7QDxeU24sCdZQkqInUfTkhM=
+
+Name: assets/www/img/ic_add.png
+SHA1-Digest: oorfaqCYiNK0zda1dW+7qSKK8DE=
+
+Name: assets/www/css/topcoat-mobile-dark.min.css
+SHA1-Digest: NHgp4YkIk6JDiJAuTLfpNZiA7BU=
+
+Name: res/drawable-xhdpi/bt_icon.png
+SHA1-Digest: LCRQ0gGwZKqwICA3b3OSfGRPQII=
+
+Name: assets/www/font/SourceSansPro-It.otf
+SHA1-Digest: PIn69/+NU182P9FOWsOEt0jqQfo=
+
+Name: res/drawable-xhdpi/icon.png
+SHA1-Digest: ILtevW7iM+NOQc5r/erwvaQ8m9U=
+
+Name: assets/www/css/main.less
+SHA1-Digest: EmtgRml8aU23QCoXf9AxY/XjMVg=
+
+Name: assets/www/img/ic_tab_stats.png
+SHA1-Digest: h5Xy0NDK6KZ5Ot6V/pPxN9qhaw4=
+
+Name: assets/www/spec/index.js
+SHA1-Digest: +vSkbun44KpA4jRV7UNdQKZoCJk=
+
+Name: assets/www/res/screen/android/screen-hdpi-portrait.png
+SHA1-Digest: K3mW3rHPhjgooxO3tGfPRczNPrU=
+
+Name: assets/www/css/jquery.jqplot.css
+SHA1-Digest: 6Wb2V496EGYlgyqEr3WdcMe0R9Y=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: 73TZoa+3ApYPkY+wbmr1XiAso58=
+
+Name: assets/www/font/SourceCodePro-ExtraLight.otf
+SHA1-Digest: 19b7nHvT9/oDV6NZuRplyZcbZu0=
+
+Name: res/drawable-ldpi/splash.png
+SHA1-Digest: eszdCRP8YVgt9vD7AIPoU6QJ47k=
+
+Name: res/drawable-xhdpi/btsplash.9.png
+SHA1-Digest: Qscv+CxljSae7fkNKNZet1Nzw9s=
+
+Name: assets/www/spec/lib/jasmine-1.2.0/jasmine-html.js
+SHA1-Digest: GPoclsB0/uM1m+b+oKs8DeplEfg=
+
+Name: assets/www/js/jquery.jqplot.min.js
+SHA1-Digest: HDimloyk8ezIAEYn14IkTJGC2jc=
+
+Name: assets/www/css/datePicker.css
+SHA1-Digest: TqYIm9M41DuoxEGHLizbIEMX5Fg=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: XfAbtw3zuMWQbGTvbbw/KIngfT0=
+

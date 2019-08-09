@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name = "format-detection" content = "telephone=no"/>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width;" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/weather.css" />
+        <link rel="stylesheet" type="text/css" href="css/heritagewalk.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.2.0.css" />
+        <script type="text/javascript" src="js/cordova-2.2.0.js"></script>
+        <script type="text/javascript" src="js/video.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile.js"></script>
+        <script type="text/javascript" src="js/jquery-noclickdelay.js"></script>
+        <script type="text/javascript" src="js/translation.js"></script>
+        <script type="text/javascript" src="js/filter.js"></script>
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBt8vS1a-2sfJh4eA-OPOXXrsxbmL4dU3s&sensor=false"></script>
+        <script type="text/javascript" src="coreFlashJax.js"></script>
+        <script type="text/javascript" src="js/heritagewalk.js"></script>
+		<script type="text/javascript" src="js/weather.js"></script>
+		<script type="text/javascript" src="js/language.js"></script>
+		<script type="text/javascript" src="js/data.js"></script>
+		<script type="text/javascript" src="js/photo.js"></script>
+		<script type="text/javascript" src="js/content.js"></script>
+		<script type="text/javascript" src="js/date.format.js"></script>
+		<script type="text/javascript" src="js/gmap3.js"></script>
+		<script type="text/javascript" src="js/iscroll-lite.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+        <title>Visit Bruges</title>
+    </head>
+    
+    <body onload="init()">
+
+    	<header class="hidden">
+
+			<div id="subheader">
+				<div class="toggleNavButton button">&nbsp;</div>	
+	    		<div class="backButton button">&nbsp;</div>
+	    		<div class="mapButton button hidden" id="subMapButton">
+	    			<div class="pointerbg">&nbsp;</div>
+	    			<div class="pointer">&nbsp;</div>
+	    		</div>
+	    		<h1 class="pagetitle button">Visit Bruges</h1>
+	    	</div>
+	
+			<div id="mainheader">
+	    		<div class="toggleNavButton button">&nbsp;</div>
+	    		<div class="mapButton button hidden" id="headMapButton">&nbsp;</div>
+	    		<h1>Visit Bruges</h1>
+			</div>
+		
+		</header>
+    	
+    	<!-- APP -->
+        <div class="app">
+        	
+       		
+       		<!-- SIDEBAR
+        		--------------------------------------------------------------------------------------------------
+        		-->
+        	
+        	<div class="sidebar">
+    			
+    			<div class="showfilterlink button"><span></span></div>
+    			<div class="subsidebar">
+    				
+    				<div id="wrapper_sidebar">
+						
+						<div id="scroller_sidebar">
+							
+							<div class="scrollable_sidebar">
+    				
+    							<div class="items"></div>
+    							
+    						</div>
+    						
+    					</div>
+    			
+    				</div>
+    					
+    				
+    			</div>
+    			
+    		</div>
+    		
+    		
+    		
+    		<!-- INIT
+        		--------------------------------------------------------------------------------------------------
+        		-->
+	    		
+        	<section class="init hidden">
+				
+				<div class="language">
+				
+					<ul class="languagepicker lpdown">
+						<div class="greenarrow"></div>
+						<li class="chooselanguage button" l="en"><span>English</span></li>
+						<li class="chooselanguage button" l="nl"><span>Nederlands</span></li>
+						<li class="chooselanguage button" l="fr"><span>Français</span></li>
+						<li class="chooselanguage button" l="de"><span>Deutsch</span></li>
+						<li class="chooselanguage button" l="es"><span>Espanol</span></li>
+					</ul>
+				
+				</div>
+				
+				<div class="loading hidden"><span class="loadingimg"></span><span class="loadingtext">Loading...</span></div>
+        	
+        	</section>
+        	
+        	<div class="h_subnavigation">
+				<span class="h_nav h_nav_infobutton button"><span></span></span>
+				<span class="h_nav h_nav_fotobutton button"><span></span></span>
+				<span class="h_nav h_nav_videobutton button"><span></span></span>
+				<span class="h_nav h_nav_nextbutton button"><span></span></span>
+			</div>
+        	
+        	
+        	<!-- PAGES
+        	------------------------------------------------------------------------------------------------------
+        	-->
+
+        	<div class="pages hidden">
+	    		
+	        	
+	        	<!-- HOME
+        		--------------------------------------------------------------------------------------------------
+        		-->
+        	
+	        	<section page="page_home" class="page page_home hidden">
+					
+					<div id="homescreen">
+						<div id="walkbutton" class="button bigsquare">
+							<span class="buttontitle white"></span>
+						</div>
+						<div id="foodbutton" class="button bigsquare">
+							<span class="buttontitle white"></span>
+						</div>
+						<div id="wishlistbutton" class="button bigsquare">
+							<span class="buttontitle"></span>
+						</div>
+						<div id="weatherbutton" class="button bigsquare">
+							<span class="buttontitle"></span>
+						</div>
+						<div id="mylocationsbutton" class="button littlesquare"></div>
+						<div class="littlesquare"></div>
+						<div class="littlesquare"></div>
+						<div class="littlesquare"></div>
+					</div>
+	        	
+	        	</section>
+	        	
+	        	
+	        	<!-- SUBCATEGORY
+        		--------------------------------------------------------------------------------------------------
+        		-->
+
+	        	<section page="page_sub" class="page page_sub hidden">
+
+					
+					<div id="wrapper_sub">
+						
+						<div id="scroller_sub">
+							
+							<div class="scrollable_sub">
+							
+								<ul class="list"></ul><div class="dummy">&nbsp;</div>
+							
+							</div>
+							
+						</div>
+						
+					</div>
+					
+					
+					
+					<div class="map_info"></div>
+					<div id="map"></div>
+	        	
+	        	</section>
+
+	        	
+	        	<!-- PAGE
+        		--------------------------------------------------------------------------------------------------
+        		-->
+        	
+	        	<section page="page_page" class="page page_page hidden">
+					
+					<div id="wrapper_page">
+						
+						<div id="scroller_page">
+							
+							<div class="scrollable_page">
+					
+								<div class="content">
+									
+									<p></p>
+									
+								</div>
+								
+							</div>
+							
+						</div>
+						
+					</div>
+				
+	        	</section>
+	        	
+	        	
+	        	<!-- LOCATION
+        		--------------------------------------------------------------------------------------------------
+        		-->
+        	
+	        	<section page="page_location" class="page page_location hidden">
+					
+					<div id="wrapper_location">
+						
+						<div id="scroller_location">
+							
+							<div class="scrollable_location">
+					
+								<div class="content">
+									<img class="locationimage" src="" />
+									<p class="adres"></p>
+									<p class="description"></p>
+									<h3 class="title_openinghours"><span class="sub_icon icon_openinghours"></span><span class="title"></span></h3>
+									<div class="openinghours">
+										
+									</div>
+									<h3 class="title_closed"><span></span></h3>
+									<p class="closed"></p>
+									<h3 class="title_price"><span class="sub_icon icon_price"></span><span class="title"></span></h3>
+									<p class="price"></p>
+									<h3 class="title_bcc"><span class="sub_icon icon_bcc"></span><span class="title"></span></h3>
+									<p class="bcc"></p>
+									<a class="reserveerbutton"></a>
+									<div class="socialbuttons">
+										<div class="addtowishlistbutton button"><span class="heart"></span></div>
+										<div class="sharebutton button"></div>
+										<div class="dummy">&nbsp;</div>
+									</div>
+									<div class="dummy">&nbsp;</div>
+									<br /><br /><br />
+									
+								</div>
+								
+							</div>
+						
+						</div>
+						
+					</div>
+
+					
+					<div id="locationmap"></div>
+	        	
+	        	</section>
+	        	
+	        	<!-- WISHLIST
+        		--------------------------------------------------------------------------------------------------
+        		-->
+	        	
+	        	<section page="page_wishlist" class="page page_wishlist hidden">
+	        		
+	        		<div id="wrapper_wishlist">
+						
+						<div id="scroller_wishlist">
+							
+							<div class="scrollable_wishlist">
+								
+				        		<ul class="list"></ul>
+				        		
+				        	</div>
+			        		
+			        	</div>
+			        
+			        </div>
+			        
+			        <div class="emptywishlist">
+				        			
+	        			<p class="note"></p>
+	        			
+	        		</div>
+	        		
+	        	</section>
+	        	
+	        	<!-- LUNCHDEALS
+        		--------------------------------------------------------------------------------------------------
+        		-->
+	        	
+	        	<section page="page_lunchdeals" class="page page_lunchdeals hidden">
+	        		
+	        		<div id="wrapper_lunchdeals">
+						
+						<div id="scroller_lunchdeals">
+							
+							<div class="scrollable_lunchdeals">
+
+				        		<ul class="list"></ul>
+				        	
+				        	</div>
+				        
+				        </div>
+				        
+				    </div>
+	        		
+	        	</section>
+	        	
+	        	<!-- HERITAGE WALK
+        		--------------------------------------------------------------------------------------------------
+        		-->
+	        	
+	        	<section page="page_heritagewalk" class="page page_heritagewalk hidden">
+	        		
+	        		<div id="wrapper_heritagewalk">
+						
+						<div id="scroller_heritagewalk">
+							
+							<div class="scrollable_heritagewalk">
+	        		
+				        		<!-- START -->
+				        		<div class="h_sub heritagewalkstart">
+				        			<img src="img/home_walk_2.png" class="h_bear" />
+				        			<span class="h_startbutton button"><span></span></span>
+				        			<p class="h_info"></p>
+				        			<br /><br /><br />
+				        		</div>
+				        		
+				        		<!-- LIST TO CHOOSE FROM -->
+				        		<div class="h_sub heritagewalklist">
+				        			<h5></h5>
+				        			<h6 class="h_locationstitle h_closestlocationtitle"></h6>
+				        			<ul class="h_locationslist h_closestlocation"></ul>
+				        			<h6 class="h_locationstitle h_otherlocationstitle"></h6>
+				        			<ul class="h_locationslist h_otherlocations"></ul>
+				        		</div>
+				        	
+				        		<!-- CONTENT -->
+				        		<div class="h_sub heritagewalkinfo">
+				        			<div class="h_sub_info h_fotoscreen"></div>
+				        			<div class="h_sub_info h_videoscreen"></div>
+				        			<div class="h_sub_info h_infoscreen"><h5></h5><span></span></div>
+				        		</div>
+				        		
+				        		<!-- END -->
+				        		<div class="h_sub heritagewalkend">
+				        			<img src="img/home_walk_2.png" class="h_bear" />
+				        			<p></p>
+				        		</div>
+				        		
+				        		
+				        	</div>
+				        </div>
+				    </div>
+	        		
+	        		<!-- MAPS -->
+	        		<div class="h_sub heritagewalkmap">
+		        		<div class="h_sub heritagewalkmapinfo">
+		        				<span class="h_nextlocationinfo"></span>
+		        				<span class="h_nextlocation"></span>
+		        				<span class="h_arrivedbutton button"><span></span></span>
+		        		</div>
+		        		<div class="h_sub h_onlinemaps" id="heritagewalkmap_online"></div>
+		        		<div class="h_sub h_offlinemaps" id="heritagewalkmap_offline"></div>
+	        		</div>
+	        	</section>
+	        	
+	        	<!-- WEATHER
+        		--------------------------------------------------------------------------------------------------
+        		-->
+	        	
+	        	<section page="page_weather" class="page page_weather hidden">
+	        		
+	        		<div id="weather">
+	        			
+		        		<div class="weather_image"></div>
+		        		<div class="weather_temp"></div>
+		        		<div class="weather_forecast">
+							<div class="tomorrow_name"></div>
+							<div class="tomorrow_thumb"></div>
+							<div class="tomorrow_temp"></div>
+		        		</div>
+	        		
+	        		</div>
+	        		
+	        	</section>
+
+	        	<!-- CAMERA
+        		--------------------------------------------------------------------------------------------------
+        		-->
+	        	
+	        	<section page="page_camera" class="page page_camera hidden">
+	        		
+	        		<!--<canvas id="photoCanvas"></canvas>-->
+	        		<div id="photoresult hidden"><img style="display:none;" id="takenPhoto" src="" /></div>
+	        		<div id="takePicture"><span>take picture</span></div>
+	        		
+	        	</section>
+	        	
+	        	<!-- MY LOCATIONS
+        		--------------------------------------------------------------------------------------------------
+        		-->
+	        	
+	        	<section page="page_mylocations" class="page page_mylocations hidden">
+	        		
+	        		<div class="addlocation">
+	        			<input class="addlocationinput" type="text" value=""></input>
+	        			<div class="addlocationbutton button"></div>	
+	        		</div>
+	        		<div class="mymarkerinfo mymarkerinfo_down"><p></p><div class="closelocationbutton"></div><div class="deletelocationbutton"></div></div>
+	        		<div class="mylocationsinfo myli_down"><p>Dit kan je hotel, de bushalte om de hoek of misschien zelfs een heerlijk restaurant zijn.</p></div>
+	        		<div id="mylocationsmap"></div>
+	        		
+	        	</section>
+
+        	<!-- END PAGES -->
+        	</div>
+			<br style="clear:both;" />
+        	
+        	<!--
+        	------------------------------------------------------------------------------------------------------
+        	------------------------------------------------------------------------------------------------------
+        	------------------------------------------------------------------------------------------------------
+       		------------------------------------------------------------------------------------------------------
+       		-->
+       		
+        	
+        <!-- END APP -->	
+        </div>
+    </body>
+</html>

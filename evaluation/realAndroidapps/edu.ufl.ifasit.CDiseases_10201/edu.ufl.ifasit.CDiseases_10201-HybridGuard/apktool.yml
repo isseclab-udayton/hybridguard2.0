@@ -1,0 +1,39 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: edu.ufl.ifasit.CDiseases_10201-HybridGuard.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- jpg
+- assets/www/images/diseases/fs_images/CVC_3Alexander_Purcell_University_of_California_Bugwood.org_cs.jpg
+- assets/www/images/diseases/fs_images/CVC_Alexander_Purcell_University_of_California_Bugwood.org_cs.jpg
+- assets/www/images/diseases/fs_images/Psorosis_Leaf_Stephen_M._Garnsey_USDA_ARS_South_Atlantlic_Area_Bugwood.org_cs.jpg
+- assets/www/images/diseases/fs_images/Psorosis_Trunk_Stephen_M._Garnsey_USDA_ARS_South_Atlantlic_Area_Bugwood.org_cs.jpg
+- gif
+- assets/www/lib/jquery.mobile-1.3.2/images/ajax-loader.gif
+- assets/www/lib/jquery.mobile-1.3.2/images/icons-18-black.png
+- assets/www/lib/jquery.mobile-1.3.2/images/icons-18-white.png
+- assets/www/lib/jquery.mobile-1.3.2/images/icons-36-black.png
+- assets/www/lib/jquery.mobile-1.3.2/images/icons-36-white.png
+- assets/www/lib/photoswipe_3.0.5/error.gif
+- assets/www/lib/photoswipe_3.0.5/icons.png
+- assets/www/lib/photoswipe_3.0.5/icons@2x.png
+- assets/www/lib/photoswipe_3.0.5/loader.gif
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '10'
+  targetSdkVersion: '21'
+sharedLibrary: false
+sparseResources: true
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '10201'
+  versionName: 1.2.1

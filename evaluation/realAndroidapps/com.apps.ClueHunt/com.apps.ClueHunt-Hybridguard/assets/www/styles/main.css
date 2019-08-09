@@ -1,0 +1,261 @@
+.title
+{
+    padding-top:32px;
+    text-align:center;
+    z-index:1;
+}
+
+#divCourseName
+{
+    font-weight:bold;
+}
+
+#divCourseName
+{
+    font-size:16pt;
+    font-family:wickenden cafe, wickenden cafe ndp, segoe ui;
+    margin-bottom:4px;
+}
+
+textarea, input[type="text"] {
+    font: normal 1em "HelveticaNeue Light","Roboto Light","Slate Light","Segoe WP",NokiaPureTextLight,sans-serif;
+    color:#666;
+    border:1px solid #999;
+    line-height:1.1em;
+    padding:2px;
+}
+
+.table-a
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	/*font-size: 12px;*/
+	/*margin: 4px;*/
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+/* LOCATION VIEW STYLES */
+.map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.map-tools {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.map-tools > div {
+    position: relative;
+    text-align: center;
+    height: 100%;
+}
+
+.map-tools .map-tools-button {
+    position: absolute;
+    top: 0;
+    width: 60px;
+    height: 100%;
+    color: #fff;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.map-tools .map-tools-button:before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+    display: block;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.map-tools .map-tools-button.home {
+    left: 0;
+}
+.map-tools .map-tools-button.search {
+    right: 0;
+}
+.map-tools .map-tools-button.home:before { background-image: url(../styles/images/location.png); }
+.map-tools .map-tools-button.home:active:before { background-image: url(../styles/images/location_active.png); }
+.map-tools .map-tools-button.search:before { background-image: url(../styles/images/search.png); }
+.map-tools .map-tools-button.search:active:before { background-image: url(../styles/images/search_active.png); }
+
+.map-tools input[type=search].map-tools-input {
+    height: 100%;
+    width: 65%;
+    margin: 1em 0;
+    padding: 0.5em 1em;
+}
+.km-wp .map-tools input[type=search].map-tools-input {
+    width: 50%;
+}
+
+/*.table-a tr
+{
+    border-left: 1px solid #999;
+	border-right: 1px solid #999;
+}*/
+.table-a th
+{
+	/*font-size: 13px;*/
+	font-weight: normal;
+	padding: 8px;
+    background: -webkit-linear-gradient(#16232c, #000000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#16232c, #000000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#16232c, #000000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#16232c, #000000); /* Standard syntax */
+	/*background: #ec5f13;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;*/
+	color: #fff;
+}
+.table-a td
+{
+	padding: 8px;
+	background: #fff; 
+	border-bottom: 1px solid #16232c;
+	color: #16232c;
+	border-top: 1px solid transparent;
+}
+
+/*.table-a tr:hover td {
+    background: #fffedc;
+}*/
+
+.km-flat, .km-flat .km-navbar, .km-flat .km-content {    
+    background: -webkit-linear-gradient(white, #acb4c2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #acb4c2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #acb4c2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #acb4c2); /* Standard syntax */
+    color:#16232c;    
+}
+
+.km-flat .km-state-active
+{
+    color:#16232c !important;
+}
+
+/*#viewhome .km-content
+{
+    background:url(../img/footsteps.png) center center;
+    background-size: 320px 480px;
+}*/
+
+.km-flat .km-button {
+    background: #2f6081;
+    color:#fff;
+    font: normal 1em rockwell, "HelveticaNeue Light","Roboto Light","Slate Light","Segoe WP",NokiaPureTextLight,sans-serif;
+}
+
+.btnFunky {
+    background: -webkit-linear-gradient(#2f6081, #16232c); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2f6081, #16232c); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2f6081, #16232c); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2f6081, #16232c); /* Standard syntax */
+}
+
+.km-flat .km-state-active, .km-flat .km-scroller-pull, .km-flat .k-slider-selection, .km-flat .km-touch-scrollbar, .km-flat .km-pages .km-current-page, .km-flat .k-slider .k-draghandle, .km-flat .k-slider .k-draghandle:hover, .km-flat .km-tabstrip .km-state-active, .km-flat .km-scroller-refresh.km-load-more, .km-flat .km-popup .k-state-hover, .km-flat .km-popup .k-state-focused, .km-flat .km-popup .k-state-selected, .km-flat .km-actionsheet>li>a:active, .km-flat .km-actionsheet>li>a:hover, .km-flat li.km-state-active .km-listview-link, .km-flat li.km-state-active .km-listview-label, .km-flat .km-listview-label input[type=radio]:checked, .km-flat .km-listview-label input[type=checkbox]:checked {
+	background: #70bef0;
+}
+
+.km-flat .km-navbar, .listheader {
+	/*background: #16232c;*#ec5f13;*/
+    background: -webkit-linear-gradient(#16232c, #000000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#16232c, #000000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#16232c, #000000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#16232c, #000000); /* Standard syntax */
+    color:#fff;
+    /*border-bottom: 1px solid #999;*/
+}
+
+.km-flat .km-listinset>li:first-child,
+.km-flat .km-list>li,
+.km-flat .km-listinset>li:last-child
+{
+	border-color:#999;
+}
+
+.listheader {
+    border-radius: 3px 3px 0px 0px;
+    -moz-border-radius: 3px 3px 0px 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    padding:5px 12px;
+}
+
+#btnStart
+{
+    font-size:14pt;
+    font-weight:bold;
+}
+
+.km-flat .km-tabstrip .km-button {
+	background: #16232c;
+    border-top: solid 1px #fff;
+}
+
+.km-flat .km-tabstrip .km-state-active{
+	background: #ec5f13;
+}
+
+.km-list select:not([multiple])
+{
+    width:100%;
+    padding:0;
+}
+
+.km-listview-link
+{
+    color: #333 !important;
+}
+
+.delete {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 4px;
+    width: 60px;
+    color: white !important;
+    margin-top: -18px !important;
+    z-index: 10;
+    padding: .5em .8em;
+    border: 1px solid #C53421;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font-weight: bold;
+    text-shadow: 0px 1px 0px #000;
+    background-color: #F76700;
+    background: -webkit-linear-gradient(#F76700, #FA3219) !important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F76700, #FA3219) !important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F76700, #FA3219) !important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F76700, #FA3219) !important; /* Standard syntax */
+}
+
+.hidden {
+    display:none;
+}
+
+.celebrate
+{
+    position:absolute;
+    left:50%;
+    margin-left:-160px;
+    top:50%;
+    margin-top:-150px;
+    width:320px;
+}

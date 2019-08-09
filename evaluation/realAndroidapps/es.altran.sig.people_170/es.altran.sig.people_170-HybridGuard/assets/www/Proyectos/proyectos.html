@@ -1,0 +1,47 @@
+<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html;" />
+	<META NAME="Author" CONTENT="Ignacio Pumarega Aparicio">
+	<title>Proyectos</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.1.0.min.css" /> 
+		<script src="js/jquery.js"> </script>
+		<script src="js/jquery.mobile-1.1.0.js"> </script>
+		<script src="funcionesProyectos.js"> </script>
+		<script src="funciones.js"> </script>
+	</head>
+		<Div data-role="page" id='page'>
+			<div data-role="header"><!-- /header -->
+				<h1><img src='imagenes/logo-sigt.png' />Proyectos</h1>
+					<a href="#" onClick="javascript: doLogoff();" data-icon="home" class="ui-btn-right">Desconectar</a>
+				<div data-role="navbar">
+					<ul id="navegacion">
+						<li><a href="#"  onClick="javascript: consultarProyectos()" data-role="button" data-theme="a">Proyectos</a></li>
+					</ul>
+				</div><!-- /navbar -->
+			</div><!-- /header -->
+			<Div data-role="content">
+				<div id="listadoProyectos" >
+					<ul data-role="listview" data-inset="true" data-filter="true" id="proyectos" ></ul>
+				</div>				
+				<div id="listadoProyecto" >
+					<ul data-role="listview" data-inset="true" id="proyecto" ></ul>
+				</div>
+			</div>
+		</div>
+		<script>
+			Ocultar("solicitardiv");
+			Ocultar("listadoProyectos");
+			Ocultar("listadoProyecto");
+			if (localStorage.getItem('usuario') == '' && localStorage.getItem('clave') == '' ) {
+				document.location.href="index.html";
+			}
+			$(document).ready(function() {
+				consultarProyectos();
+			});
+		</script>
+	<body>
+	</body>
+</html>

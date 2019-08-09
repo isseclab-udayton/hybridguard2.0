@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html>
+<!--
+    Cordova v4.3.0
+    http://www.apache.org/licenses/LICENSE-2.0
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.4.5.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/mramadan-theme.min.css" />
+        <title>mRamadan</title>
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&language=ru"></script>
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+		<script type="text/javascript" src="js/PrayTimes.js"></script>
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="coreFlashJax.js"></script>
+    </head>
+    <body>
+    	<!-- mainPage -->
+		<script>
+			console.log("body", new Date())
+		</script>
+		<div data-role="page" id="mainPage">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>Рамазон Мобайл</h1>
+				<a href="#prefsPage" data-role="none" onclick="loadPrefs()" class="prefsBtn opacity ui-btn-right" data-transition="slide"></a>
+			</div>
+			<div role="main" class="ui-content" align="center">
+				<div data-role="tabs" id="tabs">
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#ruza" data-ajax="false">Рӯза</a></li>
+							<li><a href="#namoz" data-ajax="false">Намоз</a></li>
+						</ul>
+					</div><br/>
+					<div id="ruza" class="ui-body-d ui-content">
+						<table class="one-day-table">
+							<tr>
+								<td class="sahari">САҲАРӢ</td>
+								<td>&nbsp;</td>
+								<td class="iftor">ИФТОР</td></tr>
+							<tr>
+								<td id="sahari">00:00</td>
+								<td>&nbsp;</td>
+								<td id="iftor">00:00</td></tr>
+						</table><br /><br /><hr />
+						<h3 id="location"></h3>
+						<!--<a href="#" data-role="none" onclick="underConstruct()">dialog</a>-->
+					</div>
+					<div id="namoz">
+						<table data-role="table" id="namoz-table" data-mode="" class="ui-responsive">
+							<thead>
+								<tr>
+									<th data-priority="1">Намоз</th>
+									<th data-priority="2" style="width: 120px;text-align: right">Вақти намоз</th>     
+								</tr>
+							</thead>
+							<tbody>
+						    	<tr>							      
+							      <td>Бомдод</td>
+							      <td id="fajr" style="text-align: right"></td>							      
+							    </tr>
+								<tr>							      
+							      <td>Пешин</td>
+							      <td id="dhuhr" style="text-align: right"></td>							      
+							    </tr>
+								<tr>							      
+							      <td>Аср</td>
+							      <td id="asr" style="text-align: right"></td>							      
+							    </tr>
+								<tr>							      
+							      <td>Шом</td>
+							      <td id="maghrib" style="text-align: right"></td>							      
+							    </tr>
+								<tr>							      
+							      <td>Хуфтан</td>
+							      <td id="isha" style="text-align: right"></td>							      
+							    </tr>						    
+						  </tbody>
+						</table>
+					</div>
+				</div><!-- /tabs -->
+			</div><!-- /content -->
+			<div data-role="footer" data-position="fixed" class="nav-custom" data-theme="a">
+				<div data-role="navbar" class="nav-custom">
+				<ul>
+					<!-- class="ui-btn-active ui-state-persist" -->
+					<li><a href="#mainPage" id="home" data-icon="custom" class="ui-btn-active" data-transition="none">Асосӣ</a></li>
+					<li><a href="#calendarPage" id="calendar" data-icon="custom" data-transition="none">Тақвим</a></li>
+					<li><a href="#duaPage" id="dua" data-icon="custom" data-transition="none">Дуоҳо</a></li>
+					<li><a href="#tasbihPage" id="tasbih" data-icon="custom" data-transition="none">Тасбеҳ</a></li>
+				</ul></div><!-- /navbar -->
+			</div><!-- /footer -->
+    	</div><!-- /mainPage -->
+    	
+    	<!-- calendarPage -->
+    	<div data-role="page" id="calendarPage">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>Тақвим</h1>
+				<a href="#prefsPage" data-role="none" class="prefsBtn opacity ui-btn-right" data-transition="slide"></a>
+			</div>
+			<div role="main" class="ui-content" align="center">
+				
+				<table id="tbl-taqvim">
+					<thead>
+						<tr>
+							<th scope="col">Сана</th>
+							<th scope="col">Саҳарӣ</th>
+							<th scope="col">Ифтор</th></tr></thead>
+					<tbody id="jsonTbl">
+						<!-- JSON data here -->
+					</tbody>
+				</table>
+			</div><!-- /content -->
+			<div data-role="footer" data-position="fixed" class="nav-custom" data-theme="a">
+				<div data-role="navbar" class="nav-custom">
+				<ul>
+					<li><a href="#mainPage" id="home" data-icon="custom" data-transition="none">Асосӣ</a></li>
+					<li><a href="#calendarPage" id="calendar" data-icon="custom" class="ui-btn-active" data-transition="none">Тақвим</a></li>
+					<li><a href="#duaPage" id="dua" data-icon="custom" data-transition="none">Дуоҳо</a></li>
+					<li><a href="#tasbihPage" id="tasbih" data-icon="custom" data-transition="none">Тасбеҳ</a></li>
+				</ul></div><!-- /navbar -->
+			</div><!-- /footer -->
+    	</div><!-- /calendarPage -->
+    	
+    	<!-- duaPage -->
+    	<div data-role="page" id="duaPage">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1 class="ui-icon-brr"></h1>
+				<a href="#prefsPage" data-role="none" class="prefsBtn opacity ui-btn-right" data-transition="slide"></a>
+			</div>
+			<div role="main" class="ui-content" align="center">
+				<h3>Дуои рӯза</h3>
+				<p id="dua1">Валисавми ғадин мин шаҳри рамазоналлазӣ фаризатан навайту.</p>
+				<span id="dua12" class="dua">Ният кардам, рӯза доштам, рӯзаи моҳи шарифи Рамазон, ки ҳамоно он фарз гардидааст.</span>
+				<br /><br />
+				<h3>Дуои ифтор</h3>
+				<p id="dua2">Аллоҳумма лака сумту ва бика оманту ва ъалайка таваккалту ва ъалаа ризқика афтарту.</p>
+				<span id="dua22" class="dua">Парвардигоро, барои Ту рӯза гирифтам ва ба Ту имон овардам ва ба Ту таваккал кардам ва бо ризқе, ки Ту ато кардӣ, ифтор намудам.</span>
+			</div>
+			<div data-role="footer" data-position="fixed" class="nav-custom" data-theme="a">
+				<div data-role="navbar" class="nav-custom">
+				<ul>
+					<li><a href="#mainPage" id="home" data-icon="custom" data-transition="none">Асосӣ</a></li>
+					<li><a href="#calendarPage" id="calendar" data-icon="custom" data-transition="none">Тақвим</a></li>
+					<li><a href="#duaPage" id="dua" data-icon="custom" class="ui-btn-active" data-transition="none">Дуоҳо</a></li>
+					<li><a href="#tasbihPage" id="tasbih" data-icon="custom" data-transition="none">Тасбеҳ</a></li>
+				</ul></div><!-- /navbar -->
+			</div><!-- /footer -->
+			<script type="text/javascript">
+				$('#dua1').click(function(){ $('#dua12').fadeToggle(1500); });
+				$('#dua2').click(function(){ $('#dua22').fadeToggle(1500); });
+			</script>
+    	</div><!-- /duaPage -->
+    	
+    	<!-- tasbihPage -->
+    	<div data-role="page" id="tasbihPage">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>Тасбеҳ</h1>
+				<a href="#" data-role="none" onclick="runTasbih('reset')" class="refreshBtn opacity ui-btn-left"></a>
+				<a href="#prefsPage" data-role="none" class="prefsBtn opacity ui-btn-right" data-transition="slide"></a>
+			</div>
+			<div role="main" class="ui-content" align="center">
+				<p id="ayatalkursi"></p>
+				<div id="counter"></div>
+			</div>
+			<div data-role="footer" data-position="fixed" class="nav-custom" data-theme="a">
+				<div data-role="navbar" class="nav-custom">
+				<ul>
+					<li><a href="#mainPage" id="home" data-icon="custom" data-transition="none">Асосӣ</a></li>
+					<li><a href="#calendarPage" id="calendar" data-icon="custom" data-transition="none">Тақвим</a></li>
+					<li><a href="#duaPage" id="dua" data-icon="custom" data-transition="none">Дуоҳо</a></li>
+					<li><a href="#tasbihPage" id="tasbih" data-icon="custom" class="ui-btn-active" data-transition="none">Тасбеҳ</a></li>
+				</ul></div><!-- /navbar -->
+			</div><!-- /footer -->
+			<script type="text/javascript">runTasbih();</script>
+    	</div><!-- /tasbihPage -->
+    	
+    	<!-- prefsPage -->
+		<div data-role="page" id="prefsPage">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>Танзимот</h1>
+				<a data-role="none" class="backBtn opacity" href="javascript:history.back();"></a>
+			</div>
+			<div role="main" class="ui-content">
+				<!-- listview -->
+				<form id="prefsForm" name="prefsForm">
+					<ul data-role="listview">
+						<li class="ui-grid-a custom-li">
+							<div class="ui-block-a">
+								<h3>Забонҳо</h3>
+								<p>Забонро тағйир додан</p>
+							</div>
+							<div class="ui-block-b">
+								<fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+									<label for="choice-tjk">Тоҷикӣ</label>
+									<input type="radio" name="lang" id="choice-tjk" value="tjk" checked="checked">
+									<label for="choice-rus">Русский</label>
+									<input type="radio" name="lang" id="choice-rus" value="rus" onclick="underConstruct()">
+								</fieldset></div></li>
+						<li>
+							<h3>Макони зист</h3>
+							<p>Бо воситаи GPS муайян шудааст</p>
+							<p class="ui-li-aside">
+								<!-- <a data-role="none" href="#citiesDialog" data-rel="dialog" data-transition="pop">Click Me</a> -->
+								<strong id="location"></strong></p></li>
+						<li>
+							<h3>Садоҳо</h3>
+							<p>Садои мобилӣ ҳангоми хабардорӣ</p>
+							<p class="ui-li-aside">
+								<select id="sound" name="sound" data-role="slider" data-mini="true"
+									onchange="if (document.getElementById('sound').value == '1') beep();">
+									<option value="0">O</option>
+									<option value="1">I</option>
+								</select></p></li>
+						<li>
+							<h3>Вибратсия</h3>
+							<p>Ларзиши мобилӣ ҳангоми хабардорӣ</p>
+							<p class="ui-li-aside">
+								<select id="vibration" name="vibration" data-role="slider" data-mini="true"
+									onchange="if (document.getElementById('vibration').value == '1') vibrate();">
+									<option value="0">O</option>
+									<option value="1">I</option>
+								</select></p></li>
+						<li data-icon="false">
+							<h3>Маълумот</h3>
+							<p>Дар бораи барнома</p>
+							<p class="ui-li-aside">
+								<a data-role="none" href="#aboutPage" class="opacity" data-transition="slide"><img width="36" src="css/images/ic_about.png" /></a></p></li>
+					</ul><br /><br /><br />
+					<div align="center">
+						<a href="javascript:history.back();" class="ui-btn ui-corner-all ui-btn-inline ui-shadow">Бекор кардан</a>
+						<a href="javascript:window.location.href='index.html';" onclick="savePrefs()" class="ui-btn ui-corner-all ui-btn-inline ui-shadow">Сабт</a>
+					</div>
+				</form><!-- /listview -->
+			</div>
+		</div><!-- /prefsPage -->
+		
+		<!-- aboutPage -->
+		<div data-role="page" id="aboutPage">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>Маълумот</h1>
+				<a data-role="none" class="backBtn opacity" data-transition="slide" href="javascript:history.back();"></a></div>
+			<div role="main" class="ui-content" align="center">
+				<h3>Рамазон Мобайл</h3>
+				<p>Тафсири 2.1.2</p>
+				<p>&copy 2013-2016. Ҳама ҳуқуқҳо маҳфуз аст.</p>
+				<p>Рамазон Мобил абзорест барои рӯзадорӣ ва намозхонии мусулмонон. Барнома рӯзадоронро бо вақтҳои ибодат (саҳарӣ ва ифтор) ва намоз таъмин менамояд.</p>
+				<p>Барои пешрафти ояндаи барнома хоҳишмандонро барои ҳамкорӣ ва ё дастгирии молиявӣ даъват менамоем.</p>
+				<p>Дигар, дуои нек кифоя аст!</p>
+				<p>Лутфан барномаро дар <a data-role="none" href="#" class="noline" onclick="rateTheApp()"><b>Google Play</b></a> баҳогузорӣ намоед.</p>
+			</div>
+		</div><!-- /aboutPage -->
+		<script type="text/javascript">init();</script>
+    </body>
+</html>

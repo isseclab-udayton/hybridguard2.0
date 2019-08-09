@@ -1,0 +1,87 @@
+<blitzer>
+    <mobiles>
+        <mobile>Blauer Astra</mobile>
+		<mobile>Blauer Caddy</mobile>
+		<mobile>Blauer Corsa</mobile>
+		<mobile>Caddy</mobile>
+		<mobile>Kastenwagen</mobile>
+		<mobile>Polizeikontrolle</mobile>
+		<mobile>Open Combi Silber</mobile>
+		<mobile>Silberner Ford Transit</mobile>
+		<mobile>Silberner Mercedes Bus</mobile>
+		<mobile>Silberner VW Bus</mobile>
+		<mobile>Weißer Caddy</mobile>
+	</mobiles>
+	<streets>
+		<street>A60</street>
+		<street>Albert-Stohr-Straße</street>
+		<street>Am Fort Elisabeth</street>
+		<street>An der Bruchspitze</street>
+		<street>B9</street>
+		<street>Boelckestraße</street>
+		<street>Breite Straße</street>
+		<street>Dijonstraße</street>
+		<street>Erzberger Straße</street>
+		<street>Gaustraße</street>
+		<street>Geschwister-Scholl-Straße</street>
+		<street>Grabenstraße</street>
+		<street>Große Bleiche</street>
+		<street>Große Langgasse</street>
+		<street>Haifa Allee</street>
+		<street>Hattenbergstraße</street>
+		<street>Hauptstraße</street>
+		<street>Hechtsheimer Straße</street>
+		<street>Karcherweg</street>
+		<street>Karlsbader Straße</street>
+		<street>Koblenzer Straße</street>
+		<street>Kostheimer Landstraße</street>
+		<street>Landwehrweg</street>
+		<street>Laubenheimer Höhe</street>
+		<street>Mainzer Landstraße</street>
+		<street>Mainzer Straße</street>
+		<street>Mombacher Straße</street>
+		<street>Oppenheimer Straße</street>
+		<street>Pariser Straße</street>
+		<street>Peter-Altmeier-Allee</street>
+		<street>Pfarrer-Goedecker-Straße</street>
+		<street>Poststraße</street>
+		<street>Rheinallee</street>
+		<street>Rheinstraße</street>
+		<street>Ritterstraße</street>
+		<street>Saarstraße</street>
+		<street>Suderstraße</street>
+		<street>Töngesstraße</street>
+		<street>Wallstraße</street>
+        <street>Weisenauer Straße</street>
+		<street>Wormser Straße</street>
+	</streets>
+	<towns>
+		<town>Mainz</town>
+		<town>Wiesbaden</town>
+		<town>Budenheim</town>
+		<town>Oppenheim</town>
+		<town>Nackenheim</town>
+		<town>Nierstein</town>
+	</towns>
+	<districts>
+		<district>Altstadt</district>
+		<district>Biebrich</district>
+		<district>Bodenheim</district>
+		<district>Bretzenheim</district>
+		<district>Ebersheim</district>
+		<district>Finthen</district>
+		<district>Gonsenheim</district>
+		<district>Hartenberg</district>
+		<district>Hechtsheim</district>
+		<district>Innenstadt</district>
+		<district>Mainz-Kastel</district>
+		<district>Mainz-Kostheim</district>
+		<district>Laubenheim</district>
+		<district>Lerchenberg</district>
+		<district>Münchfeld</district>
+		<district>Mombach</district>
+		<district>Neustadt</district>
+		<district>Oberstadt</district>
+		<district>Weisenau</district>
+	</districts>
+</blitzer>

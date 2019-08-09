@@ -1,0 +1,32 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.mitco.acai_4.apk
+compressionType: false
+doNotCompress:
+- arsc
+- eot
+- woff
+- woff2
+- png
+- jpg
+- JPG
+- js
+- md
+- gif
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '23'
+sharedLibrary: false
+sparseResources: true
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '4'
+  versionName: 2.0.1

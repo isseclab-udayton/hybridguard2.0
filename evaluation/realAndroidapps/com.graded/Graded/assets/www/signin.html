@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link href="css/materialize.min.css" rel="stylesheet"/>
+
+    <link href="css/animate.css" rel="stylesheet"/>
+    <style>
+        iframe {
+            border:0 none;
+            background-color: white;
+        }
+        .scroll-wrapper {
+            -webkit-overflow-scrolling: touch;
+            overflow-y: scroll;
+
+            /* important:  dimensions or positioning here! */
+        }
+    </style>
+    <meta name="theme-color" content="#7b1fa2">
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="js/fastclick.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</head>
+<body class="purple">
+<div id="start">
+    <div class="container">
+        <div style="margin-top: 150px" class="white-text">
+            <h3 class="light animated fadeInLeft">Welcome to </h3>
+            <img src="gradedLogo_white.png" width="300px" class="animated fadeInLeft"/>
+            <blockquote class="light animated fadeInLeft" style="border-color: #631771;">The easiest and prettiest way to check your grades from Home Access Center</blockquote>
+            <a class="waves-effect waves-light btn-flat white-text right animated slideInUp">Start</a>
+        </div>
+    </div>
+</div>
+<div id="signin" hidden>
+    <div class="container">
+        <div style="margin-top: 50px" class="white-text">
+            <p class="light animated fadeInLeft">Enter your Home Access Center information</p>
+            <a class='animated fadeInLeft dropdown-button btn purple darken-2 btn-flat white-text waves-effect waves-light left-align' href='#' data-activates='dropdown1' id="district">Select your school district <i class="material-icons right">keyboard_arrow_down</i></a>
+
+            <!-- Dropdown Structure -->
+            <form id="signup">
+                <ul id='dropdown1' class='dropdown-content'>
+                    <li><a onclick="district('Frisco ISD')">Frisco ISD</a></li>
+                    <li class="divider"></li>
+                    <li><a onclick="district('Other')">Other District</a></li>
+                </ul>
+                <div id="urlBox" hidden>
+                    <div class="row">
+                    <div class="col m5 s12">
+                        <div class="card card-panel animated fadeInLeft">
+                            <small class="grey-text"><i>Note: type the url up until after the "/HomeAccess" part </i></small>
+                            <input autocorrect="off" autocapitalize="off" placeholder="ex) https://hac.friscoisd.org/HomeAccess/" id="url" type="url" class="validate black-text"/>
+                            <label for="district">District HAC Login Page Url</label>
+                            </br>
+                            <p class="btn green" onclick="setUrl();">SET URL</p>
+                        </div>
+                    </div>
+                    <div class="col m7 s12" id="otherDistrict" hidden>
+                        <div class="card purple darken-2 animated fadeInUp">
+                            <div class="card-content white-text">
+                                <span class="">Login to HAC as you would on the site. Once you fill your username and password in, click on the LOGIN button below.</span>
+                            </div>
+                            <div class="progress">
+                                <div class="indeterminate"></div>
+                            </div>
+                            <div class="scroll-wrapper">
+
+                            </div>
+
+                            <div class="card-action" id="OtherloginBtn" hidden>
+                                <a onclick='confirm("We will NEVER store any of your personal information on our server. Read our Privacy Policy (http://graded.us/privacy.html). Press OK to continue.");'>LOGIN</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div id="loginItems">
+                    <div class="row">
+                        <div class="input-field col s12 animated fadeInLeft">
+                            <input autocorrect="off" autocapitalize="off" id="username" type="text" class="validate" required/>
+                            <label for="username" required>HAC Username</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12 animated fadeInLeft">
+                            <input id="password" type="password" class="validate" required/>
+                            <label for="password" required>HAC Password</label>
+                        </div>
+                    </div>
+                    <br>
+                    <span class="animated fadeInLeft">We will NEVER store any of your personal information on our server. Read our <a onclick="window.open('http://graded.us/privacy.html', '_system')" href="#">Privacy Policy.</a></span>
+                    </br>
+                    <button class="waves-effect btn waves-light white-text animated slideInUp right purple darken-3"  type="submit" id="submit" style="margin-top: 50px;">Login</button>
+                </div>
+
+            </form>
+            <div id="loading" hidden style="margin-bottom: 50px;">
+                <div class="preloader-wrapper small active">
+                    <div class="spinner-layer spinner-green-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div><div class="gap-patch">
+                        <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modal1" class="modal modal-fixed-footer" style="width:100%;">
+    <div class="modal-content">
+        <h4>Check if the login page URL is correct</h4>
+        <p><b>If you see your HAC login page load below, then you have typed the Page URL correctly.</b> If the correct page isn't shown, try again. Make sure you copy and paste the login page URL exactly! <i>You can move around the webpage aswell.</i></p>
+        <p>Note: if "http://" didn't work, try "https://"</p>
+        <div class="progress">
+            <div class="indeterminate"></div>
+        </div>
+        <div id="iframe" style="width: 100%;">
+
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a onclick="checking()" class="modal-action modal-close waves-effect waves-green btn-flat hide" id="cont">Continue</a>
+        <a class="modal-action modal-close waves-effect waves-red btn-flat" >Cancel</a>
+    </div>
+</div>
+<script src="js/signin.js"></script>
+</body>
+</html>

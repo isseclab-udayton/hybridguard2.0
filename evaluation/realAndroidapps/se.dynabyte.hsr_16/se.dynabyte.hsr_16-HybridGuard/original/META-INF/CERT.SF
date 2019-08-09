@@ -1,0 +1,1146 @@
+Signature-Version: 1.0
+X-Android-APK-Signed: 2
+SHA1-Digest-Manifest: bFtBTg/i1I9pl+cEeU5psl9UGaI=
+Created-By: 1.0 (Android)
+
+Name: assets/www/res/drawable-hdpi/com_facebook_logo.png
+SHA1-Digest: Zqbq5dArShl/VHMVuEXMn0KO3j4=
+
+Name: res/drawable-xxhdpi-v4/messenger_bubble_small_white.png
+SHA1-Digest: DWJrBos1kcyp+N3aq2wDJc/7EJs=
+
+Name: res/layout/com_facebook_activity_layout.xml
+SHA1-Digest: PHVG76s4vtDcRMQ2ul0HpoQnldY=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-40x40@3x.png
+SHA1-Digest: V8qHYNa0G6IijgvkDw/LX8MhFVM=
+
+Name: assets/www/images/hsr_logo_transparent.png
+SHA1-Digest: FTJfJn6kZZty0O2Wxljam19181M=
+
+Name: res/drawable-hdpi-v4/com_facebook_tooltip_black_background.9.png
+SHA1-Digest: +DxTpyUKpT11iz68MG1Q0iB2EvA=
+
+Name: assets/www/plugins/cordova-plugin-battery-status/www/battery.js
+SHA1-Digest: fixhZYuFr27a+/WujkTwmHcRv4Y=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-60x60@2x.png
+SHA1-Digest: V8qHYNa0G6IijgvkDw/LX8MhFVM=
+
+Name: assets/www/css/images/icons-36-white.png
+SHA1-Digest: vIWVJEKtjCzYnYP40K7owpeZbWA=
+
+Name: assets/www/res/drawable/screen.png
+SHA1-Digest: 5/aDuZTcxH3aP47a7zyThRqwvJk=
+
+Name: assets/www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.
+ js
+SHA1-Digest: EfUzmAcUagDDJeG2yHQTy4FngxU=
+
+Name: assets/www/plugins/cordova-plugin-camera/www/Camera.js
+SHA1-Digest: SIYzAGOWUrafT4SXCVCSdpiOQaw=
+
+Name: res/drawable-xhdpi-v4/com_facebook_tooltip_black_xout.png
+SHA1-Digest: 8GGAyFFwn0Q9Dj1UIJG08Ov0omg=
+
+Name: res/layout/messenger_button_send_blue_round.xml
+SHA1-Digest: lJrL3BzbIPKssQCeHKcE90Pcx5U=
+
+Name: assets/www/images/camera.png
+SHA1-Digest: 5ZKIIsDtRZ4BJbfr7ceFYOpuap8=
+
+Name: res/drawable-xxhdpi-v4/ic_action_remove.png
+SHA1-Digest: GbOqf2Yga6qVAxaA3ec35ac0Yio=
+
+Name: res/drawable-xhdpi-v4/messenger_bubble_small_blue.png
+SHA1-Digest: H5xdZrIwVDvmAfKw5d22VSPPbxU=
+
+Name: assets/www/eula/eula.html
+SHA1-Digest: TghGiiYI5Vjy8nsmqqj7K4JDJwk=
+
+Name: assets/www/plugins/cordova-plugin-dialogs/www/notification.js
+SHA1-Digest: 40N9ub1TTHereKbVRJir+eJLDSY=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-29x29@2x.png
+SHA1-Digest: H2RqLYH9jXlFv2hyYFGeYqHZz3I=
+
+Name: assets/www/cordova-js-src/plugin/android/app.js
+SHA1-Digest: f7p1rHw6kBqunadJYz5vUi7ZElM=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/CaptureError
+ .js
+SHA1-Digest: Cb9iiwMzwEcHF6rnRA6vSBd6Bps=
+
+Name: res/drawable-xxhdpi-v4/com_facebook_favicon_white.png
+SHA1-Digest: mmR6SSSZXvuINMUG2vxZN6es9pQ=
+
+Name: assets/www/res/drawable/com_facebook_list_divider.9.png
+SHA1-Digest: idQHIvhmfJOjyZ/gSOiAgd8WuGM=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/MediaFile.js
+SHA1-Digest: 35rivuCMyOtfTTXHstvYaGJw+sI=
+
+Name: res/drawable-mdpi-v4/messenger_bubble_large_white.png
+SHA1-Digest: j6WOr4nTi+vJnHnUpzxbnw+3hX0=
+
+Name: res/drawable-xxhdpi-v4/ic_action_next_item.png
+SHA1-Digest: c25EZH3BjQyHSy++YinAPl3kQmE=
+
+Name: res/drawable/com_facebook_auth_dialog_header_background.xml
+SHA1-Digest: M4L3FJcz/RLvSd+CzUjRfhBqB9E=
+
+Name: assets/www/plugins/cordova-plugin-file/www/requestFileSystem.js
+SHA1-Digest: PSYsPOmpAzk7eU5QSM85pN0XEoU=
+
+Name: assets/www/res/drawable/splash.9.png
+SHA1-Digest: 5/aDuZTcxH3aP47a7zyThRqwvJk=
+
+Name: assets/www/plugins/cordova-plugin-network-information/www/networ
+ k.js
+SHA1-Digest: jxeuXL/JPk6C5eQC7iVThLg7NPc=
+
+Name: assets/www/res/drawable/com_facebook_top_button.xml
+SHA1-Digest: FtJRnlgUCZsaDMyfG1x/OWTzVjE=
+
+Name: assets/www/plugins/cordova-plugin-facebook4/www/facebook-native.
+ js
+SHA1-Digest: fZ/TKnRky2P66tS/Q2hXxqhYzG0=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileWriter.js
+SHA1-Digest: 0y0naClelzbizvWpktsgQrsSwNs=
+
+Name: assets/www/js/allreportsMap.js
+SHA1-Digest: EmEfo1S8VV4UHkB7Y2yRLiOfVUM=
+
+Name: res/drawable-xhdpi-v4/com_facebook_tooltip_black_bottomnub.png
+SHA1-Digest: jdZz25bjrnSvfJrPV+oVZQVPfr0=
+
+Name: assets/www/plugins/cordova-plugin-file/www/Entry.js
+SHA1-Digest: YPBsoB0TKEhFaAIOiV9jPaoIeVA=
+
+Name: resources.arsc
+SHA1-Digest: Esj3dDtrgyw3ed2J46jcRji20TM=
+
+Name: res/drawable-land-mdpi-v4/screen.png
+SHA1-Digest: YVTonnvTeGj2Yhf0CYjFyC55TZE=
+
+Name: assets/www/plugins/cordova-plugin-dialogs/www/android/notificati
+ on.js
+SHA1-Digest: QDJ4/bi0oU0Bq0+2hMMPG7rRKOk=
+
+Name: res/drawable-xhdpi-v4/com_facebook_tooltip_blue_topnub.png
+SHA1-Digest: 7/j362bEm4wbP5BpE/+5SZkb1pc=
+
+Name: res/drawable-mdpi-v4/ic_action_previous_item.png
+SHA1-Digest: hQHJ4uWUXYR/W5HKEfkoL0otUKY=
+
+Name: res/drawable-mdpi-v4/com_facebook_button_send_icon_white.png
+SHA1-Digest: R5kOBI5lKCPVcxCeiBi49N367Hk=
+
+Name: AndroidManifest.xml
+SHA1-Digest: VEp6AUXyG3McJ4UXx3zmdYmaxTc=
+
+Name: assets/www/plugins/cordova-plugin-file/www/ProgressEvent.js
+SHA1-Digest: 8EDoYQM36CDHLN2HHLyX9yPgFuQ=
+
+Name: assets/www/plugins/cordova-plugin-device-orientation/www/Compass
+ Error.js
+SHA1-Digest: DqTfeVGIdTUO5DhZOpOEYH1SMfc=
+
+Name: assets/www/res/drawable/com_facebook_button_check_off.png
+SHA1-Digest: +x/myQxhGVxPd5LLXg1pmkbUR3A=
+
+Name: assets/www/cordova-js-src/android/nativeapiprovider.js
+SHA1-Digest: FVwW8q5pXNyqdiSUoAgfev5NTHs=
+
+Name: res/xml/config.xml
+SHA1-Digest: xZ4mUltKheRo9ERpLS21yenBHBQ=
+
+Name: assets/www/res/drawable-xhdpi/com_facebook_loginbutton_blue_norm
+ al.png
+SHA1-Digest: iPwQB3PUl/Ah+t2+h+wvsuwQ76A=
+
+Name: assets/www/res/layout/com_facebook_placepickerfragment.xml
+SHA1-Digest: rEY4p34b7wQBsAa/9w+Q2n96vso=
+
+Name: res/drawable/com_facebook_button_icon.xml
+SHA1-Digest: LOyCKWrV2M1ko2zQXuKFIxkSkBQ=
+
+Name: res/drawable-mdpi-v4/com_facebook_button_icon_white.png
+SHA1-Digest: ygRjO8KLc7WxXOdAMTmvut2q17c=
+
+Name: res/drawable-xxhdpi-v4/com_facebook_button_like_icon_selected.pn
+ g
+SHA1-Digest: ANV8xGc0Maw3lw/rIOUQ4VjBDsM=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-40x40@1x.png
+SHA1-Digest: vI/Z+fTrV1nVFytJYuDkMv2J1Nw=
+
+Name: assets/www/res/drawable/com_facebook_picker_list_longpressed.9.p
+ ng
+SHA1-Digest: jJ5KQb2IAQEKOkBKtgiGXs9tvTQ=
+
+Name: assets/www/res/ios/LaunchImage.launchimage/iPadPro-Default-Port@
+ 2x.png
+SHA1-Digest: XWYLi9OaIRa07BLOOmC9dryFJEc=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileReader.js
+SHA1-Digest: eaQqcL8BSQHpnh6Tc3h5Imh1+FQ=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactField.js
+SHA1-Digest: Pt2SQDGB20nHTJq/sWAw0Jj/fH0=
+
+Name: res/drawable-mdpi-v4/messenger_button_send_round_shadow.png
+SHA1-Digest: L0z4yJA14BqMapaKVRfPUfUmKxw=
+
+Name: assets/www/res/drawable/com_facebook_close.png
+SHA1-Digest: lPlIbbW7NpLV1mLzR5iSJbYh4Do=
+
+Name: assets/www/js/generic.js
+SHA1-Digest: pw/G0NKFLIXeLS4/SGE5EkSsoXY=
+
+Name: assets/www/plugins/cordova-plugin-device-orientation/www/compass
+ .js
+SHA1-Digest: lVZBIXmH1yYkW1ihgdt21GAb0jw=
+
+Name: assets/www/res/drawable-ldpi/facebook_icon.png
+SHA1-Digest: 4XdmuNZ3DQg8SfwAw1plbWl5SRM=
+
+Name: assets/www/images/backgroundContentWideTop.gif
+SHA1-Digest: EvTe6aEZwrjZp60rc3wYtQtD8M4=
+
+Name: assets/www/js/address.js
+SHA1-Digest: gNQq2OAjXGBkKS/XOpJhxoyi/lA=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-76x76@3x.png
+SHA1-Digest: G8VcOwQkXTTrnhB2OfA8GKxqnfQ=
+
+Name: assets/www/res/drawable-hdpi/close.png
+SHA1-Digest: NrsYhe4tGGo1fJ3AMkDugpkoQhc=
+
+Name: assets/www/res/drawable/close.png
+SHA1-Digest: nuOPB9ACaV+tBxpS+n2T++ZxphI=
+
+Name: res/drawable/com_facebook_send_button_icon.xml
+SHA1-Digest: jb2aekuypy1Ajd7X06hR/0JV+Xs=
+
+Name: res/drawable-xhdpi-v4/ic_action_remove.png
+SHA1-Digest: l5JGHVyNioatN5tnVH3EIvs4nRA=
+
+Name: assets/www/res/drawable/com_facebook_place_default_icon.png
+SHA1-Digest: VHmQbfvjHgmWR9lhhgbss5fm0a0=
+
+Name: res/drawable-xhdpi-v4/messenger_bubble_large_white.png
+SHA1-Digest: hROa33V5Yd8veiHVqx3fztW0n7g=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/contacts.js
+SHA1-Digest: BZKqiXx0tpq4N/z27TkaDodHwnw=
+
+Name: res/drawable-land-ldpi-v4/screen.png
+SHA1-Digest: ZfZgMgv6EzcmpS1oX2OZ+2L3Xg4=
+
+Name: res/drawable-xxhdpi-v4/messenger_bubble_large_blue.png
+SHA1-Digest: HoK4TM/UvP94xhXqvO3qaHofiU8=
+
+Name: res/drawable-xhdpi-v4/com_facebook_tooltip_blue_background.9.png
+SHA1-Digest: ewmojyQLbwcPjW/HwZL3ryTwxZQ=
+
+Name: res/drawable-hdpi-v4/ic_action_next_item.png
+SHA1-Digest: qB37IvvoMeEjuZF5lSzNL1atssw=
+
+Name: assets/www/js/getReport.js
+SHA1-Digest: slY7ciKqn4VXBPyqdRPsBbo7jks=
+
+Name: assets/www/res/layout/com_facebook_picker_image.xml
+SHA1-Digest: /O2ZHHeBCl2vCGNCyv78MjOefDg=
+
+Name: assets/www/css/images/icons-18-white.png
+SHA1-Digest: Sg/1e3EgtouxOiw7H+43z5uv5Xo=
+
+Name: assets/www/plugins/cordova-plugin-device-motion/www/acceleromete
+ r.js
+SHA1-Digest: /gih/2JfOMtH80UhTYc8CT+1brE=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-72x72@2x.png
+SHA1-Digest: hzaPs9JuC/+MyP1+ndLTs01NQcQ=
+
+Name: assets/www/js/jquery.mobile-1.2.0.min.js
+SHA1-Digest: M194251mAJHWux+clQM/P8xweHw=
+
+Name: assets/www/plugins/cordova-plugin-statusbar/www/statusbar.js
+SHA1-Digest: hDT++3ZaOTp3t16AAFAibxtovj0=
+
+Name: assets/www/res/ios/LaunchImage.launchimage/iPad-Default-Land@2x.
+ png
+SHA1-Digest: 6gyIHyfq2E9eNm+KzjaN/IY6lg8=
+
+Name: res/drawable-hdpi-v4/com_facebook_tooltip_black_xout.png
+SHA1-Digest: /bpqqvkoImTYnztsgSCCezbC4KI=
+
+Name: assets/www/js/facebook/cdv-plugin-fb-connect.js
+SHA1-Digest: W0aFVeNBl0k3hbfPuShMECZbp3g=
+
+Name: res/drawable-hdpi-v4/messenger_button_send_round_shadow.png
+SHA1-Digest: Pp/NjWEADLvC+WlUQEOHhUVshf4=
+
+Name: assets/www/res/drawable-hdpi/com_facebook_loginbutton_blue_press
+ ed.png
+SHA1-Digest: Uh619n8bgLHx0sgagZ9bFGpMYoU=
+
+Name: assets/www/js/report.js
+SHA1-Digest: VZUM4UgtFEDO25p+UCVyKWXYPQg=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/CaptureAudio
+ Options.js
+SHA1-Digest: jRm1E5d1rODQg5wNlYUYJZt/4Q8=
+
+Name: assets/www/cordova.js
+SHA1-Digest: SDkTQ1RTGxWJgGXbMUuUR75bSg4=
+
+Name: assets/www/res/ios/LaunchImage.launchimage/iPhone-Retina4-Port-5
+ 68h@2x.png
+SHA1-Digest: Mf0c1G4/EUkA1AbY4TumG41DnYk=
+
+Name: res/drawable-land-xhdpi-v4/screen.png
+SHA1-Digest: Eme1m+KzdcxmzKWK1Sn3tLqwBxk=
+
+Name: res/mipmap-ldpi-v4/icon.png
+SHA1-Digest: QXZl+x7Rb+o64Uswtax+vf0UahA=
+
+Name: assets/www/plugins/cordova-plugin-camera/www/CameraPopoverHandle
+ .js
+SHA1-Digest: tf0kosXo/BESOF6h82K8zvFAjGk=
+
+Name: assets/www/res/drawable-xhdpi/com_facebook_button_grey_normal.9.
+ png
+SHA1-Digest: CFv9Cgpf540Se2xZvtRC6DD8svU=
+
+Name: res/drawable-mdpi-v4/messenger_bubble_small_white.png
+SHA1-Digest: LtUKyBQaDWV62ohi+kR/nAtKqMk=
+
+Name: assets/www/js/profile.js
+SHA1-Digest: vKXRj5J00JKtghXoSpn9rjb8DyU=
+
+Name: assets/www/res/layout/com_facebook_friendpickerfragment.xml
+SHA1-Digest: 03cxCKj2g0c7FQqV+bSf0x9uJz4=
+
+Name: assets/www/images/iconFacebook.gif
+SHA1-Digest: g4AjUEDxOIuJHbfG3yOCDmkY8P4=
+
+Name: res/drawable-mdpi-v4/com_facebook_button_like_icon_selected.png
+SHA1-Digest: q9mdgmi8gCrfH3Z06y4bGK+cCLA=
+
+Name: res/layout/com_facebook_device_auth_dialog_fragment.xml
+SHA1-Digest: vV/P1DSCMrZi1aHsyX2yHTXzAFI=
+
+Name: assets/www/plugins/cordova-plugin-geolocation/www/android/geoloc
+ ation.js
+SHA1-Digest: znvserZXOuRMhVaDMa0z06vUfhk=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/MediaFileDat
+ a.js
+SHA1-Digest: Xamso7OW8YqTjw8yKwQYfcN1OCw=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileEntry.js
+SHA1-Digest: Xde5Q4czm4qjtxdCAEGbrFkELcY=
+
+Name: res/drawable-mdpi-v4/messenger_bubble_small_blue.png
+SHA1-Digest: j3iI9X1a6QUbiERcZ9lmf1vQG3k=
+
+Name: assets/www/res/drawable/com_facebook_loginbutton_silver.xml
+SHA1-Digest: DCds3SMOawaWaLv/b+lyfG4zzb0=
+
+Name: assets/www/js/ios/TwitterPlugin.js
+SHA1-Digest: KOhZGex/f5QCYUQw6PaXRd3jKm0=
+
+Name: assets/www/res/drawable-xhdpi/com_facebook_button_grey_focused.9
+ .png
+SHA1-Digest: 6rGKa+zDpgXJ0B3R2gfq007dWtA=
+
+Name: res/drawable-mdpi-v4/com_facebook_favicon_white.png
+SHA1-Digest: py6Nx2Ob4c4S7HgI3rn37qXTS/g=
+
+Name: res/drawable-xhdpi-v4/messenger_bubble_small_white.png
+SHA1-Digest: wf9Rsz2a/BUuQR2Jeio0wje7e40=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactOrganizati
+ on.js
+SHA1-Digest: z2FmkedO8KwyWNDNYZrQ3778Tso=
+
+Name: res/drawable/com_facebook_auth_dialog_cancel_background.xml
+SHA1-Digest: /mH1qF0zJF+syyC78aQDAYtPPl8=
+
+Name: assets/www/js/geolocation.js
+SHA1-Digest: fNFIAC3QAcSOD9oXxVEkWq8WXdQ=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png
+SHA1-Digest: RgjA2BtHzFDmexsWRO2CMbqEzxs=
+
+Name: res/drawable-mdpi-v4/com_facebook_button_send_icon_blue.png
+SHA1-Digest: X+h8J9BmRtXwwc0Otq8FVE4qqxM=
+
+Name: res/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.pn
+ g
+SHA1-Digest: 2xgU0++/KN5qhzcL/Lhz8p8cTNU=
+
+Name: assets/www/js/messageDialog.js
+SHA1-Digest: 7HXjQv17xsL4bwPX2WvDdjVZF5U=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/capture.js
+SHA1-Digest: UzeWWdbxx8//ZtI+YnovTM4eMLs=
+
+Name: res/drawable-xhdpi-v4/com_facebook_button_send_icon_white.png
+SHA1-Digest: IppST1qcL170sQfCTWkbvn7sAzw=
+
+Name: res/drawable-hdpi-v4/messenger_bubble_large_white.png
+SHA1-Digest: +UtsZZHkIWKCsrcwfaJU+nnjrKg=
+
+Name: assets/www/cordova-js-src/android/promptbasednativeapi.js
+SHA1-Digest: WY63KRIwUfBJT7ADJajHaAGlUMA=
+
+Name: assets/www/res/ios/LaunchImage.launchimage/Contents.json
+SHA1-Digest: FYtJlaWveOJk01b5MDfZ8Ho0990=
+
+Name: assets/www/res/drawable/com_facebook_usersettingsfragment_backgr
+ ound_gradient.xml
+SHA1-Digest: 0E7Fe1EZ0dCe03ZbE3ESMYyLfJc=
+
+Name: assets/www/js/jquery-1.8.2.min.js
+SHA1-Digest: FJtRgMud4/ZG/CaAJECmrG51jUA=
+
+Name: assets/www/res/drawable/com_facebook_picker_list_selector_backgr
+ ound_transition.xml
+SHA1-Digest: 2C0yMa9GAf+ybqj1fcLylkcLzf4=
+
+Name: assets/www/images/backgroundNavigation.gif
+SHA1-Digest: kWtUX2HsxqM7W8Ci786X6lxHGI0=
+
+Name: assets/www/res/drawable-xhdpi/com_facebook_logo.png
+SHA1-Digest: l+3KJhvYUATljEWBzVCAbOfZEEs=
+
+Name: res/drawable/com_facebook_button_background.xml
+SHA1-Digest: 6I2ZUW/9cKKiH+EAgMFflH5kTHk=
+
+Name: res/drawable-xxhdpi-v4/com_facebook_button_send_icon_white.png
+SHA1-Digest: Lmffz50xbtHRUH8x2+UHb7icTos=
+
+Name: assets/www/res/drawable-ldpi/com_facebook_close.png
+SHA1-Digest: 4uC5z+TEtPM2X/fZBpDNVWitGMo=
+
+Name: assets/www/plugins/cordova-plugin-splashscreen/www/splashscreen.
+ js
+SHA1-Digest: n2E0W8B/grOxM2ORx/haAYOWIcA=
+
+Name: res/drawable/com_facebook_button_like_background.xml
+SHA1-Digest: 8zaLhD97AB3nneYDkR4YjdENJbk=
+
+Name: assets/www/plugins/cordova-plugin-media/www/Media.js
+SHA1-Digest: npof9bor0zuJWE19HvMENVaQNFU=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactAddress.js
+SHA1-Digest: 8EVbCMR+rjQhk8aPw9/bGZcLuN0=
+
+Name: assets/www/res/layout/main.xml
+SHA1-Digest: gss4OnJydeP5jfNgEJmlE8quQ8o=
+
+Name: res/drawable-hdpi-v4/com_facebook_tooltip_blue_xout.png
+SHA1-Digest: zP8da9JtxM6mlFBB5PLXoxiitMc=
+
+Name: assets/www/plugins/cordova-plugin-device/www/device.js
+SHA1-Digest: DgD9WKGqlbNViEZBSi4Wenbl/uM=
+
+Name: assets/www/res/ios/LaunchImage.launchimage/iPad-Default-Port@2x.
+ png
+SHA1-Digest: sLaX+/fo2QucbgJyJtpky1uLmW8=
+
+Name: assets/www/plugins/cordova-plugin-media/www/MediaError.js
+SHA1-Digest: 2LjncYrzDuooEMPn5JFOBzu+AUA=
+
+Name: res/drawable-hdpi-v4/messenger_bubble_small_white.png
+SHA1-Digest: 2QTvhYYXqHurGbj69GA7unVmk6g=
+
+Name: res/drawable-hdpi-v4/com_facebook_button_send_icon_white.png
+SHA1-Digest: UD9up6hzTH3i3SixwEPnJ0RSHDA=
+
+Name: assets/www/plugins/cordova-plugin-camera/www/CameraConstants.js
+SHA1-Digest: z6XuqatNGGOOieiBDp4Ow3ag+Lg=
+
+Name: assets/www/res/drawable/com_facebook_list_section_header_backgro
+ und.9.png
+SHA1-Digest: wJaZ02o7Qujc2VKqFCy5yiRiBNU=
+
+Name: assets/www/res/drawable/com_facebook_button_check.xml
+SHA1-Digest: JKkBfMH7kfzysNUTBwia3nf4qdo=
+
+Name: res/drawable-xhdpi-v4/com_facebook_button_icon_blue.png
+SHA1-Digest: M1BpzzxWh4B0X1LXb+MPPX64Mig=
+
+Name: res/layout-v17/com_facebook_device_auth_dialog_fragment.xml
+SHA1-Digest: QeABnq2Ta6k4J1rUldoi0FgaJ1U=
+
+Name: res/drawable-land-hdpi-v4/screen.png
+SHA1-Digest: SnEeLBNJPYyr+znAdl3VZcz93hY=
+
+Name: assets/www/res/layout/com_facebook_picker_list_section_header.xm
+ l
+SHA1-Digest: 6Do6tD4X9EGm6T9efgC1w7G6ORI=
+
+Name: assets/www/plugins/cordova-plugin-file/www/File.js
+SHA1-Digest: TIV39VI5wIdt6jaFcIZqkGpaHgE=
+
+Name: res/drawable-mdpi-v4/ic_action_remove.png
+SHA1-Digest: nKigmEPh2ytFH29tSmzdel83ejA=
+
+Name: assets/www/js/info.js
+SHA1-Digest: 0MOsCzMwhIMEvORhglQtdRA6bLg=
+
+Name: res/drawable-port-hdpi-v4/screen.png
+SHA1-Digest: QqszXVs7DAO7cpkZYgDYRx2o7mQ=
+
+Name: assets/www/images/backgroundNavigationFooter.gif
+SHA1-Digest: kWtUX2HsxqM7W8Ci786X6lxHGI0=
+
+Name: assets/www/js/facebook/facebook_js_sdk.js
+SHA1-Digest: jv0Azg7gAg+0uSsbWsO4UHL1t+Y=
+
+Name: res/layout/messenger_button_send_white_round.xml
+SHA1-Digest: 4fO+JBu5pHpl0jEtpxiNUwZRGt0=
+
+Name: assets/www/res/drawable/com_facebook_button_grey_focused.9.png
+SHA1-Digest: r57nvr7+jHxaAcbyxdN/pEkGZEs=
+
+Name: res/mipmap-mdpi-v4/icon.png
+SHA1-Digest: QXZl+x7Rb+o64Uswtax+vf0UahA=
+
+Name: res/drawable-xhdpi-v4/com_facebook_button_icon_white.png
+SHA1-Digest: //XVsZ3nj6Js3Bub9L4AI7RJu9A=
+
+Name: assets/www/js/photo.js
+SHA1-Digest: uQf6Fp8ZaoNbq2rzJk6ytK9eygw=
+
+Name: assets/www/res/ios/LaunchImage.launchimage/iPad-Default-Land.png
+SHA1-Digest: xYpJgvE+nzkHRvD2SmqKyCmsOGc=
+
+Name: assets/www/res/drawable/com_facebook_button_check_on.png
+SHA1-Digest: lZ8Yf1XLNXdvllYPIXekVseFy04=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileSystem.js
+SHA1-Digest: +3PybRYzIh8dDSeTXmYx219qhbk=
+
+Name: assets/www/css/main.css
+SHA1-Digest: pYmJP/x8H7xKnfMlPPsuC5Xkrn4=
+
+Name: assets/www/res/layout/com_facebook_picker_checkbox.xml
+SHA1-Digest: kyebUla4ywS84IJKs4RnRTAWYA4=
+
+Name: assets/www/res/drawable/icon.png
+SHA1-Digest: NStRIVtuSHMvPT0r8F/6lvS6x/s=
+
+Name: res/drawable-mdpi-v4/com_facebook_tooltip_blue_topnub.png
+SHA1-Digest: Y5u1xivYvN5hE8F7feOwtT02xkw=
+
+Name: assets/www/res/drawable/com_facebook_loginbutton_blue_normal.png
+SHA1-Digest: r9hET6XVAXqKka7NwjZv1qXkmes=
+
+Name: assets/www/css/jquery.mobile-1.2.0.min.css
+SHA1-Digest: 1FyD1yQ7KelWSjt0E9QveCK8tjw=
+
+Name: res/drawable-hdpi-v4/com_facebook_tooltip_blue_background.9.png
+SHA1-Digest: sC70NtI1TOrQ25tTttVbTOvGpzY=
+
+Name: assets/www/res/ios/LaunchImage.launchimage/iPhone-RetinaHD4.7-Po
+ rt-667h@2x.png
+SHA1-Digest: lLM9KvxQO8MOa4BnEGGpXpSh4UQ=
+
+Name: assets/www/css/images/ajax-loader.gif
+SHA1-Digest: r7Wo1RXseyxOXYv8y0kPtbYDEcM=
+
+Name: res/drawable-port-xhdpi-v4/screen.png
+SHA1-Digest: vFPeQjaqLAS6sZilCZUrPyl6jrw=
+
+Name: res/drawable/com_facebook_button_send_background.xml
+SHA1-Digest: MONmESm3q0SVn/AukitHOXlGwcY=
+
+Name: assets/www/js/facebook/fbShare.js
+SHA1-Digest: a6/HmYfh/Q09KgGpNBa7SJmlXw8=
+
+Name: res/drawable-hdpi-v4/com_facebook_button_icon_white.png
+SHA1-Digest: atXihtinifOvIceRKa83mZTaYY4=
+
+Name: assets/www/plugins/cordova-plugin-geolocation/www/PositionError.
+ js
+SHA1-Digest: NZQ0MpOiURNiYMJS79+bdtSDnzI=
+
+Name: assets/www/res/drawable/com_facebook_profile_default_icon.png
+SHA1-Digest: 1LE9oMDfOE1xIU/yIlS7adyPnLY=
+
+Name: res/drawable-hdpi-v4/messenger_bubble_large_blue.png
+SHA1-Digest: oZ6/HJD/nVRNpqfII4+t6b0IXaQ=
+
+Name: assets/www/res/drawable-xhdpi/com_facebook_button_grey_pressed.9
+ .png
+SHA1-Digest: 5wha1qjCOlv4xduJBfAtKIoNPn0=
+
+Name: assets/www/res/drawable/com_facebook_button_grey_pressed.9.png
+SHA1-Digest: r8OGg+m6AzonjCNR1ZEn8Fh+OiQ=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileUploadOptions.js
+SHA1-Digest: k7bbm5X8Y56c2aAbhRfuVLpYdJg=
+
+Name: res/drawable-mdpi-v4/com_facebook_tooltip_black_background.9.png
+SHA1-Digest: uxEQ5CeVdDLdVI/wV2UpqEvNpQ4=
+
+Name: assets/www/js/cordova/cordova-2.4.0.js
+SHA1-Digest: zuaoVuBjmKN/8e8YhTYg/rORXxc=
+
+Name: res/layout/messenger_button_send_white_large.xml
+SHA1-Digest: s1UF03oyEW6FqVuD5Gw6Tq+tWrY=
+
+Name: assets/www/css/reportMap.css
+SHA1-Digest: YuL2c2bF5SDQtpPvYsIyIFFSR8k=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-60x60@1x.png
+SHA1-Digest: 6FbaLh5Fod8hCpfLDmGymmNHdzc=
+
+Name: assets/www/images/backgroundContentWideBottom.gif
+SHA1-Digest: 8NRs4+WHpx9/Bryuqw964Z23nLw=
+
+Name: res/drawable-hdpi-v4/com_facebook_tooltip_black_topnub.png
+SHA1-Digest: /opAyV2LR6cTmQ4he3wQX6vQFu8=
+
+Name: res/drawable/com_facebook_auth_dialog_background.xml
+SHA1-Digest: NHFXNMjH3MDTYY0U6uAo8UoiFcw=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-29x29@1x.png
+SHA1-Digest: +nNkZfqB3U6tWKatLPw4DH8dQR4=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/Contact.js
+SHA1-Digest: l0qGg9gHRMrwBaG2Cjk/kiTOEIA=
+
+Name: assets/www/plugins/cordova-plugin-file/www/Flags.js
+SHA1-Digest: Kq4I7bhahaHdmrw3ta/mr/wKPmo=
+
+Name: res/drawable-mdpi-v4/com_facebook_tooltip_blue_xout.png
+SHA1-Digest: O7UHuTxpmNQ0VnhjOMvNHq15uVA=
+
+Name: res/drawable-xhdpi-v4/com_facebook_tooltip_blue_xout.png
+SHA1-Digest: C1VO73bS/b0q2qwglqTdywqh7Rc=
+
+Name: res/drawable-hdpi-v4/com_facebook_tooltip_blue_bottomnub.png
+SHA1-Digest: 1idabk+1WFJpgGM/DGw6UToZ9sU=
+
+Name: assets/www/plugins/cordova-plugin-file-transfer/www/FileTransfer
+ .js
+SHA1-Digest: +oP039n6GJu1fs54+QP0yTJsiHA=
+
+Name: res/drawable-hdpi-v4/com_facebook_favicon_white.png
+SHA1-Digest: g8Kz0BPb2Zc8qUCIb0qcunHTAcU=
+
+Name: assets/www/plugins/cordova-plugin-camera/www/CameraPopoverOption
+ s.js
+SHA1-Digest: 8aByrw3Dl008NLTxVyD3wrMkaGs=
+
+Name: assets/www/res/ios/LaunchImage.launchimage/iPhone-RetinaHD5.5-La
+ nd-736h@3x.png
+SHA1-Digest: oVJG5k4o7iNUbF7FmQau6fS3VaQ=
+
+Name: assets/www/res/layout/com_facebook_picker_activity_circle_row.xm
+ l
+SHA1-Digest: 9HD6nLQiikzfvUZmQC3Xiyn9f10=
+
+Name: res/drawable-xxhdpi-v4/com_facebook_button_icon_blue.png
+SHA1-Digest: AVcN4KbU9bkIl9Vho9QdcmV2R64=
+
+Name: assets/www/index.html
+SHA1-Digest: WfGGPd+a1pf+uv7QJ/yLQ/mPywI=
+
+Name: assets/www/res/layout/com_facebook_picker_title_bar_stub.xml
+SHA1-Digest: z3xsSBWCo2MXDc1ymCGRjsJg2Dw=
+
+Name: assets/www/css/images/icons-36-black.png
+SHA1-Digest: DGqbtw+P5PhIuHjyBMRH028+Ewk=
+
+Name: res/drawable/messenger_button_white_bg_round.xml
+SHA1-Digest: hd3cFL59QCzMd8pF64S89nJ94nk=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-60x60@3x.png
+SHA1-Digest: dN2jO8Tr4QpjLxfmTsNVPCNXdds=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-40x40@2x.png
+SHA1-Digest: OitvHyjjKDrXVIP6UIzaoL63LnI=
+
+Name: assets/www/res/drawable-hdpi/com_facebook_loginbutton_blue_focus
+ ed.png
+SHA1-Digest: Uh619n8bgLHx0sgagZ9bFGpMYoU=
+
+Name: res/drawable/messenger_button_blue_bg_selector.xml
+SHA1-Digest: C0/2VmpZbH4uEws/UvIi1LvEOzg=
+
+Name: res/drawable-hdpi-v4/com_facebook_tooltip_black_bottomnub.png
+SHA1-Digest: ZO31F92yq079DJUZm4pm+lJspWc=
+
+Name: assets/www/plugins/cordova-plugin-network-information/www/Connec
+ tion.js
+SHA1-Digest: QP5YzumNbUCPIZ96Xkpu5RegRY0=
+
+Name: assets/www/plugins/cordova-plugin-file/www/fileSystems-roots.js
+SHA1-Digest: +kdK5fdjowLxjWU1YUAF6ol71dY=
+
+Name: assets/www/res/layout/com_facebook_login_activity_layout.xml
+SHA1-Digest: 5LjHRYOv4fyQq4iJmAz2r4fh3RE=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-72x72@1x.png
+SHA1-Digest: YR8ky3FMgOG2WuF0aEbNQCcCpf8=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/CaptureVideo
+ Options.js
+SHA1-Digest: YPkl4ysH6fGpBtTbiHcyS6IriRQ=
+
+Name: assets/www/res/drawable/com_facebook_picker_item_background.xml
+SHA1-Digest: 64pSZ+6glHn0PZfJsizktLaQ9jg=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactFindOption
+ s.js
+SHA1-Digest: 5ppEzn/GChnk7k/xiict62QUCpw=
+
+Name: res/drawable-xhdpi-v4/messenger_bubble_large_blue.png
+SHA1-Digest: y8oGj64jUMQUSVZYvXHyGkJFU0k=
+
+Name: assets/www/res/values/strings.xml
+SHA1-Digest: SjWoGP4gAWU4C6UP7qE/tY+xdyE=
+
+Name: assets/www/res/drawable-hdpi/com_facebook_button_grey_pressed.9.
+ png
+SHA1-Digest: 2I1T28E0RU3kZBLBYTdrrYt5JqY=
+
+Name: res/drawable-mdpi-v4/com_facebook_tooltip_blue_bottomnub.png
+SHA1-Digest: /d83SMUUg3RyOuXWcRh/Jwg7Jg4=
+
+Name: assets/www/res/ios/LaunchImage.launchimage/iPhone-Default-Port@2
+ x.png
+SHA1-Digest: d9bI2nBa8V2mwDd0vyiMfljGYy4=
+
+Name: res/xml/provider_paths.xml
+SHA1-Digest: +SMv4tkSXte3vv6I76ZKUzSF1e8=
+
+Name: assets/www/plugins/cordova-plugin-file/www/android/FileSystem.js
+SHA1-Digest: fiaWqIbFa6PiJyCq9zrflrstxVE=
+
+Name: assets/www/res/values/styles.xml
+SHA1-Digest: +Qpl0Oj+VcV1bHW2n/oryDBlhpM=
+
+Name: assets/www/js/reportMap.js
+SHA1-Digest: qw5CvPCItgVKXMCfVKXgFsA5nBc=
+
+Name: assets/www/plugins/cordova-plugin-file/www/LocalFileSystem.js
+SHA1-Digest: kJtPgG7aLCq5neelEB+/sObHR1w=
+
+Name: assets/www/plugins/cordova-plugin-file/www/DirectoryEntry.js
+SHA1-Digest: upDqTS0QG2I+KMTEClqoWWCw/ms=
+
+Name: assets/www/res/layout/com_facebook_usersettingsfragment.xml
+SHA1-Digest: sgtReX9/UfX1Cq26Xnx2pHsCx9Y=
+
+Name: assets/www/plugins/cordova-plugin-globalization/www/globalizatio
+ n.js
+SHA1-Digest: L2Wl3FMVOTuCdfUwRAhwv1NRb6E=
+
+Name: assets/www/res/drawable/com_facebook_icon.png
+SHA1-Digest: O10PJ3vPkAdypNUGk3PgmTOlWLg=
+
+Name: res/drawable-hdpi-v4/com_facebook_button_send_icon_blue.png
+SHA1-Digest: KFM7MS8S30HdL/KzLc93zrOu9N8=
+
+Name: assets/www/plugins/cordova-plugin-vibration/www/vibration.js
+SHA1-Digest: jyiXOwbr1mprCCQNiRvbH2ODCb8=
+
+Name: assets/www/res/drawable/com_facebook_logo.png
+SHA1-Digest: is/Zr3v+8ZyFoDtgXhtANxPk4lk=
+
+Name: res/drawable-xhdpi-v4/com_facebook_tooltip_black_topnub.png
+SHA1-Digest: TvQIgYh571qqiZ0ikboQehJyQ/g=
+
+Name: assets/www/css/images/icons-18-black.png
+SHA1-Digest: 2zOURmgG7TYicOGnxfSucQo6Lxg=
+
+Name: assets/www/res/drawable/com_facebook_picker_list_selector_disabl
+ ed.9.png
+SHA1-Digest: Ri3unRsv/0iaj5vk/lYCvhWgrDc=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-20x20@3x.png
+SHA1-Digest: 6FbaLh5Fod8hCpfLDmGymmNHdzc=
+
+Name: res/drawable-mdpi-v4/ic_action_next_item.png
+SHA1-Digest: I11kR9J8D1ym6/6IDHX2g/nVzNc=
+
+Name: res/layout/messenger_button_send_white_small.xml
+SHA1-Digest: H0vDOMPHbSsYoGi9xFDXXkq8wMk=
+
+Name: assets/www/js/spam.js
+SHA1-Digest: C+/zQ9K5g2l+IvXiIqM1tIMzS24=
+
+Name: assets/www/res/drawable/com_facebook_profile_picture_blank_squar
+ e.png
+SHA1-Digest: /QFmJDPfN53Xa6/3xCgxgrYfgD8=
+
+Name: assets/www/plugins/cordova-plugin-device-motion/www/Acceleration
+ .js
+SHA1-Digest: B1eH1+prolbx9V4XCi3qN2/N8G0=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileUploadResult.js
+SHA1-Digest: NWG6PP39UTJH+OLgtQdqeQSipPE=
+
+Name: assets/www/images/iconTwitter.gif
+SHA1-Digest: U0PWeww/flXYWBySuuOygWfuvQc=
+
+Name: res/drawable-xxhdpi-v4/messenger_bubble_large_white.png
+SHA1-Digest: Q8t/4HDQYKAfHMsTU7aF/wZ+lDA=
+
+Name: res/drawable-mdpi-v4/com_facebook_tooltip_black_xout.png
+SHA1-Digest: 6inwHFsApb5P5zEgJ/JGxngAERY=
+
+Name: res/drawable-xhdpi-v4/com_facebook_favicon_white.png
+SHA1-Digest: CCD5Gnsi8O8AfnbbijSEON8GzJs=
+
+Name: assets/www/res/layout/com_facebook_picker_list_row.xml
+SHA1-Digest: A0KJVS6tyWYXirabkHU1c+JpKkM=
+
+Name: res/drawable-xhdpi-v4/com_facebook_button_like_icon_selected.png
+SHA1-Digest: GMDSoWb/QFeua7q/UxOYu8cnl4M=
+
+Name: assets/www/res/layout/com_facebook_picker_search_box.xml
+SHA1-Digest: GvmlGVEHcztaI6U3dtnbvYK+owc=
+
+Name: assets/www/plugins/cordova-plugin-file/www/browser/isChrome.js
+SHA1-Digest: ubIP1VXq/ILYzY1GaBx+PA7ZEEo=
+
+Name: assets/www/res/ios/LaunchImage.launchimage/iPad-Default-Port.png
+SHA1-Digest: TPkjNWIiY+BvOeeOCVRPYxkrYaY=
+
+Name: assets/www/res/drawable-hdpi/com_facebook_button_grey_normal.9.p
+ ng
+SHA1-Digest: 88a2qMRGcHN7DHYNjz0YzZXvH9E=
+
+Name: res/color/com_facebook_send_button_text_color.xml
+SHA1-Digest: cq9kqsx6Pqjyl/gfos3sbN8bT9o=
+
+Name: assets/www/res/drawable/com_facebook_button_grey_normal.9.png
+SHA1-Digest: uialI6eRHU3g18Uaynz+Mtm7hzg=
+
+Name: res/drawable-hdpi-v4/com_facebook_tooltip_blue_topnub.png
+SHA1-Digest: rc9sL34YwG4YHm2M4ug0VnF2mMU=
+
+Name: res/drawable-hdpi-v4/messenger_bubble_small_blue.png
+SHA1-Digest: c0qHHF5A/G5vRQHn3H9ACC3h4gY=
+
+Name: res/drawable-xhdpi-v4/ic_action_previous_item.png
+SHA1-Digest: 0dsU8dFcc2mtwhzv/EDl6N0yNE0=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-57x57@1x.png
+SHA1-Digest: ZZbmL53jGZ3fdXUZj8/bBE4hB2A=
+
+Name: assets/www/js/ios/iosShare.js
+SHA1-Digest: jS/vQ0/LhVptpTn8MfdIxzvKF+M=
+
+Name: assets/www/res/drawable/com_facebook_loginbutton_blue.xml
+SHA1-Digest: ns4VNdQ645lzEjnxPnTWpn9NphU=
+
+Name: assets/www/cordova-js-src/exec.js
+SHA1-Digest: A7BC4etS9bFIzKKjf8xg4jH3oqM=
+
+Name: assets/www/res/drawable-xhdpi/close.png
+SHA1-Digest: i9lYZZOBgyVfCZZ5Vlclzb5W9II=
+
+Name: res/drawable/com_facebook_button_login_silver_background.xml
+SHA1-Digest: Z43b3zgRTkneC98aM5WzJ+zOwLs=
+
+Name: res/drawable-port-mdpi-v4/screen.png
+SHA1-Digest: xQF9FkF91ssL80U0ZZIBCcr9Qs0=
+
+Name: assets/www/res/drawable/com_facebook_picker_list_focused.9.png
+SHA1-Digest: 65upoZfUU3xUzco05+l/QnAFjLs=
+
+Name: assets/www/res/drawable-hdpi/com_facebook_close.png
+SHA1-Digest: BpjQkr4hvU/OM/G6vlGRE2kn8+0=
+
+Name: assets/www/res/drawable-ldpi/close.png
+SHA1-Digest: 4uC5z+TEtPM2X/fZBpDNVWitGMo=
+
+Name: res/drawable-xxhdpi-v4/ic_action_previous_item.png
+SHA1-Digest: O6f3A1T4xOSQqVUldAFPWs1Ax2I=
+
+Name: assets/www/res/drawable/com_facebook_top_background.xml
+SHA1-Digest: IzG8FE2s3T0CoAAA++qPm9oH2I0=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Contents.json
+SHA1-Digest: g6j25hiU11DhT/kCvyZKwUlos+0=
+
+Name: assets/www/cordova-js-src/platform.js
+SHA1-Digest: /mJ5H2qTR9Bi2LjUspEVgxlBB+g=
+
+Name: res/drawable-port-ldpi-v4/screen.png
+SHA1-Digest: 0xgQIHIbfOrpLeNb8Awy2KsX/rk=
+
+Name: res/layout/messenger_button_send_blue_small.xml
+SHA1-Digest: lcmIGBhbWCcWlrv2y81T6qVvVtw=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-57x57@2x.png
+SHA1-Digest: mlU93hpMDKgLj/fhHkeWMssOkLc=
+
+Name: assets/www/plugins/cordova-plugin-file/www/Metadata.js
+SHA1-Digest: pqzoWRD3wVB3Ye75cqlJS0MJse8=
+
+Name: assets/www/res/drawable-hdpi/com_facebook_loginbutton_blue_norma
+ l.png
+SHA1-Digest: 3y62pVbBbdZORYQVwu+sf9xuUPo=
+
+Name: res/drawable-xhdpi-v4/com_facebook_button_send_icon_blue.png
+SHA1-Digest: DOH3jzsXTGeu6sBwj/v30tMnUJk=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactFieldType.
+ js
+SHA1-Digest: V4KYgA/L5pCTGkPblS07eOl73Ys=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactError.js
+SHA1-Digest: +GAXGSiqfh/3Njnos6kY8CC1LHY=
+
+Name: assets/www/plugins/cordova-plugin-file-transfer/www/FileTransfer
+ Error.js
+SHA1-Digest: CwhFDysdKn06qN1rH2TPGUOpb8U=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-Small-50x50@1x.png
+SHA1-Digest: yZLSYVhDHTvrwKaGHsNJzaj0/IA=
+
+Name: res/drawable-mdpi-v4/com_facebook_profile_picture_blank_portrait
+ .png
+SHA1-Digest: HFYNmPQ3SUprso/dYMAdtqMPoVs=
+
+Name: assets/www/res/layout/com_facebook_picker_title_bar.xml
+SHA1-Digest: 89ptIGnqj7tGj/uFGOL7bm+tReg=
+
+Name: assets/www/plugins/cordova-plugin-globalization/www/Globalizatio
+ nError.js
+SHA1-Digest: J66NSQCtZMXEXxy58i/eqa18HPI=
+
+Name: res/drawable-mdpi-v4/com_facebook_close.png
+SHA1-Digest: mMIYL6dajEsmnw3NkOJEn1pJC8o=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-76x76@2x.png
+SHA1-Digest: rqQZOVgMEy3s8WSelEzLKyDgx2k=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactName.js
+SHA1-Digest: 31GFvzig0lq4D3kZR6hHPZtxKUY=
+
+Name: res/drawable-mdpi-v4/com_facebook_tooltip_black_topnub.png
+SHA1-Digest: o9Bqb0hgo8pXjwB5/vNrCMHoBt8=
+
+Name: assets/www/plugins/cordova-plugin-file/www/DirectoryReader.js
+SHA1-Digest: DYl5STMossCo91No/ZA3GWcZekI=
+
+Name: assets/www/images/map.png
+SHA1-Digest: pfAp5om8tOuwcrUnpEhL9dDppRo=
+
+Name: assets/www/res/drawable/facebook_icon.png
+SHA1-Digest: O10PJ3vPkAdypNUGk3PgmTOlWLg=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-20x20@1x.png
+SHA1-Digest: ntWw+JwHEOZDyvFtG2+4E/Uw85g=
+
+Name: assets/www/res/drawable/com_facebook_loginbutton_blue_focused.pn
+ g
+SHA1-Digest: au7XKxBvsFcxMRkdd/7RmbZCjfY=
+
+Name: res/drawable/messenger_button_blue_bg_round.xml
+SHA1-Digest: z0o+KAZbAlFfOTc+Og/nXoF9efE=
+
+Name: assets/www/res/drawable-xhdpi/com_facebook_close.png
+SHA1-Digest: i9lYZZOBgyVfCZZ5Vlclzb5W9II=
+
+Name: assets/www/res/drawable/com_facebook_picker_list_selector.xml
+SHA1-Digest: ZWyyoSDoVdEbohExKLi3a6wXvJI=
+
+Name: assets/www/res/xml/splash.xml
+SHA1-Digest: xjaOdEkrzD8gBCLdcfbBSPQLaGo=
+
+Name: assets/www/plugins/cordova-plugin-file/www/resolveLocalFileSyste
+ mURI.js
+SHA1-Digest: T1t7ZcY0U+V6tPD8c7TI2s4U6Ek=
+
+Name: assets/www/plugins/cordova-plugin-file/www/fileSystems.js
+SHA1-Digest: siqwQ3nESGRBBeRWxurbyvc/TPA=
+
+Name: res/drawable/messenger_button_white_bg_selector.xml
+SHA1-Digest: +nNKft6aQcJmQNTaHLQtIPyeMFM=
+
+Name: assets/www/res/drawable/com_facebook_picker_list_pressed.9.png
+SHA1-Digest: jtEHszy8y/q4gwjrVAhYrwHvBIM=
+
+Name: res/mipmap-hdpi-v4/icon.png
+SHA1-Digest: QXZl+x7Rb+o64Uswtax+vf0UahA=
+
+Name: res/drawable-hdpi-v4/com_facebook_close.png
+SHA1-Digest: iXyu9ufEFsnXJ1J6PxwfbiVc8pw=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-76x76@1x.png
+SHA1-Digest: fRextYU5RO+k26uRcjvud4Kg0XU=
+
+Name: assets/www/res/drawable/splash.png
+SHA1-Digest: 0YgA7uVaRCC3iCHIMLlpOKIP1iY=
+
+Name: res/drawable-mdpi-v4/messenger_bubble_large_blue.png
+SHA1-Digest: lZCcnyfT7kWgZMIwE7+SFDA8ZiQ=
+
+Name: assets/www/res/drawable-xhdpi/com_facebook_loginbutton_blue_pres
+ sed.png
+SHA1-Digest: hWpNUmaMEfx3iyeETGfQlwjmXMU=
+
+Name: assets/www/cordova_plugins.js
+SHA1-Digest: xqmZu8UOjIha2LnvLpedktdVDV8=
+
+Name: res/drawable-hdpi-v4/ic_action_previous_item.png
+SHA1-Digest: 22hOl4hxhbk+vXL5yh1q/sikcuo=
+
+Name: assets/www/js/share.js
+SHA1-Digest: g4TrbW+iDgkJD80i8VJ7+YTNQCg=
+
+Name: res/layout/com_facebook_login_fragment.xml
+SHA1-Digest: lt/B9Iaipza695NsAYNE2Mydr6Y=
+
+Name: res/layout/com_facebook_tooltip_bubble.xml
+SHA1-Digest: KFJ0fgpbOKV2RTeBkRhQIjpsq3A=
+
+Name: assets/www/js/reportStore.js
+SHA1-Digest: w8iV4ekdCjs68jiAIGupoa6l+WM=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileError.js
+SHA1-Digest: UvOEHmW81EyAwfdk8R1YeXQArlo=
+
+Name: assets/www/res/ios/LaunchImage.launchimage/iPhone-RetinaHD5.5-Po
+ rt-736h@3x.png
+SHA1-Digest: 3IhVOBWbrSTUtCQp7BGBG4EjcCs=
+
+Name: assets/www/res/layout/com_facebook_placepickerfragment_list_row.
+ xml
+SHA1-Digest: Fxy76rBjj+ypE2m3hOUUR7LePrE=
+
+Name: assets/www/js/ios/EmailComposer.js
+SHA1-Digest: UzrfNSxOC6WiuGttEwNepQ9zK98=
+
+Name: assets/www/res/drawable/com_facebook_profile_picture_blank_portr
+ ait.png
+SHA1-Digest: Cf3P+H4htqufzdkt4Rp3ITN43YE=
+
+Name: res/drawable-mdpi-v4/com_facebook_profile_picture_blank_square.p
+ ng
+SHA1-Digest: TNhkltiU+9wUPiQ+wKiTnXqN5kA=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-20x20@2x.png
+SHA1-Digest: vI/Z+fTrV1nVFytJYuDkMv2J1Nw=
+
+Name: res/drawable-xhdpi-v4/ic_action_next_item.png
+SHA1-Digest: NR4QrPwnbh+SEbVIapOw4Qetu0E=
+
+Name: assets/www/js/android/androidShare.js
+SHA1-Digest: +aeAEYD/i6bZAzcUo1O5i6ss99c=
+
+Name: res/drawable-xhdpi-v4/com_facebook_tooltip_blue_bottomnub.png
+SHA1-Digest: DwXYFfK5q0iroB9tQ021vKi8buQ=
+
+Name: assets/www/res/drawable-hdpi/facebook_icon.png
+SHA1-Digest: wbxJAiaxb5v2bAoUIhChtN4kyec=
+
+Name: res/layout/messenger_button_send_blue_large.xml
+SHA1-Digest: QlscSf2PCdMU1jhv98CGbc1n2Go=
+
+Name: res/drawable-hdpi-v4/com_facebook_button_icon_blue.png
+SHA1-Digest: k5/RWbmFldXExc1EpbPik52+y5o=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/CaptureImage
+ Options.js
+SHA1-Digest: WOAv5J7Ku811T0EC1hkqrRkenwk=
+
+Name: res/drawable-xhdpi-v4/messenger_button_send_round_shadow.png
+SHA1-Digest: aLARO2uzZOubSkaWP3tkMoTSnww=
+
+Name: assets/www/res/drawable-ldpi/com_facebook_icon.png
+SHA1-Digest: 4XdmuNZ3DQg8SfwAw1plbWl5SRM=
+
+Name: res/layout-v16/com_facebook_device_auth_dialog_fragment.xml
+SHA1-Digest: HAkb6m0kwPpKULLIpm9UIdGyxeI=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-App-29x29@3x.png
+SHA1-Digest: tfTGVCzhbQ7Zftt2/4jxaFx7nn4=
+
+Name: res/drawable-xhdpi-v4/com_facebook_close.png
+SHA1-Digest: 8KOiYoUMNvNT+KUY8NKOPRHipzE=
+
+Name: res/color/com_facebook_button_text_color.xml
+SHA1-Digest: fazoUTXougo7g0VZlPmZljG+VVk=
+
+Name: assets/www/res/drawable/hsr_icon_white.png
+SHA1-Digest: tjsJtgnfsC3Z3hB9gc/CgdL7iIk=
+
+Name: assets/www/res/drawable-hdpi/com_facebook_button_grey_focused.9.
+ png
+SHA1-Digest: hF6P9FKc6JQB/hrNezHXQ4Poaqw=
+
+Name: assets/www/res/drawable/com_facebook_picker_top_button.xml
+SHA1-Digest: tTrizmZJ582wSp0heR15tqCH6uI=
+
+Name: res/mipmap-xhdpi-v4/icon.png
+SHA1-Digest: QXZl+x7Rb+o64Uswtax+vf0UahA=
+
+Name: assets/www/res/ios/AppIcon.appiconset/Icon-Small-50x50@2x.png
+SHA1-Digest: W8u1S1DO0uSj1NfW5fYf31t6Y+E=
+
+Name: assets/www/res/values/attrs.xml
+SHA1-Digest: djWJFpRk5pt61iGE5EDJZ2394UY=
+
+Name: assets/www/plugins/cordova-plugin-device-orientation/www/Compass
+ Heading.js
+SHA1-Digest: Rr5Kr48pEQ3PmpR+N1luRn9Re9A=
+
+Name: assets/www/res/xml/config.xml
+SHA1-Digest: 6QFVeS460iIG2LVP0uAzULyTHPg=
+
+Name: res/drawable-mdpi-v4/com_facebook_tooltip_black_bottomnub.png
+SHA1-Digest: W4EaBoKegn0YFT9B4iheOBbnGW0=
+
+Name: res/drawable-xxhdpi-v4/com_facebook_button_icon_white.png
+SHA1-Digest: r9reWLkwWCZ4nVy7fnH5j/Z0R18=
+
+Name: res/drawable-xxhdpi-v4/messenger_bubble_small_blue.png
+SHA1-Digest: UL53ChTq6LdOyR+Xovrfc9k7Z9w=
+
+Name: res/drawable-xxhdpi-v4/messenger_button_send_round_shadow.png
+SHA1-Digest: 4vkAj22baK382YRIPtDPnSmlUQg=
+
+Name: res/drawable-mdpi-v4/com_facebook_button_icon_blue.png
+SHA1-Digest: Z7xVgTgqFPSHVotSIRwGooK8j+A=
+
+Name: res/drawable-mdpi-v4/com_facebook_tooltip_blue_background.9.png
+SHA1-Digest: catelxgP4Vurpy+V7+L3PNxSwKk=
+
+Name: assets/www/res/drawable/com_facebook_loginbutton_blue_pressed.pn
+ g
+SHA1-Digest: au7XKxBvsFcxMRkdd/7RmbZCjfY=
+
+Name: res/drawable-hdpi-v4/com_facebook_button_like_icon_selected.png
+SHA1-Digest: S+6IL6g0+6QMZHEwW/kXRPMz/yA=
+
+Name: assets/www/res/drawable-xhdpi/com_facebook_loginbutton_blue_focu
+ sed.png
+SHA1-Digest: hWpNUmaMEfx3iyeETGfQlwjmXMU=
+
+Name: res/drawable-hdpi-v4/ic_action_remove.png
+SHA1-Digest: fJ8PTsrpYrWc6H7e3ctCsDSiaAY=
+
+Name: assets/www/plugins/cordova-plugin-file/www/fileSystemPaths.js
+SHA1-Digest: MGrgin0kJf1jZwNmX+pkyVb5CXc=
+
+Name: assets/www/res/drawable-hdpi/com_facebook_icon.png
+SHA1-Digest: wbxJAiaxb5v2bAoUIhChtN4kyec=
+
+Name: classes.dex
+SHA1-Digest: p91KTlovPX+wpkhcGhu03txOERE=
+

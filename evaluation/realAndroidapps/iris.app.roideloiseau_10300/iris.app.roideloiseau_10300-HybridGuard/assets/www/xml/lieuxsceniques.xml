@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lieuxsceniques>
+		<lieuscenique>
+            <num>1</num>
+            <nom></nom>
+            <adresse>Jardin Henri Vinay</adresse>
+            <tel></tel>
+            <latitude>45.039940</latitude>
+            <longitude>3.883481</longitude>
+        </lieuscenique>
+        <lieuscenique>
+            <num>2</num>
+            <nom></nom>
+            <adresse>Place du Plot</adresse>
+            <tel></tel>
+            <latitude>45.043284</latitude>
+            <longitude>3.882783</longitude>
+        </lieuscenique>
+        <lieuscenique>
+            <num>3</num>
+            <nom></nom>
+            <adresse>Place du Martouret</adresse>
+            <tel></tel>
+            <latitude>45.042945</latitude>
+            <longitude>3.884193</longitude>
+        </lieuscenique>
+        <lieuscenique>
+            <num>4</num>
+            <nom></nom>
+            <adresse>Cour du Bessat</adresse>
+            <tel></tel>
+            <latitude>45.043907</latitude>
+            <longitude>3.884859</longitude>
+        </lieuscenique>
+        <lieuscenique>
+            <num>5</num>
+            <nom></nom>
+            <adresse>Place du Marché Couvert</adresse>
+            <tel></tel>
+            <latitude>45.043752</latitude>
+            <longitude>3.880817</longitude>
+        </lieuscenique>
+        <lieuscenique>
+            <num>6</num>
+            <nom></nom>
+            <adresse>Placette des Farges</adresse>
+            <tel></tel>
+            <latitude>45.045657</latitude>
+            <longitude>3.882592</longitude>
+        </lieuscenique>
+        <lieuscenique>
+            <num>7</num>
+            <nom></nom>
+            <adresse>Lavoir de la Visitation</adresse>
+            <tel></tel>
+            <latitude>45.046286</latitude>
+            <longitude>3.883325</longitude>
+        </lieuscenique>
+        <lieuscenique>
+            <num>8</num>
+            <nom></nom>
+            <adresse>Place Mgr de Galard</adresse>
+            <tel></tel>
+            <latitude>45.047161</latitude>
+            <longitude>3.883174</longitude>
+        </lieuscenique>
+        <lieuscenique>
+            <num>9</num>
+            <nom></nom>
+            <adresse>Jardins de Galard</adresse>
+            <tel></tel>
+            <latitude>45.047031</latitude>
+            <longitude>3.883174</longitude>
+        </lieuscenique>
+        <lieuscenique>
+            <num>10</num>
+            <nom></nom>
+            <adresse>Cour du Conseil Départemental</adresse>
+            <tel></tel>
+            <latitude>45.046730</latitude>
+            <longitude>3.884048</longitude>
+        </lieuscenique>
+        <lieuscenique>
+            <num>11</num>
+            <nom></nom>
+            <adresse>Podium de la cathédrale</adresse>
+            <tel></tel>
+            <latitude>45.045567</latitude>
+            <longitude>3.883919</longitude>
+        </lieuscenique>
+        <lieuscenique>
+            <num>12</num>
+            <nom></nom>
+            <adresse>Chapelle du lycée Anne-Marie Martel</adresse>
+            <tel></tel>
+            <latitude>45.045348</latitude>
+            <longitude>3.886226</longitude>
+        </lieuscenique>
+        <lieuscenique>
+            <num>13</num>
+            <nom></nom>
+            <adresse>Place Saint-Georges</adresse>
+            <tel></tel>
+            <latitude>45.045908</latitude>
+            <longitude>3.886061</longitude>
+        </lieuscenique>
+        <lieuscenique>
+            <num>14</num>
+            <nom></nom>
+            <adresse>Esplanade Pierre Cardinal</adresse>
+            <tel></tel>
+            <latitude>45.045343</latitude>
+            <longitude>3.887116</longitude>
+        </lieuscenique>
+        <lieuscenique>
+            <num>15</num>
+            <nom></nom>
+            <adresse>Cour Jules Vallès</adresse>
+            <tel></tel>
+            <latitude>45.044757</latitude>
+            <longitude>3.886879</longitude>
+        </lieuscenique>
+        <lieuscenique>
+            <num>16</num>
+            <nom></nom>
+            <adresse>Place de Théron Droits de l'Homme</adresse>
+            <tel></tel>
+            <latitude>45.043028</latitude>
+            <longitude>3.886483</longitude>
+        </lieuscenique>
+</lieuxsceniques>

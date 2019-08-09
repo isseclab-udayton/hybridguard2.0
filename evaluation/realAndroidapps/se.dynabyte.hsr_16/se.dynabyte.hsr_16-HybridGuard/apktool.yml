@@ -1,0 +1,79 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: se.dynabyte.hsr_16.apk
+compressionType: false
+doNotCompress:
+- arsc
+- gif
+- png
+- assets/www/res/drawable-hdpi/com_facebook_button_grey_focused.9.png
+- assets/www/res/drawable-hdpi/com_facebook_button_grey_normal.9.png
+- assets/www/res/drawable-hdpi/com_facebook_button_grey_pressed.9.png
+- assets/www/res/drawable-xhdpi/com_facebook_button_grey_focused.9.png
+- assets/www/res/drawable-xhdpi/com_facebook_button_grey_normal.9.png
+- assets/www/res/drawable-xhdpi/com_facebook_button_grey_pressed.9.png
+- assets/www/res/drawable/com_facebook_button_grey_focused.9.png
+- assets/www/res/drawable/com_facebook_button_grey_normal.9.png
+- assets/www/res/drawable/com_facebook_button_grey_pressed.9.png
+- assets/www/res/drawable/com_facebook_list_divider.9.png
+- assets/www/res/drawable/com_facebook_list_section_header_background.9.png
+- assets/www/res/drawable/com_facebook_picker_list_focused.9.png
+- assets/www/res/drawable/com_facebook_picker_list_longpressed.9.png
+- assets/www/res/drawable/com_facebook_picker_list_pressed.9.png
+- assets/www/res/drawable/com_facebook_picker_list_selector_disabled.9.png
+- assets/www/res/drawable/splash.9.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-20x20@1x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-20x20@2x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-20x20@3x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-29x29@1x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-29x29@2x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-29x29@3x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-40x40@1x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-40x40@2x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-40x40@3x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-57x57@1x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-57x57@2x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-60x60@1x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-60x60@2x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-60x60@3x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-72x72@1x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-72x72@2x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-76x76@1x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-76x76@2x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-76x76@3x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-Small-50x50@1x.png
+- assets/www/res/ios/AppIcon.appiconset/Icon-Small-50x50@2x.png
+- assets/www/res/ios/LaunchImage.launchimage/iPad-Default-Land.png
+- assets/www/res/ios/LaunchImage.launchimage/iPad-Default-Land@2x.png
+- assets/www/res/ios/LaunchImage.launchimage/iPad-Default-Port.png
+- assets/www/res/ios/LaunchImage.launchimage/iPad-Default-Port@2x.png
+- assets/www/res/ios/LaunchImage.launchimage/iPadPro-Default-Port@2x.png
+- assets/www/res/ios/LaunchImage.launchimage/iPhone-Default-Port@2x.png
+- assets/www/res/ios/LaunchImage.launchimage/iPhone-Retina4-Port-568h@2x.png
+- assets/www/res/ios/LaunchImage.launchimage/iPhone-RetinaHD4.7-Port-667h@2x.png
+- assets/www/res/ios/LaunchImage.launchimage/iPhone-RetinaHD5.5-Land-736h@3x.png
+- assets/www/res/ios/LaunchImage.launchimage/iPhone-RetinaHD5.5-Port-736h@3x.png
+- res/drawable-hdpi-v4/com_facebook_tooltip_black_background.9.png
+- res/drawable-hdpi-v4/com_facebook_tooltip_blue_background.9.png
+- res/drawable-mdpi-v4/com_facebook_tooltip_black_background.9.png
+- res/drawable-mdpi-v4/com_facebook_tooltip_blue_background.9.png
+- res/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.png
+- res/drawable-xhdpi-v4/com_facebook_tooltip_blue_background.9.png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '15'
+  targetSdkVersion: '24'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '16'
+  versionName: 3.0.0

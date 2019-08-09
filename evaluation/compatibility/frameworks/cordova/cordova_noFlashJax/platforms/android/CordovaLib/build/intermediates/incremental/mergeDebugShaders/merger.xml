@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/caps01/r2017/hybridguard/tests/cordova_noFlashJax/platforms/android/CordovaLib/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/caps01/r2017/hybridguard/tests/cordova_noFlashJax/platforms/android/CordovaLib/src/debug/shaders"/></dataSet></merger>

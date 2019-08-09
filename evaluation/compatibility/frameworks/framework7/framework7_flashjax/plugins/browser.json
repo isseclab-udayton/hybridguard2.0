@@ -1,0 +1,52 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.manateeworks.barcodescanner": {
+            "PACKAGE_NAME": "com.isslab.framework7_flashjax"
+        },
+        "cordova-plugin-barcodescanner": {
+            "PACKAGE_NAME": "com.isslab.framework7_flashjax"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.isslab.framework7_flashjax"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.isslab.framework7_flashjax"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.isslab.framework7_flashjax"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.isslab.framework7_flashjax"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.isslab.framework7_flashjax"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.isslab.framework7_flashjax"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.isslab.framework7_flashjax"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.isslab.framework7_flashjax"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.isslab.framework7_flashjax"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.isslab.framework7_flashjax"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.isslab.framework7_flashjax"
+        }
+    }
+}

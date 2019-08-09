@@ -1,0 +1,87 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-native-camera",
+        "scope": null,
+        "escapedName": "cordova-native-camera",
+        "name": "cordova-native-camera",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/caps01/r2017/hybridguard/tests/fw7_c/node_modules"
+    ]
+  ],
+  "_from": "cordova-native-camera@latest",
+  "_id": "cordova-native-camera@1.0.2",
+  "_inCache": true,
+  "_location": "/cordova-native-camera",
+  "_nodeVersion": "6.5.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/cordova-native-camera-1.0.2.tgz_1488020694867_0.034948769956827164"
+  },
+  "_npmUser": {
+    "name": "freezx",
+    "email": "kiko_trajkovski@hotmail.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-native-camera",
+    "scope": null,
+    "escapedName": "cordova-native-camera",
+    "name": "cordova-native-camera",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-native-camera/-/cordova-native-camera-1.0.2.tgz",
+  "_shasum": "1a63a8397472f6d0e0f7847f47de5aa1b86634fb",
+  "_shrinkwrap": null,
+  "_spec": "cordova-native-camera",
+  "_where": "/Users/caps01/r2017/hybridguard/tests/fw7_c/node_modules",
+  "author": {
+    "name": "Kristijan Trajkovski",
+    "email": "kiko_trajkovski@hotmail.com"
+  },
+  "dependencies": {},
+  "description": "Preview native camera within your cordova app",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "1a63a8397472f6d0e0f7847f47de5aa1b86634fb",
+    "tarball": "https://registry.npmjs.org/cordova-native-camera/-/cordova-native-camera-1.0.2.tgz"
+  },
+  "gitHead": "57eaeae39f8db2426b411c4e6f1db4fedf39bd72",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova",
+    "native",
+    "camera",
+    "preview"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "freezx",
+      "email": "kiko_trajkovski@hotmail.com"
+    }
+  ],
+  "name": "cordova-native-camera",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch"
+  },
+  "version": "1.0.2"
+}

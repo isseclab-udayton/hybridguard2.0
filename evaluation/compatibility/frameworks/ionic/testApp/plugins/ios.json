@@ -1,0 +1,37 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.ionicframework.testapp574854"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.ionicframework.testapp574854"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.ionicframework.testapp574854"
+        },
+        "cordova-plugin-sms": {
+            "PACKAGE_NAME": "com.ionicframework.testapp574854"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.ionicframework.testapp574854"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.ionicframework.testapp574854"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.ionicframework.testapp574854"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.ionicframework.testapp574854"
+        }
+    }
+}

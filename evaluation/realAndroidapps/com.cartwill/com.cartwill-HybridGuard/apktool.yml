@@ -1,0 +1,75 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.cartwill.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- gif
+- assets/www/images/ratings/0.0-stars.png
+- assets/www/images/ratings/0.1-stars.png
+- assets/www/images/ratings/0.2-stars.png
+- assets/www/images/ratings/0.3-stars.png
+- assets/www/images/ratings/0.4-stars.png
+- assets/www/images/ratings/0.5-stars.png
+- assets/www/images/ratings/0.6-stars.png
+- assets/www/images/ratings/0.7-stars.png
+- assets/www/images/ratings/0.8-stars.png
+- assets/www/images/ratings/0.9-stars.png
+- assets/www/images/ratings/1.0-stars.png
+- assets/www/images/ratings/1.1-stars.png
+- assets/www/images/ratings/1.2-stars.png
+- assets/www/images/ratings/1.3-stars.png
+- assets/www/images/ratings/1.4-stars.png
+- assets/www/images/ratings/1.5-stars.png
+- assets/www/images/ratings/1.6-stars.png
+- assets/www/images/ratings/1.7-stars.png
+- assets/www/images/ratings/1.8-stars.png
+- assets/www/images/ratings/1.9-stars.png
+- assets/www/images/ratings/2.0-stars.png
+- assets/www/images/ratings/2.1-stars.png
+- assets/www/images/ratings/2.2-stars.png
+- assets/www/images/ratings/2.3-stars.png
+- assets/www/images/ratings/2.4-stars.png
+- assets/www/images/ratings/2.5-stars.png
+- assets/www/images/ratings/2.6-stars.png
+- assets/www/images/ratings/2.7-stars.png
+- assets/www/images/ratings/2.8-stars.png
+- assets/www/images/ratings/2.9-stars.png
+- assets/www/images/ratings/3.0-stars.png
+- assets/www/images/ratings/3.1-stars.png
+- assets/www/images/ratings/3.2-stars.png
+- assets/www/images/ratings/3.3-stars.png
+- assets/www/images/ratings/3.4-stars.png
+- assets/www/images/ratings/3.5-stars.png
+- assets/www/images/ratings/3.6-stars.png
+- assets/www/images/ratings/3.7-stars.png
+- assets/www/images/ratings/3.8-stars.png
+- assets/www/images/ratings/3.9-stars.png
+- assets/www/images/ratings/4.0-stars.png
+- assets/www/images/ratings/4.1-stars.png
+- assets/www/images/ratings/4.2-stars.png
+- assets/www/images/ratings/4.3-stars.png
+- assets/www/images/ratings/4.4-stars.png
+- assets/www/images/ratings/4.5-stars.png
+- assets/www/images/ratings/4.6-stars.png
+- assets/www/images/ratings/4.7-stars.png
+- assets/www/images/ratings/4.8-stars.png
+- assets/www/images/ratings/4.9-stars.png
+- assets/www/images/ratings/5.0-stars.png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '5'
+sharedLibrary: false
+sparseResources: true
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '27'
+  versionName: 0.5.2

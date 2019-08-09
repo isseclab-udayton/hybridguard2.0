@@ -1,0 +1,24 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.ohmztech.hungrypet1.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '6'
+  targetSdkVersion: '17'
+sharedLibrary: false
+sparseResources: true
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '32'
+  versionName: 1.4.0

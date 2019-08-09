@@ -1,0 +1,303 @@
+<div id="profileByIdView" data-role="page">
+
+    <div data-role="content" >
+
+    <style>
+    .profileHead .img.round {
+        background-image: url( '../../images/default-avatar.png' );
+        height: 6.5em;
+        width: 6.5em;
+        margin-right: 1.3em;
+        border-radius:.2em;
+    }
+    .profileLinks .profileNumbers li p {
+        margin: 0;
+        font-size: 1em;
+        text-transform: uppercase;
+        color: #BFBDBD;
+        font-weight: bold;
+    }
+    .profileLinks .profileNumbers li h4 {
+        color: #fff;
+        margin: 0 0 0 0;
+        font-size: 1.8em;
+        line-height: 1.2em;
+        font-weight: bold !important;
+    }
+    .profileLinks .profileNumbers {
+        margin-top: 37px;
+    }
+    .profileHead {
+        background-image: url('../../images/gillette-stadium-in-foxboro-juergen-roth.jpg');
+        color: white;
+        padding: 1em 1em 2em 1em;
+    }
+
+    .rounded.trans.ui-link {
+        color: white;
+    }
+    .rounded.trans.ui-link.Follow{
+        color: red;  
+        border-color: red;
+    }
+    </style>
+
+        
+    <script type="text/x-kendo-template" id="profileByIdView-profileInfo-AvatarPhoto-template">
+		
+
+		<div style="
+        			background : url( '{{ profilePhoto }}' );
+                    width: 100%;
+                    height: 100%;
+                    background-size: cover;
+                    background-position: center;
+                    border-radius: .2em;
+        			"
+        ></div>
+
+    </script>
+     
+        
+    <script type="text/x-kendo-template" id="profileByIdView-profileInfo-FollowButton-template">
+		
+
+        {{#if isNotThisUser}}
+
+            <a id="profileByIdView-profileInfo-FollowButton"
+               class="rounded trans ui-link {{#if customIsFollowing}}Follow{{else}}{{/if}}"
+               href="#" data-transition="none" 
+               style="float: right;
+                      padding: .2em .5em .2em .5em;
+                      font-size: .9em;
+                      background: transparent;
+                      font-weight: bold;
+                      border-style: double;
+                     "
+                onclick="profileNameSpace.followPeople( {{ profileId }},{{ customIsFollowing }});"
+            >
+                
+                {{#if customIsFollowing}}
+                    Unfollow
+                {{else}}
+                    Follow
+                {{/if}}
+            </a>
+
+		{{/if}}
+    </script>
+
+        
+        
+        <div class="ui-header ui-bar-a" style="display:none;" id="profileByIdView-myProfileCustomHeader">
+
+            <h1 class="ui-title noBg ui-link" >
+                
+                <span onclick="history.back();">
+                    <i style="padding:1em 0em .5em .5em;" class="fa fa-angle-left"></i>
+                    &nbsp;My Profile
+                </span>
+                <style>
+                    .header-right-part .block {
+                        padding:1em .5em .5em .5em;
+                    }
+                </style>
+                <span class="header-right-part" style="float: right;">
+                    <i class="block fa fa-user-plus" onclick="customNamespace.invite();gaPlugin.trackEvent(function() {console.log('success header invite');},function() {console.log('fail header invite');},'header','click','recruit',1);"></i>
+                    <i class="block fa fa-pencil" onclick="customNamespace.page.goTo( 'views/profile/Profile_Edit.html' );"></i>
+                    <i class="block fa fa-bars" onclick="$('#popupMenu').popup('open', { positionTo : this } )"></i>
+                </span>
+            </h1>
+        </div>
+
+        <div class="profileHead" >
+            <div id="profileByIdView-profileInfo-AvatarPhoto-display" class="img round">
+            </div>
+
+            <div id="profileByIdView-profileInfo-FollowButton-display" >
+                <a 
+                   class="rounded trans white ui-link" href="#" data-transition="none" 
+                   style="float: right;
+                          padding: .2em .5em .2em .5em;
+                          font-size: .9em;
+                          background: transparent;
+                          font-weight: bold;
+                          border-style: double;
+                          "
+                >
+                    <i class="fa fa-spinner fa-spin" style="opacity:.3; "></i>
+                </a>
+            </div>
+
+            <div class="user">
+                <h2 style="
+                        padding: 0;
+                        margin: 0;
+                        padding: 0.2em 0 0 0;
+                      "
+                >
+                    <span id="profileByIdView-profileInfo-Detail-profileHandle-display"><i class="fa fa-spinner fa-spin" style="opacity:.3; "></i></span>
+                </h2>
+
+                <h2 style="font-size:1.2em;margin: 1em 0 .3em 0;color: #F9F9F9;">
+                    <span id="profileByIdView-profileInfo-Detail-profileName-display"><i class="fa fa-spinner fa-spin" style="opacity:.3; "></i></span>
+                </h2>
+
+                <p class="location" style="
+                    color: #CFCFCF;
+                    font-size: 1.1em;
+                    "
+                >
+                    <i class="fa fa-map-marker" style="font-size: 1.2em;"></i>
+                        &nbsp;<span id="profileByIdView-profileInfo-Detail-location-display"><i class="fa fa-spinner fa-spin" style="opacity:.3; "></i></span>
+                </p>
+
+                <p id="profileInfoStatus" class="status on"></p>
+
+                </p>
+
+            </div>
+            <div class="profileLinks">
+
+                <ul class="profileNumbers">
+                    <li>
+                        <div style=" margin-left: -2.7em; ">
+                            <h4><span id="profileByIdView-profileInfo-Detail-fans-display"><i class="fa fa-spinner fa-spin" style="opacity:.3; "></i></span></h4>
+                                <p>Fans</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4><span id="profileByIdView-profileInfo-Detail-fansOf-display"><i class="fa fa-spinner fa-spin" style="opacity:.3; "></i></span></h4>
+                        <p>Fans Of</p>
+                    </li>
+                    <li>
+                        <div style=" margin-right: -1em; ">
+                           <h4><span id="profileByIdView-profileInfo-Detail-hypeRank-display"><i class="fa fa-spinner fa-spin" style="opacity:.3; "></i></span></h4>
+                            <p>Hype Score</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="profileMessageBox" id="profileByIdView-profileInfo-Detail-desc-display">
+        </div>
+
+
+    <script type="text/x-kendo-template" id="profileByIdView-profileInfo-followTeamList-template">
+		
+        {{#each Data}}
+        	{{#if showTeam }}
+            	<li onclick="
+                            customNamespace.page.goTo( 'views/team/teampage.html' ); 
+                            teampageNameSpace.teamId = {{ teamId }};
+                        	"  
+                	style="background-image: url('{{ teamIcon }}');"
+                >
+        		</li>
+            {{/if}}
+		{{/each}}
+
+        {{#if teamNumberOverMax }}
+            <li onclick="
+        				var data = window.GetTeamAUserFollowing.JsonObject ;
+                        console.log( data );
+                        $.each( data.Data , function( index , element){
+                            data.Data[index].showTeam = true ;
+                        });
+                        data.teamNumberOverMax = false ;
+                        customNamespace.display.html( data ,  'profileByIdView-profileInfo-followTeamList-template' , 'profileByIdView-profileInfo-followTeamList-display' ) ;
+
+            			"
+                style="background-image: url('../../images/icon-add-gray.gif');"></li>
+        {{/if}}
+        
+    </script>    
+    
+    <div class="teamsFollowed">
+        <h3>Teams Followed</h3>
+        <ul class="clearfix" id="profileByIdView-profileInfo-followTeamList-display">
+        </ul>
+    </div>
+    
+    
+    <script type="text/x-kendo-template" id="profileByIdView-postFeed-template">
+              
+       {{#each Data}}
+
+           <div class="entry">
+
+                <div class="avatar">
+
+                    <ul class="entryData">
+                        <li><i class="fa fa-clock-o"></i>{{customFormatedTime}}</li>
+                        <li><i class="fa fa-eye"></i>{{ postFlagMessage }}</li>
+                        <li><i class="fa fa-comments"></i>{{ fanreactCommentsCount }}</li>
+                    </ul>
+
+                    <div class="img round" style="background-image: url('{{ profilePhoto }}');"></div>
+                    <p class="username">
+                        <a onclick="profileNameSpace.profileID = {{ profileId }} ; location.hash='../profile/profileByIdView.html';">{{ profileHandle }}</a>
+                        <a onclick="#" class="group">{{ PostedIn }}</a>
+                    </p>
+                    <p class="message title" onclick="  location.hash='../comments/commentsView.html';  commentNameSpace.postId={{ postId }};">{{ postTitle }}</p>
+                    <p class="message desc" onclick="  location.hash='../comments/commentsView.html';  commentNameSpace.postId={{ postId }};">{{ formatedPostDescription }}</p>
+                    <div class="{{ classForimgDiv }}" style="background-image: url( '{{ postImageLink }}');" onclick="  location.hash='../comments/commentsView.html'; commentNameSpace.postId={{ postId }};commentNameSpace.postToFlag={{ postId }};"><span></span></div>
+                </div>
+
+                <div class="" style="background-image: url();" onclick="  location.hash='../comments/commentsView.html'; commentNameSpace.postId = {{ postId }} ; commentNameSpace.postToFlag = {{ postId }} ;"><span></span>
+                </div>
+
+
+                <div class="postOptions" cellpadding="0" cellspacing="0" style="  width: 100%; margin: 0 -10px;">
+                    <p class="comment">
+                    	<a onclick="
+                        			postNameSpace.track = 'comment' ;  
+                                    commentNameSpace.postId={{ postId }};
+                                    postNameSpace.queue.var.object.postId = {{ postId }} ;
+                                    postNameSpace.queue.var.object.submitType = 5 ;
+                                    postNameSpace.queue.var.object.submitTypeDesc = 'Commenting' ;
+                                    postNameSpace.queue.var.object.teamid = {{ teamId }} ;
+                                    postNameSpace.queue.var.object.postTitle = 'Not Needed' ;
+                                    postNameSpace.queue.var.object.team = { teamId: {{ teamId }} , teamName: 'Not Needed' } ;                                    
+                                    location.hash='../post/postView.html';
+                                   " 
+                           data-transition="none">
+                           Add a reaction...
+        				</a>
+                    </p>
+                    <ul class="thumbs">
+                        <li class="up">
+                            <a href="#"><i onclick="votingNameSpace.checkIfThisPostVoteInSqlLiteAndAction( {{ postId }} , 1 )" class="fa fa-thumbs-o-up"></i>{{ postUpvoteDownvoteCount }}</a>
+                        </li>
+                        <li class="down">
+                            <a href="#"><i onclick="votingNameSpace.checkIfThisPostVoteInSqlLiteAndAction( {{ postId }} , -1 )" class="fa fa-thumbs-o-down"></i>{{ postDownvoteCount }}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div><!--entry-->
+        {{/each}}
+
+    </script>
+    
+    <div id="profileByIdView-postFeed-display" class="blogFeed">
+    </div>
+    
+    
+
+    <div id="profileFeed" class="blogFeed">
+    </div>
+
+    <script>
+        
+        
+        profileNameSpace.getProfileFeed();
+        profileNameSpace.profileDetail.getAndDisplay();
+        profileNameSpace.profileDetail.getHypeRank();
+        profileNameSpace.profileStatistic.getAndDisplay();
+        profileNameSpace.profileTeam.getAndDisplay();
+
+        scrollNamespace.var.modify('getMoreButton', '.getMore');
+        
+    </script>
+</div>

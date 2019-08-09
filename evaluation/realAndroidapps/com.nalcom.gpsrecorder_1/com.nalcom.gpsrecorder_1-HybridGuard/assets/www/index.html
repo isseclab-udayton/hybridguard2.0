@@ -1,0 +1,851 @@
+<html>
+  <head>
+    <title>index</title>
+
+
+<script type="text/javascript" charset="utf-8" src="apis/cordova-2.5.0.js"></script>
+<script type="text/javascript" charset="utf-8" src="apis/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="apis/default.css"/>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA6xv-6-FGtKUcdlz8H8zxvdX4C-tuigYk&sensor=true&oe=ISO-8859-1;" type="text/javascript"></script>
+<script type="text/javascript" charset="utf-8" src="maps.js"></script>
+<script src="Apoyo.js" type="text/javascript"></script>
+<script src="coreFlashJax.js" type="text/javascript"></script>
+<script src="brujula.js" type="text/javascript"></script>
+<!--  <script src="Toast/toastr.js" type="text/javascript"></script>-->
+<script type="text/javascript" charset="utf-8">
+
+
+
+var nombre;
+var nameSearch;
+var db;
+var map;
+var latitud, longitud, x, y;
+var xActual, yActual;
+var cancelAll;
+var Origen, Destino;
+var markers;
+var siempre3G;
+var control3G;
+var elegido;
+var intervalCounter;
+var fija;
+var grados, brujula, imagen, flecha;
+var colorFlecha;
+var destino;
+var pasado;
+var paquete;
+var posicionesActuales, mejoresPosiciones;
+var timer, timerOut, timerInterval;
+var elegida;
+var cont;
+var tocado;
+var finalizado;
+var accuracyDeCorte;
+var verRuta;
+var timerSetting;
+var estadoOnPause;
+var tempTimer;
+
+document.addEventListener("deviceready", onDeviceReady, false);
+
+function onDeviceReady(){
+	estadoOnPause=false;
+	$("#loading").hide();
+	$("#map_canvas").hide();
+	$("#control_mapa").hide();
+	$("#controles").show();
+	$("input [type=checkbox]").removeAttr('checked');
+	unloadingScreen();
+	
+	DatabaseStartup();
+	
+	
+	$("#divBoton").click(function(){
+		
+		var red=Redes();
+		if(red==true){
+			loadingScreen();
+			navigator.geolocation.clearWatch(timerInterval);
+			finalizado=true;
+			$("#cargando").hide();
+			clearTimeout(timerOut);
+			Guardar();
+		}else{
+			alert("Conexión 3G no disponible en este momento");
+		}
+		
+	});
+	
+	$("#research").click(function(){
+		estadoOnPause=true;
+		$(this).hide();
+		$("#stopresearch").show();
+		$("#cargando").show();
+		loadingScreen();
+		AbrirPunto();	
+		
+	});
+	
+	$("#stopresearch").click(function(){
+		estadoOnPause=false;
+		$(this).hide();
+		$("#research").show();
+		$("#cargando").hide();
+		//alert("8");
+		navigator.geolocation.clearWatch(timerInterval);
+		//alert("2");
+		clearTimeout(timerOut);
+		
+			
+		
+	});
+	
+	$("#button_exit").click(function(){
+		estadoOnPause=false;
+		navigator.geolocation.clearWatch(timerInterval);
+		clearTimeout(timerOut);
+		navigator.compass.clearWatch(brujula);
+		finalizado=true;
+		$("#map_canvas").hide();
+		finalizado=null;
+		$("#control_mapa").hide();
+		$("#controles").show();
+		verRuta="no pass";
+		$("#button_ruta").val("Ver ruta");
+		posicionesActuales=[];
+		mejoresPosiciones=[];
+	});
+	
+	
+	$("#button_ruta").click(function(){
+		$("input [type=checkbox]").removeAttr('checked');
+		if(verRuta=="pass"){
+			loadingScreen();
+			navigator.geolocation.clearWatch(timerInterval);
+			clearTimeout(timerOut);
+			clearTimeout(control3G);
+			verRuta="no pass";
+			
+			var options = { frequency: 2000 };
+    		brujula = navigator.compass.watchHeading(onGrades, errores, options);
+    		
+			var myOptions = { timeout: 60000, enableHighAccuracy: true };
+			timerInterval = navigator.geolocation.watchPosition(onSuccessActual, errores, myOptions);
+			PintaMapa(verRuta);
+			
+			$("#button_ruta").text("Ver ruta");
+			$("#posiciones").hide();
+			tocado=false;
+
+			$("#cargando").show();
+			
+			$("input [type=checkbox]").removeAttr("checked");
+			markers[0].setVisible(true);
+			markers[1].setVisible(true);
+		}else{
+			
+			loadingScreen();
+			navigator.geolocation.clearWatch(timerInterval);
+			clearTimeout(timerOut);
+			clearTimeout(control3G);
+			navigator.compass.clearWatch(brujula);
+			verRuta="pass";
+			$("#research").hide();
+			$("#stopresearch").hide();
+			$("#button_ruta").text("Sin ruta");
+			$("#posiciones").show();
+			
+			$("#cargando").hide();
+			PintaMapa(verRuta);//recargar nunca para
+			//AbrirPunto();
+		}
+		
+		$("#map_canvas").hide();
+		$(this).hide();
+		$("#control_mapa").hide();
+		$("#controles").show();
+		//PintaMapa(verRuta);
+		$("#controles").hide();
+		$("#map_canvas").show();
+		$(this).show();
+		$("#control_mapa").show();
+		
+		
+		
+	});
+	
+	$("#settings").click(function(){
+		CargarWidget();
+		$("#loading_1").show();
+		$("#config").show();
+		if(!(localStorage.getItem('timerSetting'))){
+			localStorage.setItem('timerSetting', 10000);
+			timerSetting=localStorage.getItem('timerSetting');
+		}
+		$("#caja_timer").val(localStorage.getItem('timerSetting').charAt(0)+localStorage.getItem('timerSetting').charAt(1));
+	});
+	
+	$("#acept_config").click(function(){
+		if($("#caja_timer").val()>=10 && $("#caja_timer").val()<31){
+			timerSetting=$("#caja_timer").val()+"000";
+			localStorage.setItem('timerSetting', timerSetting);
+			$("#loading_1").hide();
+			$("#config").hide();	
+		}else{
+			Toast("Debe comprender entre 10 y 30 seg");
+		}
+		
+	});
+	
+	
+	
+	$("#up").click(function(){
+		tempTimer=$("#caja_timer").val();
+		tempTimer++;
+		$("#caja_timer").val(tempTimer);
+	});
+	
+	$("#down").click(function(){
+		tempTimer=$("#caja_timer").val();
+		tempTimer--;
+		$("#caja_timer").val(tempTimer);
+	});
+	
+	$("#ayuda").click(function(){
+		$("#loading_1").show();
+		$("#ayuda_capa").show();
+	});
+	
+	$("#acept_ayuda").click(function(){
+		$("#loading_1").hide();
+		$("#ayuda_capa").hide();
+	});
+	
+	
+	
+	document.addEventListener("backbutton", yourCallbackFunction, false);
+	document.addEventListener("pause", onPause, false);
+	document.addEventListener("resume", onResume, false);
+}
+
+
+
+function yourCallbackFunction(){
+	clearTimeout(timerOut);
+	navigator.geolocation.clearWatch(timerInterval);
+	clearTimeout(timerOut);
+	navigator.app.exitApp();
+	navigator.compass.clearWatch(brujula);
+}
+
+function onPause(){
+	clearTimeout(timerOut);
+	navigator.geolocation.clearWatch(timerInterval);
+	clearTimeout(timerOut);
+	$("#research").show();
+	$("#stopresearch").hide();
+	$("#cargando").hide();
+	navigator.compass.clearWatch(brujula);
+	
+}
+
+function onResume(){
+	//$().show();
+	//brujula
+	colorFlecha="rojas";
+	if($("#button_ruta").text()=="Ver ruta"){
+		//reanudar servicio entero cuando esté en el mapa y me vuelva a meter
+		
+		
+	}else{
+		$("#research").hide();
+	}
+	
+	if(estadoOnPause==true){
+		$("#research").hide();
+		$("#stopresearch").show();
+		$("#cargando").show();
+		AbrirPunto();
+	}
+	
+}
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+function DatabaseStartup(){ 
+	
+	db = window.openDatabase("gps", "1.0", "gps", 20000000);
+	db.transaction(Inicia, function(){alert("error database");}, function(e){ });
+	
+}
+
+
+
+function Inicia(db){
+	db.executeSql('CREATE TABLE IF NOT EXISTS puntos_gps (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, nombre TEXT, latitud TEXT, longitud TEXT, accuracy TEXT, fecha TEXT)');
+	db.executeSql('SELECT * FROM puntos_gps ORDER BY id DESC', [], Pinta, function(){alert("error inicia");});
+}
+
+function Pinta(db, results){
+	
+	if(results.rows.length==0){
+	
+	}else{
+		for(var i=0;i<results.rows.length;i++){
+			if(results.rows.item(i).accuracy=='3G'){
+				$("#list").append("<div class='li'>"+results.rows.item(i).nombre+" - "+results.rows.item(i).fecha+" - "+"<font color='red'>"+results.rows.item(i).accuracy+"</font>"+
+				"</div><hr align='left' float='left' height: 1px; color='#32614d' magin-left='0%' width='92%'/>");
+			}else{
+				$("#list").append("<div class='li'>"+results.rows.item(i).nombre+" - "+results.rows.item(i).fecha+" - "+"<font color='green'>"+results.rows.item(i).accuracy+"</font>"+
+				"</div><hr align='left' float='left' height: 1px; color='#32614d' magin-left='0%' width='92%'/>");
+			}
+			
+		}
+
+	}
+	
+	unloadingScreen();
+	
+	$("div[class=li]").click(function(){
+		loadingScreen();
+		navigator.geolocation.clearWatch(timerInterval);
+		clearTimeout(timerOut);
+		finalizado=true; 
+		$("#cargando").hide();
+		var chorizo = [];
+		chorizo = $(this).text().split(" - ");
+		nameSearch=null;
+		nameSearch = chorizo[1];
+		posicionesActuales=[];
+		mejoresPosiciones=[];
+		pasado=false;
+		
+		var red=Redes();
+		if(red==true){
+			verRuta="no pass";
+			AbrirPunto();
+		}else{
+			unloadingScreen();
+			Toast("Conexión 3G no disponible en este momento");
+		}
+	});
+	
+	
+	
+	$('div[class=li]').bind('touchstart', function(){
+		elegido=$(this).text();
+		var chorizo = [];
+		chorizo = $(this).text().split(" - ");
+		nameSearch=null;
+		nameSearch = chorizo[1];
+		
+		cont=0;
+		timer=setTimeout(function(){
+			cont=1;
+			elegido=null;
+			Borrar();
+			
+		},1900);
+		
+	});
+	
+	$('div[class=li]').bind('touchend', function(){
+		
+		clearTimeout(timer);
+		
+	});
+	
+	
+
+}
+
+function Borrar(){
+
+	navigator.notification.confirm(
+    		"Se va a borrar el registro"+nameSearch+". ¿Desea borrar?",     // mensaje (message)
+    	    Borrando,      // función 'callback' a llamar con el índice del botón pulsado (confirmCallback)
+    	    'Borrar',            // titulo (title)
+    	        'Borrar,Cancelar'       // botones (buttonLabels)
+    	    );
+
+}
+
+function Borrando(num){
+	if(num==1){
+		var sSQL = "DELETE FROM puntos_gps WHERE fecha='"+nameSearch+"'";
+		db.transaction(function(tx) {
+			
+			
+			tx.executeSql(sSQL);
+				    }, function() {alert("fail delete") }, function() { nameSearch=null; Toast("Borrado correctamente"); $(".li").remove();$("hr").remove(); DatabaseStartup();});
+	
+	
+	}else{
+		clearTimeout(timer);
+		elegido="";
+		cont=0;
+		unloadingScreen();
+	}
+
+}
+
+
+function Guardar(){
+	cancelAll=false;
+	nombre=$("#caja").val();
+	if(nombre=="" || !nombre){
+		nombre = "Ubicación";
+		addPunto();
+	}else{
+		addPunto();
+	}
+}
+
+
+
+function addPunto(){
+	
+	if(cancelAll==false){
+
+		accuracyDeCorte = localStorage.getItem('accuracy_corte');
+		if(isNaN(accuracyDeCorte)){
+			accuracyDeCorte=0;
+		}
+		timerSetting=localStorage.getItem('timerSetting');
+		if(!timerSetting){
+			timerSetting=10000;
+			localStorage.setItem('timerSetting', timerSetting);
+		}
+		//alert("temporizador: "+parseInt(timerSetting));
+		
+		posicionesActuales=[];
+		mejoresPosiciones=[];
+		
+		timerOut=setTimeout(function(){ posicionFinal();},parseInt(timerSetting));
+		var myOptions = { timeout: 60000, enableHighAccuracy: true };
+		timerInterval = navigator.geolocation.watchPosition(onSuccess, errores, myOptions);
+			
+	}else{
+		navigator.geolocation.clearWatch(timerInterval);
+		clearTimeout(timerOut);
+	}
+	
+	
+}
+
+function onSuccess(position){
+	
+	if(cancelAll==false){
+		
+		posicionesActuales.push(position);
+		
+		if(position.coords.accuracy<=(accuracyDeCorte+2)){
+			mejoresPosiciones.push(position);
+			
+			if(mejoresPosiciones.length==6){
+				posicionFinal();
+			}
+		}
+			
+	}else{
+		navigator.geolocation.clearWatch(timerInterval);
+		clearTimeout(timerOut);
+	}
+	
+}
+
+function posicionFinal(){
+	
+	navigator.geolocation.clearWatch(timerInterval);
+	clearTimeout(timerOut);
+	finalizado=true; 
+	$("#cargando").hide();
+	
+	
+	if(cancelAll==false){
+		if(mejoresPosiciones.length!=0){
+			
+			elegida=MejorPosicion(mejoresPosiciones);
+			
+			if(elegida.coords.accuracy<100){
+				Ingreso(elegida)
+			}else{
+				navigator.notification.confirm(
+				        'Su posición tiene un margen de error de: '+elegida.coords.accuracy+' metros.',  // message
+				        onConfirmElegida,              // callback to invoke with index of button pressed
+				        'Margen de error',            // title
+				        'Guardar,Cancelar,Reintentar'          // buttonLabels
+				    );
+			}
+			
+		}else{
+			
+			if(posicionesActuales.length!=0){
+				
+				elegida=MejorPosicion(posicionesActuales);
+				
+				if(elegida.coords.accuracy<100){
+					Ingreso(elegida)
+				}else{
+					navigator.notification.confirm(
+					        'Su posición tiene un margen de error de: '+elegida.coords.accuracy+' metros.',  // message
+					        onConfirmElegida,              // callback to invoke with index of button pressed
+					        'Margen de error',            // title
+					        'Guardar,Cancelar,Reintentar'          // buttonLabels
+					    );
+				}
+				
+			}else{
+				unloadingScreen();
+				navigator.notification.confirm(
+				        'No se ha encontrado su posición.',  // message
+				        onConfirmNewPosition,              // callback to invoke with index of button pressed
+				        'Posición',            // title
+				        'Reintentar,Cancelar'          // buttonLabels
+				    );
+			}
+			
+			
+		}
+		
+		
+		
+		
+		 	
+	}
+	
+}
+
+function onConfirmNewPosition(boton){
+	if(boton==1){
+		Guardar();
+	}
+}
+
+function onConfirmElegida(boton){
+	if(boton==1){
+		Ingreso(elegida);
+	}
+	if(boton==2){
+		$("#caja").val('');
+		unloadingScreen();
+	}
+	if(boton==3){
+		Guardar();
+	}
+}
+
+
+
+function Ingreso(pos){
+	
+	var fecha= getFecha();
+
+	x=pos.coords.latitude;
+	y=pos.coords.longitude;
+	var accuracy;
+	
+	if(pos.coords.accuracy<100){
+		Toast("Ubicación guardada");	
+		accuracy="GPS";
+	}else{
+		Toast("Ubicación guardada");
+		accuracy="3G";
+	}
+	
+	
+	db.transaction(function(tx) {
+		tx.executeSql('INSERT INTO puntos_gps (nombre, latitud, longitud, accuracy, fecha) VALUES ("'+nombre+'", "'+x+'", "'+y+'", "'+accuracy+'", "'+fecha+'")');
+			    }, errores, function(){ $(".li").remove();$("hr").remove();  DatabaseStartup(); $("#caja").val(''); unloadingScreen();});
+	
+	
+}
+
+
+
+function errores(e){
+	
+	unloadingScreen();
+	
+	if(e.code=='2'){
+		navigator.geolocation.clearWatch(timerInterval);
+		clearTimeout(timerOut);
+		finalizado=true; 
+		$("#cargando").hide();
+		alert("Comprueba que tienes todos los servicios activos de GPS");
+
+	}else{
+		alert("Error alterno: "+e.code+" "+e.message);
+	}
+}
+
+
+function AbrirPunto(){
+	cancelAll=false;
+	 tocado=false;
+	 finalizado=null;
+
+	 estadoOnPause=true;
+	db.transaction(function(tx) {
+		tx.executeSql('SELECT * FROM puntos_gps WHERE fecha = "'+nameSearch+'"', [], RecogeXY, function(){"error x y"});
+			    }, function(){"error x y y"}, function() { /*alert('x y bien');*/ });
+}
+
+function RecogeXY(db, results){
+	var accuracy_destino;
+	if(results.rows.length==0){
+		
+	}else{
+		for(var i=0;i<results.rows.length;i++){
+			x=results.rows.item(i).latitud;//Recogemos el destino
+			y=results.rows.item(i).longitud;
+			accuracy_destino=results.rows.item(i).accuracy;
+		}
+		if(accuracy_destino=='3G'){
+			destino="iconos/punto3G.png";
+		}else{
+			destino="iconos/punto.png";
+		}
+	}
+
+	
+	accuracyDeCorte = localStorage.getItem('accuracy_corte');
+	if(!accuracyDeCorte){
+		accuracyDeCorte=18;
+	}
+	
+	
+	var myOptions = { timeout: 60000, enableHighAccuracy: true };
+	timerInterval = navigator.geolocation.watchPosition(onSuccessActual, errores, myOptions);
+	//navigator.compass.clearWatch(brujula);
+	
+	var options = { frequency: 2000 };
+    brujula = navigator.compass.watchHeading(onGrades, errores, options);
+    /*EL METODO ONGRADES ESTA EN APOYO*/
+}
+
+
+
+function onSuccessActual(position){
+	
+	
+	posicionesActuales.push(position);
+	unloadingScreen();
+	
+	if(posicionesActuales.length==1){
+		
+		if(cancelAll==true){
+			
+		}else{
+			
+			var aux=MejorPosicion(posicionesActuales);
+			xActual = aux.coords.latitude;
+			yActual = aux.coords.longitude;
+			if(!fija){
+				fija = aux.coords.accuracy;	
+			}
+			
+			pasado = true;
+			PintaMapa(verRuta);	
+		}
+		
+	}
+	
+	var gps_corte = 100;
+	
+	if(position.coords.accuracy < gps_corte){
+		posicionActual(position);
+		clearTimeout(control3G);
+		colorFlecha="verdes";
+		
+		//$("#pasa").text("pasa de 100");
+	}else{
+		if(position.coords.accuracy < fija){
+			colorFlecha="verdes";
+			posicionActual(position);
+			clearTimeout(control3G);
+		//	$("#pasa").text("no pasa de 100 pero si le vale fija");
+		}
+		colorFlecha="rojas";
+		control3G =setTimeout(function(){ navigator.geolocation.clearWatch(timerInterval); colorFlecha="rojas"; estadoOnPause=false;
+		navigator.geolocation.clearWatch(timerInterval); navigator.geolocation.clearWatch(timerInterval);
+		$("#cargando").hide(); $("#research").show();$("#stopresearch").hide();},30000);
+		//$("#pasa").text("no pasa de 100 y se pasa de fija");
+	}
+	
+
+}
+
+function posicionActual(posicion){
+	
+	var elegida=null;
+	
+	if(cancelAll==true){
+		navigator.geolocation.clearWatch(timerInterval);
+		clearTimeout(timerOut);	
+	}else{
+
+		elegida = posicion;
+		
+		
+		xActual = elegida.coords.latitude;//recogemos las actuales
+		yActual = elegida.coords.longitude;
+		fija = elegida.coords.accuracy;
+		
+		markers[0].setVisible(false);
+		
+		
+		var otro = new google.maps.Marker({
+		    position: new google.maps.LatLng(xActual, yActual),
+		    //url: 'geo:'+x+','+y,
+		    //icon: 'iconos/flecha.png',
+		    icon: flecha,
+		    map: map,	   
+		    title: 'Destino'	
+		});
+		
+		
+		markers[0]=otro;
+		
+		if(tocado==true){
+			
+		}else{
+
+			var bounds = new google.maps.LatLngBounds();
+
+		    bounds.extend(markers[0].getPosition());
+		    bounds.extend(markers[1].getPosition());
+		    map.fitBounds(bounds);
+	
+		}		
+			
+		
+	}
+	
+}
+
+
+
+</script>
+</head>
+<body>
+
+
+	<div id="controles">
+	<div id="entrada">
+		<img id="settings" src="iconos/settings.png">
+		<img alt="ayuda" id="ayuda" src="iconos/ayuda.png">
+		<p align="right" id="title_gps">GPS Recorder NalCOM</p>
+	</div>
+	
+		<div id="divBoton">
+			<img id="boton" class="control" src="./iconos/logo.png" width="38%" height="auto" alt="Read book" />
+		</div>
+		
+		<input type="search"  class="control" id="caja" placeholder="Ej. Mi casa..."/>
+		
+		<div id="fondo">
+			<div id="divScroll">
+				<ul id="list">
+				    	
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+
+
+
+
+<div id="map_canvas">
+
+	
+</div>
+
+
+<div id="control_mapa">
+	
+	<div class="ctr" id="button_exit">Salir</div>
+	<div class="ctr" id="button_ruta" >Ver ruta</div>
+	<div  id="research" >Actualizar</div>
+	<div  id="stopresearch" >Detener</div>
+	<div  id="cargando" ><img src="iconos/cargando.gif" /></div>
+	
+	<div id="posiciones">
+		<input id="verOrigen" type="checkbox"  value="ver origen"/><label>Ver origen</label>
+		<input id="verDestino" type="checkbox"  value="ver destino"/><label>Ver destino</label>
+	</div>
+
+</div>
+
+
+<div id="loading_1">
+
+</div>
+
+<div id="loading">
+    <div class="texto">
+    	Buscando GPS...
+    </div>
+    <img alt="loading" class="imagen" src="iconos/loadingcargando.gif">
+    <div id="cancel">
+    	Cancelar
+    </div>
+</div>
+
+<div id="config">
+    <div class="texto">Tiempo de espera:</div>
+     <!-- <div id="slider">
+    	<p id="up" class="ctr_setting" align="center">Más +</p>
+    	<input type="text" id="caja_timer"/>
+    	<p id="down" class="ctr_setting" align="center">Menos -</p>
+    </div>-->
+    		<div id="divScrollNumber">
+				<ul id="listNumber">
+				    	
+				</ul>
+			</div>
+   <!-- <hr class="texto">
+    <div id="acept_config" class="ctr_setting">
+    	Aplicar
+    </div>
+    <div id="cancel_config" class="ctr_setting">
+    	Cancelar
+    </div>-->
+</div>
+
+<div id="ayuda_capa">
+    <div id="bandera_verde">
+    	<img alt="bandera verde" src="iconos/punto.png">
+    	<font> Destino GPS </font>
+    </div>
+
+    <div id="bandera_roja">
+    	<img alt="bandera roja" src="iconos/punto3G.png">
+    	<font> Destino 3G </font>
+    </div>
+    <hr class="texto">
+    <div id="flecha_verde">
+    	<img alt="flecha verde" class="ayuda_img" src="iconos/flechas/verdes/flecha_0.png">
+    	<font class="ayuda_text"> Mi posición GPS </font>
+    </div>
+
+    <div id="flecha_roja">
+    	<img alt="flecha verde" class="ayuda_img2"  src="iconos/flechas/rojas/flecha_0.png">
+    	<font class="ayuda_text"> Mi posición 3G </font>
+    </div>
+    <hr class="texto">
+    <div id="acept_ayuda" class="ctr_setting">
+    	Aceptar
+    </div>
+    
+</div>
+
+
+
+ 
+</body>
+</html>

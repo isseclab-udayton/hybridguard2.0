@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget android-packageName="io.graded" id="io.cordova.helloCordova" ios-CFBundleIdentifier="com.geooot.graded" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="StatusBarManager">
+        <param name="android-package" value="br.com.hotforms.StatusBarManager" />
+    </feature>
+    <feature name="androidstatusbarcolor">
+        <param name="android-package" value="com.internrocket.plugins.statusbarcolor.StatusBarColor" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="NativePageTransitions">
+        <param name="android-package" value="com.telerik.plugins.nativepagetransitions.NativePageTransitions" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="HotCodePush">
+        <param name="android-package" value="com.nordnetab.chcp.main.HotCodePushPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <preference name="webView" value="org.crosswalk.engine.XWalkWebViewEngine" />
+    <preference default="14+" name="xwalkVersion" />
+    <preference default="--disable-pull-to-refresh-effect" name="xwalkCommandLine" />
+    <preference default="embedded" name="xwalkMode" />
+    <feature name="LaunchMyApp">
+        <param name="android-package" value="nl.xservices.plugins.LaunchMyApp" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="FirebasePlugin">
+        <param name="android-package" value="org.apache.cordova.firebase.FirebasePlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.Geolocation" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="LocalNotification">
+        <param name="android-package" value="de.appplant.cordova.plugin.localnotification.LocalNotification" />
+    </feature>
+    <preference name="loadUrlTimeoutValue" value="60000" />
+    <preference name="Fullscreen" value="false" />
+    <allow-intent href="market:*" />
+    <name>Graded</name>
+    <description> The easiest and prettiest way to check you grades on Home Access Center (HAC).
+</description>
+    <author email="george.thayamkery@gmail.com" href="http://www.graded.us"> George (geooot) Thayamkery
+</author>
+    <content src="index.html" />
+    <allow-intent href="http://app.graded.us/*" />
+    <allow-intent href="https://app.graded.us/*" />
+    <allow-intent href="http://graded.us/*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="graded://*" />
+    <allow-intent href="posted://*" />
+    <access origin="*" />
+    <allow-navigation href="http://app.graded.us/*" />
+    <allow-navigation href="https://app.graded.us/*" />
+    <allow-navigation href="http://graded.us/*" />
+    <allow-navigation href="posted://*" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarBackgroundColor" value="#7b1fa2" />
+    <preference name="xwalkVersion" value="14+" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect --disable-overscroll-edge-effect" />
+    <preference name="xwalkMode" value="embedded" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <preference name="CrosswalkAnimatable" value="true" />
+    <chcp>
+        <config-file url="https://app.graded.us/chcp" />
+    </chcp>
+    <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
+</widget>

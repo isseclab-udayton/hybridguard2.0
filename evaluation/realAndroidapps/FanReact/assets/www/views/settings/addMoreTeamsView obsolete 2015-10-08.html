@@ -1,0 +1,204 @@
+<div id="addMoreTeamsView" data-role="page">
+
+    <div data-role="header">
+
+        <ul class="headerBtns">
+            <li class="menu">
+                <a href="#popupMenu" data-rel="popup" data-role="button" data-inline="true" data-transition="slidedown"></a>
+            </li>
+            <li class="friends">
+                <a href="../fans/fansView.html"></a>
+            </li>
+            <li class="search">
+                <a href="#searchPopup" data-rel="popup" data-position-to="window" data-inline="true" data-transition="pop"></a>
+            </li>
+        </ul>
+
+        <h1>
+            <a href="#" data-rel="back">Add More Teams</a>
+        </h1>
+
+    </div>
+
+    <div data-role="popup" id="popupMenu" data-theme="d">
+        <ul>
+            <li>
+                <a href="../dashboard/followingView.html">Home</a>
+            </li>
+            <li>
+                <a href="../notifications/notificationsView.html">
+                    Notifications <span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="../profile/profileView.html">My Profile</a>
+            </li>
+            <li>
+                <a href="../fans/fansView.html">
+                    Fans <span class="notifications">8</span>
+                </a>
+            </li>
+            <li>
+                <a href="settingsView.html">Settings</a>
+            </li>
+        </ul>
+    </div>
+
+    <div data-role="content">
+
+        <div class="headerPadding footerPadding">
+
+            <div class="feedWrapper">
+
+                <h2 class="header">All Sports</h2>
+
+                <table class="feed sports">
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl.png');"></div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="../league/nflView.html">NFL</a>
+                            </h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-ncaa.gif');"></div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">College Basketball</a>
+                            </h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-cricket.png');"></div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Cricket</a>
+                            </h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-mls.jpg');"></div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">MLS</a>
+                            </h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nhl.png');"></div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">NHL</a>
+                            </h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nba.png');"></div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">NBA</a>
+                            </h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-wnba.jpg');"></div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">WNBA</a>
+                            </h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-ncaa.gif');"></div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">College Football</a>
+                            </h2>
+                        </td>
+                    </tr>
+                </table>
+
+            </div><!--feedWrapper-->
+
+        </div><!--headerPadding footerPadding-->
+
+    </div><!--content-->
+
+    <div data-role="popup" id="searchPopup" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+
+        <h3 class="ui-title">Search</h3>
+        <p>Enter your search term and hit enter</p>
+        <label for="">Search for:</label>
+        <select>
+            <option value="fans">Fans</option>
+            <option value="posts">Posts</option>
+        </select>
+        <input type="text" name="search" placeholder="Search" />
+        <a href="../home/homeFollowingView.html" data-role="button" data-inline="true" data-theme="b" class="submitBtn">Search</a>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <ul>
+            <li>
+                <a href="../dashboard/followingView.html">
+                    <i class="fa fa-home"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../notifications/notificationsView.html">
+                    <i class="fa fa-bell"></i><span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" id='capturePhotoButton'>
+                    <i class="fa fa-camera"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../fans/fansView.html">
+                    <i class="fa fa-users"></i><span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="../post/postView.html" id="topostView" class="active">
+                    <i class="fa fa-pencil-square-o"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        // Toggles
+        $(".thumbs li").click(function() {
+            $(this).toggleClass("selected");
+            return true;
+        });
+    });
+    
+    // for camera to work    
+    try {
+        cameraApp.run();
+    } catch (err)
+    { alert("addMoreTeamsView view " + err.message) }
+</script>

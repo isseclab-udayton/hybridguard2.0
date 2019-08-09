@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<camps>
+    <camp>
+        <num>1</num>
+        <nom>La Viguerie</nom>
+        <adresse>Jardin Henry Vinay</adresse>
+        <tel></tel>
+        <latitude>45.039940</latitude>
+        <longitude>3.883481</longitude>
+        <blason>8</blason>
+    </camp>
+    <camp>
+        <num>2</num>
+        <nom>Les Pastres de la Garde</nom>
+        <adresse>Jardin Henry Vinay</adresse>
+        <tel></tel>
+        <latitude>45.039940</latitude>
+        <longitude>3.883481</longitude>
+        <blason>0</blason>
+    </camp>
+    <camp>
+        <num>3</num>
+        <nom>Les Bannetiers de Montagnac</nom>
+        <adresse>Jardin Henry Vinay</adresse>
+        <tel></tel>
+        <latitude>45.039940</latitude>
+        <longitude>3.883481</longitude>
+        <blason>0</blason>
+    </camp>
+    <camp>
+        <num>4</num>
+        <nom>Les Ventres de vaches</nom>
+        <adresse>Jardin Henry Vinay</adresse>
+        <tel></tel>
+        <latitude>45.039940</latitude>
+        <longitude>3.883481</longitude>
+        <blason>0</blason>
+    </camp>
+    <camp>
+        <num>5</num>
+        <nom>L'Isle Panaveyre</nom>
+        <adresse>Place du Breuil</adresse>
+        <tel></tel>
+        <latitude>45.041881</latitude>
+        <longitude>3.884228</longitude>
+        <blason>5</blason>
+    </camp>
+    <camp>
+        <num>6</num>
+        <nom>Les Affres d'Adonaï</nom>
+        <adresse>Place du Breuil</adresse>
+        <tel></tel>
+        <latitude>45.041881</latitude>
+        <longitude>3.884228</longitude>
+        <blason>10</blason>
+    </camp>
+    <camp>
+        <num>7</num>
+        <nom>L'Isle Mochafède</nom>
+        <adresse>Place du Breuil</adresse>
+        <tel></tel>
+        <latitude>45.041881</latitude>
+        <longitude>3.884228</longitude>
+        <blason>7</blason>
+    </camp>
+    <camp>
+        <num>8</num>
+        <nom>L'atelier de calligraphie</nom>
+        <adresse>Place du Breuil</adresse>
+        <tel></tel>
+        <latitude>45.041881</latitude>
+        <longitude>3.884228</longitude>
+        <blason>12</blason>
+    </camp>
+    <camp>
+        <num>9</num>
+        <nom>Cie Bella Travée</nom>
+        <adresse>Place du Breuil</adresse>
+        <tel></tel>
+        <latitude>45.041881</latitude>
+        <longitude>3.884228</longitude>
+        <blason>0</blason>
+    </camp>
+    <camp>
+        <num>10</num>
+        <nom>Le Fourneau des maîtres-queux</nom>
+        <adresse>Place du Breuil</adresse>
+        <tel></tel>
+        <latitude>45.041881</latitude>
+        <longitude>3.884228</longitude>
+        <blason>0</blason>
+    </camp>
+    <camp>
+        <num>11</num>
+        <nom>La tente des rapaces</nom>
+        <adresse>Place du Breuil</adresse>
+        <tel></tel>
+        <latitude>45.041881</latitude>
+        <longitude>3.884228</longitude>
+        <blason>0</blason>
+    </camp>
+    <camp>
+        <num>12</num>
+        <nom>Cie Hippogriffe</nom>
+        <adresse>Place du Breuil</adresse>
+        <tel></tel>
+        <latitude>45.041881</latitude>
+        <longitude>3.884228</longitude>
+        <blason>0</blason>
+    </camp>
+    <camp>
+        <num>12</num>
+        <nom>Cramailh et Croc en jambe</nom>
+        <adresse>Place du Breuil</adresse>
+        <tel></tel>
+        <latitude>45.041881</latitude>
+        <longitude>3.884228</longitude>
+        <blason>0</blason>
+    </camp>
+    <camp>
+        <num>13</num>
+        <nom>L'Isle de l'Estrapade</nom>
+        <adresse>Place du Marché Couvert</adresse>
+        <tel></tel>
+        <latitude>45.043752</latitude>
+        <longitude>3.880817</longitude>
+        <blason>9</blason>
+    </camp>
+    <camp>
+        <num>14</num>
+        <nom>L'Isle de Papelengue</nom>
+        <adresse>Place Saint-Maurice</adresse>
+        <tel></tel>
+        <latitude>45.046068</latitude>
+        <longitude>3.882947</longitude>
+        <blason>2</blason>
+    </camp>
+    <camp>
+        <num>15</num>
+        <nom>L'Isle Miramande</nom>
+        <adresse>Lavoir de la Visitation</adresse>
+        <tel></tel>
+        <latitude>45.046286</latitude>
+        <longitude>3.883325</longitude>
+        <blason>3</blason>
+    </camp>
+    <camp>
+        <num>16</num>
+        <nom>Le Trolvergne</nom>
+        <adresse>Place Mgr de Galard</adresse>
+        <tel></tel>
+        <latitude>45.047161</latitude>
+        <longitude>3.883174</longitude>
+        <blason>0</blason>
+    </camp>
+    <camp>
+        <num>17</num>
+        <nom>Association de l'Envol</nom>
+        <adresse>Place Mgr de Galard</adresse>
+        <tel></tel>
+        <latitude>45.047161</latitude>
+        <longitude>3.883174</longitude>
+        <blason>0</blason>
+    </camp>
+    <camp>
+        <num>18</num>
+        <nom>Le Camp Royal</nom>
+        <adresse>Jardins de Galard</adresse>
+        <tel></tel>
+        <latitude>45.047161</latitude>
+        <longitude>3.883174</longitude>
+        <blason>0</blason>
+    </camp>
+    <camp>
+        <num>19</num>
+        <nom>Les Etats du Velay</nom>
+        <adresse>Jardins de Galard</adresse>
+        <tel></tel>
+        <latitude>45.047161</latitude>
+        <longitude>3.883174</longitude>
+        <blason>10</blason>
+    </camp>
+    <camp>
+        <num>20</num>
+        <nom>Les Piquiers du Velay</nom>
+        <adresse>Jardins de Galard</adresse>
+        <tel></tel>
+        <latitude>45.047161</latitude>
+        <longitude>3.883174</longitude>
+        <blason>1</blason>
+    </camp>
+    <camp>
+        <num>21</num>
+        <nom>L'asinerie du Roi</nom>
+        <adresse>Jardins de Galard</adresse>
+        <tel></tel>
+        <latitude>45.047161</latitude>
+        <longitude>3.883174</longitude>
+        <blason>0</blason>
+    </camp>
+    <camp>
+        <num>22</num>
+        <nom>Cie P'tits ânes</nom>
+        <adresse>Jardins de Galard</adresse>
+        <tel></tel>
+        <latitude>45.047161</latitude>
+        <longitude>3.883174</longitude>
+        <blason>0</blason>
+    </camp>
+    <camp>
+        <num>23</num>
+        <nom>Cie Armutan</nom>
+        <adresse>Jardins de Galard</adresse>
+        <tel></tel>
+        <latitude>45.047161</latitude>
+        <longitude>3.883174</longitude>
+        <blason>0</blason>
+    </camp>
+    <camp>
+        <num>24</num>
+        <nom>Al Andalus et ses dromadaires</nom>
+        <adresse>Jardins de Galard</adresse>
+        <tel></tel>
+        <latitude>45.047161</latitude>
+        <longitude>3.883174</longitude>
+        <blason>0</blason>
+    </camp>
+    <camp>
+        <num>25</num>
+        <nom>L'Isle de Lioussac</nom>
+        <adresse>Place du Greffe</adresse>
+        <tel></tel>
+        <latitude>45.045039</latitude>
+        <longitude>3.883892</longitude>
+        <blason>4</blason>
+    </camp>
+    <camp>
+        <num>26</num>
+        <nom>L'arc en Main</nom>
+        <adresse>Jardin Rochetaillade</adresse>
+        <tel></tel>
+        <latitude>45.044150</latitude>
+        <longitude>3.883729</longitude>
+        <blason>4</blason>
+    </camp>
+    <camp>
+        <num>27</num>
+        <nom>L'Isle Garamentes</nom>
+        <adresse>Cour Saint-Georges</adresse>
+        <tel></tel>
+        <latitude>45.045675</latitude>
+        <longitude>3.886171</longitude>
+        <blason>6</blason>
+    </camp>
+    <camp>
+        <num>28</num>
+        <nom>Les Bâtisseurs</nom>
+        <adresse>Cour Saint-Georges</adresse>
+        <tel></tel>
+        <latitude>45.045675</latitude>
+        <longitude>3.886171</longitude>
+        <blason>10</blason>
+    </camp>
+    <camp>
+        <num>29</num>
+        <nom>Les Mercenaires du Velay</nom>
+        <adresse>Place du For</adresse>
+        <tel></tel>
+        <latitude>45.045322</latitude>
+        <longitude>3.885149</longitude>
+        <blason>1</blason>
+    </camp>
+    <camp>
+        <num>30</num>
+        <nom>La Sauce Méjeanne</nom>
+        <adresse>Place Saint-Mayol</adresse>
+        <tel></tel>
+        <latitude>45.046770</latitude>
+        <longitude>3.884510</longitude>
+        <blason>0</blason>
+    </camp>
+    <camp>
+        <num>31</num>
+        <nom>Ersa Malombrina</nom>
+        <adresse>Place Saint-Pierre Latour</adresse>
+        <tel></tel>
+        <latitude>45.044823</latitude>
+        <longitude>3.885895</longitude>
+        <blason>10</blason>
+    </camp>
+    <camp>
+        <num>32</num>
+        <nom>Les Compains</nom>
+        <adresse>Esplanade Pierre Cardinal</adresse>
+        <tel></tel>
+        <latitude>45.045343</latitude>
+        <longitude>3.887116</longitude>
+        <blason>10</blason>
+    </camp>
+    <camp>
+        <num>33</num>
+        <nom>L'Escossor</nom>
+        <adresse>Esplanade Pierre Cardinal</adresse>
+        <tel></tel>
+        <latitude>45.045343</latitude>
+        <longitude>3.887116</longitude>
+        <blason>1</blason>
+    </camp>
+    <camp>
+        <num>34</num>
+        <nom>Atelier monétaire</nom>
+        <adresse>Esplanade Pierre Cardinal</adresse>
+        <tel></tel>
+        <latitude>45.045343</latitude>
+        <longitude>3.887116</longitude>
+        <blason>12</blason>
+    </camp>
+    <camp>
+        <num>35</num>
+        <nom>Cie Marotte et les Musards</nom>
+        <adresse>Esplanade Pierre Cardinal</adresse>
+        <tel></tel>
+        <latitude>45.045343</latitude>
+        <longitude>3.887116</longitude>
+        <blason>0</blason>
+    </camp>
+    <camp>
+        <num>36</num>
+        <nom>La Piedtailhe</nom>
+        <adresse>Cour Jules Vallès</adresse>
+        <tel></tel>
+        <latitude>45.044757</latitude>
+        <longitude>3.886879</longitude>
+        <blason>1</blason>
+    </camp>
+    <camp>
+        <num>37</num>
+        <nom>Les Mange-Chèvres</nom>
+        <adresse>Cour Jules Vallès</adresse>
+        <tel></tel>
+        <latitude>45.044757</latitude>
+        <longitude>3.886879</longitude>
+        <blason>10</blason>
+    </camp>
+    <camp>
+        <num>38</num>
+        <nom>Les ânes Azimut</nom>
+        <adresse>Cour Jules Vallès</adresse>
+        <tel></tel>
+        <latitude>45.044757</latitude>
+        <longitude>3.886879</longitude>
+        <blason>0</blason>
+    </camp>
+</camps>

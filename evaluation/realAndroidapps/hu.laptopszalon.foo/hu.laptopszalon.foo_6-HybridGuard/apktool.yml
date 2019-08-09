@@ -1,0 +1,25 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: hu.laptopszalon.foo_6.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- jpg
+- gif
+- woff
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo: null
+sharedLibrary: false
+sparseResources: true
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '6'
+  versionName: '1.5'

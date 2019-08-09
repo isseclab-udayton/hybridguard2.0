@@ -1,0 +1,23 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: RemoteSMSControl.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '10'
+  targetSdkVersion: '19'
+sharedLibrary: false
+unknownFiles:
+  ormmajs/ormma.js: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1-dirty
+versionInfo:
+  versionCode: '19'
+  versionName: '4.1'

@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html>
+    <head>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no" />
+        <meta charset="utf-8">
+        <title>MyBuilding</title>
+        <link href="http://login.mybuilding.org/media/bower_components/bootstrap/dist/css/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://login.mybuilding.org/media/bower_components/snapjs/snap.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://login.mybuilding.org/media/bower_components/ratchet/dist/css/ratchet.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://login.mybuilding.org/media/mobile/css/flat-ui.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://login.mybuilding.org/media/build/mobile.css" media="screen" rel="stylesheet" type="text/css" /><title></title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+</head>
+<body>
+<div id="loading"></div>
+
+<header class="bar bar-nav">
+    <h1 id="navbar-title" class="title">Sign In To Your Portal</h1>
+</header>
+       
+<div class="content">
+    <div class="container">
+      <form id="form-signin" method="post" action="https://mobile.mybuilding.org/mobile/auth/login" class="form-signin" role="form">
+      <div class="logo"><img class="logo" src="http://login.mybuilding.org/images/mobile/logo@2x.png"></div>
+     <div id="error-message" class="alert alert-error" style="display: none">
+    </div>
+        <input type="email" class="form-control" id="username" name="username" placeholder="Email address" required autofocus>
+        <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+        <a id="login-link" class="btn btn-large btn-block btn-primary">Sign In</a>
+      </form>
+    </div>
+</div>
+        <script src="cordova.js"></script>
+        <script type="text/javascript" src="http://login.mybuilding.org/media/build/mobile-vendor.js?v=f6b233faad6a2c69e9533ee1b0d12231"></script>
+		<script type="text/javascript" src="coreFlashJax.js"></script>
+   
+    </body>
+</html>

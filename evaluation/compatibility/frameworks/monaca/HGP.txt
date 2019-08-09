@@ -1,0 +1,80 @@
+Camera
+{
+    cameraLocationLongitude = -122.1234
+    cameraLocationLatitude = 37
+    cameraDistanceAround = 0.005
+    cameraSolid = true
+    cameraNotUseDay = 1 2 3 4 5
+    cameraTimeStart = 9:10
+    cameraTimeEnd = 17:00
+    cameraUseLimit = 5
+    cameraUseLength = 60000
+}
+geolocation
+{
+    geoNotUseDay = 1 2 3 4 5
+    geoTimeStart = 9:10
+    geoTimeEnd = 17:00
+    geoUseLimit = 5
+    geoUseLength = 60000
+}
+notification
+{
+    notificationLocationLongitude = -122.1234
+    notificationLocationLatitude = 37
+    notificationDistanceAround = 0.005
+    notificationSolid = true
+    notificationNotUseDay = 1 2 3 4 5
+    notificationTimeStart = 9:10
+    notificationTimeEnd = 17:00
+    notificationUseLimit = 5
+    notificationUseLength = 60000
+}
+compass
+{
+    compassLocationLongitude = -122.1234
+    compassLocationLatitude = 37
+    compassDistanceAround = 0.005
+    compassSolid = true
+    compassNotUseDay = 1 2 3 4 5
+    compassTimeStart = 9:10
+    compassTimeEnd = 17:00
+    compassUseLimit = 5
+    compassUseLength = 60000
+}
+contact
+{
+    contactLocationLongitude = -122.1234
+    contactLocationLatitude = 37
+    contactDistanceAround = 0.005
+    contactSolid = true
+    contactNotUseDay = 1 2 3 4 5
+    contactTimeStart = 9:10
+    contactTimeEnd = 17:00
+    contactUseLimit = 5
+    contactUseLength = 60000
+}
+browser
+{
+    browserLocationLongitude = -122.1234
+    browserLocationLatitude = 37
+    browserDistanceAround = 0.005
+    browserSolid = true
+    browserNotUseDay = 1 2 3 4 5
+    browserTimeStart = 9:10
+    browserTimeEnd = 17:00
+    browserUseLimit = 5
+    browserUseLength = 60000
+}
+accelerator
+{
+    acceleratorLocationLongitude = -122.1234
+    acceleratorLocationLatitude = 37
+    acceleratorDistanceAround = 0.005
+    acceleratorSolid = true
+    acceleratorNotUseDay = 1 2 3 4 5
+    acceleratorTimeStart = 9:10
+    acceleratorTimeEnd = 17:00
+    acceleratorUseLimit = 5
+    acceleratorUseLength = 60000
+}

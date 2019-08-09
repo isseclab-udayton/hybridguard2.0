@@ -1,0 +1,56 @@
+<div id="loginView" data-role="page" class="login">
+
+    <div class="tableWrap">
+        <div class="tableCellWrap">
+            <div data-role="content">
+
+                <p class="backLogin">
+                    <a href="#" data-rel="back">
+                        <i class="fa fa-chevron-left"></i> Back
+                    </a>
+                </p>
+
+                <h1>Welcome! Log in here.</h1>
+
+                <div class="calloutBox">
+                    <form action="javascript:loginNameSpace.loginWithFanReact()">
+                        <fieldset>
+                            <input id="usernameLogin" type="email" placeholder="Your Email" required/>
+                            <input id="passwordLogin" type="password" placeholder="Your Password" required/>
+                        </fieldset>
+                        <input type="submit" value="Log In"/>
+                    </form>
+                </div><!--calloutBox-->
+
+                <p class="disclaimer">
+                    Forgot username or password?
+                    <a href="#popupDialog" data-rel="popup" data-position-to="window" data-inline="true" data-transition="pop">Click here</a>
+                </p>
+
+            </div><!--content-->
+
+        </div><!--tableWrap-->
+    </div><!--tableCellWrap-->
+
+    <div data-role="popup" id="popupDialog" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+        <h3 class="ui-title">Password recovery</h3>
+        <p>Enter your username to reset your password</p>
+        <input type="text" id="forgotPasswordEmail" placeholder="Please input your email" />
+        
+        <a onclick="loginNameSpace.forgotPassword.check();" data-role="button" data-inline="true" data-theme="b" class="submitBtn">Email me</a>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+    </div>
+    
+    <div data-role="popup" id="popupDialogLoginFailed" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+        <h3 class="ui-title">Invalid Credentials</h3>
+        <p>Please try again</p>
+        <a href="#" data-rel="back"data-role="button" data-inline="true" data-theme="b" class="submitBtn">OK</a>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+    </div>
+    
+     <script>
+        gaPlugin.trackPage(function (result) {console.log('success login ' + result);},function (error) {console.log('fail login ' + error );},'login');
+    </script>     
+
+</div>
+

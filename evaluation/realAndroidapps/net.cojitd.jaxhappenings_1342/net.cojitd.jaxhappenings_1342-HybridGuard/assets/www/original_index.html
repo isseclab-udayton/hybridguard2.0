@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="utf-8" />
+	<title>JaxHapps</title>
+   
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1, width=device-width" />
+
+	<link rel="stylesheet" href="scripts/css/reset.css" />
+
+	<link rel="stylesheet" href="scripts/css/jaxHappeningsThemes.css" />
+	<link rel="stylesheet" href="scripts/css/structure.css" />
+    
+	<script type="text/javascript" src="scripts/js/jquery.js"></script>
+	<script type="text/javascript" src="scripts/js/jquery.mobile.js"></script>
+
+	<script type="text/javascript" charset="utf-8" src="cordova-2.5.0.js"></script>
+    
+<!-- Android  ------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <script type="text/javascript" charset="utf-8" src="childbrowser.js"></script>
+   
+<!-- iOS ------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--	<script type="text/javascript" charset="utf-8" src="ChildBrowser.js"></script> -->
+
+	<script type="text/javascript" src="scripts/js/jaxHappeningsScript.js"></script>
+	<link href="scripts/css/jaxHappeningsStyles.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">        if (navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/)) {
+            document.addEventListener("deviceready", onDeviceReady, false);
+        } else {
+            onDeviceReady(); //this is the browser
+        }
+        function onDeviceReady() {
+            navigator.splashscreen.hide();
+        }
+        
+    </script>
+    
+</head>
+<body>
+
+
+<!-- Page: Home ------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+	<div id="home"
+		data-role="page"
+        data-theme="a"
+		data-title="JaxHapps :: Home">
+
+		<div data-role="header"
+			data-position="fixed"
+            data-theme="a">
+                <a href="#about"
+                data-transition="slidefade"
+				data-icon="info"
+				data-rel="dialog"
+				data-iconpos="right"
+				class="ui-btn-right">
+                Info</a> <!-- about JaxHapps button -->
+		</div><!-- header -->
+        
+		<div class="navText"
+        	data-role="footer"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jh_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#feature"  
+                    data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_feature"
+					>Featured</a></li>
+					<li><a href="#event" 
+                    data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_event"
+					>Events</a></li>
+					<li><a href="#news" 
+                    data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_news"
+					>News</a></li>
+					<li><a href="#info" 
+                    data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_info"
+					>Connect</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+
+
+<!-- Page: Feature  ----------------------------------------------------------------------------------------------------------------------------------------------------->
+	<div id="feature" class="contentBg"f
+		data-role="page"
+        data-theme="a"
+        data-title="Jax Happs :: Featured">
+		<div data-role="header"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jaxHapp_header">
+			<h1>Featured</h1>
+			<a href="#home"
+                data-transition="slidefade"
+				data-icon="home"
+				data-iconpos="left"
+				>Home</a>
+			<a href="#about"
+                data-transition="slidefade"
+				data-icon="info"
+				data-iconpos="right"
+				data-rel="dialog"
+				>Info</a><!-- about jax Happs button -->
+		</div><!-- header -->
+
+<!--- Featured Events -------------------------------------------------------------------------------------------------------------------------------------------------->
+        <div data-role="content">
+            <div
+                data-role="controlgroup" 
+                id="featureEventsList">
+            </div>
+
+<!-- Featured News ----------------------------------------------------------------------------------------------------------------------------------------------------->
+            <div
+                data-role="controlgroup" 
+                id="featureNewsList">
+            </div>
+      </div><!-- content -->    
+        
+		<div  class="navText"
+            data-role="footer"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jh_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#"  
+					data-role="button"
+                    data-transition="slidefade"
+					data-icon="jax_feature"
+					>Featured</a></li>
+					<li><a href="#event" 
+                    data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_event"
+					>Events</a></li>
+					<li><a href="#news" 
+                    data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_news"
+					>News</a></li>
+					<li><a href="#info" 
+                    data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_info"
+					>Connect</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+
+
+<!-- Page: Feature Event Details = Dynamitic Build --------------------------------------------------------------------------------------------->
+	<div id="featureEventItemDetails" class="contentBg"
+		data-role="page"
+        data-theme="a"
+		data-title="JaxHapps :: Feature Event Details">
+		<div data-role="header"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jaxHapp_header">
+			<h1>Feature Event</h1>
+            
+			<a href="#"
+               	data-transition="slidefade"
+				data-role="button"
+				data-icon="back"
+				data-iconpos="left"
+				data-rel="back"
+				>Back</a>
+			<a href="#about"
+                data-transition="slidefade"
+				data-icon="info"
+				data-iconpos="right"
+				data-rel="dialog"
+				>Info</a><!-- about JaxHapps button -->
+            
+		</div><!-- header -->
+
+		<div data-role="content">
+            <div data-inset="true" 
+                 id="featureJaxEventItem">
+            </div> 
+		</div><!-- content -->
+        
+	<div class="navText"
+        	data-role="footer"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jh_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#feature"
+                	data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_feature"
+					>Featured</a></li>
+					<li><a href="#event"
+                	data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_event"
+					>Events</a></li>
+					<li><a href="#news"
+                	data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_news"
+					>News</a></li>
+					<li><a href="#info"
+                	data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_info"
+					>Connect</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->        
+	</div><!-- page -->
+
+
+<!-- Page: Feature News Details = Dynamitic Build ------------------------------------------------------------------------------------------------------------------------->
+	<div id="featureNewsDetailItem" class="contentBg"
+		data-role="page"
+        data-theme="a"
+		data-title="JaxHapps :: Feature News Item Details">
+		<div data-role="header"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jaxHapp_header">
+			<h1>Feature News</h1>
+            
+			<a href="#"
+               	data-transition="slidefade"
+				data-role="button"
+				data-icon="back"
+				data-iconpos="left"
+				data-rel="back"
+				>Back</a>
+			<a href="#about"
+                data-transition="slidefade"
+				data-icon="info"
+				data-iconpos="right"
+				data-rel="dialog"
+				>Info</a><!-- about JaxHapps button -->
+            
+		</div><!-- header -->
+        
+		<div data-role="content">
+            <div  id="featureJaxNewsItem">
+            </div> 
+		</div><!-- content -->
+        
+	<div class="navText"
+        	data-role="footer"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jh_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#feature"
+                	data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_feature"
+					>Featured</a></li>
+					<li><a href="#event" 
+                	data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_event"
+					>Events</a></li>
+					<li><a href="#news"
+                	data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_news"
+					>News</a></li>
+					<li><a href="#info"
+                	data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_info"
+					>Connect</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->        
+	</div><!-- page -->
+
+
+<!-- Page: Events------------------------------------------------------------------------------------------------------------->
+	<div id="event" class="contentBg"
+		data-role="page"
+        data-theme="a"
+		data-title="JaxHapps :: Events">
+		<div data-role="header"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jaxHapp_header">
+			<h1>Events</h1>
+            
+			<a href="#home"
+                data-transition="slidefade"
+				data-icon="home"
+				data-iconpos="left"
+				>Home</a>
+			<a href="#about"
+                data-transition="slidefade"
+				data-icon="info"
+				data-iconpos="right"
+				data-rel="dialog"
+				>Info</a><!-- about JaxHapps button -->
+            
+		</div><!-- header -->
+        
+        <div data-role="content">
+            <div
+                data-role="controlgroup" 
+                id="eventsList">
+            </div>
+        </div><!-- content -->      
+        
+		<div class="navText"
+        	data-role="footer"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jh_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#feature"
+               		data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_feature"
+					>Featured</a></li>
+					<li><a href="#event"
+               		data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_event"
+					>Events</a></li>
+					<li><a href="#news"
+               		data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_news"
+					>News</a></li>
+					<li><a href="#info" 
+               		data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_info"
+					>Connect</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+
+
+<!-- Page: Event Item Details =Dynamitic Build  --------------------------------------------------------------------------------------------->
+	<div id="eventItemDetails" class="contentBg"
+		data-role="page"
+        data-theme="a"
+		data-title="JaxHapps :: Event Item Details">
+		<div data-role="header"
+            id=eventItemDetailsHeader        
+            data-theme="a"
+			data-position="fixed"
+			data-id="jaxHapp_header">
+			<h1>Event Details</h1>
+            
+			<a href="#"
+               	data-transition="slidefade"
+				data-role="button"
+				data-icon="back"
+				data-iconpos="left"
+				data-rel="back"
+				>Back</a>
+                <a href="#about"
+               	data-transition="slidefade"
+				data-icon="info"
+				data-iconpos="right"
+				data-rel="dialog"
+				>Info</a><!-- about JaxHapps button -->
+                   
+		</div><!-- header -->
+
+		<div data-role="content">
+            <div data-inset="true" 
+                 id="jaxEventItem">
+            </div> 
+		</div><!-- content -->
+        
+	<div class="navText"
+        	data-role="footer"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jh_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#feature"
+              	 	data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_feature"
+					>Featured</a></li>
+					<li><a href="#event"
+              	 	data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_event"
+					>Events</a></li>
+					<li><a href="#news" 
+              	 	data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_news"
+					>News</a></li>
+					<li><a href="#info" 
+              	 	data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_info"
+					>Connect</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->        
+	</div><!-- page -->
+    
+    
+<!--  Page: Event Details Map = Dynamitic Build ------------------------------------------------------------------------------------------------------------->
+	<div id="gmap" class="infoContentBg"
+    
+		data-role="page"
+        data-theme="a"
+		data-title="JaxHapps :: Event Details Map">
+		<div data-role="header"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jaxHapp_header">
+			<h1>Event Map</h1>
+            
+			<a href="#"
+               	data-transition="slidefade"
+				data-role="button"
+				data-icon="back"
+				data-iconpos="left"
+				data-rel="back"
+				>Back</a>
+			<a href="#about"
+              	data-transition="slidefade"
+				data-icon="info"
+				data-iconpos="right"
+				data-rel="dialog"
+				>Info</a><!-- about JaxHapps button -->
+            
+		</div><!-- header -->
+        
+		<div data-role="content">
+                <div class="mapContainer">
+                    <label id="eventMap_eventName"></label><br />
+                    <label id="eventMap_setmapAddress"></label><br />
+                    <div id="map_canvas" style="width:100%; height:470px"></div>
+                </div>
+		</div><!-- content -->
+        
+		<div class="navText"
+        	data-role="footer"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jh_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#feature"
+              		data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_feature"
+					>Featured</a></li>
+					<li><a href="#event"
+              		data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_event"
+					>Events</a></li>
+					<li><a href="#news"
+              		data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_news"
+					>News</a></li>
+					<li><a href="#info" 
+              		data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_info"
+					>Connect</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+    
+    
+<!-- Page: News ---------------------------------------------------------------------------------------------------------------------------------------------->
+	<div id="news" class="contentBg"
+		data-role="page"
+        data-theme="a"
+		data-title="JaxHapps :: News">
+		<div data-role="header"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jaxHapp_header">
+			<h1>News</h1>
+            
+			<a href="#home"
+              	data-transition="slidefade"
+				data-icon="home"
+				data-iconpos="left"
+				>Home</a>
+			<a href="#about"
+              	data-transition="slidefade"
+				data-icon="info"
+				data-iconpos="right"
+				data-rel="dialog"
+				>Info</a><!-- about JaxHapps button -->
+            
+		</div><!-- header -->
+        
+        <div data-role="content">
+            <div
+                data-role="controlgroup" 
+                id="newsList">
+            </div>
+        </div><!-- content -->      
+        
+		<div class="navText"
+            data-role="footer"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jh_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#feature"
+            	  	data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_feature"
+					>Featured</a></li>
+					<li><a href="#event" 
+            	  	data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_event"
+					>Events</a></li>
+					<li><a href="#" 
+            	  	data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_news"
+					>News</a></li>
+					<li><a href="#info"
+            	  	data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_info"
+					>Connect</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+
+    
+<!-- Page: News Details =Dynamitic Build  ------------------------------------------------------------------------------------------------------------------------->
+	<div id="newsDetailItem" class="contentBg"
+		data-role="page"
+        data-theme="a"
+		data-title="JaxHapps :: News Details">
+		<div data-role="header"
+            id=newsItemDetailsHeader        
+            data-theme="a"
+			data-position="fixed"
+			data-id="jaxHapp_header">
+			<h1>News Details</h1>
+            
+			<a href="#"
+               	data-transition="slidefade"
+				data-role="button"
+				data-icon="back"
+				data-iconpos="left"
+				data-rel="back"
+				>Back</a>
+			<a href="#about"
+            	data-transition="slidefade"
+				data-icon="info"
+				data-iconpos="right"
+				data-rel="dialog"
+				>Info</a><!-- about JaxHapps button -->
+            
+		</div><!-- header -->
+        
+		<div data-role="content">
+            <div  id="jaxNewsItem">
+            </div> 
+		</div><!-- content -->
+        
+	<div class="navText"
+        	data-role="footer"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jh_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#feature"
+            		data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_feature"
+					>Featured</a></li>
+					<li><a href="#event"
+            		data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_event"
+					>Events</a></li>
+					<li><a href="#news"
+            		data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_news"
+					>News</a></li>
+					<li><a href="#info"
+            		data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_info"
+					>Connect</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->        
+        
+	</div><!-- page -->
+     
+    
+<!-- Page: Connections --------------------------------------------------------------------------------------------->
+	<div id="info" class="contentBg"
+		data-role="page"
+        data-theme="a"
+		data-title="JaxHapps :: Connnections">
+		<div data-role="header"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jaxHapp_header">
+			<h1>Connections</h1>
+            
+			<a href="#home"
+				data-icon="home"
+            	data-transition="slidefade"
+				data-iconpos="left"
+				>Home</a>
+			<a href="#about"
+            	data-transition="slidefade"
+				data-icon="info"
+				data-iconpos="right"
+				data-rel="dialog"
+				>Info</a><!-- about JaxHapps button -->
+            
+		</div><!-- header -->
+        
+		<div data-role="content">
+		<nav id="social-menu">
+            <ul class="menu">
+                <li> <a href="#tweets"><img src="images/twitter-logo.png" width="65" height="65" alt="Twitter"></a> </li>
+                <li> <a href="#facebook"><img src="images/facebook_logo.png" width="65" height="65" alt="Facebook"></a> </li>
+                <li> <a href="#youTube"><img src="images/youTube_logo.png" width="65" height="65" alt="You Tube"></a> </li>
+                    <ul class="menu-2">
+                        <li> <a href="#flickr"><img src="images/Flickr_logo.png" width="65" height="65" alt="Flickr"></a> </li>
+						<!--   <li > <a href=""><img src="images/rssFeed_logo.png" width="65" height="65" alt="rss Feed"></a></li>  -->
+                        <li> <a href="mailto:your@email.com"><img src="images/email_logo.png" width="65" height="65" alt="eMail"></a> </li>
+                        <!--   <li> <a href=""><img src="images/foursquare_logo.png" width="65" height="65" alt="Foursquare"></a> </li> -->
+                    </ul>
+            </ul>
+        </nav>
+        <br  class="clearfloat" />          
+		</div><!-- content --> 
+        
+        <div data-role="content" data-theme="c">
+                <div data-role="controlgroup"
+                id="connectButtons">
+                        <a href="#contactEvent" 
+         				   	data-transition="slidefade"
+                            data-role="button"
+                            data-icon="arrow-r"
+                            data-iconpos="right"
+                        >Contact Special Events</a>
+                        <a href="#legalDisclaim" 
+         				   	data-transition="slidefade"
+                            data-role="button"
+                            data-icon="arrow-r"
+                            data-iconpos="right"
+                        >Legal Disclaimer</a>
+                </div> 
+        </div><!-- content -->
+        
+		<div class="navText"
+            data-role="footer"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jh_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#feature"
+         			data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_feature"
+					>Featured</a></li>
+					<li><a href="#event"
+         			data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_event"
+					>Events</a></li>
+					<li><a href="#news" 
+         			data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_news"
+					>News</a></li>
+					<li><a href="#" 
+         			data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_info"
+					>Connect</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+    
+    
+<!-- Page: YouTube Feed -------------------------------------------------------------------------------------------------------------------------->
+<div id="youTube" class="infoContentBg"
+		data-role="page"
+        data-theme="a"
+		data-title="JaxHapps :: YouTube">
+		<div data-role="header"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jaxHapp_header">
+			<h1>Jax's YouTube</h1>
+			<a href="#info"
+				data-icon="back"
+            	data-transition="slidefade"
+				data-iconpos="left"
+				>Back</a>
+			<a href="#about"
+         		data-transition="slidefade"
+				data-icon="info"
+				data-iconpos="right"
+				data-rel="dialog"
+				>Info</a><!-- about JaxHapps button -->
+		</div><!-- header -->
+
+        
+<!--  YouTube Grid --------------------------------------------------------------------------------------------------------------------------->
+		<div data-role="content">
+
+                <div data-role="content">
+                        <div class="ui-grid-a" id="jaxVideoList">
+                        </div><!-- grid -->
+                </div><!-- content -->
+
+		</div><!-- content -->
+        
+		<div class="navText"
+            data-role="footer"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jh_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#feature"
+         			data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_feature"
+					>Featured</a></li>
+					<li><a href="#event" 
+         			data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_event"
+					>Events</a></li>
+					<li><a href="#news"
+         			data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_news"
+					>News</a></li>
+					<li><a href="#info"
+         			data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_info"
+					>Connect</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+
+
+<!--  YouTube Player -------------------------------------------------------------------------------------------------------------------------->
+	<div id="jaxVideoPlayer"
+		data-role="page">
+		<div data-role="header"
+			data-position="fixed"
+			data-theme="a">
+			<a href="#youTube"
+				data-transition="slidefade"
+				data-icon="back"
+				data-iconpos="left"
+				>Back</a>
+			<h1>Jax's Videos</h1>
+		</div><!-- header -->
+		<div data-role="content">
+			<div id="jaxPlayer"></div>
+		</div><!-- content -->
+	</div><!-- page -->
+
+    
+<!-- Page: Flickr Feed --------------------------------------------------------------------------------------------------->
+<div id="flickr" class="infoContentBg"
+		data-role="page"
+        data-theme="a"
+		data-title="JaxHapps :: Flickr">
+		<div data-role="header"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jaxHapp_header">
+			<h1>Jax's Flickr</h1>
+			<a href="#"
+               	data-transition="slidefade"
+				data-role="button"
+				data-icon="back"
+				data-iconpos="left"
+				data-rel="back"
+				>Back</a>
+			<a href="#about"
+				data-transition="slidefade"
+				data-icon="info"
+				data-iconpos="right"
+				data-rel="dialog"
+				>Info</a><!-- about JaxHapps button -->
+		</div><!-- header -->
+
+<!-- Flickr Grid ------------------------------------------------------------------------------------------------------------------>
+		<div data-role-"content"
+			data-theme="a">
+			<div class="ui-grid-c" id="photolist">
+			</div><!-- grid -->
+		</div><!-- content -->
+        
+		<div class="navText"
+            data-role="footer"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jh_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#feature"
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_feature"
+					>Featured</a></li>
+					<li><a href="#event" 
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_event"
+					>Events</a></li>
+					<li><a href="#news" 
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_news"
+					>News</a></li>
+					<li><a href="#info" 
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_info"
+					>Connect</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+
+
+<!-- Flickr Display ------------------------------------------------------------------------------------------------------------------>
+	<div data-role="page" 
+		id="showphoto">
+		<div data-role="header"
+			data-position="fixed"
+			data-theme="a">
+			<a href="#"
+               	data-transition="slidefade"
+				data-role="button"
+				data-icon="back"
+				data-iconpos="left"
+				data-rel="back"
+				>Back</a>
+			<h1>Photos</h1>
+		</div><!-- header -->
+		<div data-role="content">
+			<div id="jaxPhoto"></div>
+		</div><!-- content -->
+	</div><!-- page -->
+
+
+<!-- Page: Twitter Feed ------------------------------------------------------------------------------------------------->
+<div id="tweets" class="contentBg"
+		data-role="page"
+        data-theme="a"
+		data-title="JaxHapps :: Tweets">
+		<div data-role="header"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jaxHapp_header">
+			<h1>Jax's Tweets</h1>
+			<a href="#"
+               	data-transition="slidefade"
+				data-role="button"
+				data-icon="back"
+				data-iconpos="left"
+				data-rel="back"
+				>Back</a>
+			<a href="#about"
+				data-transition="slidefade"
+				data-icon="info"
+				data-iconpos="right"
+				data-rel="dialog"
+				>Info</a><!-- about JaxHapps button -->
+		</div><!-- header -->
+        
+        <div data-role="content">
+                <div data-role="controlgroup"
+                    data-theme="c"
+                    id="tweetlist">
+            </div>
+        </div><!-- content -->      
+        
+		<div class="navText"
+            data-role="footer"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jh_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#feature"
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_feature"
+					>Featured</a></li>
+					<li><a href="#event"
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_event"
+					>Events</a></li>
+					<li><a href="#news"
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_news"
+					>News</a></li>
+					<li><a href="#info" 
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_info"
+					>Connect</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+    
+    
+<!-- Page: Facebook Feed ------------------------------------------------------------------------------------------------->
+<div id="facebook" class="contentBg"
+		data-role="page"
+        data-theme="a"
+		data-title="JaxHapps :: Facebook Posts">
+		<div data-role="header"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jaxHapp_header">
+			<h1>Jax's FB Posts</h1>
+			<a href="#"
+               	data-transition="slidefade"
+				data-role="button"
+				data-icon="back"
+				data-iconpos="left"
+				data-rel="back"
+				>Back</a>
+			<a href="#about"
+				data-transition="slidefade"
+				data-icon="info"
+				data-iconpos="right"
+				data-rel="dialog"
+				>Info</a><!-- about JaxHapps button -->
+		</div><!-- header -->
+        
+        <div data-role="content">
+                <div data-role="controlgroup"
+                    data-theme="c"
+                    id="jaxFB_postsList">
+            </div>
+        </div><!-- content -->      
+        
+		<div class="navText"
+            data-role="footer"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jh_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#feature"
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_feature"
+					>Featured</a></li>
+					<li><a href="#event" 
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_event"
+					>Events</a></li>
+					<li><a href="#news" 
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_news"
+					>News</a></li>
+					<li><a href="#info"
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_info"
+					>Connect</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+    
+    
+<!-- Page: Contact Special Events --------------------------------------------------------------------------------------------------->
+<div id="contactEvent" class="contentBg"
+		data-role="page"
+        data-theme="a"
+		data-title="JaxHapps :: Contact Special Events">
+		<div data-role="header"
+            id=contactItemDetailsHeader   
+            data-theme="a"
+			data-position="fixed"
+			data-id="jaxHapp_header">
+			<h1>Contact Events</h1>
+			<a href="#"
+               	data-transition="slidefade"
+				data-role="button"
+				data-icon="back"
+				data-iconpos="left"
+				data-rel="back"
+				>Back</a>
+			<a href="#about"
+				data-transition="slidefade"
+				data-icon="info"
+				data-iconpos="right"
+				data-rel="dialog"
+				>Info</a><!-- about JaxHapps button -->
+		</div><!-- header -->
+        
+        <div data-role="content">
+            <div data-inset="true" class="ui-body ui-body-f ui-corner-all">
+				<h2>Contact Special Events</h2><br>
+                <p>City of Jacksonville<br>
+                 		Office of Special Events<br>
+                        117 West Duval Street, Suite 240<br>
+                        Jacksonville, FL 32202<br>
+                </p><br>
+                
+			<p><a target="_blank" onclick="launchBrowser('http://630city.coj.net')">630-CITY</a><br>Where to go when you need to know</p><br>
+                
+			</div>
+            <div id="phoneEmailBtn"
+            		data-role="controlgroup"
+                    data-type="horizontal"
+                    data-theme="b">
+                            <a href="tel:+19046303690" 
+								data-transition="slidefade"
+                                data-role="button"
+                                data-icon="icon_phone"
+                                data-iconpos="left"
+                                rel="external"
+                            >904 630 3690</a>
+                            <a href="mailto:events@coj.net" 
+								data-transition="slidefade"
+                                data-role="button" 
+                                data-icon="icon_email"
+                                data-iconpos="left"
+                                rel="external"
+                            >Email</a>           
+            </div> 
+       		<img src="images/spacer.png" width="1" height="30" />  <!-- use spacer image to adjust bottom padding -->
+            <div data-inset="true" class="ui-body ui-body-f ui-corner-all">
+                <h4>Email Disclaimer</h4>
+                <p>Under Florida law, email addresses are public records. If you do not want your email address released in response to a public records request, do not send electronic mail to this entity. Instead, contact this office by phone or in writing.</p><br>
+			</div>            
+        </div><!-- content -->
+        
+		<div class="navText"
+            data-role="footer"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jh_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#feature"  
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_feature"
+					>Featured</a></li>
+					<li><a href="#event" 
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_event"
+					>Events</a></li>
+					<li><a href="#news"
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_news"
+					>News</a></li>
+					<li><a href="#info" 
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_info"
+					>Connect</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+
+
+<!-- Page: Legal Disclaimer --------------------------------------------------------------------------------------------------->
+<div id="legalDisclaim" class="contentBg"
+		data-role="page"
+        data-theme="a"
+		data-title="JaxHapps :: Legal Disclaimer">
+		<div data-role="header"
+            id=legalItemDetailsHeader   
+            data-theme="a"
+			data-position="fixed"	
+			data-id="jaxHapp_header">
+			<h1>Legal Disclaimer</h1>
+			<a href="#"
+               	data-transition="slidefade"
+				data-role="button"
+				data-icon="back"
+				data-iconpos="left"
+				data-rel="back"
+				>Back</a>
+			<a href="#about"
+				data-transition="slidefade"
+				data-icon="info"
+				data-iconpos="right"
+				data-rel="dialog"
+				>Info</a><!-- about JaxHapps button -->
+		</div><!-- header -->
+        
+        <div data-role="content">
+            <div data-inset="true" class="ui-body ui-body-f ui-corner-all">
+				<h2>Disclaimer and Privacy Policy</h2>
+                <h4>Disclaimer</h4>
+                <p>The content of the City of Jacksonville's Internet site is provided for information purposes only.  The City of Jacksonville does not accept any liability to any person for the information or advice which is provided on this site or incorporated into it by reference.  The information on the City of Jacksonville's Internet site is provided on the basis that all persons accessing the site undertake responsibility for assessing the relevance and accuracy of its content.  The City of Jacksonville makes no claim as to the suitability, completeness, accuracy or authenticity of the information contained in any external Internet Site linked to this site.   The City of Jacksonville does not accept any liability to any person for the information or advice which is provided on linked Internet sites or incorporated into them by reference.  Nor is a link an endorsement of any product and/or service advertised on a linked Internet site.   Under no circumstances, including, but not limited to, negligence, shall the City of Jacksonville be liable for any special or consequential damages that result from the use of, or the inability to use, the materials in this site.</p>
+                
+                <p>Any links to Internet sites which are external to this site have been created on the basis that persons accessing the site undertake responsibility for assessing the relevance and accuracy of their content, and are advised to verify all representations, statements and information and obtain independent advice before acting on any information contained in or in connection with said linked Internet sites. Copyright in the Material on this Web Site is owned by the City of Jacksonville.   You acknowledge and accept that your use of the City of Jacksonville's Internet site indicates your acceptance of this disclaimer and the following Privacy Statement.</p><br>
+
+                <h4>Privacy Statement</h4>
+                <p>Regardless of whether information is provided to the City of Jacksonville by personal visit, mail, or web site, it becomes a public record and is open to public inspection unless protected by State or Federal law.  Public records are subject to the rules and requirements located in Chapter 119, Florida Statutes.</p>
+                
+                <p>If you choose to share personal information, such as sending an email, or filling out an electronic form with personal information, the information will be saved for a designated period of time in order to comply with the State of Florida's archiving policies.  Such information also becomes a public record unless exempted by State or Federal law. The City of Jacksonville's Internet site may use session cookies (tokens that remain active until you close your browser) in order to make the site easier to use.  You can choose not to accept these cookies and still use the site, but it may take you longer to fill out the same information repeatedly and clicking on the banners will not take you to the correct link.  Refer to the help information in your browser software for instructions on how to disable cookies.</p>
+                
+			<img src="images/spacer.png" width="1" height="30" />  <!-- use spacer image to adjust bottom padding -->
+                
+			</div>
+        </div><!-- content -->
+        
+		<div class="navText"
+            data-role="footer"
+            data-theme="a"
+			data-position="fixed"
+			data-id="jh_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#feature"
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_feature"
+					>Featured</a></li>
+					<li><a href="#event" 
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_event"
+					>Events</a></li>
+					<li><a href="#news" 
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_news"
+					>News</a></li>
+					<li><a href="#info"
+					data-transition="slidefade"
+					data-role="button"
+					data-icon="jax_info"
+					>Connect</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+    
+
+<!-- Page: JaxHapps About Dialog -------------------------------------------------------------------------------------------->
+    <div data-role="page"
+     id="about"
+    data-theme="a">
+		<div data-role="header"
+        	data-theme="a">
+			<h1>JaxHapps</h1>
+		</div>
+		<div data-role="content">
+        
+			<p><a target="_blank" onclick="launchBrowser('http://630city.coj.net')">630-CITY</a><br>Where to go when you need to know</p><br>
+        
+			<p>Brought to you by the City of Jacksonville's Office of Special Events and Information Technologies Division.</p><br>
+            
+            <p>JaxHapps:  Version 1.3.42</p>
+			<a href="#"
+				data-transition="slidefade"
+				data-role="button"
+				data-inline="true"
+				data-rel="back"
+			>Cancel</a>
+			<a href="#home"
+				data-transition="slidefade"
+				data-role="button"
+				data-inline="true"
+			>Home</a>
+		</div>
+	</div>
+    
+<!-- getMainScreenEvents  ---------------------------------------------------------------------------------------->
+<script type="text/javascript">
+    getFeatureEvents();
+    getFeatureNews();
+    getEvents();
+    getNews();
+</script>
+    
+<!-- maps ---------------------------------------------------------------------------------------------------->
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="scripts/js/setmap.js"></script>
+
+
+<!--  Google API:   http://developers.google.com/youtube ----------------------------------------------------------------------------------------------->
+<!--<script src="http://gdata.youtube.com/feeds/users/CityofJax/uploads?alt=json-in-script&max-results=30&callback=jaxListVideos" type="text/javascript"></script>
+-->
+
+<script src="http://gdata.youtube.com/feeds/users/masdjacksonville/uploads?alt=json-in-script&max-results=30&callback=jaxListVideos" type="text/javascript"></script>
+ 
+ 
+
+<!--  Flickr API:   http://www.flickr.com/services/api --------------------------------------------------------------------------------------------------------------------------------->
+<!--   http://www.flickr.com/services/api/explore/?method=flickr.people.findByUsername --------URL to convert "user name" to "user ID"  ----------------------------------------->
+
+<!--  <user id="58521777@N05" nsid="58521777@N05">
+    <username>makeascenedowntown</username>
+  </user>
+-->
+
+<!--    http://www.flickr.com/services/api/misc.urls.html  --------  URL to find image size suffixes     ----------------------------------------->
+ <script src="http://api.flickr.com/services/feeds/photos_public.gne?id=58521777@N05&format=json" type="text/javascript"></script>
+
+
+<!--  showFacebookPosts  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--    https://developers.facebook.com/tools/explorer --------  URL to get access token     -------------------------------------------------------------------------------------->
+<!--  getNews  ---------------------------------------------------------------------------------------------------->
+<script type="text/javascript">    getFB_events();
+</script>
+
+
+<!-- Twitter API:   https://dev.twitter.com/docs/api/1/get/statuses/user_timeline   ------   http://www.idfromuser.com/  ------------------------------------------------->
+<script src="http://api.twitter.com/1/statuses/user_timeline.json?id=46738099&callback=listTweets"type="text/javascript"></script>
+
+<!--  Twitter auto update  --------------------------------------------------------------------------------------------------------------------------------------------------------->
+ <script type="text/javascript">     $(document).ready(function () {
+         var refreshID = setInterval(function () {
+             $.getJSON('http://api.twitter.com/1/statuses/user_timeline.json?id=46738099&callback=?', function (data) {
+                 listTweets(data);
+                 $('#tweetlist').trigger('create');
+             });
+         }, 500000);
+     });
+</script>
+
+<!--  ChildBrowser  ---------------------------------------------------------------------------------------------------->
+<script type="text/javascript">    launchBrowser();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link href="css/materialize.min.css" rel="stylesheet"/>
+
+    <link href="css/animate.css" rel="stylesheet"/>
+    <style>
+        iframe {
+            border:0 none;
+            background-color: white;
+        }
+        .scroll-wrapper {
+            -webkit-overflow-scrolling: touch;
+            overflow-y: scroll;
+
+            /* important:  dimensions or positioning here! */
+        }
+    </style>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="js/fastclick.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</head>
+    <body class="purple">
+        <div class="container" style="max-width: 400px; margin-top: 50px;">
+            <div class="">
+                <div class="animated fadeInUp">
+                    <div class="card ">
+                        <div class="card-content black-text">
+                            <span class="card-title deep-purple-text">Add User</span>
+                            <p>Enter your Home Access Center Information</p>
+                            <form id="adduser">
+                                <div class="input-field">
+                                    <input id="url" type="url" class="validate" required>
+                                    <label for="url" data-error="Invalid URL" data-success="" required>HAC URL</label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="username" type="text" class="validate" required>
+                                    <label for="username" data-error="Invalid Username" data-success="" required>HAC Username</label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="password" type="password" class="validate" required>
+                                    <label for="password" data-error="Invalid Username" data-success="" required>HAC Password</label>
+                                </div>
+                                <div id = "submit">
+                                    <button class="btn waves-effect purple waves-light" type="submit" name="action">LOGIN
+                                        <i class="material-icons right">send</i>
+                                    </button>
+                                </div>
+                                <div id="loading" hidden>
+                                    <div class="preloader-wrapper small active">
+                                        <div class="spinner-layer spinner-green-only">
+                                            <div class="circle-clipper left">
+                                                <div class="circle"></div>
+                                            </div><div class="gap-patch">
+                                            <div class="circle"></div>
+                                        </div><div class="circle-clipper right">
+                                            <div class="circle"></div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/signin.js"></script>
+        <script>
+            $(document).ready(function(){
+                recentURL = localStorage.getItem("recentURL");
+                var dbID;
+                if(recentURL != null){
+                    recentURL = JSON.parse(recentURL);
+                    $("#url").val(recentURL["url"]);
+                    dbID = recentURL["dbID"];
+                }
+
+                $('#adduser').submit(function(event){
+                    var district_url;
+                    var username;
+                    var password;
+                    district_url = $('#url').val();
+                    console.log(district_url);
+                    username = $('#username').val();
+                    password = $('#password').val();
+                    load(district_url,username,password,dbID);
+                    event.preventDefault();
+                });
+            })
+
+        </script>
+    </body>
+</html>

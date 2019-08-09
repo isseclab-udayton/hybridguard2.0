@@ -1,0 +1,27 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.haji3.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- assets/www/demos/css/jquery-mobile-1.0/images/ajax-loader.png
+- assets/www/demos/css/jquery-mobile-1.0/images/icons-18-white.png
+- assets/www/demos/images/subtlepatterns.com/cubes.png
+- gif
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '8'
+sharedLibrary: false
+sparseResources: true
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '7'
+  versionName: '1.6'

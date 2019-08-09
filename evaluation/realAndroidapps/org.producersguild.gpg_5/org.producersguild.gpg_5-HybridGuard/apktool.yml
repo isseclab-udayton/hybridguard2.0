@@ -1,0 +1,42 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: org.producersguild.gpg_5.apk
+compressionType: false
+doNotCompress:
+- arsc
+- gif
+- png
+- jpg
+- eot
+- woff
+- res/drawable/com_facebook_button_grey_focused.9.png
+- res/drawable/com_facebook_button_grey_normal.9.png
+- res/drawable/com_facebook_button_grey_pressed.9.png
+- res/drawable/com_facebook_list_divider.9.png
+- res/drawable/com_facebook_list_section_header_background.9.png
+- res/drawable/com_facebook_picker_list_focused.9.png
+- res/drawable/com_facebook_picker_list_longpressed.9.png
+- res/drawable/com_facebook_picker_list_pressed.9.png
+- res/drawable/com_facebook_picker_list_selector_disabled.9.png
+- res/drawable-hdpi/com_facebook_button_grey_focused.9.png
+- res/drawable-hdpi/com_facebook_button_grey_normal.9.png
+- res/drawable-hdpi/com_facebook_button_grey_pressed.9.png
+- res/drawable-xhdpi/com_facebook_button_grey_focused.9.png
+- res/drawable-xhdpi/com_facebook_button_grey_normal.9.png
+- res/drawable-xhdpi/com_facebook_button_grey_pressed.9.png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '8'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '5'
+  versionName: '1.1'

@@ -1,0 +1,113 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #696969;
+ }
+
+#header {
+  position: relative;
+  height: 40px;
+}
+
+#details {
+  border: 1px solid black;
+  margin-top: 8px;
+  padding: 5px;
+  background: white;
+  font-size: 0.8em;
+}
+
+#details h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#details h2 {
+  display: inline;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding-right: 2em;
+}
+
+#details a {
+  font-size: 0.8em;
+}
+
+#details img {
+  width: 5.2em;
+  height: 0.9em;
+}
+
+.spinner {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: black;
+  width: 25px;
+  height: 25px;
+  margin: 0 3px;
+  float: right;
+  z-index: 999999;
+}
+
+.fill-remaining {
+  display: block;
+  overflow: hidden;
+  padding: 4px 4px 0 6px;
+}
+
+#map-options {
+  vertical-align: middle;
+}
+
+#map_canvas {
+  margin: 0;
+  padding: 0;
+  height: 95%;
+ }
+
+.hidden {
+  visibility: hidden;
+}
+
+.spacer {
+  padding-left: 0.5em;
+}
+
+.ui-multiselect-checkboxes li { 
+  font-size: 1.4em;
+}
+
+.ui-button {
+  float: left;
+  height: 32px;
+  width: 32px;
+  padding: 2px;
+}
+
+.dialog-button {
+  float: right;
+  padding: 2px;
+}
+
+.search-action {
+  display: inline;
+}
+
+.mobile-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mobile-list li {
+  height: 1.7em;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.50em 0;
+}
+
+.mobile-list li img {
+  float: right;
+  padding: 0.0em 0.4em;
+}

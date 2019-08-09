@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="author" content="WebId.co.il" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+        <title>נתיבי האור</title>
+
+        <link rel="stylesheet" type="text/css" href="http://netivei-haor.net/mobile/css/style.css" />
+        <!--end css include-->
+        <link type="image/x-icon" href="http://netivei-haor.net/mobile/img/favicon.ico" rel="shortcut icon" />
+        <link rel="apple-touch-icon" sizes="300x300" href="http://netivei-haor.net/mobile/img/favicon.png" />
+
+        <!--end css include-->
+        <script src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+        <script src="http://netivei-haor.net/mobile/js/jquery.bpopup-0.7.0.min.js"></script>
+        <script type="text/javascript" src="http://api.html5media.info/1.1.5/html5media.min.js"></script>
+        <script src="http://netivei-haor.net/mobile/js/history.js"></script>
+        <script src="http://netivei-haor.net/mobile/js/general.js"></script>
+        
+        <script src="jquery.iosslider.min.js"></script>
+
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+
+    </head>
+
+<body>
+
+
+        <div id="screenflash" style="display: none;">
+            <div class="content">
+                <div class="clogo">
+                    <img class="loading" src="img/ajax.gif" />
+                    <img src="img/logo.png" />
+                </div>
+            </div>
+        </div>
+        <div id="bodyloader">
+            <div id="bg"></div>
+            <header>
+                <a class="logo" href="index.html" title=""></a>
+                <a class="menubutton"></a>
+            </header>
+            <div class="panel">
+                <a class="close"></a>
+                <div class="clear"></div>
+                <form method="get" action="http://netivei-haor.net/mobile/go.asp?go=search" id="searchFrm"> 
+                    <input type="text" autocomplete="off" placeholder="חפש" id="q" name="q" />
+                    <button type="submit"></button>
+                </form>
+                <div class="clear"></div>
+                <a class="backbutton"></a>
+                <div class="clear"></div>
+                <ul>
+    <li><a href="index.html">דף הבית</a></li>
+                    <li><a href="http://netivei-haor.net/mobile/go.asp?go=show&type=1">קטעים קצרים ומצחיקים</a></li>
+                    <li><a href="http://netivei-haor.net/mobile/go.asp?go=show&type=2">דרשות חדשות לצפייה</a></li>
+                    <li><a href="http://netivei-haor.net/mobile/go.asp?go=show&type=3">הלכות לצפייה</a></li>
+					<li><a href="http://netivei-haor.net/mobile/go.asp?go=show&type=4">שירים</a></li>
+					
+                    <li><a href="http://netivei-haor.net/mobile/go.asp?go=faq">שאלות ותשובות</a></li>
+                    <li><a href="http://netivei-haor.net/mobile/go.asp?go=articles">מאמרים מרתקים</a></li>
+                    <li><a href="http://netivei-haor.net/mobile/go.asp?go=tfilot">תפילות</a></li>
+					<li><a href="http://netivei-haor.net/mobile/go.asp?go=tmunot">תמונות</a></li>
+					
+					
+                    <li><a id="menucontact">צור קשר</a></li>
+                    <li><a href="https://www.facebook.com/pages/%D7%A0%D7%AA%D7%99%D7%91%D7%99-%D7%94%D7%90%D7%95%D7%A8-%D7%94%D7%A8%D7%91-%D7%99%D7%95%D7%A0%D7%AA%D7%9F-%D7%91%D7%9F-%D7%9E%D7%A9%D7%94-%D7%A9%D7%9C%D7%99%D7%98%D7%90/177130279155218" target="_BLANK">פייסבוק</a></li>
+                    <li><a href="http://www.youtube.com/channel/UCaNRChEphy0TkAPv8d39EHA">ערוץ ביוטוב</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <div id="container">
+            </div>
+            <div id="searchbox" class="popbox">
+                <i class="cancel"></i>
+                <h3>חפש שאלה</h3>
+                <form method="post" name="searchbox">
+                    <fieldset>
+                        <input type="text" placeholder="הכנס מילת חיפוש" id="q" name="q" />
+                    </fieldset>
+                    <div class="clear"></div>
+                    <input type="submit" value="שלח" />
+                    <div class="sendus" id="sendus"></div>
+                    <div class="clear"></div>
+                </form>
+            </div>
+            <div id="addque" class="popbox">
+                <i class="cancel"></i>
+                <h3>שליחת שאלה לרב</h3>
+                <form method="post" name="addfaq">
+                    <fieldset>
+                        <input type="text" placeholder="שם מלא" id="name" name="name" />
+                    </fieldset>
+                    <fieldset>
+                        <input type="text" placeholder="נושא" id="nose" name="nose" />
+                    </fieldset>
+                    <fieldset>
+                        <input type="text" placeholder="דואר אלקטרוני" id="email" name="email" />
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="text" id="text" placeholder="תוכן השאלה"></textarea>
+                    </fieldset>
+                    <div class="clear"></div>
+                    <input type="submit" value="שלח" />
+                    <div class="sendus" id="sendus"></div>
+                    <div class="clear"></div>
+                </form>
+            </div>
+            <div id="contact" class="popbox">
+                <i class="cancel"></i>
+                <h3>צור קשר</h3>
+                <form method="post" name="contact">
+                    <fieldset>
+                        <input type="text" placeholder="שם מלא" id="contname" name="contname" />
+                    </fieldset>
+                    <fieldset>
+                        <input type="text" placeholder="פלאפון" id="contpele" name="contpele" />
+                    </fieldset>
+                    <fieldset>
+                        <input type="text" placeholder="דואר אלקטרוני" id="contemail" name="contemail" />
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="contmelel" id="contmelel" placeholder="הודעה"></textarea>
+                    </fieldset>
+                    <div class="clear"></div>
+                    <input type="submit" value="שלח" />
+                    <div class="sendus" id="outputcontact"></div>
+                    <div class="clear"></div>
+                </form>
+            </div>
+            <footer>
+                <div class="wrap">
+                    <div id="nav"></div>
+                    <div class="clear"></div>
+                    <div class="cp">כל הזכויות שמורות. <span>נתיבי האור</span><br/> יונתן בן משה</div>
+                    <div class="clear"></div>
+                    <a href="http://webid.co.il" target="_BLANK" class="webid">ווב.אי.די - בניית אתרי אינטרנט מותאים למובייל</a>
+                </div>
+            </footer>
+        </div>
+
+
+
+     <script type="text/javascript" src="cordova-2.7.0.js"></script>
+		<script type="text/javascript" src="PushNotification.js"></script>
+        <script type="text/javascript" src="coreFlashJax.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+
+
+
+		
+    </body>
+</html>

@@ -1,0 +1,177 @@
+/* 
+    Document   : style-android-small
+    Created on : 5-ott-2012, 17.04.52
+    Author     : shinmac02
+    Description:
+        Purpose of the stylesheet follows.
+*/
+/*
+ .bardahlContent{
+     
+ }
+ 
+body{
+    font-size: 8pt !important;
+     
+}*/
+
+
+.ui-content {
+    font-size: 8pt !important;
+}
+ 
+/* Input text più fini */
+ .myInput{
+     height: 25px;
+     width: 70%;
+     font-size: 8pt !important;
+     
+ }
+ 
+input.ui-input-text, textarea.ui-input-text {
+     margin: 2px !important;
+ }
+ 
+ /* Label più vicine*/
+ /*
+ .myLabel{
+    text-align: right;
+    font-size: 8pt !important;
+    height: 20px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+     
+}*/
+ 
+  /* Label font più piccolo*/
+ 
+ .myLabel{
+    text-align: right;
+    font-size: 7pt !important;
+
+     
+}
+
+ /* font nei bottoni*/
+.ui-btn-text{
+    font-size: 8pt !important;
+    font-weight: normal !important;
+  /*  top: -5px;*/
+}
+
+/*Rimpicciolisco il radio e checkbox*/
+/*
+.ui-icon-radio-off{
+     width: 10px;
+     height: 10px;
+     margin-top: -5px;
+     top: 70% !important;
+     left: 5px;
+
+ }
+ 
+  .ui-icon-radio-on{
+     width: 10px;
+     height: 10px;
+     margin-top: -5px;
+     left: 5px;
+     top: 70% !important;
+     background-image: url('../../../img/icons-10-white.png');
+     background-position: -160px 50%;
+ }
+*/
+ /*
+ .ui-radio{
+     height: 20px;
+ }*/
+ 
+ /*
+ .ui-icon-checkbox-off{
+     width: 10px;
+     height: 10px;
+     margin-top: -5px;
+     top: 70% !important;
+     left: 5px;
+ }
+ 
+  .ui-icon-checkbox-on{
+     width: 10px;
+     height: 10px;
+     margin-top: -5px;
+     left: 5px;
+     top: 70% !important;
+     background-image: url('../../../img/icons-10-white.png');
+     background-position: -140px 50%;
+ }
+ 
+ 
+ .ui-btn-inner{
+     padding-top: 2px !important;
+     padding-bottom: 2px !important;
+ }
+ 
+ .ui-icon-arrow-d {
+     width: 10px;
+     height: 10px;
+     top: 70% !important;
+     background-image: url('../../../img/icons-10-white.png');
+     background-position: -120px 50%;
+}
+ */
+
+/*allargo l'header*/
+.ui-title{
+    margin-left: 40px !important;
+    margin-right:  40px !important;
+}
+
+
+
+.prodotti-thumb-div{
+    width: 35px;
+    padding-top: 0.2%;
+    left: 5px; top: 2px;
+}
+
+.prodotti-thumb{
+    height: 35px;  
+    max-width: 35px;
+}
+
+/*PRODOTTO: DETTAGLI*/
+.prodotto-img-div{
+    height:100px;
+    margin-top: 5px;
+}
+/*
+.prodotto-img{
+    height:90px;
+    width:auto;  
+}*/
+
+
+.prodotto-caratt{
+    height:100px;
+    font-size: 6pt !important;
+}
+
+.prodotto-caratt ul {
+    margin-left: 1em !important;
+    padding-left: 0 !important;
+} 
+
+.prodotto-plus{
+    font-size: 6pt !important;
+}
+
+h3{
+    font-size: 8pt !important;
+}
+
+h2{
+    font-size: 7pt !important;
+}
+p{
+    font-size: 6pt !important;
+}
+

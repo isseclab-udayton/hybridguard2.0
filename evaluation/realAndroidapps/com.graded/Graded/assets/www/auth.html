@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link href="css/materialize.min.css" rel="stylesheet"/>
+
+    <link href="css/animate.css" rel="stylesheet"/>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="js/fastclick.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</head>
+    <body class="grey lighten-5">
+        <div class="container" style="max-width: 400px; margin-top: 50px;">
+            <div class="">
+                <div class="animated fadeInUp" style="
+                    margin-top: 50px;
+                ">
+                    <img src="gradedLogo_purple.png" width="150px" style="margin-bottom: 15px;">
+                    <div class="">
+                        <div style="text-align:center">
+                            <h5 class="deep-purple-text" style="margin-bottom:25px;font-weight: 300;">Allow <span class="appName" style="
+                                font-weight: bold;
+                            ">posted</span> to check your HAC.</h5>
+                            <div style="text-align:left" class="card-panel blue-grey white-text">
+                                <h5 style="
+                                    font-weight: 300;
+                                    font-size: 16px;
+                                "><span class="appName">Posted</span> can...</h5>
+                                <ol style="font-weight:200">
+                                    <li>See your class schedule</li>
+                                    <li>View basic profile info</li>
+                                </ol>
+                                <h5 style="
+                                    font-weight: 300;
+                                    font-size: 16px;
+                                "><span class="appName">Posted</span> <strong>cannot...</strong></h5>
+                                <ol style="font-weight:200">
+                                    <li>See your grades and classwork</li>
+                                    <li>See your GPA and class rank</li>
+                                    <li>Pretend to be as awesome as you</li>
+                                <ol>
+                            </div>
+                            <div id="options">
+                            </div>
+                            <div class="hide" id="loading">
+                                  <div class="preloader-wrapper small active">
+                                    <div class="spinner-layer spinner-green-only">
+                                    <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                    </div><div class="gap-patch">
+                                        <div class="circle"></div>
+                                    </div><div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/signin.js"></script>
+        <script>
+            var userList;
+            var appName;
+            function choose(a){
+                $("#options").hide();
+                $("#loading").removeClass("hide");
+                $.ajax({
+                    type: "POST",
+                    url: "https://app.graded.us/login",
+                    data: {username:userList[0]["username"],password:userList[0]["password"],url:userList[0]['link'],device:"",mp:"",only:"schedule",debug:"yes", dbID:userList[0]["dbID"]},
+                    success: function(data){
+                        $("#loading").addClass("hide");
+                        console.log('Loaded Sched');
+                        userList[0].schedule = data.schedule;
+                        userList[0]["password"] = "lol";
+                        if(cordova.platformId == "android"){
+                            window.open(appName + "://login/" + JSON.stringify(userList[a]),"_system");
+                        }else{
+                            window.location = appName + "://login/" + JSON.stringify(userList[a]);
+                        }
+                        
+                    },
+                    error:function(error){
+                        $("#options").show();
+                        $("#loading").addClass("hide");
+                        Materialize.toast('Failed to load Schedule',1000);
+                        console.error("=====SCHEDULE ERR=====");
+                        console.error(error);
+
+                    },
+                    dataType: "JSON"
+                });
+                
+                //cordova.InAppBrowser.open(appName + "://login/" + JSON.stringify(userList[a]), "_system");
+            }
+            $(document).ready(function(){
+                appName = location.hash.replace("#","");
+                $(".appName").each(function(){
+                    $(this).text(appName);
+                });
+                userList = JSON.parse(localStorage.getItem("user_list"));
+                for(var i = 0; i < userList.length; i++){
+                    $("#options").append("<a class='btn purple white-text' style='width:100%; margin-bottom: 20px;' onclick='choose(" +i+ ");'>Allow for " + userList[i]["profile"]["name"] + "</a>");
+                }
+            })
+
+
+
+        </script>
+    </body>
+</html>

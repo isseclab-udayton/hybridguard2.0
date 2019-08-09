@@ -1,0 +1,183 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: AicfVz1jVZ1MBkeLkA39teltKTA=
+
+Name: res/drawable-mdpi/ic_action_search.png
+SHA1-Digest: XjltJdEB3tvakTn9CN7KwdaNT68=
+
+Name: assets/www/images/EarthWithGlow360.png
+SHA1-Digest: x9zufdH7UoAZFiRfDgiqus8JhFw=
+
+Name: assets/www/js/jquery-1.6.4.min.js
+SHA1-Digest: ccznGCDMR7O9EJhhjSSDJfzyTds=
+
+Name: res/xml/config.xml
+SHA1-Digest: vCo37SuB3adtIULMlBarHj2JQV0=
+
+Name: res/drawable-hdpi/splash.png
+SHA1-Digest: S70hvxOh/DxaXseoI4M2ivL7bhE=
+
+Name: assets/www/js/jquery.jsonp-2.1.4.min.js
+SHA1-Digest: K/wny6xV9MSFltZX9O790ERNBl4=
+
+Name: assets/www/images/EarthWithGlow480.png
+SHA1-Digest: Y6G0/abruM+ga0csrU+w5NaguhY=
+
+Name: assets/www/images/degreeLines.png
+SHA1-Digest: z5GOmOB0IQVr9nhUzzkKhu1ECbs=
+
+Name: assets/www/images/subDirectionPointer.png
+SHA1-Digest: 8jIlxhkcmrWlIWL21NYwlV8LKA4=
+
+Name: assets/www/images/Sputnik.png
+SHA1-Digest: XJFxPS46ciGAjHjxnAhJK4XxQss=
+
+Name: assets/www/images/spaceStation.png
+SHA1-Digest: RbwFkDHv6zsbnym6+vVgUkzu/90=
+
+Name: assets/www/images/logo.png
+SHA1-Digest: Cm9ry8zqy6vxVycQIiqEg6s0LtY=
+
+Name: assets/www/images/sputnikHighlight.png
+SHA1-Digest: M+qWVUiQawKRvg2BLfJm121CPWk=
+
+Name: assets/www/images/storelogo.png
+SHA1-Digest: CHM7d+7M2v8EVjs54sRAeB825LI=
+
+Name: assets/www/js/localization.js
+SHA1-Digest: 08L0owpNT7OHF1h041yHh1PNgUY=
+
+Name: res/drawable-xhdpi/splash.png
+SHA1-Digest: S70hvxOh/DxaXseoI4M2ivL7bhE=
+
+Name: assets/www/images/facebookButton16x16.png
+SHA1-Digest: uO8pnNSUz8jyd5ZaZTaN1ntI/So=
+
+Name: assets/www/images/SpaceStationFinderLogo100.png
+SHA1-Digest: DcOMYZWyOvm4+o1F5lAsLohu3xc=
+
+Name: assets/www/images/treelineLeft768.png
+SHA1-Digest: 4v+/2ooUYKTdEDltGLKOu31S3b8=
+
+Name: assets/www/images/uhaapi.png
+SHA1-Digest: XoQSy1D/EZF6zuA15JrYuCG3Cec=
+
+Name: assets/www/index.html
+SHA1-Digest: UjtaKztJ1p3zp31Z9twk7kVZfgc=
+
+Name: res/drawable-hdpi/ic_action_search.png
+SHA1-Digest: rOWnNxWCWKwkicf+FpYGMg1fX2Y=
+
+Name: res/drawable-xhdpi/ic_action_search.png
+SHA1-Digest: WzSVDDIHZpn0cFeuxgKRJete4TU=
+
+Name: assets/www/images/saturnHighlight.png
+SHA1-Digest: TneYJ2QRlvTPkWfCL8pdLojqhi8=
+
+Name: res/menu/activity_main.xml
+SHA1-Digest: erB77xHi6WjzyRNyAF5m/8n+Fpc=
+
+Name: assets/www/images/n.png
+SHA1-Digest: bS2hFDVnDm8SmqhH/aI47zW8lUk=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: AicfVz1jVZ1MBkeLkA39teltKTA=
+
+Name: assets/www/images/treelineLeft480.png
+SHA1-Digest: rA9tQph61KBJzXa9p5SGE2xDkGo=
+
+Name: assets/www/js/cordova-2.0.0.js
+SHA1-Digest: EFTj1MFfkBN7rcjiL1LsYwD9Iac=
+
+Name: assets/www/images/treelineLeft1024.png
+SHA1-Digest: iugYR3qZiD+ztJy+0XjlCuMUh0k=
+
+Name: assets/www/images/startupIcon.png
+SHA1-Digest: BNNeytsI2qq1O52mzb3PJwm4RLA=
+
+Name: assets/www/images/spaceStationAppearing.png
+SHA1-Digest: 6SE1QiUhy9eol1HHMj1tshgQIyw=
+
+Name: resources.arsc
+SHA1-Digest: aG4xb04g54jPDRRIe0cPaCW7bBg=
+
+Name: assets/www/images/subDirectionPointer.gif
+SHA1-Digest: wcCPAbjaM1FSgIWggE7jammkbAI=
+
+Name: assets/www/js/default.js
+SHA1-Digest: bJKf5GZurprdDn6dSHiirCJ6ZDY=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: 1YjMqJafEVfFRl9pvzWmEeOOHYY=
+
+Name: assets/www/images/email.png
+SHA1-Digest: 11WHgVjGMioeyvfYTP01i5vOOKE=
+
+Name: assets/www/images/EarthWithGlow768.png
+SHA1-Digest: bjCjDNDDR2juj13wlbtelz4iJgM=
+
+Name: assets/www/images/e.png
+SHA1-Digest: N23GHF281ltd27rXwUX28yENZgk=
+
+Name: AndroidManifest.xml
+SHA1-Digest: qc317IjK2fvf/xJG/6cJ/HgTTYk=
+
+Name: res/drawable-mdpi/splash.png
+SHA1-Digest: 3qJog+2yIecNcyM4d69Dyl1AHD0=
+
+Name: assets/www/images/SpaceStationFinderLogo.png
+SHA1-Digest: h0OjABCpIUAuRg91eftqhJDeTvE=
+
+Name: assets/www/images/iphone-ipodtouch.png
+SHA1-Digest: ewT9BFweWRkWvJpL39NEULvQjGY=
+
+Name: assets/www/cordova-2.0.0.js
+SHA1-Digest: EFTj1MFfkBN7rcjiL1LsYwD9Iac=
+
+Name: assets/www/js/modernizr-latest.js
+SHA1-Digest: b0Jo6fgxnepaDcPZAQnZJTh0WuQ=
+
+Name: assets/www/images/s.png
+SHA1-Digest: smagLB38ogV7ogoskDARUqCLbj0=
+
+Name: assets/www/images/treelineLeft360.png
+SHA1-Digest: 1sjqd+BmuTZZV/xNJzgwKpcs5WM=
+
+Name: classes.dex
+SHA1-Digest: DZ0fOX2aTodmyw64shSHSjO3Nvw=
+
+Name: assets/www/images/EarthWithGlow1024.png
+SHA1-Digest: GG6o3GCqKjXfl9XFKyTtLfYg6lI=
+
+Name: assets/www/css/default.css
+SHA1-Digest: Qy4r/L5XzKfWcQxh1+10XnVgzJI=
+
+Name: assets/www/images/w.png
+SHA1-Digest: FNY/Emdm8rBwwxqwe+ktnH8Jc1I=
+
+Name: assets/www/images/tweet.png
+SHA1-Digest: yGAAXlZVEa3T7ljgFjdVr5qikTk=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: POvE79nKu8GKWgjORcvxxub6Z+c=
+
+Name: assets/www/images/saturn.png
+SHA1-Digest: cm8uexoGwW9Qp1rBGf+JEp6CNXk=
+
+Name: res/drawable-ldpi/splash.png
+SHA1-Digest: AQop/R8cq7G+PIC0dBG814+Opgo=
+
+Name: assets/www/images/spaceStationVanishing.png
+SHA1-Digest: 6mizbUoJ93uUYuwtetQ+WS6Jd/o=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: 64Ygwhf7vaxBPKWm5z9675x2BkY=
+
+Name: assets/www/images/smalllogo.png
+SHA1-Digest: gQVCGNtWfYC6oMpkSugRa7eiU14=
+
+Name: assets/www/images/redWhiteMapBorder.gif
+SHA1-Digest: UKidbJXiF8m7X5GWQprPXv/O45c=
+

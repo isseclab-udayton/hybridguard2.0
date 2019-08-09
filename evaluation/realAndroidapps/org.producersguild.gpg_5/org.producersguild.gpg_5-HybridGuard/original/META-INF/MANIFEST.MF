@@ -1,0 +1,734 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: assets/www/theme/fonts/vegur-light-webfont.ttf
+SHA1-Digest: cUSFtblQ6qkopRE+pxaJV+cpMn8=
+
+Name: res/xml/config.xml
+SHA1-Digest: cNvhe8Equ/EuWd6beSqihfyw0IU=
+
+Name: res/drawable/com_facebook_loginbutton_silver.xml
+SHA1-Digest: Tgb2f9Y9rEHaeRBScQMCHouRkH4=
+
+Name: res/drawable/com_facebook_picker_list_longpressed.9.png
+SHA1-Digest: /uU9+qqC9MjC0cwR3L+DskCy9xM=
+
+Name: assets/www/theme/img/header_line.png
+SHA1-Digest: y48fTYEvyR4dBZIBrr3MMoAVVJg=
+
+Name: res/drawable/com_facebook_button_grey_focused.9.png
+SHA1-Digest: oegkN07TNc6Ko8z3qqCgUGgnvRw=
+
+Name: assets/www/theme/img/list_left_header.png
+SHA1-Digest: pchZE95fC0BYO6BJqrIjI0ecGcw=
+
+Name: assets/www/theme/img/mail_icon.jpg
+SHA1-Digest: uFMWdMQJCFKCeIFne20siWt/Dng=
+
+Name: assets/www/js/jquery.jsonrpc.js
+SHA1-Digest: 3pCGgnKDFK6gubvNIXCm1Z/c5o0=
+
+Name: res/layout/com_facebook_picker_image.xml
+SHA1-Digest: lKSzzqNz7x4wseYKkvI8YDi8UrA=
+
+Name: assets/www/img/remove.gif
+SHA1-Digest: gqLpkk90r/lyrU6FGS6rEwSvniE=
+
+Name: assets/www/theme/fonts/vegur-regular-webfont.woff
+SHA1-Digest: geAPKH2O1TFxiKWt5tn5Ztyx9W4=
+
+Name: res/drawable-hdpi/com_facebook_logo.png
+SHA1-Digest: +F9i6TennSQx3Unl/q4mPr3itE8=
+
+Name: assets/www/theme/img/back_btn.png
+SHA1-Digest: jgI782aVs0Jq5/CkCmxJQFlL0O8=
+
+Name: assets/www/theme/img/person_icon.png
+SHA1-Digest: +eO6a/4Nj31N/CGl4wHtdvepFJo=
+
+Name: res/drawable/com_facebook_profile_default_icon.png
+SHA1-Digest: hnc7R7K+VpzIWKki/iGEw6AlfPw=
+
+Name: assets/www/theme/img/header_bg_glare.png
+SHA1-Digest: D9BFXLq9TKcR0F70uq2BVGXcmAc=
+
+Name: assets/www/theme/img/footer_crown_icon.png
+SHA1-Digest: 0TM+ZKhIhm2U3/YjRsKRFNSWCa8=
+
+Name: assets/www/res/screen/android/screen-xhdpi-landscape.png
+SHA1-Digest: v0PPGOzPeAlk4hGOyaKmrbH9orY=
+
+Name: assets/www/theme/img/iphone_crown_icon.png
+SHA1-Digest: 48iu4sF9tbpPZTatxxyjlcH4dCU=
+
+Name: res/drawable/com_facebook_loginbutton_blue.xml
+SHA1-Digest: gnwYUb3xEDVuqA9XBckhmOArWb4=
+
+Name: assets/www/theme/img/footer_bg.png
+SHA1-Digest: KJlv3lP1xujfgcV5KQfiCRX3DGE=
+
+Name: assets/www/res/screen/android/screen-ldpi-portrait.png
+SHA1-Digest: c+3X8EOQ10c1TRnCcqY6Jd3gDWg=
+
+Name: assets/www/theme/img/background2.jpg
+SHA1-Digest: ZMAs5TCnQKyty3EV0+3D+efC3yQ=
+
+Name: assets/www/theme/img/green_btn_bg.png
+SHA1-Digest: M6KRrmQcYzTlJrOml9TK3HzsjxM=
+
+Name: assets/www/theme/img/iphone_open_options_arrow_up.png
+SHA1-Digest: r0cN0hYUFUFp/bCvZTxdm1HIr6w=
+
+Name: assets/www/iui/default/listArrow.png
+SHA1-Digest: Afix0+8diZEtWTna6p83oCLTeQ4=
+
+Name: assets/www/iui/default/selection.png
+SHA1-Digest: tqiPPLLVGUnBQGLtP+04/47v2QU=
+
+Name: assets/www/js/handlebars-1.0.rc.1.js
+SHA1-Digest: 7KTwvwOtupUVvOpH1jmf0D+wA5k=
+
+Name: assets/www/res/screen/android/screen-ldpi-landscape.png
+SHA1-Digest: JKe2isk/K0J5RbesnpOGxYNE7NU=
+
+Name: assets/www/theme/img/map_pin.png
+SHA1-Digest: ycriMfpuxCWFvgZm9TQFo+SEgI4=
+
+Name: assets/www/js/facebook_js_sdk.js
+SHA1-Digest: iO2mE9U46Tdgh8bolZgedUA9YsY=
+
+Name: assets/www/theme/img/iPad_remove_icon.png
+SHA1-Digest: WNXDU4qZlL0fr8JNXPcArtIHXko=
+
+Name: assets/www/img/map.png
+SHA1-Digest: xSxithJHmS3BeGJ5gcWgtM0ex0Q=
+
+Name: assets/www/theme/img/iphone_open_options_arrow.png
+SHA1-Digest: E5m7mK+KnQwfcgBcl2sgyeGrIfU=
+
+Name: res/drawable-hdpi/com_facebook_loginbutton_blue_normal.png
+SHA1-Digest: lSztBHFVRlPMsGcFT26oMQipfTQ=
+
+Name: assets/www/theme/img/background.jpg
+SHA1-Digest: ZQG+GEkIC+UpvgjBWIF0pn1d/bM=
+
+Name: assets/www/iui/default/back-img.png
+SHA1-Digest: r22p01hce6vShl5G4/YAmGzXcaQ=
+
+Name: res/drawable/com_facebook_picker_list_pressed.9.png
+SHA1-Digest: ughAWBlhb5fxIgHli8NgEiGGjGY=
+
+Name: assets/www/theme/fonts/vegur-bold-webfont.ttf
+SHA1-Digest: 4LbrmKdINcjOMNkTt/2mjvlgXNM=
+
+Name: res/drawable/com_facebook_button_check_on.png
+SHA1-Digest: ObcSDxnphDDTROHTniwThtnJVWk=
+
+Name: assets/www/css/prototype.css
+SHA1-Digest: 9XlARxA9nGg/SymadOX05dL2N3M=
+
+Name: res/drawable/com_facebook_logo.png
+SHA1-Digest: COOFdQDqXjvNdi+5TMPa3bPhaEQ=
+
+Name: assets/www/theme/img/iphone_open_options.png
+SHA1-Digest: 8ijBtlMvtk2PbKRbCq61TUMNmhc=
+
+Name: assets/www/theme/img/iPhone_remove_from_favorites.png
+SHA1-Digest: o2mf0T9ulE6TgnDJtcy+C2GNv60=
+
+Name: assets/www/res/icon/android/icon-48-mdpi.png
+SHA1-Digest: 37X5aaSqMaeD7xQRqEIeFoHVlT0=
+
+Name: assets/www/theme/img/header_bg.jpg
+SHA1-Digest: tAHAkgDpVgAyZHeJL/AsuFgMoLU=
+
+Name: assets/www/theme/img/iphone_star_icon.png
+SHA1-Digest: voay9dwxjeeZFjtW46nQkcoAJq0=
+
+Name: assets/www/theme/img/list_bg_left.png
+SHA1-Digest: J+e5iCCHrpmpiNpmEALPQJqPu3s=
+
+Name: assets/www/main.js
+SHA1-Digest: 4vAwUX91bi26zvHOR02/OR+LTQI=
+
+Name: assets/www/iui/default/backButtonBack.png
+SHA1-Digest: qKpgWYRsVPuregf3eMVtwlg8GGw=
+
+Name: assets/www/theme/img/iPhone_get_directions.png
+SHA1-Digest: OlA4cp90E8K82NvXCDVcxjgIXrg=
+
+Name: assets/www/iui/default/title-img.png
+SHA1-Digest: m2mM5LoPW/DqGRGXNjl9zUpPDMc=
+
+Name: assets/www/theme/gpg-theme-iphone.css.bak
+SHA1-Digest: 8MVw88dvLBNwJ4jTxGEJoWrXmBc=
+
+Name: res/layout/com_facebook_usersettingsfragment.xml
+SHA1-Digest: x/zXSLwVNBUTNc2byjOJPXiwaRg=
+
+Name: assets/www/res/screen/android/screen-hdpi-landscape.png
+SHA1-Digest: SPoUuI5e/rJGgr8rQ6ZasZ26fjU=
+
+Name: res/layout/com_facebook_picker_activity_circle_row.xml
+SHA1-Digest: qDPKHiBdKPRyhbH8yfODHSxBw6E=
+
+Name: res/layout/com_facebook_login_activity_layout.xml
+SHA1-Digest: e+LSGCe832LwSYj9z2S77G/QUi0=
+
+Name: assets/www/theme/gpg-theme-iphone.css
+SHA1-Digest: oGEXn2spIvkFp6iSXlW9kINT+q4=
+
+Name: assets/www/theme/img/list_arrow.png
+SHA1-Digest: ASitfhWGy0NhEPW3ryr3UFNj/eY=
+
+Name: res/drawable/com_facebook_picker_list_selector_background_transi
+ tion.xml
+SHA1-Digest: jGr2Ud+kdCJRbYNguzNSGVBp4fs=
+
+Name: assets/www/master.css
+SHA1-Digest: xzpr/TuvC5bfYd7XR9JG2xSUPzc=
+
+Name: assets/www/iui/default/toggleOn.png
+SHA1-Digest: JaYt/+QNLqZrJMKdN3WD45WKaaw=
+
+Name: res/drawable-xhdpi/com_facebook_button_grey_pressed.9.png
+SHA1-Digest: CKFnDef2GfRTaRgjuT6+/5YzUk4=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: xKQuejCassM28LNobZJDNMqL6tM=
+
+Name: assets/www/theme/fonts/stylesheet.css
+SHA1-Digest: F0P1V3+PdglixZtw7JK2VqxFeAw=
+
+Name: assets/www/iui/default/blueButton.png
+SHA1-Digest: W4IJBu27h5NUkHui0Qd9IPomV2Q=
+
+Name: res/layout/com_facebook_picker_checkbox.xml
+SHA1-Digest: 6B1DAlWpFSGR09o6k6NXiXumfXc=
+
+Name: assets/www/theme/img/iphone_refresh.png
+SHA1-Digest: Vrk6mBFRPnSJI2rNomr7W3vOrEo=
+
+Name: assets/www/theme/img/green-production-guide-logo.png
+SHA1-Digest: csQb60P5kBzee0diEsQrjb5dQfQ=
+
+Name: assets/www/theme/img/iphone_main_header_glare.png
+SHA1-Digest: g5MQK1MTcIqFbAHBpwWOoQUT4p8=
+
+Name: assets/www/theme/fonts/vegur-bold-webfont.woff
+SHA1-Digest: /TJ4HJlURzEimLdCPWpEusDbCzE=
+
+Name: res/drawable-hdpi/com_facebook_loginbutton_blue_pressed.png
+SHA1-Digest: V27iDxNqPIzkdIgA+0DIi/AfQYY=
+
+Name: assets/www/theme/img/extrapanel_list_bg.png
+SHA1-Digest: 3ff+4kcjSyvK1Aaz+hJ30ZISacE=
+
+Name: assets/www/theme/img/iPad_share_icon.png
+SHA1-Digest: 6AsdbJmHwGuhNYG75jA5J/QMpD0=
+
+Name: assets/www/theme/img/iphone_main_button.png
+SHA1-Digest: B3suUiLnnZw+a0zyeksBv1bzeCk=
+
+Name: res/drawable-xhdpi/com_facebook_button_grey_normal.9.png
+SHA1-Digest: ObpXSA4NH1YwVj8ZgzYz74kaDfE=
+
+Name: assets/www/theme/img/iphone_find_on_map.png
+SHA1-Digest: d6seAKaL/NqmGuHbLzwJJBLSWag=
+
+Name: assets/www/theme/img/iphone_logo.png
+SHA1-Digest: aVabDhgMzOG6YBTXR/1OD0wLBFI=
+
+Name: assets/www/iui/default/backButtonBrdr.png
+SHA1-Digest: 3Wb7MN6/aadXuIGB6Fcv1ktOhno=
+
+Name: assets/www/theme/img/gray_button_right.jpg
+SHA1-Digest: /hnDhLc/Q/kXOjcT+XH5rRa+Z7g=
+
+Name: assets/www/theme/img/gray_button_bg.png
+SHA1-Digest: ZyHQSsa0JHkdADnDIgfLiSIb74k=
+
+Name: assets/www/iui/default/grayButton.png
+SHA1-Digest: ixIzRu7aFPeUeKlSPAArncURrDo=
+
+Name: res/drawable/com_facebook_button_check_off.png
+SHA1-Digest: NDLFyRfWjBjm9xCkOlx9fqTCMug=
+
+Name: assets/www/iui/default/listGroup.png
+SHA1-Digest: vnWs3/8tJRp0NGhLqSGDAIflorI=
+
+Name: res/drawable-xhdpi/com_facebook_close.png
+SHA1-Digest: 0IaTuYpHdwNgyn8PrCfM4P1LSUM=
+
+Name: assets/www/theme/seven-inch.css
+SHA1-Digest: bo5eFCvfzUuw+5nb6gIBddhmISo=
+
+Name: res/layout/com_facebook_placepickerfragment.xml
+SHA1-Digest: De1YnwnRI03Ud71+6Mrne2muAqg=
+
+Name: res/layout/com_facebook_picker_list_section_header.xml
+SHA1-Digest: rVcjDkgZtsKYHcXkmAwLtSWlu6k=
+
+Name: assets/www/theme/img/iPhone_share.png
+SHA1-Digest: RRJH1vI8DU3d9TODqUofHh3ie0A=
+
+Name: assets/www/theme/fonts/vegur-light-webfont.svg
+SHA1-Digest: 5HbiTjt+0X5TWYNRwqgmVoHtORc=
+
+Name: assets/www/iui/default/loading.gif
+SHA1-Digest: 1k6VX9/hQanpLBlqx4iw9nf0ltY=
+
+Name: assets/www/cordova-2.2.0.js
+SHA1-Digest: 0O8L2PLe0iXhtCCBGsIGis7zVzo=
+
+Name: assets/www/js/dao.js
+SHA1-Digest: XJ8tEr5iVp0bc2l5fjrCJ4SAB3k=
+
+Name: assets/www/theme/img/font_size_btn.png
+SHA1-Digest: zTY9WciahCACQ/U0zsYZ0EQwaCA=
+
+Name: assets/www/css/smartphone.css
+SHA1-Digest: qQTllDuHRioc8V/WYQ/sovjnICo=
+
+Name: res/layout/com_facebook_picker_title_bar.xml
+SHA1-Digest: zuhbKindaP0uv3lDOkdUCZCYrdc=
+
+Name: assets/www/iui/default/toolButton.png
+SHA1-Digest: /GfIxu9LA/R+T4lo4Br8+P9leQE=
+
+Name: assets/www/theme/img/call_icon.png
+SHA1-Digest: BKjVF8KEk5VQLN2E/1vDhWwoOZA=
+
+Name: assets/www/theme/img/list_bg.png
+SHA1-Digest: 81ockodJaNmzG4h39X8zTl+9Tyo=
+
+Name: assets/www/theme/img/search_bg.png
+SHA1-Digest: 53NFvWwHb0/njaPrZ1doTtFiiMc=
+
+Name: assets/www/spec/lib/jasmine-1.2.0/jasmine.js
+SHA1-Digest: UbuCXRtZstykBBa58lepG51icZw=
+
+Name: assets/www/js/EmailComposer.js
+SHA1-Digest: kVfoC09tSXp2lLcPPGrlpcMpZJE=
+
+Name: assets/www/theme/img/white_button_bg.jpg
+SHA1-Digest: e4D/gZ0ITh2molQwWGKhg9eim/0=
+
+Name: assets/www/theme/img/iphone_person_icon.png
+SHA1-Digest: ZVLosJffMXNO4E6igkEtl8YQvWQ=
+
+Name: res/drawable-xhdpi/com_facebook_loginbutton_blue_normal.png
+SHA1-Digest: xGQtABb1AitSeN8uVNWHd/+8MQ0=
+
+Name: res/drawable-hdpi/com_facebook_button_grey_normal.9.png
+SHA1-Digest: BvNuj0JM4dW1M5X/qZOU04aa9aQ=
+
+Name: assets/www/css/tablet-landscape.css
+SHA1-Digest: CPPsxmnOa1EHs/M23kAvvpGDxmE=
+
+Name: assets/www/theme/img/header_right_shadow.png
+SHA1-Digest: W52E+upWHsTtA9CEkcEl6ogr4wo=
+
+Name: assets/www/theme/img/footer_person_icon.png
+SHA1-Digest: GN9NRsHyVnO53KBtFG1rm4MTqVU=
+
+Name: assets/www/spec/index.js
+SHA1-Digest: J4GKWWL87ZmFEo/y6AwV16rZhQY=
+
+Name: assets/www/iui/default/backButtonSel.png
+SHA1-Digest: I2R7VICgFcxJFguYdvXGijihY+k=
+
+Name: assets/www/iui/default/backButton.png
+SHA1-Digest: nLZpz6v+uvCQalQs4FTVf254L9o=
+
+Name: assets/www/js/gpg-api.js
+SHA1-Digest: t1xsHWnlseNkWSuXtMiHaJ1KBIQ=
+
+Name: res/drawable-hdpi/com_facebook_button_grey_pressed.9.png
+SHA1-Digest: tWUWjtTo3HxE/8a02qZ5QsaeyfM=
+
+Name: res/drawable/com_facebook_list_section_header_background.9.png
+SHA1-Digest: UlppTzQMf0S8p04nUqt4qCBKRF0=
+
+Name: assets/www/theme/img/iphone_plus_icon.png
+SHA1-Digest: 8ahFCZK03xpwCYgQSaJzMX6iW8k=
+
+Name: assets/www/iui/iui.css
+SHA1-Digest: p/u2Hc5JQgzVZ/KLPkqfKliTVi8=
+
+Name: res/drawable-ldpi/com_facebook_icon.png
+SHA1-Digest: lPHIYoqZ+2OpY0LPumyDkUdNdoc=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: xxjJRKjZ8JcqVrj3F8DwxMTkyXo=
+
+Name: assets/www/theme/img/star_icon.png
+SHA1-Digest: xU3z1lkW2QJYWHwgafAWUIGwACk=
+
+Name: res/layout/com_facebook_friendpickerfragment.xml
+SHA1-Digest: D8LJMRivNsWBSku/S08tbiEGFjA=
+
+Name: res/drawable/com_facebook_picker_item_background.xml
+SHA1-Digest: Cq51aZYoaRIqNbq/2ExWblR0CEQ=
+
+Name: assets/www/theme/img/bg_glare.png
+SHA1-Digest: XF2ys+ETKdh3JnREImmoT5mICbY=
+
+Name: assets/www/theme/gpg-theme.css
+SHA1-Digest: JrgBQUJE/IJF7jLRi2bzMJDUCnM=
+
+Name: assets/www/theme/img/close.png
+SHA1-Digest: fO5kexKclohNaS+tO5+p1//5NYQ=
+
+Name: assets/www/theme/img/search_input_bg.jpg
+SHA1-Digest: OTLAqVK2CgOjyCCq+QBYqe4PXPY=
+
+Name: res/drawable-xhdpi/com_facebook_button_grey_focused.9.png
+SHA1-Digest: wx0FTcs+RGcIb3fC9wYKpWawDgI=
+
+Name: res/drawable-xhdpi/com_facebook_loginbutton_blue_pressed.png
+SHA1-Digest: vaIikRMPOeSzfh5geLs840nHy5o=
+
+Name: assets/www/theme/img/iphone_font_size_btn.png
+SHA1-Digest: 7h0g5Op8lOrQoz8KEUozUFKkKnY=
+
+Name: assets/www/theme/img/footer_star_icon.png
+SHA1-Digest: khXuI1hANIR4Jdo25hTLZY6zkDE=
+
+Name: assets/www/theme/img/iPhone_show_on_map.png
+SHA1-Digest: cy5NWqHiD5s+m+OrdZtNijuOvlo=
+
+Name: res/drawable/com_facebook_usersettingsfragment_background_gradie
+ nt.xml
+SHA1-Digest: UudkMujfDbVwQrl+1pBZ2WIJ8ro=
+
+Name: res/layout/com_facebook_picker_list_row.xml
+SHA1-Digest: rfhOkaUqjVmlH0wKJ91d4XoVtfw=
+
+Name: assets/www/res/screen/android/screen-xhdpi-portrait.png
+SHA1-Digest: vW5tKLzmwECrECLiW33PYhfp+mw=
+
+Name: assets/www/spec/lib/jasmine-1.2.0/MIT.LICENSE
+SHA1-Digest: RytFXTsJ+13ad9mFrElp/Si5Hws=
+
+Name: res/layout/com_facebook_picker_title_bar_stub.xml
+SHA1-Digest: rUK8E8s6v6SUeFFCEGddobibrmk=
+
+Name: assets/www/theme/fonts/vegur-regular-webfont.eot
+SHA1-Digest: eyr4kJ5LONNY5Z9H09Vlf0Zjk0U=
+
+Name: assets/www/theme/img/iphone_more_articles2.png
+SHA1-Digest: Uk5tKV93p7R6pO90UQXYjibc21U=
+
+Name: assets/www/theme/img/iphone_back_btn.png
+SHA1-Digest: STAC8I0Hh+W7kj8RGxCW8/ES3fY=
+
+Name: assets/www/theme/img/logo.png
+SHA1-Digest: pA890QdKJUOaWRVSb7/r6Oarbt4=
+
+Name: assets/www/theme/img/refresh_location_btn.png
+SHA1-Digest: DS4Q2VxT6iz+ajtewineceFJaGQ=
+
+Name: res/drawable/com_facebook_place_default_icon.png
+SHA1-Digest: T6PfkzvzoTErI9HPUHhPTzYuaOw=
+
+Name: assets/www/theme/fonts/vegur-bold-webfont.eot
+SHA1-Digest: wMeFa1B6Ct6Vn1eKqKmY6GIngdw=
+
+Name: assets/www/img/homepage1.jpg
+SHA1-Digest: jFHc7jOE0c4DcHdieXOw0h/Un3I=
+
+Name: assets/www/img/loader-bg.png
+SHA1-Digest: SmTAPhL7jsmlRxpQlyrkEEUWogQ=
+
+Name: assets/www/css/index.css
+SHA1-Digest: Xn5KKnRg99sIQW5z0rf5zJjEDgI=
+
+Name: resources.arsc
+SHA1-Digest: KNjl5CYDT8Hqde2cfTm3pqtqJtU=
+
+Name: assets/www/theme/img/main_list_top.png
+SHA1-Digest: U+9VVcU4aDhe7cgByz+M4NaFYJU=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 1J2axfQVdBZ6xnD8Qqg7s6bigJw=
+
+Name: res/drawable/com_facebook_button_grey_normal.9.png
+SHA1-Digest: kZ9314YgSZHYcEuP+vXCuujxd48=
+
+Name: assets/www/img/logo.png
+SHA1-Digest: MW0GF0+VJyF3L6n2kH6NKUswUL0=
+
+Name: assets/www/res/screen/android/screen-mdpi-landscape.png
+SHA1-Digest: 2i+BuSh5+yrMfpP1R3W/V+agJdE=
+
+Name: assets/www/theme/img/iPad_get_directions_icon.png
+SHA1-Digest: pPjiBTf/TLyTDSf65iieX9smm/M=
+
+Name: res/layout/com_facebook_picker_search_box.xml
+SHA1-Digest: YgNzOxZeRf1wrlJqxcQVDmEePjs=
+
+Name: assets/www/theme/img/textarea_input_bg.jpg
+SHA1-Digest: U7fjtvawDCSK2PsaK/fOAjKTM6Q=
+
+Name: res/drawable/com_facebook_loginbutton_blue_normal.png
+SHA1-Digest: 5eqq9jxVF9PeVyf0iNJD0gmKE3g=
+
+Name: assets/www/theme/img/share_icon.png
+SHA1-Digest: kpvHvy77zHgQsoCxWUoqx4gxx1E=
+
+Name: assets/www/theme/img/list_header.png
+SHA1-Digest: nDYG3DSGyW0P3CJiWtn2bWToYFg=
+
+Name: assets/www/theme/fonts/vegur-regular-webfont.svg
+SHA1-Digest: 6OAhVQIL0aKh3Kz9AcZL8Iye0vs=
+
+Name: assets/www/img/cordova.png
+SHA1-Digest: 0fQz+aKXX8MbCT9t4Ay/19Bi9PE=
+
+Name: assets/www/res/screen/android/screen-mdpi-portrait.png
+SHA1-Digest: sxAwXdVywEzRhoLTIW6klU4WHHE=
+
+Name: res/drawable-ldpi/com_facebook_close.png
+SHA1-Digest: lg0izCnB1flsd2QqLisbxkcuGyU=
+
+Name: classes.dex
+SHA1-Digest: vzHa9vIr6O8u3sb5kVKamB/xeSA=
+
+Name: res/drawable-hdpi/com_facebook_loginbutton_blue_focused.png
+SHA1-Digest: V27iDxNqPIzkdIgA+0DIi/AfQYY=
+
+Name: assets/www/theme/img/plus_icon.png
+SHA1-Digest: K6OOB4hRiavLiAvWkrCWGqJM7Wc=
+
+Name: res/drawable/com_facebook_top_button.xml
+SHA1-Digest: VM8ulECxaDURmEX97MsmLc1rTq4=
+
+Name: res/drawable-xhdpi/com_facebook_logo.png
+SHA1-Digest: 94ZTspodsrcPndjRFwq4Cqz6Wc4=
+
+Name: assets/www/js/cdv-plugin-fb-connect.js
+SHA1-Digest: dAXBRra4U/wuWVyhw1lRjsyjOTY=
+
+Name: res/drawable/icon.png
+SHA1-Digest: HxvQI6BmCXUgKaskrCC19EQMBIM=
+
+Name: assets/www/css/rotator.css
+SHA1-Digest: 49Vfr5YzS9TXB46UDAvl4XRg+aI=
+
+Name: assets/www/iui/iui.js
+SHA1-Digest: FNVF14FL/m+Ngipw5j8G6yyzghg=
+
+Name: assets/www/spec/lib/jasmine-1.2.0/jasmine.css
+SHA1-Digest: DjIgU9kCSPAtc8h6KJIq1kR9aaU=
+
+Name: assets/www/res/icon/android/icon-72-hdpi.png
+SHA1-Digest: +vxYgeZ9DWnAbPSMIuW5lmQ2s3Y=
+
+Name: assets/www/theme/img/header_center_shadow.png
+SHA1-Digest: YhXU8vH/VnTV1beT/O1LWMZYUsc=
+
+Name: assets/www/theme/img/iphone_more_articles.png
+SHA1-Digest: V3RCpFmPnQ1h/jLuBDchL9imOc8=
+
+Name: res/drawable-xhdpi/com_facebook_loginbutton_blue_focused.png
+SHA1-Digest: vaIikRMPOeSzfh5geLs840nHy5o=
+
+Name: res/drawable/com_facebook_profile_picture_blank_square.png
+SHA1-Digest: ii3g4mqHjQXtghNZE1cibJA1Jbs=
+
+Name: assets/www/theme/fonts/vegur-light-webfont.woff
+SHA1-Digest: NCSZ/aJ1Kfg9M6B5bD31Wrc8iwk=
+
+Name: res/drawable/com_facebook_loginbutton_blue_focused.png
+SHA1-Digest: /l9r0DHSIj4WdudFxA18dCfnfec=
+
+Name: assets/www/iui/default/thumb.png
+SHA1-Digest: jfGs0zXb7nIe/wi13OfNQEDQhDM=
+
+Name: assets/www/js/main.js
+SHA1-Digest: f/WXEiynm8aNtEw3gBcoOo5yQHY=
+
+Name: assets/www/js/jquery-1.8.3.min.js
+SHA1-Digest: i2ur/0e4qXk/NwNv0bGjrUHThCM=
+
+Name: assets/www/theme/img/carbon-calculator-screen.png
+SHA1-Digest: 4/okYdzMp/QMyRsM/cjSG0SVouQ=
+
+Name: res/drawable/com_facebook_picker_list_selector_disabled.9.png
+SHA1-Digest: cKGQg8jgT0IkOi1RPo5Y+TSnQb4=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: 07dtYSOtzEd6JezaRgAsPJ/9ytI=
+
+Name: assets/www/img/ajax-loader.gif
+SHA1-Digest: HmVg0GEzoE7CJ03uuPGjsz3RTgM=
+
+Name: assets/www/iui/default/listArrowSel.png
+SHA1-Digest: 4bEDjm1yt+RhJUFM4eSnlv5k4EQ=
+
+Name: assets/www/theme/img/header_left_shadow.png
+SHA1-Digest: FfufVnbAMzLw8rPRDI3yPeeK5jw=
+
+Name: assets/www/theme/img/register_using_facebook.png
+SHA1-Digest: j/OVNK3JpP+9t/YFEXz/f2pt+9Q=
+
+Name: assets/www/spec.html
+SHA1-Digest: w9/CYecDvknKKoNiJLCH7FPL7vw=
+
+Name: assets/www/theme/img/iphone_green_btn_bg.png
+SHA1-Digest: fGGCufeA7vMODPzijSpyuGzb6tE=
+
+Name: assets/www/theme/img/iphone_arrow.png
+SHA1-Digest: zNUNaFX0wGoeKPNCVEOs/mzuu1Q=
+
+Name: res/drawable/com_facebook_button_check.xml
+SHA1-Digest: v1FfVbTQ5lKmgzSbfb9HbYKU4Bk=
+
+Name: assets/www/theme/fonts/vegur-regular-webfont.ttf
+SHA1-Digest: Y5Gh458l7qYFoYfn8xrSlYvZB48=
+
+Name: assets/www/iui/default/default-theme.css
+SHA1-Digest: c/c+/is2L5PUobwJHAN4axRDyHw=
+
+Name: res/drawable/com_facebook_picker_list_focused.9.png
+SHA1-Digest: wq1XBihYEP7fT9hT55vx2S7+KDQ=
+
+Name: assets/www/res/icon/android/icon-96-xhdpi.png
+SHA1-Digest: hzckMBuySFo1cd7HjUP48B41ud0=
+
+Name: assets/www/theme/img/main_button.png
+SHA1-Digest: NYeyA86RwP43NmmnwJGoyWIWnWg=
+
+Name: assets/www/js/index.js
+SHA1-Digest: sGxwEeQULe93K3f5sH5uWvDyTgI=
+
+Name: res/layout/main.xml
+SHA1-Digest: gixoPkz35dmKUjrlTGMt7pfd8Dk=
+
+Name: assets/www/theme/fonts/vegur-bold-webfont.svg
+SHA1-Digest: 00vBBz2axgW/OYEVMHHHltA1zxQ=
+
+Name: res/drawable-hdpi/com_facebook_icon.png
+SHA1-Digest: V2LEVKYg2PFb0nYYOBnKjQliS/s=
+
+Name: assets/www/iui/default/toolbar.png
+SHA1-Digest: 6NTI+u1SVrgyXLyWmG4KUE2COkQ=
+
+Name: assets/www/index.html
+SHA1-Digest: Y+vAZsD3La1006NtRTT9h7ECDmI=
+
+Name: assets/www/spec/helper.js
+SHA1-Digest: y5Tfxnsc7GA289HJFXCZED1R5eE=
+
+Name: assets/www/img/arrow_down.png
+SHA1-Digest: 2Pll8lwd6woezLQ3Juh6Q0Z8rVI=
+
+Name: assets/www/theme/gpg-theme-landscape.css
+SHA1-Digest: 1D+Bw8jbLk/eTVgFwAWAFhlTEl8=
+
+Name: res/drawable/com_facebook_picker_top_button.xml
+SHA1-Digest: FpCN68q2eV+3WjoqLCPZ0C/7pGQ=
+
+Name: assets/www/theme/img/more_articles.png
+SHA1-Digest: 0dMWiwX2XC1s+ZML/b47iv6BWOw=
+
+Name: res/drawable/com_facebook_loginbutton_blue_pressed.png
+SHA1-Digest: /l9r0DHSIj4WdudFxA18dCfnfec=
+
+Name: assets/www/res/icon/android/icon-36-ldpi.png
+SHA1-Digest: XTzlY9RiHgdmc46DOXda0FCKGGg=
+
+Name: assets/www/theme/img/green_icon.png
+SHA1-Digest: 0UgiwsZRGo5vxe3GXrkKAXIsHR4=
+
+Name: res/drawable/com_facebook_top_background.xml
+SHA1-Digest: 2jGeRfgb5Xm7OmXOYRKQWRbaaUw=
+
+Name: assets/www/theme/img/main_button_spacer.png
+SHA1-Digest: kB7hFzfpnjWAZljgh6niNOt+qbk=
+
+Name: res/layout/com_facebook_placepickerfragment_list_row.xml
+SHA1-Digest: uVL9frI9OkdqthUpBTskAV6mEpE=
+
+Name: res/drawable/com_facebook_button_grey_pressed.9.png
+SHA1-Digest: P0wPjAW7g0+CwVv4YccsLFHlsh0=
+
+Name: assets/www/iui/default/whiteButton.png
+SHA1-Digest: K0Jc3pAsDztdjnssbQrDgbYuOTc=
+
+Name: assets/www/js/classes.js
+SHA1-Digest: NLCNtu7JE/v1qqb1nmjBzSke7dE=
+
+Name: assets/www/theme/img/list_selected_bg.png
+SHA1-Digest: glQVfN726w2z/p36HNkTodZAD40=
+
+Name: assets/www/theme/img/articles-left-strip.png
+SHA1-Digest: XebxxCD7s/zziT+m6MNb9X9AsXg=
+
+Name: assets/www/theme/img/iphone-logo.png
+SHA1-Digest: ++VwlgGvfylVu54jre0xqznqzyc=
+
+Name: assets/www/img/marker.png
+SHA1-Digest: SXTHhhAOvwVOrHqJh9QKqFKLoZo=
+
+Name: assets/www/theme/img/iphone_show_vendors.png
+SHA1-Digest: thymh0RbHxAAHgg/niL3urjq56A=
+
+Name: assets/www/iui/default/pinstripes.png
+SHA1-Digest: rJeKbR4/TjtnkwIXkVjFhKd3woc=
+
+Name: res/drawable-xhdpi/icon.png
+SHA1-Digest: HxvQI6BmCXUgKaskrCC19EQMBIM=
+
+Name: assets/www/img/loading-details.gif
+SHA1-Digest: iu3RkUY9EV6L95lVtrxzDvSSAcw=
+
+Name: assets/www/theme/fonts/vegur-light-webfont.eot
+SHA1-Digest: gxby7yKp2DHVdkmetPUb8xz5Q04=
+
+Name: assets/www/iui/default/toggle.png
+SHA1-Digest: n0fOaV14DeP1QGDCOHRqcwQRNT0=
+
+Name: res/drawable/com_facebook_profile_picture_blank_portrait.png
+SHA1-Digest: 9kGOeq/tVClWE7Lz9AgjtukRZnQ=
+
+Name: assets/www/res/screen/android/screen-hdpi-portrait.png
+SHA1-Digest: hdNy25L5Fo+YqN+gbm9qeyP61KA=
+
+Name: res/drawable/com_facebook_picker_list_selector.xml
+SHA1-Digest: WHqB9RVhykjDfj90mkBVqervSyM=
+
+Name: assets/www/iui/default/redButton.png
+SHA1-Digest: TjqnGrUSQH5SjvD1iyKi785AJ8w=
+
+Name: res/drawable/com_facebook_icon.png
+SHA1-Digest: 9jTbeG4b8nJZlZss16UPfagqlUs=
+
+Name: assets/www/theme/img/compass.png
+SHA1-Digest: EZDo7U7nnRC24kSgA4D3pJiZ8QY=
+
+Name: res/drawable-hdpi/com_facebook_close.png
+SHA1-Digest: vzoVwUXnEtJQCL4582EeDreqvIA=
+
+Name: res/drawable/com_facebook_list_divider.9.png
+SHA1-Digest: 45BAgKtOkC0fHYqIunSXrQ8YubM=
+
+Name: assets/www/spec/lib/jasmine-1.2.0/jasmine-html.js
+SHA1-Digest: HQvXPy78BuOZPFGkxsNvRiBM4YA=
+
+Name: assets/www/iui/default/cancel.png
+SHA1-Digest: 6Opmi+zhw/Lq2kzD6zCRlt5TIBY=
+
+Name: assets/www/api-test.html
+SHA1-Digest: hqnHpzudNNI34x0VPb7/TRqKicw=
+
+Name: res/drawable-hdpi/com_facebook_button_grey_focused.9.png
+SHA1-Digest: xw3C3hxhbAqRc7fZEiHwllptNuM=
+
+Name: assets/www/theme/img/iphone_back_btn_proper.png
+SHA1-Digest: a17bY7GimiJUVMr6zzDTl2KkrIs=
+
+Name: res/drawable/com_facebook_close.png
+SHA1-Digest: FDOOYcRoxfXB5QdY1YikzqT7kx8=
+

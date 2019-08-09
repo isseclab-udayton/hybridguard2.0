@@ -1,0 +1,439 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: assets/www/libs/lawnchair/adapters/ie-userdata.js
+SHA1-Digest: FodWbp5i6dX9AQt+QK3R2fTTNZs=
+
+Name: assets/www/img/info_icon.png
+SHA1-Digest: 8QRSw07AY4B1z4q0vQyFG3iY4jI=
+
+Name: res/xml/config.xml
+SHA1-Digest: rqtERoS8Zw9SoAet/AQmTUgAMO8=
+
+Name: assets/www/img/iBardahlBG2.png
+SHA1-Digest: ZYcJ7E3Bf5cRJYmegX7XwzXYw00=
+
+Name: assets/www/css/themes/default/2.0RC/jquery.mobile.theme-1.2.0-rc
+ .2.min.css
+SHA1-Digest: ia5Xub4Y/W5FRVKLsxM0p9aGweQ=
+
+Name: assets/www/img/iBardahlBG4-iPad.png
+SHA1-Digest: ODJkZJgu4jhsJFo5OQeqOsGj8rc=
+
+Name: assets/www/img/iBardahlBGmedG.png
+SHA1-Digest: tnNjQuXfA/pyH+EnG7iUttjalXM=
+
+Name: assets/www/js/jquery.mobile-1.2.0.js
+SHA1-Digest: Y0UmP6S/hQsqa/gCfQuOTC1isYA=
+
+Name: assets/www/css/themes/default/2.0RC/jquery.mobile.structure-1.2.
+ 0-rc.2.css
+SHA1-Digest: //pVNAl0MI2NXH/5tgBVt+brBiE=
+
+Name: assets/www/img/iBardahlBGmedY.png
+SHA1-Digest: D9w2gSm/YbZp9T5iaxMpFX/j5wQ=
+
+Name: assets/www/img/iBardahlBG.png
+SHA1-Digest: 90LIVQpEVuybA6ThFrAEXO+m+AU=
+
+Name: assets/www/img/productCellBG.png
+SHA1-Digest: 7s2rMZ+pBp1uesWJlW3HN1rzNfE=
+
+Name: assets/www/js/2.0RC/jquery.mobile-1.2.0-rc.2.js
+SHA1-Digest: tNgC90lLRmRdTpG8yc4n3/t023k=
+
+Name: assets/www/css/themes/default/images/icons-36-black.png
+SHA1-Digest: DGqbtw+P5PhIuHjyBMRH028+Ewk=
+
+Name: assets/www/img/btnMoto.png
+SHA1-Digest: oppw2amq84uUAmoLHdECuED2kbE=
+
+Name: assets/www/img/blue_dot_circle.png
+SHA1-Digest: rXjVYVNuGZpPf5zifWj+7WS/WKo=
+
+Name: assets/www/img/product-bg.png
+SHA1-Digest: 6dKVAuzEser8LniqvYNnB/LDsYA=
+
+Name: assets/www/libs/lawnchair/adapters/html5-filesystem.js
+SHA1-Digest: SB4psW6XDg9fRthzXU5eVFlAzdA=
+
+Name: assets/www/css/themes/default/2.0RC/jquery.mobile-1.2.0-rc.2.min
+ .css
+SHA1-Digest: bJgc3xr9Giwi+PMJPyP1XWLrl/0=
+
+Name: assets/www/img/iBardahlButtons@2x.png
+SHA1-Digest: 16csjAs8zEcc3mIoNVP00q9eBDs=
+
+Name: assets/www/img/imgSmallPlaceholder.png
+SHA1-Digest: 45scmZ+Asf2xpjdxVIOZDHUd5JU=
+
+Name: assets/www/libs/cordova-ios-2.1.0.js
+SHA1-Digest: 0DvISZeXVtop4X+sOdz6Be/QIJ0=
+
+Name: assets/www/css/themes/default/images/ajax-loader.png
+SHA1-Digest: NQ0i8lCHscwfrHzUBOM75uVDUjg=
+
+Name: res/drawable-hdpi/ic_action_search.png
+SHA1-Digest: rOWnNxWCWKwkicf+FpYGMg1fX2Y=
+
+Name: assets/www/libs/lawnchair/plugins/callbacks.js
+SHA1-Digest: PTNa4C7EHGM99xdfPOzea/qAbkI=
+
+Name: assets/www/img/settings.png
+SHA1-Digest: 5JEoq+s6xD7UHEPqb6xBvf8L6GI=
+
+Name: res/menu/activity_main.xml
+SHA1-Digest: erB77xHi6WjzyRNyAF5m/8n+Fpc=
+
+Name: assets/www/css/themes/default/2.0RC/jquery.mobile-1.2.0-rc.2.css
+SHA1-Digest: E4HfrJhVrq3u35SUehOgeM3UDL4=
+
+Name: assets/www/img/btnShops.png
+SHA1-Digest: iqJXMCSX86wspzPA3yBoQURxY2Y=
+
+Name: assets/www/js/jquery.form.js
+SHA1-Digest: N+tQdId/YViPuutmloIyySACsls=
+
+Name: assets/www/img/route_icon.png
+SHA1-Digest: ijwLeiVZmekv2niKlEBQFqcW9+8=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: NCIYFwUqsisnJ47nrqh3IUUS/6o=
+
+Name: assets/www/css/themes/default/jquery.mobile.structure-1.2.0.min.
+ css
+SHA1-Digest: tSP2eto5VQOY31l+KGL4RRrhg/g=
+
+Name: assets/www/img/iBardahlBG3@2x.png
+SHA1-Digest: VjUDpq6299O5ls1zuCazORptpIY=
+
+Name: resources.arsc
+SHA1-Digest: fxlG8bVEEuye5LFDM4U294UK+N4=
+
+Name: assets/www/img/xButton.png
+SHA1-Digest: BPHbXshCRgsko+LO1OGvOUjDPLU=
+
+Name: assets/www/img/navBG@2x.png
+SHA1-Digest: i9CyBwl4s6V6BaA/8hexcjPudWk=
+
+Name: AndroidManifest.xml
+SHA1-Digest: /tP3HcVKe4lvEa9i4hSRljVUzj0=
+
+Name: assets/www/css/themes/bardahl/style-android-small.css
+SHA1-Digest: OIe+8NWQjVLA9Ol5IZuwDCDe8qs=
+
+Name: assets/www/js/jquery.mobile-1.2.0.min.js
+SHA1-Digest: UHVoj2FLi202Gf3lAE8NJO+vZ7g=
+
+Name: assets/www/img/homeSelectedBTN.png
+SHA1-Digest: VduzJRmcZ/aeE3+IsGmIXS5i1sI=
+
+Name: assets/www/css/themes/bardahl/style-android-large.css
+SHA1-Digest: qWH5PVleH/z0IYuF3rsc/DtrPNo=
+
+Name: assets/www/libs/lawnchair/adapters/webkit-sqlite.js
+SHA1-Digest: UC8iP5rFWsZe0P3XHcOAmGTU2Wo=
+
+Name: assets/www/img/cellBG@2x.png
+SHA1-Digest: IflUk8ETfgeYxfkIdUgQsX0BLR0=
+
+Name: assets/www/img/bg-demo.png
+SHA1-Digest: 3j3b+diIQDcyBlENki8lVf/kFlE=
+
+Name: assets/www/css/themes/default/images/icons-18-white.png
+SHA1-Digest: Sg/1e3EgtouxOiw7H+43z5uv5Xo=
+
+Name: assets/www/img/iBardahlBG2-iPad.png
+SHA1-Digest: HfDE1jJ3XEc8+LnpmXsabPzKRoI=
+
+Name: classes.dex
+SHA1-Digest: E8TCaCVMW+S7eQBFfnJHKVi4e34=
+
+Name: assets/www/img/paperstar32.png
+SHA1-Digest: sF7d3Tae6CaJuMMItdEJY7A92uY=
+
+Name: assets/www/img/imgBigPlaceholder.png
+SHA1-Digest: ZzM5IzRR7+Xv2FyGOLrzHJiYrYU=
+
+Name: assets/www/img/homeBTN@2x.png
+SHA1-Digest: jnxN9MQri/Uk0GrNPRT4OxS+eHs=
+
+Name: assets/www/js/bardahlLog.js
+SHA1-Digest: wk2YkeQMw+hzDjyGZjpmF1fLwfA=
+
+Name: assets/www/img/icons-10-white.png
+SHA1-Digest: 2hT8WNBuCajcu5rUKRRxNbLSfRE=
+
+Name: assets/www/img/printer32.png
+SHA1-Digest: 8v+dTWoYWy5mUhocfTAhdiYNtQc=
+
+Name: assets/www/img/btnNewsLetter.png
+SHA1-Digest: 64h3PicrERI40VWcuctAu0VfTYM=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: 64Ygwhf7vaxBPKWm5z9675x2BkY=
+
+Name: assets/www/img/cellBG.png
+SHA1-Digest: nL5dcdd4xchjvhG4L2vS4wPyurY=
+
+Name: assets/www/img/logoSmall.png
+SHA1-Digest: +SMOpf6C2+wndzMIePnDSSV6LZQ=
+
+Name: assets/www/img/btnAuto.png
+SHA1-Digest: a+idTamZtQbx2U2sTG8vF5SW5aY=
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: qVawqUZU0WjEx7YIplKhFn0ljq8=
+
+Name: assets/www/css/themes/default/googlemaps-default.css
+SHA1-Digest: VTxIu4EqHq5SdC5wgeT/+hQjl3I=
+
+Name: res/drawable-mdpi/ic_action_search.png
+SHA1-Digest: XjltJdEB3tvakTn9CN7KwdaNT68=
+
+Name: assets/www/js/main.js
+SHA1-Digest: GnVCDCpEMzfOfdFrQoc5BwqZb+s=
+
+Name: assets/www/img/local.png
+SHA1-Digest: FZXqCi4ck4fZHv4NaIW79s2JMCo=
+
+Name: assets/www/img/storeCellBG.png
+SHA1-Digest: aFWJGWUMrmmeADPgD+vJAkdk0jo=
+
+Name: assets/www/libs/lawnchair/adapters/gears-sqlite.js
+SHA1-Digest: I4aP9bIuYo9UF1rIJcQD1Da3Huo=
+
+Name: assets/www/js/jquery-1.8.3.min.js
+SHA1-Digest: i2ur/0e4qXk/NwNv0bGjrUHThCM=
+
+Name: res/drawable-hdpi/splash.png
+SHA1-Digest: 6dSqmKJUv5Olsq4mchHjNYMWD2A=
+
+Name: assets/www/img/active.png
+SHA1-Digest: Zv18cPEDSE/yoT9pI9c4b4b93r8=
+
+Name: assets/www/img/pencil32.png
+SHA1-Digest: q/Gzrsj7YFx+A+u7xkGhoFrGnfo=
+
+Name: assets/www/img/btnAuto@2x.png
+SHA1-Digest: cpKHhcKZfPo3AX0HUCnK3V2s7Pk=
+
+Name: assets/www/img/iBardahlButtons.png
+SHA1-Digest: AiNkqLMGqM6cxmk7qaydQ7VIFyc=
+
+Name: assets/www/js/2.0RC/jquery-1.8.1.js
+SHA1-Digest: Zh8JKoOvYxIYxG9NFVsaTuXNpq4=
+
+Name: assets/www/img/homeSelectedBTN@2x.png
+SHA1-Digest: bicRYpgB8YNogA1/THMmQpi+5EQ=
+
+Name: assets/www/libs/lawnchair/plugins/query.js
+SHA1-Digest: 928WVcomFd7TFA12LgKXmhEOYJ4=
+
+Name: assets/www/img/btnNewsLetter@2x.png
+SHA1-Digest: NRI93D0gEWKI8nLnE74iwvDheNg=
+
+Name: assets/www/img/storeCellBG@2x.png
+SHA1-Digest: NptSybGNSHJdfzipndyCuuFTpWk=
+
+Name: assets/www/img/phone32.png
+SHA1-Digest: Wiy0+BG5E2dPwJiBVVBEJtX4d6U=
+
+Name: assets/www/img/phone_icon.png
+SHA1-Digest: hu7/b/LuRt9kTQiigTyC1ghTtjc=
+
+Name: assets/www/img/iBardahlBG@2x.png
+SHA1-Digest: VFpzc5FnpbVrFeazo6iqlfqex/I=
+
+Name: assets/www/css/themes/default/jquery.mobile-1.2.0.min.css
+SHA1-Digest: qEbEtJzSHpOZErYdcmqCGeHqBFI=
+
+Name: assets/www/libs/lawnchair/adapters/blackberry-persistent-storage
+ .js
+SHA1-Digest: ajOQtI31HXyCW4nWABzEn1zQ7Js=
+
+Name: assets/www/img/xButton@2x.png
+SHA1-Digest: G6J/5b5sqvjaIR8IqS3nNc7cfyk=
+
+Name: assets/www/css/themes/default/2.0RC/jquery.mobile.structure-1.2.
+ 0-rc.2.min.css
+SHA1-Digest: amDwIjsxMr/8sm3frZI1gDjUQkc=
+
+Name: assets/www/libs/lawnchair/Lawnchair.js
+SHA1-Digest: jrIfVaz8FL8gxlO2NyJF+xBRS0s=
+
+Name: res/drawable-xhdpi/splash.png
+SHA1-Digest: CTLYiCrr+zMouR/+UqQZ2cLQCc0=
+
+Name: assets/www/img/tabHeader.png
+SHA1-Digest: 8LC96nhPteRkBH+yEFDKEpkB9fI=
+
+Name: assets/www/img/btnInfo.png
+SHA1-Digest: x+Rh2BqPVHYO4tEc8wBK0JsbjC4=
+
+Name: assets/www/img/btnInfo@2x.png
+SHA1-Digest: vW07fHxWUi5tc9P1ZqdmSBkhkDQ=
+
+Name: assets/www/img/btnRetry@2x.png
+SHA1-Digest: 3RTMHrqiwWKouGIKnii+M5qLHdc=
+
+Name: assets/www/libs/SQLitePlugin.js
+SHA1-Digest: pwIrQJq3qJCH8GYk/Ap0QR3snZ4=
+
+Name: assets/www/js/newsletter.js
+SHA1-Digest: g5pU5i/qgaQFzzVSdZX2yqN07nE=
+
+Name: assets/www/img/mail32.png
+SHA1-Digest: hEGribAMIUv+G8nZi1mgZrf71Us=
+
+Name: assets/www/img/thumbPlaceholder.png
+SHA1-Digest: fOA+aTKBY0O2JynvWaHOr1y+U9E=
+
+Name: assets/www/img/btnHome.png
+SHA1-Digest: btUTOv27Dxp0IsPJAsA8T7ET4vg=
+
+Name: assets/www/css/themes/default/images/icons-18-black.png
+SHA1-Digest: 2zOURmgG7TYicOGnxfSucQo6Lxg=
+
+Name: assets/www/css/themes/default/2.0RC/jquery.mobile.theme-1.2.0-rc
+ .2.css
+SHA1-Digest: D2Tf5mTNWjzicefDFenu8Rf1t5A=
+
+Name: assets/www/img/radius_icon.png
+SHA1-Digest: +AzZT8sc93ZqNuCaNckwEnfEkQw=
+
+Name: assets/www/libs/lawnchair/adapters/window-name.js
+SHA1-Digest: nfw8Qa6Nn6kM6vxAVbVTEmj8+VM=
+
+Name: assets/www/img/catalog-thumb.png
+SHA1-Digest: CX/R7qTKszkP3iQ2AK/YtbI+zU4=
+
+Name: assets/www/img/btnHome@2x.png
+SHA1-Digest: ZYxYbIE7f+6D3WzSrRjy9pr1Aic=
+
+Name: assets/www/img/productCellBG@2x.png
+SHA1-Digest: I/5S0+XR5qEv8IDiCQfY1ziRj7o=
+
+Name: assets/www/index.html
+SHA1-Digest: 6f1hKgspIBMTJe3IUxenmLIQH6g=
+
+Name: assets/www/libs/SKplugins.js
+SHA1-Digest: hzcMvoCmDf93Np9Llccl62X9mOM=
+
+Name: res/drawable-xhdpi/ic_action_search.png
+SHA1-Digest: WzSVDDIHZpn0cFeuxgKRJete4TU=
+
+Name: assets/www/libs/lawnchair/plugins/pagination.js
+SHA1-Digest: 9HhoRmZAaovgehfedgSQIuLgFtA=
+
+Name: assets/www/css/themes/bardahl/style-android.css
+SHA1-Digest: ncs267WHtaRs8yL3/pAatjgSmGk=
+
+Name: assets/www/libs/cordova-android-2.0.0.js
+SHA1-Digest: EFTj1MFfkBN7rcjiL1LsYwD9Iac=
+
+Name: assets/www/img/btnRetry.png
+SHA1-Digest: t+HTICePnqYE+2rUBFB/Wu0pugk=
+
+Name: assets/www/img/iBardahlBG2@2x.png
+SHA1-Digest: dC2wt+Qa5w09ZozD89oMxhn7BJI=
+
+Name: assets/www/img/btnMoto@2x.png
+SHA1-Digest: d87TV+DRjtLs+Q0vRr8AiKLLQ6o=
+
+Name: assets/www/img/iBardahlBG3.png
+SHA1-Digest: ts46LVKZkXx95HV2AiMQjQE1Oq4=
+
+Name: assets/www/img/tabHeader@2x.png
+SHA1-Digest: FLqu9ZXjWkuuVlx2brHPZYKhfx8=
+
+Name: assets/www/js/2.0RC/jquery.mobile-1.2.0-rc.2.min.js
+SHA1-Digest: WiuGnGDd6J3mACtKeY8Gx/6CoeE=
+
+Name: assets/www/css/themes/default/images/icons-36-white.png
+SHA1-Digest: vIWVJEKtjCzYnYP40K7owpeZbWA=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: SJ0wpribaBvcsvysPmgv9lavbd4=
+
+Name: assets/www/css/themes/default/jquery.mobile-1.2.0.css
+SHA1-Digest: LwDrb0N6PbPKEgC0FIhsEAp8Mr8=
+
+Name: assets/www/js/catalog.js
+SHA1-Digest: 35elA3zEKv55TyEzF+wvMeDfQ4Y=
+
+Name: assets/www/js/maps.js
+SHA1-Digest: JfY4CCp9LlRTR8Cxmc9UBhtHc3w=
+
+Name: assets/www/img/imgBigBG@2x.png
+SHA1-Digest: 4iYNnuboWTzzmF91QNSim6ZqfMo=
+
+Name: assets/www/libs/lawnchair/plugins/aggregation.js
+SHA1-Digest: 5NiZQsevepRmFRBQHOLJx3+D0xQ=
+
+Name: assets/www/libs/lawnchair/adapters/indexed-db.js
+SHA1-Digest: 6L0blXZInOxPPvgGGwud1yhx2Mg=
+
+Name: assets/www/img/catalogCell.png
+SHA1-Digest: H37tSpGbpT7l7W+iXZYYIOdWxvw=
+
+Name: assets/www/img/homeBTN.png
+SHA1-Digest: 5h85nVr7eUmlbqQNi4qj5QfYO1I=
+
+Name: res/drawable-mdpi/splash.png
+SHA1-Digest: SXb5IojdwY5v4xl6lARzXyqTD0Q=
+
+Name: assets/www/css/themes/default/jquery.mobile.theme-1.2.0.min.css
+SHA1-Digest: 6K4bTd4stLCPNllKwJwckcauSUg=
+
+Name: assets/www/img/btnShops@2x.png
+SHA1-Digest: e39oQgvq9ys7jcjkOOZVbngvtIc=
+
+Name: assets/www/libs/lawnchair/adapters/dom.js
+SHA1-Digest: Po7kIGU+Hpscb660bTrry2kNo4E=
+
+Name: assets/www/img/map_icon.png
+SHA1-Digest: 5Thq7I4LU2LE3GoqzWwY1xYOd8E=
+
+Name: assets/www/img/iBardahlBG-iPad.png
+SHA1-Digest: xmK3sgK3vCoFzu10N72n2dYAErU=
+
+Name: assets/www/css/themes/default/images/ajax-loader.gif
+SHA1-Digest: r7Wo1RXseyxOXYv8y0kPtbYDEcM=
+
+Name: assets/www/css/themes/default/jquery.mobile.theme-1.2.0.css
+SHA1-Digest: f41QMlJ9YEf/hpiWEzpY2NlMYGw=
+
+Name: assets/www/css/themes/default/jquery.mobile.structure-1.2.0.css
+SHA1-Digest: 6ZwtCTuD3OZ550iNU90cCIwcUFU=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: q+fbWlv2sJYcNYgS4bUFabFM9nQ=
+
+Name: assets/www/js/jquery-1.8.3.js
+SHA1-Digest: SabRNG89WhZzMail3k80tfzB9tA=
+
+Name: assets/www/img/iBardahlBG3-iPad.png
+SHA1-Digest: lbyId3bMwUtwiKX2Gb++ZkdHLgw=
+
+Name: assets/www/img/navBG.png
+SHA1-Digest: c1iJssYVSZie0sEIsYvKWCY1PEk=
+
+Name: assets/www/img/imgBigBG.png
+SHA1-Digest: TcQ3N9z/0pmC4RqWhyr6ezuya7k=
+
+Name: res/drawable-ldpi/splash.png
+SHA1-Digest: AvA817f10JjF+6BKXVnu9cicFQY=
+
+Name: assets/www/js/stores.js
+SHA1-Digest: RKN+0LCK8ILw5ndNk7AWjsfbw+c=
+
+Name: assets/www/img/catalogCell@2x.png
+SHA1-Digest: 6Frnj+kKmyv+ivM1mm8yqNmNmQU=
+
+Name: assets/www/libs/lawnchair/adapters/memory.js
+SHA1-Digest: 5EoaO2H6Rcffq2d4sQHwlsWNTE4=
+
+Name: assets/www/js/googlemaps-api.js
+SHA1-Digest: vjAPG6iSF9zDUBiGsJdKSYlryzU=
+

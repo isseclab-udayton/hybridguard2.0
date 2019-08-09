@@ -1,0 +1,28 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.apps.budget.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- res/drawable-hdpi/btsplash.9.png
+- res/drawable-ldpi/btsplash.9.png
+- res/drawable-mdpi/btsplash.9.png
+- res/drawable-xhdpi/btsplash.9.png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '7'
+  targetSdkVersion: '17'
+sharedLibrary: false
+sparseResources: true
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '3'
+  versionName: '1.2'

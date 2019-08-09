@@ -1,0 +1,705 @@
+[
+    {
+        "0": "          <p>[Fungus] <em>Elsinoe australis </em>Bitancourt and Jenk.</p>  <p>Anamorph <em>Sphaceloma australis </em>Bitancourt and Jenk.</p>  ", 
+        "1": "          <p>Alternaria brown spot (ABS), alternaria brown spot of mandarins, brown   spot</p>  ", 
+        "2": "          <p>Alternaria is spread by airborne spores. Rain events or sudden changes   in relative humidity also favor spore release. Spores are   produced on older lesions formed on wilted twigs and mature leaves.   Some spores come from fruit lesions but they are not a major inoculum   source. Even the leaf contributes to the inoculum. Although the   spores are airborne and carried by winds, alternaria brown spot is often spread   among groves on nursery stock transported by humans.</p>  ", 
+        "3": "          <p>Leaf - initial foliar lesions occur on young tissue as small brown to black   spots that develop prominent yellow halos. Lesions expand into irregular   or circular necrotic areas which can involve large portions of the leaf,   especially on highly susceptible cultivars like 'Minneola'. A fungal toxin   is produced that can cause necrosis and chlorosis along the veins extending   from lesions. Lesions are flat and visible on both sides on the leaf. Older   lesions have a brittle paper-like texture in the middle of the lesions.</p>  <p>Fruit - young fruit lesions occur on immature fruit for 4 months post   petal fall and cause slightly sunken dark spots with yellow halos. On more   mature fruit, lesions can vary from small specks to large pockmarks. The   fruit rind responds to infection by forming a barrier of corky tissue that   erupts from the surface. In the later stages of the disease, the corky tissue   can fall out, forming craters or pockmarks on the surface of the fruit. Early   fruit drop is common, especially if infection has occurred shortly after petal   fall. Alternaria fruit lesions can crack around the outer edge, giving a   moat-like appearance. During the packing process, the tops of alternaria lesions   may be lopped off, making visual identification difficult.</p>  ", 
+        "4": "          ", 
+        "name": "Alternaria", 
+        "6": "<p>Has been reported from Argentina, Australia, Brazil, Columbia, Greece, Iran, Israel, Italy, Peru, Spain, South Africa, Turkey, the United States, and Uruguay. The disease is likely found in other countries that produce susceptible cultivars.</p>", 
+        "7": "<p>Citrus scab (<em>Elsinoe fawcettii</em>)</p>", 
+        "gallery": [
+            [
+                "01Alternaria.jpg", 
+                "          Fruit lesions  ", 
+                1
+            ], 
+            [
+                "04Alternaria.jpg", 
+                "          Leaf lesions  ", 
+                3
+            ]
+        ], 
+        "id": 0, 
+        "5": "          <p>Dancy tangerine hybrids ['Minneola' tangelo ('Honeybell'), 'Orlando' tangelo,   'Sunburst', 'Nova,' and 'Lee'] and 'Murcott' ('Honey' tangerine) frequently have   fruit infections of alternaria brown spot. Grapefruit and lemons may also   be affected.</p>  "
+    }, 
+    {
+        "1": "", 
+        "2": "          <p>Anthracnose is a primary colonizer of injured and senescent tissue. The   organism grows on dead wood in the canopy, and it spreads short distances by   rain splash, heavy dew, and overhead irrigation. Such movement deposits the   spores on susceptible tissues of young leaves or immature fruit. Sexual   spores, although less numerous, are significant for long distance dispersal   because of their ability to become airborne. Once the spores germinate, they   form a resting structure that allows them to remain dormant until an injury   occurs or until degreening. The disease is especially troublesome on   fruit that are harvested early and degreened for over 24 hours because ethylene   stimulates the growth of the fungus.</p>  ", 
+        "3": "          <p>Leaf - common symptoms are a more or less   circular, flat area, light tan in color with a prominent purple margin that at a   later phase of infection will show the fruiting bodies of the fungus (tiny   dispersed black flecks). Tissues injured by various environmental factors (such   as mesophyll collapse or heavy infestations of spider mites) are more   susceptible to anthracnose colonization.</p>  <p>Fruit - anthracnose usually only occurs on fruit that have been injured by   other agents, such as sunburn, chemical burn, pest damage, bruising, or extended   storage periods. The lesions are brown to black spots of 1.5 mm or greater   diameter. The decay is usually firm and dry but if deep enough can soften   the fruit. If kept under humid conditions, the spore masses are pink to salmon,   but if kept dry, the spores appear brown to black. On ethylene degreened   fruit, lesions are flat and silver in color with a leathery texture.   On degreened fruit, much of the rind is affected. The lesions will eventually   become brown to grey black leading to soft rot.</p>  <p>It should be noted that leaves and fruit   infected with other diseases (alternaria, citrus canker) may also be colonized   by the fruiting bodies of <em>C. gloeosporioides</em>. The fruiting bodies   (black flecks) can be seen over the disease of   concern.</p>  ", 
+        "4": "", 
+        "name": "Anthracnose", 
+        "6": "<p> Anthracnose is found worldwide.</p>", 
+        "7": "", 
+        "gallery": [
+            [
+                "06Anthracnose.jpg", 
+                "          Leaf lesions  ", 
+                5
+            ], 
+            [
+                "08Anthracnose.jpg", 
+                "          Symptoms on fruit and leaf  ", 
+                7
+            ], 
+            [
+                "09Anthracnose.jpg", 
+                "          Symptoms on leaf  ", 
+                8
+            ]
+        ], 
+        "id": 1, 
+        "5": "<p>All common citrus cultivars are susceptible to anthracnose.</p>"
+    }, 
+    {
+        "0": "<p>None. Chimera is the result of a genetic mutation.</p>", 
+        "1": "", 
+        "2": "<p>None. Chimera is a result of a genetic mutation.</p>", 
+        "4": "", 
+        "name": "Chimera", 
+        "6": "", 
+        "7": "<p> Huanglongbing (HLB)</p>", 
+        "gallery": [
+            [
+                "Chimera_on_V_a.jpg", 
+                "          Leaf symptom - variegation as a result of chimera mutation on Valencia orange   leaves  ", 
+                1
+            ], 
+            [
+                "segmented_coloration_by_E_Serrano.jpg", 
+                "          Segmented coloration on fruit as a result of chimera   mutation  ", 
+                2
+            ]
+        ], 
+        "id": 2, 
+        "5": "<p>All citrus may exhibit chimeras.</p>"
+    }, 
+    {
+        "0": "          <p>[Bacterium]<em> Xanthomonas alfalfae </em>subsp. <em>citrumelonis</em>   (syn. <em>Xanthomonas axonopodis </em>pv. <em>citrumelo</em>)</p>  ", 
+        "1": "          <p>CBS, this however may lead to confusion since citrus black spot uses the same   abbreviation. </p>  ", 
+        "2": "<p>Citrus bacterial spot is only known to occur only under nursery conditions. There are three groups of isolates based on laboratory assays considered aggressive, moderately aggressive, and weakly aggressive. Only aggressive isolates were historically spread in field nurseries naturally by wind-blown rain and overhead irrigation. All strains can be mechanically moved from tree to tree under normal nursery operation. When infected trees are transplanted into groves, the bacterium rapidly dies off and the disease becomes undetectable in a few months. The activity of the citrus leaf miner exacerbates citrus bacterial spot.</p>", 
+        "3": "          <p>Leaf - the symptoms of citrus bacterial spot are very similar to those of   citrus canker, but the lesions are flat and not raised. Foliar lesions show   necrotic centers that often can crack or drop out and are surrounded by   water-soaked margins.  Lesions produced by aggressive strains have more   pronounced water-soaked margins than those of citrus canker. Bud take and growth   on infected rootstocks, especially Swingle, can be infected.</p>  <p>Fruit - fruit infection is rare and has only been reported on Flying-dragon   trifoliate.</p>  ", 
+        "4": "", 
+        "name": "Citrus bacterial spot", 
+        "6": "<p>Only known to occur in Florida.</p>", 
+        "7": "<p>Citrus canker</p><p>It should be noted that citrus bacterial spot was initially regulated in Florida similarly to citrus canker, however, the low disease potential in groves was realized and the disease was deregulated. Care must be taken to differentiate between citrus bacterial spot and citrus canker.</p>", 
+        "gallery": [
+            [
+                "CBS_topleafcaption.jpg", 
+                "          Leaf lesions  ", 
+                1
+            ], 
+            [
+                "IMG_2890_Citrus_bacterial_spot_red_grapefruit_JHG_cs.jpg", 
+                "          Leaf lesions on Red grapefruit cultivar  ", 
+                3
+            ], 
+            [
+                "IMG_2896_Citrus_bacterial_spot_red_grapefruit_JHG_cs.jpg", 
+                "          Leaf lesions on Red grapefruit cultivar.     ", 
+                6
+            ]
+        ], 
+        "id": 3, 
+        "5": "<p>Citrus bacterial spot can affect common scion and rootstock species and is most severe on Swingle citrumelo, trifoliate orange rootstock, and grapefruit scions.</p>"
+    }, 
+    {
+        "0": "<p>[Fungus]  Anamorph - <em>Phyllosticta citricarpa </em>(McAlpine) van der Aa (syn. <em>Phoma citricarpa</em> McAlpine)</p><p>               Teleomorph - <em>Guignardia citricarpa </em>Kiely</p>", 
+        "1": "          <p>Often abbreviated as CBS.  This however may lead to confusion since   citrus bacterial spot uses the same abbreviation.  Many of the common names   for black spot are based on observed symptom types but all refer to the same   disease which can be confusing.  The symptom based names are: hard spot   (shot-hole spot), false melanose (speckled blotch), freckle spot, lacy-spot,   cracked spot and virulent (spreading or galloping) spot.</p>  ", 
+        "2": "          <p>As in many diseases, timing is important for black spot to   occur. Inoculum in the leaf litter needs to be available during the period   when the host is susceptible and the environment is favorable for   infection. Fruit are susceptible from fruit set until 5-6 months later,   when they become age resistant.</p>  <p>Both the ascospores (sexual spores) and the conidia (asexual spores) of   <em>G. citricarpa</em> are able to infect susceptible tissues.</p>  <p>Ascospores are found in microscopic fungal structures embedded in the leaf   litter. They are the most important source of inoculum, in some regions   causing nearly all infections. Ascospores have never been found in fruit   lesions or lesions on attached leaves. Spores are released when the   leaf litter is wetted by heavy dew, rainfall, or irrigation and can be carried   by air currents over long distances.</p>  <p>Dark brown or black pycnidia, structures that produce conidia, are formed on   fruit, fruit pedicles and leaf lesions. They are also abundant on dead   leaves. Conidia are not wind-borne, but may reach susceptible fruit by rain   splash. These spores are not considered a significant source of inoculum in   climates with dry summers; however, in climates with frequent summer rains,   conidia play a larger role in the epidemic when there are multiple fruit ages   present on trees simultaneously. Often late hanging fruit with lesions   remain on the tree and spores can be washed onto young susceptible fruit.</p>  <p>Infections are latent until the fruit becomes fully grown or mature.  At   this point the fungus may grow further into the rind producing black spot   symptoms months after infection, often near or after harvest. Symptom   development is increased in high light intensity, intensifying temperatures,   drought, and low tree vigor.</p>  ", 
+        "3": "          <p>Leaf - older lesions are small, round, sunken necrotic spots with   gray centers. The lesions are bordered with a dark brown ring. Young   lesions are small, reddish, and slightly raised. A yellow halo can be   associated with the lesions. Foliar lesions are most commonly seen on   lemons. They are rarely seen in well managed groves. Similar lesions   can be seen on twigs and pedicles.</p>  <p>Fruit - lesions on fruit are so diverse that lesions are grouped into several   types: <STRONG>1.)</STRONG> hard spot; <STRONG>2.)</STRONG> false   melanose/speckled blotch; <STRONG>3.)</STRONG> freckle spot (early virulent   spot); <STRONG>4.)</STRONG> virulent spot; <STRONG>5.)</STRONG> lacy spot;   <STRONG>6.)</STRONG> cracked spot.  </p>  <p>Hard spot (1) is the most typical and diagnostic symptom of black spot as the   fruit mature, often appearing around color change. The lesions are circular   depressions with a diameter of 3-10 mm (0.12 - 0.4 inch). The brick red   lesions have tan to grey centers with a distinct brown to black   margin. Pycnidia are usually, but not always, present in the   lesions. Pycnidia appear as small black dots and are visible with a hand   lens but can be confused with acervuli of <em>Colletotrichum</em>   spp. Preharvest, hard spot lesions tend to develop on the side of the fruit   exposed to sunlight.</p>  <p>False melanose/speckled blotch (2) symptoms appear as numerous, small (&amp;lt; 1   mm (0.04 in) in diameter), raised, brown to black lesions. Most frequently,   false melanose occurs on green fruit. The lesions can coalesce as the season   progresses and do not contain pycnidia. False melanose/speckled blotch-type   symptoms can develop into hard spot-type symptoms at the end of the season.</p>  <p>Freckle spot (early virulent spot) (3) symptoms are a sign of heavy   infection. They occur on mature fruit, most often after harvest but can be   seen when fruit is on the tree. The lesions are 1-3 mm (0.04 - 0.12 in) diameter   depressions, potentially with pycnidia present. Lesions can be several   colors, most often reddish with a dark red to brown border, but may be gray   to tan, brownish, or have no color. Late in the season or during storage,   freckle spot can develop into virulent spot or hard spot.</p>  <p>Virulent spot (4) lesions are sunken and irregular in shape and occur on   heavily infected, mature fruit toward the end of the season. In high humidity,   large numbers of pycnidia may develop. The lesions can turn brown to black   with a leathery texture that eventually covers the entire fruit. Virulent   spot may cause premature fruit drop and serious post harvest losses since the   symptoms may extend into the fleshy part of the fruit.</p>  <p>Lacy spot-type (5) lesions are superficial, small, and yellow with dark   yellow to brown centers and no defined margins. The fruit is still green   when the lesions become apparent and can cover a large portion of the fruit   surface. These lesions are considered to be a variation of false   melanose. This term is not commonly used, and these symptoms have only   been reported from South America.</p>  <p>Cracked spots (6) type lesions are superficial, slightly raised, variable in   size, brown to black with cracked surface and irregular margins. Pycnidia are   not present in the lesions. These lesions have often been associated with   rust mite damage. Hard spot lesions can eventually form in the center of   the lesions.</p>  ", 
+        "4": "<p>The most current regulatory information can be found at: (http://www.aphis.usda.gov/plant_health/plant_pest_info/citrus/black_spot.shtml)</p>", 
+        "name": "Citrus black spot", 
+        "6": "          <p>Citrus black spot is found in Argentina, Australia, Brazil, China, United   States (Florida), Indonesia, Japan, Kenya, Mozambique, Nigeria,   Philippines, South Africa Taiwan, Uruguay, Venezuela, and Zimbabwe.  No   reports have been made from Mediterranean countries.</p>  ", 
+        "7": "", 
+        "gallery": [
+            [
+                "Hard_spot_2_NP_bs.jpg", 
+                "          Hard spot form of citrus black spot on fruit  ", 
+                1
+            ], 
+            [
+                "False_melanose_2bs.jpg", 
+                "          False melanose form of citrus black spot on fruit  ", 
+                4
+            ]
+        ], 
+        "id": 4, 
+        "5": "<p>Citrus black spot affects all species of cultivated citrus and their hybrids. With the exception of sour orange and its hybrids, all commercially grown citrus species and cultivars have been observed to be affected by the disease. Lemon is particularly susceptible, and it has been observed that when citrus black spot moves into an unaffected area it first appears on lemons with the exception of the epidemic in Florida.  Grapefruit and Valencia orange are also highly susceptible.</p>"
+    }, 
+    {
+        "0": "          <p>[Bacterium] <em>Xanthomonas axonopodis </em>pv. <em>citri </em>(Hasse)   Vauterin <em>et al.</em>  Synonyms:<em> Xanthomonas campestris   </em>pv. <em>citri </em></p>  <p>Different strains of citrus canker have been reported throughout the world.   The Asiatic strain (A-strain) is the most widespread and severe form. Strains   can be differentiated by molecular tests and host range.</p>  ", 
+        "1": "<p>Asiatic citrus canker</p>", 
+        "2": "<p>Citrus canker is not vectored by any organism but is spread by wind-driven rain. However, wounds caused by feeding of the Asian citrus leaf miner (<em>Phyllocnistis citrella </em>Stainton) may serve as an entry point for the bacterium if citrus canker inoculum is present. </p>", 
+        "3": "          <p>Leaf - typical citrus canker lesions on leaves will range from 2-10   mm in size and will have raised concentric circles on the underside of   the leaf. Frequently lesions will be surrounded by a water-soaked   margin and a yellow halo. As a canker lesion ages, it may lose it   palpable roughness, but the concentric circles will still be visible with a hand   lens (on the underside of the leaf). The yellow halo eventually changes to dark   brown or black and the water-soaked margin surrounding the lesion may   diminish. The middle of the lesion (on underside of leaf) will be   corky in texture with a volcano or pimple-like point. With the exception of   very young lesions, lesions always penetrate through both sides of the   leaf. In the presence of damage, the lesion may follow the contours of the   damage and therefore may not be circular. In older lesions, a   saprophytic white fungus may grow over the center of the lesion. The center of a   lesion may fall out producing a shot hole appearance. </p>  <p>Fruit - typical citrus canker lesions on fruit will range from   1-10 mm in size. Larger lesions usually penetrate a few millimeters   into the rind. Fruit lesions may vary in size and may coalesce.    Fruit lesions consist of concentric circles.  On some varieties these   circles are raised with a rough texture on other varieties the concentric   circles are relatively flat like the surface of a record.  The middle of   the lesion will be corky in texture with a volcano or pimple like   point. The center of a lesion may crack and has a crusty material inside   that resembles brown sugar. Frequently on green fruit a yellow halo   will be visible; however it will not be visible on ripened fruit. Lesions   may have a water-soaked margin and the water-soaked margin   is especially evident on smaller lesions.  In the presence of damage   the lesion may follow the contours of the damage therefore not being circular.   In older lesions a saprophytic white fungus may grow over the center of the   lesion.</p>  ", 
+        "4": "<p>The most current regulatory information can be found at:</p><p> (http://www.aphis.usda.gov/plant_health/plant_pest_info/citruscanker/index.shtml) </p>", 
+        "name": "Citrus canker", 
+        "6": "          <p>Citrus canker is thought to have originated in southeast Asia. Different   strains of citrus canker are widespread throughout many tropical and subtropical   areas of the world. In the United States and its territories citrus canker is   only found in Florida as of 2009.</p>  ", 
+        "7": "          <p>On leaves, citrus canker may be confused with citrus bacterial spot (CBS),   greasy spot, citrus scab, and leprosis. On fruit, citrus canker may be   confused with alternaria, citrus scab, damage, and   leprosis.</p>  ", 
+        "gallery": [
+            [
+                "19CitrusCanker.jpg", 
+                "          Water-soaked ring on leaf lesion  ", 
+                0
+            ], 
+            [
+                "15CitrusCanker.jpg", 
+                "          Leaf lesions on grapefruit, top view  ", 
+                4
+            ], 
+            [
+                "18CitrusCanker.jpg", 
+                "          Grapefruit, fruit lesions  ", 
+                10
+            ], 
+            [
+                "04CitrusCanker.jpg", 
+                "          Fruit, leaf, and stem canker lesions  ", 
+                11
+            ]
+        ], 
+        "id": 5, 
+        "5": "          <p>Citrus canker affects multiple genera in   the family Rutaceae. Citrus canker is most severe on grapefruit, key/Mexican   lime, lemons, and kaffir lime.</p>  "
+    }, 
+    {
+        "0": "<p>[possible viral aetiology] Citrus chlorotic dwarf virus (CCDV).</p><p> </p>", 
+        "1": "<p>Citrus chlorotic dwarf, citrus chlorotic dwarf disease (CCDD). </p><p> </p>", 
+        "2": "          <p>Vectored by bayberry whitefly (<em>Parabemisia myricae </em>(Kuwana)). It is   transmissible by grafting on infected buds, slash inoculation from extracts of   infected leaves and bark in phosphate buffer.  </p>  <p> </p>  ", 
+        "3": "          <p>Field symptoms consist of chlorotic flecking on young   leaves, warping, crinkling, inverted cupping, spoon-shaping and variegation on   leaves. Strong chlorosis and dwarfing of leaves are also observed. Grapefruit,   lemon, mandarin and sour orange develop more severe symptoms than sweet orange.   Diagnosis is made by grafting on rough lemon and <em>Citrus macrophylla</em> preferably in warm   conditions</p>  <p> </p>  ", 
+        "4": "", 
+        "name": "Citrus chlorotic dwarf virus (CCDV)", 
+        "6": "          <p>Eastern Mediterranean region of   Turkey</p>  ", 
+        "7": "<p>Citrus variegation virus (CVV), satsuma dwarf virus (SDV), citrus leaf rugose virus (CLRV), and citrus yellow vein clearing virus (CYVCV).</p>", 
+        "gallery": [
+            [
+                "03_CCDVchlorotic_flecking_and_warping_on_leaves_MY_cs.jpg", 
+                "          Leaf symptom - chlorotic   flecking and warping on leaves  ", 
+                2
+            ], 
+            [
+                "04_CCDV_Gondol_like_leaves_with_inverted_cupping_MY_cs.jpg", 
+                "          Leaf symptom - gondol like   leaves with inverted cupping on young leaves  ", 
+                3
+            ]
+        ], 
+        "id": 6, 
+        "5": "<p>All citrus cultivars are susceptible.</p><p> </p>"
+    }, 
+    {
+        "0": "<p>[Fungus] <em>Elsinoe fawcettii </em>Bitancourt and Jenk.</p><p>Anamorph <em>Sphaceloma fawcettii </em>Jenk.</p>", 
+        "1": "<p>Sour orange scab</p>", 
+        "2": "<p>Conidia are produced on the surface of scab pustules. These spores spread to new susceptible tissue. There are two kinds of spores, clear oval shaped and colored spindle shaped (found in Florida and Brazil).  The clear oval shaped type are spread by splashing rain and perish as soon as they dry, while the spindle-shaped form remain viable for a short time and are dispersed by wind for short distances.</p>", 
+        "3": "          <p>Leaf and fruit - early scab pustules are a mixture of fungal and host   tissue. These pustules are slightly raised and pink to light brown in   color. Young foliar lesions superficially resemble young citrus canker and   may have a slight water soaked margin. As fruit and leaf pustules   develop, the small elevated pink spots become more defined and may form   conical depressions nearby. As the pustules mature, they become warty and   crack. Pustule color may progress to yellowish brown and eventually to a   dirty grey. On lemons, tangerines, and sour orange, the growths are   relatively raised. In contrast, on grapefruit the growths are   flatter.</p>  ", 
+        "4": "", 
+        "name": "Citrus scab", 
+        "6": "<p>Present in most humid citrus producing areas.</p>", 
+        "7": "<p>Young citrus canker</p>", 
+        "gallery": [
+            [
+                "15CitrusScab.jpg", 
+                "          Pustules on fruit  ", 
+                0
+            ], 
+            [
+                "17CitrusScab.jpg", 
+                "           Common citrus scab on sour orange leaf  ", 
+                9
+            ]
+        ], 
+        "id": 7, 
+        "5": "<p>Citrus scab is only a serious problem on some varieties. It is severe on rootstock seedlings of rough lemon, sour orange, Rangpur lime, and Carrizo citrange, and scions of Murcott tangor, Temple tangor, and other tangerine hybrids. It is occasionally found on grapefruit.</p>"
+    }, 
+    {
+        "0": "          <p>[Bacterium] <em>Spiroplasma citri</em></p>  ", 
+        "1": "<p>Little-leaf disease (Israel); safargali (Egypt); early descriptions in California include pink nose, acorn fruit, blue albedo and crazy top in Arizona.</p>", 
+        "2": "          <p>CSD is caused by <em>Spiroplasma citri,</em> a phloem-limited,   cell-wall-less bacterium.  <em>S.   citri</em> is transmitted in a propagative, circulative manner by several   leafhoppers including <em>Circulifer   tenellus</em> and <em>Scaphytopius   nitridus</em> in citrus-growing regions of California and Arizona and <em>C. haematoceps (syn. Neoaliturus   haematoceps) </em>in the Mediterranean region.  The pathogen multiplies in   the vector but no transovarial transmission occurs.  Spatial and temporal   analysis of CSD incidence indicate only primary spread occurring and no or very   limited secondary spread (citrus to citrus).  <em>Scaphytopius</em> can develop on citrus but   the population remains low to negligible throughout the season.  <em>C. tenellus and C. haematoceps </em>have a   wide host range which includes many natural hosts of <em>S. citri</em> but citrus is a non host of   these leafhoppers. Citrus becomes infected when inoculative <em>Circulifer</em> vectors feed temporarily on   citrus during migratory flights.</p>  <p> </p>  <p><em>S. citri </em>is graft-transmissible with   side grafts but rate of bud transmission is very low due to low pathogen   titer.  Seed transmission does not occur.  <em>S. citri</em> is phloem-restricted where it   multiplies and moves slowly through the tree.  CSD has a long latent period   of months to years after inoculation.  Detection varies with season with   highest titer being in hot summer months, concomitant with most pronounced   symptom expression.</p>  <p> </p>  ", 
+        "3": "          <p>Leaf - symptoms can vary   with season and variety but typically include small size with upright position;   some mottling resembling nutritional deficiencies; shortened stem internodes   leading to bunchy-type growth.  Symptoms on mildly-infected trees are often   localized within a sector of a tree.</p>  <p> </p>  <p>Fruit - symptoms are variable but   include small size, lopsided, with immature acorn-shaped fruit and stylar-end   breakdown or greening.  Fruits exhibiting blue albedo have been   reported.  Fruit drop is common but extent depends on horticultural   management.  Internal fruit development can be imperfect with thinner rind   on one side and thicker on the other.  Severely-affected fruit can be   insipid or bitter flavored.  Seeds produced are often aborted.</p>  <p> </p>  <p>Whole tree - symptoms and growth   habits of affected trees varies.  Some infected trees may not appear   different from non-infected trees and remain unnoticed for several years. Field   diagnosis is complicated with freeze and insect damage, poor nutrition and other   diseases.  Trees with obvious symptoms include: fruit drop; mildly-infected   trees may be normal in size but severely-affected trees are stunted with thin   canopy often with a flattened top and tip dieback.  Irregular flowering is   common resulting in various-sized fruit with different maturities.  Fruit   production can be greatly reduced.</p>  <p> </p>  ", 
+        "4": "", 
+        "name": "Citrus stubborn disease (CSD)", 
+        "6": "<p>CSD occur in citrus grown in the Coachella Valley and interior valleys of central and southern California and Arizona.  It is present in the Mediterranean region inducing Israel, Syria, Turkey, Morocco, etc.  The disease is prevalent in temperate regions with arid or semi-arid climates where citrus is grown with irrigation.  These areas have limited seasonal rainfall but enough to support rapid germination and growth of natural weed hosts of <em>S. citri</em> and competent leafhopper vectors.  Because infected leafhoppers remain infectious for life, this pathosystem presumably sustains <em>S. citri</em> and only limited primary spread occurs in citrus.  CSD is not known to occur in tropical or sub-tropical regions.</p>", 
+        "7": "", 
+        "gallery": [
+            [
+                "18CSD.jpg", 
+                "          Tree exhibiting irregular (off season) flowering  ", 
+                1
+            ], 
+            [
+                "08CSD.jpg", 
+                "          Stunted tree  ", 
+                8
+            ], 
+            [
+                "10CSD.jpg", 
+                "          Top row- unaffected seeds; bottom row- seeds affected by   CSD  ", 
+                10
+            ], 
+            [
+                "15CSD.jpg", 
+                "          T1 Navel fruit; far right uninfected; others infected with   CSD  ", 
+                15
+            ]
+        ], 
+        "id": 8, 
+        "5": "          <p>All cultivars of citrus are susceptible to <em>S. citri</em> infection.  Young trees   appear to be more vulnerable to CSD than mature trees.  The natural host   range of <em>S. citri</em> is broad and   includes ornamentals such as periwinkle, zinnia, marigold, and viola; many   brassicaceous plants; potato and carrots.  It's also been reported in   sesame in Turkey.</p>  "
+    }, 
+    {
+        "0": "          <p>[Bacterium] <em>Xylella fastidiosa </em>Wells <em>et al.   </em></p>  ", 
+        "1": "", 
+        "2": "          <p>CVC is a systemic disease that only survives in plant xylem or within its   vector.<em> X. fastidiosa </em>has been shown to move from seed to seedling in   sweet orange. CVC has a latency period of 9-12 months before symptoms   occur. Natural spread of <em>X. fastidiosa </em>occurs by several species   of sharpshooter leafhoppers in the order Hemiptera. At least 11 species of   sharpshooter have been shown to vector CVC. Some of these species   currently occur in the United States. Sharpshooters are xylem feeders and   acquire <em>X. fastidiosa </em>within two hours of feeding.   Sharpshooters have a high rate of feeding and retain infectivity   indefinitely. Sharpshooters do not pass <em>X. fastidiosa </em>onto the   next generation. Sharpshooters have an extensive host range and may   undergo one to several generations per year.</p>  ", 
+        "3": "          <p>Leaf - foliar symptoms of CVC are very similar to nutrient deficiency and   other diseases; therefore, it is difficult to rely on foliar symptoms alone for   identification. Early leaf symptoms resemble zinc deficiency with   interveinal chlorotic areas on the upper surface. Early symptoms may be limited   to a single branch. As the leaf matures, gummy lesions become visible on   the lower leaf surface corresponding to chlorotic areas on the upper   surface of the leaf.  The chlorotic areas gradually enlarge toward the   leaf margin, and the lesions on the underside of the leaf may become dark brown   or necrotic. Leaves may be smaller than normal. Leaf symptoms are most   pronounced on mature leaves (behind the new flush).</p>  <p>Fruit - blossom and fruit occur at the normal time, but fruit thinning   does not occur. This results in clusters of 4-10 early maturing   fruit. Fruits of infected trees may exhibit sunburn damage because of   defoliation at branch terminals. In addition, fruit may change color early,   have hard rinds, lack juice, and have an acidic flavor. Fruit symptoms of   CVC are more easily recognized from a distance.</p>  <p>Whole tree - affected trees may exhibit reduced vigor and growth, and   show abnormal flowering and fruit set. Newly affected trees may only exhibit   symptoms on one limb or branch, and then symptoms may spread to the entire   canopy. Older trees may only show symptoms on the extremities of the   branches.  Severely diseased trees frequently posses upper   crown branches with defoliation at terminal twigs and small   leaves and fruit.</p>  ", 
+        "4": "", 
+        "name": "Citrus variegated chlorosis (CVC)", 
+        "6": "<p>CVC is found throughout South America.</p>", 
+        "7": "<p>Foliar symptoms may be confused with nutrient deficiency, anthracnose, and greasy spot.</p>", 
+        "gallery": [
+            [
+                "CVC_Alexander_Purcell_University_of_California_Bugwood.org_cs.jpg", 
+                "          Fruit and leaf symptoms - CVC affected fruit and leaves on left.    Unaffected fruit and leaves on right  ", 
+                7
+            ], 
+            [
+                "CVC_3Alexander_Purcell_University_of_California_Bugwood.org_cs.jpg", 
+                "          Regular size fruit on left, CVC affected fruit on right  ", 
+                9
+            ]
+        ], 
+        "id": 9, 
+        "5": "<p><em>Xylella fastidiosa </em>can infect most of the citrus cultivars, species and hybrids, yet the severity of symptoms is variable. Sweet oranges are the most susceptible. Grapefruit, mandarins, mandarin hybrids, lemons, limes, kumquat and trifoliate orange are moderately susceptible, showing less severe symptoms.  Rangpur lime, citron, and pummelo are less susceptible. </p>"
+    }, 
+    {
+        "0": "          <p>[Fungus] <em>Mycosphaerella citri </em>Whiteside</p>  <p>Anamorph <em>Stenella citri-grisea </em>(F.E.Fisher) Sivanesan; (syn.   <em>Cercospora citri-grisea </em>Fisher)</p>  ", 
+        "1": "<p>Greasy spot rind blotch</p>", 
+        "2": "          <p>The major source of inoculum for greasy spot are wind-dispersed sexual spores   (ascospores) produced during periods of wetness on decomposing fallen   leaves. The disease cycle of this pathogen is unusual because most of the   infection occurs on mature leaves.  In areas with high temperature and high   rainfall the disease cycle continues year round and infection may occur at any   time.</p>  ", 
+        "3": "          <p>Leaf - foliar symptoms first appear as   yellow spots on the upper leaf surface, with a corresponding slightly raised,   pale orange to yellowish brown blister on the lower surface.  Later the   symptoms on both surfaces become darker brown or black and show a more   'greasy' appearance. </p>  <p>Fruit - fruit exhibit necrotic specks in the epidermis between the oil   glands.</p>  ", 
+        "4": "", 
+        "name": "Greasy spot", 
+        "6": "          <p>Greasy spot is found in parts of Asia, Central and South America, the   Caribbean, Texas, and Florida.</p>  <p>Other<em> Mycosphaerella</em> spp. have been found in California, Australia,   and the Mediterranean, but do not cause greasy spot symptoms.</p>  ", 
+        "7": "          <p>Citrus varigated chlorosis (CVC)</p>  <p>Greasy spot foliar lesions can be differentiated from CVC based on their   distribution on the whole tree and individual leaves.  CVC symptoms will be   restricted to a single branch while Greasy spot symptoms will be throughout the   tree and grove. On leaves CVC \"lesions\" will be interveinal while greasy spot   lesions are numerous and random.</p>  ", 
+        "gallery": [
+            [
+                "GSLEAVES_TG_cs.jpg", 
+                "          Leaf symptoms of greasy spot  ", 
+                4
+            ], 
+            [
+                "RINDBLOT_TG_cs.jpg", 
+                "          Necrotic specks on fruit  ", 
+                5
+            ]
+        ], 
+        "id": 10, 
+        "5": "          <p>Greasy spot affects all commercial citrus cultivars.  It is most severe   on grapefruit, lemon, tangelos and early season sweet oranges.</p>  <p>The fruits and leaves of grapefruit are highly susceptible.</p>  <p>Greasy spot is also known to affect the leaves of other rutaceous genera   closely related to citrus, such as <em>Aeglopsis, Fortunella, Murraya, and   Poncirus.</em></p>  "
+    }, 
+    {
+        "0": "          <p>[Bacterium]<em> Candidatus </em>Liberibacter<em> </em>spp.</p>  <p><em>Candidatus </em>Liberibacter<em> </em>asiaticus (Asian form)</p>  <p><em>Candidatus </em>Liberibacter<em> </em>africanus (African form)</p>  <p><em>Candidatus </em>Liberibacter<em> </em>americanus<em> (</em>American   form)</p>  ", 
+        "1": "          <p>Greening, yellow shoot, yellow dragon</p>  ", 
+        "2": "          <p>Huanglongbing (HLB) is presumptively caused by a phloem limited   bacteria.  In citrus there are three forms of concern, the Asian, African   and American forms. The Asian form of HLB expresses symptoms in both cool   and warm conditions. The African form of HLB expresses symptoms only in cool   conditions (20-25<sup>0</sup> C, 68-77<sup>0</sup> F).  Both isolates can   be vectored by the Asian citrus psyllid <em>Diaphorina citri </em>(Kuwayana) and   by the psyllid <em>Trioza erytreae </em>(Del Guercio).  The American   form was identified in Brazil in 2004 and is transmitted by <em>D. citri</em>   there.</p>  <p>HLB can be graft transmitted but transmission rates are variable because of   irregular distribution of bacteria within the host plant.  Seed   transmission may be possible but studies are not yet conclusive and if it occurs   it is only at very low levels and the disease does not seem to persist beyond   early seedling stages.  The most important method of disease spread occurs   by the two species of psyllids that serve as vectors.  HLB can be   acquired by both nymphs and adults, which can maintain and transmit the disease   throughout their 3- to 4-month lifespan. HLB is systemic and has an   incubation period of three months to multiple years before symptoms are   visible.  </p>  ", 
+        "3": "          <p>Leaf - although symptoms differ according to citrus variety, common   symptoms may be described.  The most characteristic symptom of HLB is   a blotchy mottle. This mottling is distinct from nutrient deficiency in   that HLB induced mottling usually crosses the veins and is asymmetrically   displayed on the leaf blade. Mottling is most frequently found on   newly mature hardened-off leaves but fades with leaf age.  The blotchy   mottle will be visible on both sides of the leaf and have multiple hues of   yellow and green.  Dark green areas can sometimes be reduced to small   circular dark green dots that contrast with the light yellow/green   background.  This symptom is referred to as green islands and had been   occasionally observed on sweet orange. In addition to blotchy mottle, infected   leaves may be thicker and leathery and have raised corky veins.  It is   common to observe foliar symptoms that resemble nutrient deficiency similar to   zinc patterned deficiency.  A tree affected by HLB may exhibit yellow   shoots and or deficiency symptoms that are on one or many branches   randomly arranged in the canopy.  This contrasts with a true nutrition   deficiency that is exhibited uniformly throughout the canopy.  On severely   infected branches leaves may form \"rabbit ears\" that are small upright shoots   with compressed internodes.</p>  <p>Fruit - fruit may be small and lopsided.  Cut fruit may have a   curved axis and the vascular columella can be stained orange-brown.  Seed   abortion is also common.  Fruit may ripen backwards with the stylar end   remaining green as the fruit colors.  The fruit symptoms with major   economic impact are the reduction in fruit size, premature fruit drop, low   content of soluble acids in the juice and a bitter or salty taste of   the juice</p>  <p>Whole tree - the irregular distribution of symptoms on the tree corresponds   with the irregular distribution of the bacteria in the tree.  On severely   infected trees, foliage may be sparse with the top third of the canopy being   thin. Eventually the tree may go into a complete decline, collapse, and   die.  Trees with a prolonged infection appear stunted when compared to   healthy trees.</p>  ", 
+        "4": "<p>The most current regulatory information can be found at:</p>  <p>Regulation documents</p>      <p>http://www.aphis.usda.gov/plant_health/plant_pest_info/citrus_greening/regs.shtml </p>  <p>Quarantine map </p>      <p>http://www.aphis.usda.gov/plant_health/plant_pest_info/citrus_greening/downloads/pdf_files/nationalquarantinemap.pdf</p>", 
+        "name": "Huanglongbing (HLB)", 
+        "6": "<p>The Asian form is found in Asia, the Middle East, South America, Central America, The Caribbean and the Southeast United States.</p><p>The African form is found in Africa and the Middle East.</p><p>The American form is found only in Brazil.</p>", 
+        "7": "", 
+        "gallery": [
+            [
+                "31HLB.jpg", 
+                "          Sweet orange fruit showing the color inversion symptom  ", 
+                0
+            ], 
+            [
+                "02HLB.jpg", 
+                "          Yellowing of a quadrant of a citrus tree due to greening  ", 
+                6
+            ], 
+            [
+                "05HLB.jpg", 
+                "          HLB leaf symptoms on the citrus relative <em>Severinia   buxifolia</em>  ", 
+                8
+            ], 
+            [
+                "09HLB.jpg", 
+                "          Mottling that crosses the leaf lateral veins  ", 
+                12
+            ], 
+            [
+                "16HLB.jpg", 
+                "          Leaf symptom - classic mottling on <em>Citrus reticulata</em>   (tangerine)  ", 
+                19
+            ], 
+            [
+                "21HLB.jpg", 
+                "          Corky veins on <em>Citrus aurantium</em> (sour orange)   leaf  ", 
+                24
+            ], 
+            [
+                "23HLB.jpg", 
+                "          Leaf symptom - green islands on Citrus sinensis (sweet   orange)  ", 
+                26
+            ], 
+            [
+                "30HLB.jpg", 
+                "          Notching on leaf resulting from the Asian citrus psyllid feeding   damage  ", 
+                30
+            ]
+        ], 
+        "id": 11, 
+        "5": "<p>HLB can infect all citrus cultivars and hybrids and some relatives.  Other Genera in the Rutaceae that can harbor HLB include: <em>Atalantia, Balsamocitrus, Calodendrum, Clausena </em>(Wampi), <em>Fortunella</em> (Kumquat), <em>Microcitrus, Murraya </em>(orange-jessamine),<em> Poncirus</em> (trifoliate-orange), <em>Severinia</em> (Chinese box-orange),<em> Swinglea, Toddalia and Triphasia</em> (trifoliate limeberry).</p>"
+    }, 
+    {
+        "0": "          <p>[Virus] Citrus leprosis virus (CiLV)</p>  ", 
+        "1": "<p>Nailhead rust, nailhead spot, scaly bark, lepra explosiva</p>", 
+        "2": "          <p>Citrus leprosis virus (CiLV) is transmitted by the false spider mites in the   genus <em>Brevipalpus</em> (Acari:   Tenuipalpidae). <em>Brevipalpus</em> mites occur on citrus around   the world but do not alone cause significant damage unless the mite   population is extremely high. Multiple species of   <em>Brevipalpus</em> mites may transmit the virus; however, there has been   misidentification of the mites found in association with the virus.    <em>Brevipalpus obovatus, B. californicus, </em>and a closely related   species of <em>B. phoenicis </em>(which has not been identified at   this point)<em> </em>have been associated with CiLV.  All three   species have been collected from citrus in the United States.  The disease   only spreads when both infected trees and the vector is present. The virus   does not appear to move systemically in the host plant with the exception   of short distances along the mid-vein or secondary veinlets.</p>  <p>All active life stages of the mite are equally able to transmit the virus,   yet there is no transovarial transmission of the virus (virus moving from female   to offspring).  Newly hatched mites must feed on infected plant tissue in   order to acquire the virus.  The virus multiplies in the mites; therefore   the mite may spread the virus throughout its life.</p>  ", 
+        "3": "          <p>Leaf - foliar lesions are shallow but visible on both sides.  Each   lesion is produced in association with the feeding by the mite   vector.  Symptoms appear 1-2 months after inoculation. Typical lesions are   circular with a dark-brown central mite feeding spot. The overall lesion   size may vary from 10-30 mm with the central mite feeding spot ranging 2-3 mm in   diameters.  The feeding spot is surrounded by a chlorotic halo with   1 -3 concentric rings.  Lesions may coalesce to form larger   erratically shaped lesions. Under high temperature conditions the center of   the lesion may crack.     </p>  <p>Fruit - fruit lesions only affect the outer   rind.  Lesions appear as flat or depressed spots 10-20 mm wide with a   necrotic center.  It is common for a single fruit to exhibit up to 30   lesions covering a significant portion of the rind.  Lesions on green fruit   initially appear as yellow circles with a central mite feeding spot. Over time   the lesion becomes brown or blackish, sometimes depressed.  Infected   fruit tend to change color early and become susceptible to various   rots.  CiLV also induces premature fruit drop which greatly reduces yield.   Infected trees may have copious amounts of fruit on the ground. </p>  <p>Stem - on young stems, symptoms appear as   small, chlorotic, shallow lesions that become darker brown or reddish.  On   bark and twigs lesions become corkier as they age and may progress into   conspicuous scaling bark symptom.  Lesions may coalesce which may lead   to girdling of the stem and result in die back.     </p>  ", 
+        "4": "<p>This disease does not occur in the United States.</p>", 
+        "name": "Leprosis", 
+        "7": "          <p>CiLV leaf symptoms may be confused with   measles, pesticide injury or insect damage. CiLV fruit symptoms may be   confused with citrus canker.  On the trunk CiLV bark scaling symptoms can   appear similar to citrus psorosis.  However, the psorosis virus causes wood   staining while CiLV does not.</p>  ", 
+        "gallery": [
+            [
+                "03Leprosis.jpg", 
+                "          Early symptoms on immature fruit  ", 
+                2
+            ], 
+            [
+                "22Leprosis.jpg", 
+                "          Lesions on stem  ", 
+                11
+            ], 
+            [
+                "16Leprosis.jpg", 
+                "          Symptoms on leaf and fruit  ", 
+                26
+            ]
+        ], 
+        "id": 12, 
+        "5": "          <p>Hosts of the Citrus leprosis virus (CiLV) are only known to occur in the   genus <em>Citrus</em>. Recorded hosts include Mexican lime, sour orange, rough   lemon, Persian lime, lemon, citron, mandarins, mandarin hybrids, sweet oranges   and grapefruits.  Sweet oranges and grapefruits are considered the most   susceptible; other listed varieties exhibit various levels of resistance and may   not show conspicuous symptoms.</p>  "
+    }, 
+    {
+        "0": "          <p>[Fungus]<em>  Colletotrichum acutatum </em>J.H. Simmonds.</p>  <p>Lime anthracnose was originally described as <em>Gloeosporium   limetticola </em>Clausen.</p>  ", 
+        "1": "", 
+        "2": "          <p>The epidemiology of this disease has not been completely studied.  Lime   anthracnose survives year to year on dead twigs and in lesions on mature   leaves.  It only infects young tissues following spore dispersal by water   splash.  The constant leaf flushing of key limes together with the large   amount of innoculum that can be produced on these tissues, make lime anthracnose   difficult to control.</p>", 
+        "3": "          <p>Leaf - foliar symptoms are visible as necrotic spots that   may produce a shot-hole effect if the necrotic areas fall out. In   severe infections the leaves and entire young shoots can become totally   blighted and drop. In addition shoot tips may die back and leaf distortion   may occur. </p>  <p>Fruit - infection of young fruit usually results in premature fruit   drop.  Late infections produce lesions that are often large and deep and   accompanied by fruit distortion.</p>  ", 
+        "4": "", 
+        "name": "Lime anthracnose", 
+        "6": "          <p>Lime anthracnose occurs in humid regions of the Americas as well as   Zanzibar (Africa). </p>  ", 
+        "7": "", 
+        "gallery": [
+            [
+                "MVC_081F_Lime_Anthracnose_leaf_and_fruit_lesions_key_lime_Dan_Robl_cs.jpg", 
+                "          Lime anthracnose symptoms.  Shoot die-back and lesions on key   lime leaf and fruit  ", 
+                3
+            ]
+        ], 
+        "id": 13, 
+        "5": "          <p>Key/ Mexican lime (<em>Citrus aurantifolia)</em> is the only known   host.</p>  "
+    }, 
+    {
+        "0": "          <p>[Fungus] <em>Phoma tracheiphila</em> (Petri) Kant. &amp;amp; Gik.   (syn. Deuterophoma tracheiphila Petri)</p>  ", 
+        "1": "<p>\u00e2\u20ac\u0153mal fulminante\u00e2\u20ac\u009d a rapid fatal form that is apparently caused by root or stem infection</p><p>\u00e2\u20ac\u0153mal nero\u00e2\u20ac\u009d referring to internal wood browning</p><p> </p>", 
+        "2": "<p>Conidia are produced in pycnidia found on withered twigs and from hyphae growing on exposed wood or debris, including branches, leaves, and fruits. Most probably the pathogen can also be transmitted to other trees through contaminated pruning tools. Twigs and leaves lying on the soil may be a source of inoculum for infection through wounded roots. Leaves infected by the fungus fall to the ground during autumn and spring, and the fungus within the leaf tissue are able to sporulate at temperatures ranging from 10 to 25\u00c2\u00b0C (55 to 77\u00c2\u00b0F).</p><p>Under natural conditions, the inoculum can be dispersed by wind and rain; <em>P. tracheiphila</em> penetrates the host through wounds via both conidia and mycelium.  Infection usually occurs during the winter. Although the optimum temperature for pathogen growth is about 25\u00c2\u00b0C (77\u00c2\u00b0F), optimum temperature for symptom expression and xylem colonization is 20 to 22\u00c2\u00b0C (68 to 72\u00c2\u00b0F). Infection occurs between 14 and 28\u00c2\u00b0C (57 and 82\u00c2\u00b0F), whereas at temperatures above 28\u00c2\u00b0C (82\u00c2\u00b0F), fungal growth ceases and symptoms are not expressed. A unique characteristic of this fungus is its ability to produce a- sexual spores called phialoconidia. These are spores formed on the mycelium in the plant xylem released into the transpiration flow. When a spore reaches a location where it can germinate it forms new hyphae causing disease.   </p><p> </p>", 
+        "3": "          <p>Typical symptoms include veinal chlorosis, leaf wilt; red   coloration of the xylem and dieback of twigs and branches; in many cases dieback   is sectorial. The pathogen proceeds slowly downward from the infected young   shoots to the branches and main limbs; when the trunk and roots become infected,   the tree dies. When the fungus infects the base of a trunk or the roots, a   phenomenon can occur known as \u00e2\u20ac\u201c mal fulminante. In these cases, the tree usually   dies quickly.</p>  <p> </p>  ", 
+        "4": "", 
+        "name": "Mal secco", 
+        "6": "<p>Mal secco is present in all the citrus producing countries in the Mediterranean and Black Sea areas with the exception of Spain, Portugal, Morocco, and some areas of the Arabian Peninsula. The disease is not known to occur in the citrus-growing countries of the Americas or Oceania, even though there is no obvious climatic or cultural factor limiting the establishment of mal secco disease in non infested areas.</p><p> </p>", 
+        "7": "<p>Citrus blast (<em>Pseudomonas</em> <em>syringae</em> pv. <em>syringae</em>) </p>", 
+        "gallery": [
+            [
+                "Picture1_Mal_secco_symptoms_on_a_Citrus_medica_branch_DE_cs.jpg", 
+                "          Mal secco symptoms on a <em>Citrus medica</em> branch  ", 
+                1
+            ], 
+            [
+                "Picture2_Mal_secco_sectorial_Branch_wilt_of_lemon_tree_in_Israel_DE_cs.jpg", 
+                "          Mal secco sectorial branch wilt of lemon tree  ", 
+                2
+            ]
+        ], 
+        "id": 14, 
+        "5": "          <p>The principal host of mal secco is lemon. The disease is highly   destructive on lemon, and citron (<em>C. medica</em> L.), lime (<em>C.   latifolia</em> Tan.), and bergamot (<em>C. bergamia</em> Risso) also have been   reported to be very susceptible to natural infections. Different degrees of   resistance are shown by other species and hybrids. Sweet orange (<em>C.   sinensis</em> (L.) Osbeck), grapefruit (<em>C. </em><em>paradisi </em>Macf.),   clementine mandarin (<em>C. clementina</em> Hort.), tangerine (<em>C.   reticulate</em> Blanco), and mandarin (<em>C. deliciosa</em> Tenore) are affected   sporadically by the disease and are considered tolerant. Among rootstocks, sour   orange (<em>C. aurantium </em>L.), the most widespread lemon rootstock in Italy,   Greece, and Turkey, rough lemon (<em>C. jambiri </em>Lush.), Volkamer lemon (<em>C.   volkameriana </em>Ten. &amp;amp; Pasq.), and alemow (<em>C. macrophilla </em>Wester)   are very susceptible. Reports on the degree of susceptibility of citrus species   to mal secco are sometimes contradictory, especially for rootstocks. Sour   orange, for example, is considered to be very susceptible in Italy, but only   moderately affected in Israel. It can be stated that almost all citrus species   are susceptible to <em>P. tracheiphila</em> when artificially inoculated by   wounding.</p>  <p> </p>  "
+    }, 
+    {
+        "0": "<p>None - a disorder</p>", 
+        "1": "<p>Citrus measles</p>", 
+        "2": "          <p>Measles can be graft transmitted.</p>  ", 
+        "3": "          <p>Leaf - numerous pale yellow spots on leaves that can be seen on the upper   leaf surface and appear tan to brown on the lower surface.</p>  <p>Whole tree - often a single branch or limb exhibits   symptoms. </p>  <p>It should be noted that: Measles occurs on rare occasions. It tends to only   occur on a few trees in a grove.</p>  ", 
+        "4": "", 
+        "name": "Measles", 
+        "6": "          <p>Measles has occurred in Florida and Brazil.  Larger scale outbreaks have   been reported in Brazil.</p>  ", 
+        "7": "          <p>Citrus varigated chlorosis (CVC), leprosis, and psorosis</p>  ", 
+        "gallery": [
+            [
+                "Measles_Leaf_DSC07083a_HG_cs.jpg", 
+                "          Measles symptoms on leaf  ", 
+                3
+            ]
+        ], 
+        "id": 15, 
+        "5": "          <p>Measles has been observed on multiple sweet orange   varieties.</p>  "
+    }, 
+    {
+        "0": "          <p>[Fungus] <em>Diaporthe citri </em>F.A. Wolf (syn. <em>D. medusaea   </em>Nitschke)</p>  <p> Anamorph <em>Phomopsis citri </em>H. Fawc Non (Sacc.) Traverso and   Spessa</p>  ", 
+        "1": "          <p>Star melanose, mudcake melanose</p>  ", 
+        "2": "<p>Melanose is a saprophyte that completes its lifecycle on dead twigs.  The disease severity is determined by the amount of inoculum on dead wood in the tree canopy and the duration of wetting periods following rainfall or overhead sprinkler irrigation. Around 18-24 hours of wetting are required for infection to occur and severe infection is favored by long periods of continuous wetting.  Spores cause problems when there are significant amounts of dead wood on trees, on the ground or in piles of brush left in the grove.</p>", 
+        "3": "          <p>Leaf - about one week after infection foliar symptoms appear as small brown   discrete spots.  These spots become impregnated with a reddish-brown gum   and are raised above the leaf surface.  Early pustules on leaves   are surrounded by a yellow halo.  However, this halo quickly disappears   leaving only small corky pustules.  The numerous small pustules give   the leaf a rough sandpaper texture.  Distortion and dieback of young shoots   are associated with severe infections.</p>  <p>Fruit - fruit symptoms can vary depending on the age of the fruit at the time   of infection.  Early infections, soon petal fall, will show   relatively large pustules and when in large numbers they may coalesce to form   extensive areas that often crack to produce a pattern described as \"mudcake   melanose\".  Infections during later stages of fruit development produces   small discrete pustules distributed by spore-laden rain or dew which flows over   the fruit surface creating the \"tear-stain melanose\" pattern.  These   injuries to the fruit rind are superficial and are not important if the   crop is processed.  If copper fungicides are applied for control,   stippling, copper fungicide damage, may occur, which can resemble the disease   and is often called star melanose. </p>  ", 
+        "4": "", 
+        "name": "Melanose", 
+        "6": "<p>Present in most citrus producing counties.</p>", 
+        "7": "", 
+        "gallery": [
+            [
+                "Fig4HGMelanoseOnSweetOrangeFruit.jpg", 
+                "          Melanose   on a sweet orange fruit  ", 
+                0
+            ], 
+            [
+                "melanose_on_grpfrttearstrak.jpg", 
+                "          Melanose tear-streak pattern on fruit  ", 
+                2
+            ], 
+            [
+                "MVC_198F_Melanose_on_grapefruit_leaf_star_melanose_Dan_Robl_cs.jpg", 
+                "          Star melanose on grapefruit leaf  ", 
+                14
+            ]
+        ], 
+        "id": 16, 
+        "5": "          <p>All citrus cultivars.</p>  "
+    }, 
+    {
+        "0": "<p>None- a non-infectious disorder</p>", 
+        "1": "", 
+        "2": "", 
+        "3": "<p>Nutrient deficiencies have a wide range of symptoms that will not be fully covered in this key.  Things to look for are how symptoms are distributed throughout the tree and throughout the grove.  Nutrient deficiencies tend to be more uniformly distributed in the tree than the diseases they are commonly confused with.   A nutrient deficiency may express itself on the whole tree level causing twig die-back, long thin branches, yellowing, and reduced or abnormal growth. Nutrient deficiencies may alter fruit characteristics such as shape, hardness, peel thickness, and peel texture. Nutrient deficiencies may manifest on leaves resulting in chlorosis, enlarged or shrunken leaves, raised veins, unusual leaf patterns and changes in leaf coloration. For example, zinc deficiency will appear on new foliage throughout the tree in contrast to early HLB symptoms which are restricted to a single or a few shoots. </p>", 
+        "4": "", 
+        "name": "Nutrient deficiency", 
+        "6": "", 
+        "7": "          <p>Huanglongbing (greening), citrus varigated chlorosis (CVC),   psorosis</p>  ", 
+        "gallery": [
+            [
+                "Zinc_a.jpg", 
+                "          Leaf chlorosis caused by zinc deficiency (most often on young   foliage)  ", 
+                1
+            ], 
+            [
+                "Magnesium_902.jpg", 
+                "          Leaf chlorosis caused by magnesium deficiency  ", 
+                2
+            ], 
+            [
+                "Boron_defic_susp.jpg", 
+                "          Raised veins and discoloration on leaf caused by boron   deficiency  ", 
+                3
+            ], 
+            [
+                "Nitrogen_l.jpg", 
+                "          Whole-leaf chlorosis caused by nitrogen deficiency  ", 
+                4
+            ]
+        ], 
+        "id": 17, 
+        "5": "          <p>All citrus is susceptible to nutrient deficiency.</p>  "
+    }, 
+    {
+        "0": "<p>[Water mold] <em>Phytophthora </em>spp.</p>", 
+        "1": "          <p><em>Phytophthora</em> foot rot, root rot, brown rot, gummosis,   and <em>Phytophthera</em>-<em>Diaprepes</em> (PD) complex</p>  ", 
+        "2": "          <p><em>Phytophthora</em> is a water mold (Class Oomycetes, formerly a   fungus-like protist) that is found throughout the world.  Under   favorable conditions (high moisture and temperature) it produces large numbers   of motile zoospores that can swim in water for short distances.  These   zoospores are the infective agents that may be transported in rain or   irrigation to the roots. When zoospores contact roots they encyst, germinate and   enter the root tip resulting in rot of the entire rootlet.</p>  <p>Foot rot or gummosis occur when zoospores splash onto a wound or bark crack   around the base of the trunk.  Additionally, there is an association of   <em>Phytophthora</em> root rot when roots are damaged by citrus root   weevils, particularly <em>Diaprepes abbreviatus.</em> Root stock susceptibility   depends on which <em>Phytophthora</em> species are present and the presence of   favorable soil, water and environmental   conditions.<em> </em> </p>  ", 
+        "3": "          <p>Leaf - yellow foliage and shoot die-back. If citrus weevils are present   adults may feed on leaves causing notching. </p>  <p>Fruit - reduced fruit size and yield.</p>  <p>Trunk - infection of the trunk by <em>Phytophthora</em> results in dark water   soaked areas in the area of active infection. Lesions usually occur on the bark   or at the bud union. Lesions may exude copious amount of gum and a brown   necrotic area will be found under the bark lesions. Dead bark tends to   break away from the trunk in vertical strips. Lesions may spread around the   circumference of the trunk slowly girdling the tree.</p>  <p>Whole tree - <em>Phytophthora</em>  may result in poor tree health, thin   canopy, failure to make new growth, and little water and nutrient uptake leading   to wilting. When roots are infected the surface of the root becomes soft,   discolored and appears water-soaked. Fibrous roots slough their cortex leaving   only the white thread-like root cylinder.</p>  <p>It should be noted that: <em>Phytophthora</em>  root rot symptoms   progress much more rapidly in the presence of the citrus root   weevil.</p>  ", 
+        "4": "", 
+        "name": "Phytophthora", 
+        "6": "<p><em>Phytophthora</em> spp. are found in citrus producing region around the world.</p>", 
+        "7": "<p><em>Phytophthora</em> bark infection can be easily confused with psorosis. </p>", 
+        "gallery": [
+            [
+                "03Phytophthora.jpg", 
+                "          Gummosis and branch canker on Clementine mandarin tree  ", 
+                2
+            ], 
+            [
+                "04Phytophthora.jpg", 
+                "          Tree symptom - trees of Clementine tangerine killed by <em>Phytophthora</em>   trunk and branch cankers  ", 
+                3
+            ], 
+            [
+                "06Phytophthora.jpg", 
+                "          Extensive <em>Phytophthora</em> foot rot lesion showing bark death and tissue   callusing on a tree  ", 
+                5
+            ]
+        ], 
+        "id": 18, 
+        "5": "<p>Most scion cultivars are susceptible to bark infection, while most root stocks are moderately tolerant to bark infection. In ascending order, Cleopatra mandarin, Sour orange, rough lemon, Rangpur lime, Carrizo, Troyer are tolerant to root rot. Trifoliate, Swingle citrumelo, Yuman and alemow are considered highly resistant to bark infection and tolerant to root rot.  Swingle citrumelo is the most tolerant rootstock.  The presence of <em>Diaprepes</em> root weevils, <em>Phytophthora palmivora</em> and poorly drained soil can render normally tolerant Swingle citrimelo and Carrizo suseptible to <em>Phytophthora </em>root rot infection.</p>"
+    }, 
+    {
+        "0": "<p>[Fungus] <em>Pseudocercospora angolensis</em> (T. Carvalho &amp;amp; O. Mendes) Crous &amp;amp; U. Braun 2003</p><p>Originally <em>Cercospora angolensis</em>, <em>Phaeoisariopsis</em> sp., <em>Pseudo</em> <em>phaeoramularia</em>, <em>Phaeoramularia angolensis</em></p>", 
+        "1": "          <p><em>Phaeoramularia</em> fruit and leaf spot (PFLS), Angular leaf spot of   Citrus</p>  ", 
+        "2": "          <p><em>Pseudocercospora angolensis</em> is a fungus that requires moisture for   infection and the production of wind-borne conidia. Other than by wind, conidia   can be transported on infected fruit or propagative material.  Local   dispersal is primarily by rain-splash or raindrops. Humans mediate in the   dissemination of the fungus through transport of infected plant material and/or   fruits from infected areas. Because leaf lesions produce more conidia than   similar lesions on fruit, it is more likely that they constitute the main source   of infection during disease spread in infected areas.</p>  <p>The fungus probably survives in dormant lesions on infected material until   the onset of conditions is conducive to sporulation.</p>  <p>The disease is favored by prolonged wet weather that stimulates the   production of new susceptible flush.  Lesions produced the previous season   can begin to sporulate within two weeks of the beginning of the rainy season, at   most temperatures in the tropics, and those spores infect the new   tissue.</p>  ", 
+        "3": "          <p>Leaf - the fungus produces circular, mostly solitary spots up to 10 mm in   diameter, which often coalesce. Lesions have light brown or grayish centers   when dormant and are non-sporulating during the dry season, but becoming black   with sporulation after the onset of the rainy season. The lesions are usually   surrounded by a dark brown margin and a prominent yellow halo; occasionally the   centre of the lesions falls out, creating a shot-hole effect. At first glance   the young lesions appear similar to those of canker (caused by <em>Xanthomonas   citri</em> spp.-pv citri) but differ in being flat or shrunken. Leaf spots,   especially on younger leaves, often coalesce and cause generalized chlorosis,   followed by premature abscission and defoliation of the affected tree. Yound   leaves and fruit appear to be more susceptible than older mature leaves, but   whether the leaves or fruit are more affected varies with the hose species,   variety, and location.</p>  <p> </p>  <p>Fruit - the spots are circular to irregular, discrete or coalescent, and   mostly up to 10 mm in diameter. On young fruits, infection often results in   hyperplasia, producing raised tumor-like growths surrounded by a yellow halo;   these develop central necrosis and collapse. Lesions on mature fruit are   normally flat but sometimes have a slightly sunken brown centre. Diseased   fruits ripen prematurely and drop (can be significant) or dry up and remain   on the tree. Infection by the fungus seems to predispose the fruit to secondary   infection by <em>Colletotrichum gloeosporioides;</em> it is common to find a   dark-brown to black sunken margin of anthracnose around the fruit spots.</p>  <p>Stem - stem lesions are not frequent and mostly occur as an extension of   lesions on the petiole. Occurrence of several such lesions at the stem tip   results in dieback; those on other parts of the stem coalesce, become corky, and   crack. At the base of the dead stem, there is usually a profuse growth of   secondary shoots.</p>  ", 
+        "4": "", 
+        "name": "Pseudocercospora fruit and leaf spot", 
+        "6": "          <p>Africa (in the humid tropics), Comoros Islands, and Asia   (Yemen)</p>  ", 
+        "7": "          <p>At an early stage, the lesions caused by <em>Pseudocercospora angolensis</em>   on leaves appear similar to those of citrus canker caused by bacterium   <em>Xanthomonas citri</em> spp. citri (Hasse) Dye. They differ in being   flat or shrunken, rather than raised. Canker lesions on leaves also have a   yellow halo, but are distinguished by a water-soaked margin around the spot, as   are the flat lesions caused by other bacterial pathogens of citrus.</p>  <p>The fungus <em>Guignardia citricarpa</em> Kiely also causes spots on leaves   and/or fruits of citrus in Africa, Asia, Australia, and South America, but leaf   lesions are uncommon.  The lesions of the disease called \"black spot\" may   resemble those produced by <em>P. angolensis</em>, particularly on lemon   leaves.  Small, globose, black fungal pycnidia containing single-celled   colorless spores often are produced in these spots.</p>  ", 
+        "gallery": [
+            [
+                "01Pseudocercospora.jpg", 
+                "          Leaf spots caused by <em>P. angolensis</em> on Marsh Seedless   grapefruit  ", 
+                2
+            ], 
+            [
+                "06Pseudocercospora.jpg", 
+                "          Lesions on orange fruit  ", 
+                3
+            ]
+        ], 
+        "id": 19, 
+        "5": "          <p><em>Citrus</em> spp. (Rutaceae); the disease has been observed on all citrus   species, including grapefruit, lemon, lime, orange, pummelo, and mandarin.    Grapefruit, orange, pummelo, and mandarin are very susceptible, lemon is less   susceptible, and lime is the least susceptible.</p>  "
+    }, 
+    {
+        "0": "<p>[Virus] Citrus psorosis virus (CPsV); Type species of <em>Ophiovirus</em> genus</p><p>There are several strains of CPsV, some induce severe symptoms, and others are mild.</p>", 
+        "1": "          <p>Scaly bark, ringspot, citrus psorosis complex, CPsV-A,   CPsV-B</p>  ", 
+        "2": "          <p>Psorosis is transmitted by grafting. There is some evidence of natural   spread, possibly by <em>Olpidium brassicae</em> which transmits other   ophioviruses, or by an aerial vector. The incidence of psorosis has been   reduced in many areas by using budwood certification programs.</p>  ", 
+        "3": "          <p>Leaf - foliar symptoms have a wide range and are best seen on young leaves   nearing full expansion. Symptoms include chlorotic flecks that are   irregularly distributed, leaf mottling, and round chlorotic spots. Symptoms may   fade as leaves mature.</p>  <p>Fruit - fruit may have ring shaped chlorotic patterns.</p>  <p>Whole tree- the most distinguishable symptom of psorosis is the scaling and   flaking of the bark on the trunk and limbs. In the early stages this shows   as small pimples or bubbles that later enlarge and break up into loose   scales. Wood becomes impregnated with gum and is stained. Psorosis B   caused bark lesions that are rampant and expand rapidly sloughing off large   strips of bark.</p>  ", 
+        "4": "", 
+        "name": "Psorosis", 
+        "6": "<p>Psorosis is found throughout the citrus producing world.</p>", 
+        "7": "          <p>On the trunk citrus leprosis bark   scaling symptoms can appear similar to citrus psorosis.  However, the   psorosis virus causes wood staining while citrus leprosis  does   not.</p>  ", 
+        "gallery": [
+            [
+                "4_CRSVfruitpsorisis.jpg", 
+                "          Ring-shaped chlorotic patterns on psorosis-infected fruit  ", 
+                1
+            ], 
+            [
+                "Psorosis_Leaf_Stephen_M._Garnsey_USDA_ARS_South_Atlantlic_Area_Bugwood.org_cs.jpg", 
+                "          Leaf symptoms - naturally spread psorosis on foliage (Citrus   ringspot).<br />  ", 
+                4
+            ], 
+            [
+                "Psorosis_Trunk_Stephen_M._Garnsey_USDA_ARS_South_Atlantlic_Area_Bugwood.org_cs.jpg", 
+                "          Severe bark scaling typically associated with citrus ringspot and some forms   of psorosis. <em>Citrus sinensis</em> tree infected with \"naturally spread\"   psorosis  ", 
+                8
+            ], 
+            [
+                "Psorosis_Staining_of_interior_wood1_CNR_cs.jpg", 
+                "          A specimen of wood staining (branch) symptomatic of psorosis-A observed at   Bella Vista, Argentina.  Courtesy EcoPort (http://www.ecoport.org), Roistacher   CN  ", 
+                11
+            ]
+        ], 
+        "id": 20, 
+        "5": "<p>Psorosis affects most citrus species and their hybrids. Sweet orange, grapefruit and tangerines are severely affected.</p>"
+    }, 
+    {
+        "0": "          <p>[Fungus] <em>Septoria citri </em>Pass.</p>  ", 
+        "1": "<p>Septoria spot</p>", 
+        "2": "          <p>Septoria has saprophytic capabilities and pycnidia often form on dead   twigs and leaves.  Conidia from these pycnidia are spread by splashing   water and may infect leaves and fruit.  However, symptoms may not result   for up to six months after infection. </p>  ", 
+        "3": "          <p>Leaf - foliar lesions are blister-like, raised, black and 1-4 mm in   diameter. Over time the center of the lesions become necrotic and pale   brown. Pycnidia develop in the lesions especially following leaf drop when   the lesion turns dark brown with dark margins. When conditions are   favorable, the disease may cause severe leaf drop in the lower portion of the   tree.</p>  <p>Fruit - early fruit lesions are small light   tan to reddish brown pits 1-2 mm in diameter that extend no deeper than the   flavedo. Older lesions are darker sunken 20-30 mm in diameter. Dark   fruiting bodies, pycnidia, may develop in these lesions. Lesions may appear   in the form of \"tear stains\" patterns.  Spots are more evident on ripe   fruit. </p>  ", 
+        "4": "", 
+        "name": "Septoria", 
+        "6": "<p>This disease has been reported from most citrus producing areas throughout the world.</p>", 
+        "7": "", 
+        "gallery": [
+            [
+                "Septoria_JimAdaskaveg_Category_1_cs.jpg", 
+                "          Ice-mark and early symptoms of septoria spot on fruit.  Photos by Jim   Adaskaveg, UCR  ", 
+                1
+            ], 
+            [
+                "Septoria_JimAdaskaveg_Category_1_and_2_cs.jpg", 
+                "          Ice-mark and early and advanced symptoms of septoria spot on fruit.    Photos by Jim Adaskaveg, UCR  ", 
+                2
+            ], 
+            [
+                "Septoria_JimAdaskaveg_Category_2_cs.jpg", 
+                "          Advanced symptoms of septoria spot on fruit.  Photos by Jim Adaskaveg,   UCR  ", 
+                3
+            ]
+        ], 
+        "id": 21, 
+        "5": "<p>All citrus cultivar are susceptible.  However, Valencia oranges, Navel oranges, lemons and grapefruit are frequently damaged. </p>"
+    }, 
+    {
+        "0": "<p>[Fungus] <em>Elsinoe australis </em>Bitancourt and Jenk.</p><p>Anamorph <em>Sphaceloma australis </em>Bitancourt and Jenk.</p>", 
+        "1": "", 
+        "2": "          <p>Sweet orange scab forms spores on the surface of the scab   pustules. This species of scab attacks mainly fruits. The conidia   (asexual spores) are similar to those of <em>E. fawcettii</em>,<em> </em>require moisture for   spore production<em> </em>and are primarily spread by splashing   rain. Fruits are susceptible for 6 to 8 weeks after petal fall. The role of   ascospores (sexual spores) is   uncertain.<em> </em> </p>  ", 
+        "3": "          <p>Sweet orange scab does not usually form lesions on leaves or twigs in   contrast to the more common Citrus scab.</p>  <p>Fruit-  the rinds of young fruit display relatively large flat or   warty outgrowths (windscar) which vary in color from a light pink to a   grayish-brown with age. Sweet orange scab lesions are flatter than   those produced by <em>E. fawcettii </em>(Citrus   scab)<em>. </em> </p>  ", 
+        "4": "", 
+        "name": "Sweet orange scab", 
+        "6": "<p>Rio Grande Valley-Texas, Arizona, Florida, Brazil, Argentina, Bolivia, and Uruguay.</p>", 
+        "7": "          <p>Citrus scab (<em>Elsinoe fawcettii</em>)</p>  ", 
+        "gallery": [
+            [
+                "sweetorangescabonvalencia2.jpg", 
+                "          Sweet orange scab on Valencia fruit  ", 
+                1
+            ], 
+            [
+                "Elsinoe_australis_Citrus_paradisi_Positive_and_Negative_lesions_cs.jpg", 
+                "          Lesions on fruit of <em>Citrus paradisi</em>, positive and   negative  ", 
+                7
+            ], 
+            [
+                "Elsinoe_australis_Fortunella_sp_Leaves_Positive_cs.jpg", 
+                "          Leaf lesions on <em>Fortunella</em> leaves  ", 
+                24
+            ]
+        ], 
+        "id": 22, 
+        "5": "<p>Grapefruit, sweet orange, lemon, and tangerine cultivars.</p>"
+    }, 
+    {
+        "0": "<p>[Virus] Citrus tristeza virus (CTV) (family Closteroviridae) (genus <em>Closterovirus</em>)</p>", 
+        "1": "          <p>Tristeza, quick decline (QD)</p>  ", 
+        "2": "          <p>Tristeza is vectored by several species of aphid the most efficient being the   brown citrus aphid <em>Toxoptera citricida </em>(Kirklady). Where <em>T.   citricida</em> does occur, <em>Aphis gossypii</em> (Glover), the cotton/melon   aphid, is the primary vector. The aphid can acquire the virus after feeding   on infected plants for 5-60 minutes; but loses the ability to transmit the   virus after 24 hours. CTV is also graft-transmitted, but not transmitted through   seed. The virus exists in many forms known as strains that vary in the type   and severity of symptoms manifested in host plants. Some strains are mild   and produce no noticeable symptoms however; other strains are severe causing   decline and death of the tree or deep pits in the trunk and stem. CTV is   phloem-limited and the largest of the known plant viruses.    </p>  ", 
+        "3": "          <p>There are three distinct syndromes of CTV infection: quick decline, stem   pitting, and seedling yellows. The most notorious is quick decline (QD) and   is associated with the name Tristeza. It is a three-component malady   consisting of a sweet orange variety used as a scion grafted onto sour orange   rootstock and infected with a quick decline strain of CTV. In this case,   the virus affects the cambium layer right below the bud union and prevents the   normal development of cambium cells (that mature into xylem and phloem   cells). As a result, the flow of photosynthetic products from the upper   portions of the tree down to the roots and water and nutrients adsorbed by the   roots and transported up the tree are blocked. The decline may not occur   for several years, or it may occur rapidly after a heat and/or water stress   event, leaving fruit shriveled on the tree and leaves brown and   dehydrated. When the decline is slow, often a bulge occurs above the bud   union when a window is cut in the bark (inner flap).</p>  <p>Severe strains of CTV cause symptoms such as stem pitting (SP) and seedling   yellows (SY), regardless of the rootstock. Grapefruit varieties are most   susceptible to stem pitting strains, but these strains can be severe for many   other citrus varieties. When the bark is peeled away, pits in the wood can   be observed ranging from short and narrow to elongated and deep; gum is   sometimes associated with the pits. Trunks may be so severely impacted that they   have a ropey appearance. Severely affected trees are chlorotic, stunted,   and generally have a low yield of poor quality fruit. <em>Citrus   macrophylla</em> or alemow is most susceptible to SP strains.</p>  <p>Seedling yellows (SY) is typically not seen in field situations with the   exception of topworking SY-infected trees with grapefruit or lemon   budwood. It affects primarily young seedlings, and nursery workers rogue   out affected plants. The SY reaction is frequently used to describe field   collected isolates of the virus in bio-characterization experiments performed   under controlled greenhouse conditions. A severe strain often causes the SY   symptom in sour orange, grapefruit and lemon host indicator plants.</p>  <p>Leaf - chlorotic leaf flecking, vein clearing, leaf cupping, corking of   leaf veins, and stem pitting.</p>  <p>Fruit - reduced fruit size.</p>  <p>Whole tree- the symptoms are similar to root injury. These symptoms   include thinning of foliage, twig dieback, retardation of growth and possibly   tree collapse. </p>  <p>Trunk - inside of the bark a honeycomb or stem pitting appearance can be   detected with the unaided eye. In the trunks and limbs of larger trees,   there sometimes is a bumpy or ropy appearance caused by the   pitting.</p>  ", 
+        "4": "", 
+        "name": "Tristeza", 
+        "6": "          <p>CTV occurs in every citrus producing area throughout the world; however not   all have severe isolates. The virus primarily spreads by the sharing of   infected budwood. Most countries counteract with activity by the   implementation of budwood certification programs which include the testing of   budwood for graft-transmissible pathogens, budwood-clean-up through thermal   therapy and shoot-tip grafting, and distribution through certified   nurseries.  </p>  ", 
+        "7": "", 
+        "gallery": [
+            [
+                "10_StemPittingtrestesia_Grapefruit.jpg", 
+                "          Stem-pitting on grapefruit symptomatic of tristeza   ", 
+                2
+            ], 
+            [
+                "1336_Ecoport_Tristeza_Leaves_Roistacher_CN_cs.jpg", 
+                "          Vein-clearing symptoms in the leaf of a Mexican lime seedling (right) as   viewed from the back of the leaf into direct sunlight. The control leaf is on   the left.  Courtesy EcoPort (http://www.ecoport.org)", 
+                10
+            ], 
+            [
+                "14378_Ecoport_Tristeza_fruit_size_Roistacher_CN_cs.jpg", 
+                "          Fruit in top row is from an uninfected tree, fruit in bottom row was   collected from a tree showing stem pitting. Star Ruby trees on rough lemon   rootstock.  Courtesy EcoPort (http://www.ecoport.org), ", 
+                20
+            ], 
+            [
+                "20_honeycombfromctv.jpg", 
+                "          Honeycomb pattern of stem pitting symptomatic of tristeza  ", 
+                1
+            ], 
+            [
+                "8_Tristeza_Leaf_Flecking.jpg", 
+                "        Chlorotic leaf flecking symptoms of tristeza  ", 
+                7
+            ], 
+            [
+                "Tristeza_Lindsay_QD_3_Aug_09_MLP_Rick_Dunn_cs.jpg", 
+                "          Tree symptom - quick decline  ", 
+                14
+            ], 
+            [
+                "Tristeza_Lindsay_Quick_Decline_2_Aug_09_MLP_Rick_Dunn_cs.jpg", 
+                "          Tree symptom - Trees in decline along side healthy   trees  ", 
+                13
+            ], 
+            [
+                "Tristeza_Photo_3_trunk_SP_MLP_cs.jpg", 
+                "          Stem Pitting on trunk  ", 
+                16
+            ], 
+            [
+                "Tristeza_Seedling_Yellow_crop_MLP_cs.jpg", 
+                "          Leaf symptoms - Seedling Yellows  ", 
+                6
+            ]
+        ], 
+        "id": 23, 
+        "5": "          <p>The host range of this pathogen is very complex as it varies with rootstock   and scion combinations, CTV strain, and environmental conditions. In   general, the tristeza virus infects almost all species, cultivars and hybrids of   <em>Citrus</em> in addition to other genera in the Rutaceae such as   <em>Aegle</em>, <em>Microcitrus</em>, and <em>Passiflora</em>. Some pummelo   genotypes and <em>Poncirus trifoliata</em> are resistant to most   isolates. Most trifoliate orange clones and their hybrids are tolerant to   most isolates and are widely used as rootstocks. Sour orange and alemow are   highly susceptible. Mandarins are typically tolerant.</p>  "
+    }
+]

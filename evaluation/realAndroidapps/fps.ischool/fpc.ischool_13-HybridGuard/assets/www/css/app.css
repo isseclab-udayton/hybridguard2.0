@@ -1,0 +1,863 @@
+*{
+	font-family: Arial,Helvetica !important;
+} 
+a, a:link, a:active, a:visited {
+/*	color: #000 !important; */
+	text-decoration: none !important;
+}
+body.ui-overlay-c{
+	background-color:#E0E0E0;
+}
+p{
+	margin:0;
+}
+select {
+	font-size:14px;
+
+}
+input,textarea{
+	background-color:#FFF !important;
+}
+.ui-input-search input{
+	background-color:transparent !important;
+}
+
+.ui-link{
+color: #2F3E46  !important;
+}
+/* PARA EVITAR EL FLICKERING AL CAMBIAR DE PAGINA LA PRIMERA VEZ, con android esto no funciona */
+.ui-page {
+   /* -webkit-backface-visibility: hidden; Lo comento porque en Android 
+   provoca que no funcionen los select y los textarea bien. Julio (29-06-2012) */
+   
+}
+.ui-select{
+	margin: 0.25em 0 !important;
+	padding-right: 0.4em !important;
+}
+.content-oracle{
+	display:none;
+}
+.content-oracle a, .text_politica a, #eventdetail .item_info a{
+	color: #73273E !important;
+}
+
+#loading{
+	width:100%;
+	height:100%;	
+	position:absolute; 
+	display:none;
+	z-index:100;
+	top:48%;
+}
+#loading img{
+	margin:0 auto; 
+	display:block
+}
+
+.ui-body-c, .ui-dialog.ui-overlay-c,#eventdetail .ui-content { /* añado en evendetail el fondo también sino hace una linea blanca abajo cuando escondo el footer */ 
+	background: -moz-linear-gradient(#ededed, #e0e0e0);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#e0e0e0));
+    background: -webkit-linear-gradient(top, #ededed, #e0e0e0);  
+    background:     -ms-linear-gradient(top, #ededed, #e0e0e0);
+    background:      -o-linear-gradient(top, #ededed, #e0e0e0);
+}
+
+/*barra superior*/
+.ui-bar-a {
+   background: -moz-linear-gradient(top,#F2A3B8, #520319);
+   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F2A3B8), to(#520319));
+   background: -webkit-linear-gradient(top, #F2A3B8, #520319);  
+   background:     -ms-linear-gradient(top, #F2A3B8, #520319);
+   background:      -o-linear-gradient(top, #F2A3B8, #520319);
+}
+/*botones*/
+/*.ui-btn-inner {
+   background: -moz-linear-gradient(top,#9a5c6b, #4c0c1c);
+   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9a5c6b), to(#4c0c1c));
+   background: -webkit-linear-gradient(top, #9a5c6b, #4c0c1c);  
+   background:     -ms-linear-gradient(top, #9a5c6b, #4c0c1c);
+   background:      -o-linear-gradient(top, #9a5c6b, #4c0c1c);
+}*/
+
+
+/*homeLogo*/
+#home
+#homeLogo {
+	padding-top:60px;
+	margin: 0 auto ;
+	width: 260px;	
+}
+/*Home Icons*/
+.homeIcon{
+	display: block;
+    height: 57px;
+    width: 75px;
+    margin: 20px auto 10px;   
+    background-repeat: no-repeat;   
+}
+#catalogIcon{
+	background-image: url("../img/home_catalog.png");   
+}
+#eventsIcon{
+	background-image: url("../img/home_events.png");   
+}
+#newsIcon{
+	background-image: url("../img/home_news.png");   
+}
+#preferencesIcon{
+	background-image: url("../img/home_preferences.png");   
+}
+#presenceIcon{
+	background-image: url("../img/home_presence.png");   
+}
+.presenceIconOff{
+	background-image: url("../img/home_presence_off.png") !important;   
+}
+#campusIcon{
+	background-image: url("../img/home_campus.png");   
+}
+.campusIconOff{
+	background-image: url("../img/home_campus_off.png") !important;   
+}
+.labelOff{
+	color: #adadad;
+}
+#emotivaValidacionsIcon{
+	background-image: url("../img/home_emotiva_validacions.png");   
+}
+#emotivaIcon{
+	background-image: url("../img/home_emotiva.png");   
+}
+.ui-navbar{
+	margin:0 !important;
+}
+#whereIcon{
+	background-image: url("../img/home_where.png");   
+}
+
+.ui-block-a,.ui-block-b,.ui-block-c{
+	text-align:center;
+
+}
+#home{
+	position:relative;
+}
+#page2{
+	position:absolute; 
+	width:100%;
+	margin:13px 0 0 10px;
+	padding:0;
+	display: none; 	
+	height: 215px; /* lo pongo a mano sino hace scroll*/
+}
+#slider_container{
+	text-align: center;
+	width:100%;
+	position: absolute;
+	bottom:20px;
+}
+#slider_navigator{	
+   
+    padding:0;
+    margin: 0 auto;
+    width:50px;
+    bottom: 20px; 
+    list-style: none;
+}
+#slider_navigator li {
+    margin: 0 4px;
+    width: 8px;
+    height: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background: rgba(115, 114, 118, 0.5);
+    float: left;
+}
+
+#slider_navigator li.current {
+	background:  #FFF;
+}
+
+/*barra notificaciones*/
+#notificationsfooter{
+	background: -moz-linear-gradient(#3c3c3c, #101010);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3c3c3c), to(#101010));
+    background: -webkit-linear-gradient(top, #3c3c3c, #101010);  
+    background:     -ms-linear-gradient(top, #3c3c3c, #101010);
+    background:      -o-linear-gradient(top, #3c3c3c, #101010);
+}
+
+div.message {
+    text-align:center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.errorbg, .errorbg .ui-btn-inner {
+    background:none !important; 
+    border:1px solid #F0B3C2 !important; 
+    background-color:#FFBFCB !important; 
+}
+
+.question_info {
+    display:none;
+}
+.img_rss{
+	width:100%;
+}
+.cabecera_destacat{	
+	font-weight: bold;
+	margin-bottom:30px;
+}
+.label_popup , .login_error_message,.login_success_message, .solinfo_text{
+ 	font-size: 14px;
+ 	display:block; 	
+}
+.login_error_message{
+	color: #FF0000;
+	display:none;
+}
+.login_success_message{
+	color: #3b7739;
+	display:none;
+}
+.ui-icon-myapp-home {
+	background-image: url("../img/homebtn.png");
+}
+#qrcode_container{
+ 	width:260px;	
+	margin: 0 auto;
+}
+/* CONTENIDOS COMUNES */
+.ui-footer, .fake_footer{
+	position:fixed;
+	z-index:10;
+	bottom:0;
+	width:100%
+}
+.ui-header{
+	position:fixed;
+	z-index:10;
+	top:0;
+	width:100%
+}
+.ui-content{	
+	/*padding-top:58px !important;
+	padding-bottom:70px !important;*/
+	margin-top:43px;		
+	margin-bottom:-45px;
+	padding-bottom:10px;
+	height:100%;		
+}
+#content_all_rss{ /* en este content el margin bottom es menor*/		
+	height:100%;
+}
+.no_scroll .ui-content{ /* paginas con un contenido sin scroll */	
+	padding-top:58px !important;
+	padding-bottom:70px !important;
+	margin:0;		
+}
+.content_text{
+/*	padding-top:43px !important;*/
+}
+/* EN LA HOME NO SE HACE PORQUE ESTÁ EL LOGO */
+#home .ui-content{
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+	margin:0;
+}
+#home .content_no_logo{
+	padding-top:43px !important;
+	padding-bottom:0 !important;
+}
+/* DIALOGOS*/
+.ui-dialog .ui-content{
+	padding:15px !important;
+	margin:0 !important;
+}
+.ui-dialog-contain{
+	width: 300px;
+}
+.ui-dialog .ui-title{
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+}
+.ui-dialog .ui-header .ui-btn{ /* escondo boton de cerrar de dialogos */
+	display:none;
+}
+#catalogcoursedetail .ui-content{	
+	display:none; 
+}
+h1.title{
+	color: #73273E;
+	font-size: 1.3em;
+	margin:0;
+	text-transform:Uppercase;
+	letter-spacing:-1px;
+	font-weight: bold;  
+}
+h2.subtitle{	
+	font-size: 1em;
+    font-weight: bold;
+    margin:0;
+    color: #000000;
+    letter-spacing:-1px;
+}
+h3.subtitle_in{	
+	font-size: 1.1em;
+    font-weight: bold;
+    margin:10px 0;    
+    color:#73273E;
+    text-transform:Uppercase;
+    letter-spacing:-1px;
+}
+.item_info{
+	font-size:0.95em;
+	line-height:1.3em;
+}
+.button_destacat .ui-btn-inner {
+	background-color:#70d436;
+	border-color:#308506;	
+	font-weight: bold;
+}
+.button_destacat .ui-btn-text{
+	font-weight: bold;
+	font-size:1.1em;
+}
+.button_destacat{
+	border-color:#308506 !important;    
+}
+.ui-btn-corner-all {
+    border-radius: 0.4em 0.4em 0.4em 0.4em;
+}
+.ui-slider,.ui-slider .ui-btn-corner-all{
+border-radius: 1em;
+}
+.ui-slider-switch { width: 4.5em !important; }
+
+/* COURSE INFO */
+.content_course{
+	display:none !important;
+}
+.courseImage, 
+.rssdetailImage {
+	overflow: hidden;
+	width:100%;
+	
+	margin-bottom:15px;
+	margin-top:20px;
+	border-radius: 0.8em;
+}
+.courseImage img, 
+.rssdetailImage img {
+	width:120%;	/* esto tiene que añadir al 100% lo que le quito de margen izquierdo y derecho*/
+	margin: -2% -10% -4% -10%;
+}
+.headerImage{
+	margin-bottom:15px;
+	/*margin-top:20px;*/	
+}
+.headerImage img{
+	width:100%;	
+	border-radius: 0.8em;
+}
+
+table.minimal{
+	 border-collapse: separate;
+    border-spacing: 2px 0;
+    width: 100%;
+    margin-bottom:10px;  
+}
+table.minimal tbody th {
+    background: none repeat scroll 0 0 #d7d7d7;
+    border-bottom: 1px solid #CCCCCC !important;
+    color: #666666;
+    font-weight: bold;
+      font-size:0.95em;
+     width:100px;      
+}
+table.minimal td, table.minimal th {
+    border-top: 1px solid #CCCCCC;
+    margin-right: 1em;
+    padding: 0.25em;
+    text-align: left;
+}
+table.minimal td{
+	background-color:#E1DFDF;
+}
+div.places_exhaurides{
+ 	background-color: #E2E3E5;
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: bold;    
+    padding: 8px;
+    float:right;    
+    text-align: center;    
+    display:none;
+}
+div.text_proxima_edicio{
+ 	  background-color: #d7d7d7;
+    border-radius: 15px;
+    color: #000000;
+    font-size: 1em;
+    font-weight: bold;      
+    display:none;
+    padding:12px;
+}
+a.custom_button{
+	margin:7px !important;
+	margin:7px auto !important;
+	border-radius: 0.4em;			    
+    color: #FFF !important;
+    display: inline-block !important;
+}
+#button_solinfo,#button_comentari{		
+    width: 230px;    
+}
+#content_add_calendar{
+	 display:none;
+}
+#button_add_calendar{		
+    width: 280px;     
+}
+#button_nou_eticket{
+	 width: 150px;  
+}
+#reobrir_button{
+	width: 150px;  
+}
+.custom_button_name{
+	vertical-align:middle;
+	font-size:17px;
+}
+.custom_button_img{		
+	vertical-align:middle;
+	margin-right:10px;	
+}
+/* SOLINFO */
+div.prefix{
+	width:65px; float:left
+}
+div.prefix input{
+	width:60px; 
+	margin:0 !important;
+	background-color:transparent !important;	
+}
+div.telefon{
+	margin-left:65px;
+}
+.proteccio_dades{
+	font-size:12px;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:5px;
+	background-color:#e1dfdf;
+}
+.privacitat{margin-top:10px;}
+.label_slider{
+	font-size:14px;
+	vertical-align:middle;
+	padding-bottom: 14px;
+	display: inline-block;
+}
+#afegir_calendari_vull_assistir{
+	display:none;
+}
+#not_empty_party_id_assistir{
+	display:none;
+}
+
+  /* disable shadows for better android performance */
+  .ui-body-a,
+  .ui-bar-a,
+  .ui-btn-up-a,
+  .ui-btn-hover-a,
+  .ui-btn-down-a,
+
+  .ui-body-b,
+  .ui-bar-b,
+  .ui-btn-up-b,
+  .ui-btn-hover-b,
+  .ui-btn-down-b,
+
+  .ui-body-c,
+  .ui-bar-c,
+  .ui-btn-up-c,
+  .ui-btn-hover-c,
+  .ui-btn-down-c,
+
+  .ui-body-d,
+  .ui-bar-d,
+  .ui-btn-up-d,
+  .ui-btn-hover-d,
+  .ui-btn-down-d,
+
+  .ui-body-e,
+  .ui-bar-e,
+  .ui-btn-up-e,
+  .ui-btn-hover-e,
+  .ui-btn-down-e,
+
+  .ui-shadow-inset,
+  .ui-icon-shadow,
+  .ui-focus,
+  .ui-overlay-shadow,
+  .ui-shadow,
+  .ui-btn-active,
+  * {
+      text-shadow: none !important;
+      box-shadow: none !important;
+      -moz-box-shadow: none !important;
+      -webkit-box-shadow: none !important;
+  }
+  /* CAMPUS */
+  #campus .ui-content{
+  padding-top:38px !important;
+  padding-left:0 !important;
+  padding-right:0 !important;
+  height:100% !important;  
+ }
+  #campus_iframe{
+  	padding:0;
+  	margin:0;
+  	height:100%;
+  	width:100%;
+  }
+
+
+/* MAPA*/
+#where .ui-content,#where_ride .ui-content{
+	padding-top:43px !important;	
+}
+#contentMap h1{
+	margin:0;
+	font-size:15px;
+}
+#contentMap p{
+	font-size:13px;
+}
+
+#popupLogin, #popupLogout,#solinfo_popup{
+	display:none;
+}
+/* LISTADO DE AREAS */
+.collapsible{
+	position:relative;
+}
+.ui-li-thumb, .ui-li-icon {
+    left: 5px;
+    max-height: 50px; 
+    max-width: 50px;
+    position: absolute;
+    top: 5px;
+}
+#catalogarea .ui-li-thumb{
+	border-radius: 0.4em !important;
+}
+.ui-li-has-thumb .ui-btn-inner a.ui-link-inherit{
+	min-height: 37px !important;
+	padding-left: 65px !important;
+}
+.ui-li-thumb-area
+{
+	margin-left: -60px;
+	margin-top: -21px;	
+}
+.ui-collapsible-set{
+	margin:-15px;
+	padding:0;
+}
+.ui-collapsible-heading-toggle {
+	height:60px !important;
+}
+.ui-collapsible-heading-toggle .ui-btn-inner{	
+	padding-top: 20px !important;
+	padding-left: 67px !important;
+	padding-bottom:0 !important;
+	height: 40px !important;
+}
+.ui-collapsible-heading-toggle .ui-btn-inner .ui-icon{
+	display:none; /* escondo el simbolo de + - */
+}
+.ui-collapsible-content{
+	height:153px !important;
+}
+#catalogarea .ui-btn-icon-right .ui-btn-inner .ui-icon{
+	margin-right: 5px !important;
+}
+
+.ui-collapsible-content .ui-btn-up-c {
+/*	background-image: -moz-linear-gradient(#ededed, #e0e0e0);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#e0e0e0));
+    background-image: -webkit-linear-gradient(top, #ededed, #e0e0e0);  
+    background-image:     -ms-linear-gradient(top, #ededed, #e0e0e0);
+    background-image:      -o-linear-gradient(top, #ededed, #e0e0e0);*/	
+}
+.ui-collapsible-content .ui-btn-down-c {
+	/*background-image: -moz-linear-gradient(#d0d0d0, #dfdfdf);
+	background-image: -webkithttp://ischool.fundacioupc.com/#rssdetail-gradient(linear, 0% 0%, 0% 100%, from(#bbb9b9), to(#c9c8c8));
+    background-image: -webkit-linear-gradient(top, #bbb9b9, #c9c8c8);  
+    background-image:     -ms-linear-gradient(top, #bbb9b9, #c9c8c8);
+    background-image:      -o-linear-gradient(top, #bbb9b9, #c9c8c8);	
+ */   
+}
+
+.ui-collapsible-heading .ui-btn-inner{	
+/*	margin:10px 5px!important;*/	
+}
+.catalogtypelink{
+	padding-left:67px !important;
+}
+div.img_youtube{ 	
+ 	width:120px;	
+	height: 90px;
+	margin: 0 auto;
+	position: relative;
+}
+div.img_youtube img {
+	left: 45px;
+	position: absolute;
+	top: 32px;
+}
+div.img_youtube_ipad{ 	
+ 	width:480px;	
+	height: 360px;
+	margin: 0 auto;
+	position: relative;
+}
+div.img_youtube_ipad img {
+	left: 217px;
+	position: absolute;
+	top:161px;
+}
+div.youtube_container{ 	
+ 	width:250px;		
+	margin: 0 auto;
+	position: relative;
+}
+/* thumbs eventos */
+.rssThumb {
+	/*position:absolute;*/
+	float:left;
+	width:50px !important;
+	height:50px !important;
+	overflow: hidden !important;	
+	border-radius: 0.4em !important;
+	margin-top:-16px !important;
+	margin-left:-60px !important;
+	background-color:#CACACB;
+}
+.rssThumb img {
+	height:60px;	
+	margin: -10% 0% 0% -20%;	
+}
+#rsscontent li{
+	height:60px !important;
+}
+#rsscontent .newsitemlink{
+	padding-left:65px !important;
+	padding-top:20px !important;
+}
+#description p, .content_text p 
+{
+	margin-top:10px;
+}
+ #rssdetail .ui-content{
+ 	padding:0;
+ 	overflow-x: hidden;
+ }
+ #rssdetail .content_page{
+	display: none;
+	pading:0;
+	margin:0;	
+	position:relative;	
+	width:100%;	
+	/*
+	position:absolute;
+	padding-left:20px;
+ 	padding-right:20px;
+ 	padding-bottom:60px;*/
+ 	background: -moz-linear-gradient(#ededed, #e0e0e0);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#e0e0e0));
+    background: -webkit-linear-gradient(top, #ededed, #e0e0e0);  
+    background:     -ms-linear-gradient(top, #ededed, #e0e0e0);
+    background:      -o-linear-gradient(top, #ededed, #e0e0e0);
+}
+#rssdetail .content_page .content_page_padding{
+	padding-top:15px;
+	padding-left:20px;
+ 	padding-right:20px;
+ 	padding-bottom:60px;
+}
+.footer_custom_buttons{
+	padding-left:0;
+	padding-right:0;
+}
+.footer_custom_buttons div.left{
+	left:0;
+	margin-left:20px;
+	display:none;
+	margin-top:7px;
+	position:absolute;
+	z-index:10;
+}
+
+.footer_custom_buttons div.right{
+	right:0;
+	margin-right:20px;
+	display:none;
+	margin-top:7px;
+	position:absolute;
+	z-index:10;
+}
+#footer_news{
+	height:40px;
+}
+
+#footer_news .share_box{
+	position:absolute; 
+	width:100%;
+}
+#footer_news .share_box div{
+	text-align:center; 
+	float:none;
+}
+
+#footer_news .share_box div a{
+	margin:0 !important;
+}
+
+#eventdetail table.minimal{
+	margin-top:20px;
+}
+.my_list_divide{font-size:16px !important;}
+.list_divider_events{
+	display:none;
+	font-size:16px !important;
+}
+span.list_info_small{
+	font-size:13px !important;
+}
+
+
+#preferences .section{
+	display:block;
+	margin-bottom:5px;
+	
+}
+#preferences .fake_footer{
+	position: absolute;
+	bottom:0;
+	padding:5px 0;
+	font-size:13px;
+	text-align:center;
+	width: 100%;
+	margin-left: -15px;
+}
+#preferences #language_selector .ui-btn-inner{
+	padding-left:10px !important; 
+	padding-right:10px !important;
+}
+
+#button_share_android{
+ width:45px;
+}
+#button_share_android .custom_button_img,#button_share_ios .custom_button_img,#button_emotiva .custom_button_img{
+	margin-right:0;
+}
+#files{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#hores, #minuts{
+	width:50px; 
+	display:inline-block;
+}
+#minuts{
+	margin-left:15px;
+}
+.urgent_list a{	
+	padding-left:35px !important;
+}
+li.soc_propietari{
+	background: linear-gradient(#999999, #909999) repeat scroll 0 0 #999;
+}
+li.soc_propietari a.validacioitemlink{
+	color:#FFF;
+}
+li.te_propietari a.validacioitemlink{
+	color:#B3B3B3;
+}
+
+span.emotiva_wifi{
+	display:inline-block;
+	width:100px;
+	font-weight:bold;
+}
+div.content-emotiva-aules{
+	margin-top:30px !important;
+}
+div.content-emotiva-aules fieldset{
+	margin-top:0 !important;
+	margin-bottom:20px;
+}
+fieldset.emotiva_aules_data {
+	padding-top:0;
+	padding-bottom:0;
+}
+fieldset.emotiva_aules_data .ui-select{
+	margin-top:0 !important;
+	width:115px;
+}
+.great_list li{
+	font-size:16px !important;
+}
+.small_list li .ui-btn-inner{
+	font-size:14px !important;
+}
+#emotiva_presencia ul li img{
+margin-top: -5px !important;
+}
+#emotiva_validacionsdetail .content-oracle .ui-select{
+	width:150px;
+}
+#emotiva_validacionsdetail .content-oracle .button_alone .ui-btn {
+	width:175px;
+}
+#emotiva_validacionsdetail .content-oracle .send_button_grid .ui-btn {
+	max-width:175px !important;
+}
+#emotiva_validacionsdetail .content-oracle .send_validators_button_grid .ui-btn {
+	max-width:225px !important;
+}
+/* DESHABILITO HOVER PORQUE EN DISPOSTIVOS COMO HUAWEI HACEN DOBLE CLICK Y AUNQUE HE HECHO QUE NO LO HAGA QUEDA MARCADO EL HOVER, COSA QUE EN MOBIL NO SE UTILIZA*/
+*.ui-listview *.ui-btn-hover-c{ /* copio dentro el estilo del ui-btn-up */
+	/*border:1px solid #ccc;*/
+	background:#eee;
+	font-weight:bold;
+	color:#222;
+	text-shadow:0 1px 0 #fff;
+	background-image:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#f1f1f1));
+	background-image:-webkit-linear-gradient(#fff,#f1f1f1);
+	background-image:-moz-linear-gradient(#fff,#f1f1f1);
+	background-image:-ms-linear-gradient(#fff,#f1f1f1);
+	background-image:-o-linear-gradient(#fff,#f1f1f1);
+	background-image:linear-gradient(#fff,#f1f1f1);
+}
+.iscroll-scroller{
+	width:100%;
+}
+.label_controlgroup {
+	width:80px !important;
+	padding-top:10px;
+	text-align:left;
+}
+#emotiva_noueticket input, #emotiva_noueticket textarea{
+	width:100% !important;
+}
+.camera_button{
+	display:inline-block;
+}

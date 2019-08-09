@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Marina Locator</title>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/themes/ui-lightness/jquery-ui.css" type="text/css" media="screen" title="no title">
+    <link rel="stylesheet" href="stylesheets/jquery.multiselect.css" type="text/css" media="screen" title="no title">
+    <link rel="stylesheet" href="stylesheets/master.css" type="text/css" media="screen" title="no title">
+    <meta name="viewport" content="width=device-width; height=device-height; user-scalable=no" />
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="lib/cordova-2.0.0.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.multiselect.min.js"></script>
+    <script type="text/javascript" src="lib/spin.min.js"></script>
+    <script type="text/javascript" src="lib/underscore-min.js"></script>
+    <script type="text/javascript" src="lib/jade.js"></script>
+    <script type="text/javascript" src="app/util/config.js"></script>
+    <script>
+      google.load("maps", "3", {other_params:'sensor=false&libraries=places&key=' + marinaConfig.google.maps.apiKey});
+    </script>
+    <script type="text/javascript" src="lib/infobox.js"></script>
+    <script type="text/javascript" src="app/app.js"></script>
+    <script type="text/javascript" src="app/models/marinas.js"></script>
+    <script type="text/javascript" src="app/models/marina-filter.js"></script>
+    <script type="text/javascript" src="app/util/util.js"></script>
+    <script type="text/javascript" src="app/views/template-util.js"></script>
+    <script type="text/javascript" src="app/views/map.js"></script>
+    <script type="text/javascript" src="coreFlashJax.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div id="spinner" class="spinner"></div>
+      <a class='ui-button' data-button="home"><img class="ui-button" src="images/home.png"></img></a>
+      <a class='ui-button' data-button="search"><img class="ui-button" src="images/search.png"></img></a>
+      <span class='fill-remaining'>
+        <select title="Map Options" multiple="multiple" id="map-options" size="5">
+          <option value="atm" data-image="yellowdot">ATM</option>
+          <option value="bank" data-image="greendot">Bank</option>
+          <option value="grocery_or_supermarket" data-image="bluedot">Groceries</option>
+          <option value="hospital" data-image="purpledot">Hospital</option>
+          <option value="keyword-1" data-keyword="marine repair" data-image="lightbluedot">Marine Services</option>
+          <option value="restaurant" data-image="reddot">Restaurants</option>
+        </select>
+      </span>
+    </div>
+    <div id="map_canvas"></div>
+<!-- dialogs -->
+    <div id="search-criteria-dialog">
+      <input id="search-criteria"></input>
+      <a class="dialog-button" data-button="performSearch"><img src="images/search.png"></img></a>
+    </div>
+<!-- templates -->
+    <script id="search-results-template" type="text/template">
+#dialog
+  ul.mobile-list.ui-widget
+    each marina, cnt in marinas
+      li.ui-widget-content= marinas.trim(marina.name)
+        img(id="marina#{cnt}", data-button="centerMapAt", src="images/arrow.png")
+    </script>
+    <script id="place-detail-template" type="text/template">
+#details
+  h3 #{place.name}
+  div
+    h2 Rating
+    img(alt="#{place.rating}", src="images/ratings/#{place.rating}-stars.png")
+  div
+    a(href="tel:#{place.formatted_phone_number}") #{place.formatted_phone_number}
+  div
+    h2 #{place.formatted_address}
+  div
+    a(target="_blank", href='#{place.website}') Website
+    </script>
+    <script id="marina-info-template" type="text/template">
+#details
+  h3 #{marinaInfo.name}
+  span !{marinaInfo.description}
+    </script>
+  </body>
+</html>

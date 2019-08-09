@@ -1,0 +1,26 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: net.bigpress.android.diariosigloxxi_5.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- jpg
+- zip
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '5'
+sharedLibrary: false
+sparseResources: true
+unknownFiles:
+  net/bigpress/android/diariosigloxxi/cordovaExample.java-e: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '5'
+  versionName: '1.1'

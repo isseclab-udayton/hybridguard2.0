@@ -1,0 +1,53 @@
+@media only screen and (min-width:480px) and (max-width: 800px) and (max-width: 800px) and (orientation : portrait){
+	#render .bg{background-image:url(images/hdpi/bg.png) !important;background-size:100%;}
+	
+
+
+	
+	#render #mainPage table {max-width:700px;margin:auto;}	
+		
+	#render .mtop{padding-top:81px;}
+	#render header{height:82px;}
+	#render .icon{width:62px;height:62px;}
+	#render header span{padding:24px;}
+		
+	#render .bighead{padding-top:180px;background-size: 100% auto;}
+		
+	#render .bg{background-image:url(images/hdpi/bg.png) !important;}
+	
+	#fellepok h2{padding:35px;font-size:18px}
+	#fellepok article .img{position:relative;height:180px;overflow:hidden;}
+	#fellepok article .leaderTitle{font-size:25px;padding:10px;}
+	#render #mapResultItems div{padding:18px;font-size:20px;}
+	#render .mapMenuline{height:75px;}
+	#render #whereami,
+	#render #closeResult{padding:30px;}
+
+
+}
+
+@media only screen and (max-width:320px) and (orientation : portrait){
+	
+	
+	#render header span{padding-top:20px;font-size:110%;}
+	.scroll{overflow:auto;}
+	
+	html{overflow:auto !important;min-height:100%;}
+	body{min-height:100%;}
+	#fellepok h2,#esemenyek h2{padding:20px;font-size:18px}
+	#fellepok article .leaderTitle{font-size:140%;padding:10px;}
+	#fellepok article .cont h3,
+	#esemenyek  article .cont h3
+	{font-size:110%;}
+	#fellepok article .img h3 span{font-size:50%;}
+	#fellepok article .img h3{font-size:130%;line-height: 15px;}
+	
+	#esemenyek article .conttime{font-size:20px;}
+	
+	#render #laptopszalonad{height:45px;}
+	#render #whereami, #render #closeResult{bottom:45px;}
+	#render #mapLayer ul a{background-size:20%;padding:20px;}
+	
+	#render #mapWrapper{position:relative;}
+	
+}

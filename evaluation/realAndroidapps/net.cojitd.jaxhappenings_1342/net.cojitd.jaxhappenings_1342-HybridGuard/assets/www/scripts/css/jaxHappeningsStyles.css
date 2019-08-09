@@ -1,0 +1,880 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: "Helvetica", Arial, sans-serif;
+}
+
+#home {
+	text-align: center;
+	background-image: url(../../images/jaxHappening_homeBg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100%;
+	max-width: 2048px;
+	max-height: 2048px;
+	background-color: #2679AC !important;
+}
+
+.contentBg {
+	text-align: center;
+	background-image: url(../../images/jaxHappening_contentBg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100%;
+	max-width: 2048px;
+	max-height: 2048px;
+	background-color: #000000 !important;
+}
+
+.infoContentBg {
+	text-align: center;
+	background-image: url(../images/jaxHappening_contentBg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100%;
+	max-width: 2048px;
+	max-height: 2048px;
+	background-color: #000000 !important;
+}
+
+#featureHeader {
+	width: 100%;
+	max-width: 2048px;
+}
+
+#jaxVideoList img {
+	display: block;
+	width: 90%;
+}
+
+.ui-icon-jax_feature {
+	background-image: url(../../images/icon_feature.png) !important;
+	background-size: 75%;
+	width: 75px!important;
+	height: 76px!important;
+	margin-top: -5px !important;
+	margin-left: -29px !important;
+	box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	-webkit-box-shadow: none!important;
+	-webkit-border-radius: 0 !important;
+	border-radius: 0 !important;
+	background-color: transparent;
+}
+
+.ui-icon-jax_event {
+	background-image: url(../../images/icon_event.png) !important;
+	background-size: 75%;
+	width: 75px!important;
+	height: 76px!important;
+	margin-top: -5px !important;
+	margin-left: -29px !important;
+	box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	-webkit-box-shadow: none!important;
+	-webkit-border-radius: 0 !important;
+	border-radius: 0 !important;
+	background-color: transparent;
+}
+
+.ui-icon-jax_news {
+	background-image: url(../../images/icon_news.png) !important;
+	background-size: 75%;
+	width: 75px!important;
+	height: 76px!important;
+	margin-top: -5px !important;
+	margin-left: -29px !important;
+	box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	-webkit-box-shadow: none!important;
+	-webkit-border-radius: 0 !important;
+	border-radius: 0 !important;
+	background-color: transparent;
+}
+
+.ui-icon-jax_info {
+	background-image: url(../../images/icon_connect.png) !important;
+	background-size: 75%;
+	width: 75px!important;
+	height: 76px!important;
+	margin-top: -5px !important;
+	margin-left: -29px !important;
+	box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	-webkit-box-shadow: none!important;
+	-webkit-border-radius: 0 !important;
+	border-radius: 0 !important;
+	background-color: transparent;
+}
+
+
+/* ui-body-e - use for events text panels dark gray with white text--------------------------------------------------------------------------------------*/
+#jaxEventItem .ui-body-e, .ui-overlay-e {
+	border: 1px solid #464646;
+	margin-bottom: .6em;
+	font-weight: normal;
+	color: #ffffff;
+	text-shadow: 0 1px 1px #111111;
+	background-color:rgba(0,0,0,0.7);
+	background-image: url(../../images/navBarBg.png) !important;
+	background-position: 0px 0px;
+	background-repeat:repeat-x;
+	text-align:left;
+}
+
+#jaxEventItem .ui-body-e h1, .ui-body-e h2 {
+	margin:.6em 0 .6em 0;
+}
+
+
+
+/* ui-body-e - use for events text panels light gray with black text--------------------------------------------------------------------------------------*/
+/*#jaxEventItem .ui-body-e, .ui-overlay-e {
+	margin-bottom: .6em;
+	font-weight: normal;
+	color: #000000;
+	text-shadow: 0 1px 1px rgba(150,150,150,0.7);
+	background-color:rgba(160,160,160, 0.7);
+	background-image: url(../../images/navBar_lightBg.png) !important;
+	background-position: 0px 0px;
+	background-repeat:repeat-x;
+	text-align:left;
+}
+
+#jaxEventItem .ui-body-e h1, .ui-body-e h2 {
+	margin:.6em 0 .6em 0;
+}
+*/
+
+
+/* ui-body-f - use for news & info secondary --------------------------------------------------------------------------------------*/
+.ui-body-f, .ui-overlay-f {
+	border: 1px solid #000000 /*{a-bup-border}*/;
+	margin-bottom:.6em;
+	font-weight: normal;
+	color: #ffffff /*{a-bup-color}*/;
+	text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 1px /*{a-bup-shadow-radius}*/ #111111 /*{a-bup-shadow-color}*/;
+	background-color:rgba(0,0,0,0.7);
+	background-image: url(../../images/newsBarBg.png);
+	background-position: 0px 0px;
+	background-repeat:repeat-x;
+	text-align:left;
+}
+
+.ui-body-f h1, .ui-body-f h2 {
+	margin:.6em 0 .6em 0;
+}
+
+
+/* links --------------------------------------*/
+.ui-body-e .ui-link {
+    color:#00ccff /*{e-body-link-color}*/;
+    font-weight:normal;
+    text-decoration:none;
+}
+.ui-body-e .ui-link:visited {
+    color:#00ccff /*{e-body-link-visited}*/;
+    font-weight:normal;
+    text-decoration:none;
+}
+.ui-body-e a.ui-link:hover {
+	color:#00ccff /*{e-body-link-hover}*/;
+}
+
+.ui-body-e a.ui-link:active {
+	color:#00ccff /*{e-bar-body-active}*/;
+}
+
+.ui-body-e p {
+	margin-bottom:.2em;
+}
+
+
+
+/* original styles (not theme overrides) -----------------------------------------------------------------------------------*/
+.summaryImg {
+    position: absolute;
+    left: 1px;
+    top: 0;
+    max-width:130px !important;
+    max-height:130px !important;
+}
+
+.summaryTxt .ui-link, .summary .ui-link:visited {
+    float:right;
+}
+
+.summaryNewsTxt {
+	text-align: center;
+}
+
+.ui-icon-icon_phone {
+	background-image: url("../../images/icon_phone_hr.png");
+	background-size:18px 18px;
+}
+
+.ui-icon-icon_email {
+	background-image: url("../../images/icon_email_hr.png");
+	background-size:18px 18px;
+}
+
+#feature .ui-collapsible {
+	-khtml-opacity:.80; 
+	 -moz-opacity:.80; 
+	 -ms-filter:"alpha(opacity=80)";
+	  filter:alpha(opacity=80);
+	  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.8);
+	  opacity:.80; 
+}
+
+#info .ui-collapsible {
+	-khtml-opacity:.80; 
+	 -moz-opacity:.80; 
+	 -ms-filter:"alpha(opacity=80)";
+	  filter:alpha(opacity=80);
+	  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.8);
+	  opacity:.80; 
+}
+
+.mapContainer {
+	height: 100%;
+	width: 100%;
+}
+
+#eventDetailsMap .ui-content {
+	padding: 0px;
+	margin: 0 auto;
+}
+
+#phoneEmailBtn {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+	max-width: 280px;
+}
+
+#phoneEmailBtn {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+	max-width: 280px;
+}
+
+#news p {
+	font-weight: normal;
+	color: rgba(204,204,204,1);
+	margin-bottom: -3px;
+}
+
+div p {
+	padding-bottom: 6px;
+}
+
+/* events styles (not theme overrides) -----------------------------------------------------------------------------------*/
+.eventSummaryImg {
+	position: relative;
+	left: 1px;
+	top: 1px;
+	padding: 0px;
+	max-width: 165px !important;
+	max-height: 200px !important;
+	float: left;
+	margin-top: -4px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	margin-left: -15px;
+	border-radius:10px 0px 0px 0px;
+	-moz-border-radius:10px 0px 0px 0px;
+	-webkit-border-radius:10px 0px 0px 0px;
+	-moz-border-image: 10px 0px 0px 0px;
+}
+
+
+.eventLocation_BuyTxt {
+	margin: 0;
+	margin-left: 5px !important;	
+	margin-top: 0px;
+	margin-right: 12px;
+	margin-bottom: 9px;
+	margin-left: 3px;
+	margin-top: 5px;
+	margin-right: 8px;
+	margin-bottom: 3px;
+	margin-left: 2px;
+	margin: 10px;
+}
+
+.eventSummaryTxtLink {
+	float: left;
+	color: #00ccff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.eventSummaryTxtLink:active{
+	color: #00ccff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.eventSummaryTxtLink:hover{
+	color: #00ccff !important;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.eventSummaryTxtLink:visited{
+	color: #00ccff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.eventSummaryMap {
+	margin-left: 135px;	
+}
+
+.eventSummaryMapLink {
+	float: right;
+	color: #00ccff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.eventSummaryMapLink:active{
+	color: #00ccff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.eventSummaryMapLink:hover{
+	color: #00ccff !important;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.eventSummaryMapLink:visited{
+	color: #00ccff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.eventSummaryBuy {
+	margin-left: 135px;	
+}
+
+.eventSummaryBuyLink {
+	float: left;
+	color: #00ccff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.eventSummaryBuyLink:active{
+	color: #00ccff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.eventSummaryBuyLink:hover{
+	color: #00ccff !important;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.eventSummaryBuyLink:visited{
+	color: #00ccff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+
+
+/* #info theme overrides) -----------------------------------------------------------------------------------*/
+#info, #contactEvent, a:link {
+	color: #ffffff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#info, #contactEvent, a:visited {
+	color: #ffffff;
+	font-weight: normal;
+	text-decoration: none;
+}
+#info, #contactEvent, a:hover {
+	color: #ffffff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#info, #contactEvent, a:focus {
+	color: #ffffff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#info, #contactEvent, a:active {
+	color: #ffffff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+
+
+
+/* jaxEventItem theme overrides) -----------------------------------------------------------------------------------*/
+#jaxEventItem div p a:link {
+	color: #00ccff !important;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#jaxEventItem div p a:visited {
+	color: #00ccff !important;
+	font-weight: normal;
+	text-decoration: none;
+}
+#jaxEventItem div p a:hover {
+	color: #00ccff !important;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#jaxEventItem div p a:focus {
+	color: #00ccff !important;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#jaxEventItem div p a:active {
+	color: #00ccff !important;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+
+/* #feature theme overrides) -----------------------------------------------------------------------------------*/
+
+#feature .ui-li-heading {
+	font-size:16px;
+	font-weight:bold;
+	display:block;
+    margin:.-.2em 0 .7em;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap
+}
+
+#feature .ui-li-desc {
+	font-size:12px;
+	font-weight:normal;
+	display:block;
+	margin:-.7em 0 .3em;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap
+}
+
+#feature .ui-li .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li {
+	padding: .4em 2.5em 3px 1em;
+	display:block
+}
+
+#feature .ui-li-has-thumb .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-thumb {
+	min-height:60px;
+	padding-left:100px	
+}
+
+/* #events theme overrides) -----------------------------------------------------------------------------------*/
+
+#event .ui-li-heading {
+	font-size:16px;
+	font-weight:bold;
+	display:block;
+    margin:.-.2em 0 .7em;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap
+}
+
+#event .ui-li-desc {
+	font-size:12px;
+	font-weight:normal;
+	display:block;
+	margin:-.7em 0 .3em;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap
+}
+
+#event .ui-li .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li {
+	padding: .4em 2.5em 3px 1em;
+	display:block
+}
+
+#event .ui-li-has-thumb .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-thumb {
+	min-height:60px;
+	padding-left:100px	
+}
+
+
+/* #twitter theme overrides) -----------------------------------------------------------------------------------*/
+
+#tweetlist .ui-li-heading {
+	font-size:16px;
+	font-weight:bold;
+	display:block;
+    margin:.-.2em 0 .7em;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap
+}
+
+#tweetlist .ui-li-desc {
+	font-size:12px;
+	font-weight:normal;
+	display:block;
+	margin:-.7em 0 .3em;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap
+}
+
+#tweetlist .ui-li .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li {
+	padding: .7em 2.5em .7em 1em;
+	display:block
+}
+
+#tweetlist .ui-li-has-thumb .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-thumb {
+	min-height:60px;
+	padding-left:100px	
+}
+
+
+
+
+
+
+
+/* YouTube Page (theme overrides) -----------------------------------------------------------------------------------------------------------*/
+
+#jaxVideoList h3 {
+	margin: 15px 0 5px 0;
+	height: 35px;
+	overflow: hidden;
+	font-size: 1em;
+}
+
+#jaxVideoList img {
+	width: 90%;
+}
+
+#jaxVideoList a {
+	text-decoration: none;
+	color: #999;
+}
+
+#jaxVideoPlayer .ui-content {
+	margin: 0;
+	padding: 0;
+}
+
+#jaxVideoPlayer iframe {
+	width: 100%;
+	min-height: 50%;
+}
+
+#jaxVideoPlayer h3, #jaxPlayer p {
+	padding: 0 5%;
+}
+
+#jaxVideoPlayer {
+	border: 1px solid #999999;
+	color: #999;
+	text-shadow: 0 /*{c-body-shadow-x}*/ 0px /*{c-body-shadow-y}*/ 0 /*{c-body-shadow-radius}*/ rgb(0, 0, 0) /*{c-body-shadow-color}*/;	background: #000000;
+}
+
+#jaxVideoPlayer {
+	background-image: none;
+	border-width: 0;
+}
+
+
+
+
+/* Flickr Page -----------------------------------------------------------------------------------------------------------*/
+#photolist img {
+	width: 90px;
+	-webkit-border-radius: 15px !important;
+	-moz-border-radius: 15px !important;
+	-border-radius: 15px !important;
+}
+
+#photolist .ui-block-a,
+#photolist .ui-block-b,
+#photolist .ui-block-c {
+	width: 100px;
+	height: 100px;
+	padding: 5px !important;
+}
+
+#photolist.ui-grid-c {
+	width: 330px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+#showphoto {
+	background: black;
+}
+
+#showphoto img {
+	display: block;
+	margin: 0 auto;
+	max-width: 1024px;
+	width: 100%;
+}
+
+#showphoto .ui-content {
+	width: 100%;
+	padding: 0;
+}
+
+
+/* Twitter Page -----------------------------------------------------------------------------------------------------------*/
+#tweets .ui-listview {
+	border: 1px solid #000000 /*{a-bup-border}*/;
+	margin-bottom:.6em;
+	font-weight: normal;
+	color: #ffffff /*{a-bup-color}*/;
+	text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 1px /*{a-bup-shadow-radius}*/ #111111 /*{a-bup-shadow-color}*/;
+	background-color:rgba(0,0,0,0.7);
+	background-image: url(../../images/newsBarBg.png);
+	background-position: 0px 0px;
+	background-repeat:repeat-x;
+	text-align:left;
+}
+
+#tweets .ui-body-f h1, .ui-body-f h2 {
+	margin:.6em 0 .6em 0;
+}
+
+#tweets img {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 25px;
+}
+
+
+/* Event Map Page -----------------------------------------------------------------------------------------------------------*/
+
+#location{
+    width: 100%;
+    text-align: left;
+    color: #333333;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 18px;
+	
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: 10px;
+	
+    position: relative;
+    bottom: 10px;
+    border: 1px solid #bbbbbb;
+    background-color: #fff5ed;
+    -webkit-transition: 0.3s border-color ease;
+    transition: 0.3s border-color ease;
+    -moz-transition: 0.3s border-color ease;
+    -webkit-box-shadow: inset 0px 0px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 0px 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0px 0px 1px rgba(0, 0, 0, 0.1); 
+}
+
+#location:active, #location:focus {
+  border-color: #ee3c3c;
+  border-width: 2px;
+  margin-right: 8px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  -webkit-transition: 0.65s border-color ease;
+  transition: 0.65s border-color ease;
+  -moz-transition: 0.65s border-color ease;
+  outline: 0; 
+}
+
+#searchLoc {
+  color: #ef751c;
+  text-decoration: underline;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+  position: relative;
+  bottom: 10px;
+ }
+
+#searchLoc {
+  color: #ef751c;
+  text-decoration: underline;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+  position: relative;
+  bottom: 10px;
+ }
+ 
+ 
+/* Event /News Search overide -----------------------------------------------------------------------------------------------------------*/
+ 
+.ui-listview-filter-inset {
+	background: transparent !important;
+	text-shadow: 0px 0px 0px !important;
+	width: 100%;
+	margin-top: -10px;
+	margin-right: -5px;
+	margin-bottom: -10px;
+	margin-left: -5px;
+}
+ 
+.ui-listview-filter .ui-input-search {
+	margin: 5px;
+	width: auto;
+	display: block;
+	background-color: rgba(255,255,255,1) !important;
+}
+
+
+
+/* (header  theme overrides) -----------------------------------------------------------------------------------*/
+
+#phoneEmailBtn,
+#legalItemDetailsHeader,  
+#contactItemDetailsHeader,   
+#newsItemDetailsHeader,       
+#eventItemDetailsHeader, .ui-btn-up-a:link {
+	color: #00ccff!important;
+	font-weight: normal!important;
+}
+
+#phoneEmailBtn,
+#legalItemDetailsHeader,  
+#contactItemDetailsHeader,   
+#newsItemDetailsHeader,       
+#eventItemDetailsHeader, .ui-btn-up-a:visited {
+	color: #00ccff!important;
+	font-weight: normal!important;
+}
+
+#phoneEmailBtn,
+#legalItemDetailsHeader,  
+#contactItemDetailsHeader,   
+#newsItemDetailsHeader,       
+#eventItemDetailsHeader, .ui-btn-up-a:hover {
+	color: #ffffff!important;
+	font-weight: normal!important;
+}
+
+#phoneEmailBtn,
+#legalItemDetailsHeader,  
+#contactItemDetailsHeader,   
+#newsItemDetailsHeader,       
+#eventItemDetailsHeader, .ui-btn-up-a:focus {
+	color: #00ccff!important;
+	font-weight: normal!important;
+}
+
+#phoneEmailBtn,
+#legalItemDetailsHeader,  
+#contactItemDetailsHeader,   
+#newsItemDetailsHeader,       
+#eventItemDetailsHeader, .ui-btn-up-a:active {
+	color: #00ccff!important;
+	font-weight: normal!important;
+}
+
+#phoneEmailBtn,
+#legalItemDetailsHeader,  
+#contactItemDetailsHeader,   
+#newsItemDetailsHeader,       
+#eventItemDetailsHeader, h1 {
+	color: #ffffff!important;
+}
+
+#legalDisclaim div h4 {
+	font-weight: normal !important;
+}
+
+/* global theme overrides) -----------------------------------------------------------------------------------*/
+a:link {
+	color: #00ccff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #00ccff;
+	font-weight: normal;
+	text-decoration: none;
+}
+a:hover {
+	color: #00ccff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:focus {
+	color: #00ccff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:active {
+	color: #00ccff;
+	font-weight: normal;
+	text-decoration: none;
+	cursor: default;
+}
+
+/*---------------  childBrowser a tag overides  ----------------------------------------------------------------------------------------------------*/
+a {
+	color: #00ccff;
+	font-weight: normal;
+	text-decoration: none;
+	cursor: default;
+}
+
+#about div p a {
+	color: #00ccff;
+	font-weight: normal;
+	text-decoration: none;
+	cursor: default;
+}
+
+#contactEvent div .ui-body.ui-body-f.ui-corner-all p a {
+	color: #00ccff;
+	font-weight: normal;
+	text-decoration: none;
+	cursor: default;
+}
+
+/*---------------  offline alert  ----------------------------------------------------------------------------------------------------*/
+.offline {
+	visibility: hidden;
+	color: #f00;
+	font-style: bold;
+}

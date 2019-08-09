@@ -1,0 +1,25 @@
+    <div class="container">
+    <div class="row">
+    <div class="card animated fadeIn anim" id="one">
+        <div class="card-content" style="padding-bottom: 0px; padding-left: 15px; padding-right: 15px; padding-top: 15px; padding-bottom: 15px; text-align:center;">
+            <span class="card-title" style="color: black">{{user.profile.name}}</span>
+            <br class="hide-on-med-and-up">
+            <span>{{user.profile.school}}</span>
+            <br class="hide-on-med-and-up" style="padding-bottom: 15px">
+        </div>
+        <div class="card-action">
+            <div class="row">
+            <div class="col m6 s12">
+                <p><strong>COUNSELOR:</strong></p>
+                <a href="mailto:{{user.profile.counselor_email}}"><span>{{user.profile.counselor}}</span></a>
+            </div>
+            <div class="col m6 s12">
+                <p><strong>HOMEROOM:</strong></p>
+                <span>{{user.profile.homeroom}}</span>
+                <a href="mailto:{{user.profile.homeroom_teacher_email}}"><span>{{user.profile.homeroom_teacher}}</span></a>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+
+@media screen and (min-width:480px) {
+
+	
+	#render #mainPage table {max-width:700px;margin:auto;}	
+		
+	#render .mtop{padding-top:81px;}
+	#render header{height:82px;}
+	#render header span{padding:26px;}
+	#render .icon{width:62px;height:62px;}}
+		
+	#render .bighead{padding-top:240px;background-size: 100% auto;}
+		
+	#render .bg{background-image:url(images/hdpi/bg.png) !important;}
+	
+	#fellepok h2{padding:15px;font-size:18px}
+	#fellepok article .img{position:relative;height:280px;overflow:hidden;}
+	#fellepok article .cont{position: absolute;right: -3px;top: 180px;}
+	#fellepok article .leaderTitle{font-size:25px;padding:10px;}
+	#render #mapResultItems div{padding:18px;font-size:20px;}
+	#render .mapMenuline{height:75px;}
+	#render #whereami,
+	#render #closeResult{padding:45px;}
+
+}
+
+
+@media screen and (min-width:700px) {
+	#render #mainPage table {width:700px;}
+	#fellepok article .img{position:relative;height:280px;overflow:hidden;}
+}
+
+
+
+

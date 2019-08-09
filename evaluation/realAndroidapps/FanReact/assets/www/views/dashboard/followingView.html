@@ -1,0 +1,121 @@
+<div id="followingView" data-role="page">
+
+    <div data-role="content">
+
+        
+            <div class="feedWrapper">
+                <div class="addMoreTeams">
+                    <a onclick="$('#linkTosearchTeamView').trigger('click');">
+                        Add/Remove/Search Teams
+                    </a>
+                </div>
+            </div>
+        
+            <div class="feedWrapper">
+                               
+                <h2 onclick="$('#teamsListView').toggle();" class="header">Your Teams</h2>
+
+        		<script type="text/x-kendo-template" id="followingView-team-template">
+                    {{#each Data}}
+                        <tr>
+                            <td class="logo" 
+                                onclick="
+                                		customNamespace.page.goTo( 'views/team/teampage.html' );
+                                        teampageNameSpace.teamId = {{teamId}}; 
+                                        "
+                            >
+                                <div class="img round" 
+                                    style="background-image: url({{teamIcon}})"
+                                ></div>
+                            </td>
+                            <td class="text" style="padding-left: 0px;">
+                                <h2 style="">
+                                    <a onclick="
+                                                customNamespace.page.goTo( 'views/team/teampage.html' );
+                                                teampageNameSpace.teamId = {{teamId}}; 
+                                                " 
+                                       class="ui-link"
+                                    >
+                                           {{teamName}}
+                                    </a>
+                                </h2>
+                            </td>
+                            {{#if GameCenter }}
+                            <td style="padding: 0 10px;">
+                                <a onclick="
+                                			var id = followingNameSpace.var.teamFeed.Data[ {{ index }} ].teamId ;
+                                            var name = followingNameSpace.var.teamFeed.Data[ {{ index }} ].teamName ;
+                                            var icon = followingNameSpace.var.teamFeed.Data[ {{ index }} ].teamIcon ;
+                                			followingNameSpace.getEventFromTeamIdAndGoToGameCenter( id, name, icon );
+                                           " class="ui-link">
+                                    <img src="../../images/icon-chat-on.png" class="chatIcon">
+                                </a>
+                            </td>
+                            {{/if}}
+                        </tr>
+                    {{/each}}
+                </script>
+                
+                <table id="followingView-team-display" class="feed sports">
+
+                </table><br>
+                    
+            </div><!--feedWrapper-->
+
+            <div class="feedWrapper">
+
+                <h2 class="header">All Sports</h2>
+
+    			<script type="text/x-kendo-template" id="followingView-sportFeed-template">
+                    {{#each Data}}
+                        <tr>
+                        	<td class="logo">
+                            	<div class="img round" 
+                                	style="background-image: url('{{ teamSportIcon }}');">
+                    			</div>
+                    		</td>
+                            <td class="text">
+                            	<h2>
+                                	<a onclick=" 
+                                    			teamsearchNameSpace.teamSport='{{ teamSport }}'; 
+                                				teamsearchNameSpace.teamSportIcon='{{ teamSportIcon }}';
+                                                location.hash='../team/teamSearchView.html'" 
+                                                class="ui-link">{{ teamSport }}
+                    				</a>
+                                </h2>
+                			</td>
+                		</tr>
+                    {{/each}}
+                </script>
+                
+                 <table class="feed sports" id="followingView-sportFeed-display">
+                </table>
+
+            </div><!--feedWrapper-->
+
+    </div><!--content-->
+
+
+    <script>
+        
+        
+        // set title
+        customNamespace.header.changeTitle( { text : 'Following'  } );
+        
+        followingNameSpace.getTeams();
+        followingNameSpace.getAllSports();
+
+        $(document).on('pageshow', '#followingView', function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+
+            $('#tabbedPanelsthree').show();
+            $('#tabbedPanelsFollowing').trigger('click');
+            customNamespace.sizing();
+        });
+        
+    </script>
+
+</div>
+

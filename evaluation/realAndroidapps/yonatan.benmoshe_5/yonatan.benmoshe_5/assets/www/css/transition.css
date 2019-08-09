@@ -1,0 +1,99 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video,select,input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-size:inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1.4;
+    font-family: arial;
+    font-size: 12px;
+}
+ol, ul {
+    list-style: none;
+}
+:focus ,:active{
+    outline: 0;
+}
+
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*end css reset*/
+html {
+    height: 100%;
+}
+body{
+    font-family: Arial;
+    min-width: 320px;
+    direction: rtl;
+    height: 100%;
+}
+div.clear{
+    clear:both;
+    margin:0 !important;
+    padding:0 !important;
+}
+
+#screenflash {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #0d0d0d;
+    text-align: center;
+}
+
+#screenflash .content {
+    margin: 2% auto;
+    width: 100%;
+}
+
+#screenflash .content .clogo {
+    width: 100%;
+}
+
+.bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#screenflash h2, #screenflash h3{
+    display: block;
+    color: #fff;
+    font-size: 42px;
+    font-family: Guttman Yad;
+}
+
+#screenflash h3 {
+    font-size: 22px;
+}

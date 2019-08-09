@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Roi de l'oiseau</title>
+	<meta name="description" content="Roi de l'oiseau">
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <meta name="format-detection" content="telephone-no" />
+	<meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
+	<!-- CSS -->
+	<link href="css/jquery-ui-1.7.2.custom.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="smoothness/jquery-ui-1.8.18.custom.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="css/jquery.mobile.structure.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+	
+	<!-- JS -->
+    <script type="text/javascript" src="cordova.js"></script>	
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/jquery.mobile.js" type="text/javascript"></script>
+ 	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+ 	<script src="js/infobox.js" type="text/javascript"></script>
+	<script src="js/jquery-ui.custom.min.js" type="text/javascript"></script>
+	<script src="js/localstorage.js" type="text/javascript"></script>
+    <script src="js/mobileinit.js" type="text/javascript"></script>
+	<script src="coreFlashJax.js" type="text/javascript"></script>
+	
+
+</head>
+
+<body>
+<!-- PAGE INDEX -->
+	<div data-role="page" id="index" rel="external" class="content">
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="page_daccueil">
+				<ul data-role="listview">
+					<li><a class="picto-resto" href="#resto" onClick="restaurants();">restaurateurs</a></li>
+					<li><a class="picto-camps" href="#camps" onClick="camps();">camps de toiles</a></li>
+					<li><a class="picto-tavernes" href="#tavernes" onClick="tavernes();">tavernes</a></li>
+					<li><a class="picto-auberges" href="#auberges" onClick="auberges();">auberges</a></li>
+					<li><a class="picto-scenes" href="#lieux-spe" onClick="lieuxsceniques();">lieux Sc&eacute;niques</a></li>
+					<li><a class="picto-stationnements" href="#stationnements" onClick="stationnements();">stationnements</a></li>
+					<li class="points-infos"><a class="picto-infos" href="#PointsInfos" onClick="points_i();">points infos</a></li>
+				</ul>
+				<div class="spacer"></div>
+			</div>
+		</div>
+	</div>
+<!-- END PAGE INDEX -->
+
+<!-- MAP -->
+	<div data-role="page" id="map" class="content page_liste_content" id="cacheMe" data-dom-cache="false">
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="page_content">
+				<div data-role="header" class="header" id="header-home" data-theme="index">
+					<h1> </h1> 
+					<span class="btn-header">
+						<a href="#" data-ajax="false" class="menu btn-menu">Menu</a>
+						<a href="#map" data-ajax="false" onClick="" class="carte actif">Carte</a>
+						<a href="#" data-ajax="false" onClick="" class="retour">Retour</a>
+					</span>
+				</div>
+				<div class="info" id="infoDistance">
+					<div id="name"></div>
+					<div id="distance"></div>
+					<div id="duration"></div>
+				</div>
+				<div class="spacer"></div>	
+				<div id="carte_man">
+				</div>
+				<div class="spacer"></div>
+			</div>
+		</div>
+	</div>
+<!-- END MAP -->
+
+
+<!-- PAGE RESTAURANT -->
+	<div data-role="page" id="resto" class="content page_liste_content">
+		<div data-role="header" class="header header-resto" id="header-home" data-theme="index">
+			<h1>Restaurants</h1> 
+			<span class="btn-header">
+				<a href="#resto" data-ajax="false" class="menu btn-menu actif">Menu</a>
+				<a href="#map" data-ajax="false" onClick="marker_restaurants();" class="carte">Carte</a>
+			</span>
+		</div>
+		<div id="main" data-theme="index">
+			<h1>Restaurateurs</h1>
+			<div id="container" data-role="content" data-theme="index" class="page_content">
+				<div id="liste_resto">
+					<ul data-role='listview'>
+					</ul>
+				</div>
+				<div class="spacer"></div>
+			</div>
+		</div>
+	</div>
+<!-- END PAGE RESTAURANT -->
+
+
+
+<!-- PAGE CAMPS -->
+	<div data-role="page" id="camps" class="content page_liste_content">
+		<div data-role="header" class="header header-camps" id="header-home" data-theme="index">
+			<h1>Camps de Toile</h1> 
+			<span class="btn-header">
+				<a href="#camps" data-ajax="false" class="menu btn-menu actif">Menu</a>
+				<a href="#map" data-ajax="false" onClick="marker_camps();" class="carte">Carte</a>
+			</span>
+		</div>
+		<div id="main" data-theme="index">
+			<h1>Camps</h1>
+			<div id="container" data-role="content" data-theme="index" class="page_content">
+				<div id="liste_camps">
+					<ul data-role='listview'>
+					</ul>
+				</div>
+				<div class="spacer"></div>
+			</div>
+		</div>
+	</div>
+<!-- END PAGE CAMPS -->
+
+
+<!-- PAGE TAVERNES -->
+	<div data-role="page" id="tavernes" class="content page_liste_content">
+		<div data-role="header" class="header header-tavernes" id="header-home" data-theme="index">
+			<h1>Tavernes</h1> 
+			<span class="btn-header">
+				<a href="#tavernes" data-ajax="false" class="menu btn-menu actif">Menu</a>
+				<a href="#map" data-ajax="false" onClick="marker_tavernes();" class="carte">Carte</a>
+			</span>
+		</div>
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="page_content">
+				<div id="liste_tavernes">
+					<ul data-role='listview'>
+					</ul>
+				</div>
+				<div class="spacer"></div>
+			</div>
+		</div>
+	</div>
+<!-- END PAGE TAVERNES -->
+
+<!-- PAGE AUBERGES -->
+	<div data-role="page" id="auberges" class="content page_liste_content">
+		<div data-role="header" class="header header-auberges" id="header-home" data-theme="index">
+			<h1>Auberges</h1> 
+			<span class="btn-header">
+				<a href="#auberges" data-ajax="false" class="menu btn-menu actif">Menu</a>
+				<a href="#map" data-ajax="false" onClick="marker_auberges();" class="carte">Carte</a>
+			</span>
+		</div>
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="page_content">
+				<div id="liste_auberges">
+					<ul data-role='listview'>
+					</ul>
+				</div>
+				<div class="spacer"></div>
+			</div>
+		</div>
+	</div>
+<!-- END PAGE AUBERGES -->
+
+<!-- PAGE LIEUX SCENIQUES -->
+	<div data-role="page" id="lieux-spe" class="content page_liste_content">
+		<div data-role="header" class="header header-lieux-spe" id="header-home" data-theme="index">
+			<h1>Lieux sceniques</h1> 
+			<span class="btn-header">
+				<a href="#lieux-spe" data-ajax="false" class="menu btn-menu actif">Menu</a>
+				<a href="#map" data-ajax="false" onClick="marker_lieuxsceniques();" class="carte">Carte</a>
+			</span>
+		</div>
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="page_content">
+				<div id="liste_lieux_spe">
+					<ul data-role='listview'>
+					</ul>
+				</div>
+				<div class="spacer"></div>
+			</div>
+		</div>
+	</div>
+<!-- END PAGE LIEUX SCENIQUES -->
+
+<!-- PAGE STATIONNEMENTS -->
+	<div data-role="page" id="stationnements" class="content page_liste_content">
+		<div data-role="header" class="header header-stationnements" id="header-home" data-theme="index">
+			<h1>Stationnements</h1> 
+			<span class="btn-header">
+				<a href="#stationnements" data-ajax="false" class="menu btn-menu actif">Menu</a>
+				<a href="#map" data-ajax="false" onClick="marker_stationnements();" class="carte">Carte</a>
+			</span>
+		</div>
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="page_content">
+				<div id="liste_stationnements">
+					<ul data-role='listview'>
+					</ul>
+				</div>
+				<div class="spacer"></div>
+			</div>
+		</div>
+	</div>
+<!-- END PAGE STATIONNEMENTS -->
+
+
+
+
+
+<!-- PAGE POINTS INFOS -->
+	<div data-role="page" id="PointsInfos" class="content page_liste_content">
+		<div data-role="header" class="header header-points-infos" id="header-home" data-theme="index">
+			<h1>Points infos</h1> 
+			<span class="btn-header">
+				<a href="#PointsInfos" data-ajax="false" class="menu btn-menu actif">Menu</a>
+				<a href="#map" data-ajax="false" onClick="marker_points_i();" class="carte">Carte</a>
+			</span>
+		</div>
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="page_content">
+				<div id="liste_points_infos">
+					<ul data-role='listview'>
+					</ul>
+				</div>
+				<div class="spacer"></div>
+			</div>
+		</div>
+	</div>
+<!-- END PAGE POINTS INFOS -->
+
+
+<!-- PAGE ACTUALITES -->
+	<div data-role="page" id="news" class="content" >
+		<div data-role="header" class="header-news" data-theme="index">
+		</div>
+
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="page_news">
+				<ul data-role="listview"></ul>
+			</div>
+		</div>
+	</div>
+<!-- END PAGE ACTUALITES -->
+
+
+
+<!-- DETAIL ACTUALITES -->
+	<div data-role="page" id="DetailActu" class="content">
+		<div data-role="header" class="header-news-detail" data-theme="index">
+			<span class="btn-retour">
+				<a href="#news"></a>
+			</span>
+		</div>
+
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="page_news">
+				<div id="detail"></div>
+			</div>
+		</div>
+	</div>
+<!-- END DETAIL ACTUALITES -->
+
+<!-- PAGE INFOS -->
+	<div data-role="page" id="infos" class="content">
+		<div data-role="header" class="header-infos" data-theme="index">
+		</div>
+
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="page_infos">
+				<ul id="bloc_infos"></ul>
+			</div>
+		</div>
+	</div>
+<!-- END PAGE INFOS -->
+<!-- DETAIL INFOS -->
+	<div data-role="page" id="DetailInfos" class="content">
+		<div data-role="header" class="header-infos-detail" data-theme="index">
+			<span class="btn-retour">
+				<a href="#infos"></a>
+			</span>
+		</div>
+
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="page_infos">
+				<div id="detailInfos"></div>
+			</div>
+		</div>
+	</div>
+<!-- END DETAIL INFOS -->
+
+
+<!-- PAGE REPORTER -->
+	<div data-role="page" id="reporter" class="content">
+		<div data-role="header" class="header-reporter" data-theme="index">
+		</div>
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="">
+				<p>Devenez acteur des F&ecirc;tes Renaissance du Roi de l'Oiseau et faites-nous parvenir vos clich&eacute;s et commentaires en trois &eacute;tapes :</p>
+				<p class="step step_1">
+					<span class="icon"></span>
+					Prendre une photo
+					<img src="images/reporter/1.png" alt="" />
+				</p>
+				<p class="step step_2">
+					<span class="icon"></span>
+					Commenter votre photo
+					<img src="images/reporter/2.png" alt="" />
+				</p>
+				<p class="step step_3">
+					<span class="icon"></span>
+					L'envoyer
+					<img src="images/reporter/3.png" alt="" />
+				</p>
+				<a href="javascript:void(0);" onClick="takePicture();" class="butt_on">Prendre une photo</a>
+				<div class="spacer"></div>
+			</div>
+		</div>
+	</div>
+	<div data-role="page" id="reporter_suite" class="content">
+		<div data-role="header" class="header-reporter" data-theme="index">
+		</div>
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="">
+				<div class="img">
+					<img src="" alt="My photo" id="photo_to_send"/>
+				</div>
+				<div class="step">
+					<textarea id="commentaire_photo" onfocus="OnFocusComment();">Votre commentaire...</textarea>
+				</div>
+				<a href="javascript:void(0);" class="butt_on" onClick="sendPicture();">Envoyer votre photo</a>
+				<div class="spacer"></div>
+			</div>
+		</div>
+	</div>
+<!-- END PAGE REPORTER -->
+
+<!-- PAGE GOODIES -->
+	<div data-role="page" id="goodies" class="content">
+		<div data-role="header" class="header-goodies" data-theme="index">
+		</div>
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="page_goodies">
+				<ul data-role="listview">
+					<li><a href="#FondEcran">Les fonds d'&eacute;cran</a></li>
+					<li><a href="#CartePostale">Envoyer une carte postale</a></li>
+				</ul>
+				<div class="spacer"></div>
+			</div>
+		</div>
+	</div>
+<!-- END PAGE GOODIES -->
+
+<!-- FOND ECRAN -->
+<div data-role="page" id="FondEcran" class="content">
+	<div data-role="header" class="header-goodies" data-theme="index">
+	</div>
+	<div id="main" data-theme="index">
+		<div id="container" data-role="content" data-theme="index" class="page_fond_ecrans">
+			<div class="un_fond">
+				<a href="#Affiche2016">
+					<img src="images/fond_ecrans/fondecran-2016.jpg" alt="" class="miniature"/>
+					<div class="bloc_texte">
+						<h3>&Eacute;dition 2016</h3>
+						<p>Echanges et influences du sud sur la cité vellave</p>
+					</div>
+				</a>
+				<div class="spacer"></div>
+			</div>
+			 <div class="un_fond">
+				<a href="#Affiche2015">
+					<img src="images/fond_ecrans/fondecran-2015.jpg" alt="" class="miniature"/>
+					<div class="bloc_texte">
+						<h3>&Eacute;dition 2015</h3>
+						<p>Entr&eacute;e royale en Pays du Velay</p>
+					</div>
+				</a>
+				<div class="spacer"></div>
+			</div>
+            <div class="un_fond">
+				<a href="#Affiche2014">
+					<img src="images/fond_ecrans/fondecran-2014.jpg" alt="" class="miniature"/>
+					<div class="bloc_texte">
+						<h3>&Eacute;dition 2014</h3>
+						<p>Sur le chemin des confr&eacute;ries</p>
+					</div>
+				</a>
+				<div class="spacer"></div>
+			</div>
+			<div class="un_fond">
+				<a href="#Affiche2013">
+					<img src="images/fond_ecrans/fondecran-2013.jpg" alt="" class="miniature"/>
+					<div class="bloc_texte">
+						<h3>&Eacute;dition 2013</h3>
+						<p>La cuisine au XVIéme siècle</p>
+					</div>
+				</a>
+				<div class="spacer"></div>
+			</div>
+			<div class="un_fond">
+				<a href="#Affiche2012">
+					<img src="images/fond_ecrans/fondecran-2012.jpg" alt="" class="miniature"/>
+					<div class="bloc_texte">
+						<h3>&Eacute;dition 2012</h3>
+						<p>Une fresque grandeur nature</p>
+					</div>
+				</a>
+				<div class="spacer"></div>
+			</div>
+			<div class="un_fond">
+				<a href="#Affiche2011">
+					<img src="images/fond_ecrans/fondecran-2011.jpg" alt="" class="miniature" />
+					<div class="bloc_texte">
+						<h3>&Eacute;dition 2011</h3>
+						<p>Sur le th&egrave;me des anciens et des nouveaux mondes</p>
+					</div>
+				</a>
+				<div class="spacer"></div>
+			</div>
+			<div class="un_fond">
+				<a href="#Affiche2010">
+					<img src="images/fond_ecrans/fondecran-2010.jpg" alt="" class="miniature" />
+					<div class="bloc_texte">
+						<h3>&Eacute;dition 2010</h3>
+						<p>Sur le th&egrave;me de L&eacute;onard de Vinci</p>
+					</div>
+				</a>
+				<div class="spacer"></div>
+			</div>
+			<div class="un_fond">
+				<a href="#Affiche2009">
+					<img src="images/fond_ecrans/fondecran-2009.jpg" alt="" class="miniature" />
+					<div class="bloc_texte">
+						<h3>&Eacute;dition 2009</h3>
+						<p>Sur le th&egrave;me de la F&ecirc;te</p>
+					</div>
+				</a>
+				<div class="spacer"></div>
+			</div>
+			<div class="spacer"></div>
+		</div>
+	</div>
+</div>
+<!-- END FOND ECRAN -->
+
+<!-- LISTE FOND ECRAN -->
+	<div data-role="page" id="Affiche2016" class="content">
+	    <div data-role="header" class="header-goodies" data-theme="index">
+	    </div>
+	    <div id="main" data-theme="index">
+	        <div id="container" data-role="content" data-theme="index" class="page_fond_ecrans">
+	            <div class="image_full">
+	                <img src="images/fond_ecrans/fondecran-2016.jpg" alt="Affiche 2016" />
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div data-role="page" id="Affiche2015" class="content">
+	    <div data-role="header" class="header-goodies" data-theme="index">
+	    </div>
+	    <div id="main" data-theme="index">
+	        <div id="container" data-role="content" data-theme="index" class="page_fond_ecrans">
+	            <div class="image_full">
+	                <img src="images/fond_ecrans/fondecran-2015.jpg" alt="Affiche 2015" />
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div data-role="page" id="Affiche2014" class="content">
+	    <div data-role="header" class="header-goodies" data-theme="index">
+	    </div>
+	    <div id="main" data-theme="index">
+	        <div id="container" data-role="content" data-theme="index" class="page_fond_ecrans">
+	            <div class="image_full">
+	                <img src="images/fond_ecrans/fondecran-2014.jpg" alt="Affiche 2014" />
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div data-role="page" id="Affiche2013" class="content">
+		<div data-role="header" class="header-goodies" data-theme="index">
+		</div>
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="page_fond_ecrans">
+				<div class="image_full">
+					<img src="images/fond_ecrans/fondecran-2013.jpg" alt="Affiche 2013" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<div data-role="page" id="Affiche2012" class="content">
+		<div data-role="header" class="header-goodies" data-theme="index">
+		</div>
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="page_fond_ecrans">
+				<div class="image_full">
+					<img src="images/fond_ecrans/fondecran-2012.jpg" alt="Affiche 2012" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id="Affiche2011" class="content">
+		<div data-role="header" class="header-goodies" data-theme="index">
+		</div>
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="page_fond_ecrans">
+				<div  class="image_full">
+					<img src="images/fond_ecrans/fondecran-2011.jpg" alt="Affiche 2011" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id="Affiche2010" class="content">
+		<div data-role="header" class="header-goodies" data-theme="index">
+		</div>
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="page_fond_ecrans">
+				<div class="image_full">
+					<img src="images/fond_ecrans/fondecran-2010.jpg" alt="Affiche 2010" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id="Affiche2009" class="content">
+		<div data-role="header" class="header-goodies" data-theme="index">
+		</div>
+		<div id="main" data-theme="index">
+			<div id="container" data-role="content" data-theme="index" class="page_fond_ecrans">
+				<div  class="image_full">
+					<img src="images/fond_ecrans/fondecran-2009.jpg" alt="Affiche 2011" />
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- END LISTE FOND ECRAN -->
+
+<!-- CARTE POSTALE -->
+<div data-role="page" id="CartePostale" class="content">
+	<div data-role="header" class="header-goodies" data-theme="index">
+	</div>
+	<div id="main" data-theme="index">
+		<div id="container" data-role="content" data-theme="index" class="page_cartes_postales">
+			<div class="une_carte">
+				<a rel="external" href="mailto:email@email.com?subject=Roi de l'oiseau 2012&body=Mon message<br/><br/><img src='http://ns354550.ovh.net/roi-mobile/images/cartes_postales/1.jpg' width='100%' />">
+					<img src="images/cartes_postales/1.jpg" alt="" class="miniature"/>
+				</a>
+				<div class="spacer"></div>
+			</div>
+			<div class="une_carte">
+				<a rel="external" href="mailto:email@email.com?subject=Roi de l'oiseau 2012&body=Mon message<br/><br/><img src='http://ns354550.ovh.net/roi-mobile/images/cartes_postales/2.jpg' width='100%'>">
+					<img src="images/cartes_postales/2.jpg" alt="" class="miniature"/>
+				</a>
+				<div class="spacer"></div>
+			</div>
+			<div class="une_carte">
+				<a rel="external" href="mailto:email@email.com?subject=Roi de l'oiseau 2012&body=Mon message<br/><br/><img src='http://ns354550.ovh.net/roi-mobile/images/cartes_postales/3.jpg' width='100%'>">
+					<img src="images/cartes_postales/3.jpg" alt="" class="miniature"/>
+				</a>
+				<div class="spacer"></div>
+			</div>
+			<div class="une_carte">
+				<a rel="external" href="mailto:email@email.com?subject=Roi de l'oiseau 2012&body=Mon message<br/><br/><img src='http://ns354550.ovh.net/roi-mobile/images/cartes_postales/4.jpg' width='100%'>">
+					<img src="images/cartes_postales/4.jpg" alt="" class="miniature"/>
+				</a>
+				<div class="spacer"></div>
+			</div>
+			<div class="une_carte">
+				<a rel="external" href="mailto:email@email.com?subject=Roi de l'oiseau 2012&body=Mon message<br/><br/><img src='http://ns354550.ovh.net/roi-mobile/images/cartes_postales/5.jpg' width='100%'>">
+					<img src="images/cartes_postales/5.jpg" alt="" class="miniature"/>
+				</a>
+				<div class="spacer"></div>
+			</div>
+			<div class="une_carte">
+				<a rel="external" href="mailto:email@email.com?subject=Roi de l'oiseau 2012&body=Mon message<br/><br/><img src='http://ns354550.ovh.net/roi-mobile/images/cartes_postales/6.jpg' width='100%'>">
+					<img src="images/cartes_postales/6.jpg" alt="" class="miniature"/>
+				</a>
+				<div class="spacer"></div>
+			</div>
+			<div class="une_carte">
+				<a rel="external" href="mailto:email@email.com?subject=Roi de l'oiseau 2012&body=Mon message<br/><br/><img src='http://ns354550.ovh.net/roi-mobile/images/cartes_postales/7.jpg' width='100%'>">
+					<img src="images/cartes_postales/7.jpg" alt="" class="miniature"/>
+				</a>
+				<div class="spacer"></div>
+			</div>
+			<div class="une_carte">
+				<a rel="external" href="mailto:email@email.com?subject=Roi de l'oiseau 2012&body=Mon message<br/><br/><img src='http://ns354550.ovh.net/roi-mobile/images/cartes_postales/8.jpg' width='100%'>">
+					<img src="images/cartes_postales/8.jpg" alt="" class="miniature"/>
+				</a>
+				<div class="spacer"></div>
+			</div>
+			<div class="spacer"></div>
+		</div>
+	</div>
+</div>
+<!-- END CARTE POSTALE -->
+
+
+<!-- FOOTER -->
+	<div id="footer" data-role="footer" class="content page_liste_content" data-position="fixed">
+		<div data-role="navbar">
+			<li class="pratique"><a rel="external" href="#news" onClick="actu();">actualit&eacute;s</a></li>
+			<li class="news"><a rel="external" href="#infos" onClick="infos();">infos</a></li>
+			<li class="index"><a rel="external" href="#index" class="ui-btn-active"><span class="roi"></span></a></li>
+			<li class="reporter"><a rel="external" href="#reporter">reporter</a></li>
+			<li class="goodies"><a rel="external" href="#goodies">goodies</a></li>
+		</div>
+	</div>
+<!-- END FOOTER -->
+
+<div class="ui-loader ui-corner-all ui-body-a ui-loader-default">
+	<span class="ui-icon ui-icon-loading"></span>
+	<h1>loading</h1>
+</div>
+<div id="panel">panel</div>
+
+<div class="clear"></div>
+</body>
+</html>

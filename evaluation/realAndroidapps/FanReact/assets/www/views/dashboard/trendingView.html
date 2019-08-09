@@ -1,0 +1,55 @@
+<div id="Trending-View" data-role="page" data-dom-cache="true">
+
+    <div data-role="content">
+
+        <div class="headerPadding footerPadding">
+
+            <div id="Trending-View-trendingFeed-display">
+            </div>
+            
+        </div><!--headerPadding-->
+
+    </div><!--content-->
+
+    <script>
+        
+        $(document).on('pageshow', '#Trending-View', function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+            
+            // set title
+            customNamespace.header.changeTitle( { text : 'Trending' } );
+            
+            if ( $('#trendingFeed').html() == '' || customNamespace.page.event.var.refresh == true ) {  
+                trendingNameSpace.getTrend();
+            }
+            
+            customNamespace.page.event.onPageShow();
+            scrollNamespace.var.modify('getMoreButton', '.getMore');
+
+            
+            $('#tabbedPanelsthree').show();
+            
+            // display refresh button
+            $("#refresh").show();
+            // rewrite refresh button onclick event
+            customNamespace.refresh = function(){
+                
+                $('#refresh span').html('updating... ' );
+                trendingNameSpace.getTrend();
+                $( document ).ajaxComplete(function() {
+                    
+                    $('#refresh span').empty();
+                    $('body,html').stop().animate({
+                        scrollTop: 0
+                    }, 800);
+                    $( document ).unbind('ajaxComplete');
+                });
+            }
+            
+        });
+    </script>
+    
+</div>
+

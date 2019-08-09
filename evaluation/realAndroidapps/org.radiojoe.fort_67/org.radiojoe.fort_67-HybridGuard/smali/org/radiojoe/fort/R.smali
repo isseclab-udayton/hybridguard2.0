@@ -1,0 +1,27 @@
+.class public final Lorg/radiojoe/fort/R;
+.super Ljava/lang/Object;
+.source "R.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lorg/radiojoe/fort/R$attr;,
+        Lorg/radiojoe/fort/R$drawable;,
+        Lorg/radiojoe/fort/R$layout;,
+        Lorg/radiojoe/fort/R$string;,
+        Lorg/radiojoe/fort/R$xml;
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 10
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

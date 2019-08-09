@@ -1,0 +1,4114 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: sJh+MRWU8b1v5yznVn1NM32p+pI=
+Created-By: 1.0 (Android)
+
+Name: assets/www/bower_components/chartjs/src/Chart.Bar.js
+SHA1-Digest: WBnAKlPazUkhvoaomyLkYB/VupE=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_lt.js
+SHA1-Digest: rZrW2lvt7pvntyYADScTyy2LCiE=
+
+Name: assets/www/bower_components/framework7/src/less/ios/framework7.i
+ os.colors.less
+SHA1-Digest: enmVtZSolZR47YFWPgwLk/XmOpA=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-email-mat
+ erial.svg
+SHA1-Digest: orJRLKcAmE92s0+OVfWSdCco5nE=
+
+Name: assets/www/bower_components/jquery/src/queue.js
+SHA1-Digest: 5w8TKt3/vjoIKWC5EHS7Xe5+T8E=
+
+Name: assets/www/bower_components/framework7/src/js/push-state.js
+SHA1-Digest: WLlzrthZyf11q4hmqiUmQUbZWuM=
+
+Name: assets/www/bower_components/jquery/src/ajax/xhr.js
+SHA1-Digest: rqKTP5mUHSQWDXQ0pPmPEeTn0uo=
+
+Name: assets/www/bower_components/chartjs/LICENSE.md
+SHA1-Digest: xdyBN0dSzO6mKlZq3/6Tjj8QD+c=
+
+Name: assets/www/bower_components/jquery/src/selector-native.js
+SHA1-Digest: bWEZiPH34Z5+qsrm6/NRiRtPmBs=
+
+Name: assets/www/assets/img/favicons/apple-touch-icon-114x114.png
+SHA1-Digest: Q00orKeCooN9SG5MFqM7SVeVGGE=
+
+Name: assets/www/assets/fonts/OpenSans-ExtraBoldItalic-webfont.eot
+SHA1-Digest: weqTNo55GfvYyhEbF3wuC3MMae4=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_pt_BR.js
+SHA1-Digest: ovPm/22Ckt0qsCDmR9P3vwfznfo=
+
+Name: assets/www/bower_components/swiper/src/js/wrap-end.js
+SHA1-Digest: c1ullCLEE34n18KuxPjQv1MrMeQ=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_tj.js
+SHA1-Digest: OZXvA8ILHowEOdZB+Rtob5c9d+8=
+
+Name: res/drawable-xxhdpi-v4/ic_action_remove.png
+SHA1-Digest: 9Utk4+aXETSKYQP8/+rs1q75Fn8=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/pos
+ tcodeUK.js
+SHA1-Digest: 2Zfh/ArfzAy0hRTXvgLTI5K03Os=
+
+Name: assets/www/bower_components/framework7/src/less/material/calenda
+ r.less
+SHA1-Digest: 9hx1Mxe1soo1x3DAl9uQJtsbmp8=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-toggle-ma
+ terial.svg
+SHA1-Digest: YLV+K/LGRg+wFj73qUK3VMO8+7A=
+
+Name: assets/www/bower_components/jquery/src/css/curCSS.js
+SHA1-Digest: 3IdPBBEkfUgUtrnprzTfhbZMzvo=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/MediaFile.js
+SHA1-Digest: g7qFQqZ1iHcXSBhzCnfz987pZuM=
+
+Name: assets/www/bower_components/framework7/src/less/material/searchb
+ ar.less
+SHA1-Digest: DtYFZWkM74rmcZXDeBkDymPjVGo=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/swi
+ per-gallery.jade
+SHA1-Digest: ka/GaDL7SffIEgYpntqwqei0Xro=
+
+Name: res/drawable-xxhdpi-v4/ic_action_next_item.png
+SHA1-Digest: VCkMmGnd+0Re/Zh47VJcIYoV8xY=
+
+Name: assets/www/plugins/cordova-plugin-file/www/requestFileSystem.js
+SHA1-Digest: WWnfXf5i4wabEkukpSCXnwXYCMc=
+
+Name: assets/www/assets/themes/lake/img/bg.jpg
+SHA1-Digest: 4nO9ymD95fJKl4CTidNiuOUkhxQ=
+
+Name: assets/www/assets/img/favicons/browserconfig.xml
+SHA1-Digest: fQ+KN+AUhfYcQaOSnqx4vOerBgU=
+
+Name: assets/www/bower_components/framework7/examples/split-view-panel
+ /jade/left-page-1.jade
+SHA1-Digest: 0a1ApOl1FkJ99GSO8pwsiuIXyC0=
+
+Name: assets/www/bower_components/chartjs/CONTRIBUTING.md
+SHA1-Digest: LXOET63isqA/cfplsMQvIYz6cnI=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/bar
+ s-tabbar.jade
+SHA1-Digest: 6398FEVM5TZJSbzqBC4/VvkQwLg=
+
+Name: assets/www/assets/img/tmp/gal_4.jpg
+SHA1-Digest: voDdSdN+wH4VbFgwDjKlrKlJk9c=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/int
+ eger.js
+SHA1-Digest: 0Jhp+dACoWeXH07g8x8rRAOt4c4=
+
+Name: assets/www/bower_components/jquery/src/event.js
+SHA1-Digest: 2c5j+aMXrPlzSEwlCxhEqx6dzjE=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/swiper-horizontal.jade
+SHA1-Digest: ct5P2zqlU9hOe2dHdEjf/A7yPMQ=
+
+Name: assets/www/assets/fonts/roboto-regular-webfont.eot
+SHA1-Digest: 6Z6Q6gXsSnGjv8WOFc+veIbfZTE=
+
+Name: assets/www/plugins/cordova-plugin-dialogs/www/android/notificati
+ on.js
+SHA1-Digest: 2boqPnuoh6dEZ9ZY6Pzkz1tXclk=
+
+Name: res/drawable-mdpi-v4/ic_action_previous_item.png
+SHA1-Digest: V4xdGX7AIrCXT0Ii5jKxZlGz/aE=
+
+Name: assets/www/bower_components/framework7/examples/template7-pages/
+ car.html
+SHA1-Digest: 7UiL+ckXj9GoPs/9SoDq6XizpEo=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/for
+ ms-selects.jade
+SHA1-Digest: iG2aWBmMSQsFaDuHtWGI3+chU+I=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/now
+ hitespace.js
+SHA1-Digest: aiWKBI89wU15wCi6nBP0WLrLwDw=
+
+Name: assets/www/bower_components/chartjs/docs/01-Line-Chart.md
+SHA1-Digest: MnCWcPGUXTEkgicgRv7P6cqB0SQ=
+
+Name: assets/www/plugins/cordova-plugin-device-orientation/www/Compass
+ Error.js
+SHA1-Digest: 8pmA5I7uQfl6y7pYRu0qlSqEa64=
+
+Name: assets/www/bower_components/jquery/src/effects/animatedSelector.
+ js
+SHA1-Digest: duEcq+4cWgORY0dYgOnobQLshME=
+
+Name: assets/www/bower_components/framework7/examples/template7-pages/
+ less/my-app.less
+SHA1-Digest: f52VS5y4HtrpwJSlqJEZcv+xyeE=
+
+Name: assets/www/cordova-js-src/android/nativeapiprovider.js
+SHA1-Digest: 38WtpiAj5vmsHOuyTUe8kYOXH14=
+
+Name: assets/www/assets/fonts/roboto-bolditalic-webfont.eot
+SHA1-Digest: jjpbvTG+/RaaFTsBIs1P33fR8qg=
+
+Name: assets/www/bower_components/jquery/src/var/push.js
+SHA1-Digest: 5EPOuv3HG9Cepo3u37MLsnX3KMQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/lazy-load.jade
+SHA1-Digest: rdZrMKimulvYvfxCqi9/vl5KFA8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/bar
+ s-tabbar-labels.html
+SHA1-Digest: Z+GcbOmrQIp7r72ZXDABMNIC1QU=
+
+Name: assets/www/bower_components/font-awesome/less/list.less
+SHA1-Digest: Uv4JgsrZtaquHOmGflEg/aAzkFM=
+
+Name: assets/www/assets/fonts/roboto-blackitalic-webfont.woff2
+SHA1-Digest: UnK2n1hfMzBvtc/l8tYVAeQykms=
+
+Name: assets/www/assets/img/tmp/temp_3.jpg
+SHA1-Digest: Cpo/+7Mcc4FWoZ3NWhih9z7ExYg=
+
+Name: assets/www/bower_components/font-awesome/scss/_animated.scss
+SHA1-Digest: Hw1+8IrXe0108SVlsQfVnV7tMfA=
+
+Name: assets/www/bower_components/framework7/dist/css/framework7.ios.c
+ ss
+SHA1-Digest: Fjf7upVnRjbZ9Gk4gti0DKLJIhM=
+
+Name: assets/www/bower_components/jquery-validation/dist/additional-me
+ thods.js
+SHA1-Digest: DDnGS2me+kb/NkyItgFKE6HP1Ig=
+
+Name: assets/www/bower_components/chartjs/docs/07-Notes.md
+SHA1-Digest: CuLvioiaMEuzTbG0v5Cknf5Sl/Y=
+
+Name: assets/www/bower_components/framework7/src/less/material/modals.
+ less
+SHA1-Digest: xq8zcTt+fIinD7kE6WaJDHDT0Co=
+
+Name: assets/www/assets/img/favicons/apple-touch-icon.png
+SHA1-Digest: nWeyo6yAx8BkJEWEeA8U93OkTRM=
+
+Name: assets/www/bower_components/framework7/examples/template7-pages/
+ index.html
+SHA1-Digest: bDUcR/pT/Y5TBEGKAuu6RIz+Cz8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/for
+ ms-buttons.html
+SHA1-Digest: oRrU/2EDnvblAd3fIAY7zRbq98M=
+
+Name: assets/www/bower_components/jquery/src/data.js
+SHA1-Digest: LpLLdxGDoKEFeku2+2X7ddg8rUs=
+
+Name: assets/www/assets/js/min/app.js
+SHA1-Digest: /V+BnSe32ey5cVfLVFK2h3VhRr0=
+
+Name: assets/www/assets/fonts/roboto-lightitalic-webfont.ttf
+SHA1-Digest: BWD1W2VjQS2tnx7CMFbwVVeZdDw=
+
+Name: assets/www/plugins/cordova-plugin-device-motion/www/acceleromete
+ r.js
+SHA1-Digest: 69Dy0VoudFfi2L7y7Onfs1iOZvM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/swiper-h
+ orizontal.html
+SHA1-Digest: RtfV5rtDjBeKf0gUKnamG5ziXok=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/swiper-fade.jade
+SHA1-Digest: NTyWzE7lexHEdshzRibK2cAAuV8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/color-themes.jade
+SHA1-Digest: ZnV6uk/rehrHwUF2o2C3c9tx78Y=
+
+Name: assets/www/bower_components/jquery/src/attributes/attr.js
+SHA1-Digest: dmQODryzJjRWU9a+ZTtAWUrm67U=
+
+Name: assets/www/bower_components/jquery/src/traversing/findFilter.js
+SHA1-Digest: FzEc73P1ktwbemxpDMdAdUC2W+Q=
+
+Name: assets/www/assets/fonts/roboto-thinitalic-webfont.eot
+SHA1-Digest: UQ4sJXGdg03EskJKujUGPLSkTY0=
+
+Name: assets/www/assets/img/icon-menu-user.png
+SHA1-Digest: DfmSmHfe53X7Rb2XdOv3ktFpKXg=
+
+Name: assets/www/bower_components/jquery/src/serialize.js
+SHA1-Digest: DnoggQ3l1OfQPuwMAAb6hIglqKw=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-url-ios.sv
+ g
+SHA1-Digest: xiM1X1BOa/nZtfiL1ixbGDrCxT4=
+
+Name: assets/www/bower_components/chartjs/README.md
+SHA1-Digest: rexK1SW0fUS9RR9D/iC/haAExcU=
+
+Name: assets/www/bower_components/jquery/src/effects/Tween.js
+SHA1-Digest: rsn+P9/wRppvTx32iiI8MHpgpKo=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/CaptureAudio
+ Options.js
+SHA1-Digest: 9kuEzl3DYTK/8PpSpGDEjtgeb6A=
+
+Name: assets/www/assets/js/app.js
+SHA1-Digest: UpgYg6w2Twa4x+LUOnwQtMAc05M=
+
+Name: assets/www/bower_components/swiper/bower.json
+SHA1-Digest: xB8BWo/Yo26UJskrnXGtFKDZRME=
+
+Name: assets/www/assets/fonts/OpenSans-SemiboldItalic-webfont.ttf
+SHA1-Digest: eBG+G0wi/kUInSro+U7ayCOTtBM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/cards.jade
+SHA1-Digest: 56+DNFkZkDBni7bYRIta5K8YAgM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/med
+ ia-lists.html
+SHA1-Digest: 6RKbFDCx/KirdEa5s3z2dMLlxyg=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/swipe-de
+ lete.html
+SHA1-Digest: GAezafvRC+G1WrRQRegVvk+pP7M=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ ethods_fi.js
+SHA1-Digest: D2h/W+uORQgFYLkfJ6oSJgcVg0k=
+
+Name: assets/www/bower_components/framework7/src/js/material-preloader
+ .js
+SHA1-Digest: Ulfze7L8O5uuRtPJ+WytlZnH+Qw=
+
+Name: assets/www/bower_components/framework7/src/less/ios/swiper.less
+SHA1-Digest: iYAm53yoxHG8khJahJYsk/dGdFQ=
+
+Name: assets/www/bower_components/framework7/examples/split-view/js/my
+ -app.js
+SHA1-Digest: mT/m/S28bnrZX34gPn6lnB5mEwo=
+
+Name: assets/www/assets/fonts/roboto-bold-webfont.woff
+SHA1-Digest: kifY1CCwoKOg/F0496ttN4TBrgo=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/abo
+ ut.html
+SHA1-Digest: xPG4C5mS8rFqzXq21fl+1e4ngkA=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_es.js
+SHA1-Digest: riuqTd8Ut1mgfv2ll2hj/XQX+60=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/swi
+ per-control.html
+SHA1-Digest: kzsTOVUu6TRWIW6h1+Xl2AYQ4rQ=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/nif
+ ES.js
+SHA1-Digest: ajmUwJhySabieytdKywgqI9nWzU=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/tim
+ e12h.js
+SHA1-Digest: zcUFN19rcCjERXP9zh1xHNRkx2c=
+
+Name: assets/www/bower_components/jquery/src/intro.js
+SHA1-Digest: dl4WXEIfA0NG0JiMRa6ow5vF2iI=
+
+Name: assets/www/assets/img/tmp/gal_3.jpg
+SHA1-Digest: NkyXnyCr6ZKsRWIGE0SPvPxnHv0=
+
+Name: assets/www/bower_components/framework7/examples/template7-pages/
+ projects.html
+SHA1-Digest: oSv9TClsT7v7XNiDJ/8WxdWWmXY=
+
+Name: assets/www/bower_components/framework7/src/js/messagebar.js
+SHA1-Digest: 1AP+69LG20H9c8PZiettoXylXK4=
+
+Name: assets/www/cordova-js-src/android/promptbasednativeapi.js
+SHA1-Digest: JIRUfP79NI5t078vJIq/tww/QEA=
+
+Name: assets/www/assets/fonts/roboto-light-webfont.ttf
+SHA1-Digest: VL2WnNvTvXafRlN/OoLtPFPJEg0=
+
+Name: assets/www/assets/fonts/roboto-bolditalic-webfont.ttf
+SHA1-Digest: ZEeLYtYLzJxd6Hu11rFoLPMLd+M=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/infinite
+ -scroll-load.php
+SHA1-Digest: NvmIjUfifvyLq3GD4cS2pzTVv9M=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_he.js
+SHA1-Digest: x1S/V+1SL3x+n8UnBdKRcc4K7FY=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/swiper.jade
+SHA1-Digest: RfJlN69ax2DIP5apb+8CrUOTmeE=
+
+Name: assets/www/assets/fonts/roboto-lightitalic-webfont.woff
+SHA1-Digest: Jw7Mb1vGV/h/9iHzuRNjT/KTrLo=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/sor
+ table-list.jade
+SHA1-Digest: QVWFpFlSvajMSV/64zpE3GZWnkw=
+
+Name: assets/www/bower_components/jquery/src/attributes.js
+SHA1-Digest: JDVdmn8oqbrolk5q4XIdC3jrefE=
+
+Name: assets/www/bower_components/framework7/src/js/wrap-end.js
+SHA1-Digest: q3OQdDMiQQmSRzsuWDSNYK153bk=
+
+Name: assets/www/bower_components/jquery/src/var/strundefined.js
+SHA1-Digest: G1gsv7wxlxWoCHZ3hd2RfU5CXAw=
+
+Name: assets/www/bower_components/framework7/src/less/material/toolbar
+ s-pages.less
+SHA1-Digest: celgp29OCCLBSunZ/A1RqT8P1Ow=
+
+Name: assets/www/assets/fonts/roboto-black-webfont.woff
+SHA1-Digest: jooVPuNEWTzD4jkGLTO3JQhyDoA=
+
+Name: assets/www/assets/fonts/roboto-thin-webfont.eot
+SHA1-Digest: gi2UMl7kDN+KqxyjhdkYYIAVDCc=
+
+Name: assets/www/assets/fonts/roboto-light-webfont.woff
+SHA1-Digest: Zit76V/Wyju1EYMhUyZqLHzuaDU=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/swi
+ per-scrollbar.html
+SHA1-Digest: Q3J3ZYmYdSb1CUr8qUu+3u3pGq0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/bars-no-
+ navbar.html
+SHA1-Digest: rlg70D/GOYkndMlWVmm2XP34P94=
+
+Name: assets/www/assets/img/tmp/temp_2.jpg
+SHA1-Digest: eMuaRCiHAm8GcWRYO9pwwtGq0iY=
+
+Name: assets/www/bower_components/framework7/dist/services.html
+SHA1-Digest: DjbFV6UbnHggs2W26kGl1XCd5Kk=
+
+Name: assets/www/bower_components/swiper/src/js/wrap-start.js
+SHA1-Digest: za2xNclwDhAfK4kuGhS8LrMFhjg=
+
+Name: assets/www/bower_components/jquery/src/attributes/support.js
+SHA1-Digest: FC7cCgDKAnke8ETwqvfG+K4EYkQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/log
+ in-screen-embedded.html
+SHA1-Digest: /erFveuJ2ezTs1wwlot6WBIN4vg=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/img/lock
+ .jpg
+SHA1-Digest: xpwBmjQ24A4PtgPDLIxMSO95I/k=
+
+Name: assets/www/assets/css/_mixins.scss
+SHA1-Digest: g5qJR9Cr1v9ecuZRCPPNrUMKPAY=
+
+Name: assets/www/bower_components/jquery/src/core/access.js
+SHA1-Digest: db+bklKHlhwV7A0m0nCIHv2CDqA=
+
+Name: assets/www/assets/fonts/roboto-mediumitalic-webfont.woff
+SHA1-Digest: pKtOHxGkNK2PJhsXyppI0YSsaKo=
+
+Name: assets/www/assets/fonts/OpenSans-Bold-webfont.eot
+SHA1-Digest: Otmv6uDv3O/H/JqCssEJwGC9bJ8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/photo-browser.jade
+SHA1-Digest: LIDTxvPjng61dkQyMtj3bM4aEso=
+
+Name: assets/www/bower_components/framework7/src/less/material/forms.l
+ ess
+SHA1-Digest: gGLgGuN9ZO4o8YTaH4MtxpCpruI=
+
+Name: assets/www/assets/fonts/kkicons.woff
+SHA1-Digest: 8Y03CqDdZkEvi0o4ZRHX/3D2+rs=
+
+Name: assets/www/bower_components/framework7/src/less/ios/messages.les
+ s
+SHA1-Digest: 2aAKKoGx1Q4vAjFBch7ZJrQpptw=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/swiper-loop.jade
+SHA1-Digest: 1Ku2l2aOXFtdy2KRYgMnJuWp3U8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/js/
+ kitchen-sink.js
+SHA1-Digest: WiI8yZCGZGiFJ7IAL0KpGF6d67I=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-settings-
+ material.svg
+SHA1-Digest: Z1BTjX1+KeGWd+JUp5seu/w0V8k=
+
+Name: assets/www/admob_index.html
+SHA1-Digest: rflWfRyXaEooFZgpbYjWztgiOng=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/bar
+ s-tabbar.html
+SHA1-Digest: P2R+eeaG5qvHYpXJIhxNKfd9RQ0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/grid.htm
+ l
+SHA1-Digest: b1qVfxky5mxiqrd1KHjeGxCdZgI=
+
+Name: assets/www/assets/img/favicons/android-chrome-192x192.png
+SHA1-Digest: s+rm5apaYNjd4T95JuggpnJ12QI=
+
+Name: assets/www/bower_components/chartjs/docs/04-Polar-Area-Chart.md
+SHA1-Digest: Rgi8+utdRrMZVumRf/xGzrUlIW0=
+
+Name: assets/www/bower_components/framework7/src/less/material/statusb
+ ar.less
+SHA1-Digest: /KOVMc3/JsmVGEKjtlRLsdEgBSg=
+
+Name: assets/www/bower_components/framework7/dist/css/framework7.mater
+ ial.css
+SHA1-Digest: G8KORigtPc53REounOObl0GSQTU=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/lis
+ t-view.jade
+SHA1-Digest: /WylDuIBLmFVPksLmOa7jebXrCM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/vir
+ tual-list.html
+SHA1-Digest: l/2FznUUaAuKWYle+t+2mKFoqiA=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/bar
+ s-sub-navbar.jade
+SHA1-Digest: vN3ogtKqkBauRwPnkvfbAwzfIyU=
+
+Name: assets/www/assets/fonts/OpenSans-ExtraBoldItalic-webfont.ttf
+SHA1-Digest: xK7jsOUFt2+2lzl8c7wloPMLCTI=
+
+Name: assets/www/bower_components/framework7/src/js/dom7-utils.js
+SHA1-Digest: iP6PRGRj1+2iDRgZv5Cw3LYCH+4=
+
+Name: assets/www/assets/img/icon-db-blog.png
+SHA1-Digest: ACZguQl/gw0fytLaqXEus++do1E=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-name-ios.s
+ vg
+SHA1-Digest: oHLMJJkWdkj/bKJQgZsiYrG15rQ=
+
+Name: assets/www/bower_components/jquery/src/var/hasOwn.js
+SHA1-Digest: FsLhAxl5n9a/07XPLFkDMUjBeO4=
+
+Name: assets/www/bower_components/framework7/examples/split-view-panel
+ /jade/left-page-2.jade
+SHA1-Digest: uKP48ivzxXYlNRJ2JPjeD029J88=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/picker.jade
+SHA1-Digest: TAzh/2q2mwrUAL/zZazD4Lo7ZBs=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/login-sc
+ reen-embedded.html
+SHA1-Digest: vi9/ch53PAqo8j4sncOAiAUxjf4=
+
+Name: assets/www/bower_components/framework7/src/js/sortable.js
+SHA1-Digest: oEqlfpl4++VugSQzaWNRe4T7KDg=
+
+Name: assets/www/bower_components/framework7/src/less/material/message
+ s.less
+SHA1-Digest: WF5/XB4+50S6W6QaywLzxmlrrWw=
+
+Name: assets/www/bower_components/font-awesome/less/core.less
+SHA1-Digest: HN3j0Q1c8aPsdEWpMtJ+20M6VtU=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/forms.ht
+ ml
+SHA1-Digest: m3CRfGUP+/VOG7TSVo77h4Rd9Y8=
+
+Name: assets/www/bower_components/jquery-validation/src/core.js
+SHA1-Digest: yU5vIr7yzjHu5BvSAFtvgc4ZMNQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/bar
+ s-tabbar-labels.jade
+SHA1-Digest: 5KSzbZiNKfRZrF41m39TSbBPF5U=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_ru.js
+SHA1-Digest: RcODJwgPUl4AtJugGJjKunfhaak=
+
+Name: assets/www/assets/img/icon-lock.png
+SHA1-Digest: 3fxyzGQU5g1pFD0fnsqXeHjP1iM=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_no.js
+SHA1-Digest: hA8NKcdOv/j6ZQVdYBONBoLsx2w=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/swiper-s
+ crollbar.html
+SHA1-Digest: ueBfWtuXM6fftXQgc0h7CM0zmM0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/swi
+ per-horizontal.html
+SHA1-Digest: s/cGahFIxIynt4W0mTGoiAA8Ok4=
+
+Name: assets/www/bower_components/jquery/src/dimensions.js
+SHA1-Digest: bhY9JlcGwMwLDzamHJCNKq1bX/0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/swiper-vertical.jade
+SHA1-Digest: XUgYWyZNX0o9QHF2AGSaEZNLims=
+
+Name: assets/www/bower_components/swipebox/demo/bagpakk.min.css
+SHA1-Digest: cB6+/OXhswlasPI9rtGWnHqFrL4=
+
+Name: assets/www/bower_components/framework7/examples/template7-pages/
+ jade/index.jade
+SHA1-Digest: 1Vr1ZihhWttPift/UkqiNwnYsK4=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/virtual-list.jade
+SHA1-Digest: C8GAZj9YUPHAmJR+9CD4mpsTakY=
+
+Name: assets/www/bower_components/framework7/dist/img/i-f7-material.pn
+ g
+SHA1-Digest: fup2sNyyhIajsJ6+vVxIKYkvuaA=
+
+Name: assets/www/bower_components/chartjs/samples/pie-customTooltips.h
+ tml
+SHA1-Digest: TAwEINqbYy34I+1XvWVGyAmiJ/s=
+
+Name: assets/www/bower_components/swiper/dist/css/swiper.min.css
+SHA1-Digest: N4Rs3r4KFNE2/oyqyOEPg6c4w2Q=
+
+Name: assets/www/assets/img/tmp/gal_2.jpg
+SHA1-Digest: qmSVNcriXXIkiEj7pBgy+pYRqRY=
+
+Name: assets/www/bower_components/font-awesome/scss/font-awesome.scss
+SHA1-Digest: iufZz6xHu1Z2WQXHyopfAxKtuAE=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-password-i
+ os.svg
+SHA1-Digest: aE2WSseyTCg+HI4BKSR2MJs1rgo=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/bars-sub
+ -navbar.html
+SHA1-Digest: 8phqi3SYRr6i22VFW5dPc/R2dyo=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/photo-br
+ owser.html
+SHA1-Digest: 4NhnNAS0PPJDG/15LBto5MsTFfY=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_ge.js
+SHA1-Digest: cUhiFrnaN2Nr/R1ebn7Tb9YDWr8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/swi
+ per-3d-cube.jade
+SHA1-Digest: TqvVFSW8nwBfOc15mFd3M4ijy2I=
+
+Name: assets/www/plugins/cordova-plugin-file/www/android/FileSystem.js
+SHA1-Digest: KSsOiqUtCvmRGaoUwlx0i1u+ccs=
+
+Name: assets/www/bower_components/framework7/src/less/ios/calendar.les
+ s
+SHA1-Digest: bFi7ZzZKI5n5LT4j91n9eGPci2Y=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_kk.js
+SHA1-Digest: MOhdG2BDoNQ5TemFhRthPTusW+8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/ind
+ ex.html
+SHA1-Digest: 8hhottylcCnxSl35Nsex8yYFgfY=
+
+Name: assets/www/assets/img/favicons/favicon-96x96.png
+SHA1-Digest: 3A90D2VBFsO+NBYwgFRBbR114mg=
+
+Name: assets/www/bower_components/jquery/dist/jquery.min.js
+SHA1-Digest: t2xmknUmTKtgkVdR5Hb/+NRzivo=
+
+Name: assets/www/css/index.css
+SHA1-Digest: N6YHp1iN/uYTIqkQjm7UYE+rVzU=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/vin
+ US.js
+SHA1-Digest: +bqPMvZXeTyOISwGsNolMLRLRew=
+
+Name: assets/www/bower_components/swiper/src/less/swiper.less
+SHA1-Digest: a547heGaW7cuhlhrwQ+rXlmQKfQ=
+
+Name: assets/www/assets/fonts/roboto-thinitalic-webfont.ttf
+SHA1-Digest: j9BpH+6LUDhTT87aZkWckHUW1ik=
+
+Name: assets/www/bower_components/jquery/src/data/var/data_user.js
+SHA1-Digest: AbAkjjkHFAkWzSC0R5BKWTtpnP8=
+
+Name: assets/www/plugins/cordova-plugin-file/www/DirectoryEntry.js
+SHA1-Digest: gwhPqe96kv1/TokPAQdGnQy52Kw=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_lv.js
+SHA1-Digest: AknqygnODHAJvb5on5sPs3fFEpE=
+
+Name: assets/www/bower_components/framework7/src/js/wrap-start.js
+SHA1-Digest: NtQI0rWG/aACBF4uCDQ4yHmZU5s=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/forms-el
+ ements.html
+SHA1-Digest: YJBOSCVebgBXXm6jDFK5X28CCNY=
+
+Name: assets/www/bower_components/framework7/src/js/template7.js
+SHA1-Digest: a2pSIEcRXqUKEnXXA0sFutYGYXg=
+
+Name: assets/www/assets/fonts/OpenSans-ExtraBold-webfont.woff
+SHA1-Digest: /v4G8R9dE1QEVrTDLino4DRrljM=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_sl.js
+SHA1-Digest: fIyPmOMa8L/kuTYB3Y3LWY2Y1y0=
+
+Name: assets/www/plugins/cordova-plugin-vibration/www/vibration.js
+SHA1-Digest: LDER4hkmcRhsxwpbt4It3N6rqS8=
+
+Name: assets/www/bower_components/framework7/src/less/material/notific
+ ations.less
+SHA1-Digest: tda1jOnsff5NmZ1qRoBFSSa2BXo=
+
+Name: assets/www/bower_components/framework7/src/js/swiper.js
+SHA1-Digest: vepERfsBSTf4RexFSeDtRCd+dwU=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/img/moun
+ tains.jpg
+SHA1-Digest: vM8e+rqHd8WRtoTngofHr8iuA00=
+
+Name: assets/www/bower_components/framework7/src/less/ios/badges.less
+SHA1-Digest: cdR4QullYkKIZg54c1Cp76lu/oA=
+
+Name: assets/www/assets/fonts/OpenSans-Light-webfont.ttf
+SHA1-Digest: Z5UPFespYdQ1Eh+pWKm7r97Pc8o=
+
+Name: assets/www/assets/img/favicons/android-chrome-72x72.png
+SHA1-Digest: pOrK/Qf8xXQuzLhcYb1jecKC038=
+
+Name: assets/www/bower_components/framework7/src/js/modals.js
+SHA1-Digest: 1BjRPDc2D27C53dGYPQEjw6wXus=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/bar
+ s-sub-navbar-title.html
+SHA1-Digest: kj+Bp8spYrAGrSRhYH5nkIAoDU4=
+
+Name: assets/www/bower_components/framework7/src/less/ios/framework7.i
+ os.less
+SHA1-Digest: c/fV9gv3uPnqNQrunKZ/cTIvQCY=
+
+Name: assets/www/assets/themes/lake/style.scss
+SHA1-Digest: +pQIEazhgWn0kdkW8W5n1a3Mga4=
+
+Name: assets/www/assets/fonts/roboto-thin-webfont.ttf
+SHA1-Digest: ham8f9kVCrXc7oYhZWNB+fVafu8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/swiper-multiple.jade
+SHA1-Digest: JIoa55ETIwb04suyFlg8cfanPso=
+
+Name: assets/www/bower_components/jquery-validation/Gruntfile.js
+SHA1-Digest: ZfCcLfJpscDssSm4vLMGe5S9b9E=
+
+Name: assets/www/bower_components/swiper/src/js/controller.js
+SHA1-Digest: fwp6EgY5KjVvytm8zeAdOekwGKM=
+
+Name: res/drawable-xhdpi-v4/ic_action_previous_item.png
+SHA1-Digest: uG+ZFVmiP0FBZK49mU+oFNFtrpk=
+
+Name: assets/www/bower_components/jquery-validation/package.json
+SHA1-Digest: Lalqi2KpFqPdh881tg4qMT3g85A=
+
+Name: assets/www/bower_components/framework7/examples/tab-bar/jade/ser
+ vices.jade
+SHA1-Digest: D+qt0QIpMk8SR4GrIFVXYEPukYE=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/ipv
+ 6.js
+SHA1-Digest: UpwpyWKYHzEaQuMxa2pG19sWwrA=
+
+Name: assets/www/bower_components/font-awesome/scss/_variables.scss
+SHA1-Digest: y34jhaCfXn6X2D4HJDyMRKULf74=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/media-lists.jade
+SHA1-Digest: LKMVlQxq7ci7j8wygYkIyIaXGKk=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/swi
+ per-scrollbar.jade
+SHA1-Digest: VmzFAgS9k+nsAMk9N7iUEnhvwCg=
+
+Name: res/drawable-port-mdpi-v4/screen.png
+SHA1-Digest: +XK82lhBalfSkgDBazQdYFh/XJY=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/bar
+ s-no-toolbar.jade
+SHA1-Digest: duV/ot9U8dm074X7bKHiwqptWGw=
+
+Name: assets/www/bower_components/swiper/src/js/wrap-end-umd.js
+SHA1-Digest: GGfo6hlNghaucfwzMWAicPwlVZU=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/ski
+ p_or_fill_minimum.js
+SHA1-Digest: 1iMRR3fJVgiWVYzJ4VR/qSwNM1I=
+
+Name: assets/www/bower_components/jquery/src/sizzle/dist/sizzle.js
+SHA1-Digest: LJdiigaygXAnPiiE6akPsgSuPz4=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/gir
+ oaccountNL.js
+SHA1-Digest: ZNeosk8Vak4PrL4cYaltOPsZF6s=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/con
+ tacts.jade
+SHA1-Digest: NcyS24DP5cIHhEB1PsuXUsOvQTg=
+
+Name: assets/www/bower_components/Tweetie/index.html
+SHA1-Digest: bljUQi52RX2wQRpamxsFDhZY+o0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/pul
+ l-to-refresh.jade
+SHA1-Digest: l+AddJPgwtBSFYMsvs2QbBUQv8Q=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_hr.js
+SHA1-Digest: 1ACj5vNCLMs/TprvbM1OHAUIXTc=
+
+Name: assets/www/assets/img/_logo-login.png
+SHA1-Digest: uzIEenBd+xB7VbpKq3Z6L5QzM6Q=
+
+Name: assets/www/bower_components/jquery/src/data/Data.js
+SHA1-Digest: CQGnTTDmk6OzL4S8h2A7M4HSvXU=
+
+Name: assets/www/bower_components/swiper/component.json
+SHA1-Digest: 32dJoz3kgE9Ocbrv+k/Z1SlZ9Hw=
+
+Name: assets/www/bower_components/swipebox/lib/ios-orientationchange-f
+ ix.js
+SHA1-Digest: ZLLbG7Qw/fTbY95CdBu1UlY5rWk=
+
+Name: assets/www/bower_components/chartjs/src/Chart.Line.js
+SHA1-Digest: RArE67IwJymxKwhr4+3vQZoPGNo=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-comment-ma
+ terial.svg
+SHA1-Digest: GxEiERo+eGfSrZdWEoV3BHp5wnE=
+
+Name: assets/www/assets/fonts/OpenSans-Light-webfont.woff
+SHA1-Digest: ya4xbkuYAw1On2RglD/a4yVBNNo=
+
+Name: assets/www/bower_components/framework7/src/less/ios/accordion.le
+ ss
+SHA1-Digest: hW07yLmtGkopab/RwBGkACWCkss=
+
+Name: assets/www/bower_components/jquery/src/ajax/script.js
+SHA1-Digest: qZr3rfK6xpPtXlDjkJju/Qh6skA=
+
+Name: assets/www/assets/fonts/OpenSans-ExtraBoldItalic-webfont.woff2
+SHA1-Digest: 4nYj4mpyj1D3A4hl9EOWr//ieFg=
+
+Name: assets/www/bower_components/framework7/src/img/i-f7-material.png
+SHA1-Digest: Q3YZkNDrXRWTTbWWhC6SP3dp6xU=
+
+Name: assets/www/bower_components/framework7/dist/js/framework7.js.map
+SHA1-Digest: 0ENX1mQE+10icg4/gRmtPdky9B4=
+
+Name: assets/www/bower_components/framework7/src/js/dom7-outro.js
+SHA1-Digest: Ql+eG2hIDqWarKqv/Q6BL1J57+U=
+
+Name: assets/www/bower_components/framework7/src/js/navbars.js
+SHA1-Digest: 5ejg1qCYDHG0WpzwtJqBWXIuCEU=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-calendar-
+ material.svg
+SHA1-Digest: VxZ8peBP8QjvRDotClirAm16DmE=
+
+Name: assets/www/plugins/cordova-plugin-file/www/DirectoryReader.js
+SHA1-Digest: XeGGudeXImKNQxNTEiavz0G/thQ=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-name-mater
+ ial.svg
+SHA1-Digest: +6NhQQ83qV8LAc1o9ybMxktfd1I=
+
+Name: assets/www/bower_components/framework7/src/less/material/cards.l
+ ess
+SHA1-Digest: iQgC2IhjlzlB1fowOObAE8ur9oA=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/login-screen-embedded.jade
+SHA1-Digest: rAvXrDRYudzMdHoqAgU4d/Dv0nc=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/bar
+ s-hide.html
+SHA1-Digest: J/sSypMtTXMs1RiVCvrX0OmPE0c=
+
+Name: assets/www/assets/img/favicons/favicon.ico
+SHA1-Digest: sj8YKUisBiguv1Jkltroa+uhS/E=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/swiper-c
+ ustom.html
+SHA1-Digest: QTsrmjGGVIjhBqPUG2heYeyGGUc=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/forms-storage.jade
+SHA1-Digest: Mj5OcrpVLOgMRs1VgrQD/W+xMPY=
+
+Name: assets/www/assets/fonts/OpenSans-SemiboldItalic-webfont.eot
+SHA1-Digest: QPQSBEv4uCJI7ZS2gsEHC6GJrOM=
+
+Name: assets/www/assets/fonts/roboto-lightitalic-webfont.eot
+SHA1-Digest: jn3ugscNkuGMnWlhldhyhiCOV2Q=
+
+Name: assets/www/bower_components/framework7/src/less/ios/modals.less
+SHA1-Digest: wEKK5XOOHIjx2L/BPA62c6t2OfA=
+
+Name: assets/www/bower_components/framework7/src/less/ios/photo-browse
+ r.less
+SHA1-Digest: TntrBi76sBeGcAqFWMvfjTkGNYQ=
+
+Name: assets/www/bower_components/framework7/dist/css/framework7.mater
+ ial.min.css
+SHA1-Digest: IinenqHgdX6gf0ytvbiuiTLzY9E=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/forms-st
+ orage.html
+SHA1-Digest: qPTNsfx+SXi9nY6kT0Q88rpu/6c=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/swiper-custom.jade
+SHA1-Digest: gOY7zn04w7L/GkSuN1hwFP3a/U8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/pan
+ el-right2.html
+SHA1-Digest: y/5PfrEMMLkeXq/RW+ez4EI/x8M=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/messages.jade
+SHA1-Digest: sOFhII4xfL/5aoZpK5UmWiy22zk=
+
+Name: assets/www/bower_components/framework7/examples/split-view-panel
+ /left-page-1.html
+SHA1-Digest: LUbiSQnB7LJGtdsP2h3NpIvk6dg=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-password-
+ material.svg
+SHA1-Digest: m9MMo3EGCRwRS4+hY4VI8fSJgBc=
+
+Name: assets/www/bower_components/swiper/package.js
+SHA1-Digest: 8sfPKMRFoatI6ctnqZIQTurfTH4=
+
+Name: assets/www/assets/fonts/OpenSans-LightItalic-webfont.woff
+SHA1-Digest: 9U87JsezRchsVqakQPjzbWhVw0U=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/bars-sub-navbar-title.jade
+SHA1-Digest: yPT5R0FhKvfQNIVUQsZH/JP2qUE=
+
+Name: assets/www/assets/fonts/OpenSans-Bold-webfont.woff
+SHA1-Digest: 8HtmBwh1LxBXfU7oyUdNSxE/VIY=
+
+Name: assets/www/bower_components/framework7/src/less/material/picker.
+ less
+SHA1-Digest: GoaE2q2WDbIvfs1aMjKP94mWCdk=
+
+Name: assets/www/assets/fonts/OpenSans-ExtraBold-webfont.woff2
+SHA1-Digest: F731jciq56764UinaKXSGRBljIo=
+
+Name: assets/www/assets/fonts/kkicons.svg
+SHA1-Digest: 4vQIpNXAHUkPXNVJXhMy6l8v9AI=
+
+Name: assets/www/bower_components/font-awesome/less/mixins.less
+SHA1-Digest: qmjY76peBceAaYaLun8zdVBL9l8=
+
+Name: assets/www/bower_components/framework7/src/less/material/login-s
+ creen.less
+SHA1-Digest: Wn2dytfop3ARBaPmuBDoeTw0qn4=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/CaptureImage
+ Options.js
+SHA1-Digest: DP0hUWBn90A/pYjHEV129HKhTtQ=
+
+Name: assets/www/bower_components/swiper/src/js/parallax.js
+SHA1-Digest: Q8S+HiZhTAee5dVbQV5YbFN9L8I=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/pull-to-
+ refresh.html
+SHA1-Digest: x0bP+ll70b5vpawyb2060jRz5CE=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/img
+ /beach.jpg
+SHA1-Digest: xoesdXzTUstwiBnLGWe655F8pJM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/tra
+ nsitions.jade
+SHA1-Digest: FqyF2ykeYWawXoh3OgKRoK5Ny7Y=
+
+Name: assets/www/gulpfile.js
+SHA1-Digest: vsV03gonQBQKEhJOYgu5JgZJIdg=
+
+Name: assets/www/bower_components/framework7/examples/template7-pages/
+ contacts.html
+SHA1-Digest: eCPeV0Bxx7ubSOM9F+fmLyQg98Y=
+
+Name: assets/www/bower_components/font-awesome/scss/_icons.scss
+SHA1-Digest: eePYXOYaG4rrl6+mOwOxbB1UixE=
+
+Name: assets/www/assets/img/icon-bookmark.png
+SHA1-Digest: aD+tlmamAgo+8/01k1JbsnjG4xY=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/modals.jade
+SHA1-Digest: KJTaZKhmYH/za5nQWr/RbgwDIx8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/swi
+ per-lazy.jade
+SHA1-Digest: MOCIP4SK2tE0nBB0QYnfQMs5nIk=
+
+Name: assets/www/bower_components/jquery-validation/LICENSE.md
+SHA1-Digest: 4KXDUDRuB7KRC89OOOJNwTiiJd4=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/dat
+ eFA.js
+SHA1-Digest: QMJGIuiQGyPYnJjyZpOsooTvoKo=
+
+Name: assets/www/bower_components/chartjs/Chart.js
+SHA1-Digest: HSmvxkJRY2fklmlZAJ2DjaChbns=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/ban
+ kaccountNL.js
+SHA1-Digest: x3Lj1az4ackPR5mLhP+4SqNejmo=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/swi
+ per-space-between.html
+SHA1-Digest: jn9ILsCHB/AUeciuRXcK4N1EGnE=
+
+Name: assets/www/bower_components/framework7/src/js/f7-intro.js
+SHA1-Digest: kogrU1xwjneL2l5Hx7pWc71JekM=
+
+Name: assets/www/bower_components/swiper/src/js/swiper-intro.js
+SHA1-Digest: VXk+uxpN/cbbZ1dqHOKHKOK3tXw=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/inf
+ inite-scroll.jade
+SHA1-Digest: 4VLdjyQSL7/hQcoc3Fg7dvKx3Mo=
+
+Name: assets/www/plugins/cordova-plugin-device-orientation/www/Compass
+ Heading.js
+SHA1-Digest: 5pCJqsBHcsCDl6CiWaUJYLat33Q=
+
+Name: assets/www/bower_components/framework7/src/js/dom7-ajax.js
+SHA1-Digest: NoDnIEHzZoBh4Y9jesR4lgpK2L8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/messages
+ .html
+SHA1-Digest: T28coM2GdzQI/iIXAgUqFmONT6Y=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_it.js
+SHA1-Digest: m8N+RrQeqpntu1V29jc5pYueb3Q=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ ethods_de.js
+SHA1-Digest: qIujhdb+I2TNTsC83xd6Ce5Emsg=
+
+Name: assets/www/plugins/cordova-plugin-file/www/fileSystemPaths.js
+SHA1-Digest: 7z9fUNqbJjdlrbMrlUMqHKZn6j8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/img
+ /lock.jpg
+SHA1-Digest: HiU6beMo6ANK3C4cqfUAEkS9z/c=
+
+Name: assets/www/bower_components/framework7/examples/split-view/index
+ .html
+SHA1-Digest: rAtKO+eT0XJiFtqcvBJMtYEvULQ=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-email-mate
+ rial.svg
+SHA1-Digest: +AXk6aVUAKZVYR5VOhi1IUyvjOM=
+
+Name: assets/www/assets/img/acai.png
+SHA1-Digest: jp1jRz1Pxb1jTJ28tlv1sTYZ5oc=
+
+Name: assets/www/bower_components/font-awesome/fonts/fontawesome-webfo
+ nt.woff
+SHA1-Digest: HkcW+4DHqk4ktR/nYnOgODiWT+c=
+
+Name: assets/www/assets/img/favicons/android-chrome-36x36.png
+SHA1-Digest: AoAq3bdAwNMMQKy5eABN6qv8l9o=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/mod
+ als.html
+SHA1-Digest: CK1v6y5sjGTyjltA6D6LRgyx8Aw=
+
+Name: assets/www/bower_components/Tweetie/api/config.php
+SHA1-Digest: oyMGia6RwxeqoiBwVFP6OyXA0Y0=
+
+Name: assets/www/bower_components/jquery/src/ajax.js
+SHA1-Digest: yArravhVAUL39hz9XlZpLm2NwOI=
+
+Name: assets/www/bower_components/swiper/dist/js/swiper.jquery.umd.min
+ .js
+SHA1-Digest: tsQ3I7uJ5BZyXd8dZmdy3XFTAug=
+
+Name: assets/www/plugins/cordova-plugin-battery-status/www/battery.js
+SHA1-Digest: G46UltCwGR+T+3Lpj7/7pO7bfAo=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/bars.htm
+ l
+SHA1-Digest: 6Y2m27EdwvQRpRniJQkQtIZOa6o=
+
+Name: assets/www/bower_components/swipebox/bower.json
+SHA1-Digest: J9/d8VFSAOMiESnmjtFVAj4/HdY=
+
+Name: assets/www/bower_components/framework7/examples/split-view-panel
+ /about.html
+SHA1-Digest: VKOyZ4COGuXNswt/VXCVOOA7Atg=
+
+Name: assets/www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.
+ js
+SHA1-Digest: kAliA8xKZB4hOlGRhXVHyOSbm8k=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/forms-bu
+ ttons.html
+SHA1-Digest: I+hWBEmcCbO8UOXwVLVP9+hd7FI=
+
+Name: assets/www/bower_components/swiper/dist/js/maps/swiper.jquery.um
+ d.min.js.map
+SHA1-Digest: GTCpSsYDsGJNzzQEPBGpdUNEsxc=
+
+Name: assets/www/assets/fonts/roboto-thin-webfont.woff
+SHA1-Digest: GzCPDEEkcNmhfspznhWq/ehLADA=
+
+Name: assets/www/plugins/cordova-plugin-dialogs/www/notification.js
+SHA1-Digest: fDWwuUXMCK8aXulhJ4bcpjb87VI=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/modals.h
+ tml
+SHA1-Digest: 6bX+cXeoqmoGLdspSu8YLZXl6U8=
+
+Name: assets/www/bower_components/jquery-validation/src/ajax.js
+SHA1-Digest: UuTFvToa8b32K/H1r1LVnMVoUt8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/swi
+ per-nested.jade
+SHA1-Digest: FGBgUfgVPVeuT8OGCPTuKCW1Cf4=
+
+Name: assets/www/bower_components/framework7/src/less/ios/preloader.le
+ ss
+SHA1-Digest: 3U2qdvdb+YWGp6eeCaD1wbvulMA=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/pho
+ nesUK.js
+SHA1-Digest: JTv04k46KBXvh3n1eHSLAZv1erQ=
+
+Name: assets/www/plugins/cordova-plugin-network-information/www/networ
+ k.js
+SHA1-Digest: 5CZFf5zIK7yEXAgJs6hQnXOMhoY=
+
+Name: assets/www/bower_components/framework7/README.md
+SHA1-Digest: xs3h5JqKW5zGs0lROzUkvLgHb3Y=
+
+Name: assets/www/bower_components/chartjs/gulpfile.js
+SHA1-Digest: Nkxzw5/BkdDfRff7gYc+WjSCJzg=
+
+Name: assets/www/bower_components/jquery/src/var/concat.js
+SHA1-Digest: gveYQcegJwKeCIzBMskQca7ELEw=
+
+Name: assets/www/bower_components/framework7/examples/split-view-panel
+ /less/my-app.less
+SHA1-Digest: uw9G3hm/i5aVrbMF+wJayq07bOw=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ ethods_pt.js
+SHA1-Digest: ulwjCNHmSB7Q6ha18U5h0NOln4k=
+
+Name: assets/www/bower_components/framework7/src/js/forms-textarea.js
+SHA1-Digest: 9VcRC6J7sgFB/j8l7nmCjtPuOPo=
+
+Name: assets/www/bower_components/framework7/src/less/material/toolbar
+ s.less
+SHA1-Digest: rjJ+B5sdThA2xSpjfLSbaegc3ok=
+
+Name: assets/www/assets/fonts/OpenSans-Regular-webfont.woff2
+SHA1-Digest: LcFp2pw5t/s0FgXz+3SbsCcFBTU=
+
+Name: res/drawable-land-mdpi-v4/screen.png
+SHA1-Digest: aKBDV4eg1h4Hu7hVjGRkq4BJoK8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/swi
+ per-multiple.html
+SHA1-Digest: 0ZFtt2jofDjZL4YDLz+JyEGTAjc=
+
+Name: AndroidManifest.xml
+SHA1-Digest: vHYTzqRjteNsCkCr1w3vOPqIRDs=
+
+Name: assets/www/bower_components/chartjs/src/Chart.PolarArea.js
+SHA1-Digest: rYPANQrgPcEI82EGksx7VmVGMTQ=
+
+Name: assets/www/bower_components/jquery/bower.json
+SHA1-Digest: xI+tiHEbhQUBo1hDmDPSsa/b+bA=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/cif
+ ES.js
+SHA1-Digest: qjK3iMg/MmOy4HexQnN9+jbTyBQ=
+
+Name: assets/www/bower_components/swiper/dist/js/swiper.js
+SHA1-Digest: +J+x1/Si0K74HZ6kU+YYvHBWJNA=
+
+Name: assets/www/bower_components/jquery-validation/changelog.md
+SHA1-Digest: 2hUm5/asqkf6WOlJ8CaZhgXcZcE=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/pul
+ l-to-refresh.html
+SHA1-Digest: hqTsiQ/+pniIyw0u2i9wEBNnQ6o=
+
+Name: assets/www/bower_components/font-awesome/bower.json
+SHA1-Digest: 41jz+TMgU/OEWi0P9jXy40GjeUo=
+
+Name: assets/www/bower_components/framework7/examples/split-view-panel
+ /services.html
+SHA1-Digest: cuZxZaCNiuWUo3q/IUeFI8LwEeE=
+
+Name: assets/www/bower_components/swiper/src/js/wrap-start-umd.js
+SHA1-Digest: yyhrRcR1c7h1exAXwK/urTffwe0=
+
+Name: assets/www/plugins/cordova-plugin-device-orientation/www/compass
+ .js
+SHA1-Digest: TBjcLdxh8Mv0R7Q6SkqN2nlTISo=
+
+Name: assets/www/assets/img/icon-db-article.png
+SHA1-Digest: u0bfRS6H/6Hjr0igzRbPF1gVFKU=
+
+Name: assets/www/bower_components/chartjs/samples/pie.html
+SHA1-Digest: wqUCO1VUHCB+7NFAHGkFCyC8BvU=
+
+Name: assets/www/assets/fonts/roboto-thinitalic-webfont.woff
+SHA1-Digest: T92t91yTISsGFgwamgMEjHyfy/s=
+
+Name: assets/www/bower_components/framework7/examples/inline-pages/css
+ /my-app.css
+SHA1-Digest: P6G3puSllC2l2Qagbk92gLHIDw4=
+
+Name: assets/www/assets/img/bg-small-3.jpg
+SHA1-Digest: RJayF4pP8veoUHIeo+FYq6d2oxI=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/tab
+ s.jade
+SHA1-Digest: 1M1rsL0JG7jgDePF5DngSzOmpcs=
+
+Name: assets/www/bower_components/framework7/dist/js/framework7.min.js
+ .map
+SHA1-Digest: 9qHzTgQFn0POI4f63cpbkQ2T11k=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/bars-hide-on-scroll.jade
+SHA1-Digest: mVA2oyZbX3VEf/KqyjFM6WehoHo=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/swi
+ per-fade.jade
+SHA1-Digest: PqJ4kiYIrX6QjT1mmWZMU3ZJp5g=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/not
+ EqualTo.js
+SHA1-Digest: XzBtVbceUrQwF72u0bqVQMVF+eo=
+
+Name: assets/www/bower_components/framework7/src/js/router.js
+SHA1-Digest: hGB/AFRtclHDjJMQ0iU6xXZuNZQ=
+
+Name: assets/www/bower_components/framework7/src/templates/about.jade
+SHA1-Digest: f3hV29VrIzX/BX/7Kc6bPHvgu7c=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/swi
+ per-custom.html
+SHA1-Digest: EB17TpXZmu3hfZ1daFoWg6pQoPs=
+
+Name: assets/www/bower_components/framework7/examples/tab-bar/jade/ind
+ ex.jade
+SHA1-Digest: 2F8mxa70St6ewH995I2kStdjiCg=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-password-m
+ aterial.svg
+SHA1-Digest: oW5RI03kLb/Q4bG24B6kc5hNEUg=
+
+Name: assets/www/bower_components/framework7/dist/css/framework7.ios.c
+ olors.css
+SHA1-Digest: 4sXioWi1P6JjXOwTPP6tyjZ/eEw=
+
+Name: assets/www/assets/img/favicons/mstile-144x144.png
+SHA1-Digest: g0eFWsGAu9fSIRLnamBsq8xFtRI=
+
+Name: assets/www/bower_components/jquery-validation/dist/additional-me
+ thods.min.js
+SHA1-Digest: 9F0hY3W7Ppff8m4CeX7JV42e/7g=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/car
+ ds.jade
+SHA1-Digest: aBp73vzfvv/QY1rVBKDuBc1bKUA=
+
+Name: assets/www/bower_components/framework7/src/js/proto-support.js
+SHA1-Digest: AqOKC7Cpcc6MdBNM9Ncbj/a5rrQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/picker.h
+ tml
+SHA1-Digest: An/Wu4Fqleefb3boA6JoVq+Sdyc=
+
+Name: assets/www/bower_components/framework7/src/less/material/intro.l
+ ess
+SHA1-Digest: pjkZRcdtDhy6g44x5y+Nqn1jZcs=
+
+Name: assets/www/bower_components/framework7/src/js/plugins.js
+SHA1-Digest: lkaJtxMr+LCTLqAoRnpfORKLMyw=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/bar
+ s.jade
+SHA1-Digest: JLrB2caaXF2RH05uprKRIF9HUyQ=
+
+Name: assets/www/cordova.js
+SHA1-Digest: swmHvHBtfbkh8Qr+LHv3yzd102o=
+
+Name: res/drawable-hdpi-v4/icon.png
+SHA1-Digest: ZnntDaqq3gC/Gx3oxOm040PViMY=
+
+Name: res/drawable-land-xhdpi-v4/screen.png
+SHA1-Digest: MBIFucu3ewQXEkohDWvAFPFUgCw=
+
+Name: assets/www/bower_components/swiper/src/less/mixins.less
+SHA1-Digest: yh4V/i+iTPyYt3Zn/GWIrrEMR3c=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/login-screen.jade
+SHA1-Digest: JcpKO0B2UfgnjQVrMhoHGl+KS7g=
+
+Name: assets/www/bower_components/swiper/src/js/lazy-load.js
+SHA1-Digest: pOd1OEwXlVgfE4xgqMbr6iob9V4=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/log
+ in-screen.jade
+SHA1-Digest: lFjA2riKouhyvfricjQJNlMNe2s=
+
+Name: assets/www/assets/fonts/OpenSans-BoldItalic-webfont.ttf
+SHA1-Digest: 7dT47Hp9zzcQbl55BTMR2UQpidU=
+
+Name: assets/www/bower_components/chartjs/src/Chart.Doughnut.js
+SHA1-Digest: qflad3qh2MunTsyTQlKHHrvQuks=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileEntry.js
+SHA1-Digest: +FLJ7eoIewobXZEnaUJ8CEBpCQI=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/for
+ ms.html
+SHA1-Digest: Sapqp0WOr85qm40/SQ0A4ccapH4=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/tabs.htm
+ l
+SHA1-Digest: ckKA4921gBcIyzc5hpQh0pbaTWI=
+
+Name: assets/www/assets/themes/lake/style.css
+SHA1-Digest: 5avV6B7m0Bjv4Q+NKueFoxkPFFg=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/for
+ ms-elements.jade
+SHA1-Digest: iw+ZEvTKHmXbrJSrI8gbiQW+qfQ=
+
+Name: assets/www/bower_components/framework7/src/js/proto-plugins.js
+SHA1-Digest: zDf8salL2cdOclzkTpLYrwREfjo=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/swiper-parallax.jade
+SHA1-Digest: PqedG+QyyGLOyx/NS6Y+DTOJ9fM=
+
+Name: assets/www/bower_components/swiper/src/js/core.js
+SHA1-Digest: 0wRk5iE7Gk+HgtnDysT2sICFEfw=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/swi
+ per-loop.html
+SHA1-Digest: dwJeRlXeHX4DW5EynK6QDJvvvCI=
+
+Name: assets/www/assets/js/jflickrfeed.min.js
+SHA1-Digest: h3n9MkwbDM7lNfPfqlWuWagMSJc=
+
+Name: assets/www/assets/fonts/roboto-medium-webfont.woff
+SHA1-Digest: z1yVlwf0PiOyqsJNS4yZoRm7I0o=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/forms-elements.jade
+SHA1-Digest: o4URaDsEaGXszMgHBeb1upGQ5CA=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/swiper-space-between.jade
+SHA1-Digest: ZsR0kiVfObjVdzhs9LOeubEVjrk=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/cal
+ endar.html
+SHA1-Digest: zJADFyTvIGPEZXf1yteiN83NceA=
+
+Name: assets/www/assets/fonts/OpenSans-LightItalic-webfont.woff2
+SHA1-Digest: QKk0cHhRQ9ta1dLP/7LSLjMOFjQ=
+
+Name: assets/www/bower_components/swiper/dist/js/swiper.jquery.js
+SHA1-Digest: 51kjjqJBpRrRjzMjTfHF+OoCAEA=
+
+Name: assets/www/bower_components/framework7/examples/tab-bar/about.ht
+ ml
+SHA1-Digest: 5bLqy4hgra1hffo+KMBLY66aWwo=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/bar
+ s-no-navbar-toolbar.html
+SHA1-Digest: H/hyhaqjt77W78ouhB+BD82zRKE=
+
+Name: assets/www/bower_components/chartjs/src/Chart.Core.js
+SHA1-Digest: KxtYMmyMSo1gdtyR4VafrUWLgGc=
+
+Name: assets/www/assets/img/tmp/temp_1.jpg
+SHA1-Digest: cckztYmtG/QqiExSpapB3AVcsUQ=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_ko.js
+SHA1-Digest: L72fiW4lZkQm9FYVCU9p5GEGYKw=
+
+Name: assets/www/assets/fonts/roboto-blackitalic-webfont.eot
+SHA1-Digest: oyevHoIfD77B0cNPHvCEgSkC5fY=
+
+Name: assets/www/assets/img/favicons/apple-touch-icon-72x72.png
+SHA1-Digest: o/P131wSLFP/nIyO78P5ReCG8bg=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-settings-m
+ aterial.svg
+SHA1-Digest: fyozl+zRcMahXSVgR5yeUqL+SNM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/transiti
+ ons.html
+SHA1-Digest: QmepsUvn4YlhmUWuqXx/BCEJLQA=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_ar.js
+SHA1-Digest: U1VKnjEphRINeMAmDoIgEZWVwws=
+
+Name: assets/www/bower_components/framework7/src/less/ios/messagebar.l
+ ess
+SHA1-Digest: j+uoPPoxgnB06odVghvzvrVHSNQ=
+
+Name: assets/www/plugins/cordova-plugin-device/www/device.js
+SHA1-Digest: uqgYuin92KpSmHlPZ4yJ7gLNmL8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/swi
+ per-3d-cube.html
+SHA1-Digest: nhwao+ijjsNZ5EAwofUGITNDhcI=
+
+Name: assets/www/bower_components/framework7/src/less/material/framewo
+ rk7.material.colors.less
+SHA1-Digest: 4q+S7zPm1QzOznXiA4AoN/SZpLo=
+
+Name: assets/www/bower_components/framework7/src/less/ios/pull-to-refr
+ esh.less
+SHA1-Digest: g137CzS+y3dIyAkQzszNYB2PSR8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/contacts
+ .html
+SHA1-Digest: TFKv7BdOMwVlTUS6N8kABTwPzBw=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-toggle-mat
+ erial.svg
+SHA1-Digest: vKfhai92rqYsitcFerCYUuRQCTQ=
+
+Name: assets/www/assets/fonts/roboto-bold-webfont.woff2
+SHA1-Digest: caBYtD33WBaLIrfVKYy1rCQHmCo=
+
+Name: assets/www/bower_components/framework7/src/less/ios/forms.less
+SHA1-Digest: NwntVeHh3W1HiTSyeAfykIaKPOM=
+
+Name: assets/www/img/logo.png
+SHA1-Digest: YK5vVHXnrWkBUKYiYlRwAZZ/zWU=
+
+Name: assets/www/bower_components/framework7/src/templates/services.ja
+ de
+SHA1-Digest: +QTD/tYV9uQuHzdEehu27IFuT6w=
+
+Name: res/drawable-land-hdpi-v4/screen.png
+SHA1-Digest: LjlAx2jETJlSyX7Va2W72fsntvY=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/mes
+ sages.jade
+SHA1-Digest: dg2Haz+CqeX1CB45lWxfNuiDny4=
+
+Name: assets/www/bower_components/font-awesome/fonts/fontawesome-webfo
+ nt.woff2
+SHA1-Digest: jjP/EcKGQV1r1EMd7r3sj+qagRk=
+
+Name: assets/www/bower_components/framework7/src/less/material/lazy-lo
+ ad.less
+SHA1-Digest: fFkMhrbAdRgSGx/dcGHirHSFShM=
+
+Name: assets/www/bower_components/framework7/src/js/views.js
+SHA1-Digest: qypBOZlPDANcQx6cAHSfHIlluHc=
+
+Name: assets/www/bower_components/font-awesome/less/animated.less
+SHA1-Digest: I2lB7BSP4iETIfbNQGre42xABaA=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/url
+ 2.js
+SHA1-Digest: QJNc8/FVT5y70k5zBr1dglBAAg8=
+
+Name: assets/www/bower_components/swiper/src/js/get-jquery.js
+SHA1-Digest: pzrv7z+MASz/mi5bmDqCRrCdxoc=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/let
+ tersonly.js
+SHA1-Digest: Dg4pZsqNFnCada4/LCkuwdBZQf0=
+
+Name: assets/www/bower_components/framework7/src/less/ios/picker.less
+SHA1-Digest: L/0a4f/8gkiVpVGdOfnOsEkcDNo=
+
+Name: assets/www/bower_components/framework7/examples/inline-pages/js/
+ my-app.js
+SHA1-Digest: qOxWh4CHa7MAtoHJU/PUE89vkBc=
+
+Name: assets/www/assets/img/ava.png
+SHA1-Digest: qbb91vVntJGSApRZ+gHY2WekVPA=
+
+Name: assets/www/bower_components/framework7/examples/split-view/about
+ .html
+SHA1-Digest: FtrMnxq+GpUq+zYsUxD2Q4pQcj0=
+
+Name: assets/www/assets/fonts/roboto-black-webfont.ttf
+SHA1-Digest: gUGSASqScbB/nsRedzTbbyVz/f4=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/pre
+ loader.jade
+SHA1-Digest: jqjDjxT7QL5HW3/E7w2+EQHJEP0=
+
+Name: assets/www/bower_components/jquery/src/sizzle/dist/sizzle.min.ma
+ p
+SHA1-Digest: ijBL11MzDo7FzsEu1GnvhFz+VPw=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/bars-hid
+ e.html
+SHA1-Digest: 0qQD6bBdVCA8KdfeI2dd7HnwCCk=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/panels.jade
+SHA1-Digest: YQa4EdJHBH7/AQLpYNotfAKla3E=
+
+Name: assets/www/bower_components/framework7/src/img/i-f7-ios.png
+SHA1-Digest: ewc16JqZpxE/XHUyPtQbOX5XuoY=
+
+Name: assets/www/bower_components/framework7/src/less/material/framewo
+ rk7.material.less
+SHA1-Digest: 6sO3UDnK/aQkJYoq58s8Azkrf6U=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-tel-ios.s
+ vg
+SHA1-Digest: ZUvy8yY/XOWN+RtcwDJEY76Sqlg=
+
+Name: res/drawable-port-xhdpi-v4/screen.png
+SHA1-Digest: 47/o7IYjxcqrXiJaHwoKsgeQPlY=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/alp
+ hanumeric.js
+SHA1-Digest: TFEjK4cx5f+POlvuibsN9jORi4A=
+
+Name: assets/www/bower_components/framework7/dist/css/framework7.ios.r
+ tl.min.css
+SHA1-Digest: qqt9MEVdRSifyuN6W819NHDW4XM=
+
+Name: assets/www/plugins/cordova-plugin-whitelist/whitelist.js
+SHA1-Digest: U1DY0ekXzhw6MT6YlRNBEXuOKoM=
+
+Name: assets/www/assets/fonts/OpenSans-Italic-webfont.ttf
+SHA1-Digest: X0duw3KIO64PNvJ18wCjunSYtAA=
+
+Name: assets/www/bower_components/framework7/examples/split-view-panel
+ /jade/services.jade
+SHA1-Digest: Mta0/dmdXdeXTsZS/k3/QmP+tNo=
+
+Name: assets/www/assets/fonts/roboto-medium-webfont.woff2
+SHA1-Digest: g0iajH3Zu0mxfK1O7hBDfzjmn48=
+
+Name: assets/www/bower_components/jquery/src/var/arr.js
+SHA1-Digest: 8ea21SFR8yOg3ymicyjZCubCnhE=
+
+Name: assets/www/bower_components/chartjs/samples/bar.html
+SHA1-Digest: sZivOe61F5s76TUXsz7PfN0EZk8=
+
+Name: assets/www/assets/img/bg-small-4.jpg
+SHA1-Digest: 8DVqESvJIIo1j86/2vmvb1d1rKo=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/pho
+ to-browser.jade
+SHA1-Digest: AzAPPnUuyz8zNGC92A0/o+0KpMM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/forms-buttons.jade
+SHA1-Digest: yH9kMQXCA6vkYgHhy6o31xl1nQM=
+
+Name: assets/www/contact.html
+SHA1-Digest: DmH3TNHT3ciROSoOPMq2QLSD46I=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/pic
+ ker.html
+SHA1-Digest: 2kbs5gpO49baz3EnH8Y9zNUYAu8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/gri
+ d.html
+SHA1-Digest: aXOb7lyvxll83K8r6hBkekYHbJE=
+
+Name: assets/www/bower_components/framework7/src/js/swipeout.js
+SHA1-Digest: 6XLqUTMx/gHaUeNeuOaLHRI+ty0=
+
+Name: assets/www/bower_components/framework7/examples/split-view-panel
+ /js/my-app.js
+SHA1-Digest: OmJGzMaEteWcjBN5QTxEci+GIKQ=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/pho
+ neUS.js
+SHA1-Digest: fz4PSLcxsnfNgj+hcOu1kC+54Oo=
+
+Name: assets/www/bower_components/font-awesome/scss/_fixed-width.scss
+SHA1-Digest: jXLCzNtkUXTDYBS1ZBp3OJkn/AY=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-email-ios.
+ svg
+SHA1-Digest: a0vMES5zBUS4wLWCfVjRg9tHj1I=
+
+Name: assets/www/bower_components/jquery/src/deferred.js
+SHA1-Digest: 4lZ/QdEaEgO1/JseK3Rs1Tyw57w=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/swi
+ per.html
+SHA1-Digest: 3bs2flAqaz3qI2FcEqzvFv6N4wY=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/swi
+ per-nested.html
+SHA1-Digest: n9AxZzBA7yNX/pk3tRrShmx62Rc=
+
+Name: assets/www/assets/fonts/roboto-regular-webfont.ttf
+SHA1-Digest: qonyySADjQhGxA/WJ2DEcPk0HBM=
+
+Name: assets/www/plugins/cordova-plugin-file/www/Flags.js
+SHA1-Digest: Nq9ODiRfA24DJdejwJekNILzle0=
+
+Name: assets/www/bower_components/font-awesome/css/font-awesome.css
+SHA1-Digest: FEMbvBlWsKbU8Ac1o6bBKe3cpr4=
+
+Name: assets/www/bower_components/framework7/src/less/material/_colors
+ -vars.less
+SHA1-Digest: MNbVtRHPdJA9T39XefNYj7q0eDA=
+
+Name: assets/www/bower_components/jquery/src/var/toString.js
+SHA1-Digest: gzloMkDGeMPUeL6KbkS2Bu6PrIw=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/tim
+ e.js
+SHA1-Digest: s4P8tsjB0s62cZG2Q5NSzEUHU5c=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/swiper-3d-coverflow.jade
+SHA1-Digest: IYogFGh07GTC2BcXyfB81R9cYLw=
+
+Name: assets/www/bower_components/framework7/src/js/messages.js
+SHA1-Digest: Pqzu9eSTChRNin/E3cvgq8qVYRU=
+
+Name: assets/www/assets/fonts/OpenSans-SemiboldItalic-webfont.woff2
+SHA1-Digest: QcrDtIW6U6JfQcjIRAaZWjMEsB4=
+
+Name: assets/www/bower_components/framework7/src/less/ios/content-bloc
+ k.less
+SHA1-Digest: IB9bVbTc/HeqBKe453UCA2A8x2A=
+
+Name: assets/www/bower_components/swiper/src/js/swiper-proto.js
+SHA1-Digest: 9kWwkEUEJMvzTzuha2vQDS0Ub1g=
+
+Name: assets/www/bower_components/jquery/src/ajax/load.js
+SHA1-Digest: 3S+V46LZKvhtkKxkZ9SjgLGKjYY=
+
+Name: assets/www/assets/img/favicons/manifest.json
+SHA1-Digest: DXTOF27kCumITzLxiEqpbZvX+fY=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-toggle-io
+ s.svg
+SHA1-Digest: 9+g+tMKlFfrRfVkc35JMuMXuCNI=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/infinite-scroll.jade
+SHA1-Digest: mNf6WJWxRR0Mrsf3tgiJxw0y/b4=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/forms-se
+ lects.html
+SHA1-Digest: 6hG7ex3X+agfGiFIXgc7p7UY9hg=
+
+Name: assets/www/bower_components/font-awesome/less/variables.less
+SHA1-Digest: vDUW0DGeBZ2w1E5W6FRZRAW24vY=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-email-ios
+ .svg
+SHA1-Digest: eYNr2WhgHRMqBRo85nDArkfrDBA=
+
+Name: assets/www/bower_components/swiper/dist/js/maps/swiper.jquery.mi
+ n.js.map
+SHA1-Digest: 18bS5ggtse3C659OXy9vyi9HDm8=
+
+Name: assets/www/bower_components/framework7/dist/css/framework7.ios.r
+ tl.css
+SHA1-Digest: nPIvnHwxUUcBt9x/8EEHujUWPoM=
+
+Name: assets/www/bower_components/framework7/src/less/material/views.l
+ ess
+SHA1-Digest: nM0ivN9l6rUj1KeqkrZ6UOS4SKE=
+
+Name: assets/www/bower_components/jquery/src/css/var/rnumnonpx.js
+SHA1-Digest: xUgRQTtVugEit7x5z8OCQb0Nyck=
+
+Name: assets/www/assets/fonts/roboto-black-webfont.eot
+SHA1-Digest: syKCS12WEo3RFSaiIWIbNCp2bEI=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/swi
+ per-fade.html
+SHA1-Digest: K+UibeBUbBIPZBPPff/0S5k9Ueg=
+
+Name: assets/www/bower_components/jquery/src/var/rnotwhite.js
+SHA1-Digest: ezAiIFDb3kwIRd1OtI+bz/YmwK0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/cor
+ e-features.html
+SHA1-Digest: mK3rRMEsy+GuEwvo0OZ5uw0trnk=
+
+Name: assets/www/bower_components/font-awesome/fonts/fontawesome-webfo
+ nt.ttf
+SHA1-Digest: pzEqd5Dxt1EUP/T5dR3GZlVDADE=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/col
+ or-themes.html
+SHA1-Digest: jEDqQ4OPcJax/uGZH3SxBN0wXHI=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/pos
+ talcodeBR.js
+SHA1-Digest: RkWVw4uqb1cyiCT+3ZFAvG542fw=
+
+Name: assets/www/assets/img/bg-big.png
+SHA1-Digest: m6Fi72N3goxqmUC4sphcBHjYdv4=
+
+Name: assets/www/bower_components/framework7/src/less/ios/grid.less
+SHA1-Digest: tTVNEhKACBFHd9u0g5kcrlA+l5c=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/list-vie
+ w.html
+SHA1-Digest: +76R3MufDjFtDIsmNvN6OKjBHX4=
+
+Name: assets/www/bower_components/framework7/src/less/ios/panels.less
+SHA1-Digest: L63P8/wbf/6Xt2pUFfhoZukdjro=
+
+Name: assets/www/assets/img/favicons/apple-touch-icon-144x144.png
+SHA1-Digest: IGUNB9y1fDPeB7KJeTrX0UuWJe8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/for
+ ms-checkboxes.html
+SHA1-Digest: XVKlefj7VBg6DN0RKqI6lPVlOag=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/pho
+ to-browser.html
+SHA1-Digest: F1WkZl/XXrE0DuIHmpt5dj690/E=
+
+Name: assets/www/bower_components/jquery/src/event/support.js
+SHA1-Digest: z+fRr+MonGF/FCWv0s4ZP1vzC10=
+
+Name: assets/www/bower_components/jquery/src/css/var/isHidden.js
+SHA1-Digest: 8Ww+EN6f7NLMNiGKJRw5stcVnpE=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/forms-selects.jade
+SHA1-Digest: q1P7hu/x7fEEwgZAw4Fga4W8Z5g=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/swi
+ pe-delete.jade
+SHA1-Digest: bIUV4z2hL5AyKj5Uy7mqc36TVs0=
+
+Name: assets/www/bower_components/swiper/src/js/scrollbar.js
+SHA1-Digest: CpdB4pzZNo2JSZvz7zz/BnazXqM=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-calendar-m
+ aterial.svg
+SHA1-Digest: a0PZO6FYOZD8oy2yWf5CIlvk7po=
+
+Name: res/drawable-mdpi-v4/ic_action_next_item.png
+SHA1-Digest: ZzISkM7wLyAw7HkVAX3PN79mc5w=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/pan
+ els.html
+SHA1-Digest: pVtC72dQlzu4ucJV1Fy40Ze2wUU=
+
+Name: assets/www/bower_components/jquery/src/css.js
+SHA1-Digest: tZSq2puzTonnnmh+9a09a+CggGg=
+
+Name: assets/www/bower_components/framework7/src/js/material-tabbar.js
+SHA1-Digest: 6OZQB/kSTFCg1JlYHS0em+ZVdyk=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_tr.js
+SHA1-Digest: dKpttrmabnHmMqBQseytZRgi01E=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-comment-io
+ s.svg
+SHA1-Digest: 6xhadYhi86C8kSs5g+k5A2uvz6g=
+
+Name: assets/www/plugins/cordova-plugin-device-motion/www/Acceleration
+ .js
+SHA1-Digest: rm6e7bwAidjfHYtMKKMxv9CT5Hk=
+
+Name: assets/www/bower_components/swiper/src/js/swiper-outro.js
+SHA1-Digest: gDVcob4rls4+d6q4xPyFZSiayGI=
+
+Name: assets/www/assets/img/icon-social.png
+SHA1-Digest: 3pvQjPpaxqMGYqhyJg7IUGqG5uo=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/index.ht
+ ml
+SHA1-Digest: DuuGl37f1tv7ejdslOUl6EQP6rw=
+
+Name: assets/www/assets/img/favicons/apple-touch-icon-60x60.png
+SHA1-Digest: j4wv8XNtKQnkLXNrKVUGgmHlewk=
+
+Name: assets/www/bower_components/swiper/src/js/hashnav.js
+SHA1-Digest: u7hSqQXlEuqq1aYJNg2EkCf/WTQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/swi
+ per-gallery.html
+SHA1-Digest: PBBST9QXkvksNdz4bNZN9A8Hkrs=
+
+Name: assets/www/bower_components/framework7/src/js/clicks.js
+SHA1-Digest: zeV59g0Y/sbBQqt9qOKO9nLNnC0=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-tel-ios.sv
+ g
+SHA1-Digest: 7QQ80RpE7OwLmrDyoJc/xVAt2HA=
+
+Name: assets/www/bower_components/framework7/examples/split-view/servi
+ ces.html
+SHA1-Digest: 4beeN/pcqI32NwMfpj1HDde6R2M=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/less/kit
+ chen-sink.less
+SHA1-Digest: I7m/JopXgp5ndpeJ7BWuZlyFuFc=
+
+Name: assets/www/assets/img/icon-db-features.png
+SHA1-Digest: mAhe6pzeaym8VRkdk1C2yn8M5TY=
+
+Name: assets/www/assets/img/logo-sidebar.png
+SHA1-Digest: iuXHD27OH2e/r060CNVTyJf0Mso=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/bars-tab
+ bar-labels.html
+SHA1-Digest: i8fY+4NPeTG5UuwgNp/Ano8ltYQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/cal
+ endar.jade
+SHA1-Digest: cCX5lc5U/44rSdzPEruO3ou3Kio=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-url-materi
+ al.svg
+SHA1-Digest: asgKHQ/w6zu62xhRzUCg0aQVNuY=
+
+Name: assets/www/cordova-js-src/exec.js
+SHA1-Digest: zSlTRU8HxUISyyqDCPgSSJgcj+g=
+
+Name: assets/www/bower_components/jquery/src/ajax/var/rquery.js
+SHA1-Digest: B/JZe8lXcjifaJPzmI0DVEPvo5U=
+
+Name: res/drawable-port-ldpi-v4/screen.png
+SHA1-Digest: gvVXYwA7/zaTTdjvJmYXnKVz300=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/bar
+ s-no-navbar-toolbar.jade
+SHA1-Digest: 23iXKRgi59NOBSi3sWxRJ02aORQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/bar
+ s-deep-navbar-3.html
+SHA1-Digest: +1OrKmqKORYqm4XvXUOmw50PP0c=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/for
+ ms.jade
+SHA1-Digest: SPX6dukyI9EZAYMuNyX2VYRPQ9c=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/bars.jade
+SHA1-Digest: sINHw8DsenpkbM6vrkK3Wy155/o=
+
+Name: assets/www/bower_components/jquery-validation/build/release.js
+SHA1-Digest: M9RM1/c/Oy5L4F/gETAfduNkEEE=
+
+Name: assets/www/assets/img/favicons/android-chrome-48x48.png
+SHA1-Digest: v+gMXbrAmKFya2Vgg6VTCsFehyg=
+
+Name: assets/www/bower_components/font-awesome/less/icons.less
+SHA1-Digest: udNN8Y4tAOuhV+r7Wmj2XG64euc=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/acc
+ ordion.jade
+SHA1-Digest: /3eBH7Yh4JB2gAFMZbh+pZsK9Bo=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/sea
+ rchbar.jade
+SHA1-Digest: gK09Mj8P26jVP2tGhRCrRuELwuM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/sor
+ table-list.html
+SHA1-Digest: Iy0fMB6coAVzL6Aw7PFwxsjKGh4=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_vi.js
+SHA1-Digest: 1BEqjelUH+PS7VrETlLUY/23+do=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/list-view.jade
+SHA1-Digest: O0cKwAN9HoZ7RafFUnb9GVtMC90=
+
+Name: assets/www/bower_components/jquery/src/core/ready.js
+SHA1-Digest: p/EhGKqge7RdW/8uQwEXyjqBRmU=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_sr_lat.js
+SHA1-Digest: /COGwcJZ/sBuQNFs5UJ4iGoFTlw=
+
+Name: assets/www/assets/css/kkicons.scss
+SHA1-Digest: GDhcyWeGlHX8zHTg73y9+Xjmv9E=
+
+Name: assets/www/bower_components/swipebox/index.html
+SHA1-Digest: HMBFxgL/TpUlGAbhG4YILi+azW4=
+
+Name: assets/www/bower_components/swiper/README.md
+SHA1-Digest: HLfvjsGkF5Ks7KKEfYUHAr6M8GI=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/med
+ ia-lists.jade
+SHA1-Digest: nPvMFFvdEVwDnpI6J633lL4Z5zA=
+
+Name: assets/www/bower_components/swiper/dist/js/swiper.jquery.min.js
+SHA1-Digest: Jbo3IcIA8qA8jJAz1ED6KUxL+lc=
+
+Name: assets/www/bower_components/framework7/src/js/pull-to-refresh.js
+SHA1-Digest: FcL3frcsPpXEXrPSVmSz9O1UR/c=
+
+Name: assets/www/bower_components/jquery-validation/dist/jquery.valida
+ te.min.js
+SHA1-Digest: qYX9fTOamd2yyg88l1vq3iulzbY=
+
+Name: assets/www/bower_components/swipebox/src/img/icons.svg
+SHA1-Digest: YJCpYODMyWDZCb2ELi7lgFO4Arc=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/swiper-s
+ pace-between.html
+SHA1-Digest: v1cmsU4ddyZyRYRrckpM4/pvfFc=
+
+Name: assets/www/login.html
+SHA1-Digest: dkUtF9bajFgHNrLQ9HjcWO0eres=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/panels.h
+ tml
+SHA1-Digest: CjGGAhgTW+R4EwonvWU+kqVKtFQ=
+
+Name: assets/www/bower_components/swiper/src/js/get-dom-lib.js
+SHA1-Digest: EYmbigqOCcNXSqsv7aRTXrVV0HA=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/pan
+ el-right3.html
+SHA1-Digest: AndBTxAOV5u6QX+YA1oJWt/Wvlw=
+
+Name: assets/www/bower_components/font-awesome/scss/_stacked.scss
+SHA1-Digest: wcXiV9zW4Qowntugsgfpo0wh0Cs=
+
+Name: assets/www/assets/img/tmp/slide2.png
+SHA1-Digest: ZP0SGWPNqN03NLXh33cwoSrbkBU=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/swiper-c
+ ontrol.html
+SHA1-Digest: orarXfRn/4nppOtoqNFb+spzklg=
+
+Name: assets/www/bower_components/swipebox/grunt/README.md
+SHA1-Digest: uEgfpUZRfgSZoILR/r0QoqQihfg=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_bg.js
+SHA1-Digest: fhruOubRXM/oUwdp9wh2ErtzifM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/abo
+ ut.jade
+SHA1-Digest: KUWmsKq2PVl7a4Rw9BVDARONrUQ=
+
+Name: assets/www/assets/fonts/OpenSans-Regular-webfont.eot
+SHA1-Digest: H9lwLGQ5ykmbcwoNUdep/7nc2X4=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/not
+ ifications.html
+SHA1-Digest: TZq2Pov2qazInQXT4WYnUOok7PI=
+
+Name: assets/www/bower_components/chartjs/samples/radar.html
+SHA1-Digest: 9exgh/u+KCDVChcTibpLf8yfXQ4=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_id.js
+SHA1-Digest: tbsn61SViiceIEa+6t9DwlMo8h8=
+
+Name: assets/www/bower_components/framework7/examples/split-view-panel
+ /css/my-app.css
+SHA1-Digest: Y6UcDMFeHic/stxOmmph3z3wkKo=
+
+Name: assets/www/bower_components/jquery/dist/jquery.min.map
+SHA1-Digest: SH0WOLChDoSCqxsx/ozfOtR0fvU=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileError.js
+SHA1-Digest: dfVbufN4+ELszgoEPBrX659qZSo=
+
+Name: assets/www/bower_components/font-awesome/scss/_larger.scss
+SHA1-Digest: X1qksyZE2eS1U48o1S7lbTZ4USA=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/for
+ ms-checkboxes.jade
+SHA1-Digest: uD4fUHDIKM5s8Q4WXX6mix+LPvw=
+
+Name: assets/www/bower_components/jquery/src/css/var/cssExpand.js
+SHA1-Digest: F2CerJOR/sxxXbXq4LtsMFvI8V4=
+
+Name: assets/www/bower_components/framework7/examples/template7-pages/
+ js/my-app.js
+SHA1-Digest: H/Eb7BK2b++PmCx13VbwHJqB8kw=
+
+Name: assets/www/plugins/at.modalog.cordova.plugin.cache/www/Cache.js
+SHA1-Digest: 0tRkaSxAOXj7MCnb+HdmhTMkGQI=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_pl.js
+SHA1-Digest: 51XsXuzo98axK/9WFqTO98f9+nc=
+
+Name: assets/www/bower_components/framework7/src/less/ios/views.less
+SHA1-Digest: cGpSW9p+amV/h5yV8jPQMVU+/JM=
+
+Name: assets/www/assets/img/bg-small-6.jpg
+SHA1-Digest: Gm5Y4OTSqjktRY2GTiK4dNDYeXY=
+
+Name: assets/www/bower_components/framework7/examples/split-view-panel
+ /left-page-2.html
+SHA1-Digest: XFdYvUi7sAZf7YjREyTxWOQRYKw=
+
+Name: assets/www/assets/img/tmp/slide1.png
+SHA1-Digest: lyBANXdixzET9Jw3cVvDq/z91mE=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/bar
+ s-sub-navbar.html
+SHA1-Digest: 5OeajQME00qpQhtRnOtEhIAabkg=
+
+Name: assets/www/bower_components/framework7/src/js/swiper-init.js
+SHA1-Digest: gcnY3A8bH/hUaGRbzUImD5CAyMU=
+
+Name: assets/www/bower_components/jquery/src/css/swap.js
+SHA1-Digest: jElEqLx1XE9yR965MS+8nn5ydh8=
+
+Name: assets/www/bower_components/framework7/examples/template7-pages/
+ css/my-app.css
+SHA1-Digest: VqUku1FZxzdGpIbgQGMF53boJew=
+
+Name: assets/www/bower_components/framework7/src/less/ios/contacts.les
+ s
+SHA1-Digest: rRq8ZkAwjzicLsWDyp5B6BhDiYQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/log
+ in-screen-embedded.jade
+SHA1-Digest: OdNJAlWzkXj9jiMh5393jpDJrj0=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/dat
+ eITA.js
+SHA1-Digest: N+KthWjMZrVj73kvcUZW2XXiLUA=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/css/kitc
+ hen-sink.css
+SHA1-Digest: KkPYny5baKhC1aTiUe5xUW6SW74=
+
+Name: assets/www/assets/fonts/roboto-thinitalic-webfont.woff2
+SHA1-Digest: WUKm7K0F2o49y1WnBb6YNjhd5hk=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/swiper-m
+ ultiple.html
+SHA1-Digest: 7Q54rkaQ66BdnuP/fjKiiTm0jKo=
+
+Name: assets/www/assets/img/favicons/apple-touch-icon-76x76.png
+SHA1-Digest: IpkdynQmgqK9hmX6yUgrzVZhSO0=
+
+Name: assets/www/assets/fonts/OpenSans-BoldItalic-webfont.eot
+SHA1-Digest: MORVUXNBpzWygRWPbHun3KC7vqE=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/chi
+ ps.html
+SHA1-Digest: ZYYxwAr/mqIfEVpfwmKM6B3186o=
+
+Name: assets/www/assets/themes/lake/img/_bg.jpg
+SHA1-Digest: 7gTiKjZp6aucpI+kUzdAV/QiZLA=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_bn_BD.js
+SHA1-Digest: 00ncCoaiRlj9hEFEeeitP8LMf2s=
+
+Name: classes.dex
+SHA1-Digest: fkEQWUMjXJ1VlTtxh77yeY2XZm4=
+
+Name: assets/www/bower_components/framework7/examples/split-view/left-
+ page-2.html
+SHA1-Digest: MK7NmcwLUHcVmG8591jkElx0MNM=
+
+Name: assets/www/bower_components/framework7/src/less/material/photo-b
+ rowser.less
+SHA1-Digest: DvVvjUdx1fwrrU4gIkzoK7gViLo=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/ban
+ korgiroaccountNL.js
+SHA1-Digest: sDLr8TA+B/9vm3NtLxqWpx2OilU=
+
+Name: assets/www/bower_components/swiper/src/less/navigation.less
+SHA1-Digest: 15SLFxu8Z15Pu58SSY3LV0EIdZw=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/pop
+ over.html
+SHA1-Digest: 9tfy+Kj9zt5nsu6eu2bbBTAIbrA=
+
+Name: assets/www/bower_components/framework7/examples/tab-bar/index.ht
+ ml
+SHA1-Digest: Aig/keXVnAq+AXBRKcHwXV+3gDw=
+
+Name: assets/www/bower_components/framework7/src/js/forms-storage.js
+SHA1-Digest: +6pTM0f5RvIcsuw/UH7vQepzPq0=
+
+Name: assets/www/bower_components/framework7/dist/img/i-f7-ios.png
+SHA1-Digest: PpanGnkyMn79dLgk5/soonIPhik=
+
+Name: assets/www/assets/fonts/kkicons.eot
+SHA1-Digest: tj2uuiDwjszmHfQbq6r4Jrj+UcY=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/bar
+ s-deep-navbar.html
+SHA1-Digest: DFQfRvz6RaO3FCeECRIU0TSILpM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/img
+ /icon.png
+SHA1-Digest: dy5lipmXCI62lL0eyXjB/ygX3/c=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/sta
+ tesUS.js
+SHA1-Digest: TI+DeCKv0fGJb8i/rfxA9UXzd2U=
+
+Name: assets/www/bower_components/framework7/examples/template7-pages/
+ jade/cars.jade
+SHA1-Digest: rvrEBWeyKftd6PoR7HRBBFeZASE=
+
+Name: assets/www/bower_components/swipebox/src/js/jquery.swipebox.min.
+ js
+SHA1-Digest: LDTCp7w1r7HBWFLVSazCPFZyOOA=
+
+Name: assets/www/bower_components/framework7/src/less/ios/toolbars-pag
+ es.less
+SHA1-Digest: Ta6GRYNBvZIgW2zEoLjYidqhQQI=
+
+Name: assets/www/bower_components/swiper/src/less/preloader.less
+SHA1-Digest: vmo44UmfFEXfHFSUyA1D3Td5IaA=
+
+Name: assets/www/cordova-js-src/plugin/android/app.js
+SHA1-Digest: DyNoltEL4yj1M0KRnp7t1ESe+Fo=
+
+Name: assets/www/bower_components/swiper/src/js/keyboard.js
+SHA1-Digest: wRsMwVruuhw0OMKtgGjjOtzK4n0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/tabs.jade
+SHA1-Digest: fl9DsPATd6OJTO2jcX/+tweN+rQ=
+
+Name: assets/www/bower_components/framework7/src/less/material/accordi
+ on.less
+SHA1-Digest: 74BXDQxdsCBf2y0hipw6AiK/y2g=
+
+Name: assets/www/bower_components/framework7/src/js/infinite-scroll.js
+SHA1-Digest: 6E4f6Oz7GGu/JHro96ZMocpdrC0=
+
+Name: assets/www/bower_components/framework7/examples/split-view/jade/
+ index.jade
+SHA1-Digest: t4WlgRYoYTaD1StO+KICpNqzWB4=
+
+Name: assets/www/bower_components/framework7/src/js/searchbar.js
+SHA1-Digest: /Gx1175urGPI2O8CktbSOZxrSPM=
+
+Name: assets/www/bower_components/framework7/src/less/material/chips.l
+ ess
+SHA1-Digest: Tuzv6c9cYQgWnf9MBmtQEzVYXjs=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileWriter.js
+SHA1-Digest: k8RbsSyr9J7wKyCV/vVscngaUAc=
+
+Name: assets/www/bower_components/jquery/src/traversing.js
+SHA1-Digest: X3htiO+HCccXTz+woUpek1jCs3c=
+
+Name: assets/www/assets/img/icon-db-tabs.png
+SHA1-Digest: anWZ+X+t2xON4yGYJmvKHuPmSng=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_nl.js
+SHA1-Digest: wAmVtzKyJYB6LvL1BxkvX/vqTU0=
+
+Name: assets/www/plugins/cordova-plugin-file/www/Entry.js
+SHA1-Digest: 3LgOZBiYwidYTdSUCutPf1gMeck=
+
+Name: assets/www/assets/fonts/roboto-regular-webfont.woff
+SHA1-Digest: cWwUqZZj7BR5glTp72mwoeaBEEk=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/bars-tabbar-labels.jade
+SHA1-Digest: +PA/AfdKyJjh6WcoDoygDGktVnc=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/swipe-delete.jade
+SHA1-Digest: pm2UM28qt9r71Q6cXKtH6+IGaj0=
+
+Name: resources.arsc
+SHA1-Digest: BPVN5Bnv1YXFyw9+xnbLtNGc8cI=
+
+Name: assets/www/bower_components/font-awesome/scss/_path.scss
+SHA1-Digest: R9Q/2yhcKY/9oAVO9ONVwPXRJ1g=
+
+Name: assets/www/bower_components/framework7/dist/css/framework7.ios.c
+ olors.min.css
+SHA1-Digest: jYgrt+Pri8kxMhAzAOn2ybHFD2E=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_et.js
+SHA1-Digest: T/7vbr/f06KZ7Byl7N0NTVOTvVw=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/swi
+ per-multiple.jade
+SHA1-Digest: e790q9ZbUxsaopvAo5nNoxWJqmE=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/pos
+ talcodeNL.js
+SHA1-Digest: dw3alhGR7p/9Lpl5T8mwpcnlIcI=
+
+Name: assets/www/bower_components/jquery/MIT-LICENSE.txt
+SHA1-Digest: /4yY6MeOHdMcSnWdU41Xy3MfbCI=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/cor
+ e-features.jade
+SHA1-Digest: 06k/WT1RM0r7xbNbo00QmS+9W0A=
+
+Name: assets/www/bower_components/swiper/LICENSE
+SHA1-Digest: 6/A+dnXza7XAxehc/QRpwKKC3cQ=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_uk.js
+SHA1-Digest: C4PbXvr0QOpuXj0l7iYEXws2UHs=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/bic
+ .js
+SHA1-Digest: 9xXEOxB/iL6kYcMt82j5JaDZ/aE=
+
+Name: assets/www/bower_components/chartjs/docs/02-Bar-Chart.md
+SHA1-Digest: 8oegMEM1XE46/s1+3mZJzto4PRQ=
+
+Name: assets/www/bower_components/jquery/src/attributes/prop.js
+SHA1-Digest: dQvqXvGUw1JmUYiiFFjSBFqPYFU=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileReader.js
+SHA1-Digest: YU1RHIJiTt0ODi2ZohVZGLgr/dE=
+
+Name: assets/www/assets/img/favicons/mstile-70x70.png
+SHA1-Digest: jTGI48QpA+ySwYRPfQllJhXOcZY=
+
+Name: assets/www/bower_components/jquery/src/event/alias.js
+SHA1-Digest: cmQ5KmmuNIbLsitNL93S2+fwFvk=
+
+Name: assets/www/bower_components/swiper/src/js/dom-plugins.js
+SHA1-Digest: MWTkLBk1VIlQENcMl49n5ZSD/Hw=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/bars-dee
+ p-navbar-2.html
+SHA1-Digest: lXKAJsB7hOXcb/tOunnRH1Sv0kY=
+
+Name: assets/www/bower_components/jquery/src/event/ajax.js
+SHA1-Digest: Y4fSNfGadqlEfELAxMhXfUPlMD8=
+
+Name: assets/www/bower_components/font-awesome/fonts/fontawesome-webfo
+ nt.eot
+SHA1-Digest: 9hSWhX2/rz+9GaIeaGzXyS75xks=
+
+Name: assets/www/bower_components/jquery/src/ajax/var/nonce.js
+SHA1-Digest: DTBrFL4RuTiDBASQ5z9jdxZH+to=
+
+Name: assets/www/assets/fonts/OpenSans-Semibold-webfont.woff2
+SHA1-Digest: SvgXhV5uLXio4L56Mm8N58u+x7o=
+
+Name: res/drawable-land-ldpi-v4/screen.png
+SHA1-Digest: mN10q2+hWVjTBEEfurXbWBH0qP4=
+
+Name: assets/www/assets/img/tmp/ava4.jpg
+SHA1-Digest: tadHswQYdrq1+NQpJpVit+6rTZ8=
+
+Name: res/drawable-mdpi-v4/_icon.png
+SHA1-Digest: HR63yfLUfmEDaKzUr1dFzGysBnM=
+
+Name: assets/www/bower_components/framework7/examples/split-view/less/
+ my-app.less
+SHA1-Digest: IYZ9N2H2la8dW2Z1F0yq9JZAia8=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_si.js
+SHA1-Digest: 75EY+B0AWorHt/Ruw3xU02FWFv8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/swi
+ per-parallax.jade
+SHA1-Digest: PiyjS8xBLNoQL9VfDYVcl0snglg=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-settings-i
+ os.svg
+SHA1-Digest: 2/JYxNOgtnro227QwqveBNuAY0Q=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/acc
+ ept.js
+SHA1-Digest: bjYkC3mBfYwb2yQFIfuMIUCHLgY=
+
+Name: assets/www/assets/fonts/OpenSans-Semibold-webfont.woff
+SHA1-Digest: i8TrDpfp0H4a7Ha97rdBP2in+VY=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/contacts.jade
+SHA1-Digest: KzX8OoG3FZsDp5q6LCTZ9SBnHYY=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/bar
+ s-deep-navbar.jade
+SHA1-Digest: FrHDj+izqfT0FU1Jv2DrTbBbRQA=
+
+Name: assets/www/bower_components/framework7/examples/inline-pages/ind
+ ex.html
+SHA1-Digest: evuHE2ied5VQ+VJ4ZI2b97zLSEs=
+
+Name: assets/www/assets/fonts/OpenSans-Regular-webfont.ttf
+SHA1-Digest: kLZH/GTH0ZcPyS7si5xpY9lYlPk=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/pull-to-refresh.jade
+SHA1-Digest: UHFN2VFCP1HO/PyHy01X5UnhgVQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/not
+ ifications.jade
+SHA1-Digest: m1oQ2XeyQc0+Sa4GirFEn3SM7wk=
+
+Name: assets/www/bower_components/jquery/src/selector.js
+SHA1-Digest: TkevAoyq/mLuD0ES3g1ip85JbhM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/sortable
+ -list.html
+SHA1-Digest: uGc1qmqPnX1fLXhMOm2gMYCY3RQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/swiper-g
+ allery.html
+SHA1-Digest: 8IVQpoN2xbNw3Wmlj7rzR84Aw50=
+
+Name: assets/www/bower_components/framework7/src/less/ios/searchbar.le
+ ss
+SHA1-Digest: GEa357dwuLCdMCX0aC2tpuGTvIk=
+
+Name: assets/www/assets/img/favicons/favicon-32x32.png
+SHA1-Digest: CH//71hhkZnjlCNJaj8mSEtYOZA=
+
+Name: assets/www/bower_components/chartjs/samples/polar-area.html
+SHA1-Digest: gfiupcqHEakNVBEFA+VXBf8Kyuk=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/inf
+ inite-scroll-load.php
+SHA1-Digest: c3yQ01mPFRD2BYp6yO1et9N2JPY=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/les
+ s/kitchen-sink.less
+SHA1-Digest: ay+yDUDtptbgo+zIENdbCshSLVg=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/panel-ri
+ ght2.html
+SHA1-Digest: S+eyGAA1kEwphymfGAUhjBQQuCE=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/MediaFileDat
+ a.js
+SHA1-Digest: PeaibREVLKxJp0utioEO7nhwwME=
+
+Name: assets/www/assets/img/favicons/mstile-150x150.png
+SHA1-Digest: 5Ki5rS22IG7HOohMDuQ9d7bzwWI=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/color-th
+ emes.html
+SHA1-Digest: x/RGqiLUWxe1fwbVSwmBRk4sceU=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/panel-ri
+ ght3.html
+SHA1-Digest: DAPCE4VZnkkehRq0ulPdlNFn+04=
+
+Name: assets/www/assets/img/favicons/apple-touch-icon-57x57.png
+SHA1-Digest: 0/oeHvHN3x6rFFuVUz8bm/mvT4U=
+
+Name: assets/www/bower_components/chartjs/bower.json
+SHA1-Digest: haPRYtKofYRBCWaNq8izNPAmXxU=
+
+Name: assets/www/bower_components/swiper/src/js/emitter.js
+SHA1-Digest: PFDAuzxuHN5uNTtpW1fHAdAfzQs=
+
+Name: assets/www/bower_components/framework7/src/less/ios/intro.less
+SHA1-Digest: qEhy4syv8Eg/okpXmMNPyiIRscY=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/bars-sub-navbar.jade
+SHA1-Digest: dYBLMHmjswsRIbq8wxXIJ979ElI=
+
+Name: assets/www/assets/fonts/roboto-bolditalic-webfont.woff2
+SHA1-Digest: R4aIKc98bA3uarRA2ustjvZbCuU=
+
+Name: assets/www/bower_components/framework7/dist/js/framework7.js
+SHA1-Digest: no5TGClKQdX+BXByT7c43dAy6Bc=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/capture.js
+SHA1-Digest: +xbwrCOPiTYE1cXeVV/oooj0/Uc=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_sr.js
+SHA1-Digest: D87GSwCtrqSFSbHBW1EYCT+3uMo=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/cur
+ rency.js
+SHA1-Digest: XAg2qwsxUayBqoionLsrmjhnJ+c=
+
+Name: assets/www/bower_components/swipebox/demo/style.css
+SHA1-Digest: T40+sN1VoUsiKJH/lLMNZjXz7Qs=
+
+Name: assets/www/assets/fonts/roboto-italic-webfont.eot
+SHA1-Digest: 6REObJvy16uuGrHXp/C539gHVGo=
+
+Name: assets/www/bower_components/Tweetie/tweetie.jquery.json
+SHA1-Digest: VyqP90QlmJ+xFgOQTooGLaPFAvE=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/let
+ terswithbasicpunc.js
+SHA1-Digest: 7u58L7URXDyCgx5pLL21XdgfFlY=
+
+Name: assets/www/assets/css/_variables.scss
+SHA1-Digest: wiTuw6acaj6TXWOT22HNcpkQw7o=
+
+Name: assets/www/bower_components/jquery/src/var/pnum.js
+SHA1-Digest: RC33Tn3FHW0Zcl+jxJThZuWm5GQ=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_fi.js
+SHA1-Digest: A2/PKPE4Rmo3+ZBFlChUj8ncSU0=
+
+Name: assets/www/plugins/cordova-plugin-file/www/File.js
+SHA1-Digest: AOjvdzlVK4gNZ99NUYd/+zEWwNg=
+
+Name: res/drawable-mdpi-v4/ic_action_remove.png
+SHA1-Digest: Xm1eOMvIE8MEYmU9ms+pWE8RPv0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/bar
+ s-no-toolbar.html
+SHA1-Digest: hiTiTccezczrX2FnrNg8ErBL8QY=
+
+Name: assets/www/assets/fonts/OpenSans-ExtraBold-webfont.eot
+SHA1-Digest: c3Rmir9QDZpFyJzwK9fV4RvU0T4=
+
+Name: res/drawable-port-hdpi-v4/screen.png
+SHA1-Digest: 5LRLv65EfpA8QTN7yqaVizIMgWY=
+
+Name: assets/www/assets/themes/lake/_variables.scss
+SHA1-Digest: CPV2cthZ54t4W6gTb7LGwciRVW0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/lazy-loa
+ d.html
+SHA1-Digest: UJjKn1/5mKz90mBgCVScAjayo1Y=
+
+Name: assets/www/bower_components/jquery/src/var/support.js
+SHA1-Digest: apkTV9pCL6LmAu703Yzd7YcKqUc=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/index.jade
+SHA1-Digest: /Wh0Sp6ESreraSPXNkfUGBe+C0s=
+
+Name: assets/www/bower_components/framework7/src/less/ios/statusbar.le
+ ss
+SHA1-Digest: 5zK6413FCVdDlERHEjkuo1fdCM0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/swiper-l
+ azy.html
+SHA1-Digest: W5wYR6ihF8KjSrdabpfPjsw7h2s=
+
+Name: assets/www/assets/img/logo.png
+SHA1-Digest: +7FB1H1QaZecM/ffzlArl8ARkro=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/log
+ in-screen.html
+SHA1-Digest: uj0HoCvJqHp43WgqHFMx9/jlHfU=
+
+Name: assets/www/assets/img/icon-db-gallery.png
+SHA1-Digest: DQBr+rNDi97zQiRNH2XnyE6VHtI=
+
+Name: assets/www/bower_components/framework7/src/js/notifications.js
+SHA1-Digest: jgrM8AfXBp1vn8PnhXtJ0OHJOwc=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/swiper-nested.jade
+SHA1-Digest: tjWw3+vylFeNWHi87njjw+6Na2A=
+
+Name: assets/www/js/index.js
+SHA1-Digest: IKiioohdb90Q1EKf58jZ0J0iXjo=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/inf
+ inite-scroll.html
+SHA1-Digest: 7oD4zDV307910AvGai7UIIHrhes=
+
+Name: assets/www/plugins/phonegap-plugin-push/www/push.js
+SHA1-Digest: lqFVs6XovXOldcAfkEax1oGi2hk=
+
+Name: assets/www/bower_components/swiper/src/js/dom.js
+SHA1-Digest: gX9cEb39F0O1bqNg4v9VC7SQ5O8=
+
+Name: assets/www/bower_components/swiper/src/js/mousewheel.js
+SHA1-Digest: hEfL/Wvvrldg3S5lIbqflPvsPMo=
+
+Name: assets/www/assets/img/tmp/ava5.jpg
+SHA1-Digest: uxe+f/WejmJyq7Xnq7bsqEL4i2k=
+
+Name: assets/www/assets/img/favicons/android-chrome-96x96.png
+SHA1-Digest: rx9bEdd81C2BAmI7qInU5OlynQM=
+
+Name: assets/www/bower_components/framework7/src/less/ios/disabled.les
+ s
+SHA1-Digest: epnDLsbCD9d1wUkOAjVcMtJLQ48=
+
+Name: assets/www/bower_components/framework7/dist/css/framework7.mater
+ ial.rtl.css
+SHA1-Digest: giJ7KUe8zDtJLDkm5wP8XZ00ZB8=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-url-ios.s
+ vg
+SHA1-Digest: YRb3kUhhrzPCU5wJ6bfMqXY64BQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/img
+ /monkey.jpg
+SHA1-Digest: Q+AM4APrpxiHMMq5o+9JlbbZlM0=
+
+Name: assets/www/bower_components/framework7/src/js/photo-browser.js
+SHA1-Digest: MVFGdGNnVjXIlRW8X57LHjAq35Q=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/for
+ ms-buttons.jade
+SHA1-Digest: FVt5/okCaRwBxlOyYnhIpUhs/Dc=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/swiper-scrollbar.jade
+SHA1-Digest: +QKHGBqM+MW7NEicSGDpZjH2hjQ=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileUploadOptions.js
+SHA1-Digest: j+fRrcm0Kk7au/8JoVtfyW8LQYI=
+
+Name: assets/www/bower_components/Tweetie/README.md
+SHA1-Digest: zxT6fUPePsmRhQOThWl0BjI5eUM=
+
+Name: assets/www/bower_components/jquery/src/exports/global.js
+SHA1-Digest: 7hM/K1l/tiqezujpY2lGSUWMMgo=
+
+Name: assets/www/assets/img/tmp/ava2.jpg
+SHA1-Digest: 3n36hgls/RSLl9qlz7KiVdRr1d0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/css
+ /kitchen-sink.css
+SHA1-Digest: 5aS8tpu6OzzWLQTb+yNp5MC1K38=
+
+Name: assets/www/bower_components/Tweetie/api/twitteroauth/OAuth.php
+SHA1-Digest: JdMaaXmN8WXIEYl4ZTiBHTxfwKQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/chips.jade
+SHA1-Digest: Bk/hsrBlZuIAqsjigKKFFSTamuw=
+
+Name: assets/www/bower_components/jquery/src/outro.js
+SHA1-Digest: kFIveNqwH/2RQev9PCCOX1Q9wRI=
+
+Name: assets/www/bower_components/framework7/modules.json
+SHA1-Digest: JnC8I3D31hW/UyIJU95nT/UAAG0=
+
+Name: assets/www/bower_components/jquery/src/core.js
+SHA1-Digest: wKby2vE27/DRfzAUnmg2HfiBJQ0=
+
+Name: assets/www/assets/fonts/roboto-medium-webfont.ttf
+SHA1-Digest: DS3lv8SDCQ9Ebq4/L7mIAPQxlAU=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/swiper-n
+ ested.html
+SHA1-Digest: Tv9yhkqWBAkfILMVAH489HdVqig=
+
+Name: assets/www/bower_components/framework7/examples/split-view/left-
+ page-1.html
+SHA1-Digest: HJYQtt8degcCbWqQsRB8hApA3l0=
+
+Name: assets/www/bower_components/jquery/src/manipulation/var/rcheckab
+ leType.js
+SHA1-Digest: Snm884VMBnte8qJbMV3DJ+3zLB4=
+
+Name: res/drawable-xhdpi-v4/_icon.png
+SHA1-Digest: 48vUnLgL+lADaxq2KMrPq7IdZA8=
+
+Name: assets/www/bower_components/chartjs/samples/doughnut.html
+SHA1-Digest: PYuH9B7EmXEdg6OjfytdWl/tTWQ=
+
+Name: assets/www/bower_components/swiper/src/js/init.js
+SHA1-Digest: +MRgWpB+Ibz3m8EApQCJQlwdCpI=
+
+Name: assets/www/bower_components/font-awesome/css/font-awesome.min.cs
+ s
+SHA1-Digest: zq1C7rvTz0oTboj6B/gSXts9HaQ=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_sv.js
+SHA1-Digest: boLPj5Xefcvv5KTubUCQGwnvplA=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/CaptureVideo
+ Options.js
+SHA1-Digest: r4kCSUMYOuzeiDU0vjypOUDSf1A=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_sk.js
+SHA1-Digest: 38VXecH0yEL4tYgKepes3UIqicI=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/add
+ itional.js
+SHA1-Digest: 4lYqndqDqMjlZ6FJEfvayiVv4ws=
+
+Name: assets/www/assets/img/icon-db-video.png
+SHA1-Digest: 3iFHi5aOS/a7oCqNFBCgcybxLBE=
+
+Name: assets/www/bower_components/framework7/examples/split-view/jade/
+ left-page-2.jade
+SHA1-Digest: xnDVr7FlmfZTvbzXWWYEv3M8CY0=
+
+Name: assets/www/assets/img/icon-menu.png
+SHA1-Digest: pAbDgpLxkF98AsFzB5NuNvbwJ+8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/img
+ /mountains.jpg
+SHA1-Digest: jy3AYv5/jGpp/bnZPjAivOeLE+c=
+
+Name: assets/www/assets/img/favicons/apple-touch-icon-precomposed.png
+SHA1-Digest: ruURRDC/bV4x/TZWvNxTbwgIrRc=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/lis
+ t-view.html
+SHA1-Digest: D/KAytJwV7VKiuUQM8OuhnTNrpQ=
+
+Name: assets/www/bower_components/chartjs/docs/00-Getting-Started.md
+SHA1-Digest: alYrjkTBgjCZmfKkM91RDzk+Dm8=
+
+Name: assets/www/bower_components/jquery/src/queue/delay.js
+SHA1-Digest: qMoap7ChBCMpyZH9g1JW7rEI2M0=
+
+Name: assets/www/bower_components/font-awesome/less/larger.less
+SHA1-Digest: oKUA7eupNlOJQ9qMzoONi8HvVfo=
+
+Name: assets/www/bower_components/font-awesome/less/font-awesome.less
+SHA1-Digest: Vdc3biXA3nB9/ZRnpDZscKQGlgg=
+
+Name: assets/www/assets/img/icon-db-social.png
+SHA1-Digest: bRlomkbmbTNu8/sm6Cxh5s49B3g=
+
+Name: assets/www/plugins/cordova-plugin-globalization/www/globalizatio
+ n.js
+SHA1-Digest: NB56EDjwWESId926ymKhHE1vC0I=
+
+Name: assets/www/bower_components/framework7/examples/split-view-panel
+ /jade/about.jade
+SHA1-Digest: iDQWaNbQezODoxrreSQTPUPBN68=
+
+Name: assets/www/assets/fonts/OpenSans-SemiboldItalic-webfont.woff
+SHA1-Digest: KoXadxusPsGWQdPFFjd4Sl6/IFs=
+
+Name: assets/www/assets/fonts/kkicons.ttf
+SHA1-Digest: eujZEJUb6rdbkzVuzcbkLONz62M=
+
+Name: assets/www/bower_components/framework7/src/less/material/contact
+ s.less
+SHA1-Digest: FmLFk9KpY1jQC9urPyn3yfh89tk=
+
+Name: assets/www/assets/img/favicons/apple-touch-icon-152x152.png
+SHA1-Digest: pVvHtWOmstVJgGJ+lm8xbAzEQUg=
+
+Name: assets/www/bower_components/framework7/src/my-app/my-app.css
+SHA1-Digest: WTI8P5cZ1Yyrf4YtR+b79eSNg7E=
+
+Name: assets/www/bower_components/swiper/src/js/swiper-intro-f7.js
+SHA1-Digest: SaeFF4DS8nPElsX3h17XDVyAxBY=
+
+Name: assets/www/bower_components/jquery/src/core/init.js
+SHA1-Digest: Hi26W48sD6rjRP4Qu5v4sVqxPrI=
+
+Name: assets/www/bower_components/swiper/src/js/plugins.js
+SHA1-Digest: hjvs1ggdIaQRcxu1j5rSlTohDz8=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_is.js
+SHA1-Digest: KiyYpc8Ojb71N3YNEYIX1wjGPo8=
+
+Name: assets/www/bower_components/framework7/src/less/ios/login-screen
+ .less
+SHA1-Digest: O31l2aBaxgW/pchh9D2xmPwFYXQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/pic
+ ker.jade
+SHA1-Digest: CwGxJ+9Xh+AJb5zyxHkFdboTNuw=
+
+Name: assets/www/bower_components/swipebox/src/css/swipebox.min.css
+SHA1-Digest: CAZJPuwTuu+6GLlZgj1bpMqr9wg=
+
+Name: assets/www/bower_components/jquery-validation/bower.json
+SHA1-Digest: Frkp7GSbsZz/3beJs9SA09+R0a0=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_de.js
+SHA1-Digest: UwgdV6vXW7lNRSLLQlTtgVLVZv4=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/laz
+ y-load.jade
+SHA1-Digest: LZNKNelFF2b2WxANfuTequhUNFE=
+
+Name: assets/www/bower_components/jquery/src/manipulation/_evalUrl.js
+SHA1-Digest: 6XW8h2gYKJkXvXd1qQX+PwtVVac=
+
+Name: assets/www/bower_components/jquery/src/var/indexOf.js
+SHA1-Digest: 09Ozwcw6q9KuWw4yIaTWtC29ps0=
+
+Name: assets/www/bower_components/framework7/src/less/material/content
+ -block.less
+SHA1-Digest: Z7WLBhzDvx3efDO/OR9Eva9lJko=
+
+Name: assets/www/assets/img/bg-small.png
+SHA1-Digest: kvoIUsTsr0dYVwYoU09CuNPMfDs=
+
+Name: assets/www/bower_components/framework7/examples/inline-pages/abo
+ ut.html
+SHA1-Digest: mfS3PNgSW7KXCPd7TUolSfNVzvM=
+
+Name: assets/www/bower_components/jquery/src/css/addGetHookIf.js
+SHA1-Digest: L2K4XHz5leReLSi1f2qE2bIazvg=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/popover.
+ html
+SHA1-Digest: 201EWkVGL9w93prfJpFEQr9BZME=
+
+Name: assets/www/bower_components/framework7/examples/split-view-panel
+ /jade/index.jade
+SHA1-Digest: hhubgOjHmCetpJUR8Sz1wLIool8=
+
+Name: assets/www/bower_components/jquery/src/ajax/jsonp.js
+SHA1-Digest: /gWpbD0NByajPwNETeU3pQ7ldSc=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/swiper.h
+ tml
+SHA1-Digest: R09fdYhgt7Y568TlXhr2m9rSyqg=
+
+Name: assets/www/bower_components/font-awesome/scss/_core.scss
+SHA1-Digest: YEVo7YT19gGcN7C/obzfdp8lI3Y=
+
+Name: assets/www/bower_components/chartjs/Chart.min.js
+SHA1-Digest: eM+lujVcsg2WsV7m15FZ/MSWs9Q=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_fr.js
+SHA1-Digest: FyDl4Ro4Kf9GcD+oDtRzXl0TxpQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/img/beac
+ h.jpg
+SHA1-Digest: /H13ZWWeA3H1j6viNf+IPDyPrQ0=
+
+Name: assets/www/assets/img/bg-small-2-blur.jpg
+SHA1-Digest: zzGO2frvJ3MjjWXgjxnxsVkPkW0=
+
+Name: assets/www/bower_components/framework7/src/less/material/pull-to
+ -refresh.less
+SHA1-Digest: 45SjAizsvvdyUriDw9R3keRrFdY=
+
+Name: assets/www/bower_components/swiper/dist/js/swiper.jquery.umd.js
+SHA1-Digest: gS76D0SlfN20tmH+AQyTlAy4iQc=
+
+Name: assets/www/bower_components/framework7/dist/css/framework7.mater
+ ial.rtl.min.css
+SHA1-Digest: FYFeFMIbxujMDrxzm8x+4PxUnCw=
+
+Name: assets/www/bower_components/framework7/src/less/ios/_mixins.less
+SHA1-Digest: KSMzjsWZMeFMj8S2rxTM4kD1H5s=
+
+Name: assets/www/assets/img/icon-close.png
+SHA1-Digest: GgAErB6lKOP5QWEJ6YkkDra8I6o=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/virtual-
+ list.html
+SHA1-Digest: gFVjYXwX/jefYEjXQ6eFOi2O11I=
+
+Name: assets/www/bower_components/swipebox/grunt/package.json
+SHA1-Digest: VGSNPp89S0Nu56kLmilJLGbzrL4=
+
+Name: assets/www/plugins/cordova-plugin-file/www/Metadata.js
+SHA1-Digest: BcJaGK6kqfGDeslvXucq413uuAA=
+
+Name: assets/www/bower_components/jquery/src/jquery.js
+SHA1-Digest: nYBz/ro+EbgpAXlCJV9mHP31Pxo=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/cpf
+ BR.js
+SHA1-Digest: h2Wtk8muJ0IffTVJygnn5EAAHeI=
+
+Name: assets/www/bower_components/jquery/src/deprecated.js
+SHA1-Digest: LNRxF8zs2IWHwcCvTUqj1nPQlb0=
+
+Name: assets/www/assets/img/bg-small-2.jpg
+SHA1-Digest: +Y5gJV0B6pLseP7eXp0bqiPyTDU=
+
+Name: assets/www/bower_components/framework7/src/js/forms-ajax.js
+SHA1-Digest: XifhHC/0HgRg0sn5H7nA1Ns1oMk=
+
+Name: assets/www/bower_components/framework7/src/less/material/ripple.
+ less
+SHA1-Digest: VjJxwuP9gXkOYRgOwgJ9IB8ksD8=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-comment-i
+ os.svg
+SHA1-Digest: pvc05udxBG9FQgjoqoj6VyJnYZc=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/flo
+ ating-button.html
+SHA1-Digest: 6EeKObahu6d4SmxRYt6nviVxm4g=
+
+Name: assets/www/assets/fonts/OpenSans-Italic-webfont.eot
+SHA1-Digest: 6NhJXVHlze3ufgqLVNZGPKjfvP4=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-settings-
+ ios.svg
+SHA1-Digest: QP1GhhnAK0+dCYvOljrgPgWzdFg=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/swiper-3
+ d-cube.html
+SHA1-Digest: lriF+hnp8uoWVp2fqzyx8v6n7Bg=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/pre
+ loader.html
+SHA1-Digest: qD2U8tr8V0eov6kKKqy1rB6gFS4=
+
+Name: assets/www/bower_components/framework7/src/less/material/tabs.le
+ ss
+SHA1-Digest: w1wr8uN8YVvMpGkkp1Fmwd4AS7U=
+
+Name: assets/www/bower_components/swipebox/lib/jquery-2.1.0.min.js
+SHA1-Digest: AUfbrTrZ2oNW/HNxFohSuLoJUpg=
+
+Name: assets/www/assets/img/tmp/ava3.jpg
+SHA1-Digest: mjOINyWdMT2jrQNf8G3HdvUA+vw=
+
+Name: assets/www/bower_components/swiper/src/less/navigation-f7.less
+SHA1-Digest: aZ7t1I205z4vw/uDYj7kzmqfO2I=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/infinite
+ -scroll.html
+SHA1-Digest: nwdYctMVED2kIL+fBBvBcL3HNHQ=
+
+Name: assets/www/assets/fonts/OpenSans-ExtraBold-webfont.ttf
+SHA1-Digest: e/PvzlkjxRGJO2v5QICqoT1V3Ko=
+
+Name: assets/www/bower_components/framework7/examples/template7-pages/
+ cars.html
+SHA1-Digest: oou6ZZ0i5vpmlbVaSI8nNAV/ep8=
+
+Name: assets/www/package.json
+SHA1-Digest: peaqZUqz+MKzTK+eDXfE/oQSuHM=
+
+Name: assets/www/bower_components/Tweetie/api/twitteroauth/twitteroaut
+ h.php
+SHA1-Digest: AQhMajT6RvH5RpjnzGy6S4zypH4=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/swi
+ per-loop.jade
+SHA1-Digest: zISWPzrxwjM8pey9/sarM30oiPI=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/swiper-gallery.jade
+SHA1-Digest: KshhdkM4/CdD3up6teEbNfk6V6Q=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/swiper-p
+ arallax.html
+SHA1-Digest: DzZtXOxx72tODhTYzw4eAjXNrxo=
+
+Name: assets/www/bower_components/font-awesome/scss/_bordered-pulled.s
+ css
+SHA1-Digest: 3XgOO3P4pp7Ak4S4GagCTUIGWxU=
+
+Name: assets/www/plugins/cordova-plugin-file/www/resolveLocalFileSyste
+ mURI.js
+SHA1-Digest: pcwU+XfirNL41FlaYJVwWSmH1EM=
+
+Name: assets/www/plugins/cordova-plugin-file/www/fileSystems.js
+SHA1-Digest: 0KYVv+9xmmkNkUuQnENclsvtWL0=
+
+Name: assets/www/bower_components/framework7/dist/index.html
+SHA1-Digest: LkIw2a8MDK4ORn1siQE4pbAMnsg=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/swiper-3d-cube.jade
+SHA1-Digest: 4Z7z3Ts/lxO6ClLMgy1YHYkXSeQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/laz
+ y-load.html
+SHA1-Digest: rNVgCsDCP/pLOZ+4IMkHrXVTDV4=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/bars-no-
+ toolbar.html
+SHA1-Digest: ItAr+OmBCxIKNuVV6FVRWoJbGCo=
+
+Name: assets/www/bower_components/framework7/src/less/material/badges.
+ less
+SHA1-Digest: v5bX6ftvZlN3UiIuq4SUIlUPoPk=
+
+Name: assets/www/bower_components/font-awesome/less/bordered-pulled.le
+ ss
+SHA1-Digest: OKSi7pW5yVTU5j5MOTBokUXAMKQ=
+
+Name: res/drawable-hdpi-v4/ic_action_previous_item.png
+SHA1-Digest: M1GfB2VNcCSehXeSgRHXvHxnf3E=
+
+Name: assets/www/bower_components/framework7/src/less/ios/cards.less
+SHA1-Digest: JXJ00833oitfgVZgOrCnsynOK3o=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/bars-dee
+ p-navbar.html
+SHA1-Digest: VwR43Pj2MxQ+GSKbJeSe8kM+sww=
+
+Name: assets/www/bower_components/framework7/src/js/pages.js
+SHA1-Digest: 9pimuHHZkXo6TvvjEm0x5b456uU=
+
+Name: assets/www/bower_components/swipebox/scss/swipebox.scss
+SHA1-Digest: tgaGuxrR6C5B631fvaQldT78cvQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/bar
+ s-deep-navbar-3.jade
+SHA1-Digest: QdHSmVUMKyoTWTQz7LOyqcuHTDk=
+
+Name: assets/www/plugins/cordova-plugin-admobpro/www/AdMob.js
+SHA1-Digest: tLH+j/G3x1QP/p8oF66rm9RDr2A=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_my.js
+SHA1-Digest: fYTuw3kQGWeITXN5C2jOm/KTSIM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/bar
+ s-hide-on-scroll.jade
+SHA1-Digest: MdUOmTEI7VsmJKUw8pHqxFvNMY0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/swi
+ per-custom.jade
+SHA1-Digest: EPGkw0WvrfemyJdmG9lvA2y8krg=
+
+Name: assets/www/assets/fonts/roboto-blackitalic-webfont.ttf
+SHA1-Digest: f8xUiA8V3v1ucAx0iGvyLPohLjA=
+
+Name: assets/www/assets/fonts/roboto-italic-webfont.ttf
+SHA1-Digest: SQaSaokadb+AV1fObwuCH9KFxA0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/for
+ ms-storage.jade
+SHA1-Digest: /mGMaHkrZf3wuxbeAt2VhJ3TIK8=
+
+Name: assets/www/bower_components/framework7/src/less/ios/notification
+ s.less
+SHA1-Digest: pmQnOBn+Cvqh17fYlgz17WvYLzA=
+
+Name: assets/www/bower_components/swiper/dist/js/swiper.min.js
+SHA1-Digest: YozaewGURZNQvCqgKLLOA0Q+5YU=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/mod
+ als.jade
+SHA1-Digest: K/+FQwaHacea6g65T7eXPvqJw+4=
+
+Name: assets/www/bower_components/jquery-validation/validation.jquery.
+ json
+SHA1-Digest: X9ig2KvhvNwDDGwERSD7G1+NuJk=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-url-mater
+ ial.svg
+SHA1-Digest: cMoOa37GExnA4vkAddHV3gkcLN4=
+
+Name: assets/www/bower_components/framework7/examples/split-view/jade/
+ services.jade
+SHA1-Digest: YkGV7eObq9fC1viOT+MAdYtSYto=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/bars-hid
+ e-on-scroll.html
+SHA1-Digest: IHsDRA9RP8UePTyMOBfpLpsRhCQ=
+
+Name: assets/www/bower_components/framework7/src/js/fast-clicks.js
+SHA1-Digest: Co+uYuUS+4svswQl0vIQGekkfLE=
+
+Name: assets/www/assets/img/favicons/android-chrome-144x144.png
+SHA1-Digest: YYsx2w8m/y5TgWegICUMsHSg9WI=
+
+Name: assets/www/bower_components/framework7/dist/js/framework7.min.js
+SHA1-Digest: UQnOWS1xKMqcEH/xuTYY7RvMHl8=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_ka.js
+SHA1-Digest: XGrQCmpBE4oV1Zqkcg81OjySI8M=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/car
+ ds.html
+SHA1-Digest: X8vVea+Mmy4LGdsfiBW50yITnwc=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_hy_AM.js
+SHA1-Digest: HPYqtyy247Om080zzyG6cT4GnF4=
+
+Name: assets/www/assets/fonts/roboto-medium-webfont.eot
+SHA1-Digest: 2P+nioFydIw/ZqCjWeH+bpQfsJs=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_zh.js
+SHA1-Digest: rU2ZE8oqqfoA+NsguDluHcmgvGc=
+
+Name: assets/www/bower_components/jquery/src/traversing/var/rneedsCont
+ ext.js
+SHA1-Digest: m61gg4pSXY+ZffJjJfsvqd8ebGY=
+
+Name: assets/www/bower_components/framework7/CHANGELOG.md
+SHA1-Digest: xfVVc5VjakS3l9qdyETfYjc6GJE=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/swi
+ per-vertical.jade
+SHA1-Digest: czAxuO9tFvV0oNeDaETs3jyVO/w=
+
+Name: assets/www/bower_components/jquery/src/css/support.js
+SHA1-Digest: 6z1kiBqxt58oxeyuEmvZKtf7Er0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/about.ht
+ ml
+SHA1-Digest: Zfi7xNRhRjylrZaIa10LPXZ/UyE=
+
+Name: assets/www/assets/img/favicons/favicon-16x16.png
+SHA1-Digest: ftd+1n7HN32Q2F1mHxNHdYrl44s=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-gender-ma
+ terial.svg
+SHA1-Digest: PavUC4vjK0j/Yh3jUpghvQ4d9/Q=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/for
+ ms-elements.html
+SHA1-Digest: 8zsPx8XUfbE0g6rHZtqL+JlovrM=
+
+Name: assets/www/assets/img/favicons/mstile-310x310.png
+SHA1-Digest: HkXhAc8kq9JEM02kEp384hb5YcQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/bar
+ s-hide-on-scroll.html
+SHA1-Digest: 4TSwiOo0UIny4XvDlSSZgJqr+fk=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/pho
+ neUK.js
+SHA1-Digest: 1WGV7VoNAHiXmrIwjhZoNiWX83g=
+
+Name: assets/www/bower_components/jquery-validation/dist/jquery.valida
+ te.js
+SHA1-Digest: VHWvC5pLXPINP1l3bZp3sDbIIGg=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/bar
+ s-no-navbar.html
+SHA1-Digest: HHcs75yRNlYZe2Bb9BhZmIokC1c=
+
+Name: assets/www/bower_components/framework7/examples/split-view/jade/
+ left-page-1.jade
+SHA1-Digest: lmGSm3HdL/XlloJ1LhxA+JhivI8=
+
+Name: assets/www/assets/fonts/roboto-mediumitalic-webfont.ttf
+SHA1-Digest: aUUyUglXzSwkGBKifGfzbvEL+qw=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-gender-io
+ s.svg
+SHA1-Digest: aOxg7os2fSFxz1naaVpCMgI3Jcw=
+
+Name: assets/www/assets/fonts/OpenSans-Semibold-webfont.ttf
+SHA1-Digest: wTqh1ndtT2qgUVZvy1hC9Upj7r0=
+
+Name: assets/www/bower_components/framework7/src/js/scroll-toolbars.js
+SHA1-Digest: erOsami6YGU6Lb2h4HpxLDw+7+Q=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/CaptureError
+ .js
+SHA1-Digest: o99sgSqzl9sJlksYur4xjW4ztXI=
+
+Name: assets/www/bower_components/framework7/src/less/material/_mixins
+ .less
+SHA1-Digest: Df4fvRI95kIw2xOmprW8bAhiQXs=
+
+Name: assets/www/bower_components/swipebox/demo/fork.png
+SHA1-Digest: 8xh9AkOFI4v+B8WIyjIH19NfsKY=
+
+Name: assets/www/bower_components/framework7/dist/form.html
+SHA1-Digest: uv5nBNMDK9pWKDGr3nPKdzxOVyE=
+
+Name: assets/www/bower_components/jquery/src/css/var/getStyles.js
+SHA1-Digest: IRYjmZTEtIoHQ+NdOUrTeiEVGP4=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/bar
+ s-deep-navbar-2.jade
+SHA1-Digest: qdxJNGLmaA+l+MI12bCUYV6Ns10=
+
+Name: assets/www/bower_components/framework7/bower.json
+SHA1-Digest: qVvr15rF1fUVWZK31b3bClmUbwg=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_es_PE.js
+SHA1-Digest: cshoANRGPXT48ivAUW5/W4YcmgI=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-tel-mater
+ ial.svg
+SHA1-Digest: V42rGfErj58A5mgKFArPdwsmvUI=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/img/monk
+ ey.jpg
+SHA1-Digest: xcJ9oqameoL2K/yfcWMck6dWpiY=
+
+Name: assets/www/assets/fonts/roboto-mediumitalic-webfont.woff2
+SHA1-Digest: KVmw+lprRm2+JAKEHOp0UX3/ors=
+
+Name: assets/www/bower_components/framework7/src/js/template7-template
+ s.js
+SHA1-Digest: rIBZq62LVEqLgowDndxWZMXNQtE=
+
+Name: assets/www/bower_components/framework7/src/less/ios/framework7.i
+ os.rtl.less
+SHA1-Digest: HELktMykPELSBFW2bJ9qPM7rl24=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/notifications.jade
+SHA1-Digest: 5/F3MKqnwvNFC6PSa1HeFb7absU=
+
+Name: assets/www/assets/fonts/roboto-bold-webfont.ttf
+SHA1-Digest: 0UwWATjAf+KHu4kuTECYOEowSv8=
+
+Name: assets/www/bower_components/framework7/LICENSE
+SHA1-Digest: O0IAROgEtrEhmAPPMWozrbgixjM=
+
+Name: assets/www/bower_components/framework7/src/js/picker.js
+SHA1-Digest: TMXLuGjg59n/tMm7XFo6jWE1rqc=
+
+Name: assets/www/bower_components/chartjs/docs/03-Radar-Chart.md
+SHA1-Digest: uJGF6CUzjCpZOGq68bI9rVTIUjg=
+
+Name: assets/www/bower_components/framework7/dist/css/framework7.mater
+ ial.colors.css
+SHA1-Digest: wBBT1CVmLniKLTWd43ginIsZCHo=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/dat
+ eNL.js
+SHA1-Digest: 1q4Vu9Mwa9dEZ7L4EKSvuJjbbl8=
+
+Name: assets/www/bower_components/framework7/dist/css/framework7.ios.m
+ in.css
+SHA1-Digest: erTCToDfQGUez+OeEx1HJlFRcvg=
+
+Name: assets/www/bower_components/swipebox/grunt/gruntfile.js
+SHA1-Digest: Xi/qC5doJOC3yotDbFlFazmZYx8=
+
+Name: assets/www/bower_components/framework7/examples/tab-bar/services
+ .html
+SHA1-Digest: +/CverBZF4/qC48MFHVsb6FNBLk=
+
+Name: assets/www/bower_components/jquery/src/ajax/parseXML.js
+SHA1-Digest: HAA51CbXpxVXEun8Z/v4DI19IvU=
+
+Name: assets/www/plugins/cordova-plugin-file/www/ProgressEvent.js
+SHA1-Digest: uHkcVcm5FKfbDAXoElo7BkC3dnM=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-calendar-
+ ios.svg
+SHA1-Digest: //5QcHnoX6Mcj21zSc89VOExy2U=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/pho
+ neNL.js
+SHA1-Digest: rRXTeSFHRHwDyMwZVn2gTUOmzQc=
+
+Name: assets/www/bower_components/jquery-validation/CONTRIBUTING.md
+SHA1-Digest: ruBe0LcJLvuUSiLa6DHNZdW2bok=
+
+Name: assets/www/bower_components/framework7/src/js/proto-device.js
+SHA1-Digest: OErt6y4Nyb9iWgqRGSw0gUQSCC8=
+
+Name: res/xml/config.xml
+SHA1-Digest: W8FqNj1zD/P29so3wChEoR0Ieh4=
+
+Name: assets/www/bower_components/swipebox/src/img/loader.gif
+SHA1-Digest: LpBj019ST6zfm5oJq+n9q4XJ+xM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/bars-no-
+ navbar-toolbar.html
+SHA1-Digest: OqbJMpm6/3qBIJUJDX9QNFFjmkk=
+
+Name: assets/www/bower_components/framework7/examples/template7-pages/
+ jade/projects.jade
+SHA1-Digest: Fbr/LYnbttHIeQw17TrWa8yNCJ8=
+
+Name: assets/www/bower_components/swiper/CHANGELOG.md
+SHA1-Digest: 8/nntP9GPUKKYq4khXHDrNcRTrU=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/bars-tabbar.jade
+SHA1-Digest: zMZH6DTWF8CJB5sNUhGY7s9FZog=
+
+Name: assets/www/assets/fonts/roboto-black-webfont.woff2
+SHA1-Digest: jtYgKdLgpPlPh0W5ddfdnE80yZg=
+
+Name: assets/www/assets/img/tmp/gal_1.jpg
+SHA1-Digest: G68SVu9PSnLGNihUVvKNssYnvOY=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/mes
+ sages.html
+SHA1-Digest: S43Ge5U/HkGbuFeNl13wqW3eQX4=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/nie
+ ES.js
+SHA1-Digest: Ul127mV3dk99Fy3CJHLm9KhX1oY=
+
+Name: assets/www/assets/fonts/OpenSans-LightItalic-webfont.ttf
+SHA1-Digest: 3XfGIGTZD1UOVjqWZyGEqyF/XJg=
+
+Name: assets/www/bower_components/swiper/dist/css/swiper.css
+SHA1-Digest: ZqclUnwMZXofLSIgkO6KA8nUm1I=
+
+Name: assets/www/bower_components/framework7/src/js/f7-outro.js
+SHA1-Digest: re9pXUSl5PDUGqDbWXhrv06E1Eg=
+
+Name: assets/www/bower_components/framework7/dist/js/my-app.js
+SHA1-Digest: ySoMlMAFFEfzt7V66WuNtNK/3Lo=
+
+Name: assets/www/bower_components/framework7/src/js/dom7-intro.js
+SHA1-Digest: fNEFLV8LLtTq4AUCrvd369XbdR0=
+
+Name: res/drawable-xhdpi-v4/ic_action_remove.png
+SHA1-Digest: EhvoyAdNZQu17Um9w6vEbO8Q4yc=
+
+Name: assets/www/bower_components/framework7/src/less/material/panels.
+ less
+SHA1-Digest: mdGQW5zT7/fwb7t6rJ8uoXrfSLg=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/ext
+ ension.js
+SHA1-Digest: fSKrUOW0nCQ6syrqaAcQ/Jki0IU=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_ja.js
+SHA1-Digest: TE5vg+KrTS1tBX/XLIsYgXJCAsY=
+
+Name: assets/www/bower_components/jquery/src/exports/amd.js
+SHA1-Digest: MgL9ItUKoPhLPnIeZMsUYV3WcJo=
+
+Name: res/drawable-hdpi-v4/ic_action_next_item.png
+SHA1-Digest: if3MCCMitp+rQkSVaFJf812cKSw=
+
+Name: assets/www/assets/fonts/OpenSans-Light-webfont.eot
+SHA1-Digest: d0C8vRarAuKuF22+y4+24gp0Shw=
+
+Name: assets/www/bower_components/font-awesome/scss/_list.scss
+SHA1-Digest: YZulvViRryriMdjnOExF4456Swc=
+
+Name: assets/www/bower_components/framework7/examples/inline-pages/les
+ s/my-app.less
+SHA1-Digest: +nrTbk1y5ZG1LpuRawhVeG9WVuk=
+
+Name: assets/www/bower_components/framework7/src/js/material-inputs.js
+SHA1-Digest: I53iGm5qIJlJ7JDdg9iooLeLEUk=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_ca.js
+SHA1-Digest: ZQR3Cuts0ljqlJ3Ts1TMCqdTUCA=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/bar
+ s-hide.jade
+SHA1-Digest: Qm+vKUz3PxWJQRaePIF34ujYSuY=
+
+Name: assets/www/bower_components/framework7/src/js/lazy-load.js
+SHA1-Digest: uN+KtALKxH0V3u3gwQZvNVmIUu4=
+
+Name: assets/www/bower_components/framework7/src/js/tabs.js
+SHA1-Digest: vVNu3JYYoMMu8QX3DNj/9xW7Uv4=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/mob
+ ileNL.js
+SHA1-Digest: yq+WTg2kkLNTezrkLT+x2gOCrcg=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/iba
+ n.js
+SHA1-Digest: 8JoiuCXK4qqvTnkrP/bCfklovq8=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-name-mate
+ rial.svg
+SHA1-Digest: Ha7vIv3F5vZv281gnTFyhTDVO/E=
+
+Name: assets/www/bower_components/framework7/src/my-app/my-app.js
+SHA1-Digest: ZjzVW7jfL41EudKhNYkN/ydXdjw=
+
+Name: assets/www/assets/img/favicons/apple-touch-icon-180x180.png
+SHA1-Digest: +vfyHOzUlLp7vBsjJnr4pqupNzA=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/con
+ tacts.html
+SHA1-Digest: lO66LxRE+15vapAK/g/bJ8qNxF8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/swi
+ per-space-between.jade
+SHA1-Digest: 5Y7g9yehjMI1ocZ73WagQqpqbpE=
+
+Name: assets/www/bower_components/jquery/src/sizzle/dist/sizzle.min.js
+SHA1-Digest: 89oe0Bj6PaNIDdwrADg5ctIvZCY=
+
+Name: assets/www/bower_components/framework7/src/less/material/framewo
+ rk7.material.rtl.less
+SHA1-Digest: ohhUHrGWDhjdeT4PlG2c17W4aAc=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-gender-ios
+ .svg
+SHA1-Digest: BGyf6fnlME25W3jWXXF6u5XmUqU=
+
+Name: assets/www/bower_components/font-awesome/scss/_rotated-flipped.s
+ css
+SHA1-Digest: 7iloybqCeXm/Rl3aXulugb/jogw=
+
+Name: assets/www/assets/img/icon-db-message.png
+SHA1-Digest: BCEQ0GRXLTzuPlfFLNGg5NgA748=
+
+Name: assets/www/bower_components/framework7/index.html
+SHA1-Digest: eiW+qr2IMB5jnGb1W2J+2uiJWzY=
+
+Name: assets/www/bower_components/chartjs/docs/05-Pie-Doughnut-Chart.m
+ d
+SHA1-Digest: i1tjaT2KLalgMwZA1zVf+j14/5Y=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/searchbar.jade
+SHA1-Digest: 2YWA2z/4a8wlOeKfvMjEMHc1XH4=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/bar
+ s-deep-navbar-2.html
+SHA1-Digest: +4FqIOB0VuiNvQT9SfdMs56ZeCU=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/accordion.jade
+SHA1-Digest: L94RLeIoPcxkWxnST0K61fyNeug=
+
+Name: assets/www/bower_components/framework7/src/js/calendar.js
+SHA1-Digest: 4z8UnUQ17KDrW6Xzxvx46kL98rQ=
+
+Name: res/drawable-xhdpi-v4/icon.png
+SHA1-Digest: gRvyzBdqKSwKy+CNsbBM0WEbS6w=
+
+Name: assets/www/bower_components/framework7/src/less/material/grid.le
+ ss
+SHA1-Digest: p3t2iYMxzgeJRNmUt1n9fS7AtZ8=
+
+Name: assets/www/bower_components/swipebox/README.md
+SHA1-Digest: QI6O+gUSh8sRYzUCBIoe77KZNUE=
+
+Name: assets/www/bower_components/jquery-validation/README.md
+SHA1-Digest: YMEx1B1lqG9Yxs79lFXCo1Y89UM=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_hu.js
+SHA1-Digest: wPsMEcYECf6J1TQ4ll5CqeGK+EE=
+
+Name: assets/www/plugins/cordova-plugin-splashscreen/www/splashscreen.
+ js
+SHA1-Digest: jw+JIGD50/dzADr8EO+DH7thtIo=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/ipv
+ 4.js
+SHA1-Digest: FYrvWQZpAZ0FsolLlparvOyCcjY=
+
+Name: assets/www/assets/img/tmp/ava1.jpg
+SHA1-Digest: 2eDh8DZw2b2UCO7t06JHijCzgVA=
+
+Name: res/drawable-hdpi-v4/_icon.png
+SHA1-Digest: ispZbU++71l6+lTx6jzbKkrS4qE=
+
+Name: assets/www/bower_components/jquery/src/data/accepts.js
+SHA1-Digest: irOtkg3U2MPiPyl2Z9wCIxxfmKg=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/for
+ ms-storage.html
+SHA1-Digest: Y/b9pgDUZ3DMnxKIcs8NNbAFayw=
+
+Name: assets/www/bower_components/font-awesome/fonts/fontawesome-webfo
+ nt.svg
+SHA1-Digest: tyTxttwhPLnTcl983PJAPFlHZSQ=
+
+Name: assets/www/assets/img/logo-login.png
+SHA1-Digest: i4XCk9FS8lu45HiTD/phKaqs4vU=
+
+Name: res/drawable-ldpi-v4/icon.png
+SHA1-Digest: K7wRN13nKC7uSCTKTezMC/pI4nY=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/vir
+ tual-list.jade
+SHA1-Digest: UuzIn/zJJL4D0q4uJcNhKluPBvo=
+
+Name: assets/www/bower_components/jquery/src/core/var/rsingleTag.js
+SHA1-Digest: K0XY3XSTXO1PPWZEueA4k7cwsk0=
+
+Name: assets/www/bower_components/font-awesome/less/path.less
+SHA1-Digest: 8KfOSbcjkAuEemSP82qofLNHn6s=
+
+Name: assets/www/bower_components/swiper/src/less/effects.less
+SHA1-Digest: hylMVtriyaVjaB32kcEwmUtHEKY=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/swiper-v
+ ertical.html
+SHA1-Digest: Tlr9hffx0h0CinUKmhhsV3evUlg=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/bars-tab
+ bar.html
+SHA1-Digest: FmttvUmW3OhpxL+WmtkNyrHl9sI=
+
+Name: assets/www/bower_components/framework7/src/less/ios/toolbars.les
+ s
+SHA1-Digest: 7jkSukXYmkPFxUgbobZbPYBNkl4=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/grid.jade
+SHA1-Digest: mhTM6e3iSG8MNg8XqETEJQPcrm4=
+
+Name: assets/www/bower_components/chartjs/src/Chart.Radar.js
+SHA1-Digest: jBLdX5TbJKsfq5TjERgQeOxUu64=
+
+Name: assets/www/bower_components/framework7/src/js/smart-select.js
+SHA1-Digest: 9AQgmv2xIB+jfoCi8H0aLZoqlPs=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/floating-button.jade
+SHA1-Digest: 1yusJ98+5nS064tGO7d94PgQ1gA=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/ind
+ ex.jade
+SHA1-Digest: WdYRO8hudrAe4KFMbHZpRU32FuU=
+
+Name: assets/www/bower_components/jquery/src/attributes/classes.js
+SHA1-Digest: loRBTIW0dad3tRSKfj6RpZA8e8w=
+
+Name: assets/www/assets/fonts/OpenSans-BoldItalic-webfont.woff2
+SHA1-Digest: AnIlJCVBAcGb8kbIaC2dAXP/XJU=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileSystem.js
+SHA1-Digest: H2GN/uD5XkS9La99kGBhyohlv4U=
+
+Name: assets/www/bower_components/framework7/src/less/ios/lazy-load.le
+ ss
+SHA1-Digest: EXZc6PgvBR6aGjcSxqI8IzHNCb8=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_da.js
+SHA1-Digest: hou7NUCTWgjE7dS+auv6jQ1RLos=
+
+Name: assets/www/bower_components/swipebox/src/js/jquery.swipebox.js
+SHA1-Digest: Ei9x/zl4XY0PWxJhvHZPrUVd52I=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/notifica
+ tions.html
+SHA1-Digest: 8oTZedl19+nCLtiUpWq8fn7Q0NQ=
+
+Name: assets/www/bower_components/jquery/src/data/var/data_priv.js
+SHA1-Digest: 5I6zwBiaeJSyRQ3mb5yrukP2V9o=
+
+Name: assets/www/assets/fonts/OpenSans-Italic-webfont.woff2
+SHA1-Digest: nTeYvSi0eMla3fcUyk51vIvhBvM=
+
+Name: assets/www/bower_components/jquery/src/wrap.js
+SHA1-Digest: d2fELY6iElM+87HMRNwWTsdKgW8=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/pos
+ talcodeIT.js
+SHA1-Digest: Bb5cdmITi6d3OawgKmJyrzCgBac=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-calendar-i
+ os.svg
+SHA1-Digest: 6ZndZIirLblthEXx7CpRHTKHM6A=
+
+Name: assets/www/assets/fonts/roboto-blackitalic-webfont.woff
+SHA1-Digest: yJRlyRjHagP9GGlVma/6xryBed0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/pan
+ els.jade
+SHA1-Digest: d6Z9TzpnkmKSYzXUvQjL3RQv+R4=
+
+Name: assets/www/bower_components/swipebox/demo/normalize.css
+SHA1-Digest: cx1fXXYUf4XhAk0ovjc0NjhnKhw=
+
+Name: assets/www/bower_components/framework7/src/js/xhr.js
+SHA1-Digest: mVnaG7+YEbeMl3nup76yd9m0hXQ=
+
+Name: assets/www/assets/fonts/roboto-lightitalic-webfont.woff2
+SHA1-Digest: mfGl+XrthrKy01ms5Gg+uEdVUUs=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/searchba
+ r.html
+SHA1-Digest: /h/480OCpAzZlGPHun8rpZYHsQo=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/sea
+ rchbar.html
+SHA1-Digest: YMxAb7P/md3i90nZaoZQEbOOjY4=
+
+Name: assets/www/assets/fonts/OpenSans-BoldItalic-webfont.woff
+SHA1-Digest: RYJFlWKzKjjt/TJyvY9cpKY1hpE=
+
+Name: assets/www/assets/img/tmp/ava-demo.jpg
+SHA1-Digest: R55cQHuG+yeQJ16tuoCiu5JhBv0=
+
+Name: assets/www/bower_components/framework7/examples/inline-pages/jad
+ e/index.jade
+SHA1-Digest: /OUZHZqvGJcc2afnpprGDQhgbOI=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/swi
+ per-3d-coverflow.jade
+SHA1-Digest: eYf2cPeZoge8y7EZkQHWO+YCGn0=
+
+Name: assets/www/bower_components/swiper/src/less/scrollbar.less
+SHA1-Digest: Io1WzlKpi2SQ4Pnc2Ie6FMQArCM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/cards.ht
+ ml
+SHA1-Digest: 0DR/4AqVMOWClyYgH7liy+Z+Ne4=
+
+Name: assets/www/bower_components/swiper/src/less/core.less
+SHA1-Digest: hf5t0S/AgtlX928n8TAOCraHfS8=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/calendar
+ .html
+SHA1-Digest: q2VgC2RJWA7NFUnoja+fR/zC9ZE=
+
+Name: assets/www/assets/img/favicons/mstile-310x150.png
+SHA1-Digest: FWiGCR8rSGxyDKmy5RV+r4AVSv0=
+
+Name: assets/www/assets/img/tmp/gal_6.jpg
+SHA1-Digest: 3PyKMbGDUT7NK+Rg8ONg66F8VPw=
+
+Name: assets/www/bower_components/swiper/gulpfile.js
+SHA1-Digest: 37SpmRtesMgEHXPTduA2fkoN0HE=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/accordio
+ n.html
+SHA1-Digest: 6zaO/tWEIF2Fs3hSOHj4F16bsao=
+
+Name: assets/www/assets/fonts/OpenSans-ExtraBoldItalic-webfont.woff
+SHA1-Digest: HikKEGywFMe1AVA5bHWFWdOKJEM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/sortable-list.jade
+SHA1-Digest: jOrY5iwExz0qCrQJPRvYq/8Vhv4=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/forms-checkboxes.jade
+SHA1-Digest: GQBStzt3DrjNyEy0MmcAAeHT9W4=
+
+Name: assets/www/bower_components/framework7/src/js/virtual-list.js
+SHA1-Digest: GQiPDETM1h/aUyA3vxpe4/U2apI=
+
+Name: assets/www/bower_components/framework7/examples/split-view/css/m
+ y-app.css
+SHA1-Digest: mRW+VB1AarVR0h2LuQTPlqevKUQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/pop
+ over.jade
+SHA1-Digest: U4hXfcd86f65d8/xzld2zrpEzJI=
+
+Name: assets/www/bower_components/jquery/src/css/hiddenVisibleSelector
+ s.js
+SHA1-Digest: zhI0kBmqLT6KDTJ2IHuFMXpSKQs=
+
+Name: assets/www/bower_components/Tweetie/bower.json
+SHA1-Digest: zFKoIouJrD8EN9AF/GPOhXHlFLU=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-tel-materi
+ al.svg
+SHA1-Digest: 8hr0RQdykz1m9zw4IIzYap8ERYQ=
+
+Name: assets/www/assets/fonts/OpenSans-Bold-webfont.woff2
+SHA1-Digest: XLfe7VrRAp3aHq/oInyfLI8Ohqg=
+
+Name: assets/www/plugins/cordova-plugin-file-transfer/www/FileTransfer
+ .js
+SHA1-Digest: gym3Q81sFuVc6F38Vvhn4hPBfS0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/acc
+ ordion.html
+SHA1-Digest: gY0PEYLRG6RXsTberpx0RXV59h8=
+
+Name: assets/www/bower_components/jquery/src/effects.js
+SHA1-Digest: +KSWenWCKl1O9AwgDnHLAbptFVg=
+
+Name: assets/www/assets/fonts/roboto-bold-webfont.eot
+SHA1-Digest: vPN5zVRx1JZlpVJ9EW35KJ+S4CY=
+
+Name: assets/www/index.html
+SHA1-Digest: A/iWR7lOHpnAvSqMRDxgfqMIhx0=
+
+Name: assets/www/bower_components/framework7/src/templates/form.jade
+SHA1-Digest: sWkcfK+gCk5HzoTRLtaYFhd7CSE=
+
+Name: assets/www/bower_components/framework7/src/less/material/floatin
+ g-button.less
+SHA1-Digest: tDr8JxZXkQd3BYOEoCiL2nU8IKI=
+
+Name: assets/www/bower_components/swiper/src/less/preloader-f7.less
+SHA1-Digest: ycvHDLAOaccerxHzs7ZOWkE0WA0=
+
+Name: assets/www/plugins/cordova-plugin-network-information/www/Connec
+ tion.js
+SHA1-Digest: 1gtjMnQbAGhLIA8Ye9nuw/rzMqE=
+
+Name: assets/www/plugins/cordova-plugin-file/www/fileSystems-roots.js
+SHA1-Digest: WVvR5edmwPKwBhTVNneqz+ZZD0M=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/popover.jade
+SHA1-Digest: UoSnzpgzjgThuZVzKeW09HydEto=
+
+Name: assets/www/bower_components/jquery/src/offset.js
+SHA1-Digest: 7C9CnEkWeNlc1G6VYWefbmka2J4=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/login-sc
+ reen.html
+SHA1-Digest: 66OCZVExkaJ/rsuEIX9R+uWaFD4=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/swiper-f
+ ade.html
+SHA1-Digest: UEMDzHY+iaRvSiXW2LBSeurSwZo=
+
+Name: assets/www/assets/img/icon-db-login.png
+SHA1-Digest: +x7A5sltn5w94vLhpD1enkifMXE=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_pt_PT.js
+SHA1-Digest: Re4/nggGDw/+lK5y+sZ9AvUn708=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/bars-dee
+ p-navbar-3.html
+SHA1-Digest: 0sdbhvxCTOorIvE/GAqvxy1A028=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ ethods_es_CL.js
+SHA1-Digest: nlsHQsXnbKsuob2Etkfxa0DY7gk=
+
+Name: assets/www/assets/css/app.css
+SHA1-Digest: j4R3S+iKQi2MmmppnszKxOvVE2E=
+
+Name: assets/www/bower_components/font-awesome/less/stacked.less
+SHA1-Digest: E7qPlG9NvdXogYrS4AO5F8A+MtY=
+
+Name: assets/www/assets/fonts/roboto-bolditalic-webfont.woff
+SHA1-Digest: gISYZY4sw/WdGfk/74+r6wZSuvM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/forms-ch
+ eckboxes.html
+SHA1-Digest: StPWvJLHqaIZeVJSwspSdkMUHA4=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/swiper-l
+ oop.html
+SHA1-Digest: l4l95oV4ZBqwYkQ31VQ0FWnyjF4=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_el.js
+SHA1-Digest: KntNCN4vYt+F1bpbsQne9cX7DOA=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/media-li
+ sts.html
+SHA1-Digest: 8QqIzcOQzjCOUgampZJzv9Rib4s=
+
+Name: assets/www/bower_components/framework7/src/js/panels.js
+SHA1-Digest: Ia9cTOvuWkBr17QLzLJK+qlLMVE=
+
+Name: assets/www/assets/css/_base.scss
+SHA1-Digest: IbjeoL/noSyOHpGoJsKfbpdjzh0=
+
+Name: assets/www/bower_components/jquery/src/css/var/rmargin.js
+SHA1-Digest: /Ox9JGU9IgG0o6RUii5d+cS2WIg=
+
+Name: assets/www/plugins/cordova-plugin-file/www/LocalFileSystem.js
+SHA1-Digest: jry2OLRAExsZ5lR7dMG1R4YSP7I=
+
+Name: assets/www/assets/fonts/OpenSans-Semibold-webfont.eot
+SHA1-Digest: k9hTHpz3YwW+ocMgXkcgZnpPWx0=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-comment-m
+ aterial.svg
+SHA1-Digest: WiCVgEdt4y+mONuC5MxVA/Y7Kz0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/swi
+ pe-delete.html
+SHA1-Digest: 7cOLrVUrZUA8o50DKXebr+plb7Y=
+
+Name: assets/www/bower_components/framework7/dist/css/my-app.css
+SHA1-Digest: yJW3B7iiOlBUJXg8WbjFtZmnFd4=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/mob
+ ileUK.js
+SHA1-Digest: /yNqGgUAMJ/ZRGoyAqW+wib8KFo=
+
+Name: assets/www/bower_components/font-awesome/scss/_mixins.scss
+SHA1-Digest: GrbfoUAQodO08OAo2noZdDXIcuM=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/zip
+ codeUS.js
+SHA1-Digest: jdFfS7dsLLsZ/SlnmEXWa3UdizM=
+
+Name: assets/www/assets/img/_logo.png
+SHA1-Digest: z7qBjblgTnCPJhRopM0dFMYmRJo=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_es_AR.js
+SHA1-Digest: qpmGhvHYw22/YVtTYy6slpLF/6s=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/calendar.jade
+SHA1-Digest: J6ASmt6QiI/Q++nFXa32BlvJ3ho=
+
+Name: assets/www/bower_components/framework7/src/less/ios/tabs.less
+SHA1-Digest: r0oFMqimrlOp7siBCA43HOIzC0s=
+
+Name: assets/www/bower_components/font-awesome/css/font-awesome.css.ma
+ p
+SHA1-Digest: a+u/cf/h+GH6RBfPI4aCZf54HxE=
+
+Name: assets/www/bower_components/swiper/src/js/effects.js
+SHA1-Digest: 4Oyl2aDwRzmVwZf2zBHMne31Cog=
+
+Name: assets/www/bower_components/swiper/src/js/a11y.js
+SHA1-Digest: B4S5itVeTCbGrn2R0YNOUBhqAJ4=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/swi
+ per-3d-coverflow.html
+SHA1-Digest: /6cvh2Dd4mdlRAiUK4p4wB2P9QE=
+
+Name: assets/www/assets/css/app.scss
+SHA1-Digest: pyu69SOClBlRAwFUEOs9Xrm2xd4=
+
+Name: assets/www/assets/img/logo_mitco.png
+SHA1-Digest: OAnZ2pRbAwZ6BmdW5uAxPRcc6M4=
+
+Name: assets/www/bower_components/framework7/src/less/material/disable
+ d.less
+SHA1-Digest: qMkPHPEgoy0ZSCBXBPuYeuhylig=
+
+Name: assets/www/bower_components/chartjs/docs/06-Advanced.md
+SHA1-Digest: EuqtzPvuLCimOmMVBiG8ektX4Rs=
+
+Name: assets/www/bower_components/framework7/dist/about.html
+SHA1-Digest: MBJZpbx4dmw/jkSxtdUPmgdWeTs=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_th.js
+SHA1-Digest: Qs9CHZJAD/4akxWi3bxtnGpPBQ4=
+
+Name: assets/www/bower_components/framework7/src/js/init.js
+SHA1-Digest: Z7W1eCVS4TJMHSRmjFUH75eWXgM=
+
+Name: assets/www/assets/fonts/OpenSans-Regular-webfont.woff
+SHA1-Digest: dBm4AnlqqxhWtEX6FNbuMY9ioXw=
+
+Name: assets/www/bower_components/framework7/examples/template7-pages/
+ jade/contacts.jade
+SHA1-Digest: Ky08nOvaj5QkZK6Iu4cB/2nVUtY=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/swi
+ per-parallax.html
+SHA1-Digest: e66ajoMjcDT0R06tV8PZaIT9yB0=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileUploadResult.js
+SHA1-Digest: 4h1DH2sgM0vLKU76poW6Uf+cdEA=
+
+Name: assets/www/bower_components/framework7/src/templates/index.jade
+SHA1-Digest: fELkp6mwEk/J1HNpLy5NZOSDptQ=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/swi
+ per.jade
+SHA1-Digest: NzMMCNXPrJDLj/S3S9lvqwAc2z0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/swi
+ per-horizontal.jade
+SHA1-Digest: Boij8/QCVECFd7xHRG7E2rrZsF0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/swiper-3
+ d-coverflow.html
+SHA1-Digest: OFzk5apGfB7rgO8XxGjqDQL8O6M=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-gender-mat
+ erial.svg
+SHA1-Digest: +J6NRSYgWovoU9wP5/+Zy5EvBOI=
+
+Name: assets/www/assets/img/bg-small-5.JPG
+SHA1-Digest: CYCwrdy4NEUjaurwva6RYtUkZDc=
+
+Name: assets/www/bower_components/jquery/src/ajax/parseJSON.js
+SHA1-Digest: SLp8PKj7NNu/d21xSsLa3GctZtU=
+
+Name: assets/www/assets/img/icon-globe.png
+SHA1-Digest: HVNLUiTVe8s9kqrXeBdKRlOI5YY=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/core-fea
+ tures.html
+SHA1-Digest: 9ADbKZizdyyk0kfTRnLfEJ5WVlM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/bar
+ s-no-navbar.jade
+SHA1-Digest: 07BHg1sniUbAhS2nbu22VGz4kLg=
+
+Name: assets/www/assets/img/favicons/apple-touch-icon-120x120.png
+SHA1-Digest: lTyagyLUzgTLvXhgkJ1ZxmR0Nic=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/col
+ or-themes.jade
+SHA1-Digest: 79XccGZ7RFzIR1iLxRk9idfy/fM=
+
+Name: assets/www/bower_components/Tweetie/tweetie.min.js
+SHA1-Digest: ma6F/CN7PefpwjlPXnU19OfXgCI=
+
+Name: assets/www/assets/fonts/OpenSans-Italic-webfont.woff
+SHA1-Digest: Myi0+PwVTzZIVSV4631PtvMWCt8=
+
+Name: assets/www/assets/fonts/OpenSans-LightItalic-webfont.eot
+SHA1-Digest: XmIgGOa9lGy6CSMg3hPGRJS/Xeo=
+
+Name: res/drawable-mdpi-v4/icon.png
+SHA1-Digest: LvyfP0KPtT2KCsY9ckqRzwFJfjo=
+
+Name: assets/www/bower_components/jquery/src/var/class2type.js
+SHA1-Digest: fDdGY5CfI8ESJduROnMrHS/Fo3Y=
+
+Name: assets/www/bower_components/swiper/src/js/amd.js
+SHA1-Digest: B5cv73cOfd2K1OvULOylMeZVjiE=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-name-ios.
+ svg
+SHA1-Digest: 06LWp6aQoPJ67JCQDKXS6aT86So=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/tab
+ s.html
+SHA1-Digest: ecWuVHE8ICuBmqLIoifIusXhIv0=
+
+Name: assets/www/bower_components/swipebox/src/css/swipebox.css
+SHA1-Digest: sI+RcvYvRGouz1IEPoDfm8uZGXU=
+
+Name: assets/www/assets/fonts/roboto-mediumitalic-webfont.eot
+SHA1-Digest: GeJKF0T7I8aBTBl0nROioVpX+kU=
+
+Name: res/drawable-xxhdpi-v4/ic_action_previous_item.png
+SHA1-Digest: MMQuqfVCNxhbSTH40JlRn05/z90=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_zh_TW.js
+SHA1-Digest: SDbX2eZEsgnO4DxUVI4aPYwr3t0=
+
+Name: assets/www/bower_components/framework7/src/less/ios/_colors-vars
+ .less
+SHA1-Digest: Dd82hyKrPXCyUtF629sgjVP+d3U=
+
+Name: assets/www/cordova-js-src/platform.js
+SHA1-Digest: jhTd/JA3fGuFyrGiPD9GvA2uCrs=
+
+Name: assets/www/assets/img/tmp/gal_5.jpg
+SHA1-Digest: l9AIJk7bL7536jw2lZesqobIB/0=
+
+Name: assets/www/bower_components/framework7/examples/split-view/jade/
+ about.jade
+SHA1-Digest: 1QC3MTeSb3BYE7GVXlRBfuJgqOY=
+
+Name: assets/www/assets/fonts/OpenSans-Light-webfont.woff2
+SHA1-Digest: 5XxmvOH+TCq9cP0viThgLNMPTp0=
+
+Name: assets/www/bower_components/jquery/dist/jquery.js
+SHA1-Digest: 9HKzfumMcI1fIVLrvzHyuwRZlu0=
+
+Name: assets/www/bower_components/jquery/src/attributes/val.js
+SHA1-Digest: jTGAUOASbrKS8atJAKqhvAnR+dg=
+
+Name: assets/www/bower_components/jquery/src/callbacks.js
+SHA1-Digest: GIRtLJE3dVwPmao026tByIyd9mc=
+
+Name: assets/www/plugins/cordova-plugin-file-transfer/www/FileTransfer
+ Error.js
+SHA1-Digest: gN8OeAEpajG6OYJInLiAgG2TooM=
+
+Name: assets/www/bower_components/jquery/src/core/parseHTML.js
+SHA1-Digest: /2hp5OjFgS+/55W+bKeIIDWeshc=
+
+Name: assets/www/bower_components/framework7/src/img/i-form-toggle-ios
+ .svg
+SHA1-Digest: dIeN7QoWgT+81oP5mHgLIZb3lAQ=
+
+Name: assets/www/bower_components/chartjs/samples/line-customTooltips.
+ html
+SHA1-Digest: k1DfiE5NvKzEKov6RMiLlzGZWG0=
+
+Name: assets/www/plugins/cordova-plugin-globalization/www/Globalizatio
+ nError.js
+SHA1-Digest: 3RnML5WSB+zBXb2Q8h433P8x/10=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/preloade
+ r.html
+SHA1-Digest: ryniR0Kc9ZvOlHJ5LNly6EJadvI=
+
+Name: assets/www/bower_components/jquery/src/css/defaultDisplay.js
+SHA1-Digest: FFwkbgwNTDujx8AlGFYhgmRl3Ak=
+
+Name: assets/www/assets/fonts/roboto-italic-webfont.woff2
+SHA1-Digest: VsL7Ud0u565PuTgub0BaEyQlpdM=
+
+Name: assets/www/bower_components/swiper/dist/js/maps/swiper.min.js.ma
+ p
+SHA1-Digest: by9EEp22opG47DEYU9IIg86TbKA=
+
+Name: assets/www/assets/fonts/roboto-light-webfont.eot
+SHA1-Digest: kEYIKrTGAEsLgz2jNX2NGcshbls=
+
+Name: assets/www/chat.html
+SHA1-Digest: 67iizq9nQy0GMcIKtZPGsVtF4xk=
+
+Name: assets/www/bower_components/framework7/src/less/material/preload
+ er.less
+SHA1-Digest: f69jocju1V7/yYKIRGxG3ndntZA=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/req
+ uire_from_group.js
+SHA1-Digest: 3QkgYWwydqiebQ8lHtPLLZBojYM=
+
+Name: assets/www/bower_components/framework7/examples/tab-bar/jade/abo
+ ut.jade
+SHA1-Digest: KqY5TrE/g02rF48SJdHjFg3SSRw=
+
+Name: assets/www/bower_components/framework7/src/js/accordion.js
+SHA1-Digest: gBlQ8RNTcElriisme829NDZv6to=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/pos
+ talCodeCA.js
+SHA1-Digest: Hg9yRx1bO2+UhnlaaoMtQr2hCfg=
+
+Name: assets/www/assets/fonts/roboto-thin-webfont.woff2
+SHA1-Digest: SNBBy9dEqNQKHWhGNHQ+2RxbVV8=
+
+Name: assets/www/bower.json
+SHA1-Digest: t1t5Ug9Zu/MDokmRcmk5uayteRk=
+
+Name: assets/www/bower_components/jquery/src/manipulation.js
+SHA1-Digest: hKh7ty3+YNOV4hz3e5LJuNaPs8I=
+
+Name: assets/www/bower_components/jquery/src/manipulation/support.js
+SHA1-Digest: gc8flCAaXgC4jvoAW6z2DauTw/E=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/core-features.jade
+SHA1-Digest: Ujky2+TDd5lCxL4oEeyxMemXGrw=
+
+Name: assets/www/bower_components/framework7/src/js/dom7-methods.js
+SHA1-Digest: j0D/Ep/cMEyc3CYkRdIKSGOTYrc=
+
+Name: assets/www/bower_components/framework7/src/less/material/lists.l
+ ess
+SHA1-Digest: DtYqKCWJiBoX1coWWoKRF1bmtUw=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/forms.jade
+SHA1-Digest: XI/rNA/m/LXfVMOJNCrjf7AFE0g=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_fa.js
+SHA1-Digest: 1SaQwOV5IXoc2faf9ps+VHjfS1w=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_cs.js
+SHA1-Digest: LEzF5FHIg0ER0sgljxOR4uluSEU=
+
+Name: assets/www/bower_components/framework7/examples/template7-pages/
+ jade/car.jade
+SHA1-Digest: qMKnMYATj+vopr4NRpHpCfS45fA=
+
+Name: assets/www/cordova_plugins.js
+SHA1-Digest: WL9pyUOq3uVRuDiCpphFf3jfAj0=
+
+Name: assets/www/bower_components/font-awesome/HELP-US-OUT.txt
+SHA1-Digest: MVDVSl9skl5PSXPHYQny4fzV5Cc=
+
+Name: assets/www/bower_components/font-awesome/less/fixed-width.less
+SHA1-Digest: Haw6A/M5uP3Gyme6FgyXrdS85dg=
+
+Name: assets/www/bower_components/framework7/examples/tab-bar/css/my-a
+ pp.css
+SHA1-Digest: Ez0G/3MGH8xuEY0chgIQuCVYzoU=
+
+Name: assets/www/bower_components/jquery/src/selector-sizzle.js
+SHA1-Digest: 4c0OG2Kjx/h+fTZbFBFdiarj5bY=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/swi
+ per-vertical.html
+SHA1-Digest: Qm1GyQc866ql28Qwlov6A0pBbkc=
+
+Name: res/drawable-xhdpi-v4/ic_action_next_item.png
+SHA1-Digest: vId0P8iSrMw9IbpTh7JhARxcbHc=
+
+Name: assets/www/bower_components/framework7/dist/css/framework7.mater
+ ial.colors.min.css
+SHA1-Digest: N0/28o2PiCo8r9RGZCrQVcWa6Lk=
+
+Name: assets/www/bower_components/framework7/dist/img/i-form-password-
+ ios.svg
+SHA1-Digest: 5lLSyGliculR9ICgNuONvupC6uk=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ ethods_nl.js
+SHA1-Digest: DxD8/g4EZaja2LYW7RmKvGpKHw0=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/zip
+ range.js
+SHA1-Digest: QjB+fXnTiVP+wiajou96BqqtqB8=
+
+Name: assets/www/bower_components/chartjs/package.json
+SHA1-Digest: yBOh5l+NuQQnUqlAYAlcGBg12Rc=
+
+Name: assets/www/bower_components/font-awesome/fonts/FontAwesome.otf
+SHA1-Digest: IXyUw1mDkWA1xy9biOWipyQTb8U=
+
+Name: assets/www/bower_components/font-awesome/less/rotated-flipped.le
+ ss
+SHA1-Digest: 4Hm2aEh8CW3oNConZ1VjFvnEiYY=
+
+Name: assets/www/bower_components/framework7/src/less/ios/lists.less
+SHA1-Digest: 98lKlAgEMkElAh0s4PFKmEYcTBo=
+
+Name: assets/www/bower_components/framework7/src/less/ios/icons.less
+SHA1-Digest: ZigUN3QTqnNebPsXFYtLdzx23Tg=
+
+Name: assets/www/bower_components/Tweetie/api/tweet.php
+SHA1-Digest: TrD1v69mb4ivTlDRlJ3eDTgHOLM=
+
+Name: assets/www/bower_components/framework7/src/less/material/message
+ bar.less
+SHA1-Digest: eF9FVjrHl4xzTHWXPHoEwnCzq8g=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_eu.js
+SHA1-Digest: p/avI9LWYHk1L5zE8/zujshReT8=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_ro.js
+SHA1-Digest: SO81WKM1CGSoEwFHl+0h9H6GvDY=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/js/kitch
+ en-sink.js
+SHA1-Digest: X9ExGtYTErReZHrL8sskjQm1nQk=
+
+Name: assets/www/assets/fonts/roboto-regular-webfont.woff2
+SHA1-Digest: A43nYUDyh3kO0u8vW5FLhFGdXtM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/for
+ ms-selects.html
+SHA1-Digest: jopJpTYQ6L2rbWzQgHSeO6L9r9Q=
+
+Name: assets/www/bower_components/jquery-validation/src/localization/m
+ essages_gl.js
+SHA1-Digest: MJRf+RV+AG/lDxj99iEYPZ1C5ag=
+
+Name: assets/www/bower_components/Tweetie/tweetie.js
+SHA1-Digest: WsVAxYC3ozkeRYcyYbvhs0mtH30=
+
+Name: assets/www/js/acai.js
+SHA1-Digest: 95OcF+hiFKqHMmWgNyGl68rgZxU=
+
+Name: assets/www/bower_components/framework7/examples/tab-bar/js/my-ap
+ p.js
+SHA1-Digest: u/j26rqNBUihLVITiBFSfiBqlno=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/bar
+ s.html
+SHA1-Digest: nZkB0ChF+77DU/0wAxYasYH9LVg=
+
+Name: assets/www/bower_components/swipebox/src/img/icons.png
+SHA1-Digest: AG36NGsVQWm+QwKBkHz2jPnxKaM=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/about.jade
+SHA1-Digest: 8FnhZhHYNTWV4dTdM0YgzAvdXBo=
+
+Name: assets/www/bower_components/framework7/src/less/material/swiper.
+ less
+SHA1-Digest: RJvwQj8OCrL6Fa2p5pIQxTlBfkc=
+
+Name: assets/www/bower_components/framework7/src/less/material/pages.l
+ ess
+SHA1-Digest: pQmtprbYa2itThtZUfMhy0bpxhs=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/cre
+ ditcardtypes.js
+SHA1-Digest: 8C/x9v0bL75XFJKfjjrpCmDF8Zw=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/str
+ ippedminlength.js
+SHA1-Digest: 2mEyLaJxsErdia/PgxB5yCltpEk=
+
+Name: assets/www/bower_components/framework7/examples/tab-bar/less/my-
+ app.less
+SHA1-Digest: zC6zEF2DhiOVgMyI3ntTLIDYo+c=
+
+Name: assets/www/bower_components/jquery/src/var/slice.js
+SHA1-Digest: 5Z9jJ0B4cxjv8xcc9yH7/26dPeQ=
+
+Name: assets/www/bower_components/framework7/examples/split-view-panel
+ /index.html
+SHA1-Digest: qI7/cT3n9eT2RPPPLc+y0v7EULI=
+
+Name: assets/www/bower_components/jquery-validation/src/additional/pat
+ tern.js
+SHA1-Digest: AF0Rb7ZMvqy0ZCI+qhtoVofrlec=
+
+Name: assets/www/assets/fonts/roboto-italic-webfont.woff
+SHA1-Digest: IeE2eKVu7F1CzimXeApfbzuClQk=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/jade/gri
+ d.jade
+SHA1-Digest: q1lzV7f310zObdxXFPBgVsVvJVo=
+
+Name: assets/www/assets/fonts/OpenSans-Bold-webfont.ttf
+SHA1-Digest: Lzsg1oEMGf2KaC4PEkVUKyr4eRk=
+
+Name: assets/www/assets/fonts/roboto-light-webfont.woff2
+SHA1-Digest: Ed1jXDSpzwY7nmugShWa0oFb6V0=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-ios/img/icon
+ .png
+SHA1-Digest: h+VgaFXqFqtlvi0g4Y9YtB9Sr1w=
+
+Name: assets/www/bower_components/chartjs/samples/line.html
+SHA1-Digest: +apJ5x+efrd/1QNJC+Kz5Ej2IpE=
+
+Name: assets/www/bower_components/framework7/src/less/ios/pages.less
+SHA1-Digest: 6C4xd5s3ZGLMyBafble6nEYCkNI=
+
+Name: assets/www/bower_components/framework7/src/less/material/icons.l
+ ess
+SHA1-Digest: t7TSEISzGQSBWWsjmLwlzPGXt1U=
+
+Name: res/drawable-hdpi-v4/ic_action_remove.png
+SHA1-Digest: 4yiGHHAsMSLLJvngmTVlLn1qOUI=
+
+Name: assets/www/bower_components/framework7/src/js/resize.js
+SHA1-Digest: oHGGqNwE2SqBQLiwj/S8izysz4c=
+
+Name: assets/www/bower_components/framework7/kitchen-sink-material/jad
+ e/preloader.jade
+SHA1-Digest: Ke5voN47kjnrOKfTPcMjzia+Su4=
+

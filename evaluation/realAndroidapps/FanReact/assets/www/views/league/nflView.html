@@ -1,0 +1,614 @@
+<div id="nflView" data-role="page">
+
+    <div data-role="header">
+
+        <ul class="headerBtns">
+            <li class="menu">
+                <a href="#popupMenu" data-rel="popup" data-role="button" data-inline="true" data-transition="slidedown"></a>
+            </li>
+            <li class="friends">
+                <a href="../fans/fansView.html"></a>
+            </li>
+            <li class="search">
+                <a href="#searchPopup" data-rel="popup" data-position-to="window" data-inline="true" data-transition="pop"></a>
+            </li>
+        </ul>
+
+        <h1>
+            <a id="viewTitle" href="#" data-rel="back"></a>
+        </h1>
+
+    </div>
+
+    <div data-role="popup" id="popupMenu" data-theme="d">
+        <ul>
+            <li>
+                <a href="../dashboard/followingView.html">Home</a>
+            </li>
+            <li>
+                <a href="../notifications/notificationsView.html">
+                    Notifications <span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="../profile/profileView.html">My Profile</a>
+            </li>
+            <li>
+                <a href="../fans/fansView.html">
+                    Fans <span class="notifications">8</span>
+                </a>
+            </li>
+            <li>
+                <a href="../settings/settingsView.html">Settings</a>
+            </li>
+        </ul>
+    </div>
+
+    <div data-role="content">
+
+        <div id="teamsByDivisionList" class="headerPadding footerPadding">
+
+            <p class="smHead">Click on any teams below to add them to your home sports stream</p>
+
+            <!-- <div class="feedWrapper">
+
+                <h2 class="header">AFC</h2>
+                <h3 class="header">East</h3>
+
+                <table class="feed sports">
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-bills.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Buffalo Bills</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-patriots.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">New England Patriots</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-jets.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">New York Jets</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-dolphins.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Miami Dolphins</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                </table>
+
+                <h3 class="header">North</h3>
+
+                <table class="feed sports">
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-bengals.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Cincinnati Bengals</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-steelers.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Pittsburgh Steelers</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-ravens.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Baltimore Ravens</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-browns.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Cleveland Browns</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                </table>
+
+                <h3 class="header">South</h3>
+
+                <table class="feed sports">
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-colts.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Indianapolis Colts</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-titans.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Tennessee Titans</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-jaguars.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Jacksonville Jaguars</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-texans.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Houston Texans</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                </table>
+
+                <h3 class="header">West</h3>
+
+                <table class="feed sports">
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-broncos.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Denver Broncos</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-chiefs.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Kansas City Chiefs</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-chargers.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">San Diego Chargers</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-raiders.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Oakland Raiders</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="feedWrapper">
+
+                <h2 class="header">NFC</h2>
+                <h3 class="header">East</h3>
+
+                <table class="feed sports">
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-eagles.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Philadelphia Eagles</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-giants.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">New York Giants</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-redskins.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Washington Redskins</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-cowboys.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Dallas Cowboys</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                </table>
+
+                <h3 class="header">North</h3>
+
+                <table class="feed sports">
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-vikings.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Minnesota Vikings</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-packers.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Green Bay Packers</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-bears.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Chicago Bears</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-lions.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Detroit Lions</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                </table>
+
+                <h3 class="header">South</h3>
+
+                <table class="feed sports">
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-buccaneers.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Tampa Bay Buccaneers</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-saints.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">New Orleans Saints</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-panthers.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Carolina Panthers</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-falcons.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Atlanta Falcons</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                </table>
+
+                <h3 class="header">West</h3>
+
+                <table class="feed sports">
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-seahawks.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Seattle Seahawks</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-49ers.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">San Fransisco 49ers</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-rams.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">St. Louis Rams</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo">
+                            <div class="img round" style="background-image: url('../../images/logo-nfl-cardinals.gif');">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2>
+                                <a href="#">Arizona Cardinals</a>
+                            </h2>
+                        </td>
+                        <td class="follow">
+                            <a href="#" class="button active">ollow</a>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>-->
+
+        </div><!--headerPadding footerPadding-->
+
+    </div><!--content-->
+
+<div data-role="popup" id="searchPopup" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+
+        <h3 class="ui-title">Search</h3>
+        <p>Enter your search term and hit enter</p>
+        <label for="">Search for:</label>
+        <select>
+            <option value="fans">Fans</option>
+            <option value="posts">Posts</option>
+        </select>
+        <input type="text" name="search" placeholder="Search" />
+        <a href="../home/homeFollowingView.html" data-role="button" data-inline="true" data-theme="b" class="submitBtn">Search</a>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+    </div>
+    
+    <div data-role="footer" data-position="fixed">
+        <ul>
+            <li>
+                <a href="../dashboard/followingView.html">
+                    <i class="fa fa-home"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../notifications/notificationsView.html">
+                    <i class="fa fa-bell"></i><span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" id='capturePhotoButton'>
+                    <i class="fa fa-camera"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../fans/fansView.html">
+                    <i class="fa fa-users"></i><span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="../post/postView.html" id="topostView" class="active">
+                    <i class="fa fa-pencil-square-o"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+    <script>
+        $(document).ready(function () {
+            $("#viewTitle").text(leagueNameSpace.viewTitle);
+            $("#teamsByDivisionList").append(leagueNameSpace.division);
+        });
+        
+        // for camera to work    
+        try {
+            cameraApp.run();
+        } catch (err)
+        { alert("nflView view " + err.message) }
+    </script>
+
+</div>
+
+

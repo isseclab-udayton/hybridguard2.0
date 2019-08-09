@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+
+<link href="plugins/plugin-loader.css" rel="stylesheet"/>
+<link href="css/styles.css" rel="stylesheet">
+<link href="css/styles-ui1.css" rel="stylesheet"/>
+</link><script src="js/HybridGuard.js"></script></head>
+<body>
+<div data-role="page" id="innonewsIndexListPage">
+<div data-position="fixed" data-role="header" data-theme="a">
+<h1><a data-ajax="false" href="index.html"><img src="img/logo.png"/></a></h1>
+<a class="ui-btn-right" data-ajax="false" data-icon="search" data-iconpos="notext" data-inline="true" data-mini="true" href="innonewssearch.html"></a>
+<div data-role="navbar">
+<ul>
+<li class="navbar-txt"><a data-ajax="false" href="innonewslist.html">Headline</a></li>
+<li class="navbar-txt"><a data-ajax="false" href="innonewshot.html">Best</a></li>
+<li class="navbar-txt"><a data-ajax="false" href="innodblist.html">Profile</a></li>
+<li class="navbar-txt"><a data-ajax="false" href="innocategory.html">Category</a></li>
+</ul>
+</div>
+</div>
+<div data-role="content" data-theme="d">
+<ul data-filter="false" data-role="listview" data-theme="a" id="innonewsTop"></ul>
+<ul data-filter="false" data-role="listview" data-theme="d" id="innonewsIndexList"></ul>
+<p></p>
+<div class="ui-bar ui-bar-a">Taday's Korea</div>
+<p></p>
+<div class="ui-grid-a">
+<div class="ui-block-a" id="innonewsTodayIndex1"></div>
+<div class="ui-block-b" id="innonewsTodayIndex2"></div>
+</div>
+<p></p>
+<div class="ui-bar ui-bar-a">Actor &amp; K-POP Star</div>
+<p></p>
+<ul data-filter="false" data-role="listview" data-theme="d" id="innodbStarIndex"></ul>
+<p></p>
+<div class="ui-bar ui-bar-a">Drama &amp; Movie</div>
+<p></p>
+<ul data-filter="false" data-role="listview" data-theme="d" id="innodbDramaIndex"></ul>
+<p></p>
+<ul data-filter="false" data-role="listview" data-theme="d" id="innonewsPhotoIndex"></ul>
+<p></p>
+<div class="ui-bar ui-bar-a">Today's HOT News</div>
+<p></p>
+<ol data-filter="false" data-role="listview" data-theme="d" id="innonewsHotIndex"></ol>
+<p></p>
+</div>
+<div data-position="fixed" data-role="footer" data-theme="a">
+<h5>© innolife</h5>
+</div>
+</div>
+
+
+
+
+
+<!--
+<script src="js/innonewsphotoview.js"></script>
+<script src="js/kakao.link.js"></script>
+-->
+</body>
+</html>

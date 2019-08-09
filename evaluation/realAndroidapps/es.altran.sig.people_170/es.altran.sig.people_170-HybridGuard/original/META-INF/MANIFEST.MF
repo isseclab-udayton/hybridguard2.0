@@ -1,0 +1,1002 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_191 (Oracle Corporation)
+
+Name: assets/www/childbrowser/icon_arrow_left.png
+SHA-256-Digest: f65Q7ncUYUoIItOfpVYRnozAkP3Z5dwwhm5ExofKmnY=
+
+Name: assets/www/Proyectos/docs/lists/lists-search-with-dividers.html
+SHA-256-Digest: gyWnDlGqFv4+l/XV/lArSdAo12GqycaE1N9s444zkJo=
+
+Name: assets/www/Proyectos/docs/content/content-html.html
+SHA-256-Digest: u/yzeuPSF4LR9TWFDQA08IMwt1ckO1yrEz0cJ2db+NQ=
+
+Name: assets/www/Proyectos/docs/toolbars/glyphish-icons/09-chat2.png
+SHA-256-Digest: YML+hoTsvhKdVbcPpDcyLf6ICcZrtS1CxsXZEDrCEL8=
+
+Name: assets/www/Cursos/css/themes/default/images/icons-18-white.png
+SHA-256-Digest: z+VfPYAWSEsInrurfo7+Ht6homuzPFLkWYrXQJmi67E=
+
+Name: assets/www/original_index.html
+SHA-256-Digest: JNA5fF6EPIYXpWdmWBFWWNSUDhhJsu/Pvogdf/nXjLM=
+
+Name: assets/www/Proyectos/docs/pages/dialog-success.html
+SHA-256-Digest: V3PIuDwqBf72HMEnsFH6z28c7i6NdEklrFuAHG1sgOk=
+
+Name: assets/www/AltranPeople/imagenes/foto.jpg
+SHA-256-Digest: 3c57dvbyt2ebssUayQvW5PnT6eIpKDlGHusuVbJyx/g=
+
+Name: assets/www/Proyectos/docs/lists/lists-options.html
+SHA-256-Digest: MvhgA/dBQjBg5sc9Si/tudVZMZhFaV+hqEfb0LHupQE=
+
+Name: assets/www/Proyectos/docs/toolbars/images/photo-run.jpeg
+SHA-256-Digest: rh/LIfnS9nsgM4lr8sbC4haF8FKcNPKRC5KZBdMaaYM=
+
+Name: assets/www/css/themes/default/jquery.mobile.theme-1.2.0-rc.2.min
+ .css
+SHA-256-Digest: rofnm3hJEIjKErqNTd2PeYCr4VAfijG1Dybap6Hwric=
+
+Name: assets/www/Cursos/css/themes/default/jquery.mobile.structure-1.2
+ .0-rc.2.min.css
+SHA-256-Digest: 8pciwZIUCulkbA4u8DiDKyqT6Dz0qHzJEF6bEalGx/A=
+
+Name: assets/www/Proyectos/docs/lists/lists-methods.html
+SHA-256-Digest: U0bE4h7t7FwAaHGB8rl0uCQlQpD83llf/ZLpa/hiydM=
+
+Name: assets/www/Proyectos/docs/forms/checkboxes/events.html
+SHA-256-Digest: RgAMmhQDf+3doE6y3xLRZ5B4EN7nguZ+9ykQthha9mQ=
+
+Name: assets/www/Proyectos/docs/pages/pages-themes/theme-b.html
+SHA-256-Digest: nW15GO99QXSdaQ1MHDWqEUK8n2RQFd5gDq8/SmEUWxg=
+
+Name: assets/www/Proyectos/docs/toolbars/bars-fixed-forms-d.html
+SHA-256-Digest: ZVe/20SibpLJt0E4nBHxbKiEteVuyN85+pUFO0D7pww=
+
+Name: assets/www/Proyectos/funcionesCursos.js
+SHA-256-Digest: 8MvUqw5qKEp7z7EGyQbeMlyyam47Jfq8VWM2rpqxNo8=
+
+Name: assets/www/Proyectos/imagenes/estrella.png
+SHA-256-Digest: 42JQqVIRe/xcstGKTVi1JHwNPdnpq9iCR2Rc0D/lr0U=
+
+Name: assets/www/AltranPeople/css/themes/default/jquery.mobile-1.2.0-r
+ c.2.css
+SHA-256-Digest: P/eHssK9l/lMK3ZkL3sS7qGbrbPkwByjhcNHftS0PKs=
+
+Name: assets/www/AltranPeople/js/jquery.mobile-1.2.0-rc.2.min.js
+SHA-256-Digest: zuBWPfJ25YdL2D30/xhzZO9siX8q3DoinEsJBU0/o8E=
+
+Name: assets/www/Cursos/js/jquery.mobile-1.2.0-rc.2.min.js
+SHA-256-Digest: zuBWPfJ25YdL2D30/xhzZO9siX8q3DoinEsJBU0/o8E=
+
+Name: assets/www/AltranPeople/css/themes/default/images/icons-18-black
+ .png
+SHA-256-Digest: BsqIGTeJ7TJzAlusDY0ihbkf31erYVu4zQgCesHrcX4=
+
+Name: assets/www/Cursos/imagenes/Educ-logo-copia.png
+SHA-256-Digest: Q+9vx+V9U3TzNA0zo2Rm2G4bZLBjCX4Z5i5xvgg0QvU=
+
+Name: assets/www/Proyectos/funcionesProyectos.js
+SHA-256-Digest: AWW+ghPxfRSHcMIiGA5vXsupuA2PjtG5VFnbXqqY8V0=
+
+Name: assets/www/Proyectos/docs/toolbars/bars-fixed-events.html
+SHA-256-Digest: j25yQbKCcNS3OQfA2pI2QasHdz+Y3bDO1demwpBMdvI=
+
+Name: assets/www/Cursos/imagenes/estrella-n.png
+SHA-256-Digest: VaWs2mWhc6qr7IB/boJpT0tZgL6gInbJfnkC/UpvDFM=
+
+Name: assets/www/Proyectos/docs/lists/lists-all-full.html
+SHA-256-Digest: wWQVj3ekyjgH3gTl/Ie0QILnHbrtGpPa7SdEXizXWoA=
+
+Name: assets/www/Proyectos/docs/api/themes.html
+SHA-256-Digest: mHQaEbIvj2mCOPA8GlX0vfzCglnsySCYakWqjy8mKz4=
+
+Name: assets/www/Proyectos/docs/api/methods.html
+SHA-256-Digest: QJo1fr5mXxEcdrRe/f4HtXY/G4qtDRkXRP5y70rFyT4=
+
+Name: assets/www/Proyectos/docs/lists/lists-search.html
+SHA-256-Digest: VnR2nhKIKQqZArP0kZQCP1jQwc5ZVym3z6scaA2IELk=
+
+Name: assets/www/Proyectos/imagenes/loading.gif
+SHA-256-Digest: PFysva2PiOJjneh/kv/IMubmCi13Yx9VNQ/V8QkjfO0=
+
+Name: assets/www/AltranPeople/altranPeople.html
+SHA-256-Digest: FVjUofAGm1OaXgT3EEt41aR7A0DaJ8ASD6/nJ0Fd9nU=
+
+Name: assets/www/Proyectos/docs/forms/switch/methods.html
+SHA-256-Digest: 6JxMZshT5H4RRQMUdmVuHoqW8xN6w1Nm1urDFpbdXFE=
+
+Name: assets/www/Proyectos/css/themes/default/images/icons-18-white.pn
+ g
+SHA-256-Digest: z+VfPYAWSEsInrurfo7+Ht6homuzPFLkWYrXQJmi67E=
+
+Name: assets/www/Proyectos/docs/pages/dialog-overlay.html
+SHA-256-Digest: U9lp4l4kGZUldCBVNTAfr4fyiwN8eLJMPsSNANmOem0=
+
+Name: assets/www/Proyectos/docs/pages/multipage-template.html
+SHA-256-Digest: ayyIkREZwe6S7UEd9tyHogh0ewKQCyHCA0Qi20l+lzc=
+
+Name: resources.arsc
+SHA-256-Digest: yZqffsXgmFhj6C419WD0mi4XpNKeLfakjCfGTKDutFM=
+
+Name: assets/www/imagenes/loading.gif
+SHA-256-Digest: PFysva2PiOJjneh/kv/IMubmCi13Yx9VNQ/V8QkjfO0=
+
+Name: assets/www/Proyectos/docs/api/events.html
+SHA-256-Digest: t16eZv3XuBEHzNHGcgaIyxVsz2tqVrd7scf3lUYJexE=
+
+Name: AndroidManifest.xml
+SHA-256-Digest: 76aeT1aFfPkNWmTHC7D43M3vDa/P4UQms2CmeEjnqrQ=
+
+Name: assets/www/Proyectos/docs/config/index.html
+SHA-256-Digest: PqL5IXKuIw/4I7YU6KL+7yrgqjpQj/1revLreanLDMc=
+
+Name: assets/www/Proyectos/docs/lists/lists-inset.html
+SHA-256-Digest: dJS3xAQyOTS5LmkvzIx6Wig+1YvhC/IRfjBGt4/aBxM=
+
+Name: assets/www/Proyectos/docs/forms/checkboxes/index.html
+SHA-256-Digest: yyMxx9h4zKf5/D5ZQb3mOAcCB1qhblAQD6AlAlE4FS4=
+
+Name: res/xml/config.xml
+SHA-256-Digest: VQXah75SYUVakpp+lWZSiVjUS5TEmBbv4U8Cb+ORCik=
+
+Name: assets/www/Proyectos/css/themes/default/images/icons-36-black.pn
+ g
+SHA-256-Digest: kcO8QXPdxfB28mjbw16yYZZ1etXiYa5invuHqk7zk1M=
+
+Name: assets/www/Proyectos/docs/pages/page-transitions.html
+SHA-256-Digest: vZwcoKcaUgUCyV/PoWQZtf1Bj7Z1EyKzpqfv8yD9o6Y=
+
+Name: assets/www/Proyectos/docs/lists/images/us.png
+SHA-256-Digest: NszlyuPS4ARbKytsv/2tegq6PpmRnMIZu/BXjv3EVYU=
+
+Name: assets/www/css/themes/default/images/ajax-loader.gif
+SHA-256-Digest: atFZeQWHru0uJZg1bqZZ/jJ8mZdvckOJmwEWlbmtUm8=
+
+Name: assets/www/AltranPeople/imagenes/Educ-logo.png
+SHA-256-Digest: Q+9vx+V9U3TzNA0zo2Rm2G4bZLBjCX4Z5i5xvgg0QvU=
+
+Name: assets/www/Proyectos/docs/forms/radiobuttons/events.html
+SHA-256-Digest: k7ZFSXUaWNp8J4hHPBaMGLsUk1Z/4Ce/Ii894QY5l1M=
+
+Name: assets/www/Proyectos/docs/lists/images/album-xx.jpg
+SHA-256-Digest: 3gyl/fSDjVKQVM8TIt38Ubh/yE021UxxTTBNYRxXvRY=
+
+Name: assets/www/Proyectos/docs/pages/dynamic-samples/category.php
+SHA-256-Digest: teNtKDDfixSnkG2FQw910PZmnNhCeYvPwhJhGcP+N04=
+
+Name: assets/www/Cursos/imagenes/loading.gif
+SHA-256-Digest: PFysva2PiOJjneh/kv/IMubmCi13Yx9VNQ/V8QkjfO0=
+
+Name: assets/www/js/jquery.mobile-1.2.0-rc.2.min.js
+SHA-256-Digest: zuBWPfJ25YdL2D30/xhzZO9siX8q3DoinEsJBU0/o8E=
+
+Name: assets/www/Proyectos/docs/content/content-grids.html
+SHA-256-Digest: KJPsIMuc6BC+QWjmpoeKXjKtXXcUigG5whZibKYvq7s=
+
+Name: assets/www/Proyectos/docs/lists/images/album-ag.jpg
+SHA-256-Digest: QrwdS3zXM68JrQROYEPNyWS48j1SiDqDSc62qATn43c=
+
+Name: assets/www/Proyectos/docs/toolbars/bars-fullscreen.html
+SHA-256-Digest: /tcLfsbMxC7jbWlm8Q6FbBiTOy5O7IsYNDvBDSx+fto=
+
+Name: assets/www/Cursos/imagenes/Educ-logo-mod.png
+SHA-256-Digest: ZIBeUIhfD0ClUMY8SfKJ/i135E1M+qWnN0r+QjmP00g=
+
+Name: assets/www/Proyectos/docs/pages/phonegap.html
+SHA-256-Digest: CzlATWWlTv9Y4e5Z4Eq8l2gprJ0LlSyOXH9FPlVjFzk=
+
+Name: assets/www/Proyectos/docs/toolbars/glyphish-icons/Read me first 
+ - license.txt
+SHA-256-Digest: XntMZRYSrxoyI3e0+yxhPfEAYLkYot8dGlwS9yljAbw=
+
+Name: assets/www/Proyectos/docs/lists/images/gf.png
+SHA-256-Digest: eaOXk++/ghfvu8hA4bIEH+mVNjpfEvDAHdTRRi5euEI=
+
+Name: assets/www/AltranPeople/css/themes/default/jquery.mobile.theme-1
+ .2.0-rc.2.css
+SHA-256-Digest: ThqoknY2RF6CnV9g8J8dtcT9xj+L2zIlByRBDrBRIuQ=
+
+Name: assets/www/Proyectos/docs/api/data-attributes.html
+SHA-256-Digest: P9+WJIvtNmu1iJUw19N0ZBAngVx85UNzGlp48X+NBNs=
+
+Name: assets/www/Proyectos/docs/forms/forms-all-compare.html
+SHA-256-Digest: X4cfzxpXCh4NargK0VeGGNed0VgqSBR5Kg39yCPnFQI=
+
+Name: assets/www/Proyectos/docs/lists/docs-lists.html
+SHA-256-Digest: oW14aXZuecrk2r94gZIlkSoyHmrYXLvMaL3C0a7wqRs=
+
+Name: assets/www/Proyectos/docs/pages/pages-themes/theme-d.html
+SHA-256-Digest: V2gQtiD5pA5irztBsmegWto+WQu69AgwtBbJmG6cQZ8=
+
+Name: assets/www/Proyectos/docs/config/pageTransition.html
+SHA-256-Digest: gs7DxSnHdYrlh1dfPTd7Z7TcnYF6B6YqnA+pEu8mDnY=
+
+Name: assets/www/Proyectos/docs/lists/images/album-ws.jpg
+SHA-256-Digest: +97wyvQ/upRU7fNPVkJPcGLqjhdLiBDn6rdKA96w3XU=
+
+Name: assets/www/Proyectos/docs/buttons/buttons-methods.html
+SHA-256-Digest: TtBta3/PRzHUgiG8Hj1J6VkrOncktEenmTL0vjN/Nag=
+
+Name: assets/www/Proyectos/docs/pages/page-transitions-dialog.html
+SHA-256-Digest: /uh4q5DNOfpu9pcNItTFsShDNaF4LCNqOfWtRKN5gng=
+
+Name: assets/www/Cursos/css/themes/default/images/icons-36-white.png
+SHA-256-Digest: AhPMP/Ycs7AsBoPXb+yQPr56OKmG9RDk4EgqZdaMszc=
+
+Name: assets/www/Proyectos/docs/toolbars/index.html
+SHA-256-Digest: /UAdEucaDJnP1NaK7H/Aw0cbuibfcUx2F4DbAHZjy54=
+
+Name: assets/www/Proyectos/docs/toolbars/bars-fixed-forms-f.html
+SHA-256-Digest: AEKSG296lqNPOMufqkPlUOoOgRhqFodTiIh0LFnXues=
+
+Name: assets/www/funciones.js
+SHA-256-Digest: ML+BQuiUxN14Lp68H8BPBuTIunzZT/WDIk3inqDEY5w=
+
+Name: assets/www/Proyectos/docs/about/accessibility.html
+SHA-256-Digest: Uvkb5czUO2GapA3lmPeG/soJ+HUBru44DBC3SerDkdI=
+
+Name: assets/www/Proyectos/docs/buttons/buttons-icons.html
+SHA-256-Digest: FsglWHt6MXfHW4W65cplRCU9zwlhPEVBJ0fykI2slqg=
+
+Name: assets/www/Proyectos/docs/forms/selects/methods.html
+SHA-256-Digest: UT+nqL15vQ/2ea1bywMsNqaSfGTnc7ANvVDhxTdbeT0=
+
+Name: assets/www/Proyectos/docs/content/index.html
+SHA-256-Digest: k8rigQsQlggB/FFytN1YVrYvqkOyl/KBoh06A6hf/JQ=
+
+Name: res/drawable-hdpi-v4/icon.png
+SHA-256-Digest: OrX5ysZULM+sHrxXVBfYyABX6U/gNz3E+6kv2g8ABKc=
+
+Name: assets/www/cordova.js
+SHA-256-Digest: YkHCKq8n7jK4IJE8KZryITdZ5tAtqCjwIODGTK0avtw=
+
+Name: assets/www/Proyectos/css/themes/default/images/icons-36-white.pn
+ g
+SHA-256-Digest: AhPMP/Ycs7AsBoPXb+yQPr56OKmG9RDk4EgqZdaMszc=
+
+Name: assets/www/Cursos/imagenes/altran-people.png
+SHA-256-Digest: +g8CzeVZCxZlFodwY6af9Y5oQ0+0ORyzGKx0Yil17NI=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA-256-Digest: Y9yjo3hXArfdtlvOPQHDRioYYgoCngN7GmxtLiw1Vjk=
+
+Name: assets/www/Proyectos/docs/toolbars/footer-persist-b.html
+SHA-256-Digest: W3eZHPmryovMjtX/M5pokFj5Zy1AL3l6sC0Ia0jtdaE=
+
+Name: assets/www/Proyectos/docs/config/pushState.html
+SHA-256-Digest: XC5e8rn40qR2z1LCewoO9e0dpSIpG2t/udZrvk452vg=
+
+Name: assets/www/Proyectos/docs/forms/checkboxes/methods.html
+SHA-256-Digest: t/MA8yUIlsKCa0Q1NYitSk4U31kusogfuCdoyzxOTps=
+
+Name: assets/www/Proyectos/docs/forms/forms-all-native.html
+SHA-256-Digest: DpvoPEwRumw+FL5pZPBWrrds8rJZB9Y7BDY5BJHjB6M=
+
+Name: assets/www/AltranPeople/imagenes/estrella-n.png
+SHA-256-Digest: VaWs2mWhc6qr7IB/boJpT0tZgL6gInbJfnkC/UpvDFM=
+
+Name: assets/www/AltranPeople/css/themes/default/jquery.mobile.structu
+ re-1.2.0-rc.2.css
+SHA-256-Digest: yw0dojOCPcmPp/aWGH8MlGA+5U6LZ1PBKgxCD4E08O0=
+
+Name: assets/www/Proyectos/docs/lists/index.html
+SHA-256-Digest: eTIjca/McVQjQnUQTdCHCdRb7gElKyZpxNRSQ2mYaD8=
+
+Name: assets/www/Proyectos/docs/lists/lists-readonly-inset.html
+SHA-256-Digest: 0f7j4UQrqQX5Iaw9R4cooABBipchUQ968EkGqMb3wZ0=
+
+Name: assets/www/childbrowser/icon_arrow_right.png
+SHA-256-Digest: BBpQKswdg/SZGjejdYg3wDOno8FJA+zot9W3f4eL2DM=
+
+Name: assets/www/Cursos/css/themes/default/jquery.mobile.structure-1.2
+ .0-rc.2.css
+SHA-256-Digest: yw0dojOCPcmPp/aWGH8MlGA+5U6LZ1PBKgxCD4E08O0=
+
+Name: assets/www/Proyectos/docs/pages/page-customtransitions.html
+SHA-256-Digest: 2oJBlG/Y5zXSWJg3Tye+JRMWFsDhrOyqfKg6Wqh7LYU=
+
+Name: assets/www/Proyectos/docs/lists/lists-forms.html
+SHA-256-Digest: gSKJ+YchnwzVywKZoqf6O1aX+YiDVN47+NfDzcCgPe8=
+
+Name: assets/www/Cursos/imagenes/foto.jpg
+SHA-256-Digest: VNcP0Dd3vmTo9ev+ujLI8jixY+bcEE5RsXgJQqhlRy4=
+
+Name: assets/www/Proyectos/docs/config/pageLoadErrorMessage.html
+SHA-256-Digest: OIqffoTR5Uw9G+AMdUm9YF+S9fbcl9yFwihRxf/5T6o=
+
+Name: assets/www/Proyectos/docs/pages/dynamic-samples/sample-reuse-pag
+ e.html
+SHA-256-Digest: QADsuIXGv8z0xNA8dxa4aOF4xapVeR3gxehJZsAdLLc=
+
+Name: assets/www/Proyectos/css/themes/default/jquery.mobile-1.1.0.css
+SHA-256-Digest: AdDY1soi9Ly5zGlvf9XHiZ/c5n4oR5/6ylOyC832MgE=
+
+Name: assets/www/Proyectos/docs/forms/forms-sample.html
+SHA-256-Digest: 5GznE7BGcg9ufXXtjxZ/yEtwMkcCgBOUKFri2n7zNAc=
+
+Name: assets/www/Proyectos/docs/pages/dynamic-samples/vehicles.html
+SHA-256-Digest: TLoh/0kQzBRiPY1XX6rcANup7FnEcD2vuJHRMoeXlVQ=
+
+Name: assets/www/Proyectos/docs/pages/page-dynamic.html
+SHA-256-Digest: LrgcEE4w6FdysBH0PGaNZ40CFhZOxWybNqvDvUfa604=
+
+Name: assets/www/Proyectos/docs/toolbars/bars-fixed-methods.html
+SHA-256-Digest: 0gKvS8uF2zqJWK8CP4ryzYztIf/eXKXR1XcJi39zbXc=
+
+Name: assets/www/Proyectos/docs/content/content-collapsible-set-events
+ .html
+SHA-256-Digest: /dlvIYJdBYOiot7UmACxVGUyDvXFz24X5RXsgj8T3tM=
+
+Name: assets/www/Proyectos/docs/lists/lists-events.html
+SHA-256-Digest: 1Sfd2pGrNydmUo+nN+attdjtmlXHNq90cPD8em6ZY3w=
+
+Name: assets/www/Proyectos/docs/forms/slider/methods.html
+SHA-256-Digest: WsoO+uF6U9Wth1i6DQ4W0RHcTJEHtlbYwr8XmTKf8TE=
+
+Name: assets/www/childbrowser.js
+SHA-256-Digest: ie8Q8QXIUUipVfRlRTmee8YlWyLO9A7EY6rKg6dh1kc=
+
+Name: assets/www/Proyectos/css/themes/default/jquery.mobile.structure-
+ 1.1.0.css
+SHA-256-Digest: THex4GME7+0mJpO9wCb6O+ZNV5mMiPcgGjrumk+O3Fs=
+
+Name: assets/www/Proyectos/docs/content/content-collapsible-options.ht
+ ml
+SHA-256-Digest: Q4q6zx0MZ4q1BsdrGiTAToyDLmRIU3FP4McqF0vHd1E=
+
+Name: assets/www/Proyectos/docs/forms/plugin-eventsmethods.html
+SHA-256-Digest: OIA6A4ErhJ5f8W0JH0escUkd743blHzBMad43bfAsYQ=
+
+Name: assets/www/Proyectos/docs/pages/page-scripting.html
+SHA-256-Digest: 1qbNnQpHnlE9bOrEX2b+MbOyatbX7lRxD1Q527bIqbY=
+
+Name: assets/www/Proyectos/docs/toolbars/glyphish-icons/18-envelope.pn
+ g
+SHA-256-Digest: PgaR/qgUOiHrbzUU5ULpNDom3Hoe3A3dwIeBk6RhMpc=
+
+Name: assets/www/Proyectos/js/jquery.mobile-1.1.0.js
+SHA-256-Digest: dRywpm3HtpnRvn0LNCuakakedVTviKY+QDSowoZuSJM=
+
+Name: res/drawable-xhdpi-v4/icon.png
+SHA-256-Digest: OrX5ysZULM+sHrxXVBfYyABX6U/gNz3E+6kv2g8ABKc=
+
+Name: assets/www/Proyectos/docs/lists/images/gb.png
+SHA-256-Digest: XXLFqL74D8pvmfR24V7JXOLV5fZcbaue6OVjSL4NOfw=
+
+Name: assets/www/Proyectos/docs/toolbars/glyphish-icons/34-coffee.png
+SHA-256-Digest: l3xd1AVMNx07sLCnO7YXh80in5dB+AU5PCi7DsDfp+c=
+
+Name: assets/www/Proyectos/docs/pages/dialog-buttons.html
+SHA-256-Digest: Ixe8shjRLVOufIOQBTSpPo9Zdukr7WsARcgaXwb5M6s=
+
+Name: assets/www/js/jquery.mobile-1.2.0-rc.2.js
+SHA-256-Digest: uzUt+eFlXtU+F9CTs2EL/1BX3I+l1UPN/ebuim4mL0o=
+
+Name: assets/www/Proyectos/docs/toolbars/bars-fixed-forms.html
+SHA-256-Digest: Z3rd5W+pzy9d/n3rNsHqrsHTu5GbE/gPu1a3hPsMJzk=
+
+Name: assets/www/Proyectos/docs/api/events-nav.html
+SHA-256-Digest: ccWxpGmaMFEEu4/JXetoEfDtWjth13U/zFNBW/AeiBw=
+
+Name: assets/www/Proyectos/docs/content/content-collapsible-set-option
+ s.html
+SHA-256-Digest: 1py7xeGo4+/omd2NtGZJaEZfnH41/rqiRXzkxAYiY1I=
+
+Name: assets/www/Proyectos/docs/forms/index.html
+SHA-256-Digest: a9MiqCLy75ORKc8tWci0Ghrjcccl5wUUKzCIvTv8lo4=
+
+Name: assets/www/Proyectos/docs/pages/page-template.html
+SHA-256-Digest: 2tAvPNzeRhcHeBJuDmKQ7hsV6Vl616Nr2Y7t1Agabv0=
+
+Name: assets/www/Proyectos/docs/forms/radiobuttons/methods.html
+SHA-256-Digest: 8KB8xycdgMgAjH9hM9j5aLOiqHNxp5PwP6D5ndA/p8Y=
+
+Name: res/drawable-ldpi-v4/icon.png
+SHA-256-Digest: OrX5ysZULM+sHrxXVBfYyABX6U/gNz3E+6kv2g8ABKc=
+
+Name: assets/www/phonegap.js
+SHA-256-Digest: YkHCKq8n7jK4IJE8KZryITdZ5tAtqCjwIODGTK0avtw=
+
+Name: assets/www/Proyectos/docs/lists/lists-readonly.html
+SHA-256-Digest: HB+0FC/nYMXrTSJT7ye1YExX+AgER2xOwxwLGEDJokg=
+
+Name: assets/www/Proyectos/docs/forms/slider/index.html
+SHA-256-Digest: BIKu2yHxCEooHU++sm6/7UkgK2W9JYtXYXtVEDRr/6w=
+
+Name: assets/www/Proyectos/docs/api/mediahelpers.html
+SHA-256-Digest: 2jv5dw9yt+MuGV6g1ZtxbLazyslpdMUg/mVFWuQms0I=
+
+Name: assets/www/Proyectos/docs/forms/slider/events.html
+SHA-256-Digest: mJp2LL5EAFRvS6IN2yaI1CT6h0LXLHUlQmHkG9qJf8E=
+
+Name: assets/www/Proyectos/docs/forms/radiobuttons/index.html
+SHA-256-Digest: n/OS95SyxXNp5+rnougEPIYTaieiM8GayB9zDzOcLVM=
+
+Name: assets/www/AltranPeople/css/themes/default/images/icons-36-black
+ .png
+SHA-256-Digest: kcO8QXPdxfB28mjbw16yYZZ1etXiYa5invuHqk7zk1M=
+
+Name: assets/www/Proyectos/docs/lists/lists-ul.html
+SHA-256-Digest: G7a12qIv0dcovDVRsPitmpuCQ3pmP5piVKHT0IjHics=
+
+Name: assets/www/Proyectos/docs/pages/dynamic-samples/sample-reuse-pag
+ e-external.html
+SHA-256-Digest: VMHInpG0NKz+Q/cMdID6jZ4/X9FGLx/bdPpLYCyeJYI=
+
+Name: assets/www/css/themes/default/images/icons-36-white.png
+SHA-256-Digest: AhPMP/Ycs7AsBoPXb+yQPr56OKmG9RDk4EgqZdaMszc=
+
+Name: assets/www/Proyectos/docs/lists/lists-search-filtertext.html
+SHA-256-Digest: uL/9gcbsHg4uMBFwDp6awM7yz3O70tS7xV5AvgYmsTA=
+
+Name: assets/www/AltranPeople/js/jquery.js
+SHA-256-Digest: dhT8dcT89vMvcwfzdVBEDhKt77kokiast5Agxm+u/+o=
+
+Name: assets/www/css/themes/default/images/icons-18-black.png
+SHA-256-Digest: BsqIGTeJ7TJzAlusDY0ihbkf31erYVu4zQgCesHrcX4=
+
+Name: assets/www/Proyectos/docs/buttons/index.html
+SHA-256-Digest: KkSWxfLbLFdI3W5Jcjaxydh3+kas987Ki03eHnPb3jM=
+
+Name: assets/www/Proyectos/docs/pages/index.html
+SHA-256-Digest: Odb9zncKNAZ8kGcs86lNy473mbTd8hA4QJ1V2TAsmBg=
+
+Name: assets/www/css/themes/default/jquery.mobile.structure-1.2.0-rc.2
+ .min.css
+SHA-256-Digest: 8pciwZIUCulkbA4u8DiDKyqT6Dz0qHzJEF6bEalGx/A=
+
+Name: assets/www/Proyectos/css/themes/default/jquery.mobile.theme-1.1.
+ 0.css
+SHA-256-Digest: MRoIIbwKcNoyUeoJQaD/bIGd6dPaSzCNklF35f6ggsQ=
+
+Name: assets/www/AltranPeople/imagenes/Educ-logo-copia.png
+SHA-256-Digest: Q+9vx+V9U3TzNA0zo2Rm2G4bZLBjCX4Z5i5xvgg0QvU=
+
+Name: assets/www/Proyectos/docs/content/content-collapsible-events.htm
+ l
+SHA-256-Digest: TUCe2rq3UrMA1ONiLhynsvGhXL30sxT946vBplbwMCw=
+
+Name: res/layout/main.xml
+SHA-256-Digest: 1/0+BjecYyVJxI3rjEaFMmhnIzjAdrJ4MDedADWCHus=
+
+Name: assets/www/Proyectos/docs/pages/dialog-with-select.html
+SHA-256-Digest: rM+YkuUp/sf3oKntkk6FR6xLgCMVcqgSOJ7G73/8r/4=
+
+Name: assets/www/Proyectos/docs/toolbars/footer-persist-a.html
+SHA-256-Digest: H7222+bg+wDAZhz4xA2Lqjkr6pa8Gyp8VfsqZh5Cj1Y=
+
+Name: assets/www/Proyectos/docs/lists/images/de.png
+SHA-256-Digest: MyOBQAb+ZzlJPScFeVSUGDC1nv8366rJlDEOF8Ui3Vc=
+
+Name: assets/www/imagenes/altran-people.png
+SHA-256-Digest: +g8CzeVZCxZlFodwY6af9Y5oQ0+0ORyzGKx0Yil17NI=
+
+Name: assets/www/Proyectos/docs/forms/docs-forms.html
+SHA-256-Digest: dG6sbON0p7o2fOcI/SdVEjbcLjowOrfjL2lEngl1Yrg=
+
+Name: assets/www/Proyectos/docs/config/dialogTransition.html
+SHA-256-Digest: X7c+vdnBjwyk3zwUJEPgXkevFqW3OKMti9cpiMXHwpA=
+
+Name: assets/www/Cursos/css/themes/default/jquery.mobile-1.2.0-rc.2.cs
+ s
+SHA-256-Digest: P/eHssK9l/lMK3ZkL3sS7qGbrbPkwByjhcNHftS0PKs=
+
+Name: assets/www/Proyectos/docs/config/loadingMessage.html
+SHA-256-Digest: tpvHuV/bTLm1Isrf6Uxm9XMxM39NQhYrFlINaJaz7QI=
+
+Name: assets/www/Proyectos/docs/buttons/buttons-grouped.html
+SHA-256-Digest: N0hiFuvedxmQ9hWrQhokZn75PVMcL4BtmwegGEYfdyQ=
+
+Name: assets/www/Proyectos/docs/forms/search/events.html
+SHA-256-Digest: rLZ7M46QwVgzOYj/8DaXMc+6Ekvhrc+1MwsC4NAFo50=
+
+Name: assets/www/Proyectos/css/themes/default/jquery.mobile.theme-1.1.
+ 0.min.css
+SHA-256-Digest: 5lc/Hvx17JXHg/0ozDthCWUiKUDp0Jz3BcL2zI19Wm8=
+
+Name: assets/www/Cursos/cursos.html
+SHA-256-Digest: ksjMXXu++qc5x6kMOf93VwZJPOeI7uzlmuj+ooEi00Y=
+
+Name: assets/www/js/policy_config.json
+SHA-256-Digest: fhZZxn32eSX/o5cbe4FFxMCwS7VkYv7N33GKH1b5YUQ=
+
+Name: assets/www/Proyectos/docs/buttons/buttons-themes.html
+SHA-256-Digest: xRwB16RpFyax51epV9S+LbSw2rQW75KOIGnV9AoyXDg=
+
+Name: assets/www/Proyectos/docs/pages/page-dialogs.html
+SHA-256-Digest: 2EPrMU0BwoVwOIQkVq3eAkgE3y9Xu2TyKhD5uOWdGL0=
+
+Name: assets/www/js/HybridGuard.js
+SHA-256-Digest: ktQrT6ipdYwaAGbwf6+Ymj4AcfeeROhc0YUHpV+zUxY=
+
+Name: assets/www/Proyectos/docs/content/content-collapsible.html
+SHA-256-Digest: 8w2+NliNQ740e8pGRaxTvJ87UQHfIL61IdoojTHs0iA=
+
+Name: assets/www/css/themes/default/jquery.mobile-1.2.0-rc.2.min.css
+SHA-256-Digest: HTXgq9a7ZkccrrlclhPkSx2UXiNBfR/UhkCq8tKJLcM=
+
+Name: assets/www/js/jquery.js
+SHA-256-Digest: dhT8dcT89vMvcwfzdVBEDhKt77kokiast5Agxm+u/+o=
+
+Name: assets/www/Proyectos/docs/content/content-themes.html
+SHA-256-Digest: USSM7KBYxTuhEi3GtFpPr4AfAn7Ej3sS/cgGGgupc8g=
+
+Name: assets/www/Proyectos/docs/toolbars/bars-fixed-forms-e.html
+SHA-256-Digest: BzNmAI2spJeBnwMP2LgK/EnTOtGcR94mOCP9CVm4FYU=
+
+Name: assets/www/Proyectos/docs/toolbars/glyphish-icons/100-coffee.png
+SHA-256-Digest: EAGVRsxHMuPvVnW07xRFAhaKRPReDVJh0EmQtnSgm+I=
+
+Name: assets/www/AltranPeople/css/themes/default/images/icons-36-white
+ .png
+SHA-256-Digest: AhPMP/Ycs7AsBoPXb+yQPr56OKmG9RDk4EgqZdaMszc=
+
+Name: assets/www/Proyectos/docs/forms/forms-sample-selfsubmit.php
+SHA-256-Digest: x/WM79c54zW1NT0bKcYm0YlC/O+xYdk0n8kfyagKQ9w=
+
+Name: assets/www/css/themes/default/images/icons-36-black.png
+SHA-256-Digest: kcO8QXPdxfB28mjbw16yYZZ1etXiYa5invuHqk7zk1M=
+
+Name: assets/www/Proyectos/docs/lists/lists-ol.html
+SHA-256-Digest: IAjAEGtsaKi2ZXi/RZN7EZMWEy+lChBPs7Viyh1qvGk=
+
+Name: assets/www/AltranPeople/funcionesaltranPeople.js
+SHA-256-Digest: cPzA4hq1ko/Xu4yB697KKRMrO1spXgnUP/Tpq5FfbqA=
+
+Name: assets/www/Proyectos/docs/buttons/buttons-events.html
+SHA-256-Digest: /7QGr0HDU7zWehLVQpFoFbaquMbIWguvRM8Nw9UDpds=
+
+Name: assets/www/Proyectos/docs/config/touchOverflow.html
+SHA-256-Digest: 7L34fBUc5/S0EBiPMTgGC+3A4h9od43hliZPJLuPlVA=
+
+Name: assets/www/Proyectos/docs/buttons/api-buttons.html
+SHA-256-Digest: s2RqhsxLKz2zHrvYLHD1KWuC1cZZcd5hH14dev5Y4AQ=
+
+Name: assets/www/Proyectos/docs/forms/search/options.html
+SHA-256-Digest: 7Kcc0XbVWLlubUZ6O8MQXLcxG2qGkwM8aC/AhoE4QvI=
+
+Name: assets/www/Proyectos/docs/toolbars/glyphish-icons/30-key.png
+SHA-256-Digest: 2R06BJ++KUAx+iAT649w1gNdVjLSem1XtgWX3HVTQSQ=
+
+Name: assets/www/Cursos/css/themes/default/images/ajax-loader.gif
+SHA-256-Digest: atFZeQWHru0uJZg1bqZZ/jJ8mZdvckOJmwEWlbmtUm8=
+
+Name: assets/www/Proyectos/docs/toolbars/glyphish-icons/21-skull.png
+SHA-256-Digest: ljz5L6U6SYd0/whqLF3apbJnPa9RLFUn/rztnEY6eiE=
+
+Name: assets/www/Proyectos/docs/forms/textinputs/options.html
+SHA-256-Digest: OekkBGWzOws8+z9kAXiqYEmancNEOqa6mf5OCqWdYSA=
+
+Name: assets/www/Proyectos/docs/forms/switch/events.html
+SHA-256-Digest: jKmtsRFFYzxkUZBtSYdk+lko+XpJSoZJWCWdeXNrDvE=
+
+Name: assets/www/index.html
+SHA-256-Digest: iigdbyeBrMz65XZ1EFO7dhvfPX7sM4aN2ytWuUtZd4E=
+
+Name: assets/www/Proyectos/docs/forms/selects/custom.html
+SHA-256-Digest: lXxuCNbZlf6YFf4lAX7ZfxpLd/3f9PP58eMa8paFK9s=
+
+Name: assets/www/Proyectos/docs/lists/images/sj.png
+SHA-256-Digest: +NwwI3HICevaPpGDxgYmRgH43YUdKxh4/SXw9qvimIw=
+
+Name: assets/www/Proyectos/docs/forms/forms-sample-response.php
+SHA-256-Digest: 9HE85Tx1JXajrVHAeamnCQNt4lbaifG1Uy56NxhseNE=
+
+Name: assets/www/Cursos/imagenes/Educ-logo.png
+SHA-256-Digest: Q+9vx+V9U3TzNA0zo2Rm2G4bZLBjCX4Z5i5xvgg0QvU=
+
+Name: assets/www/Proyectos/docs/about/index.html
+SHA-256-Digest: z1xOJh6kry8/MKBWp2KP1ciTPT0iaWvOry1pdI+dj3w=
+
+Name: assets/www/Proyectos/docs/toolbars/docs-bars.html
+SHA-256-Digest: JACFF8z7CqV7Y/TzyARbS+Qbf+jnBIzLqg+MwGVD4EE=
+
+Name: assets/www/Proyectos/css/themes/default/images/ajax-loader.gif
+SHA-256-Digest: atFZeQWHru0uJZg1bqZZ/jJ8mZdvckOJmwEWlbmtUm8=
+
+Name: assets/www/Proyectos/docs/buttons/buttons-inline.html
+SHA-256-Digest: vW5sb4K2DbI52ZJyq4vT44PdwM7nF0Rp21RPGoae2Oo=
+
+Name: assets/www/Proyectos/docs/forms/textinputs/methods.html
+SHA-256-Digest: 7/IO1qeD5w+Hnug5T2iCbn2monVacsYiHEWg1JI12QM=
+
+Name: assets/www/Proyectos/docs/lists/images/album-bk.jpg
+SHA-256-Digest: W3LiW7fbWj8YW7L7ExAS0Xo/+71zcJPoMJH/oKYpBfY=
+
+Name: assets/www/Cursos/css/themes/default/jquery.mobile.theme-1.2.0-r
+ c.2.min.css
+SHA-256-Digest: rofnm3hJEIjKErqNTd2PeYCr4VAfijG1Dybap6Hwric=
+
+Name: assets/www/Proyectos/docs/content/content-collapsible-set-method
+ s.html
+SHA-256-Digest: w0diaQTPZvwZJSb1Pagr15atIjhUwAy0ua+qVIWezJs=
+
+Name: assets/www/Proyectos/docs/config/jq17b1.html
+SHA-256-Digest: EMKqSlvVjoZ22pcjSRbYn/bQE0Im/LvGLRcokPBAsw4=
+
+Name: assets/www/Proyectos/docs/pages/dynamic-samples/index.html
+SHA-256-Digest: 5tVOj8QOTvr2jupAAEvBpeQGL5vNMxNx1RXsUQBImSA=
+
+Name: assets/www/Proyectos/docs/toolbars/glyphish-icons/88-beermug.png
+SHA-256-Digest: Jz46YAzzadS6J2E241DgmsYmX96Ae502nHOn5Fzrmio=
+
+Name: assets/www/Proyectos/docs/nav.html
+SHA-256-Digest: Yxe54CNZsJ1vd5ffhBbhP2+iHFDULnV2FGH1Ad+pOHI=
+
+Name: assets/www/Proyectos/docs/config/iOSFullscreen.html
+SHA-256-Digest: 2N+3QST/EJngQ/958gYzc78h22I/2e0kOhFoZCXnAF8=
+
+Name: assets/www/Proyectos/docs/toolbars/bars-fixed.html
+SHA-256-Digest: 5hGNy9pKK6MRv5YY3GN0CxfypoZSn3TmCnx1s1UZikU=
+
+Name: assets/www/Proyectos/docs/lists/images/album-rh.jpg
+SHA-256-Digest: JFxNIessEftoxc//PRtfh2orTFFTEqoihJz3djqWeyQ=
+
+Name: assets/www/Proyectos/docs/pages/pages-themes/theme-c.html
+SHA-256-Digest: AiCgPOYf3jB9WVWNz95im68KPL6WepVKI1maBruYVBM=
+
+Name: assets/www/Proyectos/css/themes/default/jquery.mobile.structure-
+ 1.1.0.min.css
+SHA-256-Digest: vHK3DqsLPgKuN3esS8WPxc4LOjJD9xZX6Bu1Uo5zToU=
+
+Name: assets/www/Proyectos/docs/forms/switch/index.html
+SHA-256-Digest: DXpOKlHtNSpJK3GTLJPIguAq7owxE0uOadcL/XWU/VU=
+
+Name: assets/www/Proyectos/css/themes/default/jquery.mobile-1.1.0.min.
+ css
+SHA-256-Digest: 4qCv8dcCzNNHyj/zbkXzbEkJpVaivLKgmaMsTjHVuOM=
+
+Name: assets/www/AltranPeople/imagenes/loading.gif
+SHA-256-Digest: PFysva2PiOJjneh/kv/IMubmCi13Yx9VNQ/V8QkjfO0=
+
+Name: assets/www/Proyectos/docs/lists/images/album-hc.jpg
+SHA-256-Digest: ZDJdStyDuVxtO1K9r64lcFJwRThgO+X5iGD96r/XJDA=
+
+Name: assets/www/AltranPeople/css/themes/default/images/ajax-loader.gi
+ f
+SHA-256-Digest: atFZeQWHru0uJZg1bqZZ/jJ8mZdvckOJmwEWlbmtUm8=
+
+Name: assets/www/css/themes/default/jquery.mobile.theme-1.2.0-rc.2.css
+SHA-256-Digest: ThqoknY2RF6CnV9g8J8dtcT9xj+L2zIlByRBDrBRIuQ=
+
+Name: assets/www/Proyectos/docs/lists/lists-divider.html
+SHA-256-Digest: m9Xp+KNPNA+cqW5Mwu2jnJzmjv+NLeqzCWVy8qrmHn0=
+
+Name: assets/www/Cursos/imagenes/estrella.png
+SHA-256-Digest: 42JQqVIRe/xcstGKTVi1JHwNPdnpq9iCR2Rc0D/lr0U=
+
+Name: assets/www/Proyectos/docs/lists/images/album-ok.jpg
+SHA-256-Digest: 4oNWoTyxgIi2WNqDpKzlILiiSy66Q63o10obV+RV2F8=
+
+Name: assets/www/Proyectos/docs/lists/lists-themes.html
+SHA-256-Digest: i9BDTpC8S2lprRnQL0uy5qnDU+AAFyl8ullNJz2/VNU=
+
+Name: assets/www/Proyectos/docs/pages/dynamic-samples/colors.html
+SHA-256-Digest: 0mKfeGqUVTIfG/KLmAl5UwA3z7Hcb5ppFasB8CpA9FY=
+
+Name: assets/www/Proyectos/docs/about/features.html
+SHA-256-Digest: YD1V2q0yYMZy999suPNw4VpbpMQhzRjMIcL+55Qfhds=
+
+Name: assets/www/Proyectos/docs/lists/lists-nested.html
+SHA-256-Digest: 3/NDtH/d8Ljh58dip1QtiUGmZqYB8OnE5Odci/iS/60=
+
+Name: assets/www/Proyectos/docs/api/index.html
+SHA-256-Digest: PY9XXERdXsXdLvloaVxHuBOIF+VrHghVDEpjtglY9VA=
+
+Name: assets/www/Cursos/js/jquery.mobile-1.2.0-rc.2.js
+SHA-256-Digest: uzUt+eFlXtU+F9CTs2EL/1BX3I+l1UPN/ebuim4mL0o=
+
+Name: assets/www/Cursos/js/jquery.js
+SHA-256-Digest: dhT8dcT89vMvcwfzdVBEDhKt77kokiast5Agxm+u/+o=
+
+Name: assets/www/Proyectos/docs/toolbars/bars-fixed-forms-c.html
+SHA-256-Digest: hBZfCb5w/arypUbxg3GduPc1njU8FAEgZyT1KCkOjHo=
+
+Name: assets/www/Proyectos/css/themes/default/images/icons-18-black.pn
+ g
+SHA-256-Digest: BsqIGTeJ7TJzAlusDY0ihbkf31erYVu4zQgCesHrcX4=
+
+Name: assets/www/Proyectos/docs/lists/lists-performance.html
+SHA-256-Digest: V+iAKntyx+OO/+iS5gBUBzxGeteWxdhqAha8ioPaoWk=
+
+Name: assets/www/Proyectos/docs/pages/pages-themes/theme-a.html
+SHA-256-Digest: xZAWTTg6jiHukgjbYR5FzIiybN/iy++yZEa8F11cEQs=
+
+Name: assets/www/Proyectos/docs/lists/images/album-mg.jpg
+SHA-256-Digest: WDr7eONYHiKteAGdTX7NTpGJTn//rQYU8RgOGDN3Tg0=
+
+Name: assets/www/Proyectos/docs/lists/lists-count.html
+SHA-256-Digest: jtqsht1YCLfyfCui/vYHduKYHx1xkEqKGFnkU6MXJws=
+
+Name: assets/www/AltranPeople/imagenes/estrella.png
+SHA-256-Digest: 42JQqVIRe/xcstGKTVi1JHwNPdnpq9iCR2Rc0D/lr0U=
+
+Name: assets/www/AltranPeople/css/themes/default/images/icons-18-white
+ .png
+SHA-256-Digest: z+VfPYAWSEsInrurfo7+Ht6homuzPFLkWYrXQJmi67E=
+
+Name: assets/www/Cursos/css/themes/default/images/icons-18-black.png
+SHA-256-Digest: BsqIGTeJ7TJzAlusDY0ihbkf31erYVu4zQgCesHrcX4=
+
+Name: assets/www/Proyectos/docs/toolbars/docs-navbar.html
+SHA-256-Digest: HghpNETNBjqUjGClgh7jnfnCuOgj1AGtm/EA/0RMC+A=
+
+Name: assets/www/Proyectos/docs/forms/forms-themes.html
+SHA-256-Digest: Y5XkJRRZnLI2ho3GpNZz4rtjuZSxYZ9BoTAVJjJXxWI=
+
+Name: res/drawable-mdpi-v4/icon.png
+SHA-256-Digest: OrX5ysZULM+sHrxXVBfYyABX6U/gNz3E+6kv2g8ABKc=
+
+Name: assets/www/Proyectos/docs/pages/page-anatomy.html
+SHA-256-Digest: XqdGmig/r0aa5BzbyoqfiEl2PCphFXAy8fXxjmVSN+o=
+
+Name: assets/www/Proyectos/docs/lists/lists-thumbnails.html
+SHA-256-Digest: GUXdHj8r7hPzvv2Pqq6lpq6yQb+hptmdqKB52Oa4xMc=
+
+Name: assets/www/Proyectos/imagenes/logo-sigt.png
+SHA-256-Digest: agOCU6FQz68zw0DqOIZd+apZyk/H+IduY3HU6Suyhv0=
+
+Name: assets/www/Proyectos/docs/pages/touchoverflow.html
+SHA-256-Digest: 9BiJ2xRNHuRZ7BWhxkBY4OrFb+4DZTBTAULYXTQsXTs=
+
+Name: assets/www/Proyectos/docs/pages/transition-success.html
+SHA-256-Digest: U/MmHM2AKo8yLfD9xtoKXn5VX9q56Wnf+GhLabSxy/8=
+
+Name: assets/www/Proyectos/docs/lists/lists-forms-inset.html
+SHA-256-Digest: lRsAjHgLYoTg9oAsVPH8ePGFYAig5VcW2MQYCUoNjNQ=
+
+Name: assets/www/Proyectos/docs/pages/docs-links-urltest/index.html
+SHA-256-Digest: WuM/nMcxJd2xmv8jAAXhVjJqe8/9Sa2UfReygkf30Bo=
+
+Name: assets/www/Proyectos/docs/content/content-collapsible-methods.ht
+ ml
+SHA-256-Digest: 5Wo23Z2XqVAWlA9elcvl/UaEbIsrmV0yf659ISTvOt4=
+
+Name: assets/www/Proyectos/docs/buttons/buttons-options.html
+SHA-256-Digest: u1sGcC4wY9B2dAmQ75qPqojD9RLTXdWoAVT1JZpkQZY=
+
+Name: assets/www/Proyectos/docs/lists/images/fi.png
+SHA-256-Digest: VD9Cb7Na0sdhZBpnl3yPrw2UDUBU0NwddDOYfrw6oYE=
+
+Name: assets/www/Proyectos/docs/lists/lists-icons.html
+SHA-256-Digest: EQq3UbmUsn8Jyam+K7ucSNh+g1rl/yeG3qD2Vo0kzeA=
+
+Name: assets/www/Proyectos/css/themes/default/images/ajax-loader.png
+SHA-256-Digest: 65aJnZYs9MhfT9o7tXqJw8hQ1dJKFIUrybNEdVoudks=
+
+Name: assets/www/Proyectos/docs/toolbars/bars-fixed-options.html
+SHA-256-Digest: ngY8FpOshibmPonSL0IVQleNV4GlaGxcT45Xvy3XIYE=
+
+Name: assets/www/Proyectos/docs/pages/page-navmodel.html
+SHA-256-Digest: byIflsoCg5AU2htsdCnKzzBtl9CVlG1b4Jr0OOC1RMM=
+
+Name: assets/www/Proyectos/docs/pages/page-titles.html
+SHA-256-Digest: AtHWA74Lxl7/EsQ71MpBq2Vq2QXlSprU0cDAC1BvJXQ=
+
+Name: assets/www/Cursos/funcionesCursos.js
+SHA-256-Digest: JwHNpRp6TFyKLV02DPBA7wxjeWAKKU/FQodM8Yk5SLA=
+
+Name: assets/www/Proyectos/docs/content/api-content.html
+SHA-256-Digest: CvC6ceZoZlRBSDgTb842ailSCQMrQZYd6GfmlKwszMA=
+
+Name: assets/www/Cursos/css/themes/default/images/icons-36-black.png
+SHA-256-Digest: kcO8QXPdxfB28mjbw16yYZZ1etXiYa5invuHqk7zk1M=
+
+Name: assets/www/css/themes/default/jquery.mobile.structure-1.2.0-rc.2
+ .css
+SHA-256-Digest: yw0dojOCPcmPp/aWGH8MlGA+5U6LZ1PBKgxCD4E08O0=
+
+Name: assets/www/Proyectos/docs/lists/images/album-p.jpg
+SHA-256-Digest: JTRqu9KkFwgKqz7z+NVHxyVA0c7GJiBd+udmLdr5Qek=
+
+Name: assets/www/Proyectos/docs/toolbars/docs-headers.html
+SHA-256-Digest: 16gtMCT1X/7TNQVz0VQMIR6qJpjPZRDeExk8OQU98O4=
+
+Name: assets/www/cordova_plugins.json
+SHA-256-Digest: T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU=
+
+Name: assets/www/css/themes/default/jquery.mobile-1.2.0-rc.2.css
+SHA-256-Digest: lSP4+MAvvUnk1mumulAPak2KUU/tKPlJdwIN6s1OJiw=
+
+Name: res/drawable-ldpi-v4/ic_launcher.png
+SHA-256-Digest: ChN+jtdvsTWv6fzL4Rlf/SQYVRAlRwGnUKnFqcBSXNc=
+
+Name: assets/www/Proyectos/docs/lists/lists-formatting.html
+SHA-256-Digest: uXbkGejKS1ICFy9fWpM4mi5FR1z1WXCb3KthNYiGRyo=
+
+Name: assets/www/AltranPeople/css/themes/default/jquery.mobile.structu
+ re-1.2.0-rc.2.min.css
+SHA-256-Digest: 8pciwZIUCulkbA4u8DiDKyqT6Dz0qHzJEF6bEalGx/A=
+
+Name: assets/www/AltranPeople/js/jquery.mobile-1.2.0-rc.2.js
+SHA-256-Digest: uzUt+eFlXtU+F9CTs2EL/1BX3I+l1UPN/ebuim4mL0o=
+
+Name: res/drawable/icon.png
+SHA-256-Digest: nqfGowznLAn2Kaf0l/QIoN+sfnbo9wPk5dFRnSe6yJs=
+
+Name: assets/www/Proyectos/docs/forms/selects/options.html
+SHA-256-Digest: TcfcJF8CRxEqRQTrwH0DoSnDu8kQx4U5ayb8K7iLAi8=
+
+Name: assets/www/Proyectos/docs/lists/lists-split-purchase.html
+SHA-256-Digest: b43qJNLmWosIi1EhKueBD0NCT/ngpDEXUXH/MEwP9B4=
+
+Name: assets/www/Proyectos/docs/pages/page-cache.html
+SHA-256-Digest: Q3jAv+wHubAHvi/DxyrTyib/vRuHluXA47OLQf2u0Oc=
+
+Name: assets/www/Icon.png
+SHA-256-Digest: 50BnjJFtL935eWtkV4/XM+C3XzKxyAwcoqaUZr59Yt0=
+
+Name: assets/www/Proyectos/docs/forms/radiobuttons/options.html
+SHA-256-Digest: lA1+R3yR3TYGHzIZCK4Ew8vkoLZSHeXaurgwY6cIQUw=
+
+Name: assets/www/Proyectos/docs/index.html
+SHA-256-Digest: vgnUpp606ShiWWr+GYklnHgxdXuxHYnrh+2X2GgQvWs=
+
+Name: assets/www/Proyectos/docs/pages/pages-themes.html
+SHA-256-Digest: wIYSS8HUZWOtbVuQoTcdFKUdidFN330RbFzCzA41808=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA-256-Digest: i0XagvTwnaVSM1iTIQtOHPS78Wme3iP0PE139kR6Wek=
+
+Name: assets/www/Proyectos/docs/config/loadingMessageTextVisible.html
+SHA-256-Digest: DyWcRNGB8aCkCURo8gxHxWtSMl9anCGZgw1UTYvh948=
+
+Name: assets/www/Proyectos/docs/lists/lists-split.html
+SHA-256-Digest: VqsXUHBEGVO0/Kk/qvZT6UzKHjG0ryL01Kk4mepthUg=
+
+Name: assets/www/Proyectos/docs/forms/selects/events.html
+SHA-256-Digest: 4n7Q1MTiBFm99Yk/dOzjT26FerdCNAe9vy/twHyr79I=
+
+Name: assets/www/Cursos/css/themes/default/jquery.mobile-1.2.0-rc.2.mi
+ n.css
+SHA-256-Digest: K+ATwOWOIGxH3Y06OBEh77w7COGuf0lKHa94nRM/Bb4=
+
+Name: assets/www/AltranPeople/imagenes/altran-people.png
+SHA-256-Digest: +g8CzeVZCxZlFodwY6af9Y5oQ0+0ORyzGKx0Yil17NI=
+
+Name: assets/www/Proyectos/docs/pages/page-transitions-page.html
+SHA-256-Digest: id9vzbSgNqvmoQBdXnEerH8UtM0RC9aqg87Pu88F7OQ=
+
+Name: assets/www/Proyectos/docs/forms/switch/options.html
+SHA-256-Digest: ApZxrO8KNA9ynUowv6wDy8GqSGwj9SBYfGGBW0EAn2w=
+
+Name: assets/www/Proyectos/docs/pages/dynamic-samples/animals.html
+SHA-256-Digest: iYm2ihxSfrr7wpd13jrlSbkYD6/g2z1zxIDPA6+MTuo=
+
+Name: assets/www/Proyectos/docs/forms/checkboxes/options.html
+SHA-256-Digest: 5B82wYeRfG/ipuiy1SoICpdBXm+/xGvw6oo3zDh9u0M=
+
+Name: assets/www/Proyectos/docs/toolbars/bars-themes.html
+SHA-256-Digest: 2l3z9bDeqTiUkX6UzLkhTiYfo8SN0Z9hgjPOoe3qnbk=
+
+Name: assets/www/Proyectos/docs/toolbars/footer-persist-c.html
+SHA-256-Digest: xiF4N0k9ZpZPxj7x5aaEpAOaGsnW5dtCMHhr8TKltz0=
+
+Name: assets/www/js/HybridGuard.js.bak
+SHA-256-Digest: D4qXVR0qOr7IQGwik6yOb+rT/L7v38+cnrLWvbEnSXA=
+
+Name: assets/www/Proyectos/docs/forms/forms-all-mini.html
+SHA-256-Digest: 4b4csJX+5/VdWYfOWNVMMdF4DdtE2UUtWlwOD++4daI=
+
+Name: assets/www/Proyectos/docs/forms/slider/options.html
+SHA-256-Digest: W5ZHONChE2Z2ZuU1yRwxiZiOoFQnlYw+Fnq+8PW0JT0=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA-256-Digest: fBj8cw0GFdnxyz3V4MtX/HFnFKk7/UKmior9VVlAao4=
+
+Name: assets/www/Proyectos/docs/api/globalconfig.html
+SHA-256-Digest: QDUSAK4OucqAi82xi/H6DpXoBvdt3CZmMstQv/HMgck=
+
+Name: assets/www/Proyectos/docs/toolbars/bars-fixed-forms-g.html
+SHA-256-Digest: qczIiskd7gGIJeG77C5NB/7blRe7qIKWDWuvQClNMe8=
+
+Name: assets/www/Proyectos/docs/forms/search/index.html
+SHA-256-Digest: TdJzE/7a/IyWdmsd65LSJDdJumK18zEstHHHgwNli2k=
+
+Name: assets/www/Proyectos/docs/toolbars/bars-fixed-forms-b.html
+SHA-256-Digest: T611bk0ML9lK4GIhPOTHQFSwLIxexbAqZEe5PUEcKlI=
+
+Name: assets/www/Proyectos/docs/forms/forms-all.html
+SHA-256-Digest: q8YZKCxRNm4vv7GPj4zRdr7yoXjSoUXtrTcPOiFIDs0=
+
+Name: assets/www/Proyectos/docs/lists/images/album-af.jpg
+SHA-256-Digest: R+s1A/l6/aMzRi+2337suhw18YE4S2OOJ5qw1/86png=
+
+Name: assets/www/Proyectos/docs/pages/pages-themes/theme-e.html
+SHA-256-Digest: uniNemT/CH2JlzIFo3Lh9lG42AknZdK2cI6SK317608=
+
+Name: assets/www/Proyectos/docs/buttons/buttons-types.html
+SHA-256-Digest: 5AiwMnRKZV1Nn1fqs8HbH8UDo+dFLpmTtkaCFa7zsbM=
+
+Name: assets/www/Proyectos/docs/config/minScrollBack.html
+SHA-256-Digest: xIGr/vesTsRUI5ZZJEW0iPP6B5V8vdMr7YUGd14dGBU=
+
+Name: assets/www/Proyectos/docs/toolbars/bars-fixed-forms-h.html
+SHA-256-Digest: xK3fshXUeEmCtQJT0dCXsJnGdqscYbVTqdAcnCjY9Jc=
+
+Name: assets/www/Proyectos/docs/lists/images/album-bb.jpg
+SHA-256-Digest: xUrXFK0jztxRvpbCA6xJwhPXjf4OqS1jYK0Z0T259tg=
+
+Name: assets/www/Proyectos/docs/about/platforms.html
+SHA-256-Digest: KJ7Ei53ScmNcKGg2AOfcwTKzqmrLuJbV0tVtzmfwbgM=
+
+Name: assets/www/Proyectos/docs/lists/images/album-k.jpg
+SHA-256-Digest: 2sCfTMsDiFvJrJSZ8KvyPECOtJgBZ4usgr8vlzVTPf4=
+
+Name: assets/www/Proyectos/docs/about/intro.html
+SHA-256-Digest: NMrT91bbJBHlzEkCrO68y6QPjymd8f1DhpuWJmxj7HU=
+
+Name: assets/www/Proyectos/docs/toolbars/bars-fixed-forms-a.html
+SHA-256-Digest: yNGzp0M/zay5dvQfGqI4la2X2kOZ2aGm1EzbUNuwtuk=
+
+Name: assets/www/childbrowser/icon_close.png
+SHA-256-Digest: sWfv5jvpy0lv8PzAbgxWS43r76YBNEUaIN0j4sZMk1c=
+
+Name: assets/www/Proyectos/js/jquery.mobile-1.1.0.min.js
+SHA-256-Digest: johW5Ukc7+A8PfgGPFircQUb3RRHgUwiHmOK1jergEc=
+
+Name: assets/www/AltranPeople/css/themes/default/jquery.mobile-1.2.0-r
+ c.2.min.css
+SHA-256-Digest: K+ATwOWOIGxH3Y06OBEh77w7COGuf0lKHa94nRM/Bb4=
+
+Name: assets/www/Proyectos/docs/toolbars/footer-persist-d.html
+SHA-256-Digest: 4mLoBXPe5zX6sRbl5KDUmJ1CJu7VZjB1xO8rhLzdNh0=
+
+Name: assets/www/Proyectos/docs/content/content-collapsible-set.html
+SHA-256-Digest: Vdz01Y8/IjOVwEjEw6OOgduhSvogbdIrW+44vxrO+Tg=
+
+Name: assets/www/Proyectos/docs/toolbars/glyphish-icons/19-gear.png
+SHA-256-Digest: 9UV5VdXdx9HtLm5vb/qomaSmEBu4XvyuPj9BtxWqVKQ=
+
+Name: assets/www/Proyectos/js/jquery.js
+SHA-256-Digest: 5esoDniVULgiVAkRAyqA5CT+2IdnQ+MBipwadFPkomw=
+
+Name: assets/www/Proyectos/docs/pages/dialog.html
+SHA-256-Digest: KZGlL9IUXedFZtu/At1/frpmWw6UpAOYTHvKH/HAR0s=
+
+Name: assets/www/Proyectos/proyectos.html
+SHA-256-Digest: BlHckHmSQu5+NdP60WMlqnAUygxo52FC3vmxTT4AJv0=
+
+Name: assets/www/Proyectos/docs/pages/page-links.html
+SHA-256-Digest: uNN626z7FtXpqU85Oi4FJiDOndpUgD404h0LVn2FOAk=
+
+Name: assets/www/imagenes/Educ-logo.png
+SHA-256-Digest: Q+9vx+V9U3TzNA0zo2Rm2G4bZLBjCX4Z5i5xvgg0QvU=
+
+Name: assets/www/Proyectos/docs/forms/search/methods.html
+SHA-256-Digest: qGXF05IF1CFg0/A3KKbH4RSX4qwTa1LUnb3ud8ATShg=
+
+Name: assets/www/Proyectos/docs/lists/lists-search-inset.html
+SHA-256-Digest: Ar9NjEHYg9vdeWgDDfl1U3LBEl5q4k2D1oW8ljMveos=
+
+Name: assets/www/Cursos/css/themes/default/jquery.mobile.theme-1.2.0-r
+ c.2.css
+SHA-256-Digest: ThqoknY2RF6CnV9g8J8dtcT9xj+L2zIlByRBDrBRIuQ=
+
+Name: assets/www/Proyectos/docs/forms/selects/index.html
+SHA-256-Digest: 1KurE7nIy8NGCWC79r9oIfHEWdhASGAjIxfcoc09E2w=
+
+Name: assets/www/Proyectos/docs/toolbars/docs-footers.html
+SHA-256-Digest: 4wmihFVXUePBapF+hawT8SN33wAKyjhue8GO6BMyvuM=
+
+Name: assets/www/Proyectos/docs/forms/textinputs/events.html
+SHA-256-Digest: qZ3pc0H62n05M/ydY/QW/8JTX6jmj7P+DW3w1Qll6tA=
+
+Name: assets/www/Proyectos/docs/forms/textinputs/index.html
+SHA-256-Digest: NKC8B6FQ1S7ywK4eH6A3XI2W/D92Je4hH7qnziESz7Q=
+
+Name: assets/www/AltranPeople/css/themes/default/jquery.mobile.theme-1
+ .2.0-rc.2.min.css
+SHA-256-Digest: rofnm3hJEIjKErqNTd2PeYCr4VAfijG1Dybap6Hwric=
+
+Name: classes.dex
+SHA-256-Digest: stP99YjxKY37kEJDGn8avs/FrL837Ab2lLOkwPqu7pQ=
+
+Name: assets/www/css/themes/default/images/icons-18-white.png
+SHA-256-Digest: z+VfPYAWSEsInrurfo7+Ht6homuzPFLkWYrXQJmi67E=
+
+Name: assets/www/Proyectos/docs/pages/dialog-alt.html
+SHA-256-Digest: zsrGFvAn+w5Gwz1T2XkVkwvZ/DxI6D+D0ygscuTeOV8=
+
+Name: assets/www/Proyectos/docs/about/getting-started.html
+SHA-256-Digest: i+rYRlR5UvcgSZZAd71n02e8qkoMLiARKLU+6KH70YE=
+

@@ -1,0 +1,226 @@
+<div id="post-view-dropdown-team" data-role="page" >
+
+    <div data-role="content" style="background:white;">
+
+        <style>
+            .ui-header{
+                display:none;
+                height:0;
+            }
+        </style>
+        <div style="
+                        background: white;
+                        color: grey;
+                        position: relative;
+                        font-size: .6em;
+                        padding: 0;
+                        margin: 0;
+                   ">
+            
+	        <h1 style="margin:0;" >
+            <form 
+                  style="background:white;"
+                  action="javascript:postNameSpace.searchTeamForDropDown.getFeed( { teamName : $('#post-view-dropdown-team-searchTextbox').val() } )"
+            >
+                <i style="padding:1em;" onclick="history.back();" class="fa fa-arrow-left"></i>
+                <div style="display:inline-block; ">
+                    <input style="font-size: .8em; min-width: 12em; padding: 1em 1em 1em 0;" class="fullWidthTextbox" data-role="none" type="text" id="post-view-dropdown-team-searchTextbox" 
+                           oninput="postNameSpace.searchTeamForDropDown.getFeed( { teamName : $('#post-view-dropdown-team-searchTextbox').val() } ) "
+                           placeholder="Search for a Team Board" />
+                    
+                </div>
+                <i style="float:right; padding:1em; " onclick="postNameSpace.searchTeamForDropDown.getFeed( { teamName : $('#post-view-dropdown-team-searchTextbox').val() } );" class="fa fa-search"></i>
+
+            </form>
+            </h1>
+            <!--
+	        <h1 class="ui-title noBg ui-link" >
+                
+                <i style="padding:1em;" onclick="$( '#popupMenu-popup' ).popup(); $( '#popupMenu-popup' ).popup( 'open' )" class="fa fa-bars"></i>
+                <span>
+                    Create a New Reaction
+                </span>
+                <i style="float:right; padding:1em; " onclick="postNameSpace.submit();" class="fa fa-check"></i>
+
+            </h1>
+			-->	      
+
+        </div>
+
+        <!--
+        <br>
+        <div onclick="window.SaveTeamSearchedTerm.JsonObject.Data = [] ; postNameSpace.searchTeamForDropDown.displaySearchedTerm( 'post-view-dropdown-team-teamplate-searchTeam','post-view-dropdown-team-display-searchTerm');" >Clear Search</div>
+        -->
+
+        <style>
+        .feed .row {
+            background:white;
+        }
+        .row td.text h2 a {
+            color: grey !important;
+        }
+        .row.selected{
+            color: green !important;
+        }
+        .row.selected td.text h2 a{
+            color: green !important;
+        }
+        </style>
+        <script type="text/x-kendo-template" id="post-view-dropdown-team-teamplate">
+        
+                {{#each Data}}
+                <tr class="row {{#if selectedForPosting }}selected{{/if}}" 
+                        onclick="
+                                //postNameSpace.searchTeamForDropDown.var.team = postNameSpace.searchTeamForDropDown.var.feed.Data[ {{ @index }} ] ; 
+                                //postNameSpace.queue.var.object.team = postNameSpace.searchTeamForDropDown.var.team ;
+                                //postNameSpace.queue.var.object.teamid = postNameSpace.queue.var.object.team.teamId ;  
+                                postNameSpace.queue.var.object.teamName = &quot;{{ teamName }}&quot;
+                                postNameSpace.queue.var.object.teamid = {{ teamId }} ;  
+                                postNameSpace.queue.var.object.team = { teamName : postNameSpace.queue.var.object.teamName , teamId : postNameSpace.queue.var.object.teamid } ;
+                                history.back() ; 
+                                "
+                >
+                    <td  class="logo">
+                        <div class="img round" 
+                            style="background-image: url('{{ prefix }}{{ teamIcon }}');">
+                        </div>
+                    </td>
+                    <td class="text" >
+                        <h2><a class="ui-link">{{ teamName }}</a>
+            			</h2>
+            		</td>
+                    <td>
+                        {{#if selectedForPosting }}<i class="fa fa-check" style="padding-right:1em;"></i>{{/if}}
+                        <!--
+                            <a
+                            	style="
+                                	    display: inline-block;
+                                        border: 1px solid #00592d;
+                                        text-decoration: none !important;
+                                        color: #00592d !important;
+                                        -webkit-border-radius: 3px;
+                                        -moz-border-radius: 3px;
+                                        border-radius: 3px;
+                                        padding: 4px 0;
+                                        margin-right:.5em;
+                                        width: 58px;
+                                        text-align: center;
+                                        font-family: 'robotoregular', sans-serif !important;	
+                                      "
+                            	class="button ui-link">
+                                Select
+                            </a>
+                        -->
+                    </td>
+                </tr>
+                {{/each}}
+        </script>
+
+        
+        <script type="text/x-kendo-template" id="post-view-dropdown-team-teamplate-searchTeam">
+            <div style="color:black;">
+				
+              {{#each Data}}
+                <a onclick="
+                                $('#post-view-dropdown-team-searchTextbox').val( $(this).html().trim() ); 
+                                postNameSpace.searchTeamForDropDown.execute( { teamName : $(this).html().trim() , profileId : loginNameSpace.loggedUserID , }, 'post-view-dropdown-team-teamplate' , 'post-view-dropdown-team-display' )
+                            ">
+                    {{ teamName }}
+                </a> -
+              {{/each}}
+            </div>
+        </script>
+        
+        <!--
+        <div id="post-view-dropdown-team-display-searchTerm"></div>
+        -->
+        <div>
+           <table id="post-view-dropdown-team-display" class="feed sports" data-role="none" >
+           </table>
+        </div>
+        
+    </div>
+    
+
+    <script>
+
+        
+        customNamespace.sizing();
+
+        $(document).on('pageshow','#post-view-dropdown-team',function(event){
+            event.preventDefault();
+            event.stopPropagation();
+            event.stopImmediatePropagation();        
+            postNameSpace.searchTeamForDropDown.getFeed();
+            console.log('pageshow');
+            //postNameSpace.searchTeamForDropDown.displaySearchedTerm( 'post-view-dropdown-team-teamplate-searchTeam','post-view-dropdown-team-display-searchTerm');
+        });     
+
+        postNameSpace.searchTeamForDropDown = {};
+        postNameSpace.searchTeamForDropDown.var = {};
+        postNameSpace.searchTeamForDropDown.var.team = {};
+        postNameSpace.searchTeamForDropDown.var.feed = {};
+        postNameSpace.searchTeamForDropDown.var.searchCriteria = null;
+        postNameSpace.searchTeamForDropDown.getFeed = function ( data, templateId , displayId ) {
+
+            window.GetTeamBySearchTermForPost.Variables = data  || {} ;
+            window.GetTeamBySearchTermForPost.Variables.profileId =  loginNameSpace.loggedUserID ;
+            window.GetTeamBySearchTermForPost.DataUpdatedEvent = function () {
+
+                postNameSpace.searchTeamForDropDown.var.searchCriteria = $.extend(true, {}, window.GetTeamBySearchTermForPost.Variables ) ;
+                
+                $("#post-view-dropdown-team-display").empty();
+                if( window.GetTeamBySearchTermForPost.JsonObject.Data.length == 0 ){
+                	$("#post-view-dropdown-team-display").html('<tr><td><br><center>Team Not Found</center></td></tr>');
+                    return false;
+                }
+                //postNameSpace.searchTeamForDropDown.var.feed = $.extend(true, {}, window.GetTeamBySearchTerm.JsonObject ) ;
+                postNameSpace.searchTeamForDropDown.display( window.GetTeamBySearchTermForPost.JsonObject ); 
+            };
+            window.GetTeamBySearchTermForPost.Execute( window.FeedManager );
+        }
+
+        postNameSpace.searchTeamForDropDown.display = function( data ){
+
+            data = $.extend(true, {},data ) ;
+            
+            $.each( data.Data, function( index, element ) { 
+                element.prefix = domainNameSpace.name ;
+                try{
+                    element.teamName = element.teamName.replace(/'/g, '&quot;') ;
+                    element.selectedForPosting = element.teamId == postNameSpace.queue.var.object.teamid ? true : false ;
+                } catch( err){} 
+                data.Data[index] = element ;
+            });
+
+                    
+            var lastID = data.Data[data.Data.length - 1].RowNumber;
+            var getMoreInAdvance = '<tr style="display:none"><td><div class="getMore"  onclick="postNameSpace.searchTeamForDropDown.getMore( $(this).attr(\'class\') , ' + lastID + ')"></div></td></tr>';
+
+            console.log( data );
+
+            var html = customNamespace.display.html( data , 'post-view-dropdown-team-teamplate' )
+            $("#post-view-dropdown-team-display").append( html + getMoreInAdvance);
+            
+
+        }
+        postNameSpace.searchTeamForDropDown.getMore = function ( thisDivclass, skip  ) {
+
+
+            if (thisDivclass.search('getMore') == -1) {
+                return false;
+            }
+            $('.getMore').removeClass('getMore');
+
+            window.GetTeamBySearchTermForPostMore.Variables = postNameSpace.searchTeamForDropDown.var.searchCriteria ;
+            window.GetTeamBySearchTermForPostMore.Variables.Skip = skip;
+
+            window.GetTeamBySearchTermForPostMore.DataUpdatedEvent = function () {
+                postNameSpace.searchTeamForDropDown.display( window.GetTeamBySearchTermForPostMore.JsonObject ); 
+            };
+            window.GetTeamBySearchTermForPostMore.Execute( window.FeedManager );
+
+        }
+
+    </script>
+</div>

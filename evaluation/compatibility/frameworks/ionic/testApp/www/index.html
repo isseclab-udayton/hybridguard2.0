@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Test App</title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="js/ng-cordova.min.js"></script>
+    <script src="cordova.js"></script>
+
+    <!-- <script src="js/coremonitor-min.js"></script> -->
+    <script src="js/core-irm.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/admob.js"></script>
+
+    <!-- Local testing file -->
+    <!-- <script src="js/testing.js"></script> -->
+
+    <!-- Remote testing file -->
+    <!-- <script src="https://bitbucket.org/phuphung/webmobilesec/raw/293bc18e3c90b91c8ec99852d24bac8d032a7394/testApp/www/js/testing.remote.js"></script> -->
+
+    <!-- Alternative remote testing file -->
+    <!-- <script src="https://gist.githubusercontent.com/anonymous/df7bb7513c28d2ecd6a3f0ea750f6119/raw/0223dfd8b04c13413629632026f9acdbf6f3ada0/testing.remote.js"></script> -->
+    <script>
+        loadExternalJS('trusted', 'js/test-core-irm.js');
+        loadExternalJS('gist.githubusercontent.com', 'https://gist.githubusercontent.com/anonymous/df7bb7513c28d2ecd6a3f0ea750f6119/raw/0223dfd8b04c13413629632026f9acdbf6f3ada0/testing.remote.js');
+    </script>
+
+    <!-- <script src="https://gist.githubusercontent.com/anonymous/df7bb7513c28d2ecd6a3f0ea750f6119/raw/0223dfd8b04c13413629632026f9acdbf6f3ada0/testing.remote.js"></script> -->
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">WebMobile Testbench</h1>
+      </ion-header-bar>
+      <ion-content padding="true">
+
+        <h1>Hello world!</h1>
+        <p>
+          This is a test application.
+        </p>
+        <br>
+        <img src="" id="myImage" width="100%">
+        <button class="button button-block button-positive" onclick="takePhoto()">Take Photo</button>
+      </ion-content>
+    </ion-pane>
+
+    <script type="text/javascript">
+
+      function showTestBanner(){
+        var admobParam=new  admob.Params();
+        //admobParam.extra={'keyword':"admob phonegame"};
+        //admobParam.isForChild=true;
+        admobParam.isTesting=true;
+        admob.showBanner(admob.BannerSize.SMART_BANNER,admob.Position.BOTTOM_CENTER,admobParam);
+      }
+      function showInterstitial(){
+        admob.isInterstitialReady(function(isReady){
+          if(isReady){
+              admob.showInterstitial();
+          }
+        });
+      }
+      function onInterstitialReceive (message) {
+        alert(message.type+" ,you can show it now");
+        //admob.showInterstitial();//show it when received
+      }
+      function onReceiveFail (message) {
+        var msg=admob.Error[message.data];
+          if(msg==undefined){
+             msg=message.data;
+          }
+          document.getElementById("alertdiv").innerHTML="load fail: "+message.type+"  "+msg;
+      }
+
+      // contacts stuff
+
+      function contactsOnSuccess(contacts) {
+          alert('Found ' + contacts.length + ' contacts.');
+      };
+
+      function contactsOnError(contactError) {
+          alert('onError!');
+      };
+
+      function checkConnection() {
+        var networkState = navigator.connection.type;
+
+        var states = {};
+        states[Connection.UNKNOWN]  = 'Unknown connection';
+        states[Connection.ETHERNET] = 'Ethernet connection';
+        states[Connection.WIFI]     = 'WiFi connection';
+        states[Connection.CELL_2G]  = 'Cell 2G connection';
+        states[Connection.CELL_3G]  = 'Cell 3G connection';
+        states[Connection.CELL_4G]  = 'Cell 4G connection';
+        states[Connection.CELL]     = 'Cell generic connection';
+        states[Connection.NONE]     = 'No network connection';
+
+        alert('Connection type: ' + states[networkState]);
+    }
+
+      function onReady() {
+
+        // contacts stuff
+        // var options      = new ContactFindOptions();
+        // options.filter   = "";
+        // options.multiple = true;
+        // options.desiredFields = [navigator.contacts.fieldType.id];
+        // options.hasPhoneNumber = true;
+        // var fields       = [navigator.contacts.fieldType.displayName, navigator.contacts.fieldType.name];
+        // navigator.contacts.find(fields, onSuccess, onError, options);
+
+        alert("filesys" + cordova.file);
+        alert("media" + Media);
+        checkConnection();
+        navigator.vibrate(30);
+
+        admob.initAdmob("ca-app-pub-3738925860452890/2116091764","ca-app-pub-3738925860452890/2116091764");
+        document.addEventListener(admob.Event.onInterstitialReceive, onInterstitialReceive, false);
+        document.addEventListener(admob.Event.onInterstitialFailedReceive,onReceiveFail, false);
+        document.addEventListener(admob.Event.onBannerFailedReceive,onReceiveFail, false);
+        showTestBanner();
+      }
+
+    //   document.addEventListener('deviceready',onDeviceReady, false);
+
+        onReady();
+    </script>
+    <!-- FOR TESTING EXTERNAL JAVASCRIPT CALLS -->
+    <!-- <script src="http://sejr.github.io/testing.js"></script> -->
+  </body>
+</html>

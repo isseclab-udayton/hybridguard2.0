@@ -1,0 +1,42 @@
+{
+    "plugins": {
+        "jQuery": {
+            "jquery-js": [
+                "jquery-1.9.js"
+            ]
+        },
+        "jQuery Mobile": {
+            "jquery-mobile-js": [
+                "jquery-mobile-1.3.js"
+            ],
+            "jquery-mobile-css": [
+                "jquery-mobile-1.3.css"
+            ]
+        },
+        "monaca.js": [
+
+        ],
+        "phonegap\/cordova.js": [
+
+        ],
+        "monaca.viewport.js": [
+
+        ],
+        "phonegap-plugins\/share": [
+
+        ],
+        "phonegap-plugins\/webIntent": [
+
+        ]
+    },
+    "splash": {
+        "android": {
+            "background": "#FAE5C6",
+            "autoHide": true
+        }
+    },
+    "version": "1.0",
+    "pushNotification": {
+        "pushProjectId": "SYYK5dfbbumMGL6p"
+    }
+}

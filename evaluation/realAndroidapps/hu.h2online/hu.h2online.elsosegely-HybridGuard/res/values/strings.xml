@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_name">@string/launcher_name</string>
+    <string name="alert_later">Később</string>
+    <string name="alert_never">Köszönöm, nem</string>
+    <string name="alert_now">Megnézem</string>
+    <string name="alert_title">Töltse le legújabb alkalmazásunkat is!</string>
+    <string name="app_name">Elsősegély</string>
+    <string name="launcher_name">@string/app_name</string>
+</resources>

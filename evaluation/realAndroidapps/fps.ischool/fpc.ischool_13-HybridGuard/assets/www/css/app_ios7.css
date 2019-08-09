@@ -1,0 +1,21 @@
+.ui-mobile-viewport{
+	margin-top:20px;
+}
+.ui-page[data-role="page"] .ui-header{
+	top:20px; 
+}
+
+.ui-dialog-contain{
+	margin-top:50px !important;
+}
+
+/* 43 + el valor de arriba */
+.ui-page[data-role="page"] .ui-content{
+	margin-top:63px; 
+}
+#where .ui-content,#where_ride .ui-content{
+	padding-top:63px !important;	
+}
+#slider_container{
+	bottom: 45px !important;
+}

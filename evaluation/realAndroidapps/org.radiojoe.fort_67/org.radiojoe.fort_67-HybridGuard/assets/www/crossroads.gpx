@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="Oregon 400t" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2009-10-17T22:58:43Z</time>
+  </metadata>
+  <trk>
+    <name>Kanaka 1</name>
+    <trkseg>
+      <trkpt lat="45.62245" lon="-122.667067">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kanaka 2</name>
+    <trkseg>
+      <trkpt lat="45.622533" lon="-122.667717">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kanaka 3</name>
+    <trkseg>
+      <trkpt lat="45.622583" lon="-122.668183">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kanaka 4</name>
+    <trkseg>
+      <trkpt lat="45.622617" lon="-122.66845">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kanaka 5</name>
+    <trkseg>
+      <trkpt lat="45.622583" lon="-122.668183">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kanaka 6</name>
+    <trkseg>
+      <trkpt lat="45.622667" lon="-122.668183">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kanaka 7</name>
+    <trkseg>
+      <trkpt lat="45.622833" lon="-122.668117">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kanaka 8</name>
+    <trkseg>
+      <trkpt lat="45.622667" lon="-122.668183">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kanaka 9</name>
+    <trkseg>
+      <trkpt lat="45.622833" lon="-122.668117">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kanaka 10</name>
+    <trkseg>
+      <trkpt lat="45.622783" lon="-122.668067">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kanaka 11</name>
+    <trkseg>
+      <trkpt lat="45.62255" lon="-122.66785">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kanaka 12</name>
+    <trkseg>
+      <trkpt lat="45.62255" lon="-122.66785">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>  
+  <trk>
+    <name>Kanaka 13</name>
+    <trkseg>
+      <trkpt lat="45.62275" lon="-122.66785">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk> 
+  <trk>
+    <name>Kanaka 14</name>
+    <trkseg>
+      <trkpt lat="45.62266" lon="-122.66781">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk> 
+  <trk>
+    <name>Kane 1</name>
+    <trkseg>
+      <trkpt lat="45.621112619816" lon="-122.66646620812">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk> 
+  <trk>
+    <name>Kane 2</name>
+    <trkseg>
+      <trkpt lat="45.621348548447" lon="-122.66711900113">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk> 
+  <trk>
+    <name>Kane 3</name>
+    <trkseg>
+      <trkpt lat="45.622437008482" lon="-122.66689449144">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk> 
+  <trk>
+    <name>Kane 4</name>
+    <trkseg>
+      <trkpt lat="45.623282596273" lon="-122.66672272318">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk> 
+  <trk>
+    <name>Kane 5</name>
+    <trkseg>
+      <trkpt lat="45.623731668886" lon="-122.66332068565">
+        <ele>36</ele>
+        <time>2009-10-17T18:37:02Z</time>
+      </trkpt>
+    </trkseg>
+  </trk> 
+</gpx>

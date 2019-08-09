@@ -1,0 +1,86 @@
+div.twitter {
+    /*padding: 5px; 
+    background: url('../images/atkinson.png') no-repeat; 
+    background-size: 100%; 
+    text-align: left;
+    min-height: 480px;*/
+    text-align: left;
+}
+
+div.twitter div.content {
+    position: absolute; 
+    left: 50%; 
+    top: 14%; 
+    font-family: 'Helvetica';
+    padding: 10px; 
+}
+
+div.twitter div.content div.name {
+    font-size: 17pt; 
+    line-height: 15pt; 
+    color: #663300; 
+    font-weight: bold; 
+    font-size: 17pt; 
+    line-height: 16pt; 
+    color: #663300; 
+    margin-bottom: 10px;
+}
+
+div.twitter div.content div.handle {
+    font-size: 12pt; 
+    color: #000; 
+    font-weight: bold; 
+    margin-bottom: 10px;
+}
+
+div.twitter div.content div.title {
+    font-size: 9.5pt; 
+    color #000; 
+    position: relative; 
+    left: 20%;
+    color: #000;
+}
+
+div.twitter div.quote {
+    position: absolute; 
+    top: 50%; 
+    text-align: left;
+    color: #000;
+    padding: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+div.search_screen {
+    /*padding: 5px; 
+    background: url('../images/atkinson.png') no-repeat; 
+    background-size: 100%; 
+    text-align: left;
+    min-height: 480px;*/
+    text-align: left;
+}
+
+div.search_screen div.quote {
+    position: absolute;
+    padding: 10px;
+    top: 70%; 
+    text-align: center;
+    color: #fff;
+}
+
+div.general_text {
+	text-align: left;
+}
+
+div.general_text div.content {
+    position: absolute;
+    top: 15px;
+    padding: 25px;
+    text-align: left;
+    color: #000;
+    font-family: 'Helvetica'; 
+    font-size: 13pt;
+
+}

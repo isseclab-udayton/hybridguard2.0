@@ -1,0 +1,31 @@
+.ui-select{
+	margin: 0.25em 0 !important;
+	padding-right: 0.8em !important;
+}
+h1.title{	
+	font-size: 1.52em;
+}
+.item_info,table.minimal tbody th {
+	font-size: 1.05em;
+}
+h3.subtitle_in,h2.subtitle{
+	font-size: 1.2em;
+}
+table.minimal tbody th{
+	width: 170px;
+}
+.ui-dialog-contain{
+	width: 500px;
+}
+.proteccio_dades{	
+	padding:10px;
+}
+div.youtube_container{ 	
+ 	width:400px;		
+	margin: 0 auto;
+	position: relative;
+}
+#content_all_rss{ /* en este content el margin bottom es menor*/
+	*margin-bottom:-45px !important;
+	height:100%;
+}

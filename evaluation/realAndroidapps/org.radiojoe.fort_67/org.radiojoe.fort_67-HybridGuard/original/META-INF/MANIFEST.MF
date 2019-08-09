@@ -1,0 +1,961 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: assets/www/fort_game/images/game_variable_images/winter.png
+SHA1-Digest: HwR2sZFKuW/OKjE047olp9nV1Rw=
+
+Name: assets/www/images/apple/slide2.jpg
+SHA1-Digest: x411knCYOQZi/wOz43PZIiL6ko4=
+
+Name: res/xml/config.xml
+SHA1-Digest: sP1i4aezo38XkwyZXgc4vVmszaY=
+
+Name: assets/www/images/kanaka_splash.jpg
+SHA1-Digest: hJVtA8S2tNVbeNA9oWDOhBbCHXU=
+
+Name: assets/www/fort_game/images/game_variable_images/summer.png
+SHA1-Digest: f8ZEuQhl4MBN9iXw41VHEQBs/ww=
+
+Name: assets/www/images/launcher_48x48.png
+SHA1-Digest: e1QkdsFPkh8r9wcU/Ta9nu+coyU=
+
+Name: assets/www/images/villageopening/Village11.jpg
+SHA1-Digest: WKqGTg67PDS7TIZtQGIElnCahqw=
+
+Name: assets/www/images/kane/KanePNG23.png.jpg
+SHA1-Digest: KK5YZUAfv6vTSpxmuFaJ1koSdSE=
+
+Name: assets/www/fort_game/images/game_variable_images/score.png
+SHA1-Digest: 0VU5G10uswda2AieGtsBgcwaRWA=
+
+Name: assets/www/images/kanaka/lincoln1.jpg
+SHA1-Digest: 4467JqvcgWSp8Os/CPlTmiq9J9k=
+
+Name: assets/www/fort_game/images/640x960/objects/rug.png
+SHA1-Digest: 2pSt4ujkL7lLFUv+xSAekrZ/AQU=
+
+Name: assets/www/app/model/HaversackModel.js
+SHA1-Digest: nV+yEgQfsgH9kmuNz8TcsTdLZqg=
+
+Name: assets/www/images/KANE ICON.png
+SHA1-Digest: +/Y4kg+vRJXzfDK7j6ITSNpI2b0=
+
+Name: assets/www/images/kanaka/darwin2.jpg
+SHA1-Digest: J64GbIeLNvn+7ij9o5dlVRUJFeM=
+
+Name: assets/www/designer-save.js
+SHA1-Digest: Ftw31fY/C0H/NYuRenFazZ0miOA=
+
+Name: assets/www/images/kanaka4-thumbnail.png
+SHA1-Digest: DnO0B9gwAE6vXG0yK4M8rLaA9kU=
+
+Name: assets/www/images/onsite_animation/slide42.jpg
+SHA1-Digest: jh2yG4DKz9aBRi08YdcvDFUmO5g=
+
+Name: assets/www/icons/path.png
+SHA1-Digest: 21CUGLGOPlqs0wRhZaVfR+poEAc=
+
+Name: assets/www/fort_game/images/640x960/objects/tin_tumbler.png
+SHA1-Digest: zZ34+tDojraD257hP/JpECVmzwQ=
+
+Name: assets/www/images/kane/KanePNG1.png.jpg
+SHA1-Digest: ElZ2g07dJGmBNMxL/01GOKaeqe8=
+
+Name: assets/www/images/under_construction.jpg
+SHA1-Digest: JZ0myksiwW10HnK7dEanIIhILUM=
+
+Name: assets/www/images/kanaka1-thumbnail.png
+SHA1-Digest: ANRMbqj6insIiyZiJMEdIDGTsBM=
+
+Name: assets/www/images/kanaka/prompt_slide_5.jpg
+SHA1-Digest: mdK5QILt72Dq6eKWuek/i00SUmg=
+
+Name: assets/www/images/kane1-thumbnail.png
+SHA1-Digest: bC1/zMsVgt3MWKYHooJEscZEVuY=
+
+Name: assets/www/fort_game/images/640x960/objects/stool.png
+SHA1-Digest: jcdt0cTrTvx2W4fIuFtO3Vurz2E=
+
+Name: assets/www/images/kane/KanePNG17.png.jpg
+SHA1-Digest: gG+paroLCPl6+tN0v2B7XMLQVxw=
+
+Name: assets/www/icons/accessibility.png
+SHA1-Digest: +pZeri7+Yw/EHdlAFwLlm2J48cA=
+
+Name: assets/www/images/onsite_animation/slide41.jpg
+SHA1-Digest: jh2yG4DKz9aBRi08YdcvDFUmO5g=
+
+Name: assets/www/fort_game/images/game_variable_images/fall.png
+SHA1-Digest: 5358i/QXEhrbPojHWwph4sf/0aI=
+
+Name: assets/www/images/kanaka/beaver.jpg
+SHA1-Digest: gIjgoKEkgLwq253YhJr7zMIectk=
+
+Name: assets/www/images/kanaka2-thumbnail.png
+SHA1-Digest: 11VFH8u5OaMmFJImc2zwp4IVf34=
+
+Name: assets/www/icons/map.png
+SHA1-Digest: mPSOuXlPel2AXq/DUnc+NZjiD00=
+
+Name: assets/www/images/opening-sing.png
+SHA1-Digest: F2NE7ma+rO6KwjK5L30VJZnJGdA=
+
+Name: assets/www/images/kane/KanePNG8.png.jpg
+SHA1-Digest: ElZ2g07dJGmBNMxL/01GOKaeqe8=
+
+Name: assets/www/images/onsite_animation/slide20.jpg
+SHA1-Digest: g4xxiP6KCzbKRbqPREurSwKS+1I=
+
+Name: assets/www/images/kane/KanePNG2.png.jpg
+SHA1-Digest: Mc4W3QyIZbIoxrnOBSLhBQUgCf4=
+
+Name: assets/www/images/kane/KanePNG24.png.jpg
+SHA1-Digest: z89WTeNza+5824PyeFoqbS9d0ac=
+
+Name: assets/www/images/opening-tessa.png
+SHA1-Digest: WBUDygo6sQeAP0j9a5nP4esbrvk=
+
+Name: assets/www/images/villageopening/Village1.jpg
+SHA1-Digest: kFynDN2UCdTrage37r9vnfE9Eec=
+
+Name: assets/www/images/kane/KanePNG14.png.jpg
+SHA1-Digest: 5+nUIxPOLOLInRq0zlQ5yWJb2vY=
+
+Name: assets/www/video.js
+SHA1-Digest: JuQbsfQEIsaHHKqRpeJm9y3VzS4=
+
+Name: assets/www/images/onsite_animation/slide12.jpg
+SHA1-Digest: kE42k9tRDGvvy/0oVq92pVBnGns=
+
+Name: assets/www/fort_game/images/640x960/objects/jug.png
+SHA1-Digest: tHYofWB9f+uO76mPoJZmlOANSRs=
+
+Name: assets/www/app/view/ApplePanel.js
+SHA1-Digest: 4XAYc+29Vl9mpqMClturiyl3Hvs=
+
+Name: assets/www/app/view/Video.js
+SHA1-Digest: urnpuI/PJEyuFMMkDsiO3KH30wU=
+
+Name: assets/www/fort_game/images/640x960/objects/powder_horn.png
+SHA1-Digest: AjrPntjKfFs8pgOiRJjdLOhhWto=
+
+Name: assets/www/fort_game/images/game_variable_images/blank.png
+SHA1-Digest: gXFKO8+NZlgPtKiL5IN+sqNIjNk=
+
+Name: assets/www/images/opening-tracy.png
+SHA1-Digest: schdgSgLXoXh4Bs+8UI7+HHRxog=
+
+Name: assets/www/fort_game/images/640x960/objects/wall_shelf.png
+SHA1-Digest: NFGjpa2Ld1/vhCp4ZGsh8hbAeHg=
+
+Name: assets/www/images/KANE ICON NO SHADOW.png
+SHA1-Digest: 9YAkToFb5+//7BEre5Wyg+uEvAY=
+
+Name: assets/www/non-generated/childbrowser.js
+SHA1-Digest: SpNl3rlnfVyyxd6UFVRoOyQwIH0=
+
+Name: assets/www/images/onsite_animation/slide8.jpg
+SHA1-Digest: KJLwvX8wzmHgFoeDpawvT2OUEA0=
+
+Name: assets/www/app/view/KanePanelContainer.js
+SHA1-Digest: /KqaeCO10QZ0sb9HDMoPJG2ov5w=
+
+Name: assets/www/childbrowser/icon_arrow_right.png
+SHA1-Digest: 3ZdonAGfCs7U1XgF3F8LEMCmf3c=
+
+Name: assets/www/images/kanaka/poe1.jpg
+SHA1-Digest: dVeLPTRKpJMDCEKrBiO0RIV5cJU=
+
+Name: assets/www/images/onsite_animation/slide1.jpg
+SHA1-Digest: P2UHzHNFCtw2KSwOlfBOy4T6zd4=
+
+Name: assets/www/images/kanaka/comm_and_media1.jpg
+SHA1-Digest: AeGaYIGMHpFNLkpr1MM6Tof5orc=
+
+Name: assets/www/images/apple/slide3.jpg
+SHA1-Digest: dYMLnSyykBTM+EVjXBJViuAejAY=
+
+Name: assets/www/images/village_slide.jpg
+SHA1-Digest: /v11Yl+0x8Q8Jkiq+xAOPI+OJMM=
+
+Name: assets/www/images/kane/KanePNG16.png.jpg
+SHA1-Digest: wJ/lS6QWD2o9XfZBCDvz/u/14Lo=
+
+Name: assets/www/non-generated/site.css
+SHA1-Digest: 3KZkFZvRFF9wJLNPsSqgNFZNmYE=
+
+Name: assets/www/app/view/ApplePanelContainer.js
+SHA1-Digest: hIRGWAUZ789kB+LbnNKjHuozFPM=
+
+Name: assets/www/non-generated/kanaka.js
+SHA1-Digest: DG/kgMeughq8VTBid83mPdzLuMg=
+
+Name: assets/www/images/kanaka/prompt_slide_13.jpg
+SHA1-Digest: P6Hk261/bjpVrT762JDA2rnETSA=
+
+Name: assets/www/images/onsite_animation/slide10.jpg
+SHA1-Digest: 5xhDA/X8ujhIk352LYkQOnzIrLU=
+
+Name: assets/www/fort_game/images/640x960/backgrounds/house.jpg
+SHA1-Digest: 6gKgs7FM/J2RWkKba59VM8i7OnU=
+
+Name: assets/www/images/villageopening/Village3.jpg
+SHA1-Digest: 1TsEWxbK8C30sPfSZYtBaYRyVEw=
+
+Name: assets/www/images/kanaka6-thumbnail.png
+SHA1-Digest: 6fikQFHCjE3Z/4fC8U0CMqWReac=
+
+Name: assets/www/images/kanaka/nast3.jpg
+SHA1-Digest: Y2b5w+cCQfHm7DK0naGuWP9K2DQ=
+
+Name: assets/www/images/kanaka/comm_and_media4.jpg
+SHA1-Digest: OSdTSvXGk0ENkZjgTXiFbLDbdTc=
+
+Name: assets/www/fort_game/images/640x960/backgrounds/bg-pattern.jpg
+SHA1-Digest: j8QRP2ZQhWtngYJkIN+3xQ6Q79c=
+
+Name: assets/www/images/onsite_animation/slide38.jpg
+SHA1-Digest: XQKnBhp0vCZIQ3rCBdF3yUWySOM=
+
+Name: assets/www/main.js
+SHA1-Digest: 2JjJ5W3oVDL3vfgFei1nf16cUVM=
+
+Name: assets/www/icons/haversack.png
+SHA1-Digest: ODG+cIELqjlXYWulA422lhf7Bko=
+
+Name: assets/www/app/view/Image.js
+SHA1-Digest: 7eXE09ycwFdMFIlBdkzTRKQs4ZQ=
+
+Name: assets/www/images/closed_doors.jpg
+SHA1-Digest: P2UHzHNFCtw2KSwOlfBOy4T6zd4=
+
+Name: assets/www/images/kanaka/closing_quotes.png
+SHA1-Digest: vV4K5jcR6/wwHYRIZ1EkcHJ4xkc=
+
+Name: assets/www/images/kane/KanePNG25.png.jpg
+SHA1-Digest: l9z/HOpBuUn/ywlyRl15u6Op2j8=
+
+Name: assets/www/designer.html
+SHA1-Digest: 3Ih1TkMrAax2TJ3lo9rOnI0/ots=
+
+Name: assets/www/images/anvil.jpg
+SHA1-Digest: 7GSELbG8l8mu6ouoLRfnpgF4S20=
+
+Name: assets/www/non-generated/site_functions.js
+SHA1-Digest: 7BLCPnyzQAAuA7W4/XhC8U1xQho=
+
+Name: assets/www/images/NEWSPAPER ICON.png
+SHA1-Digest: qfpmU7Ty1PE7dwn6hcf45f/Muzw=
+
+Name: assets/www/images/kane_opening_slide.jpg
+SHA1-Digest: W8b1e+MjHQL76xT3ia8JkImjBgQ=
+
+Name: assets/www/images/onsite_animation/slide26.jpg
+SHA1-Digest: YU0CpbJnUTGCIGEFLJx/FLp3gr8=
+
+Name: assets/www/images/kanaka/dickens2.jpg
+SHA1-Digest: J64GbIeLNvn+7ij9o5dlVRUJFeM=
+
+Name: assets/www/master.css
+SHA1-Digest: 20KMhRwN65L5KTMKnqk/0hkr5t4=
+
+Name: assets/www/fort_game/images/game_variable_images/work_selector.p
+ ng
+SHA1-Digest: Nuk2i+e1SM9G8A+5waiyfCFQQH8=
+
+Name: assets/www/images/onsite_animation/slide24.jpg
+SHA1-Digest: gw5cYt1QlGKg7pZjwBhTzmkU4UQ=
+
+Name: assets/www/images/kane/KanePNG10.png.jpg
+SHA1-Digest: Zhh++yMx4qHZGAh9iXU7YrPWZKg=
+
+Name: assets/www/images/onsite_animation/slide2.jpg
+SHA1-Digest: R30UowreS2iHDKREFdUCGOlHv3Y=
+
+Name: assets/www/images/kanaka/baseball4.jpg
+SHA1-Digest: aBlrrUnFbCMBmD86Hx4yI39mbNQ=
+
+Name: assets/www/images/kanaka/comm_and_media5.jpg
+SHA1-Digest: He7jW3Ulli79yrf01JQR5alxUtI=
+
+Name: assets/www/app/view/VideoPanel.js
+SHA1-Digest: 0CnhgNsProN9GR5yfey+WNGhQ5U=
+
+Name: assets/www/images/opening-victoria.png
+SHA1-Digest: HopQlzZogcl2AsQJOrR34g1FnEU=
+
+Name: assets/www/app/view/KanakaPanelContainer.js
+SHA1-Digest: cWBs3bMavwMDMn3eoSn3BfXCO20=
+
+Name: assets/www/images/kanaka/ready_to_move_on.jpg
+SHA1-Digest: tnMYsTjRYsuRrij5ISiVS2h9rAY=
+
+Name: assets/www/images/apple/opening_slide.jpg
+SHA1-Digest: X1CRwOHq8d6v9rEasCzX9H0uSns=
+
+Name: assets/www/images/kanaka/opening_quotes.png
+SHA1-Digest: 6eroS4TPA6PdQ8Aak4IeJgbDk2o=
+
+Name: assets/www/images/kanaka/mcloughlin.jpg
+SHA1-Digest: nA1U18EvYbgNIKqERIPdoZQNFFo=
+
+Name: assets/www/images/kanaka/prompt_slide_1.jpg
+SHA1-Digest: /W00nxD8qNKeFj5OVIrgt+C+CzY=
+
+Name: assets/www/app/view/VimeoPanel.js
+SHA1-Digest: lhMq9PB7JkYOzODDvFBiPZ2MG3E=
+
+Name: assets/www/non-generated/cordova-2.5.0.js
+SHA1-Digest: D5Sx/IguCDcaKLaqOxA+4FXkMiI=
+
+Name: assets/www/images/offsite_animation/slide4.jpg
+SHA1-Digest: C+RfkP0zlbvJ952xmlJcvKv+kDo=
+
+Name: assets/www/images/launcher_72x72.png
+SHA1-Digest: nYjIx44NQ707g+ywEXP5Kb1ReOY=
+
+Name: assets/www/images/KANAKA ICON.png
+SHA1-Digest: KnRz9o2lJ2NeCs++PtLg+Tov3rk=
+
+Name: assets/www/images/villageopening/Village8.jpg
+SHA1-Digest: lXJIc3rN05ZPKFE3vaxMgerQZEE=
+
+Name: assets/www/fort_game/images/640x960/objects/book.png
+SHA1-Digest: +rLguhVTfPkx/FQrtFSOSo1PwHQ=
+
+Name: assets/www/icons/more.png
+SHA1-Digest: AvVbfi2JVcVasfvZYSRtwTkT6vo=
+
+Name: assets/www/fort_game/audio/grinder_sounds.mp3
+SHA1-Digest: xGG3wXn640i82C+S+VCdQzSsuQQ=
+
+Name: assets/www/images/offsite_animation/slide1.jpg
+SHA1-Digest: 4HDgHASzAMAe7C+yzKOUh0nFVps=
+
+Name: assets/www/non-generated/fvm.css
+SHA1-Digest: f5u/oaONGktqdqTlGyDiOo2N0Xw=
+
+Name: assets/www/images/KANAKA ICON NO SHADOW.png
+SHA1-Digest: FlkN1Hxij2cwyBABmlGnN2nofNE=
+
+Name: assets/www/images/kanaka/prompt_slide_14.jpg
+SHA1-Digest: mdFUOers/tivxLalChuaIZ8Nvw0=
+
+Name: assets/www/app/view/KanePanel.js
+SHA1-Digest: aMdwMkwjG5MVHHSNT+AImD8cYXY=
+
+Name: assets/www/fort_game/images/640x960/objects/musket.png
+SHA1-Digest: XU6iwcave08mFp01AcN1ZJXuj2c=
+
+Name: assets/www/app/controller/Global.js
+SHA1-Digest: 22jSiFwP2gjeqchrMhlGren5LfI=
+
+Name: assets/www/images/kanaka/lincoln3.jpg
+SHA1-Digest: m2sGqpg+gc0UiEqq7IgHG2xkyOw=
+
+Name: assets/www/fort_game/Icon
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: assets/www/images/opening-bob.png
+SHA1-Digest: 29w8RVVYAI4r8Iv0ZFYzDMG0IVY=
+
+Name: assets/www/app/view/MainTabPanel.js
+SHA1-Digest: jhcsRhq+9fQLlcYAQqEsMn3NkZw=
+
+Name: assets/www/images/kanaka/prompt_slide_7.jpg
+SHA1-Digest: PBwRrEaJJidgX6JgUPQ5/ukyEZQ=
+
+Name: assets/www/images/launcher_57x57.png
+SHA1-Digest: R0SLyxEHndfyAWWFxY6FOG2VHOY=
+
+Name: assets/www/images/apple/communication.jpg
+SHA1-Digest: J9ZnU2A1Q1BSgCJ4yzss9+kjfS8=
+
+Name: assets/www/images/onsite_animation/slide15.jpg
+SHA1-Digest: kE42k9tRDGvvy/0oVq92pVBnGns=
+
+Name: assets/www/fort_game/images/640x960/backgrounds/bg-pattern2.jpg
+SHA1-Digest: drg23fBtV7sYTiON5BQri73IcJg=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: Oo561e85+0ALd+Lp6n0U1iqJ0wg=
+
+Name: assets/www/app/view/VillageOpeningPanel.js
+SHA1-Digest: DScHBWEQ04mHbDS+7kiHbKsptu4=
+
+Name: assets/www/images/onsite_animation/slide4.jpg
+SHA1-Digest: HAOSzSvI+NxovLuYzsoeTcK4Zzg=
+
+Name: assets/www/images/onsite_animation/slide22.jpg
+SHA1-Digest: W0cZChiviMxzBudokyxPLMNTJR0=
+
+Name: assets/www/app/view/VillageCarouselContainer.js
+SHA1-Digest: wKXvnzJOEBYqpDFUZPEJA5Cmp8k=
+
+Name: assets/www/images/onsite_animation/slide40.jpg
+SHA1-Digest: RaWUAt9ScktcXU4WZYXhNT+nrPo=
+
+Name: assets/www/fort_game/images/game_variable_images/money.png
+SHA1-Digest: nTCUIeQRuMycT8Im2Qub9LUydH4=
+
+Name: res/drawable-mdpi/splash.png
+SHA1-Digest: anZBERaIOhQ8XzHaWbNneBGTfE8=
+
+Name: assets/www/images/kanaka/dickens4.jpg
+SHA1-Digest: 4joo5gBg4siAi8akzskxvEO25TY=
+
+Name: assets/www/images/villageopening/Village2.jpg
+SHA1-Digest: 8hHXuR1//O0HwXIxskAAzUHMN7c=
+
+Name: assets/www/images/villageopening/Village2-old.jpg
+SHA1-Digest: SyeEYp1SuvjL15wrh4ZP2Pcko4o=
+
+Name: assets/www/images/kanaka/take_a_quiz.jpg
+SHA1-Digest: zDWqbPWuKbsbR+53Vu3ow/jZqeQ=
+
+Name: assets/www/images/onsite_animation/slide37.jpg
+SHA1-Digest: z25heWNLMEFiuLR5N+gACH7gkxg=
+
+Name: assets/www/non-generated/geo.js
+SHA1-Digest: qTg3oD95vvkdk0SmFtQABwn3lpw=
+
+Name: assets/www/images/NEWSPAPER ICON BW.png
+SHA1-Digest: dWJC9Y4dIfjD71Se2c+pYRjec2M=
+
+Name: assets/www/fort_game/images/640x960/backgrounds/start_screen.jpg
+SHA1-Digest: bgPlnYA0Oj1DhHmbJr8vLi9aUJA=
+
+Name: assets/www/images/opening-elaine.png
+SHA1-Digest: Wv22Yz0w48F+KJsMjD+Q5y31brM=
+
+Name: assets/www/images/kanaka/nast2.jpg
+SHA1-Digest: ktsFwp4s3q/DTcrWFB5xWeSGsms=
+
+Name: assets/www/fort_game/images/640x960/backgrounds/work_background.
+ jpg
+SHA1-Digest: M3ARBygC4s9iigbFrZuDrvVLnW0=
+
+Name: assets/www/images/kanaka/thurston.jpg
+SHA1-Digest: EG/30h0GHeb+nxIlzA4HBOz+ubs=
+
+Name: assets/www/fort_game/audio/kiln_sounds.mp3
+SHA1-Digest: An0U9wNYhb0ikBg8to0zlVrh7k4=
+
+Name: assets/www/images/onsite_animation/slide5.jpg
+SHA1-Digest: W1G83a8f8TBtGqOJNUvHyjC/LnY=
+
+Name: assets/www/fort_game/game-medium.js
+SHA1-Digest: kf/KEjyQbDtlC8VyG8RItX+GOus=
+
+Name: assets/www/non-generated/functions.js
+SHA1-Digest: KS4sVcg38dNo9tnVui4z3XlLaBU=
+
+Name: assets/www/images/onsite_animation/slide27.jpg
+SHA1-Digest: I78vvICZw6CeUozXyEphy3IOpDs=
+
+Name: assets/www/images/kanaka/baseball2.jpg
+SHA1-Digest: IK9JHKfhgEVEB/0/8tdbmtz91Fk=
+
+Name: assets/www/images/1845.jpg
+SHA1-Digest: COajwyK5ueFfaydlva9OP0CEruk=
+
+Name: assets/www/images/kane/KanePNG18.png.jpg
+SHA1-Digest: o1GKwwint4i6XPZOQsrRBY5W5/U=
+
+Name: res/drawable-ldpi/splash.png
+SHA1-Digest: anZBERaIOhQ8XzHaWbNneBGTfE8=
+
+Name: assets/www/images/villageopening/Village5.jpg
+SHA1-Digest: v6905y97Cwk2XJGCsJSl5U/cFDY=
+
+Name: assets/www/app/view/HaversackNav.js
+SHA1-Digest: +CxzqxR8fU14+J3JJxbFW/MGsKM=
+
+Name: assets/www/images/kanaka3-thumbnail.png
+SHA1-Digest: 72oQHTo77Olzyo6IvtA7fB0LL8A=
+
+Name: assets/www/images/onsite_animation/slide9.jpg
+SHA1-Digest: iNq4EszW2nNceyEkfqAEPxfsEag=
+
+Name: assets/www/app/view/UnderConstruction.js
+SHA1-Digest: G47RpazXGf7iHiDzLyY7CCFixY4=
+
+Name: assets/www/images/villageopening/Village10.jpg
+SHA1-Digest: TtgrS+56BBx9wGW0Tkp9G6uGzCA=
+
+Name: assets/www/images/onsite_animation/slide23.jpg
+SHA1-Digest: YeywJtgJQ6DWq7vAChUd4XF6h1A=
+
+Name: assets/www/images/onsite_animation/slide21.jpg
+SHA1-Digest: nhGfxAaXwW12qXEJjEm8YtJ4CuU=
+
+Name: assets/www/images/onsite_animation/slide39.jpg
+SHA1-Digest: jh2yG4DKz9aBRi08YdcvDFUmO5g=
+
+Name: assets/www/images/opening-mike.png
+SHA1-Digest: kxdIBxkAfsDCA/g4OWDm4+NPeZI=
+
+Name: assets/www/images/kanaka/blank_background.jpg
+SHA1-Digest: Nuof+I90a/Vr48dL0BeYUFxHLSY=
+
+Name: assets/www/images/kanaka/prompt_slide_10.jpg
+SHA1-Digest: LU2O1TkCa8TQ3Cysnd0ZIexxKvE=
+
+Name: assets/www/images/kane/KanePNG7.png.jpg
+SHA1-Digest: lewDOSRDrZIAkzwCzvLg6c+eais=
+
+Name: assets/www/images/kanaka/atkinson.jpg
+SHA1-Digest: wP5Tyc198jDm+DTxrTk48VbaONM=
+
+Name: assets/www/images/onsite_animation/slide14.jpg
+SHA1-Digest: kE42k9tRDGvvy/0oVq92pVBnGns=
+
+Name: assets/www/images/kanaka/dickens1.jpg
+SHA1-Digest: d8IVTeFivQpO6ILypxxqdPXpHrk=
+
+Name: assets/www/images/kanaka/judd.jpg
+SHA1-Digest: WBempclVe/a6whzq7lt1NpmJJME=
+
+Name: assets/www/images/kanaka/The Village opening slide.png
+SHA1-Digest: QFqmqq/z2b7wLyZBgW0rcyrgVh4=
+
+Name: assets/www/images/kanaka/Haversack screen.png
+SHA1-Digest: Kngudu5T7C//j7X76ri8cqE/zKg=
+
+Name: assets/www/images/kane_splash.jpg
+SHA1-Digest: fuP+IOs+bQXIyw6QJadEUUGhKYM=
+
+Name: assets/www/fort_game/images/640x960/objects/silverware.png
+SHA1-Digest: YDDE3CV6OBu34ZMyW33LBEvXg6s=
+
+Name: assets/www/images/onsite_animation/slide11.jpg
+SHA1-Digest: kkId11rh3izG5klfBwL2Y1GKtMk=
+
+Name: assets/www/fort_game/audio/hammering_sounds.mp3
+SHA1-Digest: KA6lsbLBZAW5hMgtU//y+ItY6TY=
+
+Name: assets/www/images/kane/KanePNG12.png.jpg
+SHA1-Digest: xjPfSJNpSQ6TXrnrHFOzDX8cX8g=
+
+Name: assets/www/images/kane/KanePNG22.png.jpg
+SHA1-Digest: vlN5ef/p0i7sFpDywl5jhboIQ5s=
+
+Name: assets/www/images/apple-thumbnail.png
+SHA1-Digest: pjIVNFRMKtl3ByXsdMzIH+KdLkQ=
+
+Name: assets/www/images/onsite_animation/slide28.jpg
+SHA1-Digest: hwqc5v2rkiRpJNdcwqRGdxxcoRM=
+
+Name: assets/www/images/kanaka5-thumbnail.png
+SHA1-Digest: z4vs4iZajCAZV9pXrPaqE3f7sAY=
+
+Name: assets/www/images/apple/photo_prompt.jpg
+SHA1-Digest: l0ToM1rMj5OiLhWyZefrD1lW04g=
+
+Name: assets/www/images/kanaka/poe2.jpg
+SHA1-Digest: xbj4eKoWtOSTRq6vZltwcnmyk7s=
+
+Name: assets/www/images/onsite_animation/slide18.jpg
+SHA1-Digest: 42VA8u7CDrT4r2Oxe5pMjA16dhM=
+
+Name: assets/www/images/kane2-thumbnail.png
+SHA1-Digest: zR9DOztA7EmymxB5wNXa8QiewS8=
+
+Name: assets/www/images/apple/orchards_prompt.jpg
+SHA1-Digest: 4oa/wPYDBNT9LzGVH+P3D/LNnQ8=
+
+Name: assets/www/app/KanePanelContainer.js
+SHA1-Digest: kLNEWCDQkzEd1SaepPEBvxzlucc=
+
+Name: assets/www/icons/forward.png
+SHA1-Digest: JOl5wNCqI3CDv4p0kIii5FyuBsE=
+
+Name: assets/www/images/kanaka/sultana1.jpg
+SHA1-Digest: Oceqp5DbdjJYeMEFzgAti3HDDQ8=
+
+Name: assets/www/images/kane/KanePNG20.png.jpg
+SHA1-Digest: JRbsycbbifWNZohEd9Xjc2gZI+4=
+
+Name: assets/www/images/kane/KanePNG5.png.jpg
+SHA1-Digest: K/JR+VnVCL/nVZd/4qsm8t68EME=
+
+Name: assets/www/images/onsite_animation/slide13.jpg
+SHA1-Digest: hzAemkWptGDvlHJ8yFY18aEvK9I=
+
+Name: assets/www/images/offsite_animation/slide2.jpg
+SHA1-Digest: IGhbxl84ZPfe7bv5CgsSXo6XAZ8=
+
+Name: assets/www/fort_game/fortgame.css
+SHA1-Digest: 1YdrOAPCpMzVzakb8MqxtEzybxE=
+
+Name: assets/www/images/apple/slide6.jpg
+SHA1-Digest: 2XG+9ykPulBRFKMYr/6r3mfshO4=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: /NmoIsFTFEqoks7Yo6z+BuIucbs=
+
+Name: assets/www/app.html
+SHA1-Digest: 6vMzA84JyatvrzVVPpWfd3Qk8ek=
+
+Name: assets/www/fort_game/images/640x960/objects/comforter.png
+SHA1-Digest: P54BPM6K8Ss7FLb6tvY15NQ4QdY=
+
+Name: assets/www/fort_game/audio/hammer_sounds.mp3
+SHA1-Digest: LubxeSynrYkpSe8HlmzFU/G/1Cg=
+
+Name: assets/www/images/apple/slide7.jpg
+SHA1-Digest: Q0UlkBZTiQ3kOg1bRjwM9cNKUy0=
+
+Name: assets/www/app/plugin/simfla.ux.plugins.linkButton.js
+SHA1-Digest: veFN0CH2t+uw+RNx7iITpriFp1Y=
+
+Name: assets/www/twitterhtml.html
+SHA1-Digest: 0mvwGr5P2BNw9oRje4RgWiaF2HM=
+
+Name: assets/www/childbrowser/icon_close.png
+SHA1-Digest: rHNRiJp2kDSyCKsTBJG0UroTngY=
+
+Name: resources.arsc
+SHA1-Digest: KozgEF4Po/x26w6NvonX/2cNxWA=
+
+Name: assets/www/images/onsite_animation/slide7.jpg
+SHA1-Digest: qc2L4VC3BmU5iamghNiqXii9ztw=
+
+Name: assets/www/images/onsite_animation/slide35.jpg
+SHA1-Digest: gP40FcX/LLkMImNgK/kMdxWoGFU=
+
+Name: assets/www/images/kanaka/prompt_slide_8.jpg
+SHA1-Digest: bHKKXmUpOOGCDChpfFxUlO79SY0=
+
+Name: assets/www/images/kanaka/sultana2.jpg
+SHA1-Digest: tUQTx69pdS/GS0nMF78JX4lfW38=
+
+Name: assets/www/images/villageopening/Village4.jpg
+SHA1-Digest: ne9oVqmG7Tb6AMpfZKa7uw/bZLA=
+
+Name: AndroidManifest.xml
+SHA1-Digest: N74DYtSyU5m+yafUIZboYtoUdE0=
+
+Name: assets/www/json2.js
+SHA1-Digest: HRNBYZ6aIckHO5WO/0DxqD3R0z4=
+
+Name: assets/www/fort_game/images/640x960/objects/storage_bottles.png
+SHA1-Digest: TisAMNKzA5meSkhVspJbFezT3tg=
+
+Name: assets/www/images/kanaka/kaulehelehe.jpg
+SHA1-Digest: rSlo05Jm1leDT/m8FxRuSs6akVI=
+
+Name: assets/www/images/onsite_animation/slide17.jpg
+SHA1-Digest: 6mT2H8iE8ItPV1rVTeSZ0p5t4wo=
+
+Name: assets/www/crossroads.gpx
+SHA1-Digest: mv9AeybZ7NM3J6xUdEvH9Iesfz8=
+
+Name: assets/www/images/VIDEO ICON.png
+SHA1-Digest: PGwt0sZWPT2yN2MaYfZD1zsdVGM=
+
+Name: assets/www/images/kane/KanePNG11.png.jpg
+SHA1-Digest: npedFCbFnXYWNpOSDSf/J1QICGA=
+
+Name: assets/www/images/Found something icon.png
+SHA1-Digest: 9t6e7p1lP6awYNTz4+E1BhVxl4s=
+
+Name: assets/www/icons/back.png
+SHA1-Digest: lrcyzFBnH3pt0gt4gYOl9IVZRkE=
+
+Name: assets/www/images/apple1-thumbnail.png
+SHA1-Digest: YHBUrVTWdQYiq1ZO8YdR2I6OoBE=
+
+Name: assets/www/images/apple/slide5.jpg
+SHA1-Digest: 8x0dsXjyq1khnzcbbLdxguUwgPI=
+
+Name: assets/www/fort_game/index.html
+SHA1-Digest: vj8B7uzw8XfM7q7Y3OiyfmTObwA=
+
+Name: classes.dex
+SHA1-Digest: jZa4jqKQDSjgcNnDDvq1JgtCbgU=
+
+Name: assets/www/images/onsite_animation/slide25.jpg
+SHA1-Digest: pE9QlRCdrtmo1ucEOAk6YV96KSQ=
+
+Name: assets/www/app/store/MyJsonPStore.js
+SHA1-Digest: iWYKYsFobwURfp2YxZzCQy4SBzs=
+
+Name: assets/www/fort_game/images/640x960/objects/spode_kettle.png
+SHA1-Digest: 6VQozFGAfGw6AbViO0BKxJsaiCU=
+
+Name: assets/www/images/kanaka/prompt_slide_4.jpg
+SHA1-Digest: QEJJytAFBVc/vtbumWu+F7/A7aU=
+
+Name: assets/www/images/Spruce_Mill_opener.png
+SHA1-Digest: x6AQFZ7dIsYaDvQyECj1EO3WD8A=
+
+Name: assets/www/childbrowser/icon_arrow_left.png
+SHA1-Digest: zzWYeGSlCHBiMNavUTTOsVRdMLI=
+
+Name: assets/www/images/kane/KanePNG6.png.jpg
+SHA1-Digest: maw0vHa669+hzW6OSHh+4s9ObAk=
+
+Name: assets/www/images/villageopening/Village1-old.jpg
+SHA1-Digest: Mc4W3QyIZbIoxrnOBSLhBQUgCf4=
+
+Name: assets/www/images/mill.jpg
+SHA1-Digest: XjYaob0Y8JDgh5/SSeLiPOmq7go=
+
+Name: assets/www/images/kane3-thumbnail.png
+SHA1-Digest: dciArKJWhyosCwJSi10CfWb3mPA=
+
+Name: res/drawable-hdpi/splash.png
+SHA1-Digest: anZBERaIOhQ8XzHaWbNneBGTfE8=
+
+Name: assets/www/images/villageopening/Village9.jpg
+SHA1-Digest: ohnjeR6fzo6ITvPexyhRNAlejd0=
+
+Name: assets/www/images/kane/KanePNG21.png.jpg
+SHA1-Digest: SyeEYp1SuvjL15wrh4ZP2Pcko4o=
+
+Name: assets/www/fort_game/images/game_variable_images/spring.png
+SHA1-Digest: Xe1ZDpO4ghwCJQjhA5LBydBxNDE=
+
+Name: assets/www/images/villageopening/Village7.jpg
+SHA1-Digest: dtIqancxFHVNjVRWZdDk6lF/KNw=
+
+Name: assets/www/images/kanaka/prompt_slide_9.jpg
+SHA1-Digest: lB63gnaeTGyW8051gjYCnjSeiFU=
+
+Name: assets/www/images/opening-beth.png
+SHA1-Digest: 4qkfl8vfqx1Jvrn6NgtyQyUqq3o=
+
+Name: assets/www/images/onsite_animation/slide34.jpg
+SHA1-Digest: /6ILUZpC228zdKdJmnZoaXLXAz8=
+
+Name: assets/www/images/kanaka/dickens3.jpg
+SHA1-Digest: Jl8qKwvIBRFsGRsfW8eH+QXN42Q=
+
+Name: assets/www/non-generated/latlon.js
+SHA1-Digest: O6HtzVUFl2qff6GSzkhAtiu/0qM=
+
+Name: assets/www/fort_game/images/640x960/objects/spode_shelf.png
+SHA1-Digest: kQ4/0qCXXwr+Rz33w9CawLupG3s=
+
+Name: assets/www/images/kanaka_opening_slide.jpg
+SHA1-Digest: pfZo5/DVWd18j8GRG/yBV+Ra5ME=
+
+Name: assets/www/images/onsite_animation/slide30.jpg
+SHA1-Digest: avwxN6A/I6KWzAoJI7aeGImJHeE=
+
+Name: assets/www/images/opening-meagan.png
+SHA1-Digest: F/bGsU16s39v7YaEWsPwpAcPVZs=
+
+Name: assets/www/fort_game/audio/grinding_sounds.mp3
+SHA1-Digest: bdrVuNWFgdNzPQk88abAWXZLnYA=
+
+Name: assets/www/designer.js
+SHA1-Digest: jRCQ/9GUU71Pb1TLC4xXV4H7u/E=
+
+Name: assets/www/icons/less.png
+SHA1-Digest: Nh5OMnFLN2CgsMXl+geVzqN7ks4=
+
+Name: assets/www/images/kanaka/baseball1.jpg
+SHA1-Digest: lGPUxjnn+WPHC4Q91+0CkVMcsI4=
+
+Name: assets/www/images/kanaka/prompt_slide_6.jpg
+SHA1-Digest: NleZHJcMXLCTEt3fMzrOpw5lfeQ=
+
+Name: assets/www/images/onsite_animation/test.html
+SHA1-Digest: jegc5HnG9iCxKYcHQZVNhn1dqp4=
+
+Name: assets/www/images/onsite_animation/slide3.jpg
+SHA1-Digest: g6Tva6vkp7o6N8GFcYkMGnw6ybc=
+
+Name: assets/www/images/villageopening/Village6.jpg
+SHA1-Digest: pCf4fVt3gYHiI6xDBexJYBU+Z+Q=
+
+Name: assets/www/images/kanaka/prompt_slide_12.jpg
+SHA1-Digest: JW9gMujPETVyCONAM4B6p6ITvMM=
+
+Name: assets/www/app.js
+SHA1-Digest: 6y10mgILfm3gQ0FsWcNQ6zGw1CA=
+
+Name: assets/www/images/apple/slide4.jpg
+SHA1-Digest: v0x9uMF2uVTwJQB+B1ZOBkcuUeU=
+
+Name: assets/www/images/kane/KanePNG19.png.jpg
+SHA1-Digest: bffTUJ92rZ4LBmCMzALqv7mUYG4=
+
+Name: assets/www/fort_game/images/640x960/objects/spode_bowls.png
+SHA1-Digest: h3SxvaPBV7ixtfbiSis+c7mjlfE=
+
+Name: assets/www/fort_game/images/640x960/objects/wash_basin.png
+SHA1-Digest: +4oXu+gB/crp3yKkESWvOljgkf4=
+
+Name: res/layout/main.xml
+SHA1-Digest: kLe/mxZaOi6PWPtY1Ew+fLNup6o=
+
+Name: assets/www/fort_game/images/640x960/objects/storage_chest.png
+SHA1-Digest: rBTnsyznPeVU++mnQGb3y155pOA=
+
+Name: assets/www/fort_game/images/640x960/backgrounds/catalogue_backgr
+ ound.jpg
+SHA1-Digest: Tlq+x4b56ZmBpQ2nJ1donXMg4MA=
+
+Name: assets/www/images/apple/slide1.jpg
+SHA1-Digest: X/rd+e0EX3IRNqD7m/E/FUhhPAY=
+
+Name: assets/www/index-save.html
+SHA1-Digest: N7laQUYDAYV2g6dXoM22mTDzFk0=
+
+Name: assets/www/images/kanaka/comm_and_media3.jpg
+SHA1-Digest: eeFHDNiCgxCIPRkQBueJxYGJsPs=
+
+Name: assets/www/app/view/VillageOpeningPanelContainer.js
+SHA1-Digest: m3eo0oHPXBh6pZgDaUtgtuefVpk=
+
+Name: assets/www/images/kanaka/lincoln2.jpg
+SHA1-Digest: bWAj78XTPxj+D5/TPM2xeBoT4DA=
+
+Name: assets/www/index.html
+SHA1-Digest: DhTjJTbmYJSvH5JhwJysq3cNmtM=
+
+Name: assets/www/images/kane/KanePNG3.png.jpg
+SHA1-Digest: AdrrJRDkGgtdjWhB5Ql+DHFU3iE=
+
+Name: assets/www/app/view/KanakaPanel.js
+SHA1-Digest: HNRNJHRK0n/SahE66+tbGxcU6HQ=
+
+Name: assets/www/images/found_something_icon-90.png
+SHA1-Digest: hv2oPx0//HiMA5pzIe5ol04UkAA=
+
+Name: assets/www/fort_game/images/640x960/objects/spode_plates.png
+SHA1-Digest: 4EqyYkFhDeGrzCb/qX/wKpXbzjk=
+
+Name: assets/www/images/onsite_animation/slide36.jpg
+SHA1-Digest: pfFLgzHkgu/kUuk23BG23AsNFpg=
+
+Name: assets/www/app/KanePanel.js
+SHA1-Digest: Q6cugazY5PpVARVajBsKiSHjTGM=
+
+Name: assets/www/images/opening-cassie.png
+SHA1-Digest: BRRFq/bM0XWgcEJAiPmDBhjJVbE=
+
+Name: assets/www/images/kanaka/darwin1.jpg
+SHA1-Digest: d8IVTeFivQpO6ILypxxqdPXpHrk=
+
+Name: assets/www/images/spruce_mill/mill_opener.jpg
+SHA1-Digest: 2G1CVkyxQp6KANAkOyb+BfyGerE=
+
+Name: assets/www/images/onsite_animation/slide43.jpg
+SHA1-Digest: jh2yG4DKz9aBRi08YdcvDFUmO5g=
+
+Name: assets/www/images/kanaka/nast1.jpg
+SHA1-Digest: 3vT/wgFSZ09k6OKeK6oGLv+IYh4=
+
+Name: assets/www/images/kanaka/prompt_slide_11.jpg
+SHA1-Digest: DEHToQDgvkGbw49yPdBLUdrBRUk=
+
+Name: assets/www/fort_game/images/640x960/backgrounds/end_screen_temp.
+ jpg
+SHA1-Digest: bgPlnYA0Oj1DhHmbJr8vLi9aUJA=
+
+Name: assets/www/images/onsite_animation/slide16.jpg
+SHA1-Digest: kE42k9tRDGvvy/0oVq92pVBnGns=
+
+Name: assets/www/images/found_something_icon.png
+SHA1-Digest: abf++wOLF0SbPMIuoxMuC4PrARQ=
+
+Name: assets/www/images/onsite_animation/slide6.jpg
+SHA1-Digest: AePQVZPQjgbHdggljChq1ijzUVU=
+
+Name: assets/www/images/apple/prompt.jpg
+SHA1-Digest: cG6nE69+GRGtb2ID1YKDDvImt9c=
+
+Name: assets/www/images/offsite_animation/slide5.jpg
+SHA1-Digest: 76n1Bg6hopVnf79CJef8237nYkA=
+
+Name: assets/www/images/onsite_animation/slide29.jpg
+SHA1-Digest: T2dDBDFSPvSxGNIZX/ikpa2YKfM=
+
+Name: assets/www/images/kanaka/prompt_slide_3.jpg
+SHA1-Digest: csPuqirLUvovPe9GLESoG+0Lkys=
+
+Name: assets/www/images/kane4-thumbnail.png
+SHA1-Digest: RvdscSoxKssJzzFdOHSOypYFiAw=
+
+Name: assets/www/images/onsite_animation/slide33.jpg
+SHA1-Digest: jo3HaajniB7C4bOpuUvlxdluSN4=
+
+Name: assets/www/icons/home.png
+SHA1-Digest: OBD5gASwMqFE+aTuibJoJKs1rAg=
+
+Name: assets/www/fort_game/images/640x960/objects/ladle.png
+SHA1-Digest: PeYnj61xbuofcMbLzsTtFkKc1+w=
+
+Name: assets/www/images/onsite_animation/slide31.jpg
+SHA1-Digest: woV3cs+99MQv8P8wDCRCzMhjx/g=
+
+Name: assets/www/images/apple/slide8.jpg
+SHA1-Digest: Gnu9oYenjtgum2QXOJFsPQiH5dg=
+
+Name: assets/www/images/kane/KanePNG15.png.jpg
+SHA1-Digest: 9dekSllYEBFE2dQ5L7V6Ew8DddA=
+
+Name: assets/www/images/kane/KanePNG9.png.jpg
+SHA1-Digest: ocph+avpopoFSi4YiOGhlnftBQ0=
+
+Name: assets/www/images/onsite_animation/slide32.jpg
+SHA1-Digest: i/P2lXbn25/5+VTHKDHjIeNmtBs=
+
+Name: assets/www/images/offsite_animation/slide3.jpg
+SHA1-Digest: Zp6Y270anzhlChrtkin13TfzYvw=
+
+Name: assets/www/images/offsite_animation/slide6.jpg
+SHA1-Digest: 966Q4B6xXGlIVKGVi8OsSrs5YaE=
+
+Name: assets/www/images/you_found_something.jpg
+SHA1-Digest: l5WBrdTXf12jducI5J98fjuHxsQ=
+
+Name: assets/www/images/onsite_animation/slide19.jpg
+SHA1-Digest: 20RhhBjQcmbPt5fbEVlLrYZUHTc=
+
+Name: assets/www/images/kane/KanePNG4.png.jpg
+SHA1-Digest: lBW767IYcSRiZZYQAaeY7vyclA4=
+
+Name: assets/www/fort_game/images/640x960/objects/candlestick.png
+SHA1-Digest: vsfABKTd/2ushgBq8A3KqrK6AeA=
+
+Name: assets/www/images/kanaka/baseball3.jpg
+SHA1-Digest: 4TaNUU+uXIOlTFFDeMcKSvK5BPk=
+
+Name: assets/www/icons/camera.png
+SHA1-Digest: F+xB/OzzPFaG0BEeuPvfAZCYFKM=
+
+Name: assets/www/fort_game/images/640x960/objects/cast_iron_pot.png
+SHA1-Digest: Rq7fFYY5EuDWoMgMsQRJZFB4Gjs=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: Oo561e85+0ALd+Lp6n0U1iqJ0wg=
+
+Name: assets/www/images/kanaka/comm_and_media2.jpg
+SHA1-Digest: dEOErq8Q5Lux3sQJZcc38O6HfG0=
+
+Name: assets/www/fort_game/images/640x960/objects/chair.png
+SHA1-Digest: 74ogUlyQ0VVAqHomizPDL92tz8E=
+
+Name: assets/www/images/kanaka/damon.jpg
+SHA1-Digest: Kjc2ni6KcnYjKJsC6123Vac3NEM=
+
+Name: assets/www/images/kane/KanePNG13.png.jpg
+SHA1-Digest: +DlkF/T281QK2l/ZcuzQWpUDHBM=
+
+Name: assets/www/fort_game/images/640x960/objects/copper_kettle.png
+SHA1-Digest: IPEVw1v2pYvZ9hy5ADpxjMQZUts=
+
+Name: assets/www/images/kanaka/lincoln4.jpg
+SHA1-Digest: Z5Pwj8yWn88JB+U/CzxyMsLgFJk=
+
+Name: assets/www/app/view/OnTheRoadMap.js
+SHA1-Digest: zgGHQfF+UatNVM+NolFiUHP5u/U=
+
+Name: assets/www/images/kanaka/prompt_slide_2.jpg
+SHA1-Digest: RbmG7XzVquFlAfXDvfY6wrtFWhs=
+

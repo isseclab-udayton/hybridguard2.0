@@ -1,0 +1,2072 @@
+Manifest-Version: 1.0
+Built-By: 1.3.1
+Created-By: Android Gradle 1.3.1
+
+Name: assets/www/images/icon-friend-deny-white.png
+SHA1-Digest: VDKoVGQ0+MsHPR16eGV4aBZHQP4=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/dist/Co
+ rdovaFileCache.js
+SHA1-Digest: 6pBTKvyt/hQTh70I1Uz74aXQrfI=
+
+Name: res/drawable-xhdpi-v4/splashscreen.png
+SHA1-Digest: K1qztoLWFPgieRh0A5nLHa1RhPk=
+
+Name: assets/www/jquery-mobile/fonts/Roboto-Light-webfont.svg
+SHA1-Digest: 4nBE6xOTLvgwdnyTFM1GtvGngpo=
+
+Name: assets/www/jquery-mobile/images/icons-png/arrow-l-white.png
+SHA1-Digest: 4HuY6eoNbbBya9DRaGuPIKKXj8Y=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal.9
+ .png
+SHA1-Digest: Yaaajh0AXbmjLJOiDxeNBheKc8U=
+
+Name: assets/www/images/logos/nfl/Baltimore_Ravens.png
+SHA1-Digest: 8mQLvULqr/i12hMixFGzFTqnLe8=
+
+Name: assets/www/js/ContentActive/Map/Map.js
+SHA1-Digest: xJ5+Ac87izuEBU+wsMVeWHH2fnk=
+
+Name: assets/www/js/ContentActive/FeedSystem/FeedManager.js
+SHA1-Digest: cCWOQX0joeDYkLMw5kpLgZKs6fU=
+
+Name: assets/www/jquery-mobile/images/icons-png/alert-white.png
+SHA1-Digest: 75WYBynvYbTtKUbIe70D6b8uUH4=
+
+Name: assets/www/plugins/com.brodysoft.sqlitePlugin/www/SQLitePlugin.j
+ s
+SHA1-Digest: 9q4Bo93cdAUjunkK90yjn0/FID0=
+
+Name: assets/www/images/camera.png
+SHA1-Digest: Ubr/YCGrVVk5xXelSdtNILiDuSE=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/node_mo
+ dules/cordova-promise-fs/package.json
+SHA1-Digest: WO1MIeY8U6Yglh3/LLsbvrMDGPY=
+
+Name: assets/www/jquery-mobile/images/icons-png/forbidden-white.png
+SHA1-Digest: gdgkkyg80YLw78WRJQ/Ztc0y+Dk=
+
+Name: res/drawable-xxhdpi-v4/ic_action_remove.png
+SHA1-Digest: GbOqf2Yga6qVAxaA3ec35ac0Yio=
+
+Name: assets/www/images/logo-mls.jpg
+SHA1-Digest: 0Fud3Xy8uROU/oQyvClrvtxcpFM=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal.9
+ .png
+SHA1-Digest: XwI93Zyt8z66HPZuqkd2z20Acik=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/MediaFile.js
+SHA1-Digest: md0Q7H32NdMj9KeWuTxGSlHSDjs=
+
+Name: assets/www/jquery-mobile/images/icons-png/audio-black.png
+SHA1-Digest: fJXlqcz0RmBH1la+k5mwlSG4Bh8=
+
+Name: assets/www/images/logo2.png
+SHA1-Digest: gXUZ/XsZlERQGqAU4wcwSQ6Wgag=
+
+Name: assets/www/js/selectivizr-min.js
+SHA1-Digest: MmiCjkrJ3ORNfqoVV7cyXkqtMNM=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal.
+ 9.png
+SHA1-Digest: zgte2j1HJORn1wmz6Tfql3ZhrSw=
+
+Name: assets/www/js/import/jquery-mentions-input-master/docs/index.htm
+ l
+SHA1-Digest: I+w5Fs5m8027mdWwB7hsdsaz+WY=
+
+Name: res/drawable-xxhdpi-v4/ic_action_next_item.png
+SHA1-Digest: c25EZH3BjQyHSy++YinAPl3kQmE=
+
+Name: assets/www/plugins/cordova-plugin-file/www/requestFileSystem.js
+SHA1-Digest: PLvvYAlaeRjM6337X4wU/fAnlNI=
+
+Name: assets/www/fonts/glyphicons-halflings-regular.ttf
+SHA1-Digest: RLwYUPVwlyJnsWmuGPHLBrYR/6I=
+
+Name: assets/www/js/import/zoom.js
+SHA1-Digest: BXkUYThiLqkPwQ21N8QdvdfgFHc=
+
+Name: assets/www/css/fonts/FontAwesome.otf
+SHA1-Digest: tbT5voX5HxB5noegg9odBQ+EJzQ=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileWriter.js
+SHA1-Digest: NvpNsd5P40mmFf4E2WPm980OWYc=
+
+Name: res/drawable-xxxhdpi-v4/icon.png
+SHA1-Digest: Hlu7uvHcOorcHvyslYhOo0+17rM=
+
+Name: assets/www/plugins/cordova-plugin-file/www/Entry.js
+SHA1-Digest: UU2pSK6yL/4tbpQEXu/KygbQvj0=
+
+Name: assets/www/jquery-mobile/images/icons-18-black.png
+SHA1-Digest: fV43xwMC0a1FUHHrEQTXG/DBquU=
+
+Name: assets/www/jquery-mobile/images/icons-png/camera-white.png
+SHA1-Digest: snv88IQhSTkquw2+eJcgWbZHzyA=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_norma
+ l.9.png
+SHA1-Digest: GFBU1MtrxnqiFzu1VUviSJcYiI0=
+
+Name: assets/www/views/league/nflView.html
+SHA1-Digest: ja69ociKtau23AcJKsPBGnr2iCY=
+
+Name: resources.arsc
+SHA1-Digest: g4xkWOhedxvDr9DPCda9Vl2cWC0=
+
+Name: assets/www/jquery-mobile/fonts/Roboto-Regular-webfont.woff
+SHA1-Digest: mdk+HjY2+GyFsMfE2iB3tPHuAQw=
+
+Name: assets/www/jquery-mobile/images/icons-png/carat-r-white.png
+SHA1-Digest: my8Cm5Mo9srdFSi3AC0ksXkeU60=
+
+Name: assets/www/jquery-mobile/images/icons-png/phone-white.png
+SHA1-Digest: jo99ymoDnQ14pxagBkktwsTFZCQ=
+
+Name: assets/www/plugins/cordova-plugin-dialogs/www/android/notificati
+ on.js
+SHA1-Digest: 0/BIVdB9LIdjiHO/luFp75b7ovg=
+
+Name: assets/www/images/logos/nfl/Jacksonville_Jaguars.png
+SHA1-Digest: q+9n7lAQSAz9DKPBM4dgvEaF2lM=
+
+Name: assets/www/jquery-mobile/images/icons-png/arrow-u-l-black.png
+SHA1-Digest: c+r7rxH41ltFZJcA2laIOs/5zMY=
+
+Name: res/drawable-mdpi-v4/ic_action_previous_item.png
+SHA1-Digest: hQHJ4uWUXYR/W5HKEfkoL0otUKY=
+
+Name: assets/www/jquery-mobile/images/icons-png/carat-l-black.png
+SHA1-Digest: y5ONRsVaAOZ5FA2aQiDPLNrpHfI=
+
+Name: assets/www/images/logos/nfl/Detroit_Lions.png
+SHA1-Digest: LByhF27AUZWE7vKs6iqyGHX3wLc=
+
+Name: assets/www/js/import/AngularJS/angular-touch.min.js
+SHA1-Digest: UOemWWaVCbFctrj+RD38te/hYXg=
+
+Name: assets/www/views/notifications/notificationsIgnoreView obsolete 
+ 2015-10-08.html
+SHA1-Digest: C/6TKDVcoDkcBf/ZzqZT6fy98TQ=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal.
+ 9.png
+SHA1-Digest: avqP5Jr+JRygbHxllR1AQbtpb+g=
+
+Name: assets/www/images/icon-mail-white.png
+SHA1-Digest: 8fhFc9PQZeVYpXQZ4Ed4qmS5lEM=
+
+Name: assets/www/images/logo-nfl-falcons.gif
+SHA1-Digest: KhUUxzoKbJSliOjEseyCuKG6HSU=
+
+Name: assets/www/views/register/registerView.html
+SHA1-Digest: 5YqJf1HhpQebRGl7d9qERi+5ScM=
+
+Name: assets/www/js/import/sticky-kit-master/dist/Tupfile
+SHA1-Digest: k0hQF7fBGRKzUMKpzPbU+LR53Hg=
+
+Name: assets/www/js/import/jquery-mentions-input-master/jquery.mention
+ sInput.less
+SHA1-Digest: nitZWD/mZD4Mu3kPY6glQGy+awI=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_press
+ ed.9.png
+SHA1-Digest: MTe7g8pRIuxRlzCJPLaJYqof918=
+
+Name: assets/www/views/view-data/myfans-data.html
+SHA1-Digest: fGHOznrzhjber/Rz6R6rkXNi0NI=
+
+Name: res/drawable-xxhdpi-v4/splashscreen.png
+SHA1-Digest: RCx5OAoX88iJaAf/ojL0K3xBMBU=
+
+Name: assets/www/jquery-mobile/images/ajax-loader.gif
+SHA1-Digest: r7Wo1RXseyxOXYv8y0kPtbYDEcM=
+
+Name: assets/www/jquery-mobile/images/icons-png/action-black.png
+SHA1-Digest: C41jihtlvemq21tA9lW6XAxvXio=
+
+Name: assets/www/images/logo-nfl-broncos.gif
+SHA1-Digest: /Aj/Vw+/DHv40ey6czkPk/lsokQ=
+
+Name: assets/www/jquery-mobile/images/icons-png/eye-black.png
+SHA1-Digest: 6SmDc3yI5zAKi3qgl2ebEEEaHic=
+
+Name: assets/www/plugins/com.phonegap.plugins.PushPlugin/www/PushNotif
+ ication.js
+SHA1-Digest: rPz+sS6Q/wMvkCrLJdbS+GrZo3o=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_disabl
+ ed.9.png
+SHA1-Digest: V3e9Fl537skkuNM50YXSITM9hP4=
+
+Name: assets/www/images/response.jpg
+SHA1-Digest: AhgAUDUWtVl0DCB8r5xPW2p8g4U=
+
+Name: assets/www/jquery-mobile/images/icons-png/check-white.png
+SHA1-Digest: TMq/1UC0W+nhKNrNYi+VmZUB5HA=
+
+Name: assets/www/images/icon-chat-on.png
+SHA1-Digest: 6Wz5pjigEWfJ+AqGM9Lqkr2qrR8=
+
+Name: assets/www/js/ga/ga.js
+SHA1-Digest: QEO+TcZBNCz2hNXkqwF2IxhctZ0=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileReader.js
+SHA1-Digest: CEPeP6/N/u55RU2GzG+dKugtRYU=
+
+Name: assets/www/js/import/sticky-kit-master/dist/sticky-kit.min.js
+SHA1-Digest: 4CJ60JLkypwOUXnN2lG820qy2HQ=
+
+Name: assets/www/images/logos/nfl/New_Orleans_Saints.png
+SHA1-Digest: 8UaTzZ7u4qzzy1A4v1V850sTKEE=
+
+Name: assets/www/jquery-mobile/images/icons-36-black.png
+SHA1-Digest: IzyOtnVBPDa1SVQVEqAjKDWlUXE=
+
+Name: assets/www/plugins/cordova-plugin-screen-orientation/www/screeno
+ rientation.js
+SHA1-Digest: fIzHND28KJTHHx4xM56lJtPweME=
+
+Name: res/drawable-ldpi-v4/splashscreen.png
+SHA1-Digest: w+QTIwA8l0YNUflo+RIlwsZ1KxY=
+
+Name: assets/www/js/import/AngularJS/angular-animate.min.js
+SHA1-Digest: nGAlllScQC3nrPRoAwMasmLORcY=
+
+Name: assets/www/jquery-mobile/images/icons-png/user-black.png
+SHA1-Digest: 4/o2+S9KVYF2JUi3gDFa9VcPYEk=
+
+Name: assets/www/jquery-mobile/fonts/Roboto-Thin-webfont.ttf
+SHA1-Digest: pXMKcJykj619x7eGd+2m4b72fKQ=
+
+Name: assets/www/images/logo-wnba.jpg
+SHA1-Digest: vWfWwN6R+LTSdP2doHfEEcJtZ/E=
+
+Name: assets/www/everlive/everlive.all.min.js
+SHA1-Digest: x/QO192j6iWNmvg7tzVsdaTqJ48=
+
+Name: assets/www/images/icon-menu-black.png
+SHA1-Digest: D6xUBxntBacGF9kwMWuDCL1+Mgs=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_disabled
+ .9.png
+SHA1-Digest: KFMFQ3Xyx9ZfPf2w1XN1esJ6xBo=
+
+Name: assets/www/js/jquery.textlimiter.js
+SHA1-Digest: vBpuNS4HL3VSh3EPePrc2RDBFMA=
+
+Name: assets/www/images/neworleans09.jpg
+SHA1-Digest: GOeUbS4EUe8eS2t335aTG9cgIeE=
+
+Name: assets/www/images/icon-chat-bubble.png
+SHA1-Digest: ZAgPAnJNtau/XrFSfiiPWifeiUM=
+
+Name: res/drawable-land-xhdpi-v4/splashscreen.png
+SHA1-Digest: xM5j3JLVPynaenA7bJmFgPv387E=
+
+Name: assets/www/images/zebra-stripes.jpg
+SHA1-Digest: 6MXpXBOnTVNbNh8ur1ZXk1lFvLM=
+
+Name: assets/www/js/notification/notification.js
+SHA1-Digest: TTRywfjCKqNzqEoefb8Rj2QPZxQ=
+
+Name: assets/www/plugins/cordova-plugin-statusbar/www/statusbar.js
+SHA1-Digest: fmN/gvSD6iXx0inQA6lER8FGlTI=
+
+Name: assets/www/jquery-mobile/jquery.mobile.icons.min.css
+SHA1-Digest: dwSSNRO0fm3FwQBuOU6wy0Kro84=
+
+Name: assets/www/Application/Model/feeds.js
+SHA1-Digest: Lqn5sTqwvdT5FUb7Chy7Lr8q0o8=
+
+Name: assets/www/images/icon-twitter-blue.png
+SHA1-Digest: /4ERatVWEMF5ky7nS8dZ9yXsIz0=
+
+Name: assets/www/js/jquery/tagit.js
+SHA1-Digest: UT/2owqwoX1+K01is/Tg91MGLXE=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal.9
+ .png
+SHA1-Digest: BtBZbFT3VPvi+qaEJu0REVsW9GQ=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/CaptureAudio
+ Options.js
+SHA1-Digest: Iy8JQBZQUGmswfJ904JtXEzKT3U=
+
+Name: assets/www/jquery-mobile/images/icons-png/minus-white.png
+SHA1-Digest: QpHt961v51yl3sVReYxSJG+sGEk=
+
+Name: assets/www/js/import/AngularJS/angular-route.min.js
+SHA1-Digest: ty5N1HnO5fppZF0q7RX6OHO3HkI=
+
+Name: assets/www/plugins/cordova-plugin-camera/www/CameraPopoverHandle
+ .js
+SHA1-Digest: +Z9CD65lahmjGTY2hRUvgu+3p1w=
+
+Name: assets/www/images/logo-nfl-cardinals.gif
+SHA1-Digest: FJXKqLjlb6ge6eVvUCQypVhG8mE=
+
+Name: res/drawable/common_google_signin_btn_icon_dark_focused.xml
+SHA1-Digest: /ltqvgG+xMIX5fMG2Ii8MxZ/LhM=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal
+ .9.png
+SHA1-Digest: dKIcEa8pKdFs5yfkfZOV6SD1Qvg=
+
+Name: assets/www/images/icon-friends-black.png
+SHA1-Digest: YIw4/uTJ5FiXrHTpK7/tcwt9NWs=
+
+Name: assets/www/jquery-mobile/backgroundsize.min.htc
+SHA1-Digest: 8jQ0Opw9XVLVuctx3ytjJJrBrCk=
+
+Name: assets/www/jquery-mobile/images/icons-png/home-black.png
+SHA1-Digest: vY5srNSy9zNbtoKYn4YCrRu0t4U=
+
+Name: assets/www/js/import/underscore/underscore.js
+SHA1-Digest: RKTK5iSWxPcTrjpvHSsyz0KTMGk=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/MediaFileDat
+ a.js
+SHA1-Digest: j0aHpXAe0JUBgrtqG83jm09GAjQ=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/node_mo
+ dules/cordova-promise-fs/test/index.html
+SHA1-Digest: 9uvSRpqKYovCfokx/l3a07UHHig=
+
+Name: assets/www/js/viewing.js
+SHA1-Digest: vk7iPo/iCq6hDuKxKzrAyPgAdW4=
+
+Name: assets/www/jquery-mobile/images/icons-png/refresh-white.png
+SHA1-Digest: 7bWgpRv4d34UR9BIEWWFME9WyLE=
+
+Name: assets/www/images/logos/nfl/Minnesota_Vikings.png
+SHA1-Digest: paFttjtp9+N3B2V4swsRUiE+9LE=
+
+Name: assets/www/images/icon-google-white.png
+SHA1-Digest: bar4YJaBerUSIsFrdChL/A9Oc9c=
+
+Name: res/drawable/common_google_signin_btn_icon_light.xml
+SHA1-Digest: xZzImaQo/YwfHPknFPEydc+uJ3A=
+
+Name: assets/www/jquery-mobile/images/icons-png/arrow-u-black.png
+SHA1-Digest: EM1xhprksMk+x5YQ9vxhcZqDPrk=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal
+ .9.png
+SHA1-Digest: QLaJ/RR4JVfoHBH6pJAPN0/FEdE=
+
+Name: assets/www/jquery-mobile/images/icons-png/power-white.png
+SHA1-Digest: fkHQUJQwF1/IN3Y1Gc+F3npxCLg=
+
+Name: assets/www/images/gamecenter.png
+SHA1-Digest: HqFBEVEKHIdn4Hweq11EuyT6ICU=
+
+Name: assets/www/images/bg-team-bar.png
+SHA1-Digest: 1qjLQr4s4i5P41xG003Wudz6TBk=
+
+Name: assets/www/images/logo-nfl-vikings.gif
+SHA1-Digest: iRzOjygw+bi2Bil2BiAlYM4lua0=
+
+Name: assets/www/jquery-mobile/images/icons-png/forward-black.png
+SHA1-Digest: ikVMfiR7Usqgmg8ExfTf7sHcWyo=
+
+Name: assets/www/images/logo-gameface 2.png
+SHA1-Digest: 50DKwSySeEIwkA2TzCjG6X78vi0=
+
+Name: assets/www/images/logos/nfl/Cleveland_Browns.png
+SHA1-Digest: 3DwZwUdSisMulCcp6XuMNvKEIGY=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/capture.js
+SHA1-Digest: VaE9SPwmEkpBtd07rcDogsPh7H0=
+
+Name: assets/www/js/import/jquery-mentions-input-master/docs/assets/ex
+ amples.js
+SHA1-Digest: noiStm1jTLHdwrR8WzpZU+i46tQ=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_presse
+ d.9.png
+SHA1-Digest: eKq/DqDx4HHKIqyqalzgBgMY2ww=
+
+Name: assets/www/js/import/jquery-mentions-input-master/lib/jquery.eve
+ nts.input.js
+SHA1-Digest: nl+RnUNt6QCxvF9Zpfu0bD+a4j4=
+
+Name: assets/www/images/logo-nfl-giants.gif
+SHA1-Digest: Wkr8GdaZZQqNomSkdatwe+vRlOM=
+
+Name: assets/www/images/person_add.png
+SHA1-Digest: 1hOGmFUe5keCw/U9qfQIOgxJizM=
+
+Name: assets/www/jquery-mobile/images/icons-png/navigation-black.png
+SHA1-Digest: gvDVL5Rzifa/plgYQAxSqPAPT9I=
+
+Name: assets/www/images/nba-rockets.jpg
+SHA1-Digest: Yr2svINaPNYnTmmbQd9Zj/bgA3g=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_disab
+ led.9.png
+SHA1-Digest: MgWZDNe7Li5Ae6XULZm4fW9SlGo=
+
+Name: assets/www/plugins/cordova-plugin-media/www/Media.js
+SHA1-Digest: OCRCxXL+80EW2CiXo2yx+05jNE8=
+
+Name: assets/www/jquery-mobile/images/icons-png/delete-black.png
+SHA1-Digest: Lty/xPH7TjQB0H7L18rn2/paQbw=
+
+Name: assets/www/images/bg-intro-with-logo.jpg
+SHA1-Digest: k0m81GZA5iMj/cypJ82GAGOE53c=
+
+Name: assets/www/jquery-mobile/images/icons-png/back-black.png
+SHA1-Digest: Bp9DdNJElX2ER8OxJNb2z+mNZpk=
+
+Name: assets/www/views/view-data/fansof-data.html
+SHA1-Digest: StfE/AUEVVGwaNoY9iTMUNG2r/k=
+
+Name: assets/www/images/icon-facebook-white.png
+SHA1-Digest: 7UrE8V14ndzvkXTvXJXZLF+KFLM=
+
+Name: assets/www/js/settings/accountPreferences.js
+SHA1-Digest: YPe5L1pDTzjeRgRLVE4NtS+MFOs=
+
+Name: assets/www/js/import/jquery-mentions-input-master/docs/assets/da
+ ta.json
+SHA1-Digest: b+OMyKHtloCoqF4GgCLQhlKrciI=
+
+Name: assets/www/plugins/nl.x-services.plugins.socialsharing/www/Socia
+ lSharing.js
+SHA1-Digest: F8WU3qcimIzsoKk6mMopi4cHQ3s=
+
+Name: assets/www/js/import/jquery-mentions-input-master/docs/assets/st
+ yle.css
+SHA1-Digest: /gGktNFg97gXMZA5pQ10ukUksRc=
+
+Name: assets/www/plugins/cordova-plugin-media/www/MediaError.js
+SHA1-Digest: ey52hAWQC14gdGSyrRUB4YSbnsA=
+
+Name: assets/www/views/profile/profileByIdView.html
+SHA1-Digest: QPcp++s+xXVmiZFfkFpVy/F35ic=
+
+Name: assets/www/views/welcome/welcomeView.html
+SHA1-Digest: UXV8omEAk8lr5qqtPtUUG4aR0d0=
+
+Name: assets/www/jquery-mobile/images/icons-png/edit-white.png
+SHA1-Digest: e32c7Bwz52dGFtw9wgXvc6PQdrQ=
+
+Name: assets/www/plugins/cordova-plugin-camera/www/CameraConstants.js
+SHA1-Digest: BjlHG5/mByxW11ktFQ1zf00UQBU=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_press
+ ed.9.png
+SHA1-Digest: fcRHSznS0klBue7f/7VPl7CCnTM=
+
+Name: res/drawable-xxhdpi-v4/icon.png
+SHA1-Digest: UArWM8jQXjQmTI7rcKT3EykbDZU=
+
+Name: assets/www/js/AmazonAWS/aws-sdk-full.js
+SHA1-Digest: 6tQj6Oh5B8yXMfiUy8Cn7qyaFl8=
+
+Name: assets/www/jquery-mobile/images/icons-png/heart-black.png
+SHA1-Digest: g57PUz5AcZTT1nxWBOFvchbH4pM=
+
+Name: assets/www/images/logo-fanreact-without-back.png
+SHA1-Digest: n9blDz057hHzS5C4x9IdtTeBMrs=
+
+Name: assets/www/img/cordova.png
+SHA1-Digest: 0fQz+aKXX8MbCT9t4Ay/19Bi9PE=
+
+Name: assets/www/plugins/cordova-plugin-file/www/File.js
+SHA1-Digest: irEgrkTKQIjrI2vmwoK7yng+uic=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_icon_light_disable
+ d.9.png
+SHA1-Digest: e5sAcvCut6H6EMW0EnTfHFeDLt4=
+
+Name: res/drawable-mdpi-v4/ic_action_remove.png
+SHA1-Digest: nKigmEPh2ytFH29tSmzdel83ejA=
+
+Name: res/drawable/common_google_signin_btn_icon_dark.xml
+SHA1-Digest: Y3JDPpuLz+eKUPLnqlFx4PceoZI=
+
+Name: assets/www/jquery-mobile/images/icons-png/grid-black.png
+SHA1-Digest: vw21YeBhQgq+kTNjHWjunjjDC+I=
+
+Name: assets/www/js/import/jquery-mentions-input-master/README.md
+SHA1-Digest: s5OSTLwt1HYDuvrfwdI+kZjPEoc=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_text_light_presse
+ d.9.png
+SHA1-Digest: Fj65pApS3DHAIYkMNsn4lY2X67A=
+
+Name: assets/www/fonts/glyphicons-halflings-regular.svg
+SHA1-Digest: 3lGoSUGAptsHSvLe4jg/CjY8Wwg=
+
+Name: assets/www/images/logos/nfl/New_York_Giants.png
+SHA1-Digest: HP4MT7aNxWFQY3Yj324F+UCBjzE=
+
+Name: assets/www/images/Roy-fadeaway-jumper.jpg
+SHA1-Digest: 61nLwOcUEt23wTXZkaUaFBhcm8c=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/test/qu
+ nit-1.15.0.js
+SHA1-Digest: L5yhadSqn4bXQr6qW2gpn2e/1K4=
+
+Name: assets/www/jquery-mobile/images/icons-png/arrow-u-r-black.png
+SHA1-Digest: aSC5rtoL/vlADFCyFrZLSLckHpI=
+
+Name: assets/www/js/import/linkify.min.js
+SHA1-Digest: hYaOhAorqtDTFrPy++S2TbtH3QY=
+
+Name: assets/www/js/commonForAllPage/commonForAll.js
+SHA1-Digest: USwX376yYyft1e6kpRjDztH4LsM=
+
+Name: assets/www/js/import/handlebars/handlebars-v3.0.3.js
+SHA1-Digest: mYJYKV+KbtO6IuN4ar8i9MtcY4w=
+
+Name: assets/www/images/gillette-stadium-in-foxboro-juergen-roth.jpg
+SHA1-Digest: CqBLEUeIJaZrj32tv6eV/8JSXVk=
+
+Name: assets/www/jquery-mobile/images/icons-png/bullets-black.png
+SHA1-Digest: F5fywOwPMz7rbiobxLf3+1vRFSo=
+
+Name: assets/www/jquery-mobile/images/icons-png/arrow-d-black.png
+SHA1-Digest: YWQ44xMVFQr+3jzAr5IPEV69zDw=
+
+Name: res/drawable-hdpi-v4/splashscreen.png
+SHA1-Digest: /x/xIq3bsiBjrGoCe1wtlH/2CwQ=
+
+Name: assets/www/js/index.js
+SHA1-Digest: bqFfcKtPSCr+HXMvMDjwlIhEW4I=
+
+Name: assets/www/images/logo-nfl.png
+SHA1-Digest: TQir6VOfMeh3qhlV8DXSPviYpAg=
+
+Name: assets/www/jquery-mobile/images/icons-png/cloud-white.png
+SHA1-Digest: YZyhZplnPcu0XrcumcqrTSlPb4M=
+
+Name: assets/www/images/logos/nfl/Buffalo_Bills.png
+SHA1-Digest: G/IbiPoEigHVk4d0QjfuKursb6Y=
+
+Name: assets/www/images/logo-nfl-redskins.gif
+SHA1-Digest: Qrwv5jC8n0jo+ft3P6D6yRZWgBg=
+
+Name: assets/www/plugins/cordova-plugin-apprate/www/AppRate.js
+SHA1-Digest: DGzVvA0eHdiATC/KjXhY6duBRbQ=
+
+Name: assets/www/views/settings/houstonRocketsView.html
+SHA1-Digest: Milwd6BbJr31wVLDuOuikSA3m8g=
+
+Name: assets/www/jquery-mobile/images/icons-png/comment-white.png
+SHA1-Digest: rOxIPjVoiUF0IWYnD+hA4XxkYwo=
+
+Name: assets/www/js/login/login.js
+SHA1-Digest: uI8aFMmz+rfhYtHg7HzgT2IxwAw=
+
+Name: assets/www/views/home obsolete 2015-10-8/homeTrendingView.html
+SHA1-Digest: yIYoFs1csQI7v2gaHKdXf2WkXK0=
+
+Name: assets/www/js/settings/reset_app.js
+SHA1-Digest: FTdJZ8nG84JcosQcdIq7fxjIvAo=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_text_dark_disabled
+ .9.png
+SHA1-Digest: Db9O/OPoWTXYL7sBk/ND4aU7ECs=
+
+Name: assets/www/jquery-mobile/images/icons-png/arrow-d-r-white.png
+SHA1-Digest: LyFhNVeO16ct7K0YNwzWjJzGYrg=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileUploadOptions.js
+SHA1-Digest: jv9QBwsq4j/vyPIG5pRFSmKLRXQ=
+
+Name: assets/www/js/import/iscroll/iscroll.js
+SHA1-Digest: zmIJQRtMdsZHuPuHvHEe8K1HC7w=
+
+Name: assets/www/js/import/jquery-mentions-input-master/jquery.mention
+ sInput.css
+SHA1-Digest: qrqNsLz0XV77M27XhifZOhXGa5M=
+
+Name: res/raw/gtm_analytics
+SHA1-Digest: z4lph6xlv9ztpVWW3QM9h7QjqS0=
+
+Name: assets/www/views/notifications/notificationsView.html
+SHA1-Digest: BtDHePAGuo+G9wYmsEu6KseoXUQ=
+
+Name: assets/www/fonts/glyphicons-halflings-regular.eot
+SHA1-Digest: hrb2K3hT5n0+Y19lEqWl78WOo8M=
+
+Name: assets/www/images/unboard.jpg
+SHA1-Digest: 3xy+5TvORn7xR67f32Qpp32oiSk=
+
+Name: res/color/common_google_signin_btn_text_dark.xml
+SHA1-Digest: gPt3wMFtHpXUsunGq8AIhB2GCDA=
+
+Name: assets/www/js/import/jquery-mentions-input-master/MIT-LICENSE.tx
+ t
+SHA1-Digest: yFKO2aDUfj+QjTCPQgKJ3FseLRM=
+
+Name: assets/www/jquery-mobile/images/icons-png/gear-black.png
+SHA1-Digest: nGQeG1W5q2teVs2Wz9UOtutnVJ8=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_disabled
+ .9.png
+SHA1-Digest: XDsh/LanVTEuOq61G/pr8afDNcQ=
+
+Name: assets/www/jquery-mobile/images/icons-png/comment-black.png
+SHA1-Digest: JTBPhS3w4mpwk3xE4qSnrhiEiKk=
+
+Name: jsr305_annotations/Jsr305_annotations.gwt.xml
+SHA1-Digest: qleKQAEaDWtvjqExBwBTQxblfek=
+
+Name: assets/www/css/font-awesome.min.css
+SHA1-Digest: 2US8Xep6gziTZQRXR6Zor3i3PDs=
+
+Name: assets/www/jquery-mobile/images/icons-png/carat-l-white.png
+SHA1-Digest: DUi69VXv653LYq46S9kUUcPEqn8=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/gitigno
+ re
+SHA1-Digest: yPDo3b47u81kGzjK8gqS+q0v8Xw=
+
+Name: assets/www/images/Houston_bg.png
+SHA1-Digest: FPrm4LDMGOngI8PAsbbBgsvXDXo=
+
+Name: assets/www/images/logos/nfl/Seattle_Seahawks.png
+SHA1-Digest: vwsqa7ZKHLp0JjQX6cH5dVNLniU=
+
+Name: assets/www/images/icon-mail-login.png
+SHA1-Digest: OrItniDqok91Dudq8jLiAKjA7PI=
+
+Name: assets/www/jquery-mobile/images/icons-png/arrow-r-white.png
+SHA1-Digest: JpsKYQ5YOd52srs7u2wdOhS0k10=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_pressed
+ .9.png
+SHA1-Digest: yL3BEjoZFVrHSDq3W5KlS0UBvSI=
+
+Name: assets/www/images/reliant.jpg
+SHA1-Digest: QZkGdJxjr1PHTDGCb1ns8vPNa2s=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal.
+ 9.png
+SHA1-Digest: W68ThGWwLWd1YHH+LNQcVzBLES0=
+
+Name: assets/www/js/search/search.js
+SHA1-Digest: /U35CpmTK1/7lIJaLung6GfFS8Q=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_text_light_pressed
+ .9.png
+SHA1-Digest: l4hOf2PQjAma4dDfgcEDCthD1Ng=
+
+Name: assets/www/images/mask-round-gray.png
+SHA1-Digest: BdXiSk2rIun5EzgabH+0iE8tK3E=
+
+Name: assets/www/images/logo.png
+SHA1-Digest: ojgoTEYh8PHSlvoII+de449vm2g=
+
+Name: assets/www/js/game-center/gamecenter.js
+SHA1-Digest: XeK24+OA+hjkUCdcXhaVa2HlS3k=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/test/pr
+ omiscuous.js
+SHA1-Digest: 6nG32HgfUVRE0+MXvRYCXUOEiSg=
+
+Name: assets/www/images/icon-chat-off.png
+SHA1-Digest: r3HUJpx205fwcBPbe2lG2/CWCwc=
+
+Name: assets/www/jquery-mobile/images/icons-png/mail-white.png
+SHA1-Digest: QBCbYB1Ix0g4cv9KD4Fntkihmjc=
+
+Name: assets/www/css/fonts/fontawesome-webfont.svg
+SHA1-Digest: RvzAGU11oN2sCgOK7kGyNFZ4SBQ=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/CaptureVideo
+ Options.js
+SHA1-Digest: K+4h/kUDGovKnpDn0+aOrP02yQY=
+
+Name: assets/www/images/icon-search.png
+SHA1-Digest: XymTK1ZegIAYnLputYcuffZjF4w=
+
+Name: assets/www/js/import/AngularJS/angular-loader.min.js
+SHA1-Digest: Utx5CTdWu7IIEklLpZOONY60sWw=
+
+Name: assets/www/images/come-on-man.jpg
+SHA1-Digest: Je0AJnTXdfszXcvqjrM31x7QpAw=
+
+Name: assets/www/jquery-mobile/images/icons-png/arrow-d-white.png
+SHA1-Digest: Yb774BhGLngG3GaFPqF2gP8/O2o=
+
+Name: assets/www/plugins/cordova-plugin-file/www/android/FileSystem.js
+SHA1-Digest: Nah1sU6ly092QrUudI9W3t3TBi0=
+
+Name: assets/www/images/icon-play-video.png
+SHA1-Digest: Pg1Mvsr2MwsiN+SCdXS8mqpJqhs=
+
+Name: assets/www/css/index.css
+SHA1-Digest: epyVgn1OCXTRCbw4CKSKirYk6Jc=
+
+Name: assets/www/jquery-mobile/images/icons-36-white.png
+SHA1-Digest: wMpruSGjsWnC8bZ3Bo4vu1ny7JU=
+
+Name: assets/www/images/logos/nfl/Oakland_Raiders.png
+SHA1-Digest: aG+4AnHpbeavv/Ks8EGL5RbNQe0=
+
+Name: assets/www/jquery-mobile/fonts/Roboto-Regular-webfont.eot
+SHA1-Digest: d64+mA7AOGPr4lh6jvnd/QaUHbA=
+
+Name: assets/www/jquery-mobile/images/icons-png/plus-white.png
+SHA1-Digest: k0f80+8DcijJk4Kte/RSu/ZF7ts=
+
+Name: assets/www/plugins/cordova-plugin-file/www/DirectoryEntry.js
+SHA1-Digest: +75Ob4w4lRyyeczgdFWDInlELKQ=
+
+Name: assets/www/jquery-mobile/images/icons-png/arrow-l-black.png
+SHA1-Digest: srpBNs71SBNGYDd08KsLJyRIbq0=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_presse
+ d.9.png
+SHA1-Digest: xZRteKqA5SUTkatnOvxZNLFrzEc=
+
+Name: assets/www/images/logo-nfl-rams.gif
+SHA1-Digest: 4WHuLfk8soYnzP/d4mQwlr5Qtsg=
+
+Name: assets/www/plugins/cordova-plugin-globalization/www/globalizatio
+ n.js
+SHA1-Digest: EGEaXcvNnxw3mlc2WqkXYlUVTTI=
+
+Name: assets/www/js/import/AngularJS/angular-sanitize.min.js
+SHA1-Digest: /gWJLaQMv+b85hGbVWZW8qhGCqk=
+
+Name: assets/www/plugins/cordova-plugin-vibration/www/vibration.js
+SHA1-Digest: bih1ikoIBWqBBH5AQkwveih5HiE=
+
+Name: assets/www/views/commonForAllPage/commonForAllPage.html
+SHA1-Digest: VXb+UiTYtmnUwhgNZjhSD99K+9s=
+
+Name: assets/www/images/action-jackson.jpg
+SHA1-Digest: iwEd2uJhJ8H0GUPULkbXgqf2tqc=
+
+Name: assets/www/jquery-mobile/images/icons-png/user-white.png
+SHA1-Digest: ROwWyyggTkV+bc8OCVUeAbvJCrs=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_pressed
+ .9.png
+SHA1-Digest: Z47Ytqk1ljeVWpMZQ9eu2WmC2h4=
+
+Name: assets/www/js/settings/phoneNotificationSettings.js
+SHA1-Digest: SJRGpn4f4HGRsuN7CKJXoC8a0ns=
+
+Name: assets/www/plugins/com.ionic.keyboard/www/keyboard.js
+SHA1-Digest: P9726nDoYH4cBB5fTVdOd/L7KH4=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_text_light_disabl
+ ed.9.png
+SHA1-Digest: 57iMngghSSeK35fXJXF7KvHkbIg=
+
+Name: assets/www/js/geolocation/geolocation.js
+SHA1-Digest: ST8TO4hzRPP0oR7NsAi3pKTRhNQ=
+
+Name: assets/www/views/profile/Profile_Edit.html
+SHA1-Digest: eVW0i/owV46MI1qftdEpBYQ9RGU=
+
+Name: assets/www/js/import/jquery-mentions-input-master/docs/assets/ex
+ ample2.js
+SHA1-Digest: BGEHFKdrgz57QnZ5s+iuOv0nlts=
+
+Name: assets/www/views/search/searchTeamView.html
+SHA1-Digest: smIR7HyS+yXQm/tXwavGnDWXhho=
+
+Name: assets/www/views/dashboard/trendingView.html
+SHA1-Digest: 9ZnDueN97bzsDG1IjMpU2RK+tTM=
+
+Name: assets/www/images/icon-friends.png
+SHA1-Digest: dUi5E9LaZlWqRBtHAMv0IHUOgXI=
+
+Name: assets/www/images/logo-nfl-jets.gif
+SHA1-Digest: vC0rw7zVDl94jpM/RwInzoZRuSg=
+
+Name: assets/www/images/logo-nfl-saints.gif
+SHA1-Digest: VkYj6uiOMJIS4Juabye+7JW9Edo=
+
+Name: assets/www/images/logo-nhl.png
+SHA1-Digest: ZZwi15pMNj7PyHAIOiiJCj1biTQ=
+
+Name: assets/www/plugins/cordova-plugin-screen-orientation/www/screeno
+ rientation.android.js
+SHA1-Digest: 9ZvX2xNa7ZnIFINxSf2N3HClVm8=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_disable
+ d.9.png
+SHA1-Digest: lWGz9pmUk6lcLBiS+tgQY4zTp6M=
+
+Name: assets/www/images/logo-nfl-seahawks.gif
+SHA1-Digest: gFXKP9rHJDOc3FCAMoy0ZuuD61c=
+
+Name: res/drawable-xhdpi-v4/ic_action_previous_item.png
+SHA1-Digest: 0dsU8dFcc2mtwhzv/EDl6N0yNE0=
+
+Name: assets/www/images/icon-arrow-back.png
+SHA1-Digest: hzERKyEjNygzNU8aj6rakkT4cJc=
+
+Name: assets/www/images/logos/nfl/Philadelphia_Eagles.png
+SHA1-Digest: o65F5DfOBLAGZtaL+ptyGgZmYnM=
+
+Name: assets/www/images/mqdefault-1.jpg
+SHA1-Digest: FhTXyO6XJtqZqEt89ASvY/h+om8=
+
+Name: assets/www/jquery-mobile/images/icons-png/recycle-white.png
+SHA1-Digest: nE3f9NdaQI0UKnOEsKiZdJXQ8Ig=
+
+Name: assets/www/jquery-mobile/images/icons-png/eye-white.png
+SHA1-Digest: KISVXGF65BYggxhLSGR+rX175gk=
+
+Name: assets/www/js/league/league.js
+SHA1-Digest: PU45IHwffq5vwyDKXVbmS7gtSZM=
+
+Name: assets/www/plugins/cordova-plugin-file/www/Metadata.js
+SHA1-Digest: Gnq2pwzaRcYg8ixte8BiuM/rglg=
+
+Name: assets/www/jquery-mobile/images/icons-png/calendar-white.png
+SHA1-Digest: 9ZrWz7WvyEOEq2ShUL8GN5RZRGY=
+
+Name: assets/www/jquery-mobile/images/icons-png/carat-u-black.png
+SHA1-Digest: lcQ8bUELZbQhm0+XIwaWx9YIICY=
+
+Name: assets/www/jquery-mobile/images/icons-png/clock-black.png
+SHA1-Digest: LqWOglNyONH3ET8E/2LVBugarhM=
+
+Name: assets/www/abignore
+SHA1-Digest: txq+jrZBsVc3QRJ8Eue6R4OJ/BM=
+
+Name: assets/www/jquery-mobile/images/icons-png/heart-white.png
+SHA1-Digest: CujUa8oiSwzMJG4fILfLyMZoE/U=
+
+Name: assets/www/jquery-mobile/images/icons-png/bars-black.png
+SHA1-Digest: esB6n4GRZRlNTFPK5WxHdcAxdSw=
+
+Name: assets/www/images/fanreact logo.png
+SHA1-Digest: un+aggl+l12BLR5Rto5iS9WHAFY=
+
+Name: assets/www/images/logo-nfl-bills.gif
+SHA1-Digest: DI9KJbQpyn5tSu4PkxXLUuGFSCg=
+
+Name: assets/www/views/view-data/reactions-feed-data.html
+SHA1-Digest: XBbNjucV3Ax5NQBc7f1JVaiAb2s=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal.9
+ .png
+SHA1-Digest: b9G5LhyMfLbYSUqr6XnKfPsGw70=
+
+Name: res/drawable/common_google_signin_btn_icon_light_focused.xml
+SHA1-Digest: OGENnUVhZSPkJj8rCNw4ggjRciY=
+
+Name: assets/www/images/logo-nfl-chargers.gif
+SHA1-Digest: YLgNEvP7Jfe72DPNSb/s74EJ0Ao=
+
+Name: assets/www/plugins/cordova-plugin-file/www/DirectoryReader.js
+SHA1-Digest: 5GZLrI+1A4rNxAW+8Qukyi5fUUQ=
+
+Name: assets/www/jquery-mobile/images/icons-png/camera-black.png
+SHA1-Digest: lwxWhrAxMx8tkWiLyfcG+9wf99k=
+
+Name: assets/www/images/logo-gameface-back.png
+SHA1-Digest: 1nwMCdxX3wLPE0Wj/OWLMIOCdxU=
+
+Name: assets/www/jquery-mobile/images/icons-png/info-white.png
+SHA1-Digest: rLo6vq9V+4wVs3WeBqFQOVLENiQ=
+
+Name: assets/www/js/import/sticky-master/README.md
+SHA1-Digest: ZSsygpm03GVeVESU/BRmJ4cjzpw=
+
+Name: assets/www/views/team/teampage-obsolete.html
+SHA1-Digest: T0BYcj/3ckkKjESTsA1f9SUh460=
+
+Name: assets/www/views/game-center/gameCenterView.html
+SHA1-Digest: kq6Vj/v1AoYbeOs57veC26k3uls=
+
+Name: assets/www/jquery-mobile/images/icons-png/tag-black.png
+SHA1-Digest: ZXvGxSJPaZBMhZX68OgBCbZ0CeE=
+
+Name: assets/www/plugins/cordova-plugin-file/www/resolveLocalFileSyste
+ mURI.js
+SHA1-Digest: fcaq1ZNO8iXU+v/0fE9KeMdfANA=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal.
+ 9.png
+SHA1-Digest: vKOIeJu8N7w/3us3rCupC1YrXlY=
+
+Name: assets/www/images/logo-nfl-steelers.gif
+SHA1-Digest: Ga/Hz8pxEML0Ch1vMJ1mNRn+/Vc=
+
+Name: assets/www/plugins/cordova-plugin-file/www/fileSystems.js
+SHA1-Digest: 6yquQivJyWMqF5eucLnOb6FZnkQ=
+
+Name: assets/www/jquery-mobile/images/icons-png/check-black.png
+SHA1-Digest: uveeY1bfPFY2WP9ohEKpeBNLlZs=
+
+Name: assets/www/images/logo-ncaaf-texas.gif
+SHA1-Digest: naQzxiNb8G8a87SUENG+spxw6/o=
+
+Name: assets/www/images/logo-nfl-texans.png
+SHA1-Digest: 9EA6lX6qMK8oRBkK0MDPnAx8HCk=
+
+Name: assets/www/images/default-avatar.png
+SHA1-Digest: GSvirYCO72IfO00pmCVNjnK/Wd4=
+
+Name: assets/www/jquery-mobile/images/icons-png/location-white.png
+SHA1-Digest: uynKK0PgV87aJhvrwpEOe6KhrwI=
+
+Name: assets/www/images/logo-nfl-dolphins.gif
+SHA1-Digest: YYeOkr6a0r9XP2FwwznqWxVavYQ=
+
+Name: assets/www/images/search.png
+SHA1-Digest: G7REELJSxHLqB0lolWb1Kcv2sUY=
+
+Name: assets/www/images/loading5.gif
+SHA1-Digest: Su66C1i7vksC+nx5co7MUoF7Slw=
+
+Name: assets/www/jquery-mobile/fonts/Roboto-Regular-webfont.ttf
+SHA1-Digest: 9wfpitL3y+k30UU3QoYw+rqaHTM=
+
+Name: assets/www/jquery-mobile/images/icons-png/arrow-u-r-white.png
+SHA1-Digest: uSwCkzICaLH1TngiWZH2aQ1oGAA=
+
+Name: assets/www/js/import/AngularJS/angular-cookies.min.js
+SHA1-Digest: 5YNZ8OZh3/t/9sXiMIvbzIG+ffE=
+
+Name: res/drawable-hdpi-v4/ic_action_previous_item.png
+SHA1-Digest: 22hOl4hxhbk+vXL5yh1q/sikcuo=
+
+Name: assets/www/images/UH_logo.png
+SHA1-Digest: urs1TzjhXhCAYh2vgeItluBkaU0=
+
+Name: assets/www/jquery-mobile/images/icons-png/arrow-d-l-black.png
+SHA1-Digest: D6IrWgtnbJ0PQGJh/OawZJUbYFM=
+
+Name: assets/www/images/bg-intro.jpg
+SHA1-Digest: zkaUIEIBwoxsL6E/owGSF2ED9WI=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/murmerh
+ ash.js
+SHA1-Digest: I5mt9fbEG107IyH+JhX5W9ZKYSo=
+
+Name: assets/www/views/intro/intro.html
+SHA1-Digest: oQU9oJ/d2d1U/X+TnKOPM/kn9Hs=
+
+Name: assets/www/jquery-mobile/images/icons-png/search-black.png
+SHA1-Digest: Lzo4QpithhA63gVNMxxggu9dIko=
+
+Name: assets/www/images/icon-search-black.png
+SHA1-Digest: hPeVrHTM6qWiPIiMJwRYlTrPaeE=
+
+Name: assets/www/fonts/glyphicons-halflings-regular.woff
+SHA1-Digest: J45JqG5jTabyoC87R92dKo8mIQ8=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/CaptureImage
+ Options.js
+SHA1-Digest: TzFbwWbfvQIXx+o5SObu3SqKgUM=
+
+Name: assets/www/views/comments/commentsView.html
+SHA1-Digest: u5axCwfJjHE6IcbYiTPcMi6qJc4=
+
+Name: assets/www/js/import/jquery-mentions-input-master/bower.json
+SHA1-Digest: 2CNgMBvKXeUfWKpdkASVfN11ujQ=
+
+Name: assets/www/images/icon-add-gray.gif
+SHA1-Digest: kgLRWiOShrbDcJjaZz95bHPlyvo=
+
+Name: assets/www/views/upload/upload.html
+SHA1-Digest: mE7KwPwSqLTqnDbbttbISzc2hmU=
+
+Name: assets/www/images/logo-gameface.png
+SHA1-Digest: WmHG+qo/9Hbh8iXFuEv/vfdCxLg=
+
+Name: assets/www/images/logos/nfl/Denver_Broncos.png
+SHA1-Digest: sXVRTSxY6G4FXfAdeyxd0evhUWA=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/node_mo
+ dules/cordova-promise-fs/gitignore
+SHA1-Digest: mLoO7ozEsfVNgi0p31atoY5Aa4g=
+
+Name: assets/www/jquery-mobile/images/icon-question.png
+SHA1-Digest: yQQcC/DLZ5cE60W+Cfcw626/ra8=
+
+Name: assets/www/images/icon-thumbs-down-red.png
+SHA1-Digest: 3uunD5ln37HY6ZLU9yJJysELV7k=
+
+Name: assets/www/js/comment/comment.js
+SHA1-Digest: wdV7OW+YN+OBjUcluJDlS2KgfAk=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/test/in
+ dex.html
+SHA1-Digest: TzB7s4YBoSCKgGKtGj6509sJABw=
+
+Name: assets/www/views/settings/feedbackView obsolete 2015-10-08.html
+SHA1-Digest: RhyRs2mQCM8jnb9z+amgY7AmUJ4=
+
+Name: assets/www/images/blog-image.jpg
+SHA1-Digest: pmMYkXhFi9fOZihsAwj0NaML3Q4=
+
+Name: assets/www/jquery-mobile/jquery.mobile.structure-1.3.2.css
+SHA1-Digest: zOWcOb4Jn4lLtmdKWqg9tHGVLAk=
+
+Name: assets/www/images/bg-login.jpg
+SHA1-Digest: tjA0rK2FVS5FCg41jzv4aIrG9fw=
+
+Name: assets/www/jquery-mobile/jquery.mobile-1.3.1.min.js
+SHA1-Digest: QM66SNBC8d6RNi9OAMP3yy70Pbg=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal.
+ 9.png
+SHA1-Digest: Hb6MgqhWpoOmdUTygaGRcKTLi3c=
+
+Name: res/drawable-land-xxxhdpi-v4/splashscreen.png
+SHA1-Digest: ZVKG/qKZv0iGe7qt+/pk2nN7y3U=
+
+Name: assets/www/jquery-mobile/fonts/Roboto-Thin-webfont.svg
+SHA1-Digest: QX4W+oEzH4HMhySTN0h9FIKxm/o=
+
+Name: assets/www/jquery-mobile/images/icons-png/grid-white.png
+SHA1-Digest: u4JcheViYqlr2PlCUkAhW6zDS/o=
+
+Name: assets/www/views/settings/accountPreferencesView.html
+SHA1-Digest: ajC/nNJV+8MOuE4g3gPNzGNUnP0=
+
+Name: assets/www/images/icon-thumbs-up-green.png
+SHA1-Digest: Ywy882EOib9P9ob7QRofvdQNISY=
+
+Name: assets/www/jquery-mobile/images/icons-png/edit-black.png
+SHA1-Digest: mlGrDSQQY82IjtvV7a/9TAiJFcs=
+
+Name: assets/www/js/scroll/scroll.js
+SHA1-Digest: pieyfWOqijniaCydwkg5gKza1/E=
+
+Name: assets/www/images/mlb-mets.jpg
+SHA1-Digest: dkApv6zEBA3erR8ipZh9rtBDBfg=
+
+Name: assets/www/jquery-mobile/fonts/Roboto-Light-webfont.woff
+SHA1-Digest: Vca7bqzBcPsoK0h/fk0B52JW/y0=
+
+Name: assets/www/images/logos/nfl/Miami_Dolphins.png
+SHA1-Digest: xo+Oqah5ELruyfjlBtXZR07uGro=
+
+Name: assets/www/images/logo-nba-mavericks.png
+SHA1-Digest: DZlvioSMwHai/bVNEJu1MpW1VVc=
+
+Name: assets/www/js/import/jquery-mentions-input-master/assets/data.js
+ on
+SHA1-Digest: k7YaB979SIbKEFf9Wr3KifpDszY=
+
+Name: assets/www/js/angularSettings.js
+SHA1-Digest: +RwQR3+gmgvsAruArl4jx2zujK4=
+
+Name: assets/www/plugins/cordova-plugin-file/www/fileSystemPaths.js
+SHA1-Digest: GqPib7MdOFI3rK8Q/lDcjdnBuyU=
+
+Name: assets/www/images/logos/nfl/Green_Bay_Packers.png
+SHA1-Digest: QmOAKcLho9xkCna3f4zSfyhL+AA=
+
+Name: assets/www/jquery-mobile/images/icons-png/power-black.png
+SHA1-Digest: 1tQDSJvDdsLCwWWuYxIYhm1b4A4=
+
+Name: assets/www/views/view-data/trending-feed-data.html
+SHA1-Digest: wkkJQgd92auJ9oa0L/FL8kq7Bug=
+
+Name: assets/www/images/logo-nfl-ravens.gif
+SHA1-Digest: +2omKKO5yWPJrxQbk1paQ8PfmIw=
+
+Name: assets/www/images/icon-twitter-white.png
+SHA1-Digest: TFjzmS8U5eg7c5xm6WJhySr7psw=
+
+Name: assets/www/images/logo-nfl-jaguars.gif
+SHA1-Digest: I9zL+uLcaa7B6sGuBbpCXavV4OI=
+
+Name: assets/www/images/facebook.png
+SHA1-Digest: rpvZlBqZPrEMjnriv0N70iDAv/s=
+
+Name: assets/www/jquery-mobile/images/icons-png/arrow-r-black.png
+SHA1-Digest: 6l6xc9Hf2M6tqvendl0D/bAF6rU=
+
+Name: assets/www/jquery-mobile/jquery.mobile-1.3.2.css
+SHA1-Digest: QkTajerperEpyOYbWaNZ7LiHVkE=
+
+Name: assets/www/views/settings/settingsView.html
+SHA1-Digest: 5QFHjAt2MkAXF10N5quBvUfW77k=
+
+Name: assets/www/views/intro/intro-MLL.html
+SHA1-Digest: 2Q0/qx6ypOH9QWjZ8/ABamY5WfE=
+
+Name: assets/www/jquery-mobile/images/icons-png/lock-black.png
+SHA1-Digest: Zrn3dkgZUEDfdLHS2Dkld4mpK8k=
+
+Name: assets/www/images/HouFan.png
+SHA1-Digest: aHiiSH8yrvOoPR3XWtX6cK6Q5cY=
+
+Name: assets/www/plugins/cordova-plugin-camera/www/Camera.js
+SHA1-Digest: oIhRMPF+/R1Vyb0bC8t7+HtA1Yo=
+
+Name: assets/www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.
+ js
+SHA1-Digest: sDrNn1nb6Y917+yWVFcK+TD2xUo=
+
+Name: assets/www/jquery-mobile/images/icons-png/plus-black.png
+SHA1-Digest: I8/ZMwn3nOTSf/oyyG1DUI3jCuQ=
+
+Name: assets/www/js/settings/identity-provider.js
+SHA1-Digest: YUlnV84rV+bOiYGYUaAboVjhTlo=
+
+Name: assets/www/images/icon-share-this.png
+SHA1-Digest: fIyqIPMxYmt1HIbcEM2n8gKjoqQ=
+
+Name: assets/www/jquery-mobile/images/icons-png/video-white.png
+SHA1-Digest: IuRzjD6iJnmcosT9juA5DUHtLZ0=
+
+Name: assets/www/js/import/jquery-mentions-input-master/lib/jquery.ela
+ stic.js
+SHA1-Digest: B3UJGpp9Uq5YgNpCv/XVJMZ2nqU=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_pressed.
+ 9.png
+SHA1-Digest: 2phsQPMXg+pfp1ogpbFp5OMTCSM=
+
+Name: assets/www/images/logos/nfl/Indianapolis_Colts.png
+SHA1-Digest: UYmm4PkFggG1H6bsz3rjPdYX7QQ=
+
+Name: assets/www/jquery-mobile/images/icons-png/recycle-black.png
+SHA1-Digest: Vv4kGiPXGRs5GBXz87ksr0gjW5Q=
+
+Name: assets/www/jquery-mobile/gameface.css
+SHA1-Digest: ZECiNzJ37rO/siPcYurvYDm7N9w=
+
+Name: assets/www/plugins/cordova-plugin-dialogs/www/notification.js
+SHA1-Digest: p8ZuSuooY9gm+YEuH5uNFvs5NIo=
+
+Name: res/drawable-land-ldpi-v4/splashscreen.png
+SHA1-Digest: FbREuI5uh83Ej4HMOEmFAiPKuKI=
+
+Name: res/drawable/common_google_signin_btn_text_dark_focused.xml
+SHA1-Digest: l0fipyqsr0hnhqyubQfNYz01Tyg=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/CaptureError
+ .js
+SHA1-Digest: x4XlB9IlniJ0Bk3RPHmPCwUGeMc=
+
+Name: assets/www/jquery-mobile/images/icons-png/gear-white.png
+SHA1-Digest: y1UhA5ohrJDWQNWgQnBK5bSGPrU=
+
+Name: assets/www/jquery-mobile/images/icons-png/star-black.png
+SHA1-Digest: fzBQCJfossnWmvhHVxikaiHIIik=
+
+Name: assets/www/js/recordVideo/recordVideo.js
+SHA1-Digest: dMvpyv+yU/UKtF008WE5Tg0kQSw=
+
+Name: res/drawable-land-xxhdpi-v4/splashscreen.png
+SHA1-Digest: XmQut2P4qCrSrjefydoLf2Qqozs=
+
+Name: assets/www/jquery-mobile/images/icons-png/carat-d-white.png
+SHA1-Digest: ZRazm0KJycmxAeD/vPvrL8zpoa4=
+
+Name: assets/www/views/login/loginView.html
+SHA1-Digest: Rb8vMzswjXO+gVYrfdWIUqnn3ck=
+
+Name: assets/www/js/import/AngularJS/angular.min.js
+SHA1-Digest: ZzcPiFWmewbLXlEPdlKRxY01vmo=
+
+Name: assets/www/plugins/cordova-plugin-network-information/www/networ
+ k.js
+SHA1-Digest: 3buNvk87mUwxh0uutgW1X7E45c4=
+
+Name: assets/www/images/logos/nfl/Chicago_Bears.png
+SHA1-Digest: 3nZRh4PoyyK0E6tiFPmA8DzpO6k=
+
+Name: assets/www/js/camera/camera.js
+SHA1-Digest: 8Ss0wbPvTT6JeFTknSdB76tVdas=
+
+Name: assets/www/jquery-mobile/fonts/Roboto-Regular-webfont.svg
+SHA1-Digest: dGWOgGLCMG1Xo4hdVYMa0uKEHA0=
+
+Name: assets/www/js/import/fancyBox/jquery.fancybox-min.js
+SHA1-Digest: CXoFHbgO14q7I9nwmrQJspg3y6s=
+
+Name: assets/www/images/logo-cricket.png
+SHA1-Digest: GPF2XB4IhR21J6gci0CuW/x+cjk=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/node_mo
+ dules/cordova-promise-fs/bower.json
+SHA1-Digest: 6bio5JyhhxpnRl8NGqh/Tpkhl/M=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal
+ .9.png
+SHA1-Digest: HihHAcXSJV42NtJ0bX0aNnjGTg0=
+
+Name: assets/www/jquery-mobile/images/icons-png/refresh-black.png
+SHA1-Digest: EoqbstvCIDb/n1Xxr70x5tjkwAU=
+
+Name: assets/www/jquery-mobile/images/icons-png/bars-white.png
+SHA1-Digest: WrTJ7tO4ManExgj4EesMqcf3B7E=
+
+Name: AndroidManifest.xml
+SHA1-Digest: /vaMRjtLzIUHi/6DhP3a2nSKFq8=
+
+Name: assets/www/images/fudgenes.jpg
+SHA1-Digest: qnmRPmaKNqOpJJEYYR8dwOoU3M0=
+
+Name: assets/www/jquery-mobile/images/icons-png/home-white.png
+SHA1-Digest: 34+7c0X+OLqk2HRcbFBGV5TWBho=
+
+Name: assets/www/plugins/cordova-plugin-file/www/ProgressEvent.js
+SHA1-Digest: IkfNKwoaQS+OehTdor38RXiEQCM=
+
+Name: assets/www/js/import/jquery-mentions-input-master/assets/style.c
+ ss
+SHA1-Digest: /gGktNFg97gXMZA5pQ10ukUksRc=
+
+Name: assets/www/jquery-mobile/images/icons-png/mail-black.png
+SHA1-Digest: kCP0aK+dKOLPkoagIAR7J345Z1U=
+
+Name: assets/www/jquery-mobile/images/icons-png/shop-black.png
+SHA1-Digest: zEMh11bmhCVvt6RKGrvCwdoTLAc=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_text_light_pressed
+ .9.png
+SHA1-Digest: StQSehtOA5sc/D7y/PEZK/Wt+Q8=
+
+Name: assets/www/js/fans/friendsList.js
+SHA1-Digest: ihLf7W8sCNZH8ceNP6WiJVvC/tc=
+
+Name: assets/www/images/logo-ncaa.gif
+SHA1-Digest: 3ga2zNeGsJJM321lSRzXXpcSRuY=
+
+Name: assets/www/jquery-mobile/images/icons-png/calendar-black.png
+SHA1-Digest: BuKrwKCtjgeHSoAPKE/ZyEqA8Y8=
+
+Name: res/xml/config.xml
+SHA1-Digest: FIugTMDh61hhyTV0YrVqcQsssq0=
+
+Name: assets/www/images/icon-friend-add-green.png
+SHA1-Digest: tz4QQ9AR7h+BPNpu7CVRCARbs5k=
+
+Name: assets/www/js/ajaxFeeding obsolete 2015-10-08.js
+SHA1-Digest: 4E2T0UhFO+yIszU5jf5FfmHmCrQ=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_icon_light_disable
+ d.9.png
+SHA1-Digest: /9TedBWY3hVupugid7vn6Iby41w=
+
+Name: assets/www/images/default-avatar-white.png
+SHA1-Digest: UkNPxqZA5aywemJLy7gYQcyw9Z0=
+
+Name: assets/www/images/mqdefault-3.jpg
+SHA1-Digest: HTW9sVmtmWTVHIofETwN3CzKrH4=
+
+Name: assets/www/jquery-mobile/images/icons-png/back-white.png
+SHA1-Digest: ZrxLjqsfqziF5MJ6Xae+Tp47+Ws=
+
+Name: assets/www/images/logos/nfl/Washington_Redskins.png
+SHA1-Digest: /Nuz+V9pXhDvKhyyFwLbdOWKACo=
+
+Name: assets/www/css/fonts/fontawesome-webfont.eot
+SHA1-Digest: dhl0j+NMZPsVelf21O82ePY6j14=
+
+Name: assets/www/images/logo-nfl-titans.gif
+SHA1-Digest: 52YsnDdJTQU8low33Gqu88Rs0iQ=
+
+Name: res/drawable-xhdpi-v4/ic_action_remove.png
+SHA1-Digest: l5JGHVyNioatN5tnVH3EIvs4nRA=
+
+Name: assets/www/views/post/post-view-dropdown-team.html
+SHA1-Digest: 2jGLlX1U6cJHPpiIUV+pfy9aHsg=
+
+Name: assets/www/images/logo-nfl-lions.gif
+SHA1-Digest: AFhi6ppftlflaRrQ4sYMW3ow4F4=
+
+Name: res/drawable-hdpi-v4/ic_action_next_item.png
+SHA1-Digest: qB37IvvoMeEjuZF5lSzNL1atssw=
+
+Name: assets/www/images/mlb-talk.jpg
+SHA1-Digest: ye1tTi+H5ow/xe+k4zEQiYBTWlY=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_disabl
+ ed.9.png
+SHA1-Digest: aXB1WZ3yQ8Bcndz7Mq9HySre+70=
+
+Name: assets/www/js/fastclick/fastclick.js
+SHA1-Digest: Bs7xlnM6cQ53rX44bO1pY/CS3FU=
+
+Name: assets/www/views/view-data/profileFeed-data.html
+SHA1-Digest: s10amkA3TitzTvDxVq5ov2/Ndfc=
+
+Name: assets/www/plugins/de.appplant.cordova.plugin.local-notification
+ /www/local-notification.js
+SHA1-Digest: J8PFppVOu7HYTM0UqvkDLFqEuyQ=
+
+Name: assets/www/images/logo-nfl-patriots.gif
+SHA1-Digest: Tgy1+S62fVIirmCl/t0L4jqRwKg=
+
+Name: assets/www/images/logo-nfl-eagles.gif
+SHA1-Digest: GS181tW5tvnjNXSRv7Eg1n6Macg=
+
+Name: assets/www/js/ContentActive/imgCache/imgCache.js
+SHA1-Digest: Oren3vENLDtFh6y8a+kwJMOU/mM=
+
+Name: assets/www/images/logos/nfl/Atlanta_Falcons.png
+SHA1-Digest: M7Z62W2beGYpz4haQVLe3QCbU+o=
+
+Name: assets/www/cordova.js
+SHA1-Digest: 09ZWDrQSJMRayDv25DH7S5m8oNI=
+
+Name: res/drawable-hdpi-v4/icon.png
+SHA1-Digest: 3I3UnuhIIQbPKaGsSyUpknUFMkc=
+
+Name: res/drawable-mdpi-v4/splashscreen.png
+SHA1-Digest: kWZ3cAgNGv5dOxFYKxjewvSK6To=
+
+Name: assets/www/js/ContentActive/Sqlite/SqliteDB.js
+SHA1-Digest: DgnxeGSGKrkeTgzZdUEyg9JcR70=
+
+Name: res/drawable-land-mdpi-v4/icon.png
+SHA1-Digest: hE74KuCp7F/8/ZvNwEH2NCoayPw=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal.
+ 9.png
+SHA1-Digest: pcfLWB2i3LHPCG6bzpaMRe4X7YE=
+
+Name: assets/www/images/logo-mlb-astros.png
+SHA1-Digest: 6wZn9IxWm+6evChHQSieIoGKdmk=
+
+Name: assets/www/js/import/AngularJS/angularios9.js
+SHA1-Digest: KRds5wymSwYokJKeyRp8iTLV280=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileEntry.js
+SHA1-Digest: eIDLyQCF/3lnipLLTxZUy67qjAA=
+
+Name: assets/www/images/logo-nfl-browns.gif
+SHA1-Digest: 6w5X4hDVOYLRFaw9mDgtuIx/2G0=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/index.j
+ s
+SHA1-Digest: 4jyy28q0QnrXbdfs5EUJFlyRh3M=
+
+Name: assets/www/views/dashboard/reactionsView.html
+SHA1-Digest: u1J20KJvyXd3vtuz0Fpe4KgqnG4=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_norma
+ l.9.png
+SHA1-Digest: BP/j1fz0QCVrLN8pzcjvv9RMNEE=
+
+Name: res/drawable-land-hdpi-v4/splashscreen.png
+SHA1-Digest: CXdSD92TdqAq5oVPTnWskE7V030=
+
+Name: assets/www/jquery-mobile/images/icons-png/arrow-d-l-white.png
+SHA1-Digest: //2EQhhXB7Lu3qJ6E7OJ2VaHJ70=
+
+Name: assets/www/images/mqdefault-4.jpg
+SHA1-Digest: eF5B0dAXc1xqMkgDwXpGyfut1Xw=
+
+Name: assets/www/js/settings/settings.js
+SHA1-Digest: mIUeSMHcCe9O/DhF/CD6XVeMahI=
+
+Name: assets/www/images/icon-plus-add.png
+SHA1-Digest: 2T73sp+l7zhYzwT1EbLf4OltjYQ=
+
+Name: assets/www/js/team/teamSearch.js
+SHA1-Digest: FCTbxgSpxZmrm/t6EcTnyeZT438=
+
+Name: assets/www/js/import/AngularJS/angular-aria.min.js
+SHA1-Digest: sAELF2aDwuf92cxw/vFwVklB2iI=
+
+Name: res/drawable-xhdpi-v4/icon.png
+SHA1-Digest: QXW/2YSMkGUvtp5FvkLmgMb+JhU=
+
+Name: assets/www/jquery-mobile/images/icons-png/action-white.png
+SHA1-Digest: BtPrdsNlJ9mwSLFMVLrdBI25Vhc=
+
+Name: assets/www/views/team/teamFollower.html
+SHA1-Digest: Duox8CwetQ0XhWcdwm1iEHMr/ao=
+
+Name: assets/www/images/unboardpie.png
+SHA1-Digest: b3dpKefi9CYNgR6AR+53/m6+BY4=
+
+Name: assets/www/css/fonts/fontawesome-webfont.ttf
+SHA1-Digest: fwnJfzM5FwNK0I+nKV6RbJ9y/T8=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/node_mo
+ dules/cordova-promise-fs/test/tests.js
+SHA1-Digest: NIStJ4Xu9yIGDcxtloDscExgRjA=
+
+Name: assets/www/images/ajax-loader.gif
+SHA1-Digest: 8q8GDxytvJBlyMRlxkjcAb5nzBI=
+
+Name: assets/www/images/icon-facebook-blue.png
+SHA1-Digest: d0qe51PfeJONOv/SV3S8GYipfyQ=
+
+Name: assets/www/js/import/jquery-mentions-input-master/CHANGELOG.md
+SHA1-Digest: pqGOwa6L6F/ym4M6eeOiH+/gE9k=
+
+Name: assets/www/js/import/jquery-mentions-input-master/assets/example
+ 2.js
+SHA1-Digest: BGEHFKdrgz57QnZ5s+iuOv0nlts=
+
+Name: assets/www/js/import/moment.js
+SHA1-Digest: VOKwXsZoTjyBK9TLvcxqq+1/Nmo=
+
+Name: assets/www/plugins/cordova-plugin-device/www/device.js
+SHA1-Digest: uUPIrvMa3RcMIaDNyU2jJ6U8tOs=
+
+Name: assets/www/images/logo-nfl-packers.gif
+SHA1-Digest: a/ae8D4TJpXfzZbNJtdnZ6ruQM0=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/bower.j
+ son
+SHA1-Digest: ll1gui7lb7F4bBZLBJP5QIGG5ss=
+
+Name: assets/www/Application/Factories/customFactories.js
+SHA1-Digest: dk0yN2JT2xKUB/AdBZLeunLU/NY=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_icon_light_pressed
+ .9.png
+SHA1-Digest: fPmD5X73y/qXCvJ2Cqvt4E3OU6w=
+
+Name: res/drawable-ldpi-v4/icon.png
+SHA1-Digest: NZiokv3+D0llr7JcJnxB2Amu5CI=
+
+Name: assets/www/jquery-mobile/images/icons-png/carat-u-white.png
+SHA1-Digest: ItSCCtS2PlV/r9aFQBZVS9eFH5c=
+
+Name: assets/www/img/logo.png
+SHA1-Digest: MW0GF0+VJyF3L6n2kH6NKUswUL0=
+
+Name: assets/www/jquery-mobile/images/icons-png/location-black.png
+SHA1-Digest: x7M5+y4cqqUnxpn/BPSAvmZlnDM=
+
+Name: assets/www/js/import/jquery-mentions-input-master/index.html
+SHA1-Digest: dRjd1OTUl1bkPnFafK9rWEOZypc=
+
+Name: assets/www/css/custom.min.css
+SHA1-Digest: S6edK7jMETH1Ooz5CEzcqMbW6+w=
+
+Name: assets/www/views/fans/fansView.html
+SHA1-Digest: 1xrH+KOGcDVcAlp38oBTB3suxSc=
+
+Name: assets/www/views/view-data/logged-user.html
+SHA1-Digest: P2nyPoFc1nK5JNRTqbCbeK03WC8=
+
+Name: assets/www/images/logos/nfl/Arizona_Cardinals.png
+SHA1-Digest: VGHhi6TPguPtZfLqcowuopj8CeE=
+
+Name: assets/www/views/settings/termConditionView obsolete 2015-10-08.
+ html
+SHA1-Digest: hbo5EwmcX7Zh47VfTRQXXkynjMY=
+
+Name: assets/www/images/logo-nfl-bears.gif
+SHA1-Digest: WoV1QrUQcxGYQfypdJggBl6JWnc=
+
+Name: assets/www/js/import/jquery-mentions-input-master/jquery.mention
+ sInput.js
+SHA1-Digest: vbfH4H8na7kdmMq9KHhs1CS2fL8=
+
+Name: assets/www/views/settings/phoneNotificationsView.html
+SHA1-Digest: pdrAwTZCCvmUOa/6ndsuCV7wQLA=
+
+Name: assets/www/jquery-mobile/fonts/Roboto-Light-webfont.eot
+SHA1-Digest: Qv4VaZYZfl6wwCZMXRuztGgfRZU=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileSystem.js
+SHA1-Digest: TOu46CUKL4UMC+zdbr1/8W0JbGc=
+
+Name: assets/www/images/icon-friend-accept-white.png
+SHA1-Digest: zDyqPRt0aWAbQlBZ02KZMa47Ybg=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_disabl
+ ed.9.png
+SHA1-Digest: H/FphPQvP7MRDwA9c33JDKyJVtY=
+
+Name: res/color/common_google_signin_btn_text_light.xml
+SHA1-Digest: 7+B6lBfBrVgweOcupZEYdkJywlU=
+
+Name: assets/www/images/icon-back.png
+SHA1-Digest: KJEQAEV7dZLnN4krPdTSPKAWX3c=
+
+Name: assets/www/js/import/AngularJS/angular.js
+SHA1-Digest: Bo0Gifb8yfWwiqrlvXxV+cRGx3o=
+
+Name: assets/www/images/background.jpg
+SHA1-Digest: c/bXbRs7FxzRlfmc17B8aqohxOc=
+
+Name: assets/www/js/team/teamFollower.js
+SHA1-Digest: f9eCMRJ02ADEyvFiho4Gb74RgBQ=
+
+Name: assets/www/plugins/cordova-plugin-whitelist/whitelist.js
+SHA1-Digest: LhPJehMZoBACH/WKPQVj+FjkRRI=
+
+Name: assets/www/js/sqlite/sqlite.js
+SHA1-Digest: 1HGqFUbe07zli+Cmk85L2Yk507k=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_pressed.
+ 9.png
+SHA1-Digest: qRnIWPOu/MJDV1VVJTM7qf+WQdo=
+
+Name: res/drawable/common_google_signin_btn_text_light_focused.xml
+SHA1-Digest: GrtUDOgd2HM1JC1onztdbU8Kcrs=
+
+Name: assets/www/css/fonts/fontawesome-webfont.woff
+SHA1-Digest: BMO/Vth6CCiTW9a0ruhZmV8yFpM=
+
+Name: assets/www/js/fans/fansOf.js
+SHA1-Digest: O46loWgA8yR4fKCIxMDiD9h1R4s=
+
+Name: assets/www/images/icon-input-check.jpg
+SHA1-Digest: EeglaxIXZAkAc84ZVzTTdxkIg2k=
+
+Name: assets/www/images/twitter.png
+SHA1-Digest: vV+q4d33L9dcYYRgKrmD6jc3/RU=
+
+Name: assets/www/Application/Directives/customDirectives.js
+SHA1-Digest: QKDUroGBIBKloCLWnBBEcOUxNq8=
+
+Name: assets/www/views/home obsolete 2015-10-8/homeFollowingView.html
+SHA1-Digest: iutXt82ll4e7OknLB2CiGdgLuu0=
+
+Name: assets/www/jquery-mobile/fonts/Roboto-Thin-webfont.woff
+SHA1-Digest: +S0MI6pbdE2Mzxgy14EoF23xbBM=
+
+Name: assets/www/images/icon-menu.png
+SHA1-Digest: Og/QK54gtVx+cObXH0bledkrVV4=
+
+Name: assets/www/images/logo-fanreact-back.png
+SHA1-Digest: RKSsQkzLprbOleGfAM5fusDu9Kg=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/node_mo
+ dules/cordova-promise-fs/test/qunit-1.15.0.js
+SHA1-Digest: L5yhadSqn4bXQr6qW2gpn2e/1K4=
+
+Name: assets/www/images/logo-nfl-cowboys.gif
+SHA1-Digest: a3ifc2Yfnm65WKlIOpTXKhvaXyg=
+
+Name: res/drawable-xxxhdpi-v4/splashscreen.png
+SHA1-Digest: 9mwjIJl786Blj2EUXhyLG761DE0=
+
+Name: assets/www/views/post/postView.html
+SHA1-Digest: V06WGxRySS9JUb/xT7d6xEG4sW4=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_text_dark_disabled
+ .9.png
+SHA1-Digest: lbX57R0TzlcHAkHT3GttS2+bT5w=
+
+Name: assets/www/plugins/cordova-plugin-google-analytics/www/analytics
+ .js
+SHA1-Digest: SA/rnlusb+f++6xLFJRxnMrB9Hw=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_presse
+ d.9.png
+SHA1-Digest: KGZqA8v1blu83UKCPQIpVppD77g=
+
+Name: assets/www/images/a-cheesehead.jpg
+SHA1-Digest: I5ajGfpnNz5hhTexMeSvoE11veA=
+
+Name: assets/www/js/register/register.js
+SHA1-Digest: wX09YQzzRRpIGlt7R4XXvze1Ask=
+
+Name: assets/www/images/logos/nfl/Tampa_Bay_Buccaneers.png
+SHA1-Digest: Hk1VK3/VmQYx8R11/T65W40mVfM=
+
+Name: assets/www/jquery-mobile/images/icons-png/star-white.png
+SHA1-Digest: /zrLnOoclUJ8XgLBs65esBVZdl8=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/node_mo
+ dules/cordova-promise-fs/test/promiscuous.js
+SHA1-Digest: 6nG32HgfUVRE0+MXvRYCXUOEiSg=
+
+Name: assets/www/plugins/cordova-plugin-file/www/Flags.js
+SHA1-Digest: mbovk/KNvEXiP40OQoQSdpvRp6A=
+
+Name: assets/www/yo-rc.json
+SHA1-Digest: lNkKKzwdL84Iu5+PtDP9xnKhTYE=
+
+Name: assets/www/images/logos/nfl/Pittsburgh_Steelers.png
+SHA1-Digest: RgMy2inhn13pyfUqV5pnSZ70Wi4=
+
+Name: assets/www/views/team/teampage.html
+SHA1-Digest: xtBHq6ur1uBFj+X/pP6vh7axBiA=
+
+Name: assets/www/images/logos/nfl/Carolina_Panthers.png
+SHA1-Digest: gmSKjOe/9OSZaIc6PFAjyAEkvF4=
+
+Name: assets/www/jquery-mobile/images/icons-png/phone-black.png
+SHA1-Digest: 2q+Npr5cZdc8OsgKBn2hADBvjAI=
+
+Name: assets/www/plugins/com.coryjthompson.libraryhelper/www/LibraryHe
+ lper.js
+SHA1-Digest: panPqC1J31RcVgbMNkOvoXJS+LY=
+
+Name: assets/www/plugins/cordova-plugin-file-transfer/www/FileTransfer
+ .js
+SHA1-Digest: 4op+2HXZegDPaw3xZx/RWYvABtY=
+
+Name: assets/www/jquery-mobile/images/icons-png/carat-r-black.png
+SHA1-Digest: ko0mmXW6WMO3d5SQuFZ8NjGUj6g=
+
+Name: assets/www/plugins/cordova-plugin-camera/www/CameraPopoverOption
+ s.js
+SHA1-Digest: emjMfZs1wpDkm0pRxqGIU5NeXfU=
+
+Name: assets/www/images/logo-nfl-raiders.gif
+SHA1-Digest: OQHngIA1TZz6pOqjZJ3ORj6RXrM=
+
+Name: assets/www/views/team/teampagebkup.html
+SHA1-Digest: T0BYcj/3ckkKjESTsA1f9SUh460=
+
+Name: assets/www/images/logo-nfl-dolphins.png
+SHA1-Digest: uDx43ECXZPR6LByusgLA/mJHC+Y=
+
+Name: assets/www/js/custom/autolink.js
+SHA1-Digest: oEAPYuSYbk5pM/f0YQc9ndqyAcI=
+
+Name: assets/www/index.html
+SHA1-Digest: SF2xlEyxMvGaJGBU5v+zIqx9uYs=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_icon_light_pressed
+ .9.png
+SHA1-Digest: tcKpnutDtq0cLY89MOMNYq63koY=
+
+Name: assets/www/js/import/jquery-mentions-input-master/jquery.mention
+ sInput.scss
+SHA1-Digest: FuqVOQK8EAWvyt2qYJcVmmkmRXc=
+
+Name: assets/www/js/ContentActive/FeedSystem/Feed.js
+SHA1-Digest: SwkrwOhkPRtLr91z3jrdegRh0Jc=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/node_mo
+ dules/cordova-promise-fs/test/qunit-1.15.0.css
+SHA1-Digest: YILdppq1ciPrgUA7RgMF5LXMyhc=
+
+Name: assets/www/images/nfl-saints-patriots.jpg
+SHA1-Digest: Rnlv+k/JTbWO3KgR7XaHL4XX1l8=
+
+Name: assets/www/jquery-mobile/images/icons-png/shop-white.png
+SHA1-Digest: 8RxFZTUPoWpQ2WQYR3p3fILTK2I=
+
+Name: assets/www/plugins/cordova-plugin-network-information/www/Connec
+ tion.js
+SHA1-Digest: IjNQMCVJs/aQ+txQjQZhhW2PL4Y=
+
+Name: assets/www/plugins/cordova-plugin-file/www/fileSystems-roots.js
+SHA1-Digest: p7wU+SWUwYG5l9G67I6srGei9WE=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_text_light_disable
+ d.9.png
+SHA1-Digest: OA0Fce69H4xvHHf2U1Bxe3VntiA=
+
+Name: assets/www/Application/Controllers/customControllers.js
+SHA1-Digest: 0LDASQKICdZJvm0rmlPlwmwngxg=
+
+Name: assets/www/images/logo-nfl-texans.gif
+SHA1-Digest: tE4o0yGpHNnsGw7IIGRGZBR58H4=
+
+Name: assets/www/images/edit.png
+SHA1-Digest: 8/kYrrjhhn2Jg3DUpZGCNTD1oFo=
+
+Name: assets/www/jquery-mobile/images/icons-png/search-white.png
+SHA1-Digest: eJrqbFXGIXyJnM3a0UkNhuhUmtA=
+
+Name: assets/www/jquery-mobile/images/icons-png/forward-white.png
+SHA1-Digest: VOE3p86Haz1iRCGLHhGJN09LBt0=
+
+Name: assets/www/js/import/CryptoJS/aes.js
+SHA1-Digest: 3faeXgH0sKaAMUJvK5OSoPW3XE8=
+
+Name: assets/www/js/import/kendo/js/kendo.all.min.js
+SHA1-Digest: hhNNB0GXW/Rr2HuWi7N32UBCu80=
+
+Name: res/drawable-land-mdpi-v4/splashscreen.png
+SHA1-Digest: jYfCDiRffaLH+agOl7S8dQvAPxw=
+
+Name: res/drawable/common_google_signin_btn_text_light.xml
+SHA1-Digest: uIeozJgAZWIsKUtqScMcLzaF4Kc=
+
+Name: assets/www/plugins/cordova-plugin-file/www/LocalFileSystem.js
+SHA1-Digest: OxT/HssGr2AJYUjHsyFyHMu18RM=
+
+Name: assets/www/js/import/jquery-mentions-input-master/docs/assets/ex
+ amples3.js
+SHA1-Digest: hOGbSTLPeE+1VuF5+zJDfOhfVPk=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/node_mo
+ dules/cordova-promise-fs/dist/CordovaPromiseFS.js
+SHA1-Digest: raBZxnXxvL3ZvIqnuQItHXTvJVQ=
+
+Name: assets/www/views/settings/addMoreTeamsView obsolete 2015-10-08.h
+ tml
+SHA1-Digest: uI36sSYLULDMrn3tUIhBlmy+Tnc=
+
+Name: assets/www/jquery-mobile/images/icons-png/alert-black.png
+SHA1-Digest: S7lT3W2iE2q+wVBHyGcYwLf4LBs=
+
+Name: assets/www/images/logo-nfl-texans.jpg
+SHA1-Digest: 0aVK8xNfTDhzIRuO9Z2DcPQv+O0=
+
+Name: assets/www/images/logos/nfl/New_York_Jets.png
+SHA1-Digest: 7wyYDKbYCuSN7zQ9Ena7Bl0u6r0=
+
+Name: assets/www/images/logos/nfl/Tennessee_Titans.png
+SHA1-Digest: q+u6C7tF2LxD6CyEYUv07xDPbik=
+
+Name: assets/www/images/logos/nfl/Kansas_City_Chiefs.png
+SHA1-Digest: YCDYl25qA/BhCdVmhRSTKlCrFcU=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/test/te
+ sts.js
+SHA1-Digest: /O8sK6KfWtSg1pv7Luur3wjYgrk=
+
+Name: assets/www/jquery-mobile/fonts/Roboto-Thin-webfont.eot
+SHA1-Digest: B5ClGoSNvnKSyY+dBFkhi/Go/90=
+
+Name: assets/www/js/dashboard/following.js
+SHA1-Digest: LZ1zsXaGSlVvaLyEZLfdyO9TIeg=
+
+Name: assets/www/jquery-mobile/images/icons-png/clock-white.png
+SHA1-Digest: +7bHN5OMfUehR8kZHLvR172vQP8=
+
+Name: assets/www/js/push/push.js
+SHA1-Digest: fbG9Se6QFZxPWi4bubQWT5ywV18=
+
+Name: assets/www/images/logos/nfl/San_Francisco_49ers.png
+SHA1-Digest: CLUu4dg6SP6Hhq46foKTUx80Y2c=
+
+Name: assets/www/js/voting.js
+SHA1-Digest: yu4hueXQ1UQ8bIhei5j17fS26Iw=
+
+Name: assets/www/jquery-mobile/images/icons-png/arrow-u-l-white.png
+SHA1-Digest: 0zpX7TyNBmh5n796v5SJLbADxfQ=
+
+Name: assets/www/jquery-mobile/images/icons-png/info-black.png
+SHA1-Digest: HEQTnjMXPwXJ16k6GuEIQ7bpwJs=
+
+Name: assets/www/jquery-mobile/images/icons-png/audio-white.png
+SHA1-Digest: SeUtF6e/YOnX1QlyeM4v9yu/w1U=
+
+Name: assets/www/js/custom/custom.js
+SHA1-Digest: TSVXWqiCZ3Y1ZhVmt3WveqWGgBE=
+
+Name: res/drawable-mdpi-v4/ic_action_next_item.png
+SHA1-Digest: I11kR9J8D1ym6/6IDHX2g/nVzNc=
+
+Name: assets/www/views/notifications/notificationsFollowView obsolete 
+ 2015-10-08.html
+SHA1-Digest: IOSisvBkA0pKqa7HB6DYaegARpA=
+
+Name: assets/www/js/import/jquery-mentions-input-master/assets/example
+ s.js
+SHA1-Digest: KIrnbDkUdm2HWMfKhPpkmEYksUE=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileUploadResult.js
+SHA1-Digest: tYjNpj6NMrX8OC5q3z5KN8W7m5A=
+
+Name: assets/www/images/mqdefault.jpg
+SHA1-Digest: C8wGXqEuaxNMkMdl78W8QHGPoqI=
+
+Name: assets/www/views/league/levelView.html
+SHA1-Digest: aei2PW0U6t9e8OMEwLN0JXPBRts=
+
+Name: assets/www/images/nfl-cowboys.jpg
+SHA1-Digest: RCyYt16nPq7jfPT1pswJ81x+hRw=
+
+Name: assets/www/images/logos/nfl/Cincinnati_Bengals.png
+SHA1-Digest: ZTKM0VJsET33SUD+Uu+PmOLXn38=
+
+Name: assets/www/jquery-mobile/images/icons-png/tag-white.png
+SHA1-Digest: k2EwayJrR/aql9uVe228WrYblG8=
+
+Name: assets/www/js/post/post.js
+SHA1-Digest: tSxFQq/L9AEE8GVnn3zoTKLN9cA=
+
+Name: res/drawable-land-ldpi-v4/icon.png
+SHA1-Digest: bQPzkZLn0wUGSqg+OUY6hjShNT0=
+
+Name: assets/www/jquery-mobile/jquery-1.9.1.min.js
+SHA1-Digest: rknlaZnYKAJydFXwuoO2Os2Qois=
+
+Name: res/drawable-mdpi-v4/icon.png
+SHA1-Digest: vaTkoop1DE+iHZpZLwiopd1H9zE=
+
+Name: assets/www/jquery-mobile/images/icons-png/forbidden-black.png
+SHA1-Digest: mrct1FH4XA2udmx1ovySYndHbqE=
+
+Name: assets/www/jquery-mobile/images/icons-png/lock-white.png
+SHA1-Digest: Mb5SORPHPGOma+d9KwPpO/LozzU=
+
+Name: assets/www/js/dashboard/trending.js
+SHA1-Digest: UPnyZ1rEKGnIYm8N1EKN8bO9mEQ=
+
+Name: res/drawable-hdpi-v4/common_full_open_on_phone.png
+SHA1-Digest: 8fCog9JbAcCYp5djG/tewr7LmNc=
+
+Name: assets/www/jquery-mobile/images/icons-png/video-black.png
+SHA1-Digest: 87B3sSbouiLIp0m+aL5I0bRABM0=
+
+Name: res/drawable-xxhdpi-v4/ic_action_previous_item.png
+SHA1-Digest: O6f3A1T4xOSQqVUldAFPWs1Ax2I=
+
+Name: assets/www/plugins/cordova-plugin-apprate/www/locales.js
+SHA1-Digest: 7xe0dZLyrWMXVBc9xbELzjFN2mg=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal
+ .9.png
+SHA1-Digest: /qyna22b0UfuR1r/ko6aN1OcROY=
+
+Name: assets/www/images/logo-nba.png
+SHA1-Digest: MyY4s0Wy0/QJXw1333X7jHLFCug=
+
+Name: assets/www/images/logos/nfl/St_Louis_Rams.png
+SHA1-Digest: tTWUnBROLBPYalrN+sZ4jmiBWQU=
+
+Name: assets/www/js/import/AngularJS/angular-messages.min.js
+SHA1-Digest: 1CcgEnwY/6HFEpOlxdMSVxdE9iY=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/README.
+ md
+SHA1-Digest: e/2O/vdzIEGIOmCbgPRb3VhwH0A=
+
+Name: assets/www/views/team/teamSearchView.html
+SHA1-Digest: MQnnGK6mby9Q/wiQ5YMJ5ovOdFc=
+
+Name: assets/www/images/friend-unfollow.png
+SHA1-Digest: QXsIjMpPP/y86OgBD6XFXOK0Z4A=
+
+Name: assets/www/jquery-mobile/fonts/Roboto-Light-webfont.ttf
+SHA1-Digest: kKGDlEENqrL33vDB1E1qLG+TCEM=
+
+Name: assets/www/js/ContentActive/AWSHelper/S3Uploader.js
+SHA1-Digest: JV3NLBEdoHJdscg0sRFidpadzfg=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/test/qu
+ nit-1.15.0.css
+SHA1-Digest: YILdppq1ciPrgUA7RgMF5LXMyhc=
+
+Name: assets/www/jquery-mobile/images/icons-png/navigation-white.png
+SHA1-Digest: k0yrvGtI2ifPT9h7Im4m493KBno=
+
+Name: assets/www/images/frank-the-tank.jpg
+SHA1-Digest: PKmWw+RmdCFV07opdKRIGDQg+/4=
+
+Name: assets/www/images/icon-friend-remove-red.png
+SHA1-Digest: eqH5hEdnLR7EBbCgOR3mbE1LSa4=
+
+Name: assets/www/plugins/cordova-plugin-file-transfer/www/FileTransfer
+ Error.js
+SHA1-Digest: A3CMVfKWKtcUFE5XjCDVI1OdKvI=
+
+Name: assets/www/images/logo-nba-rockets.png
+SHA1-Digest: tdMZQP961bfEj5bde9nmwAWyfEw=
+
+Name: assets/www/plugins/cordova-plugin-globalization/www/Globalizatio
+ nError.js
+SHA1-Digest: 6LcnycI+alUW3xikKHST310Wv3c=
+
+Name: assets/www/js/profile/profile.js
+SHA1-Digest: mVNDJmx6yo4/RJQ4kOIYQ3mqma4=
+
+Name: assets/www/jquery-mobile/images/icons-png/arrow-d-r-black.png
+SHA1-Digest: WfmHMAS915PL63Xmvlq6zOmUyAo=
+
+Name: assets/www/views/settings/updateYourPictureView obsolete 2015-10
+ -08.html
+SHA1-Digest: /HR2oAparkrvqtlyH936OwdjG4g=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/test/re
+ quire.js
+SHA1-Digest: HCcQNYSp8qHSh5w9h1A1bRP1jBs=
+
+Name: assets/www/images/icon-play.png
+SHA1-Digest: 9KFsCl7j1p18vTKqpitIoezfuvk=
+
+Name: assets/www/styles/img/logo.png
+SHA1-Digest: XZI/3Lxg6VNsWuxzkwrefxy0MfM=
+
+Name: assets/www/images/logos/nfl/San_Diego_Chargers.png
+SHA1-Digest: JuUx7qxaHHEWN7dN5pH5hPbEmXE=
+
+Name: assets/www/jquery-mobile/images/icons-png/minus-black.png
+SHA1-Digest: TDZIGoUVH358b47k42gjl1sibVY=
+
+Name: assets/www/fonts/glyphicons-halflings-regular.woff2
+SHA1-Digest: yjW2l9mcrk0bYPLWD803dxmH6wc=
+
+Name: assets/www/jquery-mobile/images/icons-png/arrow-u-white.png
+SHA1-Digest: cEdX9NfP1sXpdqK+iqMA9H0uQvU=
+
+Name: assets/www/js/import/hammer.js
+SHA1-Digest: qsM1/aP4bEVxZL45EV2GBMbyZOc=
+
+Name: res/drawable/common_google_signin_btn_text_dark.xml
+SHA1-Digest: FZ+kYXArskaQnMA3gIea3HXhk7o=
+
+Name: assets/www/images/friend-follow.png
+SHA1-Digest: moe5DllfFfYoX44s7RERRGbYdeo=
+
+Name: assets/www/cordova_plugins.js
+SHA1-Digest: U4nnG2ouCi+1KrXQ4mH3KQ29Sec=
+
+Name: assets/www/images/logos/nfl/New_England_Patriots.png
+SHA1-Digest: MuZ4UGwD51MW/jVlBMDQY5jupv4=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_text_dark_pressed.
+ 9.png
+SHA1-Digest: 1UB6PKVRdqcEFc5qAOfH4P8Ubq8=
+
+Name: assets/www/images/logos/nfl/Houston_Texans.png
+SHA1-Digest: ZjHbjv2lCLpN5qNBWIbZdKpjNHA=
+
+Name: assets/www/jquery-mobile/images/icons-png/delete-white.png
+SHA1-Digest: QW/6y1BUOWqc/MFafznqK9uzXfs=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileError.js
+SHA1-Digest: gnVtzn+3H6fhbfZaTkQv7+PWp1Q=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_text_dark_pressed.
+ 9.png
+SHA1-Digest: q0cFR5EsIwskfG/BKnFT3jGVHFk=
+
+Name: res/drawable-nodpi-v4/splashscreen.9.png
+SHA1-Digest: Wbd5jXveq0LRdWz5ELczEhloik4=
+
+Name: assets/www/jquery-mobile/images/icons-png/cloud-black.png
+SHA1-Digest: 3SUJS9CvpYtRTjmG5yho8nkVotU=
+
+Name: assets/www/js/team/teampage.js
+SHA1-Digest: 7sH07/KiDlyvwVGWwBzKl76vhdg=
+
+Name: res/drawable-xhdpi-v4/ic_action_next_item.png
+SHA1-Digest: NR4QrPwnbh+SEbVIapOw4Qetu0E=
+
+Name: assets/www/js/import/AngularJS/angular-resource.min.js
+SHA1-Digest: VR4YbNqnXv12UCRSlN2InWh+HAU=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/node_mo
+ dules/cordova-promise-fs/README.md
+SHA1-Digest: n0+mULyQ2lbET+A3Lcq4H6Tv8Ts=
+
+Name: assets/www/images/logo-nfl-buccaneers.gif
+SHA1-Digest: 2K9wvvryLz1k1heRrbwRbdNsEVY=
+
+Name: assets/www/images/logo-nfl-bengals.gif
+SHA1-Digest: 46CVagiHfNqZbEXnwiNTEpmSJEA=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/package
+ .json
+SHA1-Digest: skRJX/+C3uNEchufS9eJ9OrUbQE=
+
+Name: assets/www/jquery-mobile/images/icons-png/bullets-white.png
+SHA1-Digest: iJlgHlDySI1vSpJa/N99sJW+yDc=
+
+Name: assets/www/views/dashboard/followingView.html
+SHA1-Digest: nfmCu9hkacZFfm6r+le9KOLeL2w=
+
+Name: assets/www/js/fans/fans.js
+SHA1-Digest: KZMg637ar0EbzKzgl0I7VSOSgLE=
+
+Name: assets/www/js/import/fileCache/cordova-file-cache-master/node_mo
+ dules/cordova-promise-fs/index.js
+SHA1-Digest: ev6wM4pBcd7hJ1SB8Jkfp4qc9Ns=
+
+Name: assets/www/js/import/sticky-master/jquery.sticky.js
+SHA1-Digest: ZDrkvSusvZpOq247Mu6WNgaunnA=
+
+Name: assets/www/views/view-data/settings-data.html
+SHA1-Digest: Xx8dPlr6wnHgDcIf3tnyJtI0Ipc=
+
+Name: assets/www/images/logo-nfl-colts.jpg
+SHA1-Digest: WCAlM4szbJayb4oc8fTqSNN6uXE=
+
+Name: build-data.properties
+SHA1-Digest: hw6T5aMkc1nTL2Hisc2DhOnhNiE=
+
+Name: assets/www/images/icon-delete-user.png
+SHA1-Digest: OU3vHymRSQNhCN4sqmMXU5w9Rbk=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_disable
+ d.9.png
+SHA1-Digest: 8RhCMjluPXRIovky5gX1EUZxhuk=
+
+Name: assets/www/images/logo-nfl-49ers.gif
+SHA1-Digest: c9SlIQxht1D6KCcfV6FvjDwyR88=
+
+Name: assets/www/js/ga/gainit.js
+SHA1-Digest: cLlwW+KG84HXAmNtSnkYrapdegY=
+
+Name: assets/www/images/icon-camera-video.png
+SHA1-Digest: bhrhX27b4ilP/z7Jnh8slLPsnwM=
+
+Name: assets/www/images/logo-nfl-panthers.gif
+SHA1-Digest: YjVqBIB3GRvX/nogVB73HESlXNc=
+
+Name: assets/www/images/Icon-share.png
+SHA1-Digest: 3XSD+V35eJYXAYWlCc7zCSurO84=
+
+Name: assets/www/jquery-mobile/images/icons-18-white.png
+SHA1-Digest: FoGyzN43urjxWXVJWG9YEbNJ4Wg=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_text_light_disable
+ d.9.png
+SHA1-Digest: MELhZ5xGLo3hOMEE/RoSVTp7GOM=
+
+Name: assets/www/jquery-mobile/images/icons-png/carat-d-black.png
+SHA1-Digest: 4ez8d6snVBdkQLF6Oc95P5lz1z0=
+
+Name: assets/www/views/search/searchPeopleView.html
+SHA1-Digest: jkl1UuE3HSCrTZHDS8XYi7acOmQ=
+
+Name: assets/www/styles/main.css
+SHA1-Digest: ewwL1zv7kYCCQO7jwbZ4fl3Au+0=
+
+Name: assets/www/images/logo-nfl-chiefs.gif
+SHA1-Digest: ZQsBtjsPBaHVFQoTO704MGdZQJU=
+
+Name: assets/www/js/settings/saveSettings.js
+SHA1-Digest: rjGMV5RHCc+zahg7Szkx2MRiMBU=
+
+Name: assets/www/images/share.png
+SHA1-Digest: n3RVUvuDyG45Iw38mj032iGqSe8=
+
+Name: assets/www/views/register/privacyPolicyView.html
+SHA1-Digest: ZrsqjDFpeSjkr1RljoIUImHGLI8=
+
+Name: assets/www/js/import/sticky-kit-master/dist/sticky-kit.js
+SHA1-Digest: sQt065sgHMCcZsRaZjvMzva6tbM=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_disab
+ led.9.png
+SHA1-Digest: 58Og/fmpU60HQnWtVOw7395bTkw=
+
+Name: assets/www/images/icon-arrow-next.png
+SHA1-Digest: 3RwT5ERs+xmCTPKA4z9x459ARuE=
+
+Name: assets/www/images/logos/nfl/Dallas_Cowboys.png
+SHA1-Digest: LJ1MzxONwZx267PUMiD6Wx5NbOU=
+
+Name: assets/www/js/import/iscroll/iscroll-lite.js
+SHA1-Digest: iMG+/b26Y2toMj/xbw1oSZO48h8=
+
+Name: res/drawable-xhdpi-v4/common_full_open_on_phone.png
+SHA1-Digest: n2/2ie/CRTHKb96aKs7x2D1ryPU=
+
+Name: res/drawable-hdpi-v4/ic_action_remove.png
+SHA1-Digest: fJ8PTsrpYrWc6H7e3ctCsDSiaAY=
+
+Name: assets/www/images/Wolf_logo.png
+SHA1-Digest: 0raJ9NgRIpzHQM03aMUiN79exGU=
+
+Name: classes.dex
+SHA1-Digest: dENUECg7jiAUflqMHXC4vKMgoMo=
+
+Name: assets/www/images/logo-nfl-colts.gif
+SHA1-Digest: itXxuriIN1k9e/MNQZfv4ENZqKQ=
+
+Name: assets/www/js/dashboard/reactions.js
+SHA1-Digest: rk5kt7IREObJSEIf41/Om6GR3g0=
+
+Name: assets/www/js/dashboard/20140911-reactions.js
+SHA1-Digest: av64h1BPT0w0ZcT9QbBj2AE2RJs=
+

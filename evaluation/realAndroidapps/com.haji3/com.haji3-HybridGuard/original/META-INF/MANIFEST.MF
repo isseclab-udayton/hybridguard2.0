@@ -1,0 +1,327 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: assets/www/images/88-beermug.png
+SHA1-Digest: P1lgZ044Hic/T5WegHYfj40/GKw=
+
+Name: res/xml/plugins.xml
+SHA1-Digest: wZ/UC/hNViLX8yGTylHO7Sd60ts=
+
+Name: res/xml/phonegap.xml
+SHA1-Digest: 8BV6quhQ2+9PlGoVcP1rhLY+XTw=
+
+Name: assets/www/js/PrayTimes.js
+SHA1-Digest: 19/EPHrjPkb7DbSeSGcopvhMzlE=
+
+Name: assets/www/ui/jquery.ui.map.overlays.js
+SHA1-Digest: GdhCQJY+cfN7Lf/fL85jNdGcch4=
+
+Name: assets/www/demos/css/mobile.css
+SHA1-Digest: S9H559Oi7WlI7Y7aZSSMHmYPAeE=
+
+Name: assets/www/demos/js/modernizr-2.0.6/modernizr.min.js
+SHA1-Digest: /Nhdthm/GYrqhu9dhAqmumn9o6E=
+
+Name: assets/www/images/moon.png
+SHA1-Digest: YSCIQ0hjLTEt6BcYG4ksM4Xu+3w=
+
+Name: assets/www/images/snow.png
+SHA1-Digest: Zjz45oHavGc5UcSrKjwUCwWUlDg=
+
+Name: assets/www/js/script.js
+SHA1-Digest: uFKmBVpadxR5lBVug2xU5XfJUdE=
+
+Name: assets/www/images/logo.png
+SHA1-Digest: qmWIzpidxxa0XeR32C9G+rHhPqc=
+
+Name: assets/www/demos/images/subtlepatterns.com/cubes.png
+SHA1-Digest: /p9/tnk2Y932oxfZXtTEUrm7pCA=
+
+Name: assets/www/demos/images/arrow_left_12x12.png
+SHA1-Digest: j1DsKdfRSjhMZ/FPzGU7J/5kNSI=
+
+Name: assets/www/images/dailyr.png
+SHA1-Digest: Aqqv6kKRvno8QeLmEl9rK7u8rqk=
+
+Name: assets/www/images/cloud3.png
+SHA1-Digest: X/lFnsWSnVChQOsZO1wd4hZps4w=
+
+Name: assets/www/images/call.png
+SHA1-Digest: 1xA/Y5JG4N7A0k+1N0SN02QEsdQ=
+
+Name: assets/www/images/34-coffee.png
+SHA1-Digest: litmO+9YrkUNFoOowV0AuROq8WA=
+
+Name: assets/www/demos/js/jquery-mobile-1.0/jquery.mobile.min.js
+SHA1-Digest: mkf6wAeYVXOqZXCsQcNXylLS9vg=
+
+Name: assets/www/images/home.png
+SHA1-Digest: q3Ako0s918ts9brOwPVTkz8YqLc=
+
+Name: assets/www/demos/css/960/min/960.css
+SHA1-Digest: sOvb3dmE5L/Wk8SIKJ7SRiUGO4A=
+
+Name: assets/www/images/wind.png
+SHA1-Digest: ZqrbigPcWYWeSyyp1/2MVJDWuAo=
+
+Name: assets/www/demos/css/style.css
+SHA1-Digest: IYjl377P1fxCMpLoquVRQZFjdIw=
+
+Name: assets/www/js/parsingxml.js
+SHA1-Digest: nlQ3QCU063qrmvyPHZI4xd9miII=
+
+Name: assets/www/demos/js/underscore-1.2.2/underscore.min.js
+SHA1-Digest: iRdcHXtx+snxm6AUQu9ntqKLTQ8=
+
+Name: assets/www/images/rain.png
+SHA1-Digest: KDRaxl6feHaujlD62A2JUJgDeh4=
+
+Name: assets/www/demos/js/jquery-1.7.1/jquery.min.js
+SHA1-Digest: JL3RyWwgw5QwVMFGNAJDzPiO754=
+
+Name: assets/www/images/main-logo.png
+SHA1-Digest: m8jzQAmfaJETg+ZIszMwdDZZG2Y=
+
+Name: assets/www/js/jquery.mobile-1.2.0-rc.2.min.js
+SHA1-Digest: WiuGnGDd6J3mACtKeY8Gx/6CoeE=
+
+Name: assets/www/demos/css/960/min/960_16_col.css
+SHA1-Digest: s+pRTttYJJoLxFrVZ+JWNC7l8OE=
+
+Name: assets/www/childbrowser/icon_close.png
+SHA1-Digest: rHNRiJp2kDSyCKsTBJG0UroTngY=
+
+Name: resources.arsc
+SHA1-Digest: ZeFoxpTOvIm92HGefhuv7GP2a0M=
+
+Name: assets/www/ui/min/jquery.ui.map.microformat.min.js
+SHA1-Digest: otzS5B7fzvnSN+y4nv2ufsv5DnA=
+
+Name: assets/www/ui/min/jquery.ui.map.full.min.js
+SHA1-Digest: iy7M4PDnKB7tKh8mMS4d0iWJ9Pc=
+
+Name: assets/www/images/icons-18-black.png
+SHA1-Digest: 2zOURmgG7TYicOGnxfSucQo6Lxg=
+
+Name: AndroidManifest.xml
+SHA1-Digest: b72NrinpdEErAIFrmH7pBdU8Q4U=
+
+Name: assets/www/js/cordova-1.5.0.js
+SHA1-Digest: G+g69WCPiwHpfT9cps2Om/5fj3A=
+
+Name: assets/www/js/jquery.mobile-1.2.0.min.js
+SHA1-Digest: hBK1QkzSpbRMT4gLzKfwBZmN8Lw=
+
+Name: assets/www/images/cloud2.png
+SHA1-Digest: X/lFnsWSnVChQOsZO1wd4hZps4w=
+
+Name: assets/www/demos/css/jquery-mobile-1.0/images/icons-18-white.png
+SHA1-Digest: tCGQR9+4nuHSGL7W4Uvpw1QJYeE=
+
+Name: assets/www/childbrowser/icon_arrow_right.png
+SHA1-Digest: 3ZdonAGfCs7U1XgF3F8LEMCmf3c=
+
+Name: assets/www/images/cloud_moon.png
+SHA1-Digest: XkT3gH3AwN8hjGkPAOat/umW3YI=
+
+Name: assets/www/images/ajax-loader.gif
+SHA1-Digest: r7Wo1RXseyxOXYv8y0kPtbYDEcM=
+
+Name: assets/www/demos/js/jquery.ui-1.8.15/jquery.ui.autocomplete.min.
+ js
+SHA1-Digest: QO2+9WF2LowwCv1izmw/zetUFw8=
+
+Name: assets/www/ui/min/jquery.ui.map.rdfa.min.js
+SHA1-Digest: dTevYogE6AUvnDxAf+wfznseHNM=
+
+Name: assets/www/images/masjid.png
+SHA1-Digest: 9pXrQrgePwGZfUbNIH5ZDuY/NmQ=
+
+Name: assets/www/images/hotels.png
+SHA1-Digest: 4V8kBeX4zMI3shTre5d7AGmDs9s=
+
+Name: assets/www/images/cloud.png
+SHA1-Digest: X/lFnsWSnVChQOsZO1wd4hZps4w=
+
+Name: classes.dex
+SHA1-Digest: wbYcpoNvNRUlLIjAZggk9alqvLg=
+
+Name: assets/www/images/bodybg.png
+SHA1-Digest: VMCHDMdplR7h3vj638UeW9XEDpw=
+
+Name: assets/www/demos/js/marker-with-label-1.1.5/marker.with.label.mi
+ n.js
+SHA1-Digest: a8AatXroNAjdfMbYuj8Qth2o9tU=
+
+Name: assets/www/images/drizzle.png
+SHA1-Digest: Z0aGyPUA0LOIsiSUozZfIPoSol8=
+
+Name: assets/www/js/jquery-1.8.2.min.js
+SHA1-Digest: FJtRgMud4/ZG/CaAJECmrG51jUA=
+
+Name: assets/www/childbrowser/icon_arrow_left.png
+SHA1-Digest: zzWYeGSlCHBiMNavUTTOsVRdMLI=
+
+Name: assets/www/demos/js/prettify/prettify.min.js
+SHA1-Digest: pOWTQ5f5f3m4BmmER1yQr4qXCjY=
+
+Name: assets/www/images/icons-36-black.png
+SHA1-Digest: DGqbtw+P5PhIuHjyBMRH028+Ewk=
+
+Name: assets/www/images/icons-36-white.png
+SHA1-Digest: vIWVJEKtjCzYnYP40K7owpeZbWA=
+
+Name: assets/www/images/30-key.png
+SHA1-Digest: jmCYbDUVQ2B8xQzEFhVTo6szAqk=
+
+Name: assets/www/images/weather.png
+SHA1-Digest: R+02F/NFGjUnbZ+sDWZdTj3st1U=
+
+Name: assets/www/images/sun.png
+SHA1-Digest: krKmkzZTmB6C0RivPjaJRb+4TmQ=
+
+Name: assets/www/ui/jquery.ui.map.services.js
+SHA1-Digest: 3XT25+gvQxTxW/5VM8f55Fn3CH0=
+
+Name: assets/www/images/lost.png
+SHA1-Digest: vAXH8W96J7B5ZrkxbQwzjQUJoDk=
+
+Name: assets/www/ui/jquery.ui.map.rdfa.js
+SHA1-Digest: 8oftJ5E0Q8VBic1yDBliV8btr8Q=
+
+Name: assets/www/ui/min/jquery.ui.map.services.min.js
+SHA1-Digest: /nWY6N1uZPTCyZfdi3zWr7KF65k=
+
+Name: assets/www/js/weather.js
+SHA1-Digest: wpWaqam6XdTm8NE4zefoy7TCIUw=
+
+Name: assets/www/css/styles.css
+SHA1-Digest: hoXBWuuRqgkBr+yc3BiBQhBfxb8=
+
+Name: assets/www/ui/jquery.ui.map.extensions.js
+SHA1-Digest: Z1dyLNf2eVcJJ02Fxi4P04W7gqk=
+
+Name: assets/www/demos/css/prettify/min/prettify.css
+SHA1-Digest: jhyJyaRODoN1Ub3+JQpnLWwh8rc=
+
+Name: assets/www/js/smsplugin.js
+SHA1-Digest: LLIwxfJnqTzghVSr7sDQCsP8j9M=
+
+Name: assets/www/demos/js/markerclustererplus-2.0.6/markerclusterer.mi
+ n.js
+SHA1-Digest: fjAtIxLRgJIR9R5hNzTXfwgweio=
+
+Name: assets/www/images/hajj.png
+SHA1-Digest: 7ftDLspvYcVWuHN/0hC95GWTh7k=
+
+Name: assets/www/demos/css/normalize/min/normalize.css
+SHA1-Digest: scBzJS2K/a9fKqBm43ylJAQh/Uk=
+
+Name: assets/www/images/icons-18-white.png
+SHA1-Digest: Sg/1e3EgtouxOiw7H+43z5uv5Xo=
+
+Name: assets/www/demos/css/jquery-mobile-1.0/jquery.mobile.css
+SHA1-Digest: Ii6XGwUoi4sRKMcJF0eFKqc1gsI=
+
+Name: assets/www/ui/jquery.ui.map.microformat.js
+SHA1-Digest: GygkJaLa/6k5QpzzUs8vX9bPtPw=
+
+Name: assets/www/js/childbrowser.js
+SHA1-Digest: iT8uBnaQoCdyleGtzQGkAy7qkcM=
+
+Name: res/layout/main.xml
+SHA1-Digest: NVo2B3gaRtIYoVnDyneZA+DL9Dw=
+
+Name: assets/www/images/cloud1.png
+SHA1-Digest: X/lFnsWSnVChQOsZO1wd4hZps4w=
+
+Name: assets/www/css/jquery.mobile-1.2.0-rc.2.min.css
+SHA1-Digest: vLt5+1KuF9mEq7BPHiR+99aVbAA=
+
+Name: assets/www/images/19-gear.png
+SHA1-Digest: cP3aGaoXsdsVd47N+eQD/FmHxU8=
+
+Name: assets/www/images/snowflake.png
+SHA1-Digest: hHYKyYNRWUGMtxPBaqgllAFGL9w=
+
+Name: assets/www/ui/min/jquery.ui.map.overlays.min.js
+SHA1-Digest: UHcDvVRR33gnLcXwpNaaCMDGVRM=
+
+Name: assets/www/index.html
+SHA1-Digest: gqTfMA0497jN2AduXsd0mkvr+Gc=
+
+Name: assets/www/images/18-envelope.png
+SHA1-Digest: rWmscdeBPA5Ks2lE75+M1npUiVE=
+
+Name: assets/www/js/googlemap.js
+SHA1-Digest: XbuiHzZyAyG0Yu1i+7Z5B1tmrtM=
+
+Name: assets/www/images/21-skull.png
+SHA1-Digest: u4glpD4FK4VvsYZa9UoPDR2jU24=
+
+Name: assets/www/demos/css/jquery-mobile-1.0/images/ajax-loader.png
+SHA1-Digest: OsJZu2fGQUmOP38E3RClzRS7SBI=
+
+Name: assets/www/images/icn_alert.png
+SHA1-Digest: XjlZsGu3IlVHu+lXI5A8u37HWu8=
+
+Name: assets/www/images/hail.png
+SHA1-Digest: YJTpxys9VnlzURXTzzBMTxr3ut0=
+
+Name: assets/www/ui/min/jquery.ui.map.min.js
+SHA1-Digest: 3zLkfTCXFwtJdmo8jBPrgdFpdaE=
+
+Name: assets/www/images/100-coffee.png
+SHA1-Digest: w3VArZLdtMxQVF900ZIC/hxMi9o=
+
+Name: assets/www/js/googleMapWithGPS.js
+SHA1-Digest: h/UEQ89LB2TKm986Y4886NqyBIA=
+
+Name: assets/www/demos/js/backbone-0.5.3/backbone.min.js
+SHA1-Digest: 2mJNS4KNTM56qoKVpU6rJtHPeso=
+
+Name: assets/www/demos/js/demo.js
+SHA1-Digest: sdvHdDMxygclyJQIq9CBuV5dzGg=
+
+Name: assets/www/images/gmaps.png
+SHA1-Digest: 9AXJtXGophpSjyhEuTe0i7CV1Qo=
+
+Name: assets/www/images/lightning.png
+SHA1-Digest: SWn+3zfzs7gFJCAoAw2AjHh/SCM=
+
+Name: assets/www/demos/images/arrow_right_12x12.png
+SHA1-Digest: /2poQ9ve12OhJQ797RRrdDmUMeE=
+
+Name: assets/www/demos/json/demo.json
+SHA1-Digest: 6mCKrR8bQWI6tKpmsPY1tnIymmY=
+
+Name: assets/www/images/storm.png
+SHA1-Digest: czsddtrksf/ITHfeq3U8rojhjyE=
+
+Name: assets/www/images/preloader.gif
+SHA1-Digest: 0eSK8yL78CKQY2Ko538ZXZdfVnU=
+
+Name: assets/www/images/fog.png
+SHA1-Digest: X/lFnsWSnVChQOsZO1wd4hZps4w=
+
+Name: assets/www/images/cloud_sun.png
+SHA1-Digest: XCSCzD7QL3YOjlH299MWam4LTA4=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: 3CpGGcz/4/MA41+ayOdO0ydGhvA=
+
+Name: assets/www/ui/min/jquery.ui.map.microdata.min.js
+SHA1-Digest: juyHQNH7zk0ovRtfV/WHImlnMZs=
+
+Name: assets/www/images/msj.png
+SHA1-Digest: Gnkk+itSqScTkzzI7xvJZkyYhBw=
+
+Name: assets/www/images/09-chat2.png
+SHA1-Digest: QV5dvgUDWcycEOeNTOVqSRA24FM=
+
+Name: assets/www/ui/jquery.ui.map.js
+SHA1-Digest: XTSifFblCtrEnrde49AS8Qtpgzk=
+
+Name: assets/www/ui/jquery.ui.map.microdata.js
+SHA1-Digest: dUc1Zv+kkLn3OAMAfR/yEM3r5vY=
+

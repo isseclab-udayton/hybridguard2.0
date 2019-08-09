@@ -1,0 +1,32 @@
+{
+	"31120000": {
+		"id": 31120000,
+    	"area": 1,
+    	"areaimg": "http://www.talent.upc.edu/images/areas_professionals/especifiques_cursos/31120000_DesignManagement.jpg",
+    	"leading": true,
+		"title": "Design Management",
+		"subtitle": "Postgrau Presencial. 2a Edició",
+		"presentation": "<p>El disseny és un concepte molt més global que el que es limita purament a dibuixar o definir formes, objectes i productes. La figura del Design Manager és la d'un professional que es dedica a pensar el disseny com un actiu important per a la companyia, i en com gestionar-lo estratègicament per dotar l'empresa o la institució d'una posició capdavantera al mercat, obtenint rendibilitat i fidelitzant clients i usuaris.</p><p>L'oportunitat per al Design Manager és demostrar de quina manera el disseny pot ajudar a vincular creativitat i innovació, de manera que tots dos conceptes puguin crear i afegir valor. El disseny pot incloure una àmplia gamma d'activitats que es destinen a planejar i elaborar procediments, especificacions tècniques i altres característiques funcionals per a nous productes i/ o serveis.</p><p>La missió d'un Design Manager és, doncs, la de desenvolupar, organitzar, planificar i controlar els recursos del disseny a l'organització, amb l'objectiu d'augmentar la competitivitat de la empresa. Aquest postgrau pretén oficialitzar una figura que ja funciona a les companyies i institucions punteres internacionalment, però que fins ara no comptava amb una formació específica i de referència al nostre país.</p>",
+		"aims": "<ul><li>Proporcionar als participants eines per desenvolupar el seu pensament prospectiu, creatiu i d'innovació.</li><li>Identificar el nou rol del gestor del disseny com a catalitzador del coneixement i impulsor de noves formes de pensament per a la creació col·lectiva.</li></ul>",
+		"whoisitfor": "<ul><li>Professionals de departaments de disseny i/o responsables de I+D+I en organitzacions i institucions.</li><li>Directius que, sense tenir reconeguda la categoria de Design Manager, i de formació acadèmica heterogènia, són els responsables del disseny estratègic a les seves empreses.</li></ul>",
+		"duration": "30 ETS ( 200 hores lectives )",
+		"start_date": "11/2011",
+		"end_date": null,
+		"registration_fee": "4950 €"
+    },
+    "31121100": {
+    	"id": 31121100,
+    	"area": 1,
+    	"areaimg": "http://www.talent.upc.edu/images/areas_professionals/especifiques_cursos/31121100_Lighting.jpg",
+    	"leading": false,
+		"title": "Lighting Design",
+		"subtitle": "Postgrau Presencial. 3a Edició",
+		"presentation": "<p>La llum d'un espai ens ajuda a crear emocions i sensacions. Un clima més càlid, un ambient màgic o relaxant, i fins i tot una sensació de moviment i dinamisme: tot això ho pot transmetre la il·luminació d’un edifici o d’un entorn. Aquest postgrau en Lighting Design ofereix, de manera pionera a Barcelona, una formació completa sobre la il·luminació, un element clau en el disseny d'interiors i exteriors.</p><p>La llum és un element capaç d’aportar a un espai tots els matisos que el definiran visualment. En la seva aplicació conviuen components tant plàstics com tècnics. El domini i l’equilibri entre aquests factors és el que converteix la llum en un element gairebé prodigiós amb una gran capacitat transformadora, comunicativa i sensitiva. Els alumnes d’aquest postgrau, a través de la pràctica, adquiriran els coneixements necessaris per dissenyar i projectar la llum i la seva integració en un espai concret, des d’un punt de vista emocional i alhora funcional.</p><p>La complexitat de les normatives sobre estalvi energètic ha propiciat que la il•luminació sigui contemplada com un element importantíssim en el disseny dels espais, i que requereixi, cada cop més, d’una especialització professional.</p><p>Al llarg d’aquest programa, es plantegen projectes de diferent tipus i categories que reflecteixen els diversos camps d’actuació d’un lighting designer: espais interiors i exteriors; espais comercials; espais expositius; paisatges urbans i edificis institucionals, entre d’altres.</p>",
+		"aims": "<ul><li>Conèixer el llenguatge i les tècniques que envolten el món de la llum: els conceptes i la tècnica.</li><li>Ser capaç de plantejar el disseny lumínic d’un projecte tant d’interior com d’exterior.</li><li>Definir els requeriments lumínics integrats al projecte arquitectònic i al projecte executiu.</li><li>Aplicar tècniques de representació i comunicació d’un projecte.</li><li>Oferir les novetats del mercat i fomentar l'intercanvi de coneixements entre els professionals del sector.</li></ul>",
+		"whoisitfor": "<ul><li>Arquitectes i Enginyers superiors i tècnics que vulguin especialitzar-se en el disseny d'il·luminació</li><li>Dissenyadors i Interioristes</li><li>Llicenciats en Belles Arts i Escenògrafs</li><li>Professionals que es dediquin a feines de composició, amb coneixements de dibuix i sistemes de representació digital</li></ul>",
+		"duration": "30 ETS ( 236 hores lectives )",
+		"start_date": "15/11/2011",
+		"end_date": "19/06/2012",
+		"registration_fee": "4860 €"
+    }
+}

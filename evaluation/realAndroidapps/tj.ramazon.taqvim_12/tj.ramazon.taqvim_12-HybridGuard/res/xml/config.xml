@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget android-versionCode="9" id="tj.ramazon.taqvim" version="2.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Vibration">
+        <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="LocalNotification">
+        <param name="android-package" value="de.appplant.cordova.plugin.localnotification.LocalNotification" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>mRamadan</name>
+    <description> A cross-platform application that assissts people during fasting.
+</description>
+    <author email="contact@oxuslabs.com" href="http://www.oxuslabs.com"> OxusLabs Team
+</author>
+    <content src="index.html" />
+    <access origin="http://127.0.0.1*" />
+    <access origin="http://10.0.2.2*" />
+    <access origin="*" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="AndroidLaunchMode" value="singleTop" />
+    <preference name="useBrowserHistory" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="fullscreen" value="false" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="7000" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+</widget>

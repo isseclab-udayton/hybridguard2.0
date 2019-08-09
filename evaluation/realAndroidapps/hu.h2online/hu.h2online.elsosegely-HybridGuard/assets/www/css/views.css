@@ -1,0 +1,11 @@
+div.header {
+	background: rgb(233,87,61);
+}
+.header h1 {
+	padding: 18px 15px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.situations-list-view ul li.situation-list-item {
+    background-size: 10px;
+}

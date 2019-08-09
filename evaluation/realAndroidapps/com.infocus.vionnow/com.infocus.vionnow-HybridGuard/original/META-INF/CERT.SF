@@ -1,0 +1,493 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: UAxB+1bpODu4g01KDRZQ9GR5Xrc=
+
+Name: assets/www/img/icons/default/store-default.png
+SHA1-Digest: knR181XOP5VWdRRY5HBBJTOzNaM=
+
+Name: assets/www/js/storage_cat_dlg.js
+SHA1-Digest: Ewyikm+ly1i9svDOs2Eh6tAuPdU=
+
+Name: res/xml/config.xml
+SHA1-Digest: VpudPTYLzWJun/QVJDsku0pVg2Q=
+
+Name: assets/www/js/barcode.js
+SHA1-Digest: 5MCbpnzA04OPZkzyLr4a8OqeXIs=
+
+Name: assets/www/gruss.dtd
+SHA1-Digest: YtChD9AxVFauq/u0p9u/vSkNJ+w=
+
+Name: res/layout-land/share.xml
+SHA1-Digest: j30oL5hdbyQPPvisdFo5orggsGo=
+
+Name: assets/www/img/icons/default/app-position.png
+SHA1-Digest: WlYr6hWE1Af2LjWDmXKLMorM8zQ=
+
+Name: assets/www/img/dummies/banner.png
+SHA1-Digest: NW/2VSke85mveOLKg/l8eLUoLBU=
+
+Name: res/layout/share.xml
+SHA1-Digest: rhGO7sgn2ytddrh6wv99fFvP52s=
+
+Name: res/layout-ldpi/capture.xml
+SHA1-Digest: uCwZ6aW91chYL09+g5rxyYSI/3A=
+
+Name: assets/www/img/gfx/storage_03@1x.png
+SHA1-Digest: 0QBRrB+ZA67g1EzfbcxuDQarCNo=
+
+Name: assets/www/img/icons/hd/store-cinema.png
+SHA1-Digest: Nlax8koQi0Q9FtsreDWke0M4kh4=
+
+Name: assets/www/img/icons/hd/app-folder.png
+SHA1-Digest: 8Jgn/ymbe+ilMw+bCWeFTW9XmUM=
+
+Name: assets/www/js/genre_movies.js
+SHA1-Digest: 1aeg6ZlXRL7/3mjlBXQgC5LPwdU=
+
+Name: assets/www/img/voting_plus.png
+SHA1-Digest: gZsmBwvkwm4nckEloFfA5HEt5T8=
+
+Name: assets/www/js/android/childbrowser.js
+SHA1-Digest: +w4d1eMmJ5yOJ3N6AHlzJZF19bA=
+
+Name: res/drawable-hdpi/shopper_icon.png
+SHA1-Digest: F09aGPJY1b0yi6palNYfqXvh9P4=
+
+Name: assets/www/js/db.js
+SHA1-Digest: kJeXrrT8j52vfaIixDEQn6Vvm4o=
+
+Name: assets/www/jqm/images/icons-18-white.png
+SHA1-Digest: Idy03CZUfBdKXWxxZpnsq7VP8g4=
+
+Name: assets/www/img/icons/hd/app-globe.png
+SHA1-Digest: e1K8lrhR0SM+FvmCtgdX2KfiDHw=
+
+Name: assets/www/img/gfx/storage_01@1x.png
+SHA1-Digest: rvDuV8vv9LEYTDF7tpHKyLKVT6k=
+
+Name: assets/www/js/ios/EmailComposerAtt.js
+SHA1-Digest: 4oGc9/ZcnG7s62Fg65TrV6AD2eA=
+
+Name: res/drawable-hdpi/launcher_icon.png
+SHA1-Digest: ItjUKaA96bYMbrKdQUc9YC7b/2E=
+
+Name: assets/www/img/gfx/storage_01@2x.png
+SHA1-Digest: YqvHLZduaRfnuWG/g+oXcM+Q8xo=
+
+Name: assets/www/img/icons/hd/store-home.png
+SHA1-Digest: EJwkkXNtMeevK1ZXcRX8DlOMVFw=
+
+Name: assets/www/js/storage_edit.js
+SHA1-Digest: iC642F7VBpKEgccn42HMK1anlCw=
+
+Name: assets/www/cordova-2.1.0.js
+SHA1-Digest: vvI6/7DVSft86OnaqDEwHBCsyRc=
+
+Name: res/layout-land/encode.xml
+SHA1-Digest: 52Rj72EBWRlDVouZPBrfWo72csY=
+
+Name: assets/www/img/gfx/storage_02@1x.png
+SHA1-Digest: 2kDXBnH+KjRwXXAgWJ3FaPha0lo=
+
+Name: assets/www/img/icons/hd/app-search.png
+SHA1-Digest: q4LPovu5jFVebC4GmiDjYujrVoU=
+
+Name: assets/www/img/icons/hd/app-clapboard.png
+SHA1-Digest: 0jybaKNMJPHIy6cp72oaNJiE4MU=
+
+Name: assets/www/js/ios/EmailComposer_bugfix.js
+SHA1-Digest: /5qQ10Grm+kHkXIAb3T2fZbmyLQ=
+
+Name: assets/www/img/gfx/light.png
+SHA1-Digest: iTUt5pUGNz7Trq/vQi6I/sMqivQ=
+
+Name: assets/www/js/news.js
+SHA1-Digest: An6u0b7a6eNBzJiisdpvp+QtCgE=
+
+Name: assets/www/gruss.html
+SHA1-Digest: zuBpgu1L7KSBn2zFhPCoavgZKbg=
+
+Name: assets/www/img/icons/default/store-home.png
+SHA1-Digest: 3clVXJVo4vYurGYDXuLo5xOt+vM=
+
+Name: assets/www/img/gfx/cover-shine@2x.png
+SHA1-Digest: 2eE9JYLfo2GboIz1V0K1cAihMkQ=
+
+Name: res/drawable-hdpi/ic_action_search.png
+SHA1-Digest: WvsoZfcfGbz7vtTCwzXLh3VcxFw=
+
+Name: assets/www/js/swipe.js
+SHA1-Digest: CAGiAs9T+QA9WEL0JUb5Kr/CINE=
+
+Name: res/drawable/launcher_icon.png
+SHA1-Digest: z1xWFNSb8Bo8KEe+CDnSVYhd7Bk=
+
+Name: assets/www/js/movie_detail.js
+SHA1-Digest: 63Y+xu+RFl+38Vn5bDb854t9ddc=
+
+Name: assets/www/js/news_detail.js
+SHA1-Digest: 9ZCPhwlfqRZ3owlLN11adwl3uhI=
+
+Name: assets/www/gruss1.html
+SHA1-Digest: 8WxkG1d1vSXRC1C/KTnq/mEH4RY=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: Un3+0ZVWSbruM2VsdfNwnuBLZyU=
+
+Name: res/drawable/share_via_barcode.png
+SHA1-Digest: xueox/aadYoTyPW0Irz+cTgnKA0=
+
+Name: assets/www/js/new_movies.js
+SHA1-Digest: gEl3aU8RSKygF+zFnwqCGJ0APgs=
+
+Name: assets/www/js/storage_list.js
+SHA1-Digest: y79WiFn9xUZvxapsghEzdmbEdRk=
+
+Name: assets/www/childbrowser/icon_close.png
+SHA1-Digest: OV8+i0JFoxGKQJtbAiGBIJdSqmg=
+
+Name: resources.arsc
+SHA1-Digest: 7D6QH/58bCP+hjlGeN1VJqtG57I=
+
+Name: assets/www/img/storage_geliehen.png
+SHA1-Digest: RFd42VjlttCPzrH2tk85KzkC1Uc=
+
+Name: assets/www/jqm/jquery.mobile-1.2.0.min.css
+SHA1-Digest: sWrHuGReTOevJ8nfo66/J15Im7w=
+
+Name: AndroidManifest.xml
+SHA1-Digest: mai2uTWqkLIiOGnljBXRAzwouII=
+
+Name: assets/www/img/icons/default/app-letter_open.png
+SHA1-Digest: EuyZ5YAeXe+GJa14JaDnJHdtoAk=
+
+Name: assets/www/img/icons/default/app-star.png
+SHA1-Digest: yxPZdWUG8k47QqUBSZJHs2HZjI8=
+
+Name: assets/www/img/icons/default/store-default-alt.png
+SHA1-Digest: 5bAx/DP2OpvLHHhwMwJpSyQKLaM=
+
+Name: assets/www/img/icons/default/app-folder.png
+SHA1-Digest: +QpzsuLNY6GGWbh993CH/mWW9E4=
+
+Name: assets/www/img/icons/hd/app-position.png
+SHA1-Digest: RAp5SMNWnlFn4+d/aMSvxtfA5d8=
+
+Name: assets/www/js/start.js
+SHA1-Digest: WI2vX0B0njQqUWpUwRHndqnS2bI=
+
+Name: assets/www/EmailComposeralt.m
+SHA1-Digest: HcM7GWRkzgcFShaTyzAQXQvi3+k=
+
+Name: assets/www/img/icons/default/app-scales.png
+SHA1-Digest: bwW9vUUpgYekxh87T5pemHJYaCw=
+
+Name: assets/www/childbrowser/icon_arrow_right.png
+SHA1-Digest: IDmgA+QgAuKhM7dDQkagwFEs2JA=
+
+Name: assets/www/cordova-2.0.0.js
+SHA1-Digest: CtMb3rXmuVsuDvarAS7X+xM3MGg=
+
+Name: assets/www/jqm/jquery.mobile-1.2.0.css
+SHA1-Digest: bVE2Dn9r1VPUuFQ+JGkinnNWArQ=
+
+Name: assets/www/js/login_cloud.js
+SHA1-Digest: Ra3CfmVNRrmclMp726hp2ND3itg=
+
+Name: assets/www/flexslider/jquery.flexslider-min.js
+SHA1-Digest: +MvRApRG4OTYluOeCw2pBjXsXgg=
+
+Name: assets/www/img/gfx/inner-shadow.png
+SHA1-Digest: KwJUF29Sxg/ub9vB1h9X2Pj0iR8=
+
+Name: assets/www/img/icons/default/app-search.png
+SHA1-Digest: FATfLTJnfBe68HS7gHzTLBDAXD0=
+
+Name: classes.dex
+SHA1-Digest: pVKncmKPuMp4psDZDPtKit5a5QQ=
+
+Name: assets/www/img/voting_minus.png
+SHA1-Digest: LqH0zPJ4STK6e2ZKPOr0X7a3V/M=
+
+Name: assets/www/js/suggest.js
+SHA1-Digest: 6KM8oQr6HibskOEb6I3tP4CGJ8Q=
+
+Name: assets/www/childbrowser/icon_arrow_left.png
+SHA1-Digest: tQs+gC8OVjiw2yAOYYhdf/g1cYA=
+
+Name: assets/www/img/no_image.gif
+SHA1-Digest: Gvjt5HPyseQZ25Fuw30BckM6Y3s=
+
+Name: res/menu/activity_vionnow.xml
+SHA1-Digest: J7CPdn9paroj2xIWtF1rcgKqjLo=
+
+Name: assets/www/img/icons/default/store-rent.png
+SHA1-Digest: Nqe2b9i9B7I4qetQ3o/wVRpfVrc=
+
+Name: res/drawable/shopper_icon.png
+SHA1-Digest: P8mu/QQUOMzMqG8WvrR1gxxciKg=
+
+Name: assets/www/jqm/images/icons-18-black.png
+SHA1-Digest: TiqC0qHLFJQ++CzDMtfpOWTluU8=
+
+Name: assets/www/img/gfx/storage_02.png
+SHA1-Digest: EUfnHn7wD2qu+kQ0cmys3CzAYC4=
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: m7sNGFlA3eRD30La6rMGy/8hP+g=
+
+Name: assets/www/img/icons/default/store-rent-edit.png
+SHA1-Digest: cp1hR3+DFOlqvEgvosatJ7S5BBU=
+
+Name: assets/www/jqm/images/ajax-loader.gif
+SHA1-Digest: 17LtTLNBOJtlfkQ2cs7ASCC1TPs=
+
+Name: res/drawable-mdpi/ic_action_search.png
+SHA1-Digest: jAGFiT7RUDOYcmBQqk2FP01Xtb0=
+
+Name: res/xml/preferences.xml
+SHA1-Digest: 6xHvYMfl2Z6GzNJMLEAAC/CV0Lw=
+
+Name: assets/www/img/icons/default/app-globe.png
+SHA1-Digest: MCHIkCQwpuSxIb3rh/BWFwZXhik=
+
+Name: res/drawable-hdpi/splash.png
+SHA1-Digest: Lah+XwaGDRnPQxeQpKN6FqltVdY=
+
+Name: assets/www/flexslider/flexslider.css
+SHA1-Digest: K1/urCeA0FT7cwFzXnMjGXxzfa4=
+
+Name: res/layout/network.xml
+SHA1-Digest: ukQx+OETPQ35rHQPSoo33B5H1uM=
+
+Name: assets/www/master.css
+SHA1-Digest: Yqp4dJcA7jWQfGXjUB1fGE1oNQs=
+
+Name: assets/www/jqm/jquery.mobile.theme-1.2.0.css
+SHA1-Digest: kYFZt4lisKBuu4d0ficwfZkjzAg=
+
+Name: assets/www/js/jquery.swipe.js
+SHA1-Digest: OtXxEu8wli3FFySNl5DvqGhypU0=
+
+Name: assets/www/jqm/jquery.mobile-1.2.0.min.js
+SHA1-Digest: 51XFs4RALgbeIWkCTpuBiHZ56z4=
+
+Name: assets/www/EmailComposer.m
+SHA1-Digest: qwfLfwCfFn/tKqkBZOSgNjNvtxk=
+
+Name: assets/www/img/icons/hd/store-wishlist.png
+SHA1-Digest: hu5RU3FNzL8YoR4/7cp3vZhxxrM=
+
+Name: assets/www/img/icons/default/store-wishlist.png
+SHA1-Digest: zBUt7q2y50bQxXE+5ZACncXD/nA=
+
+Name: assets/www/js/ios/video.js
+SHA1-Digest: abgxxeKMFdOknui1fn5GntZhMMY=
+
+Name: res/layout/capture.xml
+SHA1-Digest: QbCq30bz0aLB7OwP9jyN4LzsJu8=
+
+Name: assets/www/jqm/jquery.mobile-1.2.0.js
+SHA1-Digest: Wo3hCcm0B8jA1akQbk4KNpLAR18=
+
+Name: assets/www/js/android/send_email.js
+SHA1-Digest: nfVDoJqIgAFeQaaZukBrwd7RbhU=
+
+Name: assets/www/img/icons/hd/app-star.png
+SHA1-Digest: 726u0/2ufmsYYcgKqwuoUus8D6w=
+
+Name: assets/www/img/icons/default/store-cinema.png
+SHA1-Digest: mbXP+1fAA5jA+hc0S/YXoByK2so=
+
+Name: res/raw/beep.ogg
+SHA1-Digest: swN9tJue4UsGRYOvaFiQcrztfsA=
+
+Name: assets/www/img/gfx/storage_01.png
+SHA1-Digest: 7rzFqysCb9pEWdiZbH5XssRre1I=
+
+Name: assets/www/js/ios/barcodescanner.js
+SHA1-Digest: nlJhbLfpZzLTQbdcrSVTC5Kua1U=
+
+Name: assets/www/js/random_movie.js
+SHA1-Digest: dfwqn5fRWf7IRv/p3Yu4n2wPW0s=
+
+Name: res/drawable-xhdpi/splash.png
+SHA1-Digest: HeGFdVw/1EkgT0bo+HwTw5i/v8Q=
+
+Name: assets/www/img/icons/default/store-watched.png
+SHA1-Digest: B8Ixarrcs/luPMCMa/tkbFQcA5k=
+
+Name: res/layout/bookmark_picker_list_item.xml
+SHA1-Digest: LCoronG5AaxoMo1iCG5WdqPkazU=
+
+Name: assets/www/js/ios/CDVVideo.js
+SHA1-Digest: /bRxzSIaXPQWjrA2R4a58tdKKy0=
+
+Name: assets/www/js/android/barcodescanner.js
+SHA1-Digest: NfRZBAXlC/LLcka+LUideb1DtuA=
+
+Name: assets/www/img/gfx/shadow.png
+SHA1-Digest: 0faUpKKw7DXluTAQvhRgi6cyteA=
+
+Name: assets/www/js/emails.js
+SHA1-Digest: jNGwaoMQWfL6aColGGj+bxeoiBc=
+
+Name: assets/www/jqm/jquery.mobile.structure-1.2.0.css
+SHA1-Digest: 1ez55Vf6UDSq88Gn5Rhdqmor/iY=
+
+Name: assets/www/img/swipe-icon.png
+SHA1-Digest: DKovdI4M4XzcZAwRMpOPxeYMVpY=
+
+Name: assets/www/index.html
+SHA1-Digest: 1X/mCCRle1DJEZmP7/3ZElAfhpg=
+
+Name: res/drawable-xhdpi/ic_action_search.png
+SHA1-Digest: 772ITFXOlprwo44bOLvLMa3Vdeg=
+
+Name: assets/www/js/storage_edit_dlg.js
+SHA1-Digest: +Cd6eup9DYwhgN5sTvxvxjnfirA=
+
+Name: assets/www/jqm/jquery-1.8.2.min.js
+SHA1-Digest: fi+uOAl1dmlh1/90Tp+SIZWLY0Y=
+
+Name: assets/www/img/gfx/storage_03@2x.png
+SHA1-Digest: t1dPmUX2fHwH05SoniKy6hZ2mxE=
+
+Name: assets/www/img/icons/default/store-home-edit.png
+SHA1-Digest: 7CAXNf2IsC78kBU4YzNlKR9M6fE=
+
+Name: assets/www/js/android/webintent.js
+SHA1-Digest: WaZTekW6qgDkcCNOicel73k2U+U=
+
+Name: assets/www/img/icons/hd/app-barcode.png
+SHA1-Digest: NzwoCXU53DRX5SgcyHT9jGZgcjc=
+
+Name: assets/www/img/testcover.jpg
+SHA1-Digest: kYiz0aEg+2e2lNbvyDMgFeMnBho=
+
+Name: assets/www/js/storage_list_edit.js
+SHA1-Digest: YH93+FzFyhX4bh0PFa5njVtfmKI=
+
+Name: assets/www/js/upcoming_movies.js
+SHA1-Digest: 4fPw/UTUjXfIYOVNHReZreO+XNI=
+
+Name: res/layout/encode.xml
+SHA1-Digest: 6ceEjkEMp0IvzY595nRw9fEOyIw=
+
+Name: assets/www/img/play.jpg
+SHA1-Digest: k2VNoche0RA2PFcLgh7kGaJ1Gx8=
+
+Name: assets/www/img/icons/default/app-clapboard.png
+SHA1-Digest: mbWQFzUHX9tLcXbIhS0lw/djw98=
+
+Name: assets/www/img/icons/default/app-camera.png
+SHA1-Digest: BaBtsNEH/odOmA6yjjHYCuvjjqk=
+
+Name: assets/www/gruss.xml
+SHA1-Digest: zMrwYkQCzDtdvuMlF4BTYtkhqck=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: /iFWEGKC7AksqX2HgBRMRCiGcEA=
+
+Name: assets/www/js/video.js
+SHA1-Digest: jPoiQ9dpeUmhyCuC1ZG9k9dGWU0=
+
+Name: res/layout/search_book_contents_header.xml
+SHA1-Digest: +tXxnQfgiHgQZcfy6FP9iDJMVI0=
+
+Name: assets/www/jqm/jquery.mobile.structure-1.2.0.min.css
+SHA1-Digest: t0+u7OIVVFybl7IEoifd80sk1Is=
+
+Name: assets/www/img/icons/default/store-watched-edit.png
+SHA1-Digest: e+RjDkPtKC+wno+GCIVltrcxHLg=
+
+Name: assets/www/js/ios/EmailComposer.js
+SHA1-Digest: 8nC+pg2yTog29on5ACTdoAVJJiM=
+
+Name: assets/www/img/icons/default/app-barcode.png
+SHA1-Digest: LR8+1N9+VRJcui90pqXwn4MX2Iw=
+
+Name: assets/www/jqm/images/icons-36-white.png
+SHA1-Digest: KYQmluHBR/DXmvxTACZMjZtl5VM=
+
+Name: assets/www/js/genre_dlg.js
+SHA1-Digest: PQp59vqLc5AXgg4E9rl5MkfRiUQ=
+
+Name: res/layout/search_book_contents_list_item.xml
+SHA1-Digest: 7CeSnGZ4gK/rrmh7P0lsQmWUOF0=
+
+Name: res/drawable-mdpi/splash.png
+SHA1-Digest: DvQn2cTTOEVtWHv2ptk95+aagZs=
+
+Name: res/layout/activity_vionnow.xml
+SHA1-Digest: wZXTkFXV5T+sK2HDhyvsbr25lL8=
+
+Name: assets/www/flexslider/README.mdown
+SHA1-Digest: udU5WqifD5q5AjWon8C2fwsc5RU=
+
+Name: assets/www/img/gfx/cover-shine@1x.png
+SHA1-Digest: sFz3mBzzVnHA26nDXjR8VquGqQc=
+
+Name: res/layout/help.xml
+SHA1-Digest: 5jc8uhj2TLnDVPlXa6b5lpTb6fI=
+
+Name: assets/www/flexslider/images/bg_direction_nav.png
+SHA1-Digest: CIk5Jdv/fEDcWEJ/JUmv44l1E4k=
+
+Name: assets/www/js/search_movies.js
+SHA1-Digest: vBFX59AxKR71mEnTPrHwG1kGwOA=
+
+Name: assets/www/img/gfx/storage_02@2x.png
+SHA1-Digest: 9e4TO09PKMhdhhSCPRoWhDipscM=
+
+Name: assets/www/jqm/images/icons-36-black.png
+SHA1-Digest: 7J9HmfnX4g6JuK/TVYTlg0Sm7tI=
+
+Name: assets/www/img/icons/default/store-wishlist-edit.png
+SHA1-Digest: dYRiobyRMipEfbqTqZVNZE2XV30=
+
+Name: assets/www/img/icons/hd/store-rent.png
+SHA1-Digest: VH9qnWwC76cHsgcBio2VBUve0Uo=
+
+Name: assets/www/jqm/jquery.mobile.theme-1.2.0.min.css
+SHA1-Digest: v9EMMcNnLowJbff6esHVQBKVZqI=
+
+Name: res/layout/search_book_contents.xml
+SHA1-Digest: 4CRMCBD9H2iZ+mFqYzjD9mZ727k=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: m/jkQCtshdLgl/+RH9reF2Usgww=
+
+Name: res/drawable-ldpi/splash.png
+SHA1-Digest: 16E9b1s0IIiB9dbt0Q/vnhAHhdc=
+
+Name: assets/www/img/gfx/storage_03.png
+SHA1-Digest: VEk8iGGHUz3zzivB5W4W/f/EzBA=
+
+Name: assets/www/img/icons/default/store-cinema-edit.png
+SHA1-Digest: 8tznHgevvvgNFYUC3WvlVCH9Rwg=
+
+Name: assets/www/js/stores.js
+SHA1-Digest: WqyEQCjKfa9N3Rvp+lTjG+WDUTs=
+
+Name: assets/www/js/init.js
+SHA1-Digest: DtYWNORPuejV2NOaC+0lLBtuNHk=
+
+Name: assets/www/js/imgcache.js
+SHA1-Digest: XYK1VCLZ1U+a9LRilz/LMPU3Sz4=
+
+Name: assets/www/js/stores_neu.js
+SHA1-Digest: fK/fJZonZv1ps6dkZHHEvBA7U7w=
+
+Name: assets/www/js/android/video.js
+SHA1-Digest: K1wMjiaxaWSb8psg9JSLmYlFpWM=
+
+Name: assets/www/img/icons/hd/store-watched.png
+SHA1-Digest: 3gUGACFo76SNubBTKHVd9e81e6c=
+
+Name: assets/www/img/icons/hd/app-scales.png
+SHA1-Digest: yFp3MTwnB5cersXsnZSk2a+Jv2w=
+
+Name: assets/www/flexslider/jquery.flexslider.js
+SHA1-Digest: vkelehUmH/ISAziohnY+GHhXoqQ=
+

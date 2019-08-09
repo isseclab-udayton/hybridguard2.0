@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cordova>
+    <access origin="http://127.0.0.1*" />
+    <access origin="http://maps.google.com/" />
+    <access origin="http://www.corevision.at/findme/" />
+    <access origin=".*" />
+    <log level="DEBUG" />
+    <preference name="useBrowserHistory" value="false" />
+    <preference name="exit-on-suspend" value="false" />
+    <plugins>
+        <plugin value="org.apache.cordova.App" name="App" />
+        <plugin value="org.apache.cordova.GeoBroker" name="Geolocation" />
+        <plugin value="org.apache.cordova.Device" name="Device" />
+        <plugin value="org.apache.cordova.AccelListener" name="Accelerometer" />
+        <plugin value="org.apache.cordova.CompassListener" name="Compass" />
+        <plugin value="org.apache.cordova.AudioHandler" name="Media" />
+        <plugin value="org.apache.cordova.CameraLauncher" name="Camera" />
+        <plugin value="org.apache.cordova.ContactManager" name="Contacts" />
+        <plugin value="org.apache.cordova.FileUtils" name="File" />
+        <plugin value="org.apache.cordova.NetworkManager" name="NetworkStatus" />
+        <plugin value="org.apache.cordova.Notification" name="Notification" />
+        <plugin value="org.apache.cordova.Storage" name="Storage" />
+        <plugin value="org.apache.cordova.TempListener" name="Temperature" />
+        <plugin value="org.apache.cordova.FileTransfer" name="FileTransfer" />
+        <plugin value="org.apache.cordova.Capture" name="Capture" />
+        <plugin value="org.apache.cordova.BatteryListener" name="Battery" />
+        <plugin value="org.apache.cordova.SplashScreen" name="SplashScreen" />
+        <plugin value="org.apache.cordova.Echo" name="Echo" />
+    </plugins>
+</cordova>

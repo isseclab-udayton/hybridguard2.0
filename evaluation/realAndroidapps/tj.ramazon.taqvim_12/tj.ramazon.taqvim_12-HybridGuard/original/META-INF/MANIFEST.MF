@@ -1,0 +1,496 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: assets/www/css/images/home.svg
+SHA1-Digest: s0N6kVcUFRsDXNLoNM4ZDbXs4tE=
+
+Name: assets/www/css/images/icons-png/arrow-l-white.png
+SHA1-Digest: 4HuY6eoNbbBya9DRaGuPIKKXj8Y=
+
+Name: res/drawable-port-xhdpi-v4/screen2.png
+SHA1-Digest: vFPeQjaqLAS6sZilCZUrPyl6jrw=
+
+Name: assets/www/css/images/icons-png/action-white.png
+SHA1-Digest: BtPrdsNlJ9mwSLFMVLrdBI25Vhc=
+
+Name: assets/www/css/images/icons-png/carat-r-black.png
+SHA1-Digest: ko0mmXW6WMO3d5SQuFZ8NjGUj6g=
+
+Name: assets/www/css/images/icons-png/carat-l-white.png
+SHA1-Digest: DUi69VXv653LYq46S9kUUcPEqn8=
+
+Name: assets/www/css/images/icons-png/eye-white.png
+SHA1-Digest: KISVXGF65BYggxhLSGR+rX175gk=
+
+Name: assets/www/css/images/icons-png/grid-white.png
+SHA1-Digest: u4JcheViYqlr2PlCUkAhW6zDS/o=
+
+Name: assets/www/css/images/icons-png/cloud-white.png
+SHA1-Digest: YZyhZplnPcu0XrcumcqrTSlPb4M=
+
+Name: assets/www/css/images/icons-png/navigation-white.png
+SHA1-Digest: k0yrvGtI2ifPT9h7Im4m493KBno=
+
+Name: assets/www/css/images/icons-png/arrow-d-r-white.png
+SHA1-Digest: LyFhNVeO16ct7K0YNwzWjJzGYrg=
+
+Name: assets/www/css/images/icons-png/info-white.png
+SHA1-Digest: rLo6vq9V+4wVs3WeBqFQOVLENiQ=
+
+Name: assets/www/css/images/icons-png/carat-d-black.png
+SHA1-Digest: 4ez8d6snVBdkQLF6Oc95P5lz1z0=
+
+Name: assets/www/css/images/icons-png/alert-white.png
+SHA1-Digest: 75WYBynvYbTtKUbIe70D6b8uUH4=
+
+Name: assets/www/css/images/icons-png/user-white.png
+SHA1-Digest: ROwWyyggTkV+bc8OCVUeAbvJCrs=
+
+Name: assets/www/plugins/org.apache.cordova.splashscreen/www/splashscr
+ een.js
+SHA1-Digest: lZXg1X2P9bXVt8LaiDVJ7o4DDLg=
+
+Name: res/drawable-port-hdpi-v4/screen2.png
+SHA1-Digest: QqszXVs7DAO7cpkZYgDYRx2o7mQ=
+
+Name: assets/www/css/images/chat.png
+SHA1-Digest: DpLMpuE5NqapBeam2JZtbEFeThw=
+
+Name: assets/www/css/images/icons-png/phone-black.png
+SHA1-Digest: 2q+Npr5cZdc8OsgKBn2hADBvjAI=
+
+Name: assets/www/css/images/icons-png/video-white.png
+SHA1-Digest: IuRzjD6iJnmcosT9juA5DUHtLZ0=
+
+Name: assets/www/css/images/icons-png/plus-white.png
+SHA1-Digest: k0f80+8DcijJk4Kte/RSu/ZF7ts=
+
+Name: assets/www/index.html
+SHA1-Digest: D6uIE/f6bHkhhIbPW0wyDIEN2Ik=
+
+Name: assets/www/css/images/icons-png/tag-black.png
+SHA1-Digest: ZXvGxSJPaZBMhZX68OgBCbZ0CeE=
+
+Name: assets/www/css/images/icons-png/back-black.png
+SHA1-Digest: Bp9DdNJElX2ER8OxJNb2z+mNZpk=
+
+Name: assets/www/css/images/icons-png/comment-black.png
+SHA1-Digest: JTBPhS3w4mpwk3xE4qSnrhiEiKk=
+
+Name: assets/www/css/images/icons-png/arrow-u-r-white.png
+SHA1-Digest: uSwCkzICaLH1TngiWZH2aQ1oGAA=
+
+Name: assets/www/css/images/icons-png/delete-black.png
+SHA1-Digest: Lty/xPH7TjQB0H7L18rn2/paQbw=
+
+Name: assets/www/css/images/icons-png/arrow-d-r-black.png
+SHA1-Digest: WfmHMAS915PL63Xmvlq6zOmUyAo=
+
+Name: assets/www/css/images/icons-png/clock-white.png
+SHA1-Digest: +7bHN5OMfUehR8kZHLvR172vQP8=
+
+Name: assets/www/plugins/org.apache.cordova.vibration/www/vibration.js
+SHA1-Digest: 4Ccmgd1WAmrgx13vYBnh9uipRcA=
+
+Name: assets/www/css/images/ic_refresh.png
+SHA1-Digest: CYMGHK/OdCdmBJ69nQvqn7EG2o0=
+
+Name: assets/www/css/images/icons-png/cloud-black.png
+SHA1-Digest: 3SUJS9CvpYtRTjmG5yho8nkVotU=
+
+Name: assets/www/css/images/icons-png/home-black.png
+SHA1-Digest: vY5srNSy9zNbtoKYn4YCrRu0t4U=
+
+Name: assets/www/css/images/icons-png/recycle-black.png
+SHA1-Digest: Vv4kGiPXGRs5GBXz87ksr0gjW5Q=
+
+Name: assets/www/css/images/icons-png/action-black.png
+SHA1-Digest: C41jihtlvemq21tA9lW6XAxvXio=
+
+Name: assets/www/al_huda.mp3
+SHA1-Digest: qtjxMTxE86uq4RvvMAKFtS1VMww=
+
+Name: res/drawable-land-mdpi-v4/screen.png
+SHA1-Digest: YVTonnvTeGj2Yhf0CYjFyC55TZE=
+
+Name: resources.arsc
+SHA1-Digest: Lu1Q942U7v93nMfJTWKIiqXh2R0=
+
+Name: assets/www/css/images/home.png
+SHA1-Digest: REZ1TkfYnp0iTt0GTJlmSYS3tVA=
+
+Name: assets/www/css/images/icons-png/video-black.png
+SHA1-Digest: 87B3sSbouiLIp0m+aL5I0bRABM0=
+
+Name: assets/www/css/images/clock.png
+SHA1-Digest: g5W8AKh0rWPPeBkXD5jzpy4JNX0=
+
+Name: assets/www/css/images/icons-png/calendar-black.png
+SHA1-Digest: BuKrwKCtjgeHSoAPKE/ZyEqA8Y8=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 5KaEelrDAbVfExHMSq6P5UbqRU0=
+
+Name: assets/www/uboat_sonar.wav
+SHA1-Digest: zOXd/WrOUJk3HW9DixYk2x4Zmbw=
+
+Name: assets/www/css/images/icons-png/eye-black.png
+SHA1-Digest: 6SmDc3yI5zAKi3qgl2ebEEEaHic=
+
+Name: assets/www/css/images/icons-png/refresh-black.png
+SHA1-Digest: EoqbstvCIDb/n1Xxr70x5tjkwAU=
+
+Name: assets/www/css/images/icons-png/info-black.png
+SHA1-Digest: HEQTnjMXPwXJ16k6GuEIQ7bpwJs=
+
+Name: res/xml/config.xml
+SHA1-Digest: ePGq/q2YMzA0G+FKDXuX/FSyK4o=
+
+Name: assets/www/css/images/icons-png/camera-black.png
+SHA1-Digest: lwxWhrAxMx8tkWiLyfcG+9wf99k=
+
+Name: assets/www/css/images/icons-png/recycle-white.png
+SHA1-Digest: nE3f9NdaQI0UKnOEsKiZdJXQ8Ig=
+
+Name: assets/www/css/images/icons-png/arrow-u-r-black.png
+SHA1-Digest: aSC5rtoL/vlADFCyFrZLSLckHpI=
+
+Name: assets/www/css/images/icons-png/gear-white.png
+SHA1-Digest: y1UhA5ohrJDWQNWgQnBK5bSGPrU=
+
+Name: assets/www/css/images/icons-png/arrow-d-l-black.png
+SHA1-Digest: D6IrWgtnbJ0PQGJh/OawZJUbYFM=
+
+Name: assets/www/css/images/ic_back.png
+SHA1-Digest: koef5AYgYD96DpG8BjrcM9W2P7M=
+
+Name: assets/www/css/images/icons-png/back-white.png
+SHA1-Digest: ZrxLjqsfqziF5MJ6Xae+Tp47+Ws=
+
+Name: assets/www/css/images/icons-png/star-white.png
+SHA1-Digest: /zrLnOoclUJ8XgLBs65esBVZdl8=
+
+Name: assets/www/main.js
+SHA1-Digest: PraY+AwPjcMART3zNi4xi162Fp8=
+
+Name: assets/www/css/images/icons-png/plus-black.png
+SHA1-Digest: I8/ZMwn3nOTSf/oyyG1DUI3jCuQ=
+
+Name: assets/www/img/hands.svg
+SHA1-Digest: 6fsWzlDxrmrRUXLuJgHclVBPA5Y=
+
+Name: assets/www/css/images/icons-png/arrow-d-l-white.png
+SHA1-Digest: //2EQhhXB7Lu3qJ6E7OJ2VaHJ70=
+
+Name: assets/www/js/jquery-1.11.3.min.js
+SHA1-Digest: 5ggqe1LbgmBKxEbS5qMsta8mN4E=
+
+Name: assets/www/css/images/icons-png/alert-black.png
+SHA1-Digest: S7lT3W2iE2q+wVBHyGcYwLf4LBs=
+
+Name: assets/www/css/images/icons-png/bars-black.png
+SHA1-Digest: esB6n4GRZRlNTFPK5WxHdcAxdSw=
+
+Name: assets/www/css/images/icons-png/navigation-black.png
+SHA1-Digest: gvDVL5Rzifa/plgYQAxSqPAPT9I=
+
+Name: assets/www/css/images/ic_gear2.png
+SHA1-Digest: f/fdmK3294/vfLTyb/ohryUwIBY=
+
+Name: assets/www/css/images/icons-png/bars-white.png
+SHA1-Digest: WrTJ7tO4ManExgj4EesMqcf3B7E=
+
+Name: assets/www/css/images/icons-png/calendar-white.png
+SHA1-Digest: 9ZrWz7WvyEOEq2ShUL8GN5RZRGY=
+
+Name: assets/www/css/images/icons-png/phone-white.png
+SHA1-Digest: jo99ymoDnQ14pxagBkktwsTFZCQ=
+
+Name: assets/www/plugins/org.apache.cordova.device/www/device.js
+SHA1-Digest: +ebwGhLWx1T2M58GP8ACUuM7k1U=
+
+Name: assets/www/css/images/icons-png/user-black.png
+SHA1-Digest: 4/o2+S9KVYF2JUi3gDFa9VcPYEk=
+
+Name: assets/www/css/images/icons-png/lock-white.png
+SHA1-Digest: Mb5SORPHPGOma+d9KwPpO/LozzU=
+
+Name: res/drawable-port-mdpi-v4/screen.png
+SHA1-Digest: k6Yax89AVV3L81g5cQd5G7j70X4=
+
+Name: assets/www/css/jquery.mobile.structure-1.4.5.min.css
+SHA1-Digest: 6FXvuBt59KewxKKShgLo//aYwU0=
+
+Name: assets/www/plugins/de.appplant.cordova.plugin.local-notification
+ /www/local-notification.js
+SHA1-Digest: kNtYGTqbdIgFxPtX8Ku+rPgFit0=
+
+Name: assets/www/css/images/zikr.png
+SHA1-Digest: ShvRHcRcEo1jat9Mq46bzDzaDvE=
+
+Name: assets/www/css/images/ic_about.png
+SHA1-Digest: eRKGH8AhWPm1/vmNWQoKHjMrY+U=
+
+Name: assets/www/css/jquery.mobile.icons.min.css
+SHA1-Digest: GyDcqZbgZtarlkpQTBsuhWra0ac=
+
+Name: assets/www/cordova.js
+SHA1-Digest: vRJYgBPNk+ixMkqcgvq5ypHdqjw=
+
+Name: assets/www/css/images/icons-png/search-white.png
+SHA1-Digest: eJrqbFXGIXyJnM3a0UkNhuhUmtA=
+
+Name: assets/www/css/images/icons-png/shop-white.png
+SHA1-Digest: 8RxFZTUPoWpQ2WQYR3p3fILTK2I=
+
+Name: assets/www/css/images/icons-png/refresh-white.png
+SHA1-Digest: 7bWgpRv4d34UR9BIEWWFME9WyLE=
+
+Name: res/drawable-land-xhdpi-v4/screen.png
+SHA1-Digest: Eme1m+KzdcxmzKWK1Sn3tLqwBxk=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: lzrKNude8Ec48o2fuMkDhfbriKE=
+
+Name: assets/www/css/images/icons-png/arrow-u-l-black.png
+SHA1-Digest: c+r7rxH41ltFZJcA2laIOs/5zMY=
+
+Name: assets/www/css/images/icons-png/gear-black.png
+SHA1-Digest: nGQeG1W5q2teVs2Wz9UOtutnVJ8=
+
+Name: assets/www/css/images/icons-png/mail-white.png
+SHA1-Digest: QBCbYB1Ix0g4cv9KD4Fntkihmjc=
+
+Name: assets/www/css/images/icons-png/arrow-u-black.png
+SHA1-Digest: EM1xhprksMk+x5YQ9vxhcZqDPrk=
+
+Name: assets/www/css/images/brr.svg
+SHA1-Digest: WoaJCYuA0QXQcK98rjvXCk25xYM=
+
+Name: assets/www/css/images/icons-png/audio-white.png
+SHA1-Digest: SeUtF6e/YOnX1QlyeM4v9yu/w1U=
+
+Name: assets/www/css/images/icons-png/carat-u-black.png
+SHA1-Digest: lcQ8bUELZbQhm0+XIwaWx9YIICY=
+
+Name: assets/www/css/images/icons-png/heart-white.png
+SHA1-Digest: CujUa8oiSwzMJG4fILfLyMZoE/U=
+
+Name: assets/www/css/images/icons-png/lock-black.png
+SHA1-Digest: Zrn3dkgZUEDfdLHS2Dkld4mpK8k=
+
+Name: res/drawable-land-xxhdpi-v4/screen.png
+SHA1-Digest: GqNIoCjHz113fnN4QsEXlDC1Dok=
+
+Name: assets/www/css/images/icons-png/power-white.png
+SHA1-Digest: fkHQUJQwF1/IN3Y1Gc+F3npxCLg=
+
+Name: assets/www/css/images/icons-png/edit-white.png
+SHA1-Digest: e32c7Bwz52dGFtw9wgXvc6PQdrQ=
+
+Name: assets/www/css/images/ic_gear.png
+SHA1-Digest: lMTjcorBzSJF5iwAuXHAaGuWj0k=
+
+Name: assets/www/css/images/icons-png/heart-black.png
+SHA1-Digest: g57PUz5AcZTT1nxWBOFvchbH4pM=
+
+Name: assets/www/css/images/icons-png/minus-white.png
+SHA1-Digest: QpHt961v51yl3sVReYxSJG+sGEk=
+
+Name: assets/www/img/hands.png
+SHA1-Digest: +V8IFH3c6WRaQhUdH6T/rmTMD8M=
+
+Name: assets/www/allData.json
+SHA1-Digest: /plzKVHk14kBezZkeoHSpzfbjro=
+
+Name: assets/www/css/images/icons-png/bullets-black.png
+SHA1-Digest: F5fywOwPMz7rbiobxLf3+1vRFSo=
+
+Name: assets/www/css/images/moon.png
+SHA1-Digest: GLbjFpM8DIsF3sAU38jo5+btqKA=
+
+Name: assets/www/css/images/icons-png/mail-black.png
+SHA1-Digest: kCP0aK+dKOLPkoagIAR7J345Z1U=
+
+Name: assets/www/css/images/icons-png/camera-white.png
+SHA1-Digest: snv88IQhSTkquw2+eJcgWbZHzyA=
+
+Name: assets/www/css/images/icons-png/home-white.png
+SHA1-Digest: 34+7c0X+OLqk2HRcbFBGV5TWBho=
+
+Name: assets/www/css/images/icons-png/shop-black.png
+SHA1-Digest: zEMh11bmhCVvt6RKGrvCwdoTLAc=
+
+Name: assets/www/css/images/icons-png/tag-white.png
+SHA1-Digest: k2EwayJrR/aql9uVe228WrYblG8=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: iQwfWFwJ058zkkQKxmfNr7OnKc8=
+
+Name: res/drawable-mdpi-v4/ic_stat_notify.png
+SHA1-Digest: HLpvDqzdejNXhnK4ZM53camAPic=
+
+Name: assets/www/css/images/book.png
+SHA1-Digest: L4UcevRPjUoB1Wd91CK/eAySU9Y=
+
+Name: assets/www/css/images/icons-png/power-black.png
+SHA1-Digest: 1tQDSJvDdsLCwWWuYxIYhm1b4A4=
+
+Name: res/drawable-port-xxhdpi-v4/screen.png
+SHA1-Digest: rK1QY31aCFR+96EEc9a9aQ/gbQM=
+
+Name: res/drawable-port-mdpi-v4/screen2.png
+SHA1-Digest: xQF9FkF91ssL80U0ZZIBCcr9Qs0=
+
+Name: assets/www/css/images/icons-png/star-black.png
+SHA1-Digest: fzBQCJfossnWmvhHVxikaiHIIik=
+
+Name: assets/www/cordova_plugins.js
+SHA1-Digest: rykeSDb+8HadNVZaGP6Abs5L3eg=
+
+Name: assets/www/css/images/icons-png/arrow-u-white.png
+SHA1-Digest: cEdX9NfP1sXpdqK+iqMA9H0uQvU=
+
+Name: assets/www/css/images/icons-png/audio-black.png
+SHA1-Digest: fJXlqcz0RmBH1la+k5mwlSG4Bh8=
+
+Name: assets/www/css/images/icons-png/carat-u-white.png
+SHA1-Digest: ItSCCtS2PlV/r9aFQBZVS9eFH5c=
+
+Name: assets/www/img/logo.png
+SHA1-Digest: MW0GF0+VJyF3L6n2kH6NKUswUL0=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: yDm/nQD5ZAMEART6D0l5U0DBs/Q=
+
+Name: res/drawable-land-hdpi-v4/screen.png
+SHA1-Digest: SnEeLBNJPYyr+znAdl3VZcz93hY=
+
+Name: res/drawable/ic_launcher.png
+SHA1-Digest: NIB+72lWRu9VNKR4LqVWTTOtZws=
+
+Name: assets/www/css/images/icons-png/arrow-u-l-white.png
+SHA1-Digest: 0zpX7TyNBmh5n796v5SJLbADxfQ=
+
+Name: assets/www/css/images/icons-png/check-black.png
+SHA1-Digest: uveeY1bfPFY2WP9ohEKpeBNLlZs=
+
+Name: assets/www/css/images/icons-png/location-black.png
+SHA1-Digest: x7M5+y4cqqUnxpn/BPSAvmZlnDM=
+
+Name: res/drawable-port-hdpi-v4/screen.png
+SHA1-Digest: S4KQPGtkHZkcBv/WccXzJtMcU1A=
+
+Name: assets/www/css/images/icons-png/grid-black.png
+SHA1-Digest: vw21YeBhQgq+kTNjHWjunjjDC+I=
+
+Name: assets/www/js/PrayTimes.js
+SHA1-Digest: hf/PzP5xFkFWNSJjliBmJVTCxCs=
+
+Name: assets/www/css/images/icons-png/arrow-l-black.png
+SHA1-Digest: srpBNs71SBNGYDd08KsLJyRIbq0=
+
+Name: assets/www/css/images/icons-png/carat-l-black.png
+SHA1-Digest: y5ONRsVaAOZ5FA2aQiDPLNrpHfI=
+
+Name: assets/www/css/images/icons-png/comment-white.png
+SHA1-Digest: rOxIPjVoiUF0IWYnD+hA4XxkYwo=
+
+Name: assets/www/css/images/icons-png/carat-r-white.png
+SHA1-Digest: my8Cm5Mo9srdFSi3AC0ksXkeU60=
+
+Name: assets/www/plugins/org.apache.cordova.dialogs/www/android/notifi
+ cation.js
+SHA1-Digest: jpdyhJNG4MzAWa2k3X4QOhJrTGE=
+
+Name: res/drawable-xxhdpi-v4/ic_stat_notify.png
+SHA1-Digest: rUDAaKe4K7ku4QJgDf5eWLfpc80=
+
+Name: assets/www/css/images/icons-png/forbidden-black.png
+SHA1-Digest: mrct1FH4XA2udmx1ovySYndHbqE=
+
+Name: assets/www/css/mramadan-theme.min.css
+SHA1-Digest: JhkNGQm+SdS+i5kypIx2GBNdGqM=
+
+Name: assets/www/plugins/org.apache.cordova.dialogs/www/notification.j
+ s
+SHA1-Digest: GZZcZ+7/IfdZTzKL5Nn5N/Ykr78=
+
+Name: res/drawable-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: NIB+72lWRu9VNKR4LqVWTTOtZws=
+
+Name: assets/www/css/images/icons-png/arrow-r-white.png
+SHA1-Digest: JpsKYQ5YOd52srs7u2wdOhS0k10=
+
+Name: assets/www/css/images/icons-png/forward-white.png
+SHA1-Digest: VOE3p86Haz1iRCGLHhGJN09LBt0=
+
+Name: assets/www/css/images/dua.png
+SHA1-Digest: UGD+RseAneJthujP3QFSa86IEU4=
+
+Name: res/drawable-xhdpi-v4/ic_stat_notify.png
+SHA1-Digest: t45byZNhMM+4DMB2AZACqLScgKg=
+
+Name: assets/www/css/images/icons-png/carat-d-white.png
+SHA1-Digest: ZRazm0KJycmxAeD/vPvrL8zpoa4=
+
+Name: res/layout/main.xml
+SHA1-Digest: jA6ySWvvFXmxHZgTsb08gZHQo24=
+
+Name: assets/www/css/images/icons-png/bullets-white.png
+SHA1-Digest: iJlgHlDySI1vSpJa/N99sJW+yDc=
+
+Name: assets/www/css/images/icons-png/forbidden-white.png
+SHA1-Digest: gdgkkyg80YLw78WRJQ/Ztc0y+Dk=
+
+Name: assets/www/js/jquery.mobile-1.4.5.min.js
+SHA1-Digest: q+pYpn5d67C5Xepdw4McWGJMXF0=
+
+Name: assets/www/css/images/icons-png/location-white.png
+SHA1-Digest: uynKK0PgV87aJhvrwpEOe6KhrwI=
+
+Name: assets/www/css/images/icons-png/clock-black.png
+SHA1-Digest: LqWOglNyONH3ET8E/2LVBugarhM=
+
+Name: assets/www/css/images/icons-png/search-black.png
+SHA1-Digest: Lzo4QpithhA63gVNMxxggu9dIko=
+
+Name: assets/www/css/images/icons-png/delete-white.png
+SHA1-Digest: QW/6y1BUOWqc/MFafznqK9uzXfs=
+
+Name: assets/www/css/images/ajax-loader.gif
+SHA1-Digest: Lt+y/+O1Eh9CETAIz/RJAj21Lyc=
+
+Name: assets/www/css/images/icons-png/arrow-d-black.png
+SHA1-Digest: YWQ44xMVFQr+3jzAr5IPEV69zDw=
+
+Name: assets/www/css/images/icons-png/check-white.png
+SHA1-Digest: TMq/1UC0W+nhKNrNYi+VmZUB5HA=
+
+Name: res/drawable-port-xhdpi-v4/screen.png
+SHA1-Digest: EoktkmjES6jClC5raTRzmTKhj9I=
+
+Name: res/drawable-hdpi-v4/ic_stat_notify.png
+SHA1-Digest: ilLEbSsk4BK8aYDBEwLqOuoj3Pk=
+
+Name: assets/www/css/images/calendar.png
+SHA1-Digest: O2t1p+dGKbVjDGOfR2KMyIhReBM=
+
+Name: assets/www/css/images/icons-png/arrow-d-white.png
+SHA1-Digest: Yb774BhGLngG3GaFPqF2gP8/O2o=
+
+Name: assets/www/css/images/icons-png/minus-black.png
+SHA1-Digest: TDZIGoUVH358b47k42gjl1sibVY=
+
+Name: assets/www/css/images/icons-png/arrow-r-black.png
+SHA1-Digest: 6l6xc9Hf2M6tqvendl0D/bAF6rU=
+
+Name: assets/www/css/images/icons-png/forward-black.png
+SHA1-Digest: ikVMfiR7Usqgmg8ExfTf7sHcWyo=
+
+Name: classes.dex
+SHA1-Digest: u/75FcYZCn9Qyo/baRjEB9QnPLo=
+
+Name: assets/www/css/images/icons-png/edit-black.png
+SHA1-Digest: mlGrDSQQY82IjtvV7a/9TAiJFcs=
+

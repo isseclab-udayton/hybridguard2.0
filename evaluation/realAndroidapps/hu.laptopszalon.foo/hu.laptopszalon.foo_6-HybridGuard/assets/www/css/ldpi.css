@@ -1,0 +1,36 @@
+
+@media screen and (max-width:320px) {
+	
+	#mainPage .mainIcons{width:110px;height:100px;margin:auto;display:block;background-position:center center; background-repeat:no-repeat}
+	#mainPage .fellepesek{background-image:url(icon/fellepesek_map.png);}
+	#mainPage .terkep{background-image:url(icon/terkep_map.png);}
+	#mainPage .esemenyek{background-image:url(icon/esemenyek_map.png);}
+	#mainPage .informacio{background-image:url(icon/info_map.png);}
+	#mainPage .etelital{background-image:url(icon/etelital_map.png);}
+	#mainPage .kozlekedes{background-image:url(icon/kozlekedes_map.png);}
+}
+
+@media only screen and (max-width:320px) and (orientation : portrait){
+	
+	
+	#render header span{padding-top:20px;font-size:110%;}
+	.scroll{overflow:auto;}
+	
+	html{overflow:auto !important;min-height:100%;}
+	body{min-height:100%;}
+	#fellepok h2,#esemenyek h2{padding:10px;font-size:18px}
+	#fellepok article .leaderTitle{font-size:140%;padding:10px;}
+	#fellepok article .cont h3,
+	#esemenyek  article .cont h3
+	{font-size:110%;}
+	#fellepok article .img h3 span{font-size:50%;}
+	#fellepok article .img h3{font-size:130%;line-height: 15px;}
+	
+	#esemenyek article .conttime{font-size:20px;}
+	
+	#render #laptopszalonad{height:45px;}
+	#render #whereami, #render #closeResult{bottom:45px;}
+	#render #mapLayer ul a{background-size:20%;padding:20px;}
+	
+	#render #mapWrapper{position:relative;}
+}

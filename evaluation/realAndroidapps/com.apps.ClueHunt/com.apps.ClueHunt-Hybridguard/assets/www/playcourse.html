@@ -1,0 +1,163 @@
+<div id="p_viewmain" data-role="view" data-title="Start Course" data-show="PlayStart">
+    <div data-role="header">
+        <div data-role="navbar">
+            <a data-role="button" data-align="left" onclick="BackToMain()">Home</a>
+            <span data-role="view-title"></span>
+        </div>
+    </div>
+    
+    <div style="padding:20px">
+        <div id="divCourseName" style="text-align:center">
+            <span id="lblCourseName"></span>
+            <div style="text-align:center">
+                <img src="img/Separator.png" style="width:280px"/>
+            </div>
+        </div>        
+        <div style="display:none">
+            <input type="text" placeholder="Enter your name" autocorrect="off" style="line-height:30px;width:100%"/>
+        </div>
+        <div style="margin-top:12px;display:none">
+            <input type="text" placeholder="E-mail Address" autocorrect="off" style="line-height:30px;width:100%"/>
+        </div>
+        <div style="margin-top:24px;text-align:center">
+            <span>Once the game starts, look at the picture and read the clue.
+                You must go to the spot in the clue and look for a code there. Enter the code to reveal the next clue.  Good luck!
+            </span>
+        </div>
+        <div style="margin-top:24px;text-align:center">
+            <a id="btnStart" class="btnFunky" data-role="button" style="width:280px" onclick="StartCourse()">
+                <span style="line-height:30px">Start</span>
+            </a>
+        </div>
+    </div>
+ </div>
+
+<div id="p_viewclue" data-role="view" data-title="Start Course" data-show="GetCurrentClue">
+    <div data-role="header">
+        <div data-role="navbar">
+            <a data-role="button" data-align="left" onclick="AbortMission()">Abort!</a>
+            <span id="lblClueNum" data-role="view-title"></span>
+        </div>        
+    </div>
+    
+    <div style="padding:20px">
+        <div style="margin:16px 0px;text-align:center;">
+            <img id="p_imgClue" alt="" src="" style="max-width:100%;max-height:216px;"/>
+        </div>
+        <div style="margin-bottom:16px"><span id="p_lblClue"></span></div>
+        <div style="text-align:center">
+            <a data-role="button" href="#p_viewFound" data-transition="slide:left">I Found It!</a>
+        </div>
+    </div>
+    
+    <div data-role="footer" id="divStart" style="z-index:10; position:absolute; left:0px; right:0px; top:0px; bottom:0px;background:transparent !important;display:none">
+        <img id="imgStart" src="img/TalkStart1.png" style="width:320px; position:absolute; bottom:0px; left:50%; margin-left:-160px"/>
+    </div>
+    
+	<!--<div data-role="footer">
+        <div data-role="tabstrip">
+            <a href="#p_viewclue"><img src="img/MagnifyingGlass.png"/>Clue</a>
+            <a href="#p_viewhint"><img src="img/ArrowRight.png"/>Hint</a>
+        </div>
+    </div>-->
+    
+    
+</div>
+
+<div id="p_viewhint" data-role="view" data-title="Start Course" data-init="InitializeMap" data-show="ShowMap" data-hide="HideMap">
+    <div data-role="header">
+        <div data-role="navbar">
+            <a data-role="button" data-align="left" data-transition="slide:right" href="#p_viewmain">Back</a>
+            <span data-role="view-title"></span>
+            <a data-role="button" data-align="right" data-transition="slide:right" onclick="ShowNextMarker()">Next</a>
+        </div>
+    </div>
+        
+    <div id="map-canvas" class="map"></div>
+    
+    <div style="position:absolute;background:black;padding:10px;;z-index:10000000;width:60px;height:84px;right:0px;top:0px">
+        <img id="imgDir" alt="" src="img/ArrowUp2.png"/>
+        <div style="position:absolute; left:0px; right:0px; bottom:2px;text-align:center"><span id="lblDistance" style="color:white"></span></div>
+    </div>
+    
+	<div data-role="footer">
+        <div data-role="tabstrip">
+            <a href="#p_viewclue"><img src="img/MagnifyingGlass.png"/>Clue</a>
+            <a href="#p_viewhint"><img src="img/ArrowRight.png"/>Hint</a>
+        </div>
+    </div>
+</div>
+
+<div id="p_viewFound" data-role="view" data-title="Found Clue">
+    <div data-role="header">
+        <div data-role="navbar">
+            <a data-role="button" data-align="left" data-transition="slide:right" href="#p_viewclue">Back</a>
+            <span data-role="view-title"></span>
+        </div>
+    </div>
+    
+    <div style="padding:20px">
+        <div><span>Please enter the code at the checkpoint to verify you are at the right place:</span></div>
+        <div style="margin-top:8px">
+            <input id="p_txtCode" type="text" style="width:100%"/>
+        </div>
+        <div style="margin-top:16px">
+            <a data-role="button" onclick="ThisIsTheFunction()">Submit</a>
+        </div>
+        <div id="divFound" style="position:absolute;left:0px;right:0px;top:0px;bottom:0px;display:none">                    
+            <img src="img/Celebration.gif" class="celebrate"/>
+        </div>
+    </div>
+</div>
+
+<div id="p_viewEnd" data-role="view" data-title="Course Complete" data-show="p_viewEndShow">
+    <div data-role="header">
+        <div data-role="navbar">
+            <span data-role="view-title"></span>
+        </div>        
+    </div>
+    
+    <div style="padding:20px">              
+        <!--<div style="text-align:center">
+            <div style="margin-bottom:36px; padding-top:20px"><span style="font-size:2em;">Congratulations!</span></div>
+        	<div style="margin-bottom:8px"><span style="font-size:1.6em;">You finished the course!</span></div>  
+            <span>Your time was:</span>
+            <br/>
+            <span id="p_lblCourseTime"></span>-->
+        	<div id="divDance" style="position:absolute;top:50%; margin-top:-168px; text-align:center; left:0px; right:0px; display:none">
+                <img id="imgDance" src="img/walking.gif" style="height:120px;top:0px;position:absolute;right:50%; margin-right:-236px"/>
+            </div>
+            <div id="divEndBtns" style="position:absolute;top:50%; margin-top:-30px; text-align:center; left:0px; right:0px">
+                <div style="margin-top:28px">
+                    <a data-role="button" onclick="RestartCourse()" style="width:280px">Restart The Course</a>
+                </div>
+                <div id="divDidSetup" style="margin-top:20px">   
+                    <a data-role="button" href="savecourse.html" data-transition="slide:left" style="width:280px">Save Course</a>
+            	</div>
+                <div style="margin-top:20px">   
+                    <a data-role="button" style="width:280px" onclick="BackToMain()">Main Menu</a>
+            	</div>
+            </div>
+        <!--</div> -->       
+    </div>
+    <div data-role="footer" id="divTalk" style="z-index:10; position:absolute; left:0px; right:0px; top:0px; bottom:0px;background:transparent !important;display:none">
+        <img id="imgTalk" src="img/Talky1.png" style=" left:50%; margin-left:-160px;width:320px; position:absolute; bottom:0px"/>
+        <div id="divTime" style="position:absolute;bottom:290px;left:0px;right:0px;text-align:center;font-size:16pt;display:none"><span id="p_lblCourseTime"></span></div>
+    </div>
+</div>
+
+<!--<div id="p_viewImgZoom" data-role="view" data-zoom="true">
+    <div data-role="header">
+        <div data-role="navbar">
+            <a data-role="button" data-align="left" data-transition="slide:right" href="#:back">Back</a>
+        </div>
+    </div>
+    <div data-role="content">
+        <img id="imgFull" src="" style="display: block"/>
+    </div>
+</div>-->
+
+
+
+
+

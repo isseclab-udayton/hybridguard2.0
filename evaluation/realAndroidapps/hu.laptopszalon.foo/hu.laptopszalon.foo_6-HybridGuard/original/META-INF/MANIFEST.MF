@@ -1,0 +1,549 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: assets/www/css/icon/map_wc.png
+SHA1-Digest: QxVLwBNpjSYr1nVnyyUnneb+l7M=
+
+Name: assets/www/js/mobiscroll/css/mobiscroll.animation.css
+SHA1-Digest: NmYI4LLK08pWGn5sV4zntBK3Dt8=
+
+Name: assets/www/css/images/hdpi/bg.png
+SHA1-Digest: dj4Anh4RTvvI2jUi6H7cGIBWuzA=
+
+Name: assets/www/css/icon/mylocation.png
+SHA1-Digest: LGdlBhf0YtLOLvCMvH1+v2Y4+b8=
+
+Name: res/xml/config.xml
+SHA1-Digest: oJteCrMEbvH6XtdsPhF59pjumek=
+
+Name: assets/www/js/mobiscroll/js/mobiscroll.jqm.js
+SHA1-Digest: mf5AKjFfwUNdp8D25CegaQCmnpQ=
+
+Name: assets/www/css/icon/terkep.png
+SHA1-Digest: otdsoa2QHqhGw4MkVXaFdQ4M2bI=
+
+Name: assets/www/font/icons.svg
+SHA1-Digest: E/0LGtHDtNEl1INvI7and4x1TMY=
+
+Name: assets/www/js/data/allplace.json
+SHA1-Digest: 11AqcUH1QJLDFy4Ko6UwbobLTlQ=
+
+Name: assets/www/css/icon/hdpi/map_wc.png
+SHA1-Digest: URocgP/BvtaixFvCu/GjP8tBzoA=
+
+Name: assets/www/css/icon/etelital.png
+SHA1-Digest: b7IhVZ+SEZdMkfyLDg3Gvq0WlZc=
+
+Name: assets/www/js/mobiscroll/js/mobiscroll.android-ics.js
+SHA1-Digest: 0eThUpnwSwqMG+ccoAXjzBAYzGI=
+
+Name: assets/www/font/icon.woff
+SHA1-Digest: FDUFfkKuFnAHxbIzOc3dTY9ch4U=
+
+Name: assets/www/font/icon.eot
+SHA1-Digest: RBT3+BtmIpZb/PeFMAjLPd9WwdY=
+
+Name: assets/www/css/icon/profile.png.r8
+SHA1-Digest: S0CPdVEQGe6vO8miSSRBTnVcAEA=
+
+Name: assets/www/js/mobiscroll/js/i18n/mobiscroll.datetime-no.js
+SHA1-Digest: Ye8Tz6bFECPLN8PVZJHUYI/iYRI=
+
+Name: assets/www/css/icon/profile.png.r9
+SHA1-Digest: VE9k1RtCPtaXhQQlzNhgg/NhgzM=
+
+Name: assets/www/css/icon/bus.png
+SHA1-Digest: fgsmCqKn1gBIETvXK4z5oqW/mLE=
+
+Name: assets/www/css/style.css
+SHA1-Digest: FK7bTLBqoT5+0eunpXUuvSqDFz8=
+
+Name: assets/www/css/icon/hdpi/kozlekedes_map.png
+SHA1-Digest: fmwKuDy19Hpu4oclxBm1otIVohY=
+
+Name: assets/www/css/icon/map_medic.png
+SHA1-Digest: pmXRqL2dhZZOaHRlS22sHuREazo=
+
+Name: assets/www/js/mobiscroll/js/mobiscroll.android.js
+SHA1-Digest: uN4URtZesY+Xs7nGJ9ukESiXzws=
+
+Name: assets/www/js/mobiscroll/js/i18n/mobiscroll.core-hu.js
+SHA1-Digest: /NtQh0oB3p5bbj4fwwIc26jSlHY=
+
+Name: assets/www/css/icon/terkep_map.png
+SHA1-Digest: BSeK48r3eVMn2GxtRhwwG1fzjdQ=
+
+Name: assets/www/font/icons.ttf
+SHA1-Digest: VAkx/gNa7kScusXdnSRg+LjQjiw=
+
+Name: assets/www/js/mobiscroll/js/i18n/mobiscroll.core-no.js
+SHA1-Digest: xUbfA6zCrZwSWEJTuj2CmDuy0po=
+
+Name: assets/www/css/icon/hdpi/mpa_food.png
+SHA1-Digest: 6lmsgnrBmduqEi75CzrFUQg3Tdw=
+
+Name: assets/www/js/mobiscroll/js/i18n/mobiscroll.core-it.js
+SHA1-Digest: aX/MDXtfvPIVuzlPvFEpxGNTU4w=
+
+Name: assets/www/css/icon/map_bringa.png
+SHA1-Digest: pzXHSTzD51kPhUMBMOt4Dvr3SJg=
+
+Name: assets/www/css/icon/back.png
+SHA1-Digest: VWHLZ2TBzIoRWwSWAK8V2xVdsGs=
+
+Name: assets/www/css/icon/kedvenin.png
+SHA1-Digest: Pfs7vWCc7/rRi76rdafGtvkRZDw=
+
+Name: assets/www/css/icon/hdpi/map.png
+SHA1-Digest: WZ2uX8KR7Pk4Sngxwmd9a0+GkBE=
+
+Name: assets/www/js/mobiscroll/js/i18n/mobiscroll.core-pt-BR.js
+SHA1-Digest: HobVPvPMs7VVm/oCbSaKm0xdxD4=
+
+Name: assets/www/css/images/nyeremeny.jpg
+SHA1-Digest: XhD2RM76Go9lo4rHfWoKm4g5IEw=
+
+Name: assets/www/font/-ont-wesome.svg
+SHA1-Digest: p2Qru19zS97sxZ4YB1GaXnXyKz8=
+
+Name: assets/www/js/facebook_js_sdk.js
+SHA1-Digest: b+KFahcchLgdAUbvGJO/cbiBM+g=
+
+Name: assets/www/css/icon/map_friend.png
+SHA1-Digest: 09zi+/D5bGxvwYFZad/LFVEArXY=
+
+Name: assets/www/css/icon/profile.png
+SHA1-Digest: VE9k1RtCPtaXhQQlzNhgg/NhgzM=
+
+Name: assets/www/css/icon/hdpi/layer.png
+SHA1-Digest: 4eSaivr6NF0oj31VpJn6eHZyTsQ=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: qQd9bTlExxu9jKW+4TqKtmTZjU4=
+
+Name: assets/www/js/settings.js
+SHA1-Digest: ShQJvlNHq26YkK4tdaVJuNlpmt8=
+
+Name: assets/www/css/icon/map_drink.png
+SHA1-Digest: uu0PP2wgltpN1wdzOlZDByKsP0c=
+
+Name: assets/www/js/mobiscroll/css/mobiscroll.android-ics.css
+SHA1-Digest: XL0Wg2c/ViXqj8LS7nmFKr4G+QM=
+
+Name: assets/www/js/jquery-2.0.0.min.js
+SHA1-Digest: C+BccUp+bPKP5pJins5bN2mQHco=
+
+Name: assets/www/js/mobiscroll/js/mobiscroll.jqmwidget.js
+SHA1-Digest: Qb41joGZHf4KZLWWMfBuCLD1A5s=
+
+Name: assets/www/font/-ont-wesome.woff
+SHA1-Digest: cK0HSj8WZ2cwHVfmkyFOK2vTMZo=
+
+Name: assets/www/css/icon/map_fellepes.png
+SHA1-Digest: aMGv+dXvUglVb56OcWjQ7ijWST4=
+
+Name: assets/www/css/icon/hdpi/mylocation.png
+SHA1-Digest: LGdlBhf0YtLOLvCMvH1+v2Y4+b8=
+
+Name: resources.arsc
+SHA1-Digest: fvmyl6+5reeF0Ku+vkXPyOkW0Yg=
+
+Name: assets/www/css/images/fbloginbutton.jpg
+SHA1-Digest: 9OTyDLTPl6TGqbAY/ufmMs3VoLs=
+
+Name: assets/www/js/jquery.easing.min.js
+SHA1-Digest: d2ezVlMOOc127CWTILCyd0tAl6g=
+
+Name: assets/www/css/icon/hdpi/map_info.png
+SHA1-Digest: q78hPo0+l5R3r+Oh0rTsmQsyA7I=
+
+Name: assets/www/css/images/ajax-loader.gif
+SHA1-Digest: r7Wo1RXseyxOXYv8y0kPtbYDEcM=
+
+Name: AndroidManifest.xml
+SHA1-Digest: uh00X/IDMJOOBVT+3jwZ749Xxsc=
+
+Name: assets/www/js/mobiscroll/js/i18n/mobiscroll.datetime-pt-BR.js
+SHA1-Digest: vhX1sCnzudgfEKl9S/GYnt+4tCE=
+
+Name: assets/www/css/images/ajax-loader-yellow.gif
+SHA1-Digest: rXoQ29++6HbvHjLd2MQqEWnvHOc=
+
+Name: assets/www/js/mobiscroll/js/i18n/mobiscroll.core-de.js
+SHA1-Digest: vcbnEwz0JJPas8xjXOCVj+sgZPQ=
+
+Name: assets/www/css/icon/layer.png
+SHA1-Digest: 4eSaivr6NF0oj31VpJn6eHZyTsQ=
+
+Name: assets/www/css/icon/map_shadow.png
+SHA1-Digest: HseaWm0d3y49rGfL9ClA4C9SgvE=
+
+Name: assets/www/css/images/android.png
+SHA1-Digest: Ihgt1Qx6vp4Aq6dFn0vrA72TE2I=
+
+Name: assets/www/js/mobiscroll/js/mobiscroll.ios.js
+SHA1-Digest: Y9KfEgCA0xv2oKzLlcEQfXTO7hY=
+
+Name: assets/www/css/ldpi.css
+SHA1-Digest: V3rQRikiQM3Yine9lNAOlhBrNQE=
+
+Name: assets/www/css/icon/hdpi/bus.png
+SHA1-Digest: UD4UVHWVtWpffEfpUftUWb3D+QU=
+
+Name: assets/www/css/icon/esemenyek_map.png
+SHA1-Digest: xqcmBvlbsK7hYTEQolIeT4FNGKc=
+
+Name: assets/www/js/file.js
+SHA1-Digest: qPE2osOV5nGMQ0mj4lLkFx3Fjq4=
+
+Name: assets/www/css/icon/map_bus.png
+SHA1-Digest: Lkkdr7IG9ppOmkxmeVDdwAOO7Do=
+
+Name: assets/www/css/icon/terkep1.png
+SHA1-Digest: nN8qCcaROzFg6JRbQYvECCURocI=
+
+Name: assets/www/js/mobiscroll/js/i18n/mobiscroll.datetime-es.js
+SHA1-Digest: QTs5r5PaR9I2or7XZRDNy2ArjRg=
+
+Name: assets/www/js/mobiscroll/css/wp_icons.png
+SHA1-Digest: a8IGwizz3dmug3ujyPJG+idNdbw=
+
+Name: assets/www/css/icon/hdpi/info.png
+SHA1-Digest: SKOMDfduHzUBMy+p+JQW7+yfnbA=
+
+Name: assets/www/css/icon/map_uniqum.png
+SHA1-Digest: agKZa4cyS4dB6qC3W6cTVNO/RDQ=
+
+Name: assets/www/js/data/static.json
+SHA1-Digest: vI27WWBgZyNktVSWc+xS45MfqWg=
+
+Name: assets/www/css/icon/info.png
+SHA1-Digest: liAR08qanL0L22+FH5qSFh/Mgm0=
+
+Name: assets/www/css/images/head.png
+SHA1-Digest: qCYBBap7J8TIVlM7kfxVGdtIbJA=
+
+Name: assets/www/css/icon/hdpi/map_drink.png
+SHA1-Digest: YluTXR1GWLoPa3xDKI/Oa0HOoP0=
+
+Name: classes.dex
+SHA1-Digest: XWYZorKUnvnd28mGSRJUAwXkfy4=
+
+Name: assets/www/css/icon/hdpi/terkep_map.png
+SHA1-Digest: BSeK48r3eVMn2GxtRhwwG1fzjdQ=
+
+Name: assets/www/css/icon/hdpi/etelital.png
+SHA1-Digest: b7IhVZ+SEZdMkfyLDg3Gvq0WlZc=
+
+Name: assets/www/js/cdv-plugin-fb-connect.js
+SHA1-Digest: dAXBRra4U/wuWVyhw1lRjsyjOTY=
+
+Name: assets/www/js/php.default.min.js
+SHA1-Digest: ZuLzGjWQOtu/vQvqf1c/84ATTq0=
+
+Name: assets/www/css/icon/map_porthu.png
+SHA1-Digest: 7BMjWw0f23WjVdMtnlygo7dS5Ns=
+
+Name: assets/www/css/icon/fellepesek_map.png
+SHA1-Digest: Fpfdt9c+UxD9NQmloD/MBYNoGcg=
+
+Name: assets/www/js/mobiscroll/js/mobiscroll.select.js
+SHA1-Digest: hqfllDBR5iVQwyXYYocawEEwd5I=
+
+Name: assets/www/js/mobiscroll/js/i18n/mobiscroll.datetime-fr.js
+SHA1-Digest: yGEWxR+PQ6iN2KFPCj+lQ4rJF94=
+
+Name: assets/www/css/icon/map_food.png
+SHA1-Digest: nAabFsi8xGWyGk/XDGoRAnINK0Q=
+
+Name: assets/www/font/icons.woff
+SHA1-Digest: KDzuVEflHBWWe+IiC3xg3THJuL4=
+
+Name: assets/www/css/icon/hdpi/map_friend.png
+SHA1-Digest: 09zi+/D5bGxvwYFZad/LFVEArXY=
+
+Name: assets/www/css/icon/map_me.png
+SHA1-Digest: eafwsLjep8FGWdFCTA5XPWoXAAk=
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: kVT16CeX32gX9AHq/K3pasnsoow=
+
+Name: assets/www/js/jquery.transit.min.js
+SHA1-Digest: v97ZCbFB9VMdub8rKEBlldeLuc0=
+
+Name: assets/www/js/fastclick.js
+SHA1-Digest: ncgOsO/QYXkJq0SwmNGFqAlMJGo=
+
+Name: assets/www/font/source.woff
+SHA1-Digest: YMAP2WK4kepvQc/iWoX0zRzmQj4=
+
+Name: assets/www/css/icon/map.png
+SHA1-Digest: WZ2uX8KR7Pk4Sngxwmd9a0+GkBE=
+
+Name: assets/www/js/mobiscroll/js/i18n/mobiscroll.datetime-hu.js
+SHA1-Digest: kLLiHrKXWsLW6ouWGKNKa5/c1ag=
+
+Name: assets/www/js/mobiscroll/js/i18n/mobiscroll.core-fr.js
+SHA1-Digest: 9ZpocFkH9zGHCHS57XuCBb8duCQ=
+
+Name: assets/www/css/icon/sator.png
+SHA1-Digest: 5zopveIZ8HCSH+/5Yy2UsTE/QJY=
+
+Name: assets/www/css/images/ajax-loader-w.gif
+SHA1-Digest: N/TJs8EC0tlfqUnQmo6qt84hUaI=
+
+Name: assets/www/css/icon/hdpi/list.png
+SHA1-Digest: UDcorqfuOxhKG1cwOQ6dxZa3RvU=
+
+Name: assets/www/font/noto.woff
+SHA1-Digest: eNke53hd92VMDsXWA/4CJb6SOhI=
+
+Name: assets/www/css/images/logo.png
+SHA1-Digest: BkWcebxef6wDZDWEoV6eOnmnP6w=
+
+Name: assets/www/font/icons.eot
+SHA1-Digest: SHdhWEH0jmaF0JgNC/LdS9garv4=
+
+Name: assets/www/css/images/web.png
+SHA1-Digest: iSoXUDOToot1Z42IXkoesf6s34E=
+
+Name: assets/www/js/category.js
+SHA1-Digest: 7KOIOBRLGrix+nJnXhdabCEbgik=
+
+Name: assets/www/js/mobiscroll/css/mobiscroll.core.css
+SHA1-Digest: 0zZmefgR8CyemCbumMv04cOxHFY=
+
+Name: assets/www/css/images/foo_tamogatok.png
+SHA1-Digest: rSqpEnKZHRYGheA9+W7r/hlLK9M=
+
+Name: assets/www/js/mobiscroll/css/mobiscroll.android.css
+SHA1-Digest: xkidPZIQy+BA31G/mDznyV/ko3M=
+
+Name: assets/www/css/icon/hdpi/esemenyek.png
+SHA1-Digest: lyVoi0JViKOXD8ilRKJ+jp63ymE=
+
+Name: assets/www/js/mobiscroll/js/mobiscroll.wp.js
+SHA1-Digest: 9xcEMQ16ho1UTClwHGxDcGcKY/w=
+
+Name: assets/www/js/mobiscroll/js/mobiscroll.core.js
+SHA1-Digest: MHeGYPB+EcDIquq1LzT9BleyuWc=
+
+Name: assets/www/css/icon/esemenyek.png
+SHA1-Digest: lyVoi0JViKOXD8ilRKJ+jp63ymE=
+
+Name: assets/www/css/reset.css
+SHA1-Digest: reszHBOlS1YTY8O3RTiSphl4dyY=
+
+Name: assets/www/css/mdpi.css
+SHA1-Digest: zqF3G2c6WBa2OePU5SYXaMqVUmg=
+
+Name: assets/www/css/images/loader_bar.gif
+SHA1-Digest: LSGGw5BRKEUjr4EfVNDzuT4h3Bk=
+
+Name: assets/www/css/icon/list.png
+SHA1-Digest: UDcorqfuOxhKG1cwOQ6dxZa3RvU=
+
+Name: assets/www/css/icon/hdpi/fellepesek.png
+SHA1-Digest: h45FRSiGfz93ZY+WeiyACE14Ctw=
+
+Name: assets/www/css/icon/hdpi/map_place.png
+SHA1-Digest: bZvehCB27onibBMG+rwio2PEw0E=
+
+Name: assets/www/css/images/tablet.png
+SHA1-Digest: akzHyURJjfdlpRgaya9Vb9piYGs=
+
+Name: assets/www/js/mobiscroll/css/mobiscroll.wp.css
+SHA1-Digest: mCIF5qy0ehcHpOv2ozcqB3aDzVY=
+
+Name: assets/www/css/icon/hdpi/profile.png
+SHA1-Digest: VE9k1RtCPtaXhQQlzNhgg/NhgzM=
+
+Name: assets/www/css/icon/hdpi/map_bus.png
+SHA1-Digest: jWpLp99XaPOb6+1VBQgbA3aFLek=
+
+Name: assets/www/font/icon.ttf
+SHA1-Digest: 3UuN6EoAP2CUg29J/WYme0jL+X4=
+
+Name: assets/www/css/images/maszat.png
+SHA1-Digest: reCJbbaGpAiBtcxjlDY5jxlBWuE=
+
+Name: assets/www/js/index.js
+SHA1-Digest: REpZwVlG8BrhAFPa77EUYXKuvjM=
+
+Name: assets/www/font/-ont-wesome.eot
+SHA1-Digest: 1VmSwcdU60McRqA018DJHF420wo=
+
+Name: res/layout/main.xml
+SHA1-Digest: YFyVYmE2dcJAgMmmQkzltBqf7Wc=
+
+Name: assets/www/css/icon/kereses.png
+SHA1-Digest: vp05e6pqtLR3LT6ZPklXRTn7i48=
+
+Name: assets/www/css/icon/hdpi/sator.png
+SHA1-Digest: 5zopveIZ8HCSH+/5Yy2UsTE/QJY=
+
+Name: assets/www/js/mobiscroll/js/i18n/mobiscroll.datetime-it.js
+SHA1-Digest: renfs66Tw85DFr1ZP66C3M2tFBc=
+
+Name: assets/www/css/images/Mehet.png
+SHA1-Digest: HgUtwQdsJGqguOH9zpPdvnFYgk0=
+
+Name: assets/www/css/icon/hdpi/esemenyek_map.png
+SHA1-Digest: xqcmBvlbsK7hYTEQolIeT4FNGKc=
+
+Name: assets/www/index.html
+SHA1-Digest: 8yn9nOkBZ+kekwWeMGLuX8USUHI=
+
+Name: assets/www/css/icon/hdpi/terkep.png
+SHA1-Digest: e5Pyv/yS4BIQ4rhDThCjy9Mljz8=
+
+Name: assets/www/css/icon/map_laptopszalon.png
+SHA1-Digest: Dyt4A8hlMmr8dlNFAoEk3+ny/28=
+
+Name: assets/www/js/mobiscroll/css/mobiscroll.jqm.css
+SHA1-Digest: w7yKrRObqd/isuRE9YnqIMIuz4s=
+
+Name: assets/www/css/icon/map_viasat6.png
+SHA1-Digest: /wICQkk269UAtIFXzOqyIOGjS/Q=
+
+Name: assets/www/css/images/background.png
+SHA1-Digest: ikI2jJ9gL+LFSmCbioD+/3rgf7A=
+
+Name: assets/www/js/data/events.json
+SHA1-Digest: EgEZgxSI1QiLZPJSyb4DXokeZP4=
+
+Name: assets/www/css/icon/hdpi/map_fellepes.png
+SHA1-Digest: DCruHi3E+Vexv+AGPszmLQVKR6c=
+
+Name: assets/www/js/mobiscroll/css/mobiscroll.ios.css
+SHA1-Digest: 1H33x9ZXxdIK57GDgvI4A6VHRtc=
+
+Name: assets/www/css/images/FOO_tab.jpg
+SHA1-Digest: 1nG3AVDvGKiM0mj+ZIDb6X+1/XE=
+
+Name: assets/www/js/mobiscroll/js/mobiscroll.jqmobi.js
+SHA1-Digest: GEEpQJctR8A16Ffk137gHW5KrSk=
+
+Name: assets/www/css/images/bg.png
+SHA1-Digest: h2EJYkZJefRin+BuQqicUzSU1iU=
+
+Name: assets/www/js/progressBar.js
+SHA1-Digest: hMD+/PbVRD9Sok3Ni/Ugj7iLjkk=
+
+Name: assets/www/js/cordova-2.7.0.js
+SHA1-Digest: AH4p4YMSyld3mHWYlFs5BRtUfhk=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: R42he1Iudd6FVb4I+7waKFHeopM=
+
+Name: assets/www/css/icon/hdpi/map_me.png
+SHA1-Digest: eafwsLjep8FGWdFCTA5XPWoXAAk=
+
+Name: assets/www/css/icon/hdpi/back.png
+SHA1-Digest: VWHLZ2TBzIoRWwSWAK8V2xVdsGs=
+
+Name: assets/www/css/icon/hdpi/map_feny.png
+SHA1-Digest: +rNvd9sMdmvLxfFvO35j4Bq/icw=
+
+Name: assets/www/js/mobiscroll/js/mobiscroll.zepto.js
+SHA1-Digest: gI5/SgCEJu/4TcoJsWkLR02Z9L8=
+
+Name: assets/www/css/icon/kedven.png
+SHA1-Digest: PfJ2VXRmPQF/Xwcioj0D9NOlCo0=
+
+Name: assets/www/css/hdpi.css
+SHA1-Digest: bSZpZuXW2IVFNsw1GOvXcGVMT6Y=
+
+Name: assets/www/css/icon/map_info.png
+SHA1-Digest: ILaJU2adylF/76oTFYnIQDH1aJs=
+
+Name: assets/www/js/mobiscroll/css/mobiscroll.sense-ui.css
+SHA1-Digest: /3ZMYff59Yu7AczHr7QUEJLWZpg=
+
+Name: assets/www/js/mobiscroll/css/wp_icons_light.png
+SHA1-Digest: 84Nx21WLCSmZES6aUHP0rd5pUxg=
+
+Name: assets/www/css/icon/kozlekedes_map.png
+SHA1-Digest: fmwKuDy19Hpu4oclxBm1otIVohY=
+
+Name: assets/www/js/iscroll.js
+SHA1-Digest: cOLD5VLLaOBiObU2MJ7DE9/HblI=
+
+Name: assets/www/css/images/foo_tamogatok.jpg
+SHA1-Digest: +SfUt5Kl4lZ3ujDThvROYY4O/SM=
+
+Name: assets/www/js/foo.js
+SHA1-Digest: g/1/V3cflIcfUpdzH6aTD5GN7dc=
+
+Name: assets/www/css/icon/info_map.png
+SHA1-Digest: gQw8UbDafu+RgOV21W57hOSrwfg=
+
+Name: assets/www/css/icon/lszad.png
+SHA1-Digest: umBozig+iFfNE6tFkb7OgeUI9V0=
+
+Name: assets/www/css/icon/hdpi/info_map.png
+SHA1-Digest: gQw8UbDafu+RgOV21W57hOSrwfg=
+
+Name: assets/www/font/icon.svg
+SHA1-Digest: rpoN3GmUbcR4ehG1mx4RTLJ8MGE=
+
+Name: assets/www/font/Noto_Serif
+SHA1-Digest: uB7bHGq552eXH5Jd3MHgQ0g0gt8=
+
+Name: assets/www/css/images/bighead.png
+SHA1-Digest: zk4a05yZkeuof2YEU/JursJSYgM=
+
+Name: assets/www/js/mobiscroll/js/i18n/mobiscroll.core-es.js
+SHA1-Digest: oMNJOqLSZsK2PJS6AjyoF6ub1tM=
+
+Name: assets/www/font/-ont-wesome.ttf
+SHA1-Digest: cJT1+R8PyJCFyQ0Og3IGOySG75M=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: QPWo6bzwL7854p15rqXVLdtGNJc=
+
+Name: assets/www/css/icon/hdpi/fellepesek_map.png
+SHA1-Digest: Fpfdt9c+UxD9NQmloD/MBYNoGcg=
+
+Name: assets/www/css/icon/hdpi/map_food.png
+SHA1-Digest: O4a9fC06VbhNZbXQ05Gk5l+2Ml8=
+
+Name: assets/www/css/icon/hdpi/etelital_map.png
+SHA1-Digest: zalFINtRSz/E/nkKA6j97PajvS8=
+
+Name: assets/www/css/icon/fellepesek.png
+SHA1-Digest: 3hZ3oSmrRVcY0y2MLV4Z/U0EJWU=
+
+Name: assets/www/css/icon/etelital_map.png
+SHA1-Digest: zalFINtRSz/E/nkKA6j97PajvS8=
+
+Name: assets/www/css/icon/hdpi/map_medic.png
+SHA1-Digest: pmXRqL2dhZZOaHRlS22sHuREazo=
+
+Name: assets/www/css/images/fblogin.jpg
+SHA1-Digest: GtcIn80xHqx98+Qwi/9xNi+xbr8=
+
+Name: assets/www/font/icons.css
+SHA1-Digest: WUggiXzBoINJwiHnfVlgHoCTuKY=
+
+Name: assets/www/js/imgcache.js
+SHA1-Digest: onDUWRaQ152GbMK9OXsUXLZWoOU=
+
+Name: assets/www/js/mobiscroll/js/i18n/mobiscroll.datetime-de.js
+SHA1-Digest: b5qwkRCtuX3FdHWyrLw0H3sFIXo=
+
+Name: assets/www/js/mobiscroll/js/mobiscroll.list.js
+SHA1-Digest: 92UAcOz1wX508vHX23hmXyw+ymU=
+
+Name: assets/www/js/mobiscroll/js/mobiscroll.datetime.js
+SHA1-Digest: nF9xq3sa/bfvtbZdaNVkfQrV0Fw=
+
+Name: assets/www/css/icon/map_hotdog.png
+SHA1-Digest: DORbwbd/frIcxYb25asJ7K8MlNE=
+
+Name: assets/www/css/icon/map_feny.png
+SHA1-Digest: /0kQvXgArF80EXmv2bPoGW2W/M8=
+
+Name: assets/www/css/icon/mpa_food.png
+SHA1-Digest: 6lmsgnrBmduqEi75CzrFUQg3Tdw=
+

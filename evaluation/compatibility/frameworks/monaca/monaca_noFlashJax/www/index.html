@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+<script src="js/index.js"></script>
+<script>
+document.addEventListener("deviceready", oDR, false);
+function oDR() {
+    alert("device ready position");
+    document.getElementById("getPosition").addEventListener("click", getCurPos);
+    function onGeoError(err)
+    {
+        alert("Location not found!\n"+
+              'code: '    + err.code    + '\n' +
+              'message: ' + err.message + '\n');
+    }
+    function onGeoSuccess(position)
+    {
+        console.log("In onGeoSuccess(position)");
+        x = ('Latitude: '          + position.coords.latitude          + '\n' +
+             'Longitude: '         + position.coords.longitude         + '\n' +
+             'Altitude: '          + position.coords.altitude          + '\n' +
+             'Accuracy: '          + position.coords.accuracy          + '\n' +
+             'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
+             'Heading: '           + position.coords.heading           + '\n' +
+             'Speed: '             + position.coords.speed             + '\n' +
+             'Timestamp: '         + position.timestamp                + '\n');
+        alert(x);
+    }
+    function getCurPos()
+    {
+        navigator.geolocation.getCurrentPosition(onGeoSuccess, onGeoError,{ maximumAge: 3000, timeout: 5000, enableHighAccuracy: true });
+    }
+}
+</script>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+  <script src="lib/onsenui/js/onsenui.min.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  </script>
+</head>
+<body>
+  <ons-page>
+    <ons-toolbar>
+      <div class="center" id="toolbar-title"></div>
+    </ons-toolbar>
+    <ons-tabbar position="auto">
+      <ons-tab label="Tab 1" page="tab1.html" active>
+      </ons-tab>
+      <ons-tab label="Tab 2" page="tab2.html">
+      </ons-tab>
+    </ons-tabbar>
+  </ons-page>
+
+  <ons-template id="tab1.html">
+    <ons-page id="first-page">
+      <p style="text-align: center;">
+        This is the first page.
+        <button class="button--large--cta" id="cameraTakePicture">TAKE PHOTO</button><br/>
+        <button class="button--large--cta" id="getPosition">CURRENT POSITION</button><br/>
+        <button class="button--large--cta" id="watchPosition">WATCH POSITION</button><br/>
+        <button class="button--large--cta" id="heading">GET DIRECTION</button><br/>
+        <button class="button--large--cta" id="accel">GET ACCELERATION</button><br/>
+        <button class="button--large--cta" id="dialog">GET DIALOG</button><br/>
+        <button class="button--large--cta" id="preflang">GET PREFERRED LANGUAGE</button><br/>
+        <button class="button--large--cta" id="getlocale">GET LOCALE</button><br/>
+        <button class="button--large--cta" id="getDate">GET DATE</button><br/>
+        <button class="button--large--cta" id="createContact">CREATE CONTACT</button><br/>
+        <button class="button--large--cta" id="browser">OPEN BROWSER</button><br/>
+        <!-- <button class="button--large--cta" id="Scan_Barcode">SCAN BARCODE</button><br/> -->
+        <!-- <button class="button--large--cta" id="corbarscan">CORDOVA BARCODE</button><br/> -->
+        <div id="watchlocation"></div>
+        <img id="myImage" style="width:100px;height:100px;"></img>
+      </p>
+    </ons-page>
+  </ons-template>
+
+  <ons-template id="tab2.html">
+    <ons-page id="second-page">
+      <p style="text-align: center;">
+        This is the second page.
+      </p>
+    </ons-page>
+  </ons-template>
+</body>
+
+<script>
+  ons.ready(function() {
+    console.log("Onsen UI is ready!");
+  });
+
+  document.addEventListener('show', function(event) {
+    var page = event.target;
+    var titleElement = document.querySelector('#toolbar-title');
+
+    if (page.matches('#first-page')) {
+      titleElement.innerHTML = 'My app - Page 1';
+    } else if (page.matches('#second-page')) {
+      titleElement.innerHTML = 'My app - Page 2';
+    }
+  });
+</script>
+
+<!--script src="js/plugins/camera.js"></script>
+<script src="js/plugins/position.js"></script>
+<script src="js/plugins/direction.js"></script>
+<script src="js/plugins/watchposition.js"></script>
+<script src="js/plugins/dialog.js"></script>
+<script src="js/plugins/accelerator.js"></script>
+<script src="js/plugins/backgroundgeo.js"></script>
+<script src="js/plugins/barcode.js"></script>
+<script src="js/plugins/network.js"></script>
+<script src="js/plugins/global.js"></script>
+<script src="js/plugins/contact.js"></script>
+<script src="js/plugins/browser.js"></script>
+<script src="js/plugins/native_camera.js"></script>
+<script src="js/plugins/corbarscan.js"></script-->
+</html>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<auberges>
+	<auberge>
+		<num>1</num>
+		<nom>Auberges et Tavernes du marché</nom>
+		<adresse>Jardin Henri Vinay</adresse>
+		<tel></tel>
+		<latitude>45.040499</latitude>
+		<longitude>3.882598</longitude>
+	</auberge>
+	<auberge>
+		<num>2</num>
+		<nom>Auberges delh Dançador</nom>
+		<adresse>Jardin Henri Vinay</adresse>
+		<tel></tel>
+		<latitude>45.040499</latitude>
+		<longitude>3.882598</longitude>
+	</auberge>
+	<auberge>
+		<num>3</num>
+		<nom>Auberge «Le ver à soif»</nom>
+		<adresse>Place du Breuil</adresse>
+		<tel></tel>
+		<latitude>45.041551</latitude>
+		<longitude>3.883947</longitude>
+	</auberge>
+	<auberge>
+		<num>4</num>
+		<nom>Auberge de la lentille</nom>
+		<adresse>Place du Clauzel</adresse>
+		<tel></tel>
+		<latitude>45.042862</latitude>
+		<longitude>3.883987</longitude>
+	</auberge>
+	<auberge>
+		<num>5</num>
+		<nom>Auberge St Michel</nom>
+		<adresse>Haut de la place du Clauzel</adresse>
+		<tel></tel>
+		<latitude>45.042862</latitude>
+		<longitude>3.883987</longitude>
+	</auberge>
+	<auberge>
+		<num>6</num>
+		<nom>Auberge delh Planchas</nom>
+		<adresse>Place Mrg de Galard</adresse>
+		<tel></tel>
+		<latitude>45.047055</latitude>
+		<longitude>3.883477</longitude>
+	</auberge>
+	<auberge>
+		<num>7</num>
+		<nom>Auberge du Trol</nom>
+		<adresse>Place Mrg de Galard</adresse>
+		<tel></tel>
+		<latitude>45.047055</latitude>
+		<longitude>3.883477</longitude>
+	</auberge>
+	<auberge>
+		<num>8</num>
+		<nom>Auberge des Coeurs Joyeux</nom>
+		<adresse>Cour du Lycée Anne-Marie Martel</adresse>
+		<tel></tel>
+		<latitude>45.045408</latitude>
+		<longitude>3.886837</longitude>
+	</auberge>
+	<auberge>
+		<num>9</num>
+		<nom>Auberge du Pagegaï</nom>
+		<adresse>Esplanade Pierre Cardinal</adresse>
+		<tel></tel>
+		<latitude>45.045717</latitude>
+		<longitude>3.887586</longitude>
+	</auberge>
+	<auberge>
+		<num>10</num>
+		<nom>Auberge de Brennus</nom>
+		<adresse>Place des Droits de l'Homme</adresse>
+		<tel></tel>
+		<latitude>45.043128</latitude>
+		<longitude>3.886861</longitude>
+	</auberge>
+</auberges>

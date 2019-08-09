@@ -1,0 +1,116 @@
+<div id="reaction-view" data-role="page" data-dom-cache="true">
+    
+    <div data-role="content">
+
+        
+        <div class="headerPadding footerPadding">
+            
+
+            <div class="feedWrapper">
+                
+                <center class="reactionsView-newUpdate" style="display:none;">loading... <i class="fa fa-spinner fa-spin"></i></center>
+                
+
+                               
+                <div id="wrapper">
+                    <div id="scroller">
+					
+
+                    
+                        <div id="reaction-view-cachedetail-display" class="blogFeed" >
+                        </div>
+                        
+                        
+                        <div id="reaction-view-reactionFeed-display" class="blogFeed" >
+                        
+                            
+                        </div>
+                        
+                    </div>
+
+                </div><!--blogFeed-->
+
+            </div><!--feedWrapper-->
+
+        </div><!--headerPadding-->
+
+    </div><!--content-->
+ 
+    
+    <div data-role="popup" id="flagPopup" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+
+        <h3 class="ui-title">Flag Post as Offensive</h3>
+
+        <textarea style="min-width: 280px; height: 150px; margin-top: 1em;" placeholder="Describe why this post is offensive"></textarea>
+
+        <a href="followingView.html" data-role="button" data-inline="true" data-theme="b" class="submitBtn">Submit</a>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+    </div>
+    
+    <script>
+        //pushNamespace.enablePushNotifications();
+        //phoneNotificationSettingsNameSpace.checkIfPushSettingsIsInSQLite();
+
+        // hide cover sreen during login
+        $("#loginingCoverSreen").hide();
+
+    	//reactionsNameSpace.rating();
+        
+        reactionsNameSpace.cacheFeed();
+
+        $(document).on('pageshow', '#reaction-view', function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+
+            //reactionsNameSpace.checkIfUserIsInHouston();
+            
+            if ( $('#reaction-view-reactionFeed-display').html() == '' || customNamespace.page.event.var.refresh == true ) {                
+            	reactionsNameSpace.getReactionsFeed();
+            }
+            
+            customNamespace.page.event.onPageShow();
+            scrollNamespace.var.modify('getMoreButton', '.reactionsView-getMore');
+            
+            // set title
+            customNamespace.header.changeTitle( { text : 'Reactions' , onclick : function(){ console.log('do nothing')} } );
+
+            //Changes for notification - start
+            phoneNotificationSettingsNameSpace.checkIfPushSettingsIsInSQLite();
+            //Changes for notification - end
+
+            $('#tabbedPanelsthree').show();
+            //customNamespace.sizing();
+
+            scrollNamespace.updateButton.updateText('New Reactions');
+            scrollNamespace.onPageDefinedCall.up = function () {
+                $('#tabbedPanelsthree').finish().slideDown();
+            };
+            scrollNamespace.onPageDefinedCall.down = function () {
+                $('#tabbedPanelsthree').slideUp();
+            };
+
+            customNamespace.refresh = function () {
+
+                $('#refresh').html('<i class="fa fa-spinner fa-spin"></i>');
+                $('#refresh').fadeIn();
+                reactionsNameSpace.getReactionsFeed();
+                $(document).ajaxComplete(function () {
+
+                    $('#refresh').fadeOut();
+                    setTimeout(function () {
+                        $('#refresh').html('<i class="fa fa-refresh"></i>');
+                    }, 1000)
+                    $('body,html').stop().animate({
+                        scrollTop: 0
+                    }, 800);
+                    $(document).unbind('ajaxComplete');
+                });
+            }
+
+        });
+
+    </script>     
+    
+</div>
+

@@ -1,0 +1,70 @@
+<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;" http-equiv="Content-Type"/>
+<meta content="Ignacio Pumarega Aparicio" name="Author"/>
+<title> Altran People </title>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="css/themes/default/jquery.mobile-1.2.0-rc.2.min.css" rel="stylesheet"/>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile-1.2.0-rc.2.min.js"></script>
+
+
+
+
+
+<script src="js/HybridGuard.js"></script></head>
+<body>
+<div data-role="page" id="page">
+<div data-role="header" data-theme="b"><!-- /header -->
+<h1><img src="imagenes/altran-people.png" width="50%"/></h1>
+</div>
+<div data-role="content">
+<div data-theme="d" id="alerta"></div>
+<p>
+<form action="javascript: login()" id="formularioLogin">
+<fieldset>
+<div data-role="fieldcontain">
+<label for="clk"><span id="usuario-tr">Usuario:</span></label>
+<input data-mini="true" id="clk" name="clk" type="text"/>
+</div>
+<div data-role="fieldcontain">
+<label for="ps"><span id="clave-tr">Clave:</span></label>
+<input data-mini="true" id="ps" name="ps" type="password"/>
+</div>
+<!--Control de idioma-->
+<div data-role="fieldcontain">
+<label class="select" for="ididioma"><span id="idioma-tr">Idioma:</span></label>
+<select data-mini="true" id="ididioma" name="ididioma">
+<option value="1"></option>
+<option id="espanol" value="1">Español</option>
+<option id="ingles" value="2">English</option>
+</select>
+</div>
+</fieldset>
+</form>
+</p>
+<div id="login">
+<a data-role="button" data-theme="b" id="login" onclick="javascript: login()">Login</a>
+</div>
+</div>
+</div> <!-- - / Página --->
+<script>
+			$(document).ready(function() {
+				traducir("usuario|clave|idioma|login");
+				$("#ididioma").val(localStorage.getItem('ididioma'));
+			});
+			if (localStorage.getItem('usuario') != '' && localStorage.getItem('clave') != '' ) {
+				//$("#formularioLogin").hide();
+				//$("#login").hide();
+				$("#clk").val(localStorage.getItem('usuario'));
+				$("#ps").val(localStorage.getItem('clave'));
+				$("#ididioma").val(localStorage.getItem('ididioma'));
+				login();
+			}			
+		</script>
+</body>
+</html>
+</html>

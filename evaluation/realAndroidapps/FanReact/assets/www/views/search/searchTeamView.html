@@ -1,0 +1,113 @@
+<div id="searchTeamView" data-role="page">
+
+    
+<!--    <div data-role="popup" id="popupMenu" data-theme="d">
+        <ul>
+            <li>
+                <a href="../dashboard/followingView.html">Home</a>
+            </li>
+            <li>
+                <a href="../notifications/notificationsView.html">
+                    Notifications <span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="../profile/profileView.html">My Profile</a>
+            </li>
+            <li>
+                <a href="../fans/fansView.html">
+                    Fans <span class="notifications">8</span>
+                </a>
+            </li>
+            <li>
+                <a href="settingsView.html">Settings</a>
+            </li>
+        </ul>
+    </div>
+-->
+    <div data-role="content">
+
+        <div class="headerPadding footerPadding">
+
+            <div class="feedWrapper">
+
+                <h2 class="header">All Teams</h2>
+
+				<input type='text' id='instantTeamSearch' placeholder="Enter team name to search" />
+
+                <div id='teamSearchList'>
+			                                   
+                <table class="feed sports">
+                    
+                </table>
+
+			</div>   
+
+            </div><!--feedWrapper-->
+
+        </div><!--headerPadding footerPadding-->
+
+    </div><!--content-->
+
+<!--
+    <div data-role="footer" data-position="fixed">
+        <ul>
+            <li>
+                <a href="../dashboard/followingView.html">
+                    <i class="fa fa-home"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../notifications/notificationsView.html">
+                    <i class="fa fa-bell"></i><span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" id='capturePhotoButton'>
+                    <i class="fa fa-camera"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../fans/fansView.html">
+                    <i class="fa fa-users"></i><span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="../post/postView.html" id="topostView" class="active">
+                    <i class="fa fa-pencil-square-o"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+-->
+<script>
+    //$(document).ready(function () {
+        // Toggles
+        //$(".thumbs li").click(function () {
+            //$(this).toggleClass("selected");
+            //return true;
+        //});
+    //});
+
+	$(document).on("keyup", '#instantTeamSearch', function (event) {
+		event.preventDefault();
+		event.stopPropagation();
+		searchNameSpace.searchPopUpInputText = $(this).val();
+		searchNameSpace.getTeamFeed(loginNameSpace.loggedUserID);
+	});
+
+    
+
+    // set title
+    customNamespace.header.changeTitle( { text : 'Add Team' } );
+    
+	searchNameSpace.getTeamFeed(loginNameSpace.loggedUserID);
+
+
+</script>
+
+</div>
+
+
+
+

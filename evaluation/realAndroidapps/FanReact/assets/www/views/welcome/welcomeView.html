@@ -1,0 +1,34 @@
+<div id="welcomeView" data-role="page" class="login intro">
+    <div class="tableWrap">
+        <div class="tableCellWrap">
+            <div data-role="content">
+                <div class="logo">
+                    <img src="../../images/logo.png" />
+                </div>
+
+                <ul class="introLinks">
+                    <li id="test" class="link email">
+                        <a href="../register/registerView.html" data-transition="slide">Register with email</a>
+                    </li>
+                    <li id="facebookLoginBtn" class="link facebook" onclick="loginNameSpace.loginWithFacebook(true)">
+                        <a href="#">Log In with Facebook</a>
+                    </li>
+                    <li id="googleLoginBtn" class="link google" onclick="loginNameSpace.loginWithGoogle(true)">
+                        <a href="#">Log In with Google+</a>
+                    </li>
+                    <li class="link login" >
+                        <a href="../login/loginView.html" data-transition="slide">Log In</a>
+                    </li>
+                </ul><!--introLinks-->
+            </div><!--content-->
+        </div><!--tableWrap-->
+    </div><!--tableCellWrap-->
+     <script>
+        gaPlugin.trackPage(function (result) {console.log('success welcome ' + result);},function (error) {console.log('fail welcome ' + error );},'welcome');
+    </script>   
+    <script>
+            $('#tabbedPanelsthree').hide();
+            $('#tabbedPanelstwo').hide();
+            $('#commonForAllPagePreventFlashSolution').hide();
+    </script>
+</div>

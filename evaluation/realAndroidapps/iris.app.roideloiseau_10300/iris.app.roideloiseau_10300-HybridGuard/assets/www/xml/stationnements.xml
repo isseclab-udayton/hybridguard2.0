@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stationnements>
+	<stationnement>
+            <nom>Parking Place Michelet</nom>
+            <adresse></adresse>
+            <latitude>45.040833</latitude>
+            <longitude>3.885727</longitude>
+        </stationnement>
+        <stationnement>
+            <nom>Parking Square H. Coiffier</nom>
+            <adresse></adresse>
+            <latitude>45.041455</latitude>
+            <longitude>3.883034</longitude>
+        </stationnement>
+        <stationnement>
+            <nom>Parking Carnot</nom>
+            <adresse></adresse>
+            <latitude>45.046594</latitude>
+            <longitude>3.879257</longitude>
+        </stationnement>
+        <stationnement>
+            <nom>Parking Centre Hospitalier</nom>
+            <adresse></adresse>
+            <latitude>45.052059</latitude>
+            <longitude>3.880588</longitude>
+        </stationnement>
+        <stationnement>
+            <nom>Parking Rue de la Coustette</nom>
+            <adresse></adresse>
+            <latitude>45.050422</latitude>
+            <longitude>3.8846</longitude>
+        </stationnement>
+        <stationnement>
+            <nom>Parking Rue du Moulin Pataud</nom>
+            <adresse></adresse>
+            <latitude>45.042948</latitude>
+            <longitude>3.889107</longitude>
+        </stationnement>
+        <stationnement>
+            <nom>Parking Gare du Puy-en-Velay</nom>
+            <adresse></adresse>
+            <latitude>45.042872</latitude>
+            <longitude>3.892057</longitude>
+        </stationnement>
+        <stationnement>
+            <nom>Parking Sentier des Rives de la Bornes</nom>
+            <adresse></adresse>
+            <latitude>45.048065</latitude>
+            <longitude>3.893087</longitude>
+        </stationnement>
+</stationnements>

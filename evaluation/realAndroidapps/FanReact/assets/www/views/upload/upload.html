@@ -1,0 +1,62 @@
+<div id="upload-page" data-role="page" ng-controller="UploadDisplayController as view ">
+
+    <div data-role="content" > 
+                
+        <!--<a ng-click="view.helper.console.log( view )">view all</a>-->
+
+        <div class="blogFeed">
+            {{ view.rand }}
+            <div class="entry" ng-repeat="x in view.upload track by $index " ng-if=" view.checkIsPending( x )">
+                Attempt: {{ x.attempt }}
+                <br/>
+                Status: {{ x.status }}
+                <br/>
+                <span ng-if="x.progress != undefined ">
+                    Progress: {{ x.progress }}%
+                </span>
+                <hr/>
+                
+                Title: {{ x.detail.postTitle }}
+                <br/>
+                Description: {{ x.detail.postDesc }}
+
+                <a ng-click="view.remove( $index )"> remove </a>
+
+            </div>
+            
+            
+        </div>
+    </div>
+    
+
+ 
+    
+    <script>
+        $(document).on('pagebeforeshow' , '#upload-page' , function( event){
+           event.preventDefault();
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+            customNamespace.compileAngularElement();
+        });
+        
+        $(document).on('pageshow', '#upload-page', function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+
+            customNamespace.sizing();
+
+            customNamespace.header.changeTitle( { text : 'Current Uploads' } );
+    
+            
+            
+        });
+
+
+
+	</script>
+    
+    
+       
+</div>
+

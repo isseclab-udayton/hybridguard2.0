@@ -1,0 +1,215 @@
+<div id="gameCenterView" data-role="page">
+
+	<div data-role="popup" id="dropdownMenu" class="dropdownMenu" data-theme="d">
+    </div>
+
+    <div data-role="content">
+                    
+            <table class="gameBox">
+                <tr>
+                    <td class="logo">
+                        <div id="thisTeamImage" class="img round" style="background-image: url();"
+                            onclick="teampageNameSpace.teamId = gamecenterNameSpace.teamsInfo.teamId1 ; location.hash='../team/teampage.html';  "
+                            >
+						</div>
+                    </td>
+                    <td class="vs">
+                        <p class="teamNameVsInfo"></p>
+                    </td>
+                    <td class="logo">
+                        <div id="anotherTeamImage" class="img round" 
+                            onclick="teampageNameSpace.teamId = gamecenterNameSpace.teamsInfo.teamId2 ; location.hash='../team/teampage.html';  "
+                            ></div>
+                    </td>
+                </tr>
+                <tr id="teamSchedule" style="display:none" >
+                    <td colspan="3" style="padding: 0 15px 10px 0; text-align: right;">
+                        <a href="#" style="font-size: .8em; color: #aaa;">Schedule</a>
+                    </td>
+                </tr>
+            </table>
+
+            <!--
+            <div class="addMoreTeams">
+                <a onclick="$('#topostView').trigger('click') ; postNameSpace.track = 'gamecenter' ;" class="ui-link" data-transition="none">
+                    Create New Post
+                </a>
+            </div>
+            -->
+        
+			<div id="gameCenterTrending"></div>
+
+            <div id="gameCenterFeed" class="blogFeed"></div>
+
+
+
+    </div><!--content-->
+
+
+
+<!--    <div data-role="footer" data-position="fixed">
+        <ul>
+            <li>
+                <a href="../dashboard/followingView.html">
+                    <i class="fa fa-home"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../notifications/notificationsView.html">
+                    <i class="fa fa-bell"></i><span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" id='capturePhotoButton'>
+                    <i class="fa fa-camera"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../fans/fansView.html">
+                    <i class="fa fa-users"></i><span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="../post/postView.html" id="topostView" class="active">
+                    <i class="fa fa-pencil-square-o"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+-->
+    <div data-role="popup" id="flagPopup" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+
+        <h3 class="ui-title">Flag Post as Offensive</h3>
+
+        <textarea style="min-width: 280px; height: 150px; margin-top: 1em;" placeholder="Describe why this post is offensive"></textarea>
+
+        <a href="../dashboard/followingView.html" data-role="button" data-inline="true" data-theme="b" class="submitBtn">Submit</a>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+    </div>
+
+     
+	<style>
+        .ui-header .ui-title a {
+            display: inline-block ;
+            padding: 0 ;
+        }
+    </style>
+    
+    <script>
+                
+        
+        
+        var html = '<span onclick="history.back();"><i class="fa fa-angle-left"></i> &nbsp; </span><a class="dropdown" style="  text-overflow: ellipsis; overflow:hidden ; " href="#dropdownMenu" data-rel="popup" data-role="button" data-inline="true" data-transition="slidedown">Game Center </a><a data-role="none" onclick="$(\'#dropdownMenu\').popup(\'open\', { positionTo : this } )">&nbsp;<i class="fa fa-chevron-down"></i></a>';
+        customNamespace.header.changeTitle( { html : html , onclick : function(){ } } );
+
+
+        
+        $('#tabbedPanelstwoRecent').addClass('active');
+        // recent & trending onclick event
+        customNamespace.recent = function () {
+            $('.active').removeClass('active');
+            gamecenterNameSpace.getGamecenterFeed();
+            
+            // rewrite refresh button onclick event
+            customNamespace.refresh = function(){
+                
+                $('#refresh span').html('updating... ' );
+                
+                gamecenterNameSpace.getGamecenterFeed();
+                $( document ).ajaxComplete(function() {
+                    
+                    $('#refresh span').empty();
+                    $('body,html').stop().animate({
+                        scrollTop: 0
+                    }, 800);
+                    $( document ).unbind('ajaxComplete');
+                });
+            }
+        }
+        customNamespace.trend = function () {
+            $('.active').removeClass('active');
+            gamecenterNameSpace.getTrend();
+
+            // rewrite refresh button onclick event
+            customNamespace.refresh = function(){
+                
+                $('#refresh span').html('updating... ' );
+                
+                gamecenterNameSpace.getTrend();
+                $( document ).ajaxComplete(function() {
+                    
+                    $('#refresh span').empty();
+                    $('body,html').stop().animate({
+                        scrollTop: 0
+                    }, 800);
+                    $( document ).unbind('ajaxComplete');
+                });
+            }
+        }
+            
+        try{
+            gamecenterNameSpace.getGamecenterFeed();
+    		gamecenterNameSpace.getGamecenterEventFeed();
+
+    		var teamId1 = gamecenterNameSpace.teamsInfo.teamId1 ;
+    		var teamName1 = gamecenterNameSpace.teamsInfo.teamName1 ;
+    		var teamIcon1 = gamecenterNameSpace.teamsInfo.teamIcon1 ;
+    		var teamId2 = gamecenterNameSpace.teamsInfo.teamId2 ;
+    		var teamName2 = gamecenterNameSpace.teamsInfo.teamName2 ;
+    		var teamIcon2 = gamecenterNameSpace.teamsInfo.teamIcon2 ;
+    		var scheduleDateAndTime = gamecenterNameSpace.teamsInfo.scheduleDateAndTime;
+
+    		gamecenterNameSpace.displayTeamsInfo(teamId1, teamName1, teamIcon1, teamId2, teamName2, teamIcon2, scheduleDateAndTime);
+        } catch (err) {console.log(err.message)}
+        
+        $(document).on('pageshow','#gameCenterView', function(event){
+            event.preventDefault();
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+            
+            //$('#capturePhotoButtonli').hide();
+            //$('#takePhotoForGameCenterli').show();
+            //$('#takePhotoForCommentli').hide();
+            //$('#takePhotoForTeamPageli').hide();
+              
+            $('#tabbedPanelstwo').show();
+            customNamespace.sizing();
+              
+            $("#dropdown").attr("href", "#dropdownMenu");
+            $("#dropdown").attr("data-rel", "popup");   
+    		
+            
+            customNamespace.commonPopupTakePhoto = function() {
+                $('#topostView').trigger('click') ;
+                postNameSpace.track = 'gamecenter' ;
+                cameraApp._capturePhoto();
+            }
+            
+            customNamespace.commonPopupTakeVideo = function() {
+                $('#topostView').trigger('click') ;
+                postNameSpace.track = 'gamecenter' ;
+                recordVideoNameSpace.CaptureVideo();
+            }
+
+            // display refresh button
+            $("#refresh").show();
+            // rewrite refresh button onclick event
+            customNamespace.refresh = function(){
+                
+                $('#refresh span').html('updating... ' );
+                
+                
+                gamecenterNameSpace.getGamecenterFeed();
+                $( document ).ajaxComplete(function() {
+                    
+                    $('#refresh span').empty();
+                    $('body,html').stop().animate({
+                        scrollTop: 0
+                    }, 800);
+                    $( document ).unbind('ajaxComplete');
+                });
+            }
+            
+        });
+    </script>
+</div>

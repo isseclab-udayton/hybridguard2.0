@@ -1,0 +1,63 @@
+
+<div id="commonForAllPage" >
+        
+    <div data-role="popup" id="searchPopup" data-history="false" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+    
+        <h3 class="ui-title">Search</h3>
+        <p>Enter your search term and hit enter</p>
+        <label for="">Search for:</label>
+        <select id='searchPopupChoice'>
+            <option value="fans">Fans</option>
+            <option value="teams">Teams</option>
+        </select>
+        <input type="text" id="searchPopUpInputText" onchange="searchNameSpace.searchPopUpInputText = $(this).val() ;" name="search" placeholder="Search" />
+        <a id="searchPopupButton" onclick="buttonNameSpace.searchPopupButtonOnClick();" data-role="button" data-inline="true" data-theme="b" class="submitBtn">Search</a>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+    </div>
+    
+     <div data-role="popup" id="popupBasic" data-history="false" data-overlay-theme="a" data-theme="c" data-dismissible="true" style="max-width:400px;" class="ui-corner-all">
+
+        <h3 class="ui-title">Flag Post as Offensive</h3>
+
+        <textarea id="reasonId" style="min-width: 280px; height: 150px; margin-top: 1em;" placeholder="Describe why this post is offensive"></textarea>
+
+        <a href="#" data-role="button" data-inline="true" data-theme="b" class="submitBtn" onclick="flag();">Submit</a>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+    </div>
+
+    
+</div>
+<script>
+
+    $('#searchPopup').popup();
+    $('#popupMenu').popup();
+    
+	var buttonNameSpace = {
+		searchPopupButtonOnClick: function () {
+			var text = $('#searchPopUpInputText');
+			searchNameSpace.instantSearch = 'on';
+
+			var searchFor = $("#searchPopupChoice").val();
+			if (searchFor == 'fans') {
+				customNamespace.page.goTo( 'views/search/searchPeopleView.html' );
+				searchNameSpace.getPeopleFeed(loginNameSpace.loggedUserID);
+			} else if (searchFor == 'teams') {
+				//location.hash = '../search/searchTeamView.html';
+                customNamespace.page.goTo( 'views/search/searchTeamView.html' );
+			}
+		}
+	}
+
+
+    
+    
+    customNamespace.sizing();
+
+
+    function flag()
+    {
+        var profileId = loginNameSpace.loggedUserID;
+        var text = $('#reasonId').val();
+        commentNameSpace.flagMessage(commentNameSpace.postId, profileId, text);
+    }
+</script>

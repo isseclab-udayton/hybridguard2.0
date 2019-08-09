@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
+<div id="detailsPage2" data-role="page" data-add-back-btn="true">
+    <div data-role="header" data-position="fixed" data-theme="a">
+        <h1><a href="index.html" data-ajax="false"><img src="img/logo.png" /></a></h1>
+        <a href="innonewssearch.html" data-ajax="false" data-icon="search" class="ui-btn-right" data-iconpos="notext" data-mini="true" data-inline="true"></a>
+        <div data-role="navbar">
+            <ul>
+                <li class="navbar-txt"><a href="innonewslist.html" data-ajax="false">Headline</a></li>
+                <li class="navbar-txt"><a href="innonewshot.html" data-ajax="false">Best</a></li>
+                <li class="navbar-txt"><a href="innodblist.html" data-ajax="false">Profile</a></li>
+                <li class="navbar-txt"><a href="innocategory.html" data-ajax="false">Category</a></li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="content" data-theme="d"> 
+        <div id="innodbDetails">
+            <h3 id="innodbTitle"></h3>
+            <p id="innodbCategoryDatetime"></p>
+            <img id="innodbPic" />
+            <p id="innodbText"></p>
+        </div>
+<!--
+        <div id="sns-btn">
+            <a id="facebook-link" href="#" target="_blank"><img src="img/facebook.png" /></a>
+            <a id="twitter-link" href="#" target="_blank"><img src="img/twitter.png" /></a>
+        </div>
+-->
+        <p></p>
+        <div class="ui-bar ui-bar-a">HOT NEWS</div>
+        <p></p>
+        <ol id="innonewsHot" data-role="listview" data-filter="false" data-theme="d"></ol>
+        <p></p>
+    </div>
+    <div data-role="footer" data-position="fixed" data-theme="a">
+        <h5>&copy; innolife</h5>
+    </div>
+</div>
+</body>
+</html>

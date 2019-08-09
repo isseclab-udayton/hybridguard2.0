@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="com.webratio.mobile.developer" version="1.1.19" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="BarcodeScanner">
+        <param name="android-package" value="com.phonegap.plugins.barcodescanner.BarcodeScanner" />
+    </feature>
+    <feature name="AM">
+        <param name="android-package" value="com.webratio.accountmanager.AM" />
+    </feature>
+    <feature name="AppTools">
+        <param name="android-package" value="com.webratio.apptools.AppTools" />
+    </feature>
+    <feature name="ActionSheet">
+        <param name="android-package" value="nl.xservices.plugins.actionsheet.ActionSheet" />
+    </feature>
+    <feature name="Battery">
+        <param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener" />
+    </feature>
+    <feature name="Calendar">
+        <param name="android-package" value="nl.xservices.plugins.Calendar" />
+    </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+    <feature name="CertificatesPlugin">
+        <param name="android-package" value="de.martinreinhardt.cordova.plugins.CertificatesPlugin" />
+    </feature>
+    <feature name="Contacts">
+        <param name="android-package" value="org.apache.cordova.contacts.ContactManager" />
+    </feature>
+    <feature name="DatePickerPlugin">
+        <param name="android-package" value="com.plugin.datepicker.DatePickerPlugin" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Accelerometer">
+        <param name="android-package" value="org.apache.cordova.devicemotion.AccelListener" />
+    </feature>
+    <feature name="Compass">
+        <param name="android-package" value="org.apache.cordova.deviceorientation.CompassListener" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="FileOpener2">
+        <param name="android-package" value="io.github.pwlin.cordova.plugins.fileopener2.FileOpener2" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.Geolocation" />
+    </feature>
+    <feature name="Globalization">
+        <param name="android-package" value="org.apache.cordova.globalization.Globalization" />
+    </feature>
+    <feature name="GoogleMaps">
+        <param name="android-package" value="plugin.google.maps.GoogleMaps" />
+        <param name="onload" value="true" />
+        <param name="onreset" value="true" />
+    </feature>
+    <feature name="External">
+        <param name="android-package" value="plugin.google.maps.External" />
+    </feature>
+    <feature name="Geocoder">
+        <param name="android-package" value="plugin.google.maps.MyGeocoder" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="Media">
+        <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
+    </feature>
+    <feature name="Capture">
+        <param name="android-package" value="org.apache.cordova.mediacapture.Capture" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Vibration">
+        <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Keyboard">
+        <param name="android-package" value="io.ionic.keyboard.IonicKeyboard" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="PushNotification">
+        <param name="android-package" value="com.adobe.phonegap.push.PushPlugin" />
+    </feature>
+    <feature name="Insomnia">
+        <param name="android-package" value="nl.xservices.plugins.Insomnia" />
+    </feature>
+    <feature name="BLE">
+        <param name="android-package" value="com.megster.cordova.ble.central.BLECentralPlugin" />
+    </feature>
+    <preference name="android-minSdkVersion" value="15" />
+    <preference name="android-targetSdkVersion" value="19" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="1000000" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <icon density="ldpi" src="resources/icon/android/icon-36.png" />
+    <icon density="mdpi" src="resources/icon/android/icon-48.png" />
+    <icon density="hdpi" src="resources/icon/android/icon-72.png" />
+    <icon density="xhdpi" src="resources/icon/android/icon-96.png" />
+    <splash density="land-hdpi" src="resources/splash/android/screen-land-hdpi.png" />
+    <splash density="land-ldpi" src="resources/splash/android/screen-land-ldpi.png" />
+    <splash density="land-mdpi" src="resources/splash/android/screen-land-mdpi.png" />
+    <splash density="land-xhdpi" src="resources/splash/android/screen-land-xhdpi.png" />
+    <splash density="land-xxhdpi" src="resources/splash/android/screen-land-xxhdpi.png" />
+    <splash density="land-xxxhdpi" src="resources/splash/android/screen-land-xxxhdpi.png" />
+    <splash density="port-hdpi" src="resources/splash/android/screen-port-hdpi.png" />
+    <splash density="port-ldpi" src="resources/splash/android/screen-port-ldpi.png" />
+    <splash density="port-mdpi" src="resources/splash/android/screen-port-mdpi.png" />
+    <splash density="port-xhdpi" src="resources/splash/android/screen-port-xhdpi.png" />
+    <splash density="port-xxhdpi" src="resources/splash/android/screen-port-xxhdpi.png" />
+    <splash density="port-xxxhdpi" src="resources/splash/android/screen-port-xxxhdpi.png" />
+    <allow-intent href="market:*" />
+    <name>WebRatio</name>
+    <description> The WebRatio Mobile Developer app is a testing utility for web developers
+        and designers using the WebRatio Platform. After installing the
+        WebRatio Mobile Developer app you will be able to connect to your WebRatio
+        desktop app to instantly view and test your work on the device.
+</description>
+    <author email="support@webratio.com" href="http://www.webratio.com"> WebRatio srl
+</author>
+    <hook src="resources/script/add-hockeyapp.js" type="before_build" />
+    <hook src="resources/script/production-analytics.js" type="before_build" />
+    <hook src="resources/script/remove-hockeyapp.js" type="after_compile" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="default" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="Fullscreen" value="false" />
+    <preference name="Orientation" value="default" />
+    <preference name="FadeSplashScreenDuration" value="200" />
+    <preference name="BackupWebStorage" value="none" />
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="data:*" />
+    <allow-navigation href="cdvfile://*/*" />
+    <allow-navigation href="content://*/*" />
+</widget>

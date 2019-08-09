@@ -1,0 +1,26 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: edu.itesm.mx.guiaartistico_5.apk
+compressionType: false
+doNotCompress:
+- arsc
+- jpg
+- png
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '7'
+  targetSdkVersion: '16'
+sharedLibrary: false
+sparseResources: true
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '5'
+  versionName: '1.1'

@@ -1,0 +1,32 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: webRadi.apk
+compressionType: false
+doNotCompress:
+- arsc
+- assets/www/cdvtests/topcoat-0.7.5/demo/fonts/sourcecodepro-regular-webfont.eot
+- assets/www/cdvtests/topcoat-0.7.5/demo/fonts/sourcecodepro-regular-webfont.woff
+- assets/www/cdvtests/topcoat-0.7.5/demo/fonts/sourcesanspro-light-webfont.eot
+- assets/www/cdvtests/topcoat-0.7.5/demo/fonts/sourcesanspro-light-webfont.woff
+- assets/www/cdvtests/topcoat-0.7.5/demo/fonts/sourcesanspro-regular-webfont.eot
+- assets/www/cdvtests/topcoat-0.7.5/demo/fonts/sourcesanspro-regular-webfont.woff
+- assets/www/cdvtests/topcoat-0.7.5/demo/fonts/sourcesanspro-semibold-webfont.eot
+- assets/www/cdvtests/topcoat-0.7.5/demo/fonts/sourcesanspro-semibold-webfont.woff
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '15'
+  targetSdkVersion: '19'
+sharedLibrary: false
+unknownFiles:
+  build-data.properties: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1-dirty
+versionInfo:
+  versionCode: '101198'
+  versionName: 1.1.19

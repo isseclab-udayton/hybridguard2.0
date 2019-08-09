@@ -1,0 +1,79 @@
+<html> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head> 
+	<meta http-equiv="Content-Type" content="text/html;" />
+	<META NAME="Author" CONTENT="Ignacio Pumarega Aparicio">
+		<title> Altran People </title> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet"  href="css/themes/default/jquery.mobile-1.2.0-rc.2.min.css" />
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.mobile-1.2.0-rc.2.min.js"></script>
+		<script src="funciones.js"> </script>
+		<script src="Cursos/funcionesCursos.js"></script>
+		<script src="AltranPeople/funcionesaltranPeople.js"></script>
+		<script src="phonegap.js"></script>
+		<script src="childbrowser.js"></script>
+	</head> 
+	<body> 	
+		<Div data-role="page" id='page'>
+			<div data-role="header" data-theme="b"><!-- /header -->
+				<h1><img src='imagenes/altran-people.png' width="50%" /></h1>
+			</div>
+
+			<Div data-role="content">
+				<div id='alerta' data-theme="d"></div>
+				<p>
+					<form id="formularioLogin" action="javascript: login()">
+					<fieldset> 
+						<div data-role="fieldcontain">
+							<label for="clk"><span id='usuario-tr'>Usuario:</span></label>
+							<input type="text" name="clk" id="clk" data-mini="true" />
+						</div> 
+						<div data-role="fieldcontain">
+							<label for="ps"><span id='clave-tr'>Clave:</span></label>
+							<input type="password" name="ps" id="ps" data-mini="true" />
+						</div>
+						<!--Control de idioma-->
+						<div data-role="fieldcontain">
+							<label for="ididioma" class="select"><span id='idioma-tr'>Idioma:</span></label>
+							<select name="ididioma" id="ididioma" data-mini="true">
+								<option value="1" ></option>
+								<option id="espanol" value="1" >Español</option>
+								<option id="ingles" value="2" >English</option>
+							</select>
+						</div>
+					</fieldset>
+					</form>
+				</p>
+						<div id="login">
+						<a id='login' onClick="javascript: login()" data-role="button" data-theme="b">Login</a>
+						</div>
+			</Div>
+		</Div> <! - / Página ->
+
+		<script>
+			$(document).ready(function() {
+				traducir("usuario|clave|idioma|login");
+				$("#ididioma").val(localStorage.getItem('ididioma'));
+			});
+			if (localStorage.getItem('usuario') != '' && localStorage.getItem('clave') != '' ) {
+				//$("#formularioLogin").hide();
+				//$("#login").hide();
+				$("#clk").val(localStorage.getItem('usuario'));
+				$("#ps").val(localStorage.getItem('clave'));
+				$("#ididioma").val(localStorage.getItem('ididioma'));
+				login();
+			}			
+		</script>	
+		
+	<script type="text/javascript" src="http://debug.build.phonegap.com/target/target-script-min.js#0c5c2dcc-4907-11e2-b6ee-12313d1744da"></script></body>
+
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,642 @@
+<div id="comment-view" data-role="page" data-dom-cache="false">
+
+    <div data-role="popup" id="EditPostPopup" data-history="false"  data-overlay-theme="a" data-theme="c" data-dismissible="true" style="max-width:400px;" class="ui-corner-all">
+
+        <a href="#" onclick="commentNameSpace.deletePost( this ); reactionsNameSpace.getReactionsFeed();" data-role="button" data-inline="true" data-theme="b" class="submitBtn">Delete This Post ?</a>
+        <a href="#" data-rel="back" onclick='commentNameSpace.editPost();' data-role="button" data-inline="true" data-theme="b" class="submitBtn">Edit This Post </a>
+        <a href="#" data-rel="back" onclick='' data-role="button" data-inline="true" data-theme="b" class="submitBtn">Cancel</a>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Back</a>
+    </div>
+    
+    <div data-role="popup" id="comment-view-editCommentPopup" data-history="false" data-theme="c" data-dismissible="true" style="max-width:400px;" >
+
+        <a href="#" data-rel="back" onclick='commentNameSpace.deleteComment();' data-role="button" data-inline="true" data-theme="b" class="submitBtn">Delete This Comment ?</a>
+        <a href="#" data-rel="back" onclick='' data-role="button" data-inline="true" data-theme="b" class="submitBtn">Cancel</a>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Back</a>
+    </div>
+    
+    
+    <div data-role="popup" id="popupNYC" data-history="false" data-overlay-theme="a" data-theme="d" data-corners="false">
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+        <img class="popphoto" src="http://demos.jquerymobile.com/1.3.0-rc.1/docs/demos/_assets/img/newyork.jpg" alt="New York, USA">
+    </div>
+    
+    <div id="comment-view-videoWrapper" class="myVideoWrapper">
+        <i style="top:0;right:0;" class="fa fa-times" 
+           onclick="$('#comment-view-myvideo').trigger('pause'); 
+                    $('#comment-view-videoWrapper').fadeOut();  
+                   "></i>
+        <i style="bottom:0;left:0;margin-left:45%" class="fa fa-play" 
+           onclick="
+                    if( $('#comment-view-myvideo')[0].paused ) {
+                        $('#comment-view-myvideo').trigger('play'); 
+                    } else { 
+                        $('#comment-view-myvideo').trigger('pause'); 
+                    }  
+                   ">
+        </i>
+        
+        <div id="comment-view-videoHolder-display">
+        </div>
+    </div>
+                
+    <div id="comment-view-imageWrapper" class="myImageWrapper" style="width:100%;">
+        <i class="fa fa-times" onclick="$('#comment-view-imageWrapper').fadeOut();"></i>
+        <center>
+            <img id="comment-view-fullscreenImage" class="fullscreenImage" src="" onclick="commentNameSpace.displayPostInfo.toggleZoom();">
+        </center>
+    </div>
+            
+    
+    <script type="text/x-kendo-template" id="comment-view-postDetailHead-template">
+
+        <ul class="entryData" >
+            <li><i class="fa fa-clock-o"></i><span>{{ formattedPostCreateDate }}</span></li>
+            <li><i class="fa fa-eye"></i>{{ postFlagMessage }}</li>
+            <li><i class="fa fa-comments"></i>{{ commentCount }}</li>
+        </ul>
+
+        <div onclick="profileNameSpace.profileID = {{ profileId }} ; location.hash='../profile/profileByIdView.html';" class="img round" style="background-image: url( '{{ profilePhoto }}');"></div>
+        <p class="username"><a onclick="  profileNameSpace.profileID = {{ profileId }} ;  location.hash='../profile/profileByIdView.html';" class="ui-link" data-transition="none">{{ profileHandle }}</a></p>
+        <p class="message"><span class="postTitle">{{{ formattedPostTitle }}}</span><br></p>
+        <p class="postDescription" id="comment-view-postDetailHead-description">{{{ formattedPostDescription }}}</p>
+        <p></p>
+
+    </script>
+    
+    
+    <script type="text/x-kendo-template" id="comment-view-videoHolder-template">
+
+        <video id="comment-view-myvideo" autobuffer 
+        	onclick="
+                    $(this)[0].paused == true ? $(this)[0].trigger('play'): $(this).trigger('pause') 
+                    " 
+        	style="-webkit-transform: translate3d(0px,0px,0px); width:100%;height:100%;" webkit-playsinline >
+        	<source src="{{ postVideoLink }}" type="video/mp4">
+        </video>
+    
+    </script>
+    
+    <style>
+        .videoContainer{
+            margin: 0 -5% 0 -5% ;
+        }
+        .videoContainer .btn{
+            color: white;
+            background: #00592d;
+            position: absolute;
+            right: 0;
+            padding: .5em .5em .5em .7em;
+            border-radius: 2em;
+            font-size: 2em;
+            margin: -2.5em .3em 1em 0;
+            opacity: .5;
+        }
+    </style>
+    
+    <script type="text/x-kendo-template" id="comment-view-postDetailBody-template">
+
+        {{#if postImageLink}}
+            {{#if postVideoLink}}
+            	<div class="videoContainer">
+                    <video id="comment-view-myvideo" autobuffer controls autoplay style="width:100%;"
+                        style="-webkit-transform: translate3d(0px,0px,0px); width:100%;height:100%;" webkit-playsinline >
+                        <source src="{{ postVideoLink }}" type="video/mp4">
+                    </video>
+                </div>
+            {{else}} 
+                <img class="postMediaOfFeedList imgTag" src="{{postImageLink}}" alt="{{altImageSrc}}" 
+                    onclick="  
+                            $('#comment-view-fullscreenImage').attr('src', '{{ postImageLink }}');
+                            $('#comment-view-imageWrapper').fadeIn();  
+                            zoomNamespace.zoom.enable( document.getElementById('comment-view-fullscreenImage') );
+                            "
+                 >
+            {{/if}}
+        {{/if}}
+
+    </script>    
+    
+    <style>
+    	.thumbs .li:hover{
+            opacity: .5;
+        }
+    </style>
+    
+    <script type="text/x-kendo-template" id="comment-view-postDetailCommentPart-template">
+
+        <p class="comment Id-displayPostTextAreaButtonHolder" >
+            <a onclick="
+                        var data = $( this ).closest( '.Id-entry' ).find('.Id-commentHolder').data();
+                        data.track = 'comment' ;  
+                        data.postId = {{ postId }} ;
+                        data.loggedUserID = {{ loggedUserID }} ;
+                        data.submitType = 5 ;
+                        data.submitTypeDesc = 'Commenting' ;
+                        $( this ).closest( '.Id-entry' ).find('.Id-commentHolder').data( data );
+                        console.log( $( this ).closest( '.Id-entry' ).find('.Id-commentHolder').data() );
+                        $( this ).closest( '.Id-entry' ).find('.Id-commentHolder').slideDown();
+                        $( this ).closest( '.Id-entry' ).find('.Id-displayPostTextAreaButtonHolder' ).hide();
+                        $( this ).closest( '.Id-entry' ).find('.Id-actionButtonHolder' ).fadeIn();
+                        $( this ).closest( '.Id-entry' ).find('.Id-commentHolder').find('.Id-textarea').focus();
+                       " 
+               data-transition="none">
+               Add a reaction...
+            </a>
+        </p>
+        <ul class="thumbs">
+            <li class="li" onclick=" 
+            			var data = window.GetPostDetail.JsonObject.Data[0] ; 
+                        window.plugins.socialsharing.shareViaTwitter(  data.postTitle + ' ' + data.postDescription + ' via @FanReact' , data.postImageLink , data.postVideoLink )
+                        "
+            >
+            	&nbsp;<i class="fa fa-twitter"></i>&nbsp;
+  			</li>
+  			<li class="li" onclick="
+            			var data = window.GetPostDetail.JsonObject.Data[0] ; 
+            			window.plugins.socialsharing.shareViaFacebook( data.postTitle + ' ' + data.postDescription + ' via @FanReact'  ,  data.postImageLink , data.postVideoLink , function() {console.log('share ok')}, function(errormsg){alert('Unable to share at the moment.')})
+                        "
+            >
+            	&nbsp;<i class="fa fa-facebook"></i>&nbsp;&nbsp;
+  			</li>
+            <li class="up"
+                onclick="
+                        if( $(this).find('.Id-voteNumber').hasClass('Id-voted') == true ){ return false;}
+                        $(this).find('.Id-voteNumber').addClass('Id-voted');	
+                        $(this).find('.Id-voteNumber').html( parseInt( $(this).find('.Id-voteNumber').html() ) + 1 );
+                        var minus =  parseInt( $(this).siblings().find('.Id-voteNumber').html() ) - 1 ; minus = minus < 0 ? 0 : minus ;
+                        $(this).siblings().find('.Id-voteNumber').html( minus );
+                        $(this).siblings().find('.Id-voteNumber').removeClass('Id-voted');
+                        postNameSpace.queue.simpleAdd( { postId : {{ postId }} , vote : 1 , voteTypeCode : 1 , voteTypeDesc : 'vote for post' , profileId : {{ loggedUserID }} , submitType: 6 , submitTypeDesc: 'Voting'}  );
+
+						"
+            >
+                <a href="#"><i  class="fa fa-thumbs-o-up"></i>
+                    <span class="Id-voteNumber {{#if UserUpVoted}}Id-voted{{/if}}">{{ UpVote }}</span>
+                </a>
+            </li>
+            <li class="down"
+                onclick="
+                        if( $(this).find('.Id-voteNumber').hasClass('Id-voted') == true ){ return false;}
+                        $(this).find('.Id-voteNumber').addClass('Id-voted');	
+                        $(this).find('.Id-voteNumber').html( parseInt( $(this).find('.Id-voteNumber').html() ) + 1 );
+                        var minus =  parseInt( $(this).siblings().find('.Id-voteNumber').html() ) - 1 ;  minus = minus < 0 ? 0 : minus ;
+                        $(this).siblings().find('.Id-voteNumber').html( minus );
+                        $(this).siblings().find('.Id-voteNumber').removeClass('Id-voted');     
+                        postNameSpace.queue.simpleAdd( { postId : {{ postId }} , vote : -1 , voteTypeCode : 1 , voteTypeDesc : 'vote for post' , profileId : {{ loggedUserID }} , submitType: 6 , submitTypeDesc: 'Voting'}  );
+						"
+            >
+                <a href="#"><i class="fa fa-thumbs-o-down"></i>
+                    <span class="Id-voteNumber {{#if UserDownVoted}}Id-voted{{/if}}">{{ DownVote }}</span>
+                </a>
+            </li>
+            {{#if editable}}
+            <li 
+                onclick="
+                          $('#EditPostPopup').popup('open');
+                        "
+            >
+                <a href="#"><i style="color:black;" class="fa fa-pencil"></i>
+                    
+                </a>
+            </li>
+            {{/if}}
+        </ul>
+        
+    </script>    
+    
+    <div data-role="content" style="padding-top: 49px;">
+
+        <div class="entry Id-entry" >
+            <div class="commentsHead" >
+                <div class="avatar" id="comment-view-postDetailHead-display" >
+
+                    <ul class="entryData" >
+                        <li><i class="fa fa-clock-o"></i><i class="fa fa-spinner fa-spin" style="opacity:.3; "></i></li>
+                        <li><i class="fa fa-eye"></i><i class="fa fa-spinner fa-spin" style="opacity:.3; "></i></li>
+                        <li><i class="fa fa-comments"></i><i class="fa fa-spinner fa-spin" style="opacity:.3; "></i></li>
+                	</ul>
+
+                    <div onclick="profileNameSpace.profileID = 81 ; location.hash='../profile/profileByIdView.html';" class="img round" style="background-image: url( '../../images/default-avatar.png' );"></div>
+                </div>
+                <div id="comment-view-postDetailBody-display">
+
+                    <div class="postMediaOfFeedList" 
+                         style="
+                                background-image: url('../../images/default-avatar.png');
+                                background-size: contain;
+                                margin-bottom: 1em !important; 
+                               " 
+                    ></div>
+                </div>
+                
+                <div class="Id-commentHolder Id-tag" style="display:none;">
+                    <textarea class="Id-textarea" maxlength="500"
+                        onchange="
+                                var data = $( this ).closest( '.Id-commentHolder' ).data();
+                                data.postDesc = $(this).val();
+                                $( this ).closest( '.Id-commentHolder' ).data( data );
+                                console.log( $( this ).closest( '.Id-commentHolder' ).data())
+
+                                "
+                        
+                        oninput="
+                               var thisElement = this ;
+                               var lastChar = $(this).val().split('').pop() ;
+
+                               var defaultTagsTemplateId = 'index-taggingItem-template';
+
+                               var onSuccess = function( data ){
+                                    var thisElement = customNamespace.tag.input ;
+                                    $(thisElement).val( $(thisElement).val().substr( 0 , $(thisElement).val().lastIndexOf('@') ) + '@' + data.name + ' ' ) ;               
+                                    var temp = $(thisElement).val(); $(thisElement).val('');
+                                    $(thisElement).focus(); 
+                                    $(thisElement).val(temp);
+                               }
+                               var onFail = function( data ){
+                                    $(thisElement).closest('.Id-tag').find('.Id-tags-display').html('');
+                               }
+                               var display = function( thisElement, allpeople ){
+                                    customNamespace.tag.input = thisElement ;
+                                    customNamespace.tag.item.data = allpeople ;
+                                    var html = customNamespace.display.html( { Data : allpeople } , defaultTagsTemplateId  )
+                                    $(thisElement).closest('.Id-tag').find('.Id-tags-display').html( html );
+
+                               }
+                               var query = $(thisElement).val().substr( $(thisElement).val().lastIndexOf('@') + 1 , $(thisElement).val().length );
+
+                               var re = /^[a-zA-Z_]+$/; 
+                               if( re.test( query ) == false || query.length > 14 || $(thisElement).val().search('@') == -1 ){ onFail(); return false ; }
+                                var data = { profileId : loginNameSpace.loggedUserID , profileHandle : query }
+                                customNamespace.tag = {};
+                                customNamespace.tag.input = {} ;
+                                customNamespace.tag.item = { data : {} };
+                                customNamespace.tag.item.onclick = function( data ){
+                                    onSuccess( customNamespace.tag.item.data[ data.index ] ); 
+                                }
+                                window.GetAllUsers.Variables = data ;
+                                window.GetAllUsers.DataUpdatedEvent = function () {
+                                    var allpeople = $.extend( true , [] , window.GetAllUsers.JsonObject.Data ) ; ;
+                                    $.each( allpeople , function( index, element ){
+                                        allpeople[index].index = index ;
+                                        allpeople[index].name = element.profileHandle ;
+                                        allpeople[index].avatar = element.profilePhoto ;
+                                        allpeople[index].avatar = element.profilePhoto ;
+                                    });
+                                    display( thisElement , allpeople );
+                                }
+
+                                window.GetAllUsers.DataUpdatedEventOnFail = function () {
+
+                                    var peopleFollowThisUser = window.GetFanListFollowingThisUser.JsonObject.Data ;
+                                    var peopleThisUserFollow = window.GetFanListThisUserFollowing.JsonObject.Data ;
+                                    var allpeople = $.extend( true , [] , peopleFollowThisUser ) ;
+                                    $.each( peopleThisUserFollow, function( index, element ){
+                                        var elementToAdd = element ;
+                                        $.each( peopleFollowThisUser , function( i , e ){
+                                           if( element.profileId == e.profileId ) {
+                                               elementToAdd = null ;
+                                               return false;
+                                           }
+                                        });
+                                        elementToAdd != null && elementToAdd != undefined ? allpeople.push( elementToAdd ) : null ;
+                                    })
+                                    $.each( allpeople , function( index, element ){
+                                        allpeople[index].id = index ;
+                                        allpeople[index].name = element.profileHandle ;
+                                        allpeople[index].avatar = element.profilePhoto ;
+                                        allpeople[index].type = 'contact' ;
+                                    })
+                                    var match = [];
+                                    var unmatch = [];
+                                    $.each( allpeople , function( index, element ){
+                                        if( element == undefined ){ allpeople.splice(index, 1) ; return true ; }
+                                        element.name.toUpperCase().search( query.toUpperCase() ) == -1 ?  unmatch.push(element) : match.push(element );
+                                    });
+                                    match.sort(function(a, b){
+                                        if(a.name < b.name) return -1;
+                                        if(a.name > b.name) return 1;
+                                        return 0;
+                                    })
+
+                                    display( thisElement , match );
+
+                                }
+                                window.GetAllUsers.Execute();
+
+                              "
+                        placeholder="Post A Reaction"
+                    ></textarea>
+                    
+                    <div class="Id-tags-display"></div>
+                </div>
+                
+				<div class="Id-attachImageContainer" style="display:none; padding: 3% 0 0% 0; margin: 0 5% 0 -5%; width:110%;" >
+                	<img src="" style="width:90%; padding: 5%; background-color:black;" class="Id-attachImage"/>
+				</div>
+                
+                <div id="comment-view-postDetailCommentPart-display" class="postOptions" cellpadding="0" cellspacing="0" style="  width: 100%; margin: 0 -10px;">
+                    <p class="comment"><a data-transition="none" class="ui-link"><i class="fa fa-spinner fa-spin" style="opacity:.3; "></i> Add a reaction...</a>
+                    </p>
+                    <ul class="thumbs">
+                        <li class="up">
+                            <a href="#" class="ui-link" data-transition="none"><i class="fa fa-thumbs-o-up"></i><i class="fa fa-spinner fa-spin" style="opacity:.3; "></i></a>
+                        </li>
+                        <li class="down">
+                            <a href="#" class="ui-link" data-transition="none"><i class="fa fa-thumbs-o-down"></i><i class="fa fa-spinner fa-spin" style="opacity:.3; "></i></a>
+                        </li>
+                    </ul>
+                </div> 
+                
+                <p class="comment Id-actionButtonHolder" style="display:none;">
+                    <i  class="fa fa-paperclip btn"
+                        onclick="
+                        		var thisElement = this ;
+                        		var displayImage = function( uri ){
+                                	
+                                    $(thisElement).closest( '.Id-entry' ).find('.Id-attachImage').attr('src', uri ) ;
+                                    $(thisElement).closest( '.Id-entry' ).find('.Id-attachImageContainer').slideDown();
+                                }
+                                
+                                $('#commonCapturePopup').popup('open');
+                                customNamespace.commonPopupTakePhoto = function(){
+
+                                    cameraNamespace.image.capture( { uid : 'inline-comment-takeImg', type : 'capture' },
+                                                                  function(uri)
+                                                                  { 
+                                                                        $( thisElement ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).data().inputImageUrl = uri;
+																		displayImage( uri ) ;
+                                                                 });
+                                };
+
+                                customNamespace.commonPopupTakePhotoFromLibrary = function(){
+
+                                    cameraNamespace.image.capture( { uid : 'inline-comment-takeImgFromLibrary', type : 'getPhotoFromLibrary' },
+                                                                  function(uri)
+                                                                  { 
+                                                                        $( thisElement ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).data().inputImageUrl = uri;
+																		displayImage( uri ) ;
+                                                                 });
+                                };
+
+                                var data = {} ;
+                                data.onChange = function( uri ){
+                                    $( thisElement ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).data().imageLink = uri;
+                                    displayImage( uri ) ;
+                                }
+                                customNamespace.popup.takeUrlAsLink( data )
+
+                        		"
+                    >	
+                    </i>
+                    <i  class="fa fa-check btn"
+                        onclick="
+                        			$( this ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).data().postDesc = $(this).closest('.Id-entry').find('.Id-commentHolder').find('.Id-textarea').val();
+                                    var commentText = $( this ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).find('textarea').val();
+                                    $( this ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).data().onSuccess = function(){ commentNameSpace.comment.getAndDisplay() }
+                                    postNameSpace.queue.simpleAdd( $( this ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).data() ) ;
+                                    console.log(  $( this ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).data() );
+                                    console.log(  $( this ).closest( '.Id-commentHolder' ).data() );
+                                    $( this ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).data({}); 
+
+                                    $( this ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).slideUp() ; 
+                                    $( this ).closest( '.Id-entry' ).find( '.Id-commentHolder' ).find('textarea').val('');
+                                    $( this ).closest( '.Id-entry' ).find( '.Id-actionButtonHolder' ).hide();
+                                    $( this ).closest( '.Id-entry' ).find( '.Id-displayPostTextAreaButtonHolder' ).fadeIn();
+                                    $( this ).closest( '.Id-entry' ).find( '.Id-attachImageContainer').slideUp();
+                                 
+                                "
+                    >
+                    </i>
+                </p>
+
+            </div>
+        </div>
+
+        <style>
+            .container {
+                padding: .3em 0 .3em 0;
+                background: white;
+            }
+            .container .comment{
+                padding: .3em 0 .6em 0;
+                min-height: 3.5em;
+                border-bottom: #F6F6F6;
+                border-bottom-width: .1em;
+                border-bottom-style: solid;
+            }
+            .container .comment .avatar {
+                float: left;
+                height: 3.5em;
+                width: 3.5em;
+                background-size: cover;
+                margin: 0em .7em .3em .6em;
+                border-radius: .3em;
+            }  
+            .container .comment .right{
+                float: right;
+                padding: 0 .8em 0 0;
+                color: #929292;
+                font-size: .9em;
+            }
+            .container .comment .right .vote{
+                color:#929292 ;
+            }
+            .container .comment .right .voted{
+                color:#85CD33 ;
+            }
+            .container .comment .profileHandle{
+                color: #2980B9 !important;
+                padding: .1em 0 .2em 0;
+                font-size: 1.1em;
+            }
+            .container .comment .description{
+                padding: 0 .6em .2em .6em;
+            }
+            .container .comment .imageContainer {
+                padding: .7em .3em .5em .3em;
+                background: black;
+                margin: .7em 0 0em 0;
+            }    
+            .container .comment .imageContainer .image {
+                width:100%;
+            }               
+        </style>
+        <script type="text/x-kendo-template" id="comment-view-postCommentFeed-template">
+
+           {{#each Data}}
+
+                <div class="comment Id-entry" id="comment-view-commentId{{ commentId }}">
+
+                    <div class="avatar" 
+                         onclick="
+                                        profileNameSpace.profileID = {{ profileId }} ; 
+                                        location.hash='../profile/profileByIdView.html';
+                                     " 
+                         style="background-image: url( '{{ profilePhoto }}' );"
+
+                    >
+                    </div>
+                    <span class="right" >
+
+                        <i class="fa fa-clock-o"></i> {{ formatedCommentCreateDate }}</li>&nbsp;
+                        <a class="ui-link vote Id-voteContainer {{#if UserUpVoted}}Id-voted voted{{/if}}" data-transition="none">
+                            &nbsp;<i class="fa fa-thumbs-o-up"
+                                onclick="
+                                        var vote = $(this).closest('.Id-entry').find('.Id-voteContainer') ;
+                                        $(this).closest('.Id-entry').find('.Id-voteNumber').html( parseInt( $(this).closest('.Id-entry').find('.Id-voteNumber').html() ))
+                                        if( vote.hasClass('Id-voted') == true ){
+                                            vote.removeClass( 'Id-voted' ).removeClass( 'voted' );
+                                            postNameSpace.queue.simpleAdd( { commentId : {{ commentId }} , vote : 0 , profileId : {{ UserProfileId }} , feedName : 'InsertOrUpdateVote' , submitType: 6 , submitTypeDesc: 'Voting For Comment'}  );
+                                            $(this).closest('.Id-entry').find('.Id-voteNumber').html( parseInt( $(this).closest('.Id-entry').find('.Id-voteNumber').html() ) - 1 )
+                                        }
+                                        else {
+                                            vote.addClass( 'Id-voted' ).addClass('voted');
+                                            postNameSpace.queue.simpleAdd( { commentId : {{ commentId }} , vote : 1 , profileId : {{ UserProfileId }} , feedName : 'InsertOrUpdateVote' , submitType: 6 , submitTypeDesc: 'Voting For Comment'}  );
+                                            $(this).closest('.Id-entry').find('.Id-voteNumber').html( parseInt( $(this).closest('.Id-entry').find('.Id-voteNumber').html() ) + 1 )
+                                        }
+                                        " 
+                            >
+                            </i>&nbsp;
+                            <span class="Id-voteNumber ">{{ UpVote }}</span>
+                        </a>
+                    </span>
+                    <p class="profileHandle"><a onclick="  profileNameSpace.profileID = {{ profileId }}  ;  location.hash = '../profile/profileByIdView.html';" class="ui-link" data-transition="none">{{ profileHandle }}</a></p>
+
+                    <p class="description" id="commentDescription{{ commentId }}">
+                        <span style="word-break: break-word !important;" 
+                            id="comment-view-commentDescriptionSpan{{ commentId }}">
+                            {{ commentDescription }}
+                        </span>
+                    </p>
+
+                    {{#if commentImageLink}}
+                        <div class="imageContainer">
+                            <img class="image"
+                                src="{{ commentImageLink }}"
+                                onclick="  
+                                        $('#comment-view-fullscreenImage').attr('src', '{{ commentImageLink }}');
+                                        $('#comment-view-imageWrapper').fadeIn();  
+                                        "
+                            >
+                        </div>
+                    {{/if}}
+
+                </div>
+
+            {{/each}}
+        </script>                    
+                
+        <div style=" display:none; " class="container" id="comment-view-postCommentFeed-display">
+        </div>
+
+    </div><!--content-->
+    
+    <style>
+
+    .postMediaOfFeedList span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        display: block;
+        height: 100%;
+        background-size: 35% auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+        -ms-behavior: url('backgroundsize.min.htc');
+    }    
+    .myVideoWrapper {
+        display:none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        width: 100%;
+        height: 100%;
+        background: #000;    
+    }
+
+    .myVideoWrapper i.fa {
+        z-index:1;
+        position: absolute;
+        color: #fff;
+        font-size: 1.5em;
+        padding: .5em .7em;
+        margin-right: .5em;
+        margin-top: .2em;
+        background-color: rgba(6, 101, 26, 0.8);
+        border-radius: 200px;
+        opacity: .8;
+    }
+    .myvideo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .myImageWrapper {
+        display:none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        overflow:auto;    
+    }
+
+    .myImageWrapper i.fa {
+        position: fixed;  top: 0;  
+        z-index: 1000;  
+        right: 0;
+        color: #fff;
+        font-size: 1.5em;
+        padding: .5em .7em;
+        margin-right: .5em;
+        margin-top: .2em;
+        background-color: rgba(6, 101, 26, 0.8);
+        border-radius: 200px;
+        opacity: .8;
+    }
+    .fullscreenImage {
+        max-height:100%;
+        max-width:100%;
+    }
+
+    </style>
+    
+     <script>
+        gaPlugin.trackPage(function (result) {console.log('success comments ' + result);},function (error) {console.log('fail comments ' + error );},'comments');
+    </script>     
+
+    <script>
+        
+        customNamespace.header.changeTitle( { text : 'Comments' , backButton : true , onclick : function(){ customNamespace.page.event.var.refresh = false ; customNamespace.screen.orientation('portrait'); history.back(); } } );
+
+        customNamespace.screen.orientation('unlock');
+        
+         $(document).on("pageshow","#comment-view", function (event) {
+             event.preventDefault();
+             event.stopPropagation();
+             event.stopImmediatePropagation();
+             
+             $('.flagPostId').show(); 
+                 
+                  
+            viewingNameSpace.checkIfThisPostViewedInSqlLiteAndAction(commentNameSpace.postId);
+            
+			commentNameSpace.postDetail.getAndDisplay();
+            commentNameSpace.comment.getAndDisplay();
+             
+             
+            scrollNamespace.var.modify('getMoreButton', '.commentsView-getMore');
+             
+        });
+        
+        
+    </script>    
+    
+</div>
+

@@ -1,0 +1,80 @@
+<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head> 
+	<meta http-equiv="Content-Type" content="text/html;" />
+	<META NAME="Author" CONTENT="Ignacio Pumarega Aparicio">
+		<title> Altran People </title> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet"  href="../css/themes/default/jquery.mobile-1.2.0-rc.2.min.css" />
+		<script src="../js/jquery.js"></script>
+		<script src="../js/jquery.mobile-1.2.0-rc.2.min.js"></script>
+		<script src="../funciones.js"> </script>
+		<script src="../Cursos/funcionesCursos.js"></script>
+		<script src="../AltranPeople/funcionesaltranPeople.js"></script>
+		<script src="../phonegap.js"></script>
+		<script src="../childbrowser.js"></script>
+	</head> 
+	<body>
+		<Div data-role="page" id='page'>
+			<div data-role="popup" id ="popupBasic">
+				<ul id="pop" data-role="listview" data-inset="true" style="min-width:210px;" data-theme="b">
+					<li><a href="../AltranPeople/altranPeople.html" onClick="recargaPeople()"  data-theme="a">Altran People</a></li>
+					<li><a href="../Cursos/cursos.html" onClick="recargaCursos()"  data-theme="a">Educ'Altran</a></li>
+
+				</ul>
+			</div>
+			<div data-role="header" data-theme="b"><!-- /header -->
+					<a href="#popupBasic" data-rel="popup" data-icon="gear" data-mini="true" class="ui-btn-left"><span id='menu-tr'>Menu</span></a>
+				<h1><img src='imagenes/altran-people.png' width="50%" /></h1>
+				
+					<a href="#" onClick="javascript: doLogoff();" data-icon="home" data-mini="true" class="ui-btn-right"><span class='desconectar-tr'>Desconectar</span></a>
+				
+				<div data-role="navbar">
+					<ul id="navegacion">
+						<li><a href="#"  onClick="javascript: buscador(true)" data-role="button" data-theme="a"><span id='buscador-tr'>Buscador</span></a></li>
+						<li><a href="#"  onClick="javascript: agenda(true)" data-role="button" data-theme="a"><span id='agenda-tr'>Agenda</span></a></li>
+						<li><a href="#"  onClick="javascript: consultarPersona(0,2)" data-role="button" data-theme="a"><span id='misdatos-tr'>Mis datos</span></a></li>
+					
+					</ul>
+				</div><!-- /navbar -->
+			</div><!-- /header -->
+			<Div data-role="content">
+				<div id= 'buscador'>
+					<form method="post" action="javascript: buscar(true)">
+						<div id="buscador" data-role="fieldcontain">
+							<label for="criterios"><span id='criterios-tr'>Criterios</span>:</label>
+							<input type="text" name="criterios" id="criterios" data-mini="true" />
+						</div>
+					</form>
+					<a id='button' onClick="javascript: buscar(true)" data-role="button" data-icon="search" data-theme="b"><span id='buscar-tr'>Buscar</span></a>
+				</div>
+				<div id="listadoPersonas" >
+					<ul data-role="listview" data-inset="true" data-filter="false" id="personas" ></ul>
+				</div>				
+				<div id="listadoPersona" >
+					<ul data-role="listview" data-inset="true" id="persona" ></ul>
+				</div>
+			</div>
+		</div>
+	
+		<script>
+		$(document).ready(function() {
+			Ocultar("listadoPersonas");
+			Ocultar("listadoPersona");
+			Ocultar("buscador");
+			if (localStorage.getItem('usuario') == '' && localStorage.getItem('clave') == '' ) {
+				document.location.href="../index.html";
+			}
+			
+			buscador();
+			traducir("usuario|clave|Correo|Responsable|Mis Datos|Buscador|Desconectar|Buscar|Criterios|Telefono|Correo|Movil");
+		
+			
+			function refrescarPopup(){
+			$("#pop").listview('refresh');
+			}
+		});
+		</script>
+	</body>
+</html>

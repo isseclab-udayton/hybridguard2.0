@@ -1,0 +1,315 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_29 (Apple Inc.)
+
+Name: assets/www/images/ratings/4.7-stars.png
+SHA1-Digest: PyZnpj8TZDvq7F3ZuChd9cQ943Q=
+
+Name: assets/www/app/app.js
+SHA1-Digest: YZzYahcOyXBesyOPJX7gFh/Hwf0=
+
+Name: res/xml/config.xml
+SHA1-Digest: uqwiYEV9p4BFmzDze2qmw4PXxu4=
+
+Name: assets/www/images/ratings/1.8-stars.png
+SHA1-Digest: oA1MIzlGdSe/5d0/o9IfcIxK8gU=
+
+Name: assets/www/app/util/util.js
+SHA1-Digest: d51ef1Yh/zwDzCPbL1AHfLq1Xno=
+
+Name: assets/www/images/ratings/0.6-stars.png
+SHA1-Digest: fVkMYanVI0pDUl2LXfumusF3nJQ=
+
+Name: assets/www/stylesheets/master.css
+SHA1-Digest: JUB5FF0lZsfaItf5q0hI40gTXag=
+
+Name: assets/www/images/ratings/1.7-stars.png
+SHA1-Digest: zzWrVA/2uxztyFTNL2sa8FhwbiY=
+
+Name: assets/www/stylesheets/images/ajax-loader.png
+SHA1-Digest: NQ0i8lCHscwfrHzUBOM75uVDUjg=
+
+Name: assets/www/images/ratings/0.4-stars.png
+SHA1-Digest: fVkMYanVI0pDUl2LXfumusF3nJQ=
+
+Name: assets/www/stylesheets/images/icons-18-white.png
+SHA1-Digest: Sg/1e3EgtouxOiw7H+43z5uv5Xo=
+
+Name: assets/www/app/views/template-util.js
+SHA1-Digest: l6zlWC5X+S4CmHjrbeTLNOXMDXk=
+
+Name: res/drawable/splash.png
+SHA1-Digest: GcKRphtswwBYdODijwzLwGfk6T4=
+
+Name: assets/www/images/purpledot.png
+SHA1-Digest: 7awoqftKa6cNong8Jm548mkQK10=
+
+Name: assets/www/images/ratings/0.2-stars.png
+SHA1-Digest: 0KZblQhgisLJXRwYDTPK36BXQhs=
+
+Name: assets/www/images/bluedot.png
+SHA1-Digest: R21lrahFjabDLupEc49ecUo/dFI=
+
+Name: assets/www/app/models/marinas.js
+SHA1-Digest: Xeb42y8jjyIhiCax88kzWRQauz4=
+
+Name: assets/www/images/reddot.png
+SHA1-Digest: l0eyOM09R+6Ax+7zTA7St4MfBjU=
+
+Name: assets/www/images/home.png
+SHA1-Digest: 4gmL8ktNCr9nMqEL0sIPvWpjuDQ=
+
+Name: assets/www/images/ratings/3.9-stars.png
+SHA1-Digest: aIYzqY5iFMMMYS7JobK05tNn1EQ=
+
+Name: assets/www/images/ratings/3.0-stars.png
+SHA1-Digest: heEV/PO0FKv56+NivaPTQ1ZCC0g=
+
+Name: assets/www/app/views/main.js
+SHA1-Digest: ZTqDQcrCVdjuFWJNfdUXNNsTaQ4=
+
+Name: assets/www/images/ratings/3.8-stars.png
+SHA1-Digest: OMg7tOh/wyHJ02lO91w6wVto2Pw=
+
+Name: assets/www/images/ratings/4.3-stars.png
+SHA1-Digest: omCpMHTU3HB3dcJP+gFoPBGEcDI=
+
+Name: assets/www/images/ratings/2.6-stars.png
+SHA1-Digest: KoIkwPQc5Q4JtY7tFixDKyYoMFM=
+
+Name: assets/www/images/ratings/3.7-stars.png
+SHA1-Digest: asEivgfRphnfKNvYficG0q+U/6U=
+
+Name: assets/www/images/ratings/4.9-stars.png
+SHA1-Digest: pNx0RjWRvEWl5ZjCC4ksXK/pSH0=
+
+Name: assets/www/images/lightbluedot.png
+SHA1-Digest: kfomIJbHE8Vo6RNuyj7tAvGOGk8=
+
+Name: assets/www/stylesheets/jquery.multiselect.css
+SHA1-Digest: 7abSh13Z8cfEq1gLrKEkZeT4+EU=
+
+Name: resources.arsc
+SHA1-Digest: eJovT/OkrvfJMxUDLnKSwrq52bg=
+
+Name: assets/www/images/ratings/0.1-stars.png
+SHA1-Digest: +IriPRqLi7d5FDFNneYi6VgIE4A=
+
+Name: assets/www/images/search.png
+SHA1-Digest: JxCt0wMo6IrNpmU6RMY490KwoAw=
+
+Name: assets/www/images/ratings/2.4-stars.png
+SHA1-Digest: KoIkwPQc5Q4JtY7tFixDKyYoMFM=
+
+Name: assets/www/images/greendot.png
+SHA1-Digest: cb3unNfQWQr/DWOedk4cTeZuIik=
+
+Name: AndroidManifest.xml
+SHA1-Digest: e1CQnns6D2VM+43ymwRyNfKJU10=
+
+Name: assets/www/images/ratings/2.7-stars.png
+SHA1-Digest: 7Yzn5JTW4uDSymxxNYhHs0ym/pM=
+
+Name: assets/www/images/ratings/1.3-stars.png
+SHA1-Digest: DYrA60u2izau/+r77cBrDZqtMXE=
+
+Name: assets/www/images/ratings/1.1-stars.png
+SHA1-Digest: RNS+3Z3wmnrjNjXQ3Q+5aia57zI=
+
+Name: assets/www/images/ratings/3.3-stars.png
+SHA1-Digest: f/RXo4T3VgxAatVH4iEOM0uk/o8=
+
+Name: classes.dex
+SHA1-Digest: nDraVN5wwuInFPBPUo1Fldrz+cM=
+
+Name: assets/www/images/ratings/2.0-stars.png
+SHA1-Digest: WUdjqyaGfETTef3bcxS1cV1YTBY=
+
+Name: res/drawable/icon.png
+SHA1-Digest: vD5M4eFqj9OwE1hWsGV7VSqCIEY=
+
+Name: assets/www/app/models/shileshole-bay-seattle-wa.js
+SHA1-Digest: PhOhGccKaMn38VeTBpNcqCLfBoA=
+
+Name: assets/www/images/ratings/0.0-stars.png
+SHA1-Digest: +IriPRqLi7d5FDFNneYi6VgIE4A=
+
+Name: assets/www/images/ratings/2.2-stars.png
+SHA1-Digest: fnKdcKlPfPvwSTrrYIOyUpPbG4M=
+
+Name: assets/www/images/ratings/4.8-stars.png
+SHA1-Digest: H/yWsLPi3qU+5DTvkzs0bFbZmr8=
+
+Name: assets/www/images/ratings/3.2-stars.png
+SHA1-Digest: zPvypygPyQ+Y19fC22Pqqd3CvMU=
+
+Name: assets/www/app/views/map.js
+SHA1-Digest: eLBZ5loRv1Th+jrtCn06LXqIZJg=
+
+Name: assets/www/images/ratings/2.3-stars.png
+SHA1-Digest: WsHNfDllg3VqiUueRO9eCfkS7qg=
+
+Name: assets/www/images/tipbox.gif
+SHA1-Digest: p+VlMGFMmd6lg3IgVlkNw0H3veY=
+
+Name: assets/www/app/models/marina-filter.js
+SHA1-Digest: bemhbplT6IOtuxesjZ7YUMZIAQs=
+
+Name: assets/www/images/arrow.png
+SHA1-Digest: a0bkV8B0vw7Xfv7Acs4RzH3iVJc=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: vD5M4eFqj9OwE1hWsGV7VSqCIEY=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: vD5M4eFqj9OwE1hWsGV7VSqCIEY=
+
+Name: assets/www/stylesheets/images/ajax-loader.gif
+SHA1-Digest: r7Wo1RXseyxOXYv8y0kPtbYDEcM=
+
+Name: assets/www/images/tipbox-160.png
+SHA1-Digest: cB0F+h+6INv8d/1TNhGTl1kebdI=
+
+Name: assets/www/images/ratings/3.4-stars.png
+SHA1-Digest: UK5Bg1aY+hBchFDRc153IORTtvI=
+
+Name: assets/www/images/ratings/stars.xcf
+SHA1-Digest: kXlprtsL6u9ebFy8W3FhIvHfdaM=
+
+Name: assets/www/lib/cordova-2.0.0.js
+SHA1-Digest: EFTj1MFfkBN7rcjiL1LsYwD9Iac=
+
+Name: assets/www/lib/jade.js
+SHA1-Digest: JIJRNIyhArHEW1d8iEl66ywIlhU=
+
+Name: assets/www/stylesheets/images/icons-36-black.png
+SHA1-Digest: DGqbtw+P5PhIuHjyBMRH028+Ewk=
+
+Name: assets/www/images/ratings/1.5-stars.png
+SHA1-Digest: vXem6cT6yoHgswyaEGF/nRH6/g8=
+
+Name: assets/www/images/ratings/0.7-stars.png
+SHA1-Digest: Ww0oDmpnV/ZSD7a3FH8KJ8XVSyw=
+
+Name: res/layout/main.xml
+SHA1-Digest: htZ3A6BZdiIP0s2hV3h5W54oTys=
+
+Name: assets/www/images/tipbox-200.png
+SHA1-Digest: ak3zZxTaSGpFrHrU+dnjhDGV9Zw=
+
+Name: assets/www/images/yellowdot.png
+SHA1-Digest: iHFoyPfBl4ru+NGlPyOBjzgvlx8=
+
+Name: assets/www/images/ratings/4.0-stars.png
+SHA1-Digest: aIYzqY5iFMMMYS7JobK05tNn1EQ=
+
+Name: assets/www/images/ratings/5.0-stars.png
+SHA1-Digest: CwzF3X6X9F4iokW5plbPO6ZyLUs=
+
+Name: assets/www/index.html
+SHA1-Digest: tqJSegvubXvvmIF6fyB/TYZveHA=
+
+Name: assets/www/images/ratings/3.6-stars.png
+SHA1-Digest: UK5Bg1aY+hBchFDRc153IORTtvI=
+
+Name: assets/www/images/ratings/1.0-stars.png
+SHA1-Digest: RNS+3Z3wmnrjNjXQ3Q+5aia57zI=
+
+Name: assets/www/images/ratings/0.9-stars.png
+SHA1-Digest: RNS+3Z3wmnrjNjXQ3Q+5aia57zI=
+
+Name: assets/www/images/ratings/4.2-stars.png
+SHA1-Digest: 7nLjzlvl9nBl0gVTg9cmS04RurM=
+
+Name: assets/www/images/red-anchor.png
+SHA1-Digest: nkQZ0dLDue92eJxP1cOEXre4XX8=
+
+Name: assets/www/stylesheets/images/icons-18-black.png
+SHA1-Digest: 2zOURmgG7TYicOGnxfSucQo6Lxg=
+
+Name: assets/www/images/ratings/2.5-stars.png
+SHA1-Digest: KoIkwPQc5Q4JtY7tFixDKyYoMFM=
+
+Name: assets/www/images/ratings/0.8-stars.png
+SHA1-Digest: YR2Whfw/vjG1b5/jykiWSXDWgWA=
+
+Name: assets/www/images/ratings/3.1-stars.png
+SHA1-Digest: heEV/PO0FKv56+NivaPTQ1ZCC0g=
+
+Name: assets/www/lib/underscore-min.js
+SHA1-Digest: uqaT6COHoyirzPlpTG0ttXGsiso=
+
+Name: assets/www/images/sailboat.png
+SHA1-Digest: xRWD9bkCwXdwIap4Ubv7rxhLuso=
+
+Name: assets/www/images/ratings/4.6-stars.png
+SHA1-Digest: D6tEcNUSF+zx0BGXjBBLEz2ueFo=
+
+Name: assets/www/images/ratings/4.1-stars.png
+SHA1-Digest: aIYzqY5iFMMMYS7JobK05tNn1EQ=
+
+Name: assets/www/images/ratings/1.4-stars.png
+SHA1-Digest: vXem6cT6yoHgswyaEGF/nRH6/g8=
+
+Name: assets/www/images/ratings/2.1-stars.png
+SHA1-Digest: WUdjqyaGfETTef3bcxS1cV1YTBY=
+
+Name: assets/www/images/ratings/1.6-stars.png
+SHA1-Digest: vXem6cT6yoHgswyaEGF/nRH6/g8=
+
+Name: res/drawable-xhdpi/icon.png
+SHA1-Digest: vD5M4eFqj9OwE1hWsGV7VSqCIEY=
+
+Name: assets/www/app/util/config.js
+SHA1-Digest: p2A6hurTVGFXyen0evcwruBnNNM=
+
+Name: assets/www/images/ratings/4.5-stars.png
+SHA1-Digest: D6tEcNUSF+zx0BGXjBBLEz2ueFo=
+
+Name: assets/www/lib/infobox.js
+SHA1-Digest: b7NjzwejzvPHz+SaKD1JUJ6IIhA=
+
+Name: assets/www/lib/jquery.multiselect.min.js
+SHA1-Digest: KjaUa5xmWdhlqepFBU4oxPLt/7M=
+
+Name: assets/www/images/ratings/4.4-stars.png
+SHA1-Digest: D6tEcNUSF+zx0BGXjBBLEz2ueFo=
+
+Name: assets/www/images/close.png
+SHA1-Digest: lpD4+k4nzybwtqZKG9Kzf8Tfkyk=
+
+Name: assets/www/images/tipbox-240.png
+SHA1-Digest: HynWAHqd1kBF4YHrSaYX8NbsvPw=
+
+Name: assets/www/images/ratings/2.9-stars.png
+SHA1-Digest: heEV/PO0FKv56+NivaPTQ1ZCC0g=
+
+Name: assets/www/images/ratings/1.2-stars.png
+SHA1-Digest: HC4n2zODWsjnGslKprYvmrB+eME=
+
+Name: assets/www/images/ratings/1.9-stars.png
+SHA1-Digest: WUdjqyaGfETTef3bcxS1cV1YTBY=
+
+Name: assets/www/images/ratings/0.5-stars.png
+SHA1-Digest: fVkMYanVI0pDUl2LXfumusF3nJQ=
+
+Name: assets/www/lib/spin.min.js
+SHA1-Digest: siq+IyV+gCfE4n3blNLA0xM2KhY=
+
+Name: assets/www/images/ratings/2.8-stars.png
+SHA1-Digest: XVwx0oPH6gUwsIPpoyL5JtizcoE=
+
+Name: assets/www/images/ratings/3.5-stars.png
+SHA1-Digest: UK5Bg1aY+hBchFDRc153IORTtvI=
+
+Name: assets/www/images/ratings/0.3-stars.png
+SHA1-Digest: VilMjUXwU3D3gVDSKtlhYaqpezE=
+
+Name: assets/www/images/ratings/undefined-stars.png
+SHA1-Digest: +IriPRqLi7d5FDFNneYi6VgIE4A=
+
+Name: assets/www/stylesheets/images/icons-36-white.png
+SHA1-Digest: vIWVJEKtjCzYnYP40K7owpeZbWA=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: vD5M4eFqj9OwE1hWsGV7VSqCIEY=
+

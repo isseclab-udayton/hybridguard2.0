@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="com_facebook_fragment_container" />
+    <item type="id" name="com_facebook_device_dialog_title" />
+    <item type="id" name="com_facebook_device_auth_instructions" />
+    <item type="id" name="confirmation_code" />
+    <item type="id" name="progress_bar" />
+    <item type="id" name="cancel_button" />
+    <item type="id" name="com_facebook_login_activity_progress_bar" />
+    <item type="id" name="com_facebook_body_frame" />
+    <item type="id" name="com_facebook_tooltip_bubble_view_top_pointer" />
+    <item type="id" name="com_facebook_button_xout" />
+    <item type="id" name="com_facebook_tooltip_bubble_view_text_body" />
+    <item type="id" name="com_facebook_tooltip_bubble_view_bottom_pointer" />
+    <item type="id" name="messenger_send_button" />
+</resources>

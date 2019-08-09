@@ -1,0 +1,49 @@
+<div id="trending-feedView" data-role="page">
+    <div data-role="header">
+        <ul class="headerBtns">
+            <li class="menu">
+                <a href="#popupMenu" data-rel="popup" data-role="button" data-inline="true" data-transition="slidedown"></a>
+            </li>
+           
+        </ul>
+        <h1>
+            <a href="#" data-rel="back">Trending Feed Data</a>
+        </h1>
+    </div>
+    <div data-role="popup" id="popupMenu" data-theme="d">
+        <ul>
+            <li>
+                <a href="../dashboard/followingView.html">Home</a>
+            </li>
+            <li>
+                <a href="../notifications/notificationsView.html">
+                    Notifications <span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="../profile/profileView.html">My Profile</a>
+            </li>
+            <li>
+                <a href="../fans/friendsListView.html">
+                    Fans <span class="notifications">8</span>
+                </a>
+            </li>
+            <li>
+                <a href="../settings/settingsView.html">Settings</a>
+            </li>
+        </ul>
+    </div>
+    <div data-role="content">
+        <div class="headerPadding footerPadding">
+            <div class="wrap_90">
+                <div id="displayTrendingFeedId">
+
+                </div>
+
+                <script>
+                    resetApp.getTrendingFeed();
+                </script>
+            </div>
+            </div>
+        </div>
+        </div>

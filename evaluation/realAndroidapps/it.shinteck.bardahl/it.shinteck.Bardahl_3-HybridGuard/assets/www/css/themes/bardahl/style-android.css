@@ -1,0 +1,427 @@
+/* 
+    Document   : style-andorid
+    Created on : 3-set-2012, 10.10.19
+    Author     : shinmac01
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*BACKGROUND*/
+/*
+body {
+    background: #ebba22 / *url('../../../img/iBardahlBG.png')* /0 0 fixed !important;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:scroll;
+    background-size:100% 100%;
+}
+
+.ui-page {
+    background: transparent;
+}
+
+.ui-content{
+    background: transparent;
+}*/
+
+/*Background*/
+/*cover o contain */
+/*
+.yellowPageBg {
+    background : #f7d929 url('../../../img/iBardahlBGmedY.png') 0 0 no-repeat fixed !important;
+    background-size : contain; 
+    border-color: #f7d929 !important;
+}
+*/
+
+/*
+.grayPageBg {
+    background : #f6f6f6 url('../../../img/iBardahlBGmedG.png') 0 0 no-repeat fixed !important;
+    background-size : contain; 
+    border-color: #f6f6f6 !important;
+    background-attachment: fixed;
+}*/
+
+
+.ui-checkbox .ui-mini.ui-btn-icon-left .ui-icon, .ui-radio .ui-mini.ui-btn-icon-left .ui-icon {
+   /* left: 15px;*/
+    /*margin-top: -9px;
+    */
+    /*background:gray;*/
+}
+
+
+.ui-page{
+    background: transparent;
+}
+
+
+.background-gray {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background : #f6f6f6 url('../../../img/iBardahlBGmedG.png') bottom no-repeat fixed !important;
+    background-size: 100% auto;
+    z-index: -1;
+}
+
+.background-yellow {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background : #f7d929 url('../../../img/iBardahlBGmedY.png') bottom no-repeat fixed !important;
+    background-size: 100% auto;
+    z-index: -1;
+}
+
+/*
+body {
+    width:100%;
+    height:100%;
+    background : #f6f6f6 url('../../../img/iBardahlBGmedG.png') 0 0 no-repeat fixed !important;
+    background-size: contain;
+}*/
+
+/*END BACKGROUND*/
+
+
+ .bardahlContent{
+     padding-left: 10%;
+     padding-right: 10%;
+     padding-top: 5%;
+     padding-bottom: 5%;
+     margin: 0px auto;
+     background: transparent ;
+     text-align: center;
+ }
+ 
+ 
+root { 
+  display: block;
+}
+
+/* HOME */
+
+.imgShop{
+    width: 100%; 
+}
+
+.imgAuto{
+    width: 45%; 
+    float: left;
+}
+
+.imgMoto{
+    width: 45%; 
+    float: right;
+}
+
+.imgNews{
+    width: 100%; 
+}
+
+.imgInfo{
+    float:right;
+    width: 10%;
+  /*  vertical-align:middle;
+    height:25px;
+    width:25px;*/
+}
+
+/*
+.seller-button {
+  background-image: url('../../../img/btnShops.png') no-repeat !important;
+  width: 194px; 
+  height: 79px;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.car-button {
+  background-image: url('../../../img/btnAuto.png') !important;
+  width: 90px; height: 90px;
+  height: auto;
+  float: left;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.moto-button {
+  background-image: url('../../../img/btnMoto.png') !important;
+  width: 90px; height: 90px;
+  float: right;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.newsletter-button {
+  background-image: url('../../../img/btnNewsLetter.png') !important;
+  width: 194px; height: 45px;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+*/
+
+/*
+ * PRODUCT DETAIL PAGE
+ */
+ .productDetailContent {
+   display: block;
+ }
+ 
+ .image-preview {
+   width: 131px; height: 172px; float: right;
+ }
+ 
+ .performance-level {
+   width: 100%; margin-right: 131px;
+ }
+ 
+ .plus-prodotto {
+   width: 100%; background-color: green;
+ }
+ 
+ /*Rivenditori*/
+ 
+.rivenditori-li-thumb-wrapper{ 
+    position: absolute;
+    margin-left: 10px;
+    left: 10px;
+    height: 70%;
+    vertical-align: middle;
+    max-width: 80px;
+}
+
+.rivenditori-li-thumb{ 
+    position: relative !important;
+    display:table-cell !important;
+    vertical-align: middle !important;
+    max-width: 80px !important;
+    max-height: 80px !important;
+}
+
+
+/*Newsletter*/
+
+.formTable{
+    width: 100%;
+}
+
+.formTableLegend{
+    width: 30%;
+}
+
+.formTableValue{
+    width: 70%;
+}
+
+.myLabel{
+    text-align: right;
+}
+/* Header delle liste*/
+
+.ui-li-divider{
+    background-image: -webkit-gradient(linear, left top, left bottom, from( rgba(0, 0, 0, 1) /*black*/), to( rgba(100, 100, 100, 1) /*F1F1F1*/)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient( rgba(0, 0, 0, 1) /*black*/, rgba(100, 100, 100, 1) /*F1F1F1*/); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient( rgba(0, 0, 0, 1) /*black*/, rgba(100, 100, 100, 1) /*F1F1F1*/); /* FF3.6 */
+    background-image: -ms-linear-gradient( rgba(0, 0, 0, 1) /*black*/, rgba(100, 100, 100, 1) /*F1F1F1*/); /* IE10 */
+    background-image: -o-linear-gradient( rgba(0, 0, 0, 1) /*black*/, rgba(100, 100, 100, 1) /*F1F1F1*/); /* Opera 11.10+ */
+    background-image: linear-gradient( rgba(0, 0, 0, 1) /*black*/, rgba(100, 100, 100, 1) /*F1F1F1*/);
+}
+
+/*Catalog*/
+
+.catalog-thumb{
+    position: absolute;
+    height: 85%;
+    left: 5px;
+
+    float: left;
+    left: 5px; top: 5px;
+}
+
+.catalog-text{
+    margin-left: -80px;
+}
+
+/*Prodotti*/
+
+.prodotti-thumb-div{
+    border: 4px black solid;
+    border-radius: 5px;
+    height: 75%;
+    width: 40px;
+    text-align: center;
+    padding-top: 0.5%;
+    /*top: 10% !important;*/
+    vertical-align: middle;
+    /*display: table !important;*/
+    
+    background-image: url('../../../img/product-bg.png');
+    background-size : cover;
+    
+    
+    left: 5px; top: 5px;
+    position: absolute;
+}
+
+.prodotti-thumb{
+    height: 45px;  
+    max-width: 40px;
+   /* top: 5%;
+    height: 90%;*/
+    
+    /*
+    position: absolute;
+    height: 100%;
+    left: 5px;
+
+    float: left;
+    left: 5px; top: 5px;*/
+}
+
+.prodotti-text{
+    margin-left: 50px;
+}
+
+/*
+.ui-bar-b{
+    border: 1px solid black !important;
+    background: black !important;
+    background-image: linear-gradient( black , gray ) !important;
+    / *
+    border: 1px solid #456F9A !important;
+    background: #5E87B0 !important;
+    background-image: linear-gradient( #6FACD5 , #497BAE ) !important;
+    * /
+}*/
+
+.prodotto-img-div{
+    border: 4px black solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    width: 40%;
+    float: right;
+    
+    background-image: url('../../../img/product-bg.png');
+    background-position: bottom;
+    background-size : cover;
+}
+
+.prodotto-img{
+    height: auto !important;
+    width: auto !important;
+    max-width: 100% !important;
+    max-height: 90% !important;
+}
+
+.prodotto-caratt{
+    text-align:left;
+    padding: 5px;
+    width: 40%;
+    float: left;
+    overflow : scroll; 
+}  
+
+.prodotto-plus{
+    text-align: left;
+}
+
+/*Footer bar*/
+
+.footerBar{
+    width: 100%;
+    height: 50px;
+    background-image: url('../../../img/navBG@2x.png');
+    background-position: bottom;
+    background-size : cover;
+}
+
+.footerBar-home{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 50%;
+    margin-left: -35px;
+    top:-18px;
+}
+.footerBar-home-img{
+    width: 70px;
+    height: 70px;
+}
+
+.footerBar-sx{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 20%;
+    margin-left: -20px;
+    top: 5px;
+}
+.footerBar-sx-img{
+    width: 40px;
+    height: 40px;
+}
+
+.footerBar-dx{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 80%;
+    margin-left: -20px;
+    top: 5px;
+}
+.footerBar-dx-img{
+    width: 40px;
+    height: 40px;
+}
+
+/*bottoni semitrasparenti*/
+
+.ui-btn-up-c{
+    background: -webkit-gradient(linear, left top, left bottom, from( rgba(255, 255, 255, 0.5) /*white*/), to( rgba(241, 241, 241, 0.5) /*F1F1F1*/)); /* Saf4+, Chrome */
+    background: -webkit-linear-gradient( rgba(255, 255, 255, 0.5) /*white*/, rgba(241, 241, 241, 0.5) /*F1F1F1*/); /* Chrome 10+, Saf5.1+ */
+    background: -moz-linear-gradient( rgba(255, 255, 255, 0.5) /*white*/, rgba(241, 241, 241, 0.5) /*F1F1F1*/); /* FF3.6 */
+    background: -ms-linear-gradient( rgba(255, 255, 255, 0.5) /*white*/, rgba(241, 241, 241, 0.5) /*F1F1F1*/); /* IE10 */
+    background: -o-linear-gradient( rgba(255, 255, 255, 0.5) /*white*/, rgba(241, 241, 241, 0.5) /*F1F1F1*/); /* Opera 11.10+ */
+    background: linear-gradient( rgba(255, 255, 255, 0.5) /*white*/, rgba(241, 241, 241, 0.5) /*F1F1F1*/);
+}
+
+.ui-btn-hover-c{
+    background: -webkit-gradient(linear, left top, left bottom, from( rgba(246, 246, 246, 0.5) /*F6F6F6*/), to( rgba(224, 224, 224, 0.5) /*E0E0E0*/)); /* Saf4+, Chrome */
+    background: -webkit-linear-gradient( rgba(246, 246, 246, 0.5) /*F6F6F6*/, rgba(224, 224, 224, 0.5) /*E0E0E0*/); /* Chrome 10+, Saf5.1+ */
+    background: -moz-linear-gradient( rgba(246, 246, 246, 0.5) /*F6F6F6*/, rgba(224, 224, 224, 0.5) /*E0E0E0*/); /* FF3.6 */
+    background: -ms-linear-gradient( rgba(246, 246, 246, 0.5) /*F6F6F6*/, rgba(224, 224, 224, 0.5) /*E0E0E0*/); /* IE10 */
+    background: -o-linear-gradient( rgba(246, 246, 246, 0.5) /*F6F6F6*/, rgba(224, 224, 224, 0.5) /*E0E0E0*/); /* Opera 11.10+ */
+    background: linear-gradient( rgba(246, 246, 246, 0.5) /*F6F6F6*/, rgba(224, 224, 224, 0.5) /*E0E0E0*/);
+}
+
+/*Tolgo la semitrasparenza a checkbox, radio e select il bottone iscriviti alla newsletter
+Avrei potuto fare il contrario, a sapere che erano della stessa classe
+*/ 
+.ui-select .ui-btn-up-c, .ui-checkbox .ui-btn-up-c, .ui-radio .ui-btn-up-c, #newsLetterBtt .ui-btn-inner{
+    background: -webkit-gradient(linear, left top, left bottom, from( rgba(255, 255, 255, 1) /*white*/), to( rgba(241, 241, 241, 1) /*F1F1F1*/)); /* Saf4+, Chrome */
+    background: -webkit-linear-gradient( rgba(255, 255, 255, 1) /*white*/, rgba(241, 241, 241, 1) /*F1F1F1*/); /* Chrome 10+, Saf5.1+ */
+    background: -moz-linear-gradient( rgba(255, 255, 255, 1) /*white*/, rgba(241, 241, 241, 1) /*F1F1F1*/); /* FF3.6 */
+    background: -ms-linear-gradient( rgba(255, 255, 255, 1) /*white*/, rgba(241, 241, 241, 1) /*F1F1F1*/); /* IE10 */
+    background: -o-linear-gradient( rgba(255, 255, 255, 1) /*white*/, rgba(241, 241, 241, 1) /*F1F1F1*/); /* Opera 11.10+ */
+    background: linear-gradient( rgba(255, 255, 255, 1) /*white*/, rgba(241, 241, 241, 1) /*F1F1F1*/);
+}
+
+.ui-select ui-btn-hover-c, .ui-checkbox .ui-btn-hover-c, .ui-radio .ui-btn-hover-c{
+    background: -webkit-gradient(linear, left top, left bottom, from( rgba(246, 246, 246, 1) /*F6F6F6*/), to( rgba(224, 224, 224, 1) /*E0E0E0*/)); /* Saf4+, Chrome */
+    background: -webkit-linear-gradient( rgba(246, 246, 246, 1) /*F6F6F6*/, rgba(224, 224, 224, 1) /*E0E0E0*/); /* Chrome 10+, Saf5.1+ */
+    background: -moz-linear-gradient( rgba(246, 246, 246, 1) /*F6F6F6*/, rgba(224, 224, 224, 1) /*E0E0E0*/); /* FF3.6 */
+    background: -ms-linear-gradient( rgba(246, 246, 246, 1) /*F6F6F6*/, rgba(224, 224, 224, 1) /*E0E0E0*/); /* IE10 */
+    background: -o-linear-gradient( rgba(246, 246, 246, 1) /*F6F6F6*/, rgba(224, 224, 224, 1) /*E0E0E0*/); /* Opera 11.10+ */
+    background: linear-gradient( rgba(246, 246, 246, 1) /*F6F6F6*/, rgba(224, 224, 224, 1) /*E0E0E0*/);
+}

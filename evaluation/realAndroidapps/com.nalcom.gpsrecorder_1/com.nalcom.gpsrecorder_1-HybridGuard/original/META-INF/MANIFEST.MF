@@ -1,0 +1,216 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: AfPh3OJoypH966MludSW6f1RHg4=
+
+Name: assets/www/Apoyo.js
+SHA1-Digest: fXLg69mkHJaqb1kYsHJLXDPFRmk=
+
+Name: assets/www/apis/default.css
+SHA1-Digest: 2ufuPzX01VcAVZjp+3Fdjqb8fXU=
+
+Name: assets/www/iconos/flechas/rojas/flecha_202-5.png
+SHA1-Digest: lBORGnyQfCEOFHxzL8GvSm7hlqs=
+
+Name: res/xml/plugins.xml
+SHA1-Digest: OOowfPxfubmcfI6gEgvGmetLFGc=
+
+Name: assets/www/fuentes/champagne__limousines.otf
+SHA1-Digest: vMI3mObOMpfHjtHJThE2Hmre1t0=
+
+Name: assets/www/iconos/flechas/rojas/flecha_90.png
+SHA1-Digest: OZfsDLuS4DvLo4E2zS3Eah5+W/I=
+
+Name: assets/www/iconos/flechas/rojas/flecha_45.png
+SHA1-Digest: F/BUhNEyoCp8DRIfsaQwpC1pNLw=
+
+Name: assets/www/iconos/flechas/verdes/flecha_292-5.png
+SHA1-Digest: +btLS3ai/TM2UtmePBsajHKKkIU=
+
+Name: assets/www/iconos/flechas/verdes/flecha_90.png
+SHA1-Digest: kiGVAt2Rmrnl7QQ6zxYSbyQSKNw=
+
+Name: assets/www/iconos/flechas/rojas/flecha_67-5.png
+SHA1-Digest: T9CsCZ5arA7TzJgqhscH7wHIn08=
+
+Name: assets/www/apis/jquery.js
+SHA1-Digest: oc4L+lB/I8xBSpp2NL1zuZS7OzU=
+
+Name: res/drawable-ldpi/logo.png
+SHA1-Digest: XVC9u+gLlzRMBVeJMc1db4mWS1o=
+
+Name: assets/www/apis/cordova-2.5.0.js
+SHA1-Digest: D5Sx/IguCDcaKLaqOxA+4FXkMiI=
+
+Name: assets/www/iconos/flechas/verdes/flecha_67-5.png
+SHA1-Digest: cd7ZdGlSeqsgDGp75awOH03zKdM=
+
+Name: assets/www/iconos/flechas/verdes/flecha_337-5.png
+SHA1-Digest: uN/lvS0I1O8fmYA1N77+gow+y4Q=
+
+Name: assets/www/iconos/edit_delete.png
+SHA1-Digest: xxQmZMniTYnZ/fPuW2iyYIQGnuQ=
+
+Name: assets/www/iconos/flechas/rojas/flecha_292-5.png
+SHA1-Digest: Xld+itYAZUfjJ2wF74c4tjI1EpU=
+
+Name: assets/www/iconos/flechas/rojas/flecha_247-5.png
+SHA1-Digest: haam8ja55Da6b1uhaJ8ee64Nsy8=
+
+Name: assets/www/iconos/flechas/verdes/flecha_315.png
+SHA1-Digest: kD88BTiz7vj9lj3BebLt3N5tf0g=
+
+Name: assets/www/iconos/flechas/verdes/flecha_225.png
+SHA1-Digest: aioCfOwCL6VoxuzwUClMVFS9x9M=
+
+Name: assets/www/apis/jquerymobile.js
+SHA1-Digest: vXQ+eshZ1MJYPgfzXuRszgmnUIc=
+
+Name: res/drawable-mdpi/logo.png
+SHA1-Digest: XVC9u+gLlzRMBVeJMc1db4mWS1o=
+
+Name: assets/www/iconos/flechas/rojas/flecha_0.png
+SHA1-Digest: NyuArKWBAB8w9O+WrYrkWEjOj6Q=
+
+Name: assets/www/iconos/flechas/rojas/flecha_112-5.png
+SHA1-Digest: ZguhmnW2z1uvrpOPZVre3LQvHHY=
+
+Name: res/drawable-xxhdpi/ic_launcher.png
+SHA1-Digest: GVIfdEOBv4gEny2T1jDhGGsZOBo=
+
+Name: assets/www/iconos/flechas/rojas/flecha_315.png
+SHA1-Digest: 0JP0oQ5Qtlzvv/4/W0cFgEuxXbk=
+
+Name: assets/www/apis/jquerymobile.css
+SHA1-Digest: uFTB7a4fjaiFIGcmbR/n0E+T7Vc=
+
+Name: assets/www/iconos/flechas/verdes/flecha_157-5.png
+SHA1-Digest: Uk1C4FCUBaOVRmqzyumvJU1a6L0=
+
+Name: assets/www/iconos/flechas/rojas/flecha_225.png
+SHA1-Digest: 4UcKPfWl7SXxyMpjAIHKzgHWB1E=
+
+Name: assets/www/index.html
+SHA1-Digest: BhNkSyAxcdttupsUrhCRqOmBt9E=
+
+Name: assets/www/iconos/refresh.png
+SHA1-Digest: jOqK0YwgscDWjndX1aNfHw0+Bmo=
+
+Name: assets/www/iconos/flechas/verdes/flecha_45.png
+SHA1-Digest: 0o/197071dY5FfV3dd/ZlpMUP3o=
+
+Name: res/drawable-xxhdpi/logo.png
+SHA1-Digest: XVC9u+gLlzRMBVeJMc1db4mWS1o=
+
+Name: assets/www/Maps.js
+SHA1-Digest: d30ZP/G6FXA3zyLrA+s1DVX/9n8=
+
+Name: assets/www/iconos/flechas/verdes/flecha_247-5.png
+SHA1-Digest: yO4lxczEjlbNmJ1p7khIyGMgG2c=
+
+Name: assets/www/iconos/logo.png
+SHA1-Digest: bHwzmNJtl/HjIVCy66ZxNeKNocc=
+
+Name: assets/www/iconos/ayuda.png
+SHA1-Digest: vVg7P80f6QQGaee2nlzV+txVPy0=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: Nq8q3HeTluE5JNCBpVvNy3BXtJI=
+
+Name: assets/www/iconos/settings.png
+SHA1-Digest: NkAZk5z1TzlOJzJfrgeH04jZaMY=
+
+Name: assets/www/iconos/flechas/rojas/flecha_337-5.png
+SHA1-Digest: Mvg0q28RQPEV+t8jk1/ZXiFFgwQ=
+
+Name: assets/www/iconos/cargando.gif
+SHA1-Digest: Yf8ZG8UVSrXq1ls3mvxme60DJxo=
+
+Name: resources.arsc
+SHA1-Digest: s87em1gXPNp1B9grDmQhVxVPUdI=
+
+Name: assets/www/iconos/punto.png
+SHA1-Digest: 2ppESPfjGQa7gLqBWIJzRcKMYkQ=
+
+Name: assets/www/iconos/delete_item.png
+SHA1-Digest: yM4yjOyBxc7XtCerMXhncVY631E=
+
+Name: res/drawable-xhdpi/logo.png
+SHA1-Digest: XVC9u+gLlzRMBVeJMc1db4mWS1o=
+
+Name: AndroidManifest.xml
+SHA1-Digest: SMewYCGfEE9uty/AACJzhcWNfkM=
+
+Name: res/drawable-hdpi/logo.png
+SHA1-Digest: XVC9u+gLlzRMBVeJMc1db4mWS1o=
+
+Name: assets/www/apis/cordova-2.7.0.js
+SHA1-Digest: AH4p4YMSyld3mHWYlFs5BRtUfhk=
+
+Name: assets/www/iconos/flechas/rojas/flecha_135.png
+SHA1-Digest: mGiQI2ZXcEC2kXC1f29JfR/Vm3c=
+
+Name: assets/www/iconos/flechas/verdes/flecha_135.png
+SHA1-Digest: wjQJNfWKbz8bgvXy4Y7WdYzwrcA=
+
+Name: assets/www/iconos/flechas/verdes/flecha_22-5.png
+SHA1-Digest: baLklmcTCB5/b/ZztKIFsiZR25Y=
+
+Name: assets/www/iconos/flechas/verdes/flecha_202-5.png
+SHA1-Digest: TKXwUKJyuZDRd8ocqTwG3pJFDF4=
+
+Name: assets/www/iconos/ajax-loader.gif
+SHA1-Digest: ZoIP3f4Bh9iP8+8Y/IRinCvC5/I=
+
+Name: assets/www/iconos/loadingcargando.gif
+SHA1-Digest: azoo7LJhrOTOfeB3uPkM/aXdKwE=
+
+Name: assets/www/apis/jquery_jquerymobile.js
+SHA1-Digest: oc4L+lB/I8xBSpp2NL1zuZS7OzU=
+
+Name: assets/www/iconos/flechas/verdes/flecha_180.png
+SHA1-Digest: t4TqruzzFQFssYcwW/d7c0XZE0A=
+
+Name: assets/www/iconos/flechas/verdes/flecha_270.png
+SHA1-Digest: Ml2Byx7/0gGamlS+X9yzf8Gp3X4=
+
+Name: assets/www/iconos/stoprefresh.png
+SHA1-Digest: l2LPsxNQIvp9UfEGGr0wINAwm2I=
+
+Name: assets/www/iconos/punto3G.png
+SHA1-Digest: GyvWM3xwILc8LjpxtyAijBVWCzA=
+
+Name: classes.dex
+SHA1-Digest: H5IfhgfKwOfL5eHfdPrJKe6Io+8=
+
+Name: assets/www/fuentes/Champagne_Limousines.ttf
+SHA1-Digest: uvrxSL2cJCuvK2Mgl0Ydx5ofB6w=
+
+Name: assets/www/iconos/flechas/rojas/flecha_22-5.png
+SHA1-Digest: Cm1Nzxdau/3wTgyIuzAJd5Orc1Q=
+
+Name: res/menu/main.xml
+SHA1-Digest: 4kk/ftkp/cqOvezdYLGyEMFSCz4=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: RRxOSvpmhVfCwiprVV/wZlaqQpw=
+
+Name: assets/www/iconos/flechas/verdes/flecha_112-5.png
+SHA1-Digest: uPPMr+lNfsvrLFNNjvEYXy7+IMg=
+
+Name: assets/www/iconos/flechas/verdes/flecha_0.png
+SHA1-Digest: x45G31bLIZb2Jyl0kQo/2WHLMKA=
+
+Name: assets/www/iconos/flechas/rojas/flecha_157-5.png
+SHA1-Digest: kM+3a19dtnbNzCAidMOgMJUsfak=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: F9Ssfs+kPOP+SsIjLnDaP93NJW8=
+
+Name: assets/www/iconos/flechas/rojas/flecha_270.png
+SHA1-Digest: /eIUyKq/YJloPp7PR+zckr/kVh8=
+
+Name: assets/www/iconos/flechas/rojas/flecha_180.png
+SHA1-Digest: rnIDnQNTWXYtrw3oOkouCcTDSYw=
+

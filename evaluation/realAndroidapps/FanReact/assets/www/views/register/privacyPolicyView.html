@@ -1,0 +1,56 @@
+<div id="privacyPolicyView" data-role="page" class="login">
+
+    <div class="tableWrap">
+        <div class="tableCellWrap">
+
+            <div data-role="content">
+
+                <p class="backLogin">
+                    <a href="#" data-rel="back">
+                        <i class="fa fa-chevron-left"></i> Back
+                    </a>
+                </p>
+
+                <h1>Privacy Policy</h1>
+
+                <div class="calloutBox">
+                    <p style="height: 300px;overflow-y: scroll;">
+
+                    </p>
+                </div><!--calloutBox-->
+
+            </div><!--content-->
+
+        </div><!--tableWrap-->
+    </div><!--tableCellWrap-->
+
+    <div data-role="popup" id="popupDialog" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+
+        <h3 class="ui-title">Congratulations</h3>
+        <p>Your FanReact account has been set up</p>
+        <a href="../dashboard/followingView.html" data-role="button" data-inline="true" data-theme="b" class="submitBtn">Go to Homepage</a>
+    </div>
+    
+     <script>
+        gaPlugin.trackPage(function (result) {console.log('success privacy ' + result);},function (error) {console.log('fail privacy ' + error );},'privacy');
+    </script>         
+
+    <script>
+        $(document).on( 'pageshow', '#privacyPolicyView', function(){
+            var privacy = settingsNameSpace.privacy;
+            if ( privacy == 'some privacy' ) {
+                privacy = '<center><i class="fa fa-spinner fa-spin"></i></center>' ;
+                $('.calloutBox p').html(privacy);
+                var callback = function () {
+                    $('.calloutBox p').html(settingsNameSpace.privacy);
+                };
+                getAppPreferrence( callback );
+            }
+            else if (  privacy != 'some privacy'  ) {
+                $('.calloutBox p').html(privacy);
+            }
+        });
+    </script>
+    
+</div>
+

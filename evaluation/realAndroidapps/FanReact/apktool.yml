@@ -1,0 +1,30 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: FanReact Sport Fans Social App_v1.5.0_apkpure.com.apk
+compressionType: false
+doNotCompress:
+- arsc
+- eot
+- woff
+- woff2
+- assets/www/js/import/fileCache/cordova-file-cache-master/gitignore
+- assets/www/js/import/fileCache/cordova-file-cache-master/node_modules/cordova-promise-fs/gitignore
+- js
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '19'
+sharedLibrary: false
+unknownFiles:
+  build-data.properties: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1-dirty
+versionInfo:
+  versionCode: '82'
+  versionName: 1.5.0

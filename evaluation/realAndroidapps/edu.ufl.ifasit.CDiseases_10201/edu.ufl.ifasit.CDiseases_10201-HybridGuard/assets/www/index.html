@@ -1,0 +1,1502 @@
+<!DOCTYPE  >
+
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+ 
+ 
+ -->
+<html>
+<head>
+<title>NPDN Citrus Diseases</title>
+<meta charset="utf-8"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" name="viewport"/>
+<meta content="Navya Kooram, University of Florida, IFAS/IT" name="author"/>
+<link href="images/icons/icon.png" rel="icon" type="image/png"/>
+<link href="images/icons/icon.png" rel="shortcut icon"/>
+<link href="images/icons/icon.png" rel="apple-touch-icon-precomposed"/>
+<link href="images/icons/icon.png" rel="apple-touch-icon"/>
+<link href="lib/photoswipe_3.0.5/photoswipe.css" rel="stylesheet" type="text/css"/>
+
+<link href="lib/jquery.mobile-1.3.2/jquery.mobile-1.3.2.min.css" rel="stylesheet"/>
+<script src="lib/jquery-1.7.1.min.js"></script>
+<script src="lib/jquery.mobile-1.3.2/jquery.mobile-1.3.2.min.js"></script>
+<script src="lib/photoswipe_3.0.5/code.photoswipe.jquery-3.0.5.js" type="text/javascript"></script>
+<script charset="utf-8" src="cordova.js" type="text/javascript"></script>
+<link href="css/master.css" rel="stylesheet" type="text/css"/>
+<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+<script>
+		
+		document.addEventListener("deviceready", onDeviceReady, false);
+		function onDeviceReady() {
+
+			navigator.splashscreen.hide();
+		}
+        
+		//Data
+			var titles;
+			var diseases = [];
+			var glossary = [];
+			
+			$(function(){		
+				(function getData() {
+					$.ajax({
+					  url: "json/cd_title.json",
+					  dataType: 'json',
+					  async: false,
+					  cache: true,
+					  success: 
+						function(json) {
+										
+							titles = json;
+							
+						}				    
+					});
+
+					$.ajax({
+					  url: "json/cd_factsheet.json",
+					  dataType: 'json',
+					  async: false,
+					  cache: true,
+					  success: 		
+						function(json) {			
+							diseases = json;
+							
+						}				    
+					});
+					
+					$.ajax({
+					  url: "json/cd_glossary.json",
+					  dataType: 'json',
+					  async: false,
+					  cache: true,
+					  success: 		
+						function(json) {			
+							glossary = json;
+						}				    
+					});
+					
+				})();
+				
+				$(document).bind( "pagebeforechange", function( e, data ) {
+					//console.log(data);
+					if ( typeof data.toPage === "string" ) {
+						 // We are being asked to load a page by URL, but we only
+						 // want to handle URLs that request the data for a specific
+						 // category.
+						 var u = $.mobile.path.parseUrl( data.toPage );
+						 
+						 
+						 //alert(u.hash.search(/^#fsSearchResults?/));
+						 if ( u.hash.search(/^#fsIndex/) !== -1 ) {
+							showFactSheetIndex(u, data.options);
+							e.preventDefault();
+						 }
+						 if ( u.hash.search(/^#glossary/) !== -1 ) {
+							showGlossary(u, data.options);
+							e.preventDefault();
+						 }
+						 
+						 if ( u.hash.search(/^#fsgallery/) !== -1 ) {
+							showImageGallery(u, data.options);
+							e.preventDefault();
+						 }
+						 
+						 if ( u.hash.search(/^#factsheet/) !== -1 ) {
+							// We're being asked to display the items for a specific category.
+							// Call our internal method that builds the content for the category
+							// on the fly based on our in-memory category data structure.
+							showFactSheet( u, data.options );
+							// Make sure to tell changePage() we've handled this call so it doesn't
+							// have to do anything.
+							e.preventDefault();
+						 }
+		
+						 if(u.hash.search(/^#fsImage/) !== -1){
+							showFSImage( u, data.options );
+							e.preventDefault();
+						 }
+						 
+						
+						if(u.hash.search(/^#d_fsSearch?/) !== -1){
+							searchFactSheet( u, data.options );
+							e.preventDefault();
+						}
+						
+						
+					}
+					
+					
+				});
+
+				
+				function showFactSheetIndex(urlObj, options ) {
+					var fsArr = diseases;
+					$("#fsIndex_header h1").html("Citrus diseases Factsheet Index");
+					
+					var fslinks = "<div align=\"center\">";
+					var fsindex = "";
+					var last = "-1";
+					$.each(fsArr, function(i, item) {
+						var c = item.name.charAt(0).toUpperCase();
+						if(c == last) {
+							fsindex += "<li><a href=\"#factsheet?fsid="+item.id + "\">" + item.name + "</a></li>"
+							//fslinks += "<a class=\"button ui-link\" href=\"#\" style=\"color:#335C32;width:12px\">" + c + "</a>&nbsp;";
+						} else {
+							if(last!="-1")	fsindex += "</ul></div>";
+							fsindex += " <div id=\""+c+"_fsIndex\"><ul data-role=\"listview\" data-theme=\"f\" data-inset=\"true\" data-divider-theme=\"e\"><li data-role=\"list-divider\"><font style=\"color:#335C32;\">" + c + "</font></li>";
+							fsindex += "<li><a href=\"#factsheet?fsid=" + item.id +"\">" + item.name + "</a></li>"
+							fslinks += "<a rel=\"external\" class=\"button ui-link\" href=\"#"+c+"_fsIndex\" style=\"color:#335C32;width:12px\">" + c + "</a>&nbsp;";
+							//have to specify data-ajax=false or rel=external
+						}
+						last = c;
+					});
+					fslinks += "</div>"
+					fsindex += "</ul></div>";
+					
+					$("#factsheetIndex").html("");
+					$("#factsheetIndex").append(fslinks + fsindex);//.trigger('create');	
+					
+					var $page = $( "#fsIndex" );
+                    $content = $page.children( ":jqmData(role=content)" );
+					$page.page();
+                    $content.find( ":jqmData(role=listview)" ).listview();
+                    options.dataUrl = "#fsIndex";
+                    $.mobile.changePage( $page, options );
+				}
+				
+				function showGlossary(urlObj, options ) {
+					var fsArr = glossary;
+					var fslinks = "<div align=\"center\">";
+					var fsindex = "";
+					var last = "-1";
+					
+					$.each(fsArr, function(i, item) {
+						var c = item.term.charAt(0).toUpperCase();
+						if(c == last) {
+							fsindex += "<li><font style=\"color:#335C32\">"+item.term + "</font>: " + item.description + "</li>"
+							//fslinks += "<a class=\"button ui-link\" href=\"#\" style=\"color:#335C32;width:12px\">" + c + "</a>&nbsp;";
+						} else {
+							if(last!="-1")	fsindex += "</ul></div>";
+							fsindex += " <div id=\""+c+"_glossary\"><ul data-role=\"listview\" data-theme=\"f\" data-inset=\"true\" data-divider-theme=\"e\"><li data-role=\"list-divider\"><font style=\"color:#335C32;\">" + c + "</font></li>";
+							fsindex += "<li><font style=\"color:#335C32\">" + item.term +"</font>: " + item.description + "</li>"
+							fslinks += "<a rel=\"external\" class=\"button ui-link\" href=\"#"+c+"_glossary\" style=\"color:#335C32;width:12px\">" + c + "</a>&nbsp;";
+							//have to specify data-ajax=false or rel=external
+						}
+						last = c;
+					});
+					
+					
+					fslinks += "</div>"
+					fsindex += "</ul>";
+					fsindex += "</div>";
+					
+					$("#glossaryIndex").html("");
+					$("#glossaryIndex").append(fslinks + fsindex);//.trigger('create');	
+					
+					
+					var $page = $( "#glossary" );
+                    $content = $page.children( ":jqmData(role=content)" );
+					$page.page();
+                    $content.find( ":jqmData(role=listview)" ).listview();
+                    options.dataUrl = "#glossary";
+                    $.mobile.changePage( $page, options );
+				}
+				
+				function showFactSheet( urlObj, options )
+                {
+					var fs_arr = diseases;
+					
+                    var fsid = urlObj.hash.replace( /.*fsid=/, "" );
+                    
+                    // The pages we use to display our content are already in
+                    // the DOM. The id of the page we are going to write our
+                    // content into is specified in the hash before the '?'.
+                    pageSelector = urlObj.hash.replace( /\?.*$/, "" );
+
+					
+                    if (fsid) {
+                        // Get the page we are going to dump our content into.
+						//console.log(fsid);
+                        var $page = $( pageSelector );
+                        
+                        // Get the header for the page.
+                        $header = $page.children( ":jqmData(role=header)" );
+                        
+                        // Get the content area element for the page.
+                        $content = $page.children( ":jqmData(role=content)" );
+                        
+                        // The markup we are going to inject into the content
+                        // area of the page.
+                        fsName = fs_arr[fsid].name;
+						$header.find( "h1" ).html( fsName );
+						//$header.find("a").attr('href', "#fsIndex");
+
+
+
+						markup = '<div data-role="collapsible"  data-collapsed="false"><h3 style="color:#335C32;">Citrus disease name</h3><p>' + fsName + '</p></div>';
+						
+						var div1 = '<div data-role="collapsible"><h3 style="color:#335C32;">';
+						
+						var d = fs_arr[fsid];
+						
+						for(var key in d) {
+							if(key !== "id" && key !== "name" && key !== "gallery" && d[key].trim().length>0) {
+								//markup += div1 + titles[key] + cs_div1 + div2 + d[key] + "</p></div></div>";
+								markup += div1 + titles[key] + '</h3><p>' + d[key] + '</p></div>';
+							}
+						}
+						
+                        $("#fscList").html(markup);
+						
+						var control = "";
+						if(fsid > 0) control += '<a id="fsChangeURL" class="button ui-link" href="#factsheet?fsid=' + (parseInt(fsid)-1) + '"  style="color:#335C32; font-size:14px;font-family: Helvetica, Arial, sans-serif;">&lt; Previous</a> ';
+						control += '<a class="button ui-link" href="#fsIndex" style="color:#335C32; font-size:14px;font-family: Helvetica, Arial, sans-serif;">Fact Sheet Index</a> ';
+						if(fsid < fs_arr.length -1) control += '<a id="fsChangeURL" class="button ui-link" href="#factsheet?fsid=' + (parseInt(fsid)+1) + '"  style="color:#335C32; font-size:14px;font-family: Helvetica, Arial, sans-serif;">Next &gt;</a>';
+						
+						$("#fsbottomnavLinks").html(control);
+						$("#fsnavLinks").html(control);
+						
+						if(d['gallery'].length > 0) {
+							var gallery = '<li><a href="#fsImage?fsid=' + fsid + '" style="color:#335C32;">Image Gallery</a></li>';
+							$('#imageList').empty();
+                            //$('#imageList').append(gallery);
+                            $("#imageList").html(gallery);
+						}
+                        // Pages are lazily enhanced. We call page() on the page
+                        // element to make sure it is always enhanced before we
+                        // attempt to enhance the listview markup we just injected.
+                        // Subsequent calls to page() are ignored since a page/widget
+                        // can only be enhanced once.
+                        $page.page();
+                        
+						$('#fscList').collapsibleset();
+                        $('#fscList').trigger('create');
+						$("#imageList").listview( "refresh" );
+                        
+                        // We don't want the data-url of the page we just modified
+                        // to be the url that shows up in the browser's location field,
+                        // so set the dataUrl option to the URL for the category
+                        // we just loaded.
+                        options.dataUrl = urlObj.href;
+                        // Now call changePage() and tell it to switch to
+                        // the page we just modified.
+                        $.mobile.changePage($page, options);
+                        
+                        //alert('pagechange-fsIndex');
+                        
+                        //$('#gallery_spinner').hide();
+                        
+                    }
+                }
+				
+				function showFSImage(urlObj, options)
+                {
+                    var fs_arr = diseases;
+					var fsid = urlObj.hash.replace( /.*fsid=/, "" );
+					
+                    pageSelector = urlObj.hash.replace( /\?.*$/, "" );
+                    var fsName = fs_arr[fsid].name;
+                    if (fsid) {
+                        var $page = $( pageSelector ),
+                        $header = $page.children( ":jqmData(role=header)" ),
+                        $content = $page.children( ":jqmData(role=content)" );
+						
+						var cancel = "<a class=\"button ui-link\" href=\"#factsheet?fsid=" + fsid + "\" style=\"color:#335C32\">Back</a>";
+						$("#cancelTop").html(cancel);
+						$("#cancelBottom").html("<br/>");
+						
+                        						
+						var markup = "";
+						var img_folder = 'diseases';
+						$.each(fs_arr[fsid].gallery, function(i, item) {
+							markup += '<a href="images/'+ img_folder +'/fs_images/' + item[0] +'" rel="external" class="portfolio_item floatFSGallery"><img src="images/'+img_folder+'/fs_images/' + item[0] +'" alt="' + item[1] + '"/><span>'+ item[1].trim().substr(0, 10) +'</span></a>';
+						});
+						
+                        $header.find( "h2" ).html( fsName + " - Images");
+                        $("#fsGalleryLinks").html( markup);
+                        $page.page();
+                        $content.find( ":jqmData(role=listview)" ).listview();
+                        options.dataUrl = urlObj.href;
+                        //options.dataUrl = "#glossary";
+                        $.mobile.changePage( $page, options );
+                        
+                        //alert('pagechange-fsImage');
+                        //setTimeout(function() {
+                                   //$('#gallery_spinner').hide();
+                        //           }, 200);
+                    }
+                }
+				
+				function showImageGallery(urlObj, options ) {
+					
+					var fsArr = diseases;
+					var img_folder = "diseases";
+					
+					$("#fsgalleryHeader h1").html("Citrus Diseases Image Gallery");
+					var imageLinks = "";
+					var cnt = 0;
+					
+					var inc = $('[name="incFilters"]:checked').length;
+                	var exc = $('[name="excFilters"]:checked').length;
+                	
+                	
+                	if(inc>0){
+                		
+						$.each(fsArr, function(i, d) {
+						$.each(d['gallery'], function (j, item) {
+							$('[name=incFilters]:checked').each(function() {
+								var found = false;
+								if(item[1].toLowerCase().indexOf($("label[for=" + $(this).attr('id') + "]").attr('for').substr(2)) !=-1 ||
+								d['name'].indexOf($("label[for=" + $(this).attr('id') + "]").attr('for').substr(2)) !=-1){
+								// alert(d['name']+" : "+item[1]+" : "+$("label[for=" + $(this).attr('id') + "]").text());
+								
+								cnt++;
+								imageLinks += '<a href="images/'+img_folder+"/fs_images/"+item[0]+'" rel="external" class="portfolio_item floatGallery">'+
+                                  '<img alt="'+item[1]+'" src="images/'+img_folder+'/fs_images/'+item[0]+'" title="'+item[1]+'"/>'+
+                                  '<span>'+d['name']+'</span></a>';
+                                found = true;
+                                
+                            	} 
+                               else{
+                               	imageLinks += '<a href="floatGallery"></a>';
+                               }  
+                               if(found)
+                               	return false;
+                            });
+                            
+						});
+						});
+                		
+                	}
+                	else if(exc>0){
+                		//alert("e: "+exc);
+                		
+                		var excVals = new Array();
+                		var i=0;
+                   		$('[name=excFilters]:checked').each(function() {
+                        	excVals[i] = $("label[for=" + $(this).attr('id') + "]").attr('for').substr(2);
+                            i++;
+                        });
+                    	//alert(excVals);
+                		var excLength = i;
+                		
+                		$.each(fsArr, function(j, d) {
+                			var excFound = false;
+							$.each(d['gallery'], function (k, item) {
+								
+								for(i=0; i<excLength; i++){
+									if(d['name'].toLowerCase().indexOf(excVals[i].toLowerCase())!==-1 || item[1].toLowerCase().indexOf(excVals[i].toLowerCase())!==-1)
+									{
+										excFound = true;
+										return false;
+									}
+									
+								}
+								if(excFound)
+								{
+									//imageLinks +=  d['name']+' : ' + item[0] +' : '+ item[1]+': '+excVals[i]+' : NOOOOOOO <br/>';
+									imageLinks += '<a href="floatGallery"></a>';
+                					return false;
+								}
+								else
+								{
+									//imageLinks +=  d['name']+' : ' + item[0] +' : '+ item[1]+': '+excVals[i]+' : YESSSSSSS <br/>';
+									cnt++;
+								imageLinks += '<a href="images/'+img_folder+"/fs_images/"+item[0]+'" rel="external" class="portfolio_item floatGallery">'+
+                                  '<img alt="'+item[1]+'" src="images/'+img_folder+'/fs_images/'+item[0]+'" title="'+item[1]+'"/>'+
+                                  '<span>'+d['name']+'</span></a>';
+                                  found = true;
+                                }	
+								
+							});
+            			});	
+                			
+                		
+                	}
+                	else{
+                		
+					$.each(fsArr, function(i, d) {
+						$.each(d['gallery'], function (j, item) {
+							cnt++;
+							imageLinks += '<a href="images/'+img_folder+"/fs_images/"+item[0]+'" rel="external" class="portfolio_item floatGallery">'+
+                                  '<img alt="'+item[1]+'" src="images/'+img_folder+'/fs_images/'+item[0]+'" title="'+item[1]+'"/>'+
+                                  '<span>'+d['name']+'</span></a>';
+						});
+					});
+					}
+					imageLinks += '<a href="floatGallery"></a>';
+					//alert(imageLinks);
+					imageLinks = '<p style="color:#0B3C55">Image Count: '+cnt+'</p>' + imageLinks;
+					$("#galleryLinks").html(imageLinks);
+					
+					var $page = $( "#fsgallery" ),
+                    $content = $page.children( ":jqmData(role=content)" );
+					$page.page();
+                    $content.find( ":jqmData(role=listview)" ).listview();
+					//options.dataUrl = "#fsgallery";
+                    $.mobile.changePage( $page);
+				}
+				
+				function searchFactSheet( urlObj, options ) {
+				//Add the d_disease selection cirteria	
+					var fs = urlObj.hash.replace( /.*fs=/, "" );
+					var tts ;
+					if(fs == 'd') {
+						tts = titles;
+						$("#d_searchHeader h1").html("Search Diseases Fact Sheets");
+					}
+					else {
+						tts = p_titles;
+						$("#d_searchHeader h1").html("Search Pests Fact Sheets");
+					}
+					var markup = '<fieldset data-role="controlgroup" id="d_topicCriteria" style="padding-bottom:5px;">';
+					$.each(tts, function(i, title) {
+						markup += '<input type="checkbox" name="d_topicCriteria" id="d'+ (i+1) +'" class="custom" data-theme="e"/>';
+						markup += '<label for="d'+ (i+1) +'">'+ title +'</label>';
+					});
+					markup += "</fieldset>";
+					//console.log(markup);
+					$('#d_select_criteria').html(markup);
+					$('#d_select_criteria').data("key", fs);
+					$('#d_select_criteria').trigger('create');
+					var $page = $( "#d_fsSearch" );
+                    //$content = $page.children( ":jqmData(role=content)" );
+					$page.page();
+                    //$content.find( ":jqmData(role=listview)" ).listview();
+                    $.mobile.changePage( $page);
+				}
+				
+				//Used for image gallery presentation
+				 var instance, currentPage, options;
+                
+                (function(window, $, PhotoSwipe){
+                 
+                 $(document).ready(function(){
+                                   
+                                   $('div.gallery-page')
+                                   
+                                   .live('pageshow', function(e){
+                                         var currentPage = $(e.target);
+                                         var options = {captionAndToolbarAutoHideDelay:0,doubleTapZoomLevel:2.0,allowUserZoom:true};
+                                         var instance = $("div.gallery a", currentPage).photoSwipe(options,  currentPage.attr('id'));
+                                         
+                                         // onHide
+                                         instance.addEventHandler(PhotoSwipe.EventTypes.onHide, function(e){
+                                                                  $(e.target).hide();
+                                                                  
+                                                                  var instance1;
+                                                                  if (typeof instance != "undefined" && instance != null) {
+                                                                  instance1 = $("div.gallery a", currentPage).photoSwipe(options,  currentPage.attr('id'));
+                                                                  
+                                                                  }
+                                                                  else{
+                                                                  instance1 = $("div.gallery a", currentPage).photoSwipe(options,  currentPage.attr('id'));
+                                                                  }
+                                                                  instance = instance1;
+                                                                  });
+                                         
+                                         
+                                         // onBeforeShow
+                                         instance.addEventHandler(PhotoSwipe.EventTypes.onBeforeShow, function(e){
+                                                                  
+                                                                  });
+                                         
+                                         return true;
+                                         
+                                         })
+                                   .live('pagehide', function(e){
+                                         
+                                         var currentPage = $(e.target);
+                                         var instance = PhotoSwipe.getInstance(currentPage.attr('id'));
+                                         
+                                         if (typeof instance != "undefined" && instance != null) {
+                                         PhotoSwipe.detatch(instance);
+                                         }
+                                         
+                                         return true;
+                                         
+                                         });
+                                   });
+                 
+                 }(window, window.jQuery, window.Code.PhotoSwipe));			
+						  
+				//Search 
+				$('#d_terms').focus(function() {
+                                            $(this).val('');
+											$(this).attr("placeholder", "");
+											$(this).css("border-color", "gray");
+                                            });
+				
+				$('.d_checkAll').on('change',
+                                    function (){
+                                    var th = $(this);
+                                    if(th.is(':checked')) {
+                                    $("label[for=" + th.attr('id') + "] span.ui-btn-text").text("Uncheck All");
+                                    $("input[name=d_topicCriteria]").attr("checked",true).checkboxradio('refresh');
+                                    } else {
+                                    $("label[for=" + th.attr('id') + "] span.ui-btn-text").text("Check All");
+                                    $("input[name=d_topicCriteria]").removeAttr("checked").checkboxradio('refresh');
+                                    }
+                                    });
+									
+				$('#d_resetButton').on('click',
+                                       function (){
+                                       $('input[name=d_terms]').val('');
+                                       $("input[name=d_checkAll]").removeAttr("checked").checkboxradio('refresh');
+                                       $("input[name=d_topicCriteria]").removeAttr("checked").checkboxradio('refresh');
+                                       $("label[for=d_checkAll] span.ui-btn-text").text("Check All");
+                                       });
+									   
+				$('#d_searchButton, #d_searchButtonBottom').on('click', function(event) {
+                                        search_submit(event);
+                                    });
+				
+				$('#d_searchForm').submit(function (e) {
+					search_submit(e);
+				});
+
+				$('#d_searchResults').on('pageshow', function(event) {
+                                         event.preventDefault();
+										 //alert(searchTerm);
+                                         d_showSearchResults();
+                                         });
+										 
+				function search_submit(e) {
+					e.stopPropagation();
+					e.preventDefault();
+					$('#d_searchMsg').empty();
+					$('#d_searchUL').empty();
+					if($("#d_terms").val().length <= 0) {
+						$("#d_terms").attr("placeholder", "Please input a search term...");
+						$("#d_terms").css("border-color", "red");
+					}
+					else {
+						$.mobile.changePage('#d_searchResults'); 
+					}
+					return false;
+				}		
+				
+				function d_showSearchResults(){
+					var fs = $('#d_select_criteria').data("key");
+					var fs_arr = diseases;
+					var img_folder = "diseases";
+                    
+                    var allVals = new Array();
+                    var i = 0;
+                    $('[name=d_topicCriteria]:checked').each(function() {
+                                                           allVals[i] = $("label[for=" + $(this).attr('id') + "]").attr('for').substr(1);
+                                                           i++;
+                                                           });
+                    //alert(allVals);
+                    var sTerms = $('[name=d_terms]').val();
+                    sTerms = sTerms.replace(/(\s)+/, ' ').toLowerCase();
+                                        
+                    $('#d_searchMsg').empty();
+                    $('#d_searchUL').empty();
+                    
+                    var fscontent;
+					
+					var allTopics = (allVals.length == 0 || allVals.length >= 8 ) ? true : false;
+					//traverse all the diseases
+					//alert(allTopics);
+					var hasResults = false;
+					$.each(fs_arr, function (i, d) {
+						var newContent = "";
+						var newTitle = "";
+						var found = false;
+						for(var key in d) {
+							if(key !== "id" && key !== "name" && key !== "gallery") {
+								if( allTopics || $.inArray(key, allVals) != -1) {
+									
+									fscontent = d[key]; 
+									if(fscontent.indexOf(sTerms) != -1) { // found
+										if(!found) {
+											//first time found
+											newTitle += titles[key];
+											if(fscontent.length>150){
+					
+					pos = fscontent.toLowerCase().indexOf(sTerms.toLowerCase());
+					
+					if(pos>10)
+					{
+						newContent = fscontent.substr(pos-10,150);//pos-10
+						newContent = newContent.substr(newContent.indexOf(' '), 150);
+					}
+					else 
+						newContent = fscontent.substr(0,150);//pos-10
+
+					newContent = newContent.substr(0, newContent.lastIndexOf(' '));
+					
+				  }
+				  else
+				  {
+				     newContent = fscontent.trim();
+					 pos = fscontent.toLowerCase().indexOf(sTerms.toLowerCase());
+					 if(pos>10)
+					  {
+						newContent = fscontent.substr(pos-10,150);//pos-10
+						newContent = newContent.substr(newContent.indexOf(' '), 150);
+					  }
+					  else 
+						newContent = fscontent.substr(0,150);//pos-10
+						
+					newContent = newContent.substr(0, newContent.lastIndexOf(' ')).trim();
+					
+				
+				  }
+
+				  	
+					var liReg = new RegExp("<li>",'gi');
+					newContent=newContent.replace(liReg,"");
+					
+					var li_Reg = new RegExp("</li>",'gi');
+					newContent=newContent.replace(li_Reg,"");
+					
+					var ulReg = new RegExp("<ul>",'gi');
+					newContent=newContent.replace(ulReg,"");
+					
+					var ul_Reg = new RegExp("</ul>",'gi');
+					newContent=newContent.replace(ul_Reg,"");
+					
+					var pReg = new RegExp("<p>",'gi');
+					newContent=newContent.replace(pReg,"");
+					
+					var p_Reg = new RegExp("</p>",'gi');
+					newContent=newContent.replace(p_Reg,"");
+					
+					var tableReg = new RegExp("<table>",'gi');
+					newContent=newContent.replace(tableReg,"");
+					
+					var thReg = new RegExp("<th>",'gi');
+					newContent=newContent.replace(thReg,"");
+					
+					var th_Reg = new RegExp("</th>",'gi');
+					newContent=newContent.replace(th_Reg,"");
+					
+					var tdReg = new RegExp("<td>",'gi');
+					newContent=newContent.replace(tdReg,"");
+					
+					var td_Reg = new RegExp("</td>",'gi');
+					newContent=newContent.replace(td_Reg,"");
+					
+					var trReg = new RegExp("<tr>",'gi');
+					newContent=newContent.replace(trReg,"");
+					
+					var tr_Reg = new RegExp("</tr>",'gi');
+					newContent=newContent.replace(tr_Reg,"");
+					
+					var brReg = new RegExp("<br>",'gi');
+					newContent=newContent.replace(brReg,"");
+					
+					var h4Reg = new RegExp("<h4>",'gi');
+					newContent=newContent.replace(h4Reg,"");
+					
+					var h4_Reg = new RegExp("</h4>",'gi');
+					newContent=newContent.replace(h4_Reg,"");
+					
+					var myRegExp = new RegExp(sTerms,'gi');
+					newContent=newContent.replace(myRegExp,'<span class="yellow-highlight">'+sTerms+'</span>');
+											
+											
+											//newCont += rfstr.replace(sTerms, '<span class="yellow-highlight">'+sTerms+'</span>');
+											//alert(newCont);
+										} else {
+											newTitle += ", " + titles[key];
+										}
+										found = true;
+									}
+								}
+							}
+						}
+						
+						if(found) {
+							//show this disease
+							hasResults = true;
+							var fspath = "images/"+img_folder+"/fs_images/"+d['gallery'][0][0];
+							var imgCaption = d['gallery'][0][1];
+							$('#d_searchUL').append('<li><a href="#factsheet?fsid='+d['id']+'"><img src="'+fspath+'" alt="'+imgCaption+'" style="padding-top:3px; padding-left:2px;" width="100%" height="100%" /> <h3 style="color:#335C32">'+d['name']+'</h3><p style="color:#335C32"><b>'+newTitle+'</b> <br>'+newContent+'</p></a></li>');
+							
+                            $('#d_searchUL').listview();
+                            $('#d_searchUL').listview("refresh");
+							
+						}
+						
+					});
+					if(!hasResults) {
+						// no results;
+						$('#d_searchMsg').append('<center><p>No search results found. Try again!</p></center>');
+					}
+                }
+
+
+										 
+                $('#incCheckAll').live('change',
+                                       function (){
+                                      
+                                       
+                                       var th = $(this);
+                                       if(th.is(':checked')) {
+                                       $("label[for=" + th.attr('id') + "] span.ui-btn-text").text("Uncheck All");
+                                       $("input[name=incFilters]").attr("checked",true).checkboxradio('refresh');
+                                       
+                                       } else {
+                                       $("label[for=" + th.attr('id') + "] span.ui-btn-text").text("Check All");
+                                       $("input[name=incFilters]").removeAttr("checked").checkboxradio('refresh');
+                                       }
+                                       });
+                
+                $('#incReset').live('click', function (event){
+                                if($('[name="incFilters"]:checked').length>0)
+                				{    
+                                    $("input[name=incFilters]").removeAttr("checked").checkboxradio('refresh');
+                                    $("input[name=incCheckAll]").removeAttr("checked").checkboxradio('refresh');
+                                    $("label[for=incCheckAll] span.ui-btn-text").text("Check All");
+                                }
+                                if($('[name="excFilters"]:checked').length>0)
+                				{   
+                                    $("input[name=excFilters]").removeAttr("checked").checkboxradio('refresh');
+                                    $("input[name=excCheckAll]").removeAttr("checked").checkboxradio('refresh');
+                                    $("label[for=excCheckAll] span.ui-btn-text").text("Check All");
+                                }   
+                            	//alert("incReset");
+                                $.mobile.changePage('#fsgallery');
+                });
+                
+                $('#excReset').live('click', function (event){
+                				if($('[name="excFilters"]:checked').length>0)
+                				{
+                                    $("input[name=excFilters]").removeAttr("checked").checkboxradio('refresh');
+                                    $("input[name=excCheckAll]").removeAttr("checked").checkboxradio('refresh');
+                                    $("label[for=excCheckAll] span.ui-btn-text").text("Check All");
+                                }
+                                 
+                                if($('[name="incFilters"]:checked').length>0)
+                				{
+                                    $("input[name=incFilters]").removeAttr("checked").checkboxradio('refresh');
+                                    $("input[name=incCheckAll]").removeAttr("checked").checkboxradio('refresh');
+                                    $("label[for=incCheckAll] span.ui-btn-text").text("Check All");
+                                }
+                                $.mobile.changePage('#fsgallery');
+                });
+                
+                
+                
+                $('#excCheckAll').live('change', function (event){
+                                       //excReset --> $("input[name=excFilters]").removeAttr("checked").checkboxradio('refresh');
+                                       var th = $(this);
+                                       if(th.is(':checked'))
+                                       {
+                                       $("label[for=" + th.attr('id') + "] span.ui-btn-text").text("Uncheck All");
+                                       $("input[name=excFilters]").attr("checked",true).checkboxradio('refresh');
+                                       }
+                                       else
+                                       {
+                                       $("label[for=" + th.attr('id') + "] span.ui-btn-text").text("Check All");
+                                       $("input[name=excFilters]").removeAttr("checked").checkboxradio('refresh');
+                                       }
+                                       });
+                
+                $('#incSubmit').on('click', function(event) {
+                	if($('[name="excFilters"]:checked').length>0)
+                	{
+                		$("input[name=excFilters]").removeAttr("checked").checkboxradio('refresh');
+        	        	$("input[name=excCheckAll]").removeAttr("checked").checkboxradio('refresh');
+                    	$("label[for=excCheckAll] span.ui-btn-text").text("Check All");
+                    }
+                    $.mobile.changePage('#fsgallery');
+                    
+        	    });
+        	    
+                $('#excSubmit').on('click', function(event) {
+                	if($('[name="incFilters"]:checked').length>0)
+                	{
+    	        		$("input[name=incFilters]").removeAttr("checked").checkboxradio('refresh');
+                    	$("input[name=incCheckAll]").removeAttr("checked").checkboxradio('refresh');
+                    	$("label[for=incCheckAll] span.ui-btn-text").text("Check All");
+                    }
+                    $.mobile.changePage('#fsgallery');
+    	        	
+            	});
+				
+
+			
+					
+				
+			});
+		</script>
+<script src="js/coreFlashJax.js"></script></head>
+<body>
+<div data-role="page" data-theme="e" data-title="CDiseases" id="home">
+<div data-backbtn="false" data-fullscreen="false" data-position="fixed" data-role="header" data-theme="e" id="header">
+<h1>Citrus Diseases</h1>
+</div>
+<div data-fullscreen="false" data-role="content">
+<ul data-inset="true" data-role="listview" data-theme="f">
+<li><a href="#about">About</a></li>
+<li><a href="#fsIndex">Factsheets</a></li>
+<li><a href="#glossary">Glossary</a></li>
+<li><a href="#fsgallery">Image Gallery</a></li>
+<li><a href="#d_fsSearch?fs=d">Search Fact Sheets</a></li>
+</ul>
+</div>
+<div align="center" data-fullscreen="false" data-id="homeFooter" data-position="fixed" data-role="footer" data-theme="e" id="footer" ontouchmove="event.preventDefault();">
+<div class="footerCopy" data-mini="true" data-role="navbar">
+<small><b>© University of Florida, IFAS/IT</b></small>
+</div>
+</div>
+</div>
+<div data-role="page" data-title="CDiseases" id="glossary">
+<div data-position="inline" data-role="header" data-theme="e" id="glossary_header">
+<a class="headerLink" data-direction="reverse" data-icon="home" data-iconpos="notext" data-rel="home" data-role="button" href="#home">Home</a>
+<h1>Glossary</h1>
+</div>
+<div data-role="content" id="glossaryContent">
+<div data-collapsed-icon="arrow-d" data-content-theme="e" data-expanded-icon="arrow-u" data-iconpos="right" data-inset="true" data-role="collapsible-set" data-theme="e" id="glossaryIndex" style="padding-left:10px;padding-right:10px;padding-top:10px;">
+</div>
+</div>
+<div align="center" data-fullscreen="false" data-position="fixed" data-role="footer" data-theme="e" id="footer" ontouchmove="event.preventDefault();" style="padding-top:2px;">
+<div data-role="navbar">
+<ul>
+<li><a class="footerLinks" data-role="button" href="#about">About</a></li>
+<li><a class="footerLinks" data-role="button" href="#fsIndex">Factsheets</a></li>
+<li><a class="footerLinks" data-role="button" href="#fsgallery">Gallery</a></li>
+<li><a class="footerLinks" data-role="button" href="#d_fsSearch?fs=d">Search</a></li>
+</ul>
+</div>
+<div class="footerCopy" data-mini="true" data-role="navbar">
+<small><b>© University of Florida, IFAS/IT</b></small>
+</div>
+</div>
+</div>
+<div data-role="page" data-title="CDiseases" id="fsIndex">
+<div data-position="inline" data-role="header" data-theme="e" id="fsIndex_header">
+<a class="headerLink" data-icon="home" data-iconpos="notext" data-rel="home" data-role="button" href="#home">Home</a>
+<h1></h1>
+</div>
+<div data-role="content" id="indexContent">
+<div data-collapsed-icon="arrow-d" data-content-theme="e" data-expanded-icon="arrow-u" data-iconpos="right" data-inset="true" data-role="collapsible-set" data-theme="e" id="factsheetIndex" style="padding-left:10px;padding-right:10px;padding-top:10px;">
+</div>
+</div>
+<div align="center" data-fullscreen="false" data-position="fixed" data-role="footer" data-theme="e" id="footer" ontouchmove="event.preventDefault();" style="padding-top:2px;">
+<div data-role="navbar">
+<ul>
+<li><a class="footerLinks" data-role="button" href="#about">About</a></li>
+<li><a class="footerLinks" data-role="button" href="#glossary">Glossary</a></li>
+<li><a class="footerLinks" data-role="button" href="#fsgallery">Gallery</a></li>
+<li><a class="footerLinks" data-role="button" href="#d_fsSearch?fs=d">Search</a></li>
+</ul>
+</div>
+<div class="footerCopy" data-mini="true" data-role="navbar">
+<small><b>© University of Florida, IFAS/IT</b></small>
+</div>
+</div>
+</div>
+<div data-role="page" data-theme="e" data-title="CDiseases" id="factsheet">
+<div data-position="fixed" data-role="header" data-theme="e" id="header">
+<h1></h1>
+<a class="headerLink" data-direction="reverse" data-icon="home" data-iconpos="notext" data-rel="home" data-role="button" href="#home">Home</a>
+</div>
+<div data-role="content" id="keyContent">
+<div align="center" data-role="controlgroup" id="fsnavLinks"></div>
+<div data-collapsed-icon="arrow-d" data-content-theme="e" data-expanded-icon="arrow-u" data-iconpos="right" data-inset="true" data-role="collapsible-set" data-theme="e" id="fscList" style="padding-left:10px;padding-right:10px;padding-top:10px;">
+</div>
+<br/>
+<ul data-inset="true" data-role="listview" data-theme="f" id="imageList"></ul>
+<div align="center" data-role="controlgroup" id="fsbottomnavLinks" style="padding-top:15px;"></div>
+</div>
+<div align="center" data-fullscreen="false" data-position="fixed" data-role="footer" data-theme="e" id="footer" ontouchmove="event.preventDefault();" style="padding-top:2px;">
+<div data-role="navbar">
+<ul>
+<li><a class="footerLinks" data-role="button" href="#about">About</a></li>
+<li><a class="footerLinks" data-role="button" href="#glossary">Glossary</a></li>
+<li><a class="footerLinks" data-role="button" href="#fsgallery">Gallery</a></li>
+<li><a class="footerLinks" data-role="button" href="#d_fsSearch?fs=d">Search</a></li>
+</ul>
+</div>
+<div class="footerCopy" data-mini="true" data-role="navbar">
+<small><b>© University of Florida, IFAS/IT</b></small>
+</div>
+</div>
+</div>
+<div class="gallery-page" data-role="page" data-title="CDiseases" id="fsImage">
+<div data-position="fixed" data-role="header" data-theme="e" id="header">
+<a class="headerLink" data-direction="reverse" data-icon="home" data-iconpos="notext" data-rel="home" data-role="button" href="#home">Home</a>
+<h2></h2>
+</div>
+<div data-role="content" id="fsImageContent" style="margin-left:0px;margin-right:0px;padding-left:0px; padding-right:0px;float:center;font-family: Helvetica, Arial, sans-serif;">
+<div align="center" id="cancelTop"></div>
+<div align="center" class="gallery" id="fsGalleryLinks"></div>
+<div align="center" id="cancelBottom"></div>
+</div>
+<div align="center" data-fullscreen="false" data-position="fixed" data-role="footer" data-theme="e" id="footer" ontouchmove="event.preventDefault();" style="padding-top:2px;">
+<div data-role="navbar">
+<ul>
+<li><a class="footerLinks" data-role="button" href="#about">About</a></li>
+<li><a class="footerLinks" data-role="button" href="#glossary">Glossary</a></li>
+<li><a class="footerLinks" data-role="button" href="#fsgallery">Gallery</a></li>
+<li><a class="footerLinks" data-role="button" href="#d_fsSearch?fs=d">Search</a></li>
+</ul>
+</div>
+<div class="footerCopy" data-mini="true" data-role="navbar">
+<small><b>© University of Florida, IFAS/IT</b></small>
+</div>
+</div>
+</div>
+<div data-role="page" data-theme="e" data-title="CDiseases" data-transition="pop" id="includeFilters">
+<div data-fullscreen="false" data-position="fixed" data-role="header" data-theme="e" id="header">
+<!-- <a href="#fsgallery" class="headerLink" data-role="button" data-icon="back" data-rel="back" data-direction="reverse"  >Back</a>
+                            --><h1>Include Filters</h1>
+</div>
+<div data-fullscreen="false" data-role="content" data-theme="f">
+<ul data-inset="false" data-role="listview" style="padding:top:10px; padding-bottom:20px;">
+<li class="topicButtons">
+<div align="center">
+<br/>
+<a class="button" id="incSubmit" style="color:#335C32; font-size:16px; width:100px; height: 20px;padding-top:10px;">Filter</a>
+                                          
+                                        <a class="button" id="incReset" style="color:#335C32; font-size:16px; width:100px; height: 20px;padding-top:10px;">Remove</a>
+<br/>
+</div>
+</li>
+</ul>
+<div align="left" style="">Select Multiple:</div>
+<input class="custom" data-inline="true" data-theme="e" id="incCheckAll" name="incCheckAll" type="checkbox"/>
+<label data-inine="true" for="incCheckAll">Check All</label>
+<fieldset data-role="controlgroup" id="incFilters" style="padding-bottom:5px;">
+<input class="custom topicCriteria" data-theme="e" id="inbark" name="incFilters" type="checkbox"/>
+<label for="inbark">bark</label>
+<input class="custom topicCriteria" data-theme="e" id="inbranch" name="incFilters" type="checkbox"/>
+<label for="inbranch">branch</label>
+<input class="custom" data-theme="e" id="inchlorosis" name="incFilters" type="checkbox"/>
+<label for="inchlorosis">chlorosis</label>
+<input class="custom" data-theme="e" id="infruit" name="incFilters" type="checkbox"/>
+<label for="infruit">fruit</label>
+<input class="custom" data-theme="e" id="inleaf" name="incFilters" type="checkbox"/>
+<label for="inleaf">leaf</label>
+<input class="custom" data-theme="e" id="inlesion" name="incFilters" type="checkbox"/>
+<label for="inlesion">lesion</label>
+<input class="custom" data-theme="e" id="inseed" name="incFilters" type="checkbox"/>
+<label for="inseed">seed</label>
+<input class="custom" data-theme="e" id="intree" name="incFilters" type="checkbox"/>
+<label for="intree">tree</label>
+</fieldset>
+<br/>
+<!--                            <ul data-role="listview" data-inset="false" style="padding-top:15px;">
+                                <li class="topicButtons">
+                                    <div align="center">
+                                        <a class="button" id="incSubmit" style="color:#335C32; font-size:16px; width:100px; height: 20px;padding-top:10px;">Filter</a>
+                                        &nbsp;&nbsp;
+                                        <a class="button" id="incReset" style="color:#335C32; font-size:16px; width:100px; height: 20px;padding-top:10px;">Reset</a>
+                                        <br><br>
+
+                                    </div>
+                                </li>
+                            </ul>
+ -->
+</div>
+</div>
+<div data-role="page" data-theme="e" data-title="CDiseases" data-transition="pop" id="excludeFilters">
+<div data-fullscreen="false" data-position="fixed" data-role="header" data-theme="e" id="header">
+<!--<a href="#fsgallery" class="headerLink" data-role="button" data-icon="back" data-rel="back" data-direction="reverse"  >Back</a>
+                            --><h1>Exclude Filters</h1>
+</div>
+<div data-fullscreen="false" data-role="content" data-theme="f">
+<ul data-inset="false" data-role="listview" style="padding-top:10px; padding-bottom:20px;">
+<li class="topicButtons">
+<div align="center">
+<br/>
+<a class="button" id="excSubmit" style="color:#335C32; font-size:16px; width:100px; height: 20px;padding-top:10px;">Filter</a>
+                                          
+                                        <a class="button" id="excReset" style="color:#335C32; font-size:16px; width:100px; height: 20px;padding-top:10px;">Remove</a>
+</div>
+</li>
+</ul>
+<div align="left" style="">Select Multiple:</div>
+<input class="custom" data-inline="true" data-theme="e" id="excCheckAll" name="excCheckAll" type="checkbox"/>
+<label data-inine="true" for="excCheckAll">Check All</label>
+<fieldset data-role="controlgroup" id="excFilters" style="padding-bottom:5px;">
+<input class="custom topicCriteria" data-theme="e" id="exbark" name="excFilters" type="checkbox"/>
+<label for="exbark">bark</label>
+<input class="custom topicCriteria" data-theme="e" id="exbranch" name="excFilters" type="checkbox"/>
+<label for="exbranch">branch</label>
+<input class="custom" data-theme="e" id="exchlorosis" name="excFilters" type="checkbox"/>
+<label for="exchlorosis">chlorosis</label>
+<input class="custom" data-theme="e" id="exfruit" name="excFilters" type="checkbox"/>
+<label for="exfruit">fruit</label>
+<input class="custom" data-theme="e" id="exleaf" name="excFilters" type="checkbox"/>
+<label for="exleaf">leaf</label>
+<input class="custom" data-theme="e" id="exlesion" name="excFilters" type="checkbox"/>
+<label for="exlesion">lesion</label>
+<input class="custom" data-theme="e" id="exseed" name="excFilters" type="checkbox"/>
+<label for="exseed">seed</label>
+<input class="custom" data-theme="e" id="extree" name="excFilters" type="checkbox"/>
+<label for="extree">tree</label>
+</fieldset>
+</div>
+</div>
+<div class="gallery-page" data-role="page" data-title="CDiseases" id="fsgallery">
+<div data-fullscreen="false" data-position="fixed" data-role="header" data-theme="e" id="fsgalleryHeader">
+<a class="headerLink" data-direction="reverse" data-icon="home" data-iconpos="notext" data-rel="home" data-role="button" href="#home">Home</a>
+<h1></h1>
+</div>
+<div data-fullscreen="false" data-role="header" data-theme="e" id="header1">
+<a class="headerLink" data-icon="gear" data-iconpos="right" data-role="button" data-transition="pop" href="#includeFilters">Include Filters</a>
+<h2></h2>
+<a class="headerLink" data-icon="gear" data-role="button" data-transition="pop" href="#excludeFilters">Exclude Filters</a>
+</div>
+<div data-fullscreen="false" data-role="content" id="fsgalleryContent" style="margin-left:0px;margin-right:0px;padding-left:0px; padding-right:0px;float:center;font-family: Helvetica, Arial, sans-serif;">
+<div align="center" id="galleryPageLinks"></div>
+<div align="center" class="gallery" id="galleryLinks" style="margin-right:10px;"></div>
+<div align="center" id="galleryPageFooterLinks" style="margin-top:30px;"></div>
+</div>
+<div align="center" data-fullscreen="false" data-position="fixed" data-role="footer" data-theme="e" id="footer" ontouchmove="event.preventDefault();" style="padding-top:2px;">
+<div data-role="navbar">
+<ul>
+<li><a class="footerLinks" data-role="button" href="#about">About</a></li>
+<li><a class="footerLinks" data-role="button" href="#fsIndex">Factsheets</a></li>
+<li><a class="footerLinks" data-role="button" href="#glossary">Glossary</a></li>
+<li><a class="footerLinks" data-role="button" href="#d_fsSearch?fs=d">Search</a></li>
+</ul>
+</div>
+<div class="footerCopy" data-mini="true" data-role="navbar">
+<small><b>© University of Florida, IFAS/IT</b></small>
+</div>
+</div>
+</div>
+<div data-role="page" data-theme="e" data-title="CDiseases" id="d_fsSearch">
+<div data-fullscreen="false" data-position="fixed" data-role="header" data-theme="e" id="d_searchHeader">
+<a class="headerLink" data-icon="home" data-iconpos="notext" data-role="button" href="#home">Home</a>
+<h1>Search Diseases Fact Sheets</h1>
+</div>
+<div data-fullscreen="false" data-role="content" data-theme="f" id="d_searchContent">
+<form id="d_searchForm">
+<div align="center" style="padding-top:5px; padding-bottom:3px; -webkit-border-radius: 8px; -moz-border-radius: 8px; padding-left:8px; padding-right:8px; ">
+<div align="left"><label for="name" style="color:#0B3C55">Enter terms to search the Fact Sheets:</label></div>
+<input data-inline="true" data-theme="c" id="d_terms" name="d_terms" placeholder="Search Fact Sheets" size="70%" style="" type="text" value=""/>
+<a class="button" id="d_searchButton" rel="external" style="color:#335C32; font-size:16px; width:100px; height: 20px;padding-top:10px;">Search</a>
+</div>
+<br/>
+<div align="center" style="padding-top:5px; padding-bottom:3px; -webkit-border-radius: 8px; -moz-border-radius: 8px; padding-left:8px; padding-right:8px; ">
+<div align="left" style="padding-bottom:3px;">Select the topic criteria:<br/>
+<input class="d_checkAll" data-theme="e" id="d_checkAll" name="d_checkAll" type="checkbox"/>
+<label for="d_checkAll">Check All</label>
+<div data-role="controlgroup" id="d_select_criteria"></div>
+</div>
+<br/>
+<a class="button" id="d_searchButtonBottom" rel="external" style="color:#335C32; font-size:16px;height:20px;width:70px;padding-top:10px;">Search</a>
+						  
+						<a class="button" id="d_resetButton" style="color:#335C32; font-size:16px;;height:20px;width:70px;padding-top:10px;">Reset</a>
+<p> </p>
+</div>
+</form>
+</div>
+<div align="center" data-fullscreen="false" data-position="fixed" data-role="footer" data-theme="e" id="footer" ontouchmove="event.preventDefault();" style="padding-top:2px;">
+<div data-role="navbar">
+<ul>
+<li><a class="footerLinks" data-role="button" href="#about">About</a></li>
+<li><a class="footerLinks" data-role="button" href="#fsIndex">Factsheets</a></li>
+<li><a class="footerLinks" data-role="button" href="#glossary">Glossary</a></li>
+<li><a class="footerLinks" data-role="button" href="#fsgallery">Gallery</a></li>
+</ul>
+</div>
+<div class="footerCopy" data-mini="true" data-role="navbar">
+<small><b>© University of Florida, IFAS/IT</b></small>
+</div>
+</div>
+</div>
+<div data-role="page" data-theme="e" data-title="CDiseases" id="d_searchResults">
+<div data-fullscreen="false" data-position="fixed" data-role="header" data-theme="e" id="header">
+<a class="headerLink" data-direction="reverse" data-icon="back" data-iconpos="notext" data-role="button" href="#d_fsSearch?fs=d">Back</a>
+<h1>Search Results</h1>
+<a class="headerLink" data-icon="home" data-iconpos="notext" data-role="button" href="#home">Home</a>
+</div>
+<div data-fullscreen="false" data-role="content" id="d_searchResultsContent">
+<ul data-inset="true" data-role="listview" data-theme="e" id="d_searchUL"></ul>
+<div id="d_searchMsg"></div>
+<p> </p>
+</div>
+<div align="center" data-fullscreen="false" data-position="fixed" data-role="footer" data-theme="e" id="footer" ontouchmove="event.preventDefault();" style="padding-top:2px;">
+<div data-role="navbar">
+<ul>
+<li><a class="footerLinks" data-role="button" href="#about">About</a></li>
+<li><a class="footerLinks" data-role="button" href="#fsIndex">Factsheets</a></li>
+<li><a class="footerLinks" data-role="button" href="#glossary">Glossary</a></li>
+<li><a class="footerLinks" data-role="button" href="#fsgallery">Gallery</a></li>
+</ul>
+</div>
+<div class="footerCopy" data-mini="true" data-role="navbar">
+<small><b>© University of Florida, IFAS/IT</b></small>
+</div>
+</div>
+</div>
+<div data-add-back-btn="true" data-role="page" data-theme="e" id="about">
+<div data-fullscreen="false" data-position="fixed" data-role="header" data-theme="e" id="header">
+<a class="headerLink" data-icon="back" data-iconpos="notext" data-role="button" href="#home">Back</a>
+<h1>About this App</h1>
+<a class="ui-btn-right" data-icon="home" data-iconpos="notext" data-role="button" href="#home">Home</a>
+</div>
+<div data-fullscreen="false" data-role="content">
+<ul data-inset="true" data-role="listview" data-theme="f">
+<li><a href="#aboutTool">About this App</a></li>
+<li><a href="#authors">Authors</a></li>
+<li><a href="#acknowledgements">Acknowledgements</a></li>
+<li><a href="#references">References</a></li>
+<li><a href="#copyright">Copyright, Citation, Disclaimers</a></li>
+</ul>
+</div>
+<div align="center" data-fullscreen="false" data-position="fixed" data-role="footer" data-theme="e" id="footer" ontouchmove="event.preventDefault();" style="padding-top:2px;">
+<div data-role="navbar">
+<ul>
+<li><a class="footerLinks" data-role="button" href="#fsIndex">Factsheets</a></li>
+<li><a class="footerLinks" data-role="button" href="#glossary">Glossary</a></li>
+<li><a class="footerLinks" data-role="button" href="#fsgallery">Gallery</a></li>
+<li><a class="footerLinks" data-role="button" href="#d_fsSearch?fs=d">Search</a></li>
+</ul>
+</div>
+<div class="footerCopy" data-mini="true" data-role="navbar">
+<small><b>© University of Florida, IFAS/IT</b></small>
+</div>
+</div>
+</div>
+<div class="gallery-page" data-add-back-btn="true" data-role="page" data-theme="e" id="aboutTool">
+<div data-position="fixed" data-role="header" data-theme="e" id="header">
+<a class="headerLink" data-direction="reverse" data-icon="back" data-iconpos="notext" data-rel="back" data-role="button">Back</a>
+<h1>About this App</h1>
+<a class="headerLink" data-direction="reverse" data-icon="home" data-iconpos="notext" data-rel="home" data-role="button" href="#home">Home</a>
+</div>
+<div data-role="content">
+<div class="gallery" id="imageAboutTool" style="float:right;padding-top:5px;">
+<a class="portfolio_one" href="images/diseases/fs_images/01Alternaria.jpg" rel="external" style="float:right;padding-right:5px;">
+<img alt="" src="images/diseases/fs_images/01Alternaria.jpg"/>
+</a>
+<a class="portfolio_one" href="images/diseases/fs_images/02Alternaria.jpg" rel="external" style="float:right;padding-right:5px;">
+<img alt="" src="images/diseases/fs_images/02Alternaria.jpg"/>
+</a>
+<a class="portfolio_one" href="images/diseases/fs_images/03Alternaria.jpg" rel="external" style="float:right;padding-right:5px;">
+<img alt="" src="images/diseases/fs_images/03Alternaria.jpg"/>
+</a>
+</div>
+<div style="padding-left:5px;">
+<p>
+                
+                Early disease detection and management are essential to ensuring continued viability of the U.S. citrus industry. Rapid communication of new diseases, significant outbreaks, and accurate information are vital. Many diseases are difficult to distinguish from one another or disease symptoms mimic disorder symptoms. Images and description of diseases are helpful in making a correct diagnosis.</p>
+<p>Citrus Diseases App is a symptom-based, illustrated identification guide that encompasses citrus diseases that are in the United States as well as those of immediate concern. Search categories in the app include:  scientific name, other common names, disease cycle, symptoms, host range, references, and distribution. Fact sheets also include information on other diseases which may be easily confused with a suspect citrus disease.  Citrus Diseases App is designed to be used by United States quarantine officials and Cooperative Extension personnel.</p>
+<p>Citrus Diseases App is the hand-held application component of Citrus Diseases.  Citrus Diseases is a LUCID® tool available at: <a href="http://idtools.org/id/citrus/diseases/">http://idtools.org/id/citrus/diseases/</a> .  Citrus Diseases and Citrus Diseases App are a component of the Citrus Resource.  Development of the Citrus Diseases LUCID tool was funded by USDA-APHIS-PPQ.  Conversion of the Citrus Diseases  tool to a hand-held identification application was funded through USDA-NIFA grant no. 2011-41533-31090 entitled "New Technologies and Educational Material to Address National Emerging Citrus Pests and Citrus Diseases" to the University of Florida/IFAS Extension.  Citrus Disease App is a partnership between the University of Florida, Texas A&amp;M; University, the University of California-Riverside, and USDA-APHIS-PPQ.</p>
+</div>
+</div>
+<div align="center" data-fullscreen="false" data-position="fixed" data-role="footer" data-theme="e" id="footer" ontouchmove="event.preventDefault();" style="padding-top:2px;">
+<div data-role="navbar">
+<ul>
+<li><a class="footerLinks" data-role="button" href="#fsIndex">Factsheets</a></li>
+<li><a class="footerLinks" data-role="button" href="#glossary">Glossary</a></li>
+<li><a class="footerLinks" data-role="button" href="#fsgallery">Gallery</a></li>
+<li><a class="footerLinks" data-role="button" href="#d_fsSearch?fs=d">Search</a></li>
+</ul>
+</div>
+<div class="footerCopy" data-mini="true" data-role="navbar">
+<small><b>© University of Florida, IFAS/IT</b></small>
+</div>
+</div>
+</div>
+<div data-add-back-btn="true" data-role="page" data-theme="e" id="authors">
+<div data-fullscreen="false" data-position="fixed" data-role="header" data-theme="e" id="header">
+<a class="headerLink" data-direction="reverse" data-icon="back" data-iconpos="notext" data-rel="back" data-role="button">Back</a>
+<h1>Authors</h1>
+<a class="headerLink" data-direction="reverse" data-icon="home" data-iconpos="notext" data-rel="home" data-role="button" href="#home">Home</a>
+</div>
+<div data-fullscreen="false" data-role="content">
+<p>Citrus Diseases  Tool Authors Include:</p>
+<b> David Serrano, PhD</b><br/>
+                Assistant Professor<br/>
+                Broward College<br/><br/>
+<b>Esther Serrano, DPM</b><br/>
+                Entomologist<br/>
+                USDA-APHIS-PPQ<br/><br/>
+<b>Megan Dewdney, PhD</b><br/>
+                Assistant Professor of Plant Pathology<br/>
+                University of Florida<br/><br/>
+<b>Christina Southwick</b><br/>
+<!-- Identification Technology Program Technician<br> -->
+                USDA-APHIS-PPQ-CPHST<br/>
+                Fort Collins Laboratory<br/>
+<p>Matthew Trice (USDA Identification Technology Program) was responsible for web development of Citrus Diseases.</p>
+<!--
+                <p>Please email Christina Southwick with any comments, suggestions, or questions at: christina.southwick@aphis.usda.gov    </p>    
+-->
+<p>Citrus Diseases App is a hand-held modified version of Citrus Diseases.  For questions or concerns regarding the technical functionality of Citrus Diseases App, please contact UF/IFAS IT <a href="mailto:help@ifas.ufl.edu">help@ifas.ufl.edu</a> or Project Coordinator Amanda Hodges <a href="mailto:achodges@ufl.edu">achodges@ufl.edu</a>.</p>
+</div>
+<div align="center" data-fullscreen="false" data-position="fixed" data-role="footer" data-theme="e" id="footer">
+<div data-role="navbar">
+<ul>
+<li><a class="footerLinks" data-role="button" href="#fsIndex">Factsheets</a></li>
+<li><a class="footerLinks" data-role="button" href="#glossary">Glossary</a></li>
+<li><a class="footerLinks" data-role="button" href="#fsgallery">Gallery</a></li>
+<li><a class="footerLinks" data-role="button" href="#d_fsSearch?fs=d">Search</a></li>
+</ul>
+</div>
+<div class="footerCopy" data-mini="true" data-role="navbar">
+<small><b>© University of Florida, IFAS/IT</b></small>
+</div>
+</div>
+</div>
+<div class="gallery-page" data-add-back-btn="true" data-role="page" data-theme="e" id="acknowledgements">
+<div data-fullscreen="false" data-position="fixed" data-role="header" data-theme="e" id="header">
+<a class="headerLink" data-direction="reverse" data-icon="back" data-iconpos="notext" data-rel="back" data-role="button">Back</a><h1>Acknowledgements</h1>
+<a class="headerLink" data-direction="reverse" data-icon="home" data-iconpos="notext" data-rel="home" data-role="button" href="#home">Home</a>
+</div>
+<div data-role="content">
+<div class="gallery" id="imageAck" style="float:right;padding-top:5px;">
+<a class="portfolio_one" href="images/diseases/launch_HLB.jpg" rel="external" style="float:right;padding-right:5px;">
+<img alt="" src="images/diseases/launch_HLB.jpg"/>
+</a>
+</div>
+<div style="padding-left:5px;">
+<p>Citrus Diseases Web App is the hand-held web application component of Citrus Diseases. Citrus Diseases is a LUCID® tool available at: <a href="http://idtools.org/id/citrus/diseases/" target="_blank">http://idtools.org/id/citrus/diseases/</a>. Citrus Pests and Citrus Pests web apps are components of the Citrus Resources tool. Development of the Citrus Diseases LUCID tool was funded by USDA-APHIS-PPQ. Conversion of the Citrus Diseases  tool to a hand-held identification application was funded through USDA-NIFA grant no. 2011-41533-31090 entitled "New Technologies and Educational Material to Address National Emerging Citrus Pests and Citrus Diseases" to the University of Florida/IFAS Extension. Citrus Disease Web App is a partnership between the University of Florida/IFAS Extension, Texas A&amp;M; University, the University of California-Riverside, and USDA-APHIS-PPQ.</p>
+<br/>We would like to thank following for project support and web development support:
+
+			<div data-collapsed-icon="arrow-r" data-content-theme="e" data-expanded-icon="arrow-d" data-inset="true" data-role="collapsible-set" data-theme="e" id="ackList" style="padding-left:6px;padding-right:6px;">
+<div data-collapsed="true" data-role="collapsible">
+<h3>Project Director: Dr. Amanda Hodges</h3>
+<p>
+								Dr. Amanda Hodges, Ph.D.<br>
+								Associate Extension Scientist<br>
+								Doctor of Plant Medicine (DPM) Director<br>
+								Department of Entomology<br>
+								University of Florida<br>
+								Gainesville, FL 32611<br>
+<a href="mailto:achodges@ufl.edu ">achodges@ufl.edu </a>
+</br></br></br></br></br></br></p>
+</div>
+<div data-collapsed="true" data-role="collapsible">
+<h3>Project Director: Dr. Norman Leppla</h3>
+<p>
+								Dr. Norman Leppla, Ph.D.<br>
+								Professor of Entomology <br>
+								Integrated Pest Management Program Director<br>
+								Department of Entomology<br>
+								University of Florida<br>
+								Gainesville, FL 32611<br>
+<a href="mailto:ncleppla@ufl.edu ">ncleppla@ufl.edu </a>
+</br></br></br></br></br></br></p>
+</div>
+<div data-collapsed="true" data-role="collapsible">
+<h3>Project Director: Dr. Elizabeth Grafton-Cardwell</h3>
+<p>
+								Dr. Elizabeth Grafton-Cardwell, Ph.D.<br>
+								Extension Specialist and Center Director<br>
+								LindcoveResearch and Extension Center<br>
+								Kearney Agriculture Center<br>
+								9240 South River end,Parlier, CA 93648<br>
+</br></br></br></br></br></p>
+</div>
+<div data-collapsed="true" data-role="collapsible">
+<h3>Project Director: Dr. Mamoudou Setamou</h3>
+<p>
+								Dr. Mamoudou Setamou, Ph.D.<br>
+								Assistant Professor<br>
+								Texas A&amp;M; University<br>
+								KingsvilleCitrus Center<br>
+								312 N International Blvd, Weslaco, TX 78596<br>
+</br></br></br></br></br></p>
+</div>
+<div data-collapsed="true" data-role="collapsible">
+<h3>Project Coordinator: Dr. Gurpreet S. Brar</h3>
+<p>
+								Dr. Gurpreet S. Brar, Ph.D<br>
+								Post-Doctoral Associate<br> 
+								The Biosecurity Research &amp; Extension (BRE) lab<br/>
+								Department of Entomology<br/>
+								University of Florida<br/>
+								Gainesville, FL 32611<br/>
+<a href="mailto:gpsbrar@ufl.edu">gpsbrar@ufl.edu</a>
+<br/>
+</br></br></p>
+</div>
+<div data-collapsed="true" data-role="collapsible">
+<h3>Application Developer : Navya Kooram</h3>
+<p>
+								Navya Kooram, M.S.<br/>
+								Software Application Developer<br/> 
+								IFAS Information Technology<br/>
+								University of Florida<br/>
+								Gainesville, FL 32611<br/>
+<a href="mailto:help@ifas.ufl.edu">help@ifas.ufl.edu</a>
+<br/>
+</p>
+</div>
+<div data-collapsed="true" data-role="collapsible">
+<h3>Graphic designer: Kay Weigel</h3>
+<p>
+								Kay Weigel<br/>
+								Department of Entomology and Nematology<br/>
+								University of Florida<br/>
+								Gainesville, FL 32611<br/><br/>
+</p>
+</div>
+</div><br/>
+		We would like to thank the following people:
+		
+		<div data-collapsed-icon="arrow-r" data-content-theme="e" data-expanded-icon="arrow-d" data-inset="true" data-role="collapsible-set" data-theme="e" id="otherList" style="padding-left:6px;padding-right:6px;">
+<div data-collapsed="true" data-collapsed-icon="arrow-r" data-content-theme="e" data-expanded-icon="arrow-d" data-role="collapsible" data-theme="e">
+<h3>Key Collaborators</h3>
+<p>We would like to thank following for project key collaborators for the project support:
+				<ul>
+<li style="padding-bottom:4px;">Megan M. Dewdney, Ph.D., Assistant Professor, University of Florida, Citrus Researchand Education Center, 700 Experiment Station Road, Lake Alfred, FL 33850</li>
+<li style="padding-bottom:4px;">Patrick Gomes, National Coordinator, Citrus Health Response Program, APHIS, USDA, PPQ, 920 Main Campus Drive, Suite 200, Raleigh, NC 27606</li>
+<li style="padding-bottom:4px;">Gregory S. Hodges, Ph.D. Bureau Chief, Entomology, Plant Pathology, andNematology, Florida Department of Agriculture and Consumer Services, Division of Plant Industry, 1911 SW 34th Street, Gainesville, FL 32608</li>
+<li style="padding-bottom:4px;">Michael E. Rogers, Ph.D., Associate Professor, University of Florida, Citrus Researchand Education Center, 700 Experiment Station Road, Lake Alfred, FL 33850</li>
+<li style="padding-bottom:4px;">Terrence Walters, Ph.D., ITP Coordinator, USDA, APHIS, PPQ, CPHST, 2301 ResearchBoulevard, Suite 108, Fort Collins, CO 80526</li>
+</ul>
+</p>
+</div>
+<div data-collapsed="true" data-collapsed-icon="arrow-r" data-content-theme="e" data-expanded-icon="arrow-d" data-role="collapsible" data-theme="e">
+<h3>Key personnel</h3>
+<p>We would like to thank following for project key personnel for the project support:
+			<ul><li>Stephanie D. Stocks, M.S.<br/>
+			Assistant-In<br/>
+			Protect U.S. Coordinator<br/>
+			University of Florida<br/>
+			Department of Entomology and Nematology<br/>
+			Natural Area Drive, Gainesville, FL 32611</li></ul>
+</p>
+</div>
+<div data-collapsed="true" data-collapsed-icon="arrow-r" data-content-theme="e" data-expanded-icon="arrow-d" data-role="collapsible" data-theme="e">
+<h3>Images' Contributors</h3>
+<p>The Citrus Diseases Tool was greatly enhanced in its value and usability by the addition of several hundreds of images provided by several contributors. Acknowledgements from the Citrus Diseases Tool, listed below, also apply to the Citrus Diseases App. Contributors to the Citrus Diseases Tool include:
+			
+			<ul>
+<li style="padding-bottom:4px;">Ron Brlansky, Jim Graham, Michael E. Rogers, and L. W. "Pete" Timmer from the University of Florida (UFL), Citrus Research and Education Center (CREC)</li>
+<li style="padding-bottom:4px;">MaryLou Polek, Citrus Research Board (CRB), California</li>
+<li style="padding-bottom:4px;">David Ezra, Agricultural Research Organization (ARO), Volcani Center, Israel</li>
+<li style="padding-bottom:4px;">A.A. Seif, icipe (African Insect Science for Food and Health), Nairobi, Kenya</li>
+<li style="padding-bottom:4px;">Antonio Vicent, Instituto Valenciano de Investigaciones Agrarias (IVIA), Spain</li>
+<li style="padding-bottom:4px;">Melike Yurtmen, Plant Protection Research Institute, Adana, Turkey</li>
+<li style="padding-bottom:4px;">Paul Chaloux, Hilda Gomez, Tim Gottwald, Charla Hollingsworth, Richard Lee, Tim Riley, Dan Robl, Ray Yokomi, USDA-APHIS-PPQ-Molecular Diagnostic Lab from the US Department of Agriculture (USDA)</li>
+</ul>
+			
+			Several images were used with the permission of:
+			<ul>
+<li style="padding-bottom:4px;">James Adaskaveg (University of California, Riverside), UCIPM, UC Davis, CA, </li>
+<li style="padding-bottom:4px;">University of California Statewide IPM Program(<a href="http://www.ipm.ucdavis.edu/PMG/C107bpfruitdis.html">http://www.ipm.ucdavis.edu/PMG/C107bpfruitdis.html</a>), and </li>
+<li style="padding-bottom:4px;">EcoPort (<a href="http://www.ecoport.org">http://www.ecoport.org</a>)</li>
+</ul>
+</p>
+</div>
+<div data-collapsed="true" data-collapsed-icon="arrow-r" data-content-theme="e" data-expanded-icon="arrow-d" data-role="collapsible" data-theme="e">
+<h3>Factsheet Assistance</h3>
+<p>A special thank you goes out to David Ezra, Ray Yokomi and Melike Yurtmen for lending their expertise and providing fact sheets of diseases and keying those diseases, which were added later in the tool development process.
+				
+			 </p>
+</div>
+<div data-collapsed="true" data-collapsed-icon="arrow-r" data-content-theme="e" data-expanded-icon="arrow-d" data-role="collapsible" data-theme="e">
+<h3>Other Contributors</h3>
+<p>John da Graca (Texas A&amp;M; University), Tim Gottwald, L. W. "Pete" Timmer, Jim Graham, Bacilio Salas (USDA), and MaryLou Polek helped by providing their expertise and knowledge.
+			 </p>
+</div>
+</div>
+<br/>
+</div>
+</div>
+<div align="center" data-fullscreen="false" data-position="fixed" data-role="footer" data-theme="e" id="footer">
+<div data-role="navbar">
+<ul>
+<li><a class="footerLinks" data-role="button" href="#fsIndex">Factsheets</a></li>
+<li><a class="footerLinks" data-role="button" href="#glossary">Glossary</a></li>
+<li><a class="footerLinks" data-role="button" href="#fsgallery">Gallery</a></li>
+<li><a class="footerLinks" data-role="button" href="#d_fsSearch?fs=d">Search</a></li>
+</ul>
+</div>
+<div class="footerCopy" data-mini="true" data-role="navbar">
+<small><b>© University of Florida, IFAS/IT</b></small>
+</div>
+</div>
+</div>
+<div data-add-back-btn="true" data-role="page" data-theme="e" id="references">
+<div data-fullscreen="false" data-position="fixed" data-role="header" data-theme="e" id="header">
+<a class="headerLink" data-direction="reverse" data-icon="back" data-iconpos="notext" data-rel="back" data-role="button">Back</a>
+<h1>References</h1>
+<a class="headerLink" data-direction="reverse" data-icon="home" data-iconpos="notext" data-rel="home" data-role="button" href="#home">Home</a>
+</div>
+<div data-fullscreen="false" data-role="content">
+<p>The references provided for Citrus Diseases App are the literature sources used in developing the Citrus Diseases  tool and do not constitute, nor are they intended to be,  a complete bibliographic or summary account of the known literature for any of  the families in the tool.</p>
+<p><strong>Baayan, R.P., Meffert, J.P. Bonants, P.J.M., Carroll, G.C. and Kox, L.F.F. 2009.</strong> <em>Guignardia citricarpa</em>. EPPO Bulletin 39: 318-327.</p>
+<p><strong>Brown, G.E. 1994.</strong> Anthracnose (PP136). Gainesville: University of Florida Institute of Food and Agricultural Sciences. http://edis.ifas.ufl.edu/pdffiles/CH/CH11200.pdf.</p>
+<p><strong>Brown, G.E. and Eckert, J.W. 2000.</strong> Anthracnose. In Timmer, L.W., Garnsey, S.M. and Graham, J.H. (eds.) Compendium of Citrus Diseases. APS Press, St. Paul MN. pp. 37-38.</p>
+<p><strong>Chalkey, D..</strong> Systematic Mycology and Microbiology Laboratory, ARS, USDA.  Invasive Fungi.  Angular leaf spot of Citrus - <em>Pseudocercospora angolensis</em>.   Retrieved March 9, 2011, from /sbmlweb/fungi/index.cfm. http://nt.ars-grin.gov/taxadescriptions/factsheets/pdfPrintFile.cfm?thisApp=Pseudocercosporaangolensis</p>
+<p><strong>Dewdney, M.M. and Timmer, L.W. 2009.</strong> Citrus production and diseases in Ghana. Citrus Industry 90(5): 10-13.</p>
+<p><strong>Dewdney, M.M. and Timmer L.W. 2009.</strong> Alternaria brown spot (PP152). Gainesville: University of Florida Institute of Food and Agricultural Sciences. http://edis.ifas.ufl.edu/CH017.</p>
+<p><strong>Everett, K.R. and Rees-George, J. 2006.</strong> Species-specific PCR primers for <em>Guignardia citricarpa</em> and <em>Guignardia mangiferae</em>. New Zealand Plant Protection 59:141-145.</p>
+<p><strong>Gottwald, T.R. and Graham, J.H. 2000.</strong> Bacterial Spot. In Timmer, L.W., Garnsey, S.M. and Graham, J.H. (eds.) Compendium of Citrus Diseases. APS Press, St. Paul MN. pp. 7-8.</p>
+<p><strong>Kotzé, J.M. 2000.</strong> Black spot. In Timmer, L.W., Garnsey, S.M. and Graham, J.H. (eds.) Compendium of Citrus Diseases. APS Press, St. Paul MN. pp. 23-25.</p>
+<p><strong>Parkinson, N., Cowie, C., Heeney, J., and Stead, D. 2009.</strong> Phylogenetic structure of <em>Xanthomonas</em> determined by comparison of gyrB sequences. International Journal of Systematic and Evolutionary Microbiology 59:264-274.</p>
+<p><strong>Timmer, L.W., Solel, Z. and Orozco-Santos, M. 2000.</strong> Alternaria Diseases. In Timmer, L.W., Garnsey, S.M. and Graham, J.H. (eds.) Compendium of Citrus Diseases. APS Press, St. Paul MN. pp. 19-20.</p>
+<p><strong>Seif, A.A. 2000.</strong> Phaeoramularia Fruit and Leaf Spot. In Timmer, L.W., Garnsey, S.M. and Graham, J.H. (eds.) Compendium of Citrus Diseases. APS Press, St. Paul MN. pp. 29-30.</p>
+<p><strong>Whiteside, J.O. 2000.</strong> Chimeras and Mutations. In Timmer, L.W., Garnsey, S.M. and Graham, J.H. (eds.) Compendium of Citrus Diseases. APS Press, St. Paul MN. pp. 81.</p>
+</div>
+<div align="center" data-fullscreen="false" data-position="fixed" data-role="footer" data-theme="e" id="footer">
+<div data-role="navbar">
+<ul>
+<li><a class="footerLinks" data-role="button" href="#fsIndex">Factsheets</a></li>
+<li><a class="footerLinks" data-role="button" href="#glossary">Glossary</a></li>
+<li><a class="footerLinks" data-role="button" href="#fsgallery">Gallery</a></li>
+<li><a class="footerLinks" data-role="button" href="#d_fsSearch?fs=d">Search</a></li>
+</ul>
+</div>
+<div class="footerCopy" data-mini="true" data-role="navbar">
+<small><b>© University of Florida, IFAS/IT</b></small>
+</div>
+</div>
+</div>
+<div data-add-back-btn="true" data-role="page" data-theme="e" id="copyright">
+<div data-fullscreen="false" data-position="fixed" data-role="header" data-theme="e" id="header">
+<a class="headerLink" data-direction="reverse" data-icon="back" data-iconpos="notext" data-rel="back" data-role="button">Back</a>
+<h1>Copyright, Citation, Disclaimers</h1>
+<a class="headerLink" data-direction="reverse" data-icon="home" data-iconpos="notext" data-rel="home" data-role="button" href="#home">Home</a>
+</div>
+<div data-fullscreen="false" data-role="content">
+<h4>Copyright notice</h4><p>
+                Unless otherwise indicated, content on the Citrus Diseases Tool was created and/or authored by the USDA APHIS PPQ Center for Plant Health Science and Technology (CPHST). This content may be freely distributed or copied as in the public domain. However, it is requested that in any subsequent use of this work, CPHST be given appropriate acknowledgement (see below).</p>
+<p>University of Florida (UF), IFAS Information Technology created the hand-held application version of Citrus Diseases App.</p>
+<h5>Suggested citation</h5>
+<p> 
+                Serrano, D., Serrano, E., and Dewdney, M.<!--, and Southwick, C.--> (2010). <em>Citrus Diseases</em>. USDA/APHIS/PPQ Center for Plant Health Science and Technology and University of Florida/IFAS IT <a href="http://idtools.org/id/citrus/pests" target="_blank">http://idtools.org/id/citrus/pests</a>
+<url></url></p>
+<h4 class="page_title">Disclaimers</h4>
+<div class="hr dotted clearfix"> </div>
+<h5>Liability</h5><p>
+                    Neither CPHST nor UF assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information contained on this site. 
+                    <h5>External links</h5> <p>
+                    Some web pages on this site provide links to other Internet sites for the convenience of users. Neither CPHST nor UF are responsible for the availability or content of these external sites. Neither CPHST nor UF endorse or warrant the products, services, or information described or offered by these other Internet sites. </p>
+</p></div>
+<div align="center" data-fullscreen="false" data-position="fixed" data-role="footer" data-theme="e" id="footer">
+<div data-role="navbar">
+<ul>
+<li><a class="footerLinks" data-role="button" href="#fsIndex">Factsheets</a></li>
+<li><a class="footerLinks" data-role="button" href="#glossary">Glossary</a></li>
+<li><a class="footerLinks" data-role="button" href="#fsgallery">Gallery</a></li>
+<li><a class="footerLinks" data-role="button" href="#d_fsSearch?fs=d">Search</a></li>
+</ul>
+</div>
+<div class="footerCopy" data-mini="true" data-role="navbar">
+<small><b>© University of Florida, IFAS/IT</b></small>
+</div>
+</div>
+</div>
+</body>
+</html>

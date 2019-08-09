@@ -1,0 +1,258 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_191 (Oracle Corporation)
+
+Name: assets/www/childbrowser/icon_arrow_left.png
+SHA-256-Digest: f65Q7ncUYUoIItOfpVYRnozAkP3Z5dwwhm5ExofKmnY=
+
+Name: assets/www/js/policy_config.json
+SHA-256-Digest: fhZZxn32eSX/o5cbe4FFxMCwS7VkYv7N33GKH1b5YUQ=
+
+Name: assets/www/scripts/css/structure.css
+SHA-256-Digest: HZjDFuQoY6Kh0PlV4dus2no+1OuJagM09GNk0OMqg5I=
+
+Name: assets/www/images/icon_feature_hr.png
+SHA-256-Digest: ccMwtXl3yzHm2XOoTECoXXctAgJh2PIHlRhT9n+Kj9w=
+
+Name: assets/www/original_index.html
+SHA-256-Digest: 2ATuFqoLpiYu8lXcgRgQ3zdD6cS0eNOdnHmK69UuUZw=
+
+Name: assets/www/scripts/js/jquery.mobile.js
+SHA-256-Digest: cqin2YDGSt1Ag6eNNvq6syaL8CD4hqMW3nkInchkXqk=
+
+Name: assets/www/js/HybridGuard.js
+SHA-256-Digest: 4hfTr5XNRWMDiVMlvURcWTKBW1fYmrAS1EEd0eFx0U8=
+
+Name: res/drawable-hdpi-v4/icon.png
+SHA-256-Digest: 9BWA8lts0EOWA88u1GAkz6qxtRVREj9t73Svacr+zCM=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA-256-Digest: Y9yjo3hXArfdtlvOPQHDRioYYgoCngN7GmxtLiw1Vjk=
+
+Name: res/drawable-xhdpi-v4/splash.png
+SHA-256-Digest: 9SG63y7tgZzIfRoCs3z8Bf5PAL1MoYGZ3OLJEAxRXmY=
+
+Name: assets/www/images/spacer.png
+SHA-256-Digest: aT1VRI+coFhMHr+TNU+voONAQg3ZTh1AAzTvuX5lcY8=
+
+Name: assets/www/images/icon_phone.png
+SHA-256-Digest: jBCjN7TvYSTIX0zANFYWgJux/PFO1yhHi0W5uQJyjnU=
+
+Name: assets/www/childbrowser/icon_arrow_right.png
+SHA-256-Digest: BBpQKswdg/SZGjejdYg3wDOno8FJA+zot9W3f4eL2DM=
+
+Name: assets/www/images/email_logo.png
+SHA-256-Digest: ffiJhVWtu8pwZY7rbC+M1UQIQLzA61sdFIogb+EZy3E=
+
+Name: assets/www/images/facebook_logo.png
+SHA-256-Digest: 3p6P84RfPgy0cm2/8DQ1HHTAdxRDh8lchBuMMjoPBy0=
+
+Name: assets/www/images/youTube_logo.png
+SHA-256-Digest: k3z3eoN0B2NUZUAZsl3McB2ZH5FwYTAPDet2BXSxQEs=
+
+Name: assets/www/scripts/js/jaxHappeningsScript.js
+SHA-256-Digest: lbv9DSAdyb/ReZIlLsuQaWU1zPIOHdCUqVqpWrRy2a0=
+
+Name: res/drawable-ldpi-v4/ic_launcher.png
+SHA-256-Digest: ChN+jtdvsTWv6fzL4Rlf/SQYVRAlRwGnUKnFqcBSXNc=
+
+Name: assets/www/scripts/js/jquery.ui.map.extensions.js
+SHA-256-Digest: cy0zLSrqUIBSzpVXRFzMRmYbrsG7C2q1R7pfEiJc+II=
+
+Name: res/drawable-ldpi-v4/splash.png
+SHA-256-Digest: K+RGd9UZGVfO6CMNaEY/xWTpxDFqm92jjaIDtNPXyDk=
+
+Name: assets/www/index.html
+SHA-256-Digest: fnUmjFvbrMAITUxxH09qg3gwpmpcdoKQikuZO/xSNaU=
+
+Name: assets/www/scripts/css/images/icons-36-black.png
+SHA-256-Digest: kcO8QXPdxfB28mjbw16yYZZ1etXiYa5invuHqk7zk1M=
+
+Name: assets/www/scripts/js/setmap.js
+SHA-256-Digest: raY84coa0DFKO0ZGhx38hR8+6FLKEfQ/amxqgKfA/R8=
+
+Name: assets/www/images/icon_feature.png
+SHA-256-Digest: DOxeljKjulFntUxWDiF4d65siDbQxmzDCUFUVntdyZo=
+
+Name: assets/www/images/icon_news.png
+SHA-256-Digest: P4jqWlQYeHrzijyLUfa8feHbpvDAg5phQL5l/Btzxpc=
+
+Name: assets/www/images/icon_feature_act.png
+SHA-256-Digest: R+u9V72FwE4dfWfPGk/w6x3+Q6fmKuMPVr23Nr5d/tk=
+
+Name: res/drawable/icon.png
+SHA-256-Digest: Dq1jfKcBgDHGxqQrT2LIiQsVsQ+BOYn4YquftJGWyxk=
+
+Name: assets/www/images/jaxHappening_homeBg.png
+SHA-256-Digest: hSnIwkYlhz1ppjIfQXHtiqRYeNEBaxCZPeYhJajBJ0E=
+
+Name: assets/www/childbrowser.js
+SHA-256-Digest: uOAKlj0m5wTIyUs69IJy/sOnSeptL1O1RmmWuZd5Eak=
+
+Name: assets/www/images/icon_info_hr.png
+SHA-256-Digest: VGz1bwIRpRQaQt4N/JEseGeommmquePvUrQ76sq1MLM=
+
+Name: res/drawable-xhdpi-v4/icon.png
+SHA-256-Digest: Dq1jfKcBgDHGxqQrT2LIiQsVsQ+BOYn4YquftJGWyxk=
+
+Name: assets/www/images/icon_news_act.png
+SHA-256-Digest: v02jeQA4uj4iASATrZI+pRYQbqm1KQOKaOpxE1DEEQM=
+
+Name: assets/www/images/jaxHappeningsLogo.png
+SHA-256-Digest: cGq3yN9xgsvRMycM+eFo7w6B2ymaTa0RIgEXivhXpBo=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA-256-Digest: i0XagvTwnaVSM1iTIQtOHPS78Wme3iP0PE139kR6Wek=
+
+Name: assets/www/images/icon_connect_act.png
+SHA-256-Digest: fLxjrXIv1/FLsg5m8uUWB8A/6t0/I/Z4UEiAAwedGDs=
+
+Name: assets/www/images/icon_info_act.png
+SHA-256-Digest: BNIsScjWh1KUXVZht/jauogmfz60+40bMq/kHm6OyPA=
+
+Name: assets/www/scripts/css/images/icons-36-white.png
+SHA-256-Digest: AhPMP/Ycs7AsBoPXb+yQPr56OKmG9RDk4EgqZdaMszc=
+
+Name: assets/www/scripts/css/reset.css
+SHA-256-Digest: TnjylepeCHmG6ZgL/k/1sD9R0Dj1wSvsstON1alHifs=
+
+Name: assets/www/scripts/js/jquery.ui.map.overlays.js
+SHA-256-Digest: mJEkzGNk7/B15mYI/vzYFlF4oeJHp8neY13hOO5RRIE=
+
+Name: resources.arsc
+SHA-256-Digest: hLxkeZvfqluT9BgvSAxxErHLESuL650AWCK41aR287w=
+
+Name: assets/www/cordova-2.5.0.js
+SHA-256-Digest: ohPiIdRhNfqRU/lgZfGROELXaucQe+4U8gxqDyQorwg=
+
+Name: assets/www/scripts/css/images/ajax-loader.gif
+SHA-256-Digest: atFZeQWHru0uJZg1bqZZ/jJ8mZdvckOJmwEWlbmtUm8=
+
+Name: assets/www/js/HybridGuard.js.bak
+SHA-256-Digest: D4qXVR0qOr7IQGwik6yOb+rT/L7v38+cnrLWvbEnSXA=
+
+Name: assets/www/scripts/css/jaxHappeningsStyles.css
+SHA-256-Digest: 57J4+W9fBfz1KH2igk4+oK1D0kJyarBjHShseUWk5+I=
+
+Name: assets/www/images/navBar_lightBg.png
+SHA-256-Digest: abo4l0VILuYA8CrVjt6qhmHdo+hEM0GD/12voZ5q5z0=
+
+Name: AndroidManifest.xml
+SHA-256-Digest: W/f5rOiPVBNrE00rbbjcqd7FeJpFyE/ijgKEZigA0hg=
+
+Name: assets/www/images/icon_event_active.png
+SHA-256-Digest: iElGv87kJ2GGR0uIaj1NkBtkyzsvwvufnjzYh3C4YTM=
+
+Name: assets/www/scripts/js/googleMaps.js
+SHA-256-Digest: 1qpqf9diSYWuImz9vZhZz9FAB6vpiKbR2Q26rjWoQoM=
+
+Name: res/drawable-ldpi-v4/icon.png
+SHA-256-Digest: AGlB0nird8OQOigH0vjaX9WNRKZnT8kEon8V8DurTgA=
+
+Name: assets/www/images/icon_info.png
+SHA-256-Digest: 6piwm2b2YZVAiapxakNBd4nzRNE9j0zGP8REKlW1nL4=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA-256-Digest: fBj8cw0GFdnxyz3V4MtX/HFnFKk7/UKmior9VVlAao4=
+
+Name: res/xml/config.xml
+SHA-256-Digest: QfEzSXbOGUngO9vt+WZs0LQMnOIAo5zUTThLa2uFnGY=
+
+Name: assets/www/images/navBarBg_act.png
+SHA-256-Digest: nOIvfr7yFQiWB4I0vlTnKpKx56rEqkzTJ0GGE7EWqbc=
+
+Name: assets/www/scripts/css/jaxHappeningsThemes.css
+SHA-256-Digest: zwfG8B2MigyYFy5S5GBeDo1umlQ/j3oIkA5zSF13gew=
+
+Name: assets/www/scripts/js/jquery.mobile.utils.js
+SHA-256-Digest: sBQKQLnFpwid+3um+xVT+XMTXT7Ec7BfE5r9APahQx8=
+
+Name: assets/www/scripts/css/images/icons-18-black.png
+SHA-256-Digest: BsqIGTeJ7TJzAlusDY0ihbkf31erYVu4zQgCesHrcX4=
+
+Name: assets/www/images/icon_email_hr.png
+SHA-256-Digest: LCkeddEzgvErn0spDQHwW6QL37307NOlIFf1dYjX/Qk=
+
+Name: assets/www/scripts/css/images/icons-36-white-pack.png
+SHA-256-Digest: 276jHX1IC/JWpyNRNAOWKmYGU3wuPB+9MEv0duRrco4=
+
+Name: assets/www/images/twitter-logo.png
+SHA-256-Digest: DXsF/90zcjJTc+N2F70yDdVkCnjKLNeFXlvT7KqwcGA=
+
+Name: assets/www/scripts/css/images/icons-18-black-pack.png
+SHA-256-Digest: TnsU3qJt5R9+zyLrNP1Glph9LE3VTFkfWgg1SdCDVgA=
+
+Name: res/drawable/splash.png
+SHA-256-Digest: 9SG63y7tgZzIfRoCs3z8Bf5PAL1MoYGZ3OLJEAxRXmY=
+
+Name: assets/www/scripts/css/images/ajax-loader.png
+SHA-256-Digest: 4xL6OiSfEpNWkzHHE51b51i7X3C0vugTKd8TIWOpg38=
+
+Name: assets/www/scripts/css/images/icons-18-white-pack.png
+SHA-256-Digest: UcXpS2srtZ/ip5c1IScTdLECdbaH9zHO9WByFpxb25o=
+
+Name: assets/www/childbrowser/icon_close.png
+SHA-256-Digest: sWfv5jvpy0lv8PzAbgxWS43r76YBNEUaIN0j4sZMk1c=
+
+Name: assets/www/images/jaxHappening_contentBg.png
+SHA-256-Digest: nBCbTR2UA8a8PP5BABGi/cJvYYbuouRAbOipm4m/B1c=
+
+Name: assets/www/images/newsBarBg.png
+SHA-256-Digest: hcXazA3Vg4GDbcw5nvAkJXsExQQLvXSeTmRG+SKqQyY=
+
+Name: assets/www/images/icon_news_hr.png
+SHA-256-Digest: lkT6GpMU2u233fnjb0ijsOgcUDoRMAPvImyzyAyG9Zo=
+
+Name: assets/www/images/icon_connect.png
+SHA-256-Digest: XNiQPwasj+TiBI5ZVyAkXHfuFvD/3AxXlQk9oUZcIEo=
+
+Name: res/layout/main.xml
+SHA-256-Digest: T/9TuTsLPSHLQoHmUCk95/eCyyz7QV/Yn0QzpKPa0bk=
+
+Name: assets/www/scripts/js/jquery.js
+SHA-256-Digest: R7aNzoy2gFrVs+pNJ6+SokH04ppcEqJ0yFLkNGoFALQ=
+
+Name: assets/www/images/appicon.png
+SHA-256-Digest: GhF6wMH9GNfzrdVO3VY9s9TC/7riZrhHaEF0lnXB2AI=
+
+Name: assets/www/scripts/css/images/icons-36-black-pack.png
+SHA-256-Digest: jJXW8blLiVtez/xdlrrNBsZ0sRVgwBoYnXwgXA9IOwA=
+
+Name: assets/www/images/navBarBg.png
+SHA-256-Digest: xfHJzcpXBBhu904z6I+WNXV1NJWy94ZNgUbXDAnjaRI=
+
+Name: assets/www/scripts/css/images/icons-18-white.png
+SHA-256-Digest: z+VfPYAWSEsInrurfo7+Ht6homuzPFLkWYrXQJmi67E=
+
+Name: assets/www/scripts/js/jquery.ui.map.services.js
+SHA-256-Digest: fUOAKaLhYNmyvimaaXlS77KUdE/tQztVbpuWyRW3gmA=
+
+Name: assets/www/scripts/js/jquery.ui.map.full.min.js
+SHA-256-Digest: 4yU2qIiSj5wDiGidMLbmc+DW82yLsUanaS38SIYFmxI=
+
+Name: res/drawable-hdpi-v4/splash.png
+SHA-256-Digest: 9SG63y7tgZzIfRoCs3z8Bf5PAL1MoYGZ3OLJEAxRXmY=
+
+Name: assets/www/images/Flickr_logo.png
+SHA-256-Digest: c5PBiL3vEDNVUEvyPclitvZBtnwR5Hr+pPGyD4SSDDE=
+
+Name: res/drawable-mdpi-v4/icon.png
+SHA-256-Digest: oc9pGe+AtYbESumILi2WvidQBxhCr2rXvnD0IBushUY=
+
+Name: assets/www/images/icon_email.png
+SHA-256-Digest: 4G+afqQrrAetNOKe9sArwaEQ9Fy9zyESHvjE8Y42SrM=
+
+Name: assets/www/images/icon_phone_hr.png
+SHA-256-Digest: P7/DvJ9wvxGt8NbtikykrA+ylRoC1vKZlCdrgcukxlU=
+
+Name: assets/www/images/icon_event.png
+SHA-256-Digest: seQjvOm968MPBA4WyAKhc0/HvdFi/sUF22TsFhUkxUc=
+
+Name: assets/www/scripts/js/jquery.ui.map.js
+SHA-256-Digest: MTTnAy6Gft8HaKQ8sIAPvI7waxcYtCsPmwycGa8QXws=
+
+Name: classes.dex
+SHA-256-Digest: HWnC7oSX5kKbSq9u/lMF8xhd+wYhZ9R6YDb6Gz+iqrM=
+
+Name: res/drawable-mdpi-v4/splash.png
+SHA-256-Digest: 3GKy8bhIK0HRZXzWa/u+u1VbfQIPyV0tt1nQNyIt8Io=
+

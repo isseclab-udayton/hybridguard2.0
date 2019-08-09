@@ -1,0 +1,59 @@
+<div id="teamFollower" data-role="page">
+
+    <div data-role="content">
+
+        <div class="headerPadding footerPadding">
+
+            <div class="feedWrapper">
+
+
+                <div class="addMoreTeams teamFollower-followAll" style="display:none" onclick="teamFollowerNamespace.followAll()">
+                    <p class="comment teamFollower-followAll">
+                        <a class="ui-link" data-transition="none">
+                            Follow All
+                        </a>
+                    </p>
+                </div>
+                <div class="addMoreTeams teamFollower-followAllMsg" style="display:none;" onclick="$(this).slideUp();">
+                    <p class="comment">
+                        <a class="ui-link" data-transition="none">
+                            Following all fans
+                        </a>
+                    </p>
+                </div>
+                <div class="addMoreTeams teamFollower-followAllSuccess" style="display:none;" onclick="$(this).slideUp();teamFollowerNamespace.getTeamFeed();">
+                    <p class="comment">
+                        <a class="ui-link" data-transition="none">
+                            All Followed Successfully. Click to Refresh
+                        </a>
+                    </p>
+                </div>
+                <!--a onclick="teamFollowerNamespace.unfollowAll">unfollow</a-->
+
+
+                <div id='teamFollower-list'>
+
+                </div>   
+
+            </div><!--feedWrapper-->
+
+        </div><!--headerPadding footerPadding-->
+
+    </div><!--content-->
+
+    <script>
+
+
+        var html = '<i class="fa fa-angle-left"></i> &nbsp; <a id="teamFollower-title" style="  text-overflow: ellipsis; overflow:hidden ; display: inline-block; padding:0; ">'+teampageNameSpace.feedForSingleTeam.Data[0].teamName+'</a>';
+        customNamespace.header.changeTitle( { html : html , Id : '#teamFollower-title' , extraPadding : 42 } );
+
+
+        teamFollowerNamespace.getTeamFeed();
+
+    </script>
+
+</div>
+
+
+
+

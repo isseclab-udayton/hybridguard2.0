@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" />
+
+    <script src="cordova.js"></script>
+    <script src="kendo/js/jquery.min.js"></script>
+    <script src="kendo/js/kendo.mobile.min.js"></script>
+    
+    <script src="plugins/com.google.cordova.admob/www/AdMob.js"></script>
+	<script src="coreFlashJax.js"></script>
+    <script src="scripts/globals.js"></script>
+    <script src="scripts/app.js"></script>
+  <!--  <script src="scripts/setup.js"></script> -->
+    <script src="scripts/play.js"></script>
+    <script src="scripts/data.js"></script>
+</head>
+<body>
+    <!--Home View-->
+    <div id="viewhome" data-role="view" data-init="viewhome_init" data-show="viewhome_show">     
+        <div class="title">
+            <img src="img/Title.png" style="width:210px"/>
+        </div>
+      
+        <div style="clear:both"></div>
+        
+        <div id="divhomebtn1" style="z-index:1;position:absolute; top:50%; margin-top:20px; text-align:center; left:0px; right:0px">
+            <a data-role="button" style="width:280px" onclick="SetupCourse()">
+                <span style="line-height:30px">Create New Course</span>
+            </a>
+        </div>
+        <div id="divhomebtn2" style="z-index:1;position:absolute; top:50%; margin-top:90px; text-align:center; left:0px; right:0px;">
+            <a data-role="button" style="width:280px" onclick="ShowSavedCourses()">
+                <span style="line-height:30px">My Saved Courses</span>
+            </a>
+        </div>
+        
+        <img id="imgfs" src="img/footsteps.png" style="position:absolute;width:400px;top:50%;margin-top:-240px;left:50%;margin-left:-200px">
+        <img id="imgkid" src="img/blinky2.gif" style="position:absolute;height:120px;top:50%;right:50%;margin-top:-150px;margin-right:-85px;">
+        <img id="imgInfo" src="img/Info5.png" style="position:absolute;height:36px;right:24px;bottom:24px;" onclick="NavigateToPage('#viewInfo');"/>
+    </div>
+    
+    <div id="viewSavedCourse" data-role="view" data-title="Saved Courses" data-init="InitSavedCourseList" data-show="LoadSavedCourseList">
+        <div data-role="header">
+            <div data-role="navbar">
+                <a data-role="button" data-align="left" onclick="BackToMain()">Back</a>
+                <span data-role="view-title"></span>
+            </div>
+        </div>
+        <div id="divSavedCourses1" style="padding:20px">
+            <span>There are no saved courses.</span>                
+        </div>
+        <div id="divSavedCourses2" style="padding:20px">
+            <ul id="ulSavedList" data-role="listview" data-style="inset">
+            </ul>
+        </div>
+        <div style="height:50px"></div>
+    </div>
+       
+    <div id="viewInfo" data-role="view" data-title="About Clue Hunt">
+        <div data-role="header">
+            <div data-role="navbar">
+                <a data-role="button" data-align="left" onclick="NavigateToPage('#viewhome', 'slide:right');">Back</a>
+                <span data-role="view-title"></span>
+            </div>
+        </div>
+        <div style="padding:20px">
+            Welcome to Clue Hunt, a game where you create your own scavenger hunt course in your house, backyard, or anywhere you want! 
+            Once you have set up a course, get your friends and family to play it, and see who can complete it in the fastest time!
+            <br/><br/>
+            Setting up a course involves:
+            <div style="height:16px; border-bottom:solid 1px #999"></div><div style="height:8px"></div>
+            <img src="img/Star50.png" style="height:25px;float:left"/>
+                <div style="margin-left:30px"><span>create a clue - this can either be your own words or pick from a list of riddles.</span></div>
+            <div style="clear:both;height:16px; border-bottom:solid 1px #999"></div><div style="height:8px"></div>
+            <img src="img/Star50.png" style="height:25px;float:left"/>
+                <div style="margin-left:30px"><span>Take a picture of the spot in the clue. 
+                Depending on the age and ability of your target audience, you can make the picture easy to locate (a panoramic view of an object or room) or difficult (close up of an object).</span></div>
+            <div style="clear:both;height:16px; border-bottom:solid 1px #999"></div><div style="height:8px"></div>
+            <img src="img/Star50.png" style="height:25px;float:left"/>
+                <div style="margin-left:30px"><span>Lastly, write a code on a piece of paper and hide it at the clue spot. 
+                This code will be used to verify that someone has found your clue.</span></div>
+            <div style="clear:both;height:16px; border-bottom:solid 1px #999"></div><div style="height:16px"></div>
+            You can create as many checkpoints (clue and picture spots) as you like.
+            <br/><br/>
+            When you are finished, give your device to another person and see if they can complete your scavenger hunt course.
+            <br/><br/>
+            <div style="text-align:center; font-size:16pt; font-weight:bold">Have fun!</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<points>
+	<point>
+		<num>1</num>
+		<nom>Point Infos</nom>
+		<adresse>Jardin Henri Vinay</adresse>
+		<latitude>45.039940</latitude>
+		<longitude>3.883481</longitude>
+	</point>
+	<point>
+		<num>2</num>
+		<nom>Point Infos</nom>
+		<adresse>Place du Breuil</adresse>
+		<latitude>45.041881</latitude>
+        <longitude>3.884228</longitude>
+	</point>
+	<point>
+		<num>3</num>
+		<nom>Office du Tourisme</nom>
+		<adresse>Place du Clauzel</adresse>
+		<latitude>45.043563</latitude>
+		<longitude>3.884037</longitude>
+	</point>
+	<point>
+		<num>4</num>
+		<nom>Point Infos</nom>
+		<adresse>Place du Martouret</adresse>
+		<latitude>45.042945</latitude>
+        <longitude>3.884193</longitude>
+	</point>
+</points>

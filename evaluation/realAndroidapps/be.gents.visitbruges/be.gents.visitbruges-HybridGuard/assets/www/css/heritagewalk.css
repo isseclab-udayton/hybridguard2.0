@@ -1,0 +1,342 @@
+/* HERITAGE WALK */
+
+
+
+.h_sub
+{
+	display: block;
+	font-family: 'HelveticaNeue-Regular', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #404040;
+}
+
+.h_bear
+{
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.h_sub p
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	display: block;
+}
+
+.h_sub ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.h_item
+{
+	display: block;
+	width: 100%;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #f5f5f5;
+	background-image: url("../img/heritage_arrow.png");
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 40px;
+}
+
+.h_itemtitle
+{
+	display: block;
+	padding: 20px;
+	font-family: 'HelveticaNeue-Bold', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #9d2de4;
+}
+
+.heritagewalkend
+{
+	margin-top: 30px;
+	font-family: 'HelveticaNeue-Regular', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #404040;
+}
+
+.heritagewalkend p
+{
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.h_startbutton, .h_finishbutton
+{
+	display: block;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	border-radius: 3px;
+	background-color: #9d2de4;
+	z-index: 90000;
+}
+
+.h_startbutton span, .h_finishbutton span
+{
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-family: 'HelveticaNeue-Bold', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	color: #fff;
+	font-size: 16px;
+}
+
+.h_subinfo
+{
+	display: block;
+	text-align: center;
+	font-family: 'HelveticaNeue-Regular', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #c0c0c0;
+	margin-bottom: 0px;
+}
+
+.h_locationslist
+{
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #f5f5f5;
+}
+
+h6.h_locationstitle
+{
+	display: block;
+	padding: 20px;
+	font-family: 'HelveticaNeue-Regular', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	color: #808080;
+	font-size: 13px;
+	margin-bottom: -10px;
+}
+
+.heritagewalklist h5
+{
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;	
+	font-family: 'HelveticaNeue-Bold', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	color: #404040;
+}
+
+.heritagewalkstart, .heritagewalkinfo, .heritagewalkend
+{
+	display: block;
+}
+
+#heritagewalkmap_online
+{
+	display: block;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	z-index: 100;
+}
+
+#heritagewalkmap_offline
+{
+	display: block;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	z-index: 50;
+	background-position: -10px -10px;
+	background-repeat: no-repeat;
+	background-size: 110%;
+}
+
+.heritagewalkmapinfo
+{
+	display: block;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: 90px;
+	background-color: #101010;
+	z-index: 200;
+	text-align: left;
+}
+
+.h_nextlocationinfo, .h_nextlocation
+{
+	display: block;
+	width: 170px;
+	padding: 0px;
+	text-align: left;
+	margin-left: 20px;
+}
+
+.h_nextlocation
+{
+	font-family: 'HelveticaNeue-Bold', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #9d2de4;
+	margin-top: 0px;
+	text-align: left;
+}
+
+.h_nextlocationinfo
+{
+	font-family: 'HelveticaNeue-Regular', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #fff;
+	margin-top: 25px;
+	text-align: left;
+}
+
+.h_arrivedbutton
+{
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	border-radius: 3px;
+	background-color: #9d2de4;
+}
+
+.h_arrivedbutton span
+{
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-family: 'HelveticaNeue-Bold', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+.h_subnavigation
+{
+	display: none;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: 80px;
+	background-color: #202020;
+	z-index: 1000;
+}
+
+.h_subnavigation .h_nav
+{
+	display: block;
+	width: 25%;
+	height: 100%;
+	float: left;
+	background-position: center 18px;
+	background-repeat: no-repeat;
+}
+
+.h_nav span
+{
+	font-family: 'HelveticaNeue-Bold', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	color: #ffffff;
+	font-size: 13px;
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.h_nav_infobutton
+{
+	background-color: #0e0e0e;
+	background-image: url("../img/h_infobutton.png");
+	background-size: 26px;
+}
+
+.h_nav_fotobutton
+{
+	background-color: #181818;
+	background-image: url("../img/h_fotobutton.png");
+	background-size: 30px;
+}
+
+.h_nav_videobutton
+{
+	background-color: #202020;
+	background-image: url("../img/h_videobutton.png");
+	background-position: center 26px;
+	background-size: 30px;
+}
+
+.h_nav_nextbutton
+{
+	background-color: #9d2de4;
+	background-image: url("../img/h_nextbutton.png");
+	background-size: 20px;
+}
+
+.h_infoscreen h5
+{
+	display: block;
+	text-align: center;
+	font-family: 'HelveticaNeue-Bold', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #9d2de4;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+.h_infoscreen p
+{
+	display: block;
+	text-align: center;
+	font-family: 'HelveticaNeue-Regular', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #404040;
+	line-height: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+.h_infoscreen, .h_fotoscreen
+{
+	padding-bottom: 100px;
+}
+
+.h_videoscreen
+{
+	display: block;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background-color: #000;
+}
+
+.h_videoscreen video
+{
+	margin-top: 30px;
+}

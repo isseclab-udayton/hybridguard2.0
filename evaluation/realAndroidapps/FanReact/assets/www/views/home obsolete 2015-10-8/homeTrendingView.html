@@ -1,0 +1,214 @@
+<div id="homeTrendingView" data-role="page">
+
+    <div data-role="header">
+
+        <ul class="headerBtns">
+            <li class="menu">
+                <a href="#popupMenu" data-rel="popup" data-role="button" data-inline="true" data-transition="slidedown"></a>
+            </li>
+            <li class="friends">
+                <a href="../fans/fansView.html"></a>
+            </li>
+            <li class="search">
+                <a href="#searchPopup" data-rel="popup" data-position-to="window" data-inline="true" data-transition="pop"></a>
+            </li>
+        </ul>
+
+        <h1>
+            <a href="#" data-rel="back">Home</a>
+        </h1>
+
+    </div>
+
+    <div data-role="popup" id="popupMenu" data-theme="d">
+        <ul>
+            <li>
+                <a href="../dashboard/followingView.html">Home</a>
+            </li>
+            <li>
+                <a href="../notifications/notificationsView.html">
+                    Notifications <span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="../profile/profileView.html">My Profile</a>
+            </li>
+            <li>
+                <a href="../fans/fansView.html">
+                    Fans <span class="notifications">8</span>
+                </a>
+            </li>
+            <li>
+                <a href="../settings/settingsView.html">Settings</a>
+            </li>
+        </ul>
+    </div>
+
+    <div data-role="content">
+
+        <div class="headerPadding footerPadding">
+
+            <ul class="tabbedPanels">
+                <li>
+                    <a href="homeFollowingView.html">Following</a>
+                </li>
+                <li class="active">
+                    <a href="homeTrendingView.html">Trending</a>
+                </li>
+            </ul>
+
+            <div id="tab-home-2" class="tabContent">
+
+                <ul class="feed home trending">
+                    <li>
+                        <a href="#">
+                            <div class="item">
+                                <h2>Seattle Seahwaks</h2>
+                                <p>223k posts about this team</p>
+                            </div><!--item-->
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="item">
+                                <h2>Denver Broncos</h2>
+                                <p>183k posts about this team</p>
+                            </div><!--item-->
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="item">
+                                <h2>San Francisco 49ers</h2>
+                                <p>92k posts about this team</p>
+                            </div><!--item-->
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="item">
+                                <h2>Miami Heat</h2>
+                                <p>91k posts about this team</p>
+                            </div><!--item-->
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="item">
+                                <h2>New England Patriots</h2>
+                                <p>83k posts about this team</p>
+                            </div><!--item-->
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="item">
+                                <h2>Houston Texans</h2>
+                                <p>70k posts about this team</p>
+                            </div><!--item-->
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="item">
+                                <h2>Boston Red Sox</h2>
+                                <p>68k posts about this team</p>
+                            </div><!--item-->
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="item">
+                                <h2>New York Yankees</h2>
+                                <p>52k posts about this team</p>
+                            </div><!--item-->
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="item">
+                                <h2>Boston Celtics</h2>
+                                <p>32k posts about this team</p>
+                            </div><!--item-->
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div><!--tab 2-->
+
+        </div><!--headerPadding footerPadding-->
+
+    </div><!--content-->
+
+    <div data-role="popup" id="searchPopup" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+
+        <h3 class="ui-title">Search</h3>
+        <p>Enter your search term and hit enter</p>
+        <label for="">Search for:</label>
+        <select>
+            <option value="fans">Fans</option>
+            <option value="posts">Posts</option>
+        </select>
+        <input type="text" name="search" placeholder="Search" />
+        <a href="homeFollowingView.html" data-role="button" data-inline="true" data-theme="b" class="submitBtn">Search</a>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <ul>
+            <li>
+                <a href="../dashboard/followingView.html">
+                    <i class="fa fa-home"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../notifications/notificationsView.html">
+                    <i class="fa fa-bell"></i><span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" id='capturePhotoButton'>
+                    <i class="fa fa-camera"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../fans/fansView.html">
+                    <i class="fa fa-users"></i><span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="../post/postView.html" id="topostView"  class="active">
+                    <i class="fa fa-pencil-square-o"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+	
+    <script>
+    	
+        // for camera to work    
+        try {
+            cameraApp.run();
+        } catch (err)
+        { alert("homeTrendingView view " + err.message) }
+    </script>
+</div>
+
+<script>
+    $(document).ready(function () {
+        // Toggles
+        $(".thumbs li").click(function() {
+            $(this).toggleClass("selected");
+            return true;
+        });
+    });
+</script>

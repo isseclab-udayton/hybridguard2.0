@@ -1,0 +1,28 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.apps.ClueHunt.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- gif
+- jpg
+- woff
+- mp3
+- res/drawable-nodpi/splashscreen.9.png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '9'
+sharedLibrary: false
+sparseResources: true
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '4'
+  versionName: '1.3'

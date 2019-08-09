@@ -1,0 +1,80 @@
+<div id="accountPreferencesView" data-role="page">
+
+    <div data-role="content">
+
+            <div class="wrap_90">
+
+                <div class="settings">
+  
+                    <h2>Update My Profile</h2>
+                    
+                    
+                    <input id="profileHandle" onchange="customNamespace.capFirst(this);" type="email" placeholder="Name" />
+
+                    <!--input id="profileDescription" type="email" placeholder="Profile Message" />
+-->
+                    
+                    <h2 id="emailheading" style="padding-top:0px;">Add email <i >( required* )</i></h2>
+                    <input id="email" type="email" name="email" placeholder="Please input Email-Address" />
+
+                    
+                    <!--p>Change My Password <i onclick="$('#real').toggle(); $('#fake').toggle();">(optional)</i></p>-->
+                    
+                    <h2 id="newPasswordHeading" style="padding-top:0px;">Change My Password <i >(optional)</i></h2>
+                    <!--div id="real">
+                        <input id="newPassword1" onchange="$('#fakenewPassword1').val( $(this).val() );" type="password" placeholder="New Password" />
+                        <input id="newPassword2" onchange="$('#fakenewPassword2').val( $(this).val() );" type="password" placeholder="Confirm New Password" />
+                    </div>
+                    
+                    <div id="fake" style="display:none">
+                        <input id="fakecurrentPassword" onchange="$('#currentPassword').val( $(this).val() );" type="email" placeholder="Current Password" />
+                        <input id="fakenewPassword1" onchange="$('#newPassword1').val( $(this).val() );" type="email" placeholder="New Password" />
+                        <input id="fakenewPassword2" onchange="$('#newPassword2').val( $(this).val() );" type="email" placeholder="Confirm New Password" />
+                    </div-->
+                        
+                    
+                     <input id="newPassword1"  type="password" placeholder="New Password" />
+                     <input id="newPassword2"  type="password" placeholder="Confirm New Password" />
+                    
+                    <div id="currentPasswordField">
+                        <p>Verify Current Password <i >(required*)</i></p>
+                        
+                        <input id="currentPassword" type="password" placeholder="Verify Current Password" />
+    
+                    </div>
+
+                        <!-- <input type="submit" value="Save"> -->
+                        <a onclick="settingsNameSpace.updateProfile.update();" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop" class="submitBtn">Save</a>
+    
+                            
+                </div>
+
+            </div><!--wrap_90-->
+
+    </div><!--content-->
+
+ 
+
+    <div data-role="popup" id="savedPopup" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+
+        <h3 class="ui-title">Saved</h3>
+        <p>Your account info has been updated</p>
+        <a href="settingsView.html" data-role="button" data-inline="true" data-theme="b" class="submitBtn">OK</a>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+    </div>
+
+<script>
+    
+
+	customNamespace.header.changeTitle( { text : 'Acount Preferrence' } );
+    
+    var elem = $("#commonChars");
+    $("#profileHandle").limiter(20, elem);
+        
+    
+    settingsNameSpace.updateProfile.getInfo();
+    
+    
+</script>
+    
+</div>

@@ -1,0 +1,103 @@
+<div id="intro" data-role="page" class="introHtml" style="display:none;">
+
+    <div data-role="content" style="padding:0px !important;height:100%" >
+        
+        <script type="text/javascript">
+        	//Auto follow teams go here AUTOFOLLOW
+        	//console.log('user id might be: ' + loginNameSpace.loggedUserID);
+        	//searchNameSpace.forceTeam('343203');
+            //searchNameSpace.forceTeam('342827');
+            //searchNameSpace.forceTeam('344066');
+            //searchNameSpace.forceTeam('343201');
+            searchNameSpace.forceTeam('264');
+            //customNamespace.appOverride();
+            
+        	location.hash = "../dashboard/reactionsView.html";
+        </script>        
+    
+        <script>
+            $(document).on('pagecreate','#intro', function(){
+               $('#hoverMe').trigger('click');
+               $('#intro').show();
+            });
+        </script>
+        
+        <a id="hoverMe"></a>
+        
+        <div class="introBody" style="height:100%">
+            <img src="../../images/logo2.png" alt="" class="logo">
+    
+            <div  id="intro1" class="box" style="height:70%;overflow:scroll">
+                <div class="navigation" style="float:right !important;">
+                    <div class="pull-right"><a onclick="$('#intro1').slideUp();$('#intro2').slideDown();">NEXT</a></div>
+                </div>                
+                <p class="lead">Welcome to FanReact!<br><br></p>
+                <font size="4">Personalize</font>
+                <ul>
+                    <li>
+                        Follow your favorite teams and boards!
+                    </li>
+                    <li>
+                        Update your profile - Visit <span class="btn">SETTINGS</span> and click on <span class="btn">UPDATE MY AVATAR.</span>
+                    </li>
+                    <li>
+                        Invite friends using the <span class="btn btn-recruit">Recruit</span> button.
+                    </li>
+                    <li>
+                        Search for teams or fans using the <img src="../../images/search.png" alt=""> button.
+                    </li>
+                </ul>
+            </div>
+
+                    
+            <div id="intro2" class="box" style="display:none;height:70%;overflow:scroll" >             
+                <font size="4">Create</font>
+                <ul>
+                    <li>
+                        Create a new posts and threads using the <img src="../../images/edit.png" alt=""> button. You can only post to teams you follow.
+                    </li>
+                    <li>
+                        Take live videos up to 30 seconds in length or pictures using the <img src="../../images/camera.png" alt=""> button.
+                    </li>
+                </ul>
+                <div class="navigation">
+                    <div class="pull-left"><a onclick="$('#intro2').fadeOut();$('#intro1').fadeIn();">PREV</a></div>
+                    <div class="pull-right"><a onclick="$('#intro2').slideUp();$('#intro3').slideDown();">NEXT</a></div>
+                </div>                   
+            </div>
+                                        
+            <div id="intro3" class="box" style="display:none;height:70%;overflow:scroll">               
+                <font size="4">Explore</font>
+                <ul>
+                    <li>
+                        <strong>Reactions Page</strong> - Shows all your friends’ posts.
+                    </li>
+                    <li>
+                        <strong>Following Page</strong> - Teams you follow and other boards to browse.
+                    </li>
+                    <li>
+                        <strong>Trending Page</strong> - What is trending on the boards you follow.
+                    </li>
+                    <li>
+                        <strong>GameCenters</strong> - <img src="../../images/gamecenter.png" alt=""> Marks upcoming or recent games.
+                    </li>
+                </ul>
+                <div class="navigation">
+                    <div class="pull-left"><a onclick="$('#intro3').fadeOut();$('#intro2').fadeIn();">PREV</a></div>
+                    <!--
+                        <div class="pull-right"><a href="../dashboard/followingView.html">DONE</a></div>                   
+                    -->
+                    <div class="pull-right"><a href="#/../../intro/intro-MLL.html">DONE</a></div>                   
+
+                </div> 
+            </div>
+
+        </div>
+
+    <script>
+        gaPlugin.trackPage(function (result) {console.log('success intro ' + result);},function (error) {console.log('fail intro ' + error );},'intro');
+    </script>     
+
+
+    </div><!--content--> 
+</div>

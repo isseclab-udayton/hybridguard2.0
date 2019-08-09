@@ -1,0 +1,608 @@
+#header #main {
+    height: 55px;
+    background: #2e2e2e;
+}
+
+#header #logo {
+    background: url('img/iphone_logo.png') 0 0 no-repeat;
+    -webkit-background-size: 188px 14px;
+
+    top: 24px;
+    height: 14px;
+    right: 30px;
+    width: 188px;
+}
+
+#header #backButton , #header #fakeBackButton {
+    background: url('img/back_btn.png') 0 0 no-repeat;
+    -webkit-background-size: 71px 30px;
+
+    width: 71px;
+    height: 30px;
+
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+#fakeBackButton {
+    -webkit-border-image: none;
+    left: 6px;
+    right: auto;
+    padding: 0;
+    max-width: 55px;
+    border-width: 0 8px 0 14px;
+    min-width: 110px;
+}
+
+body > .toolbar {
+    height: 93px;
+}
+
+body > :not(.toolbar) {
+    top: 93px;
+}
+
+h2 {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+#search-form {
+    background: none;
+    width: auto;
+    height: auto;
+
+    margin-bottom: 30px;
+}
+
+#search-form .header {
+    font-size: 10px;
+}
+
+#search-form .header .refresh {
+    vertical-align: top;
+}
+
+#search-form .header input {
+    height: 25px !important;
+    width: 86px;
+    margin: 0;
+}
+
+#search-form label {
+    font-size: 16px;
+}
+
+#search-form .form-item input {
+    height: 35px !important;
+    background-position: 0 -10px;
+    padding: 2px;
+
+    font-size: 14px;
+}
+
+#search-form #category-item {
+    padding-top: 5px;
+}
+
+#search-form #keyword-item {
+    padding-top: 0;
+}
+
+.vendor-list {
+    background-position: -10px 0;
+}
+
+.vendor-list li {
+    padding: 14px 50px 14px 30px;
+    height: 87px;
+    background-position: -10px 0;
+}
+
+.vendor-list h3 {
+    font-size: 18px;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+.vendor-list .info  {
+    font-size: 13px;
+}
+
+.vendor-list .map {
+    top: 30px;
+}
+
+.button-panel .whiteButton {
+    background: url('img/iphone_main_button.png') 50% 0 no-repeat;
+    -webkit-background-size: 320px 52px;
+
+    height: 52px;
+
+    font-size: 15px;
+    padding-top: 18px;
+}
+
+.greenButton {
+    background: url('img/iphone_green_btn_bg.png') 0 0 no-repeat;
+    -webkit-background-size: 105px 37px;
+
+    width: 105px;
+    height: 37px;
+
+    padding: 8px 10px 0;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    font-size: 16px;
+}
+
+#additional-buttons {
+    margin-bottom: 40px;
+}
+
+#additional-buttons a {
+    font-size: 14px;
+    padding-top: 9px;
+}
+
+#footer {
+    height: 35px;
+    padding: 0 2px 10px 2px;
+}
+
+#footer a {
+    font-size: 12px;
+    padding-top: 10px;
+    height: 35px;
+}
+
+/*#footer .icon {
+    display: none;
+}*/
+
+#show-favorite-vendors .icon {
+    background: url('img/iphone_star_icon.png') 0 0 no-repeat;
+    -webkit-background-size: 9px 9px;
+
+    width: 9px;
+    height: 9px;
+}
+
+#show-best-practices .icon {
+    background: url('img/iphone_crown_icon.png') 0 0 no-repeat;
+    -webkit-background-size: 9px 8px;
+
+    width: 9px;
+    height: 8px;
+}
+
+#show-my-profile .icon {
+    background: url('img/iphone_person_icon.png') 0 0 no-repeat;
+    -webkit-background-size: 10px 10px;
+
+    width: 10px;
+    height: 10px;
+}
+
+.button-panel {
+    background: url('img/iphone_main_header_glare.png') 50% 0 no-repeat;
+    -webkit-background-size: 320px 17px;
+
+    padding-top: 17px;
+    margin-bottom: 60px;
+}
+
+.profile-copy {
+    padding: 10px 30px;
+    font-size: 16px;
+}
+
+.profile-copy .register-using-fb {
+    float: none;
+    display: block;
+    padding-bottom: 30px;
+    position: absolute;
+    padding-top: 140px;
+    padding-left: 0;
+
+    width: 100%;
+    margin-left: -30px;
+    text-align: center;
+}
+
+.profile-copy .register-using-fb img {
+    width: 213px;
+    height: 42px;
+}
+
+#carbon-calc-header {
+    margin-bottom: 0;
+    background-position: -10px 0;
+}
+
+#category-item .whiteButton {
+    background: url('img/iphone_show_vendors.png') 0 0 no-repeat !important;
+    -webkit-background-size: 44px 35px;
+    -webkit-border-image: none;
+
+    width: 44px;
+    height: 35px;
+
+    padding: 8px;
+    position: absolute;
+
+    bottom: 0;
+    right: 0;
+}
+
+#category-item #category {
+    width: 100%;
+    padding-right: 50px !important;
+}
+
+#vendor-details {
+    margin-bottom: 35px;
+    min-height: 0;
+    margin-top: 56px;
+}
+
+#vendor-details .vendor-list {
+    margin-top: 0;
+
+    background-position: -10px 0;
+}
+
+#vendor-details .vendor-list h1 {
+    padding: 15px;
+    background-position: -10px 0;
+}
+
+#vendor-details .right {
+    display: none;
+    position: absolute;
+    width: 100%;
+
+    z-index: 20;
+
+    border:  solid 4px #61ad4d;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#vendor-details .left {
+    width: 100%;
+    border-right: none;
+    height: auto;
+    margin-bottom: 35px;
+}
+
+#vendor-details .info {
+    padding-left: 20px;
+    padding-right: 10px;
+
+    background-position: -10px 0;
+    height: auto;
+
+    border-bottom: none;
+}
+
+#vendor-details .buttons {
+    background: #fff url('img/articles-left-strip.png') -10px 0 repeat-y;
+    -webkit-background-size: 23px 3px;
+
+}
+
+#vendor-details .info label {
+    font-size: 16px;
+}
+
+#vendor-details .info span {
+    padding-left: 0;
+    font-size: 16px;
+}
+
+.buttons #show-map {
+    border-top: solid 1px #959595;
+}
+
+.buttons #show-map .icon {
+    background: url('img/iPhone_show_on_map.png') 0 0 no-repeat;
+    -webkit-background-size: 12px 20px;
+
+    width: 12px;
+    height: 20px;
+}
+
+.buttons #share-by-email .icon {
+    background: url('img/iPhone_share.png') 0 0 no-repeat;
+    -webkit-background-size: 18px 18px;
+
+    width: 18px;
+    height: 18px;
+}
+
+.buttons .whiteButton , .right .whiteButton {
+    position: relative;
+    background: url('img/list_bg_left.png') -10px top no-repeat, url('img/white_button_bg.jpg') 0 0 repeat-x !important;
+    font-size: 22px;
+
+    height: 60px;
+    padding: 17px 0 0 70px;
+}
+
+.buttons .grayButton {
+    height: 60px;
+    padding: 8px 0 0 30px;
+    font-size: 22px;
+}
+
+.buttons .redButton {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-image: none;
+    background: url('img/iphone_open_options.png') 0 0 repeat-x !important;
+    -webkit-background-size: 3px 21px;
+
+    height: 21px;
+    text-align: center;
+
+    padding: 0;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.buttons .redButton .icon {
+    position: relative;
+    background: url('img/iphone_open_options_arrow.png') 0 50% no-repeat;
+    -webkit-background-size: 7px 4px;
+
+    display: inline-block;
+    height: 21px;
+    width: 7px;
+    top:0;
+    left: 0;
+}
+
+.buttons .redButton .icon.up {
+    background: url('img/iphone_open_options_arrow_up.png') 0 50% no-repeat;
+}
+
+.buttons .icon {
+    position: absolute;
+    top: 21px;
+    left: 42px
+}
+
+#vendor-details .description {
+    font-family: 'vegurlight';
+    font-size: 14px;
+
+    padding: 20px 0;
+}
+
+#call-vendor .icon {
+    background: url('img/call_icon.png') 0 0 no-repeat;
+    -webkit-background-size: 16px 16px;
+
+    width: 16px;
+    height: 16px;
+}
+
+body > .buttons {
+    position: absolute;
+    min-height: 0;
+    z-index: 10;
+}
+
+#add-to-fav .icon {
+    background: url('img/iphone_star_icon.png') 0 0 no-repeat;
+    -webkit-background-size: 19px 18px;
+
+    width: 19px;
+    height: 18px;
+}
+
+#add-to-fav .icon-remove {
+    background: url('img/iPhone_remove_from_favorites.png') 0 0 no-repeat;
+    -webkit-background-size: 18px 18px;
+
+    width: 18px;
+    height: 18px;
+
+    position: absolute;
+    top: 21px;
+    left: 42px;
+}
+
+
+#add-to-contacts .icon {
+    background: url('img/iphone_plus_icon.png') 0 0 no-repeat;
+    -webkit-background-size: 15px 15px;
+
+    width: 15px;
+    height: 15px;
+}
+
+#get-directions .icon {
+    background: url('img/iPhone_get_directions.png') 0 0 no-repeat;
+    -webkit-background-size: 18px 18px;
+
+    width: 18px;
+    height: 18px;
+}
+
+.right .whiteButton {
+    background:  url('img/white_button_bg.jpg') 0 100% repeat-x;
+    -webkit-background-size: 7px 74px;
+
+    text-align: center;
+    padding-left: 0;
+}
+
+.right #google-map-btn {
+    z-index: 99;
+}
+
+.message h3 {
+    font-size: 32px;
+    padding: 20px 25px;
+}
+
+#article-buttons {
+    background-position: -10px 0;
+    padding-left: 13px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+}
+
+#article-select-btn {
+    height: 30px;
+}
+
+#article-select {
+    width: 92px;
+    font-size: 11px;
+}
+
+#article-header {
+    height: 87px;
+     background-position: -10px 0;
+}
+
+#article-content .scroller {
+    font-size: 16px;
+}
+
+#article-content h3 {
+    font-size: 20px;
+}
+
+#article-content, #carbon-calc-content {
+    background-position: -10px 0;
+    padding: 15px 25px;
+    margin-bottom: 30px;
+}
+
+#article-font-size {
+    background: url('img/iphone_font_size_btn.png') 0 0 no-repeat;
+    -webkit-background-size: 27px 20px;
+
+    width: 27px;
+    height: 20px;
+
+    right: 25px;
+}
+
+#article-header .line {
+    margin-left: 10px;
+}
+
+#clear-location {
+    top: -5px;
+    right: 52px;
+}
+
+#clear-keyword {
+    top: 32px;
+    right: 7px;
+}
+
+#clear-category {
+    top:  32px;
+    right: 60px;
+}
+
+#search-phrase {
+    font-size: 14px;
+}
+
+#article-content .whiteButton {
+    font-size: 17px;
+    padding-left: 10px;
+    padding-top: 11px;
+
+    height: 60px;
+}
+
+.static-page .scroller {
+    background-position: -10px 0;
+    padding: 15px 25px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+#carbon-calculator {
+    margin-bottom: 35px;
+    min-height: 0;
+}
+
+#carbon-calculator img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+#carbon-calculator .whiteButton {
+    padding-left: 0;
+    height: 60px;
+    font-size: 17px;
+}
+
+#fav-vendors h2 {
+    height: 56px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#about-gpg .vendor-list {
+    margin-bottom: 0;
+}
+
+#gpg-logo {
+    position: absolute;
+    top: 14px;
+    left: 35px;
+
+    background: url('img/iphone-logo.png') 0 0 no-repeat;
+    -webkit-background-size: 30px 30px;
+
+    width: 30px;
+    height: 30px;
+}
+
+#message-dialog {
+    height: 240px;
+}
+
+#message-dialog .whiteButton {
+    height: 60px;
+    padding-top: 13px;
+
+}
+
+#location-prediction {
+    top: 24px;
+    right: 1px;
+}
+
+#suggest-a-vendor .scroller {
+    margin-bottom: 40px;
+}
+
+#share-button {
+    margin-top: -11px;
+}
+
+.info p {
+    padding-top: 5px;
+}
+
+#perform-search .icon {
+    display: none;
+}

@@ -1,0 +1,62 @@
+<div id="registerView" data-role="page" class="login register-style">
+
+    <div class="tableWrap">
+        <div class="tableCellWrap">
+
+            <div data-role="content">
+
+                <p class="backLogin">
+                    <a href="../welcome/welcomeView.html">
+                        <i class="fa fa-chevron-left"></i> Back
+                    </a>
+                </p>
+
+                <h1>Create New User. It's free.</h1>
+
+                <div class="calloutBox">
+                    <form id="registerForm" class="register-form-style" action="javascript:registerNameSpace.getRegisterInformation()">
+                        <fieldset>
+                            <input id="fullnameRegister" type="text" placeholder="Your Name" onchange="customNamespace.capFirst(this);" />
+                            <input id="usernameRegister" type="text"  placeholder="Your Username" onchange="customNamespace.capFirst(this);" required/>
+                            <input id="emailRegister" type="email"  placeholder="Your E-mail" required/>
+                            <input id="passwordRegister" type="password" placeholder="Your Password" required/>
+                        </fieldset>
+                        <input id="registerSubmit" type="submit" value="Join Now">
+                    </form>
+                </div><!--calloutBox-->
+
+                <p class="disclaimer">By pressing "Join Now", you agree to our <a href="privacyPolicyView.html">Privacy Policy &amp; Terms of Service</a>.</p>
+
+                <!--
+                <a href="../intro/intro.html">popup</a>
+                -->
+                
+            </div><!--content-->
+        </div><!--tableWrap-->
+    </div><!--tableCellWrap-->
+    <div data-role="popup" id="popupDialogRegister" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+        <h3 class="ui-title">Congratulations</h3>
+        <p>Your FanReact account has been set up</p>
+        
+        <a href="../dashboard/followingView.html" data-role="button" data-inline="true" data-theme="b" class="submitBtn" style="color:white;">Go to Homepage</a>
+        <!--
+        <a href="#../../views/intro/intro-MLL.html" data-role="button" data-inline="true" data-theme="b" class="submitBtn" style="color:white !important;">Go to Homepage</a>
+        -->
+     </div>
+    
+     <script>
+        gaPlugin.trackPage(function (result) {console.log('success register ' + result);},function (error) {console.log('fail register ' + error );},'register');
+    </script>         
+
+    <script>
+        
+        var elem = $("#commonChars");
+        $("#usernameRegister").limiter(20, elem);
+        
+        $('#fullnameRegister').val(registerNameSpace.profileFullName);
+        
+        $('#emailRegister').val(registerNameSpace.profileEmail);
+
+    </script>
+    
+</div>

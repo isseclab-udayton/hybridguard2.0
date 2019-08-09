@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>נתיבי האור</title>
+        <!--meta tags-->
+        <meta charset="UTF-8" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="author" content="WebId.co.il" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+        <meta name="robots" content="noindex,nofollow"/>
+        <!--end meta tags-->
+        <!--css include-->
+        <link rel="stylesheet" type="text/css" href="css/transition.css" />
+        <!--end css include-->
+        <link type="image/x-icon" href="img/favicon.ico" rel="shortcut icon" />
+        <link rel="apple-touch-icon" sizes="300x300" href="img/favicon.png" />
+        <script src="js/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="http://api.html5media.info/1.1.5/html5media.min.js"></script>
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+	
+<div style="text-align: center;">
+<h1 id="moshe" style="font-family: arial;">
+אנא המתן מתחבר לשרת
+</h1>
+<div style="display: none;" id="connect">
+	<h1 style="font-family: arial;">
+אין אפשרות להתחבר לאינטרנט, נסה שנית
+	</h1>
+	<br />
+	<button onclick="location.reload();">נסה שנית</button>
+</div>
+</div>
+
+			
+			
+        <div id="screenflash">
+            <div class="content">
+                <div class="clogo">
+                    <h2>ברוכים הבאים</h2>
+                    <img class="loading" src="img/ajax.gif" />
+                    <img src="img/logo.png" />
+                    <h3>ר' יונתן בן משה</h3>
+                </div>
+                <img src="img/bottom.png" class="bottom" />
+            </div>
+        </div>
+		
+
+<script>
+
+function isOnline(yes,no){
+    var xhr = XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHttp');
+    xhr.onload = function(){
+        if(yes instanceof Function){
+            yes();
+        }
+    }
+    xhr.onerror = function(){
+        if(no instanceof Function){
+            no();
+        }
+    }
+    xhr.open("GET","http://netivei-haor.net/login.asp",true);
+    xhr.send();
+}
+
+isOnline(
+    function(){
+$(".loading").remove();
+setTimeout(function() {
+$("body").fadeOut(2200,function(){
+window.location.href = "index.html";
+});
+}, 2700);
+    },
+    function(){
+ document.getElementById("connect").style.display = "block";
+    }
+);
+
+
+
+function trycon()
+{
+
+isOnline(
+    function(){
+  $(window).load(function() {
+$(".loading").remove();
+setTimeout(function() {
+$("body").fadeOut(2200,function(){
+window.location.href = "index.html";
+});
+}, 2700);
+}); 
+    },
+    function(){
+ document.getElementById("connect").style.display = "block";
+    }
+);
+
+}
+</script>	
+		
+		
+
+    </body>
+</html>

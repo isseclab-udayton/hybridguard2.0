@@ -1,0 +1,76 @@
+<div class="container">
+    <div class="progress {{hideLoad[0]}}">
+        <div class="indeterminate"></div>
+    </div>
+    <div class="row {{hideLoad[1]}}">
+        <ul style="width: 100%;" class="{{hideCard}} tabs z-depth-1">
+            <li class="tab col s6" onclick="tabSwitch(0)"><a class="active">Progress Report</a></li>
+            <li class="tab col s6" onclick="tabSwitch(1)"><a class="" >Report Card</a></li>
+            <div style="right: 203px; left: 101px;" class="indicator" ></div>
+        </ul>
+    </div>
+    <div class="row {{hideLoad[1]}}">
+        <div class=" card placeholder fadeIn anim" id="one">
+            <div class=" card-content" style="padding-bottom: 0px; padding-left: 15px; padding-right: 15px; padding-top: 15px;">
+                <span class="card-title flow-text" style="color: black; font-size: 18px">{{ipr.name}}</span>
+            </div>
+            <div style="margin-left: 15px;margin-right: 15px">
+                <table class="striped">
+                    <thead>
+                    <tr>
+                        <th data-field="id">{{ipr.format[1]}}</th>
+                        <th data-field="price" class="truncate">{{ipr.format[3]}}</th>
+                        <th data-field="price">{{ipr.format[5]}}</th>
+                        <th data-field="price" class="hide-on-small-and-down">{{ipr.format[9]}}</th>
+                        <th class="truncate hide-on-small-and-down">{{ipr.format[10]}}</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    <tr ng-repeat="classes in ipr.courses">
+                        <td class="table ">{{classes[1]}}</td>
+                        <td class="table ">{{classes[3]}}</td>
+                        <td class="table ">{{classes[5]}}</td>
+                        <td class="hide-on-small-and-down table">{{classes[9]}}</td>
+                        <td class="table hide-on-small-and-down">{{classes[10]}}</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-action">
+
+            </div>
+        </div>
+        <div class="card placeholder fadeIn anim" id="two" hidden>
+            <div class="card-content" style="padding-bottom: 0px; padding-left: 15px; padding-right: 15px; padding-top: 15px;">
+                <span class="card-title flow-text" style="color: black; font-size: 18px">{{rp.name}}</span>
+                <p>Scroll to the right for more info</p>
+            </div>
+            <div style="margin-left: 15px;margin-right: 15px; overflow: scroll;" >
+                <table class="striped" >
+                    <thead>
+                    <tr>
+                        <th data-field="id" ng-repeat="item in rp.format">{{item}}</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    <tr ng-repeat="classes in rp.courses">
+                        <td class="table" class="truncate" ng-repeat="val in classes track by $index">{{val}}</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-action">
+
+            </div>
+        </div>
+    <div class="ad" ng-if="ad !== null" url="{{ad['TargetUrl'] ? ad['TargetUrl']:null}}" identity="{{ad['Id'] ? ad['Id']:null}}"
+    pageId="{{ad['PageId'] ? ad['PageId']:null}}" ng-bind-html="adHTML" onclick="adClicked();">
+
+    </div>
+    </div>
+
+</div>

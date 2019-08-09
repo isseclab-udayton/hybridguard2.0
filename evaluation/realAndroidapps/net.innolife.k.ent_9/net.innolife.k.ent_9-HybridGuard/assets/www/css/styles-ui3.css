@@ -1,0 +1,14 @@
+.ui-li-has-thumb .ui-btn-inner a.ui-link-inherit {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.ui-li-has-thumb .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-thumb {
+    min-height: 57px;
+    padding-left: 50px;
+}
+.ui-li-thumb, .ui-listview .ui-li-icon {
+    max-height: 57px;
+    max-width: 40px;
+}
+

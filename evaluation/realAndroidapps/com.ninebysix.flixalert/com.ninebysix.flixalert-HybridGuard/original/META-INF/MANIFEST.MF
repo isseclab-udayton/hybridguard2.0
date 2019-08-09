@@ -1,0 +1,81 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: assets/www/img/find.png
+SHA1-Digest: dIEShXnGt65yu4zCz14VthnE/sA=
+
+Name: assets/www/img/icon.png
+SHA1-Digest: CFpsH+slZnD/LpWRAdkaI6NDkqA=
+
+Name: assets/www/img/arrow-down-faded.png
+SHA1-Digest: twYr3B84ag4cQFzQ+8yXT2yi1vo=
+
+Name: res/drawable-hdpi/splash.png
+SHA1-Digest: UjFAdOgMuMyiz8L0ZsNqOhYMplA=
+
+Name: res/xml/plugins.xml
+SHA1-Digest: kx1GnAgECd0FHjfmBrw5unIfgCw=
+
+Name: assets/www/img/arrow-up-faded.png
+SHA1-Digest: Vp6qefphdesSW5t11Ixf3gAggcU=
+
+Name: resources.arsc
+SHA1-Digest: NAUgXQvhTaJBe7J/3wt7X8aO1uc=
+
+Name: assets/www/img/redx.png
+SHA1-Digest: LfCJWociHA+pJzqqhthJ3lrgbWc=
+
+Name: assets/www/css/styles.css
+SHA1-Digest: z4WZMfpyR41vuGP29zaBoa1Q8gE=
+
+Name: assets/www/cordova-2.5.0.js
+SHA1-Digest: D5Sx/IguCDcaKLaqOxA+4FXkMiI=
+
+Name: AndroidManifest.xml
+SHA1-Digest: PuF/dsI8mNtyCWY9ZcXmsvSUC98=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: x09Av40lOljpI4EjLZOcFzN1zTk=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: x09Av40lOljpI4EjLZOcFzN1zTk=
+
+Name: assets/www/img/info.png
+SHA1-Digest: p7Z2x71n9CWSatLStldYJypFD7I=
+
+Name: res/xml/cordova.xml
+SHA1-Digest: 2kcKKiP+qRB5hcptWMJ8NIH/NT4=
+
+Name: assets/www/js/jquery-1.9.1.min.js
+SHA1-Digest: rknlaZnYKAJydFXwuoO2Os2Qois=
+
+Name: res/drawable-mdpi/splash.png
+SHA1-Digest: UKlf1edbDY/RNqG6B3phkoPbq9E=
+
+Name: assets/www/js/jqtap.js
+SHA1-Digest: E78fllGebBFBWoLaSVYlx/oUAtA=
+
+Name: assets/www/img/theater.png
+SHA1-Digest: N5r/8kYZHx7K23dyDzhEp3KLnDY=
+
+Name: classes.dex
+SHA1-Digest: B76evye/NPxBSGBi+Ce2kOzjDbU=
+
+Name: assets/www/js/controller.js
+SHA1-Digest: n1tOFnkyYxhqUOUMrfoFnLT86Zk=
+
+Name: assets/www/img/checkmark.png
+SHA1-Digest: fZKT5f/jDXNM3YwunGn2lkkjxoY=
+
+Name: res/drawable-ldpi/splash.png
+SHA1-Digest: z9C2dcrrVZglKZrKYKzBFUb2PE8=
+
+Name: assets/www/index.html
+SHA1-Digest: tACXWdG9z5fqudWsuVdvWOVzRNg=
+
+Name: assets/www/img/settings.png
+SHA1-Digest: 4J3GzhTkTjeXx2Y1ICrpFjMoyvw=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: x09Av40lOljpI4EjLZOcFzN1zTk=
+

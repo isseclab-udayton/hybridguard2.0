@@ -1,0 +1,207 @@
+[
+    {
+        "term": "abiotic", 
+        "id": 0, 
+        "description": "          non-living, or a condition caused by a non-living agent (e.g. cold   temperature, nutrient deficiency)  "
+    }, 
+    {
+        "term": "ascospore", 
+        "id": 1, 
+        "description": "          a sexually-produced fungal spore; specific to the fungal lineage   Ascomycota  "
+    }, 
+    {
+        "term": "asexual", 
+        "id": 2, 
+        "description": "          lacking sexual characteristics, or reproduction without the union of male and   female gametes (or two distinct organisms)  "
+    }, 
+    {
+        "term": "bacterium (pl. bacteria)", 
+        "id": 3, 
+        "description": "          microscopic, single-celled organisms lacking a nucleus or membrane-bound   organelles and reproducing asexually; morphology usually spherical, spiral,   or rod shaped; ubiquitous in every habitat on Earth, including soil, water,   organic matter, and in/on the bodies of plants and animals  "
+    }, 
+    {
+        "term": "bud", 
+        "id": 4, 
+        "description": "          a.) a small lateral or terminal projection on the stem of a plant,   often enclosed by protective scales, from which shoots, leaves, or flowers   develop  b.) an undeveloped shoot, leaf, or flower  c.) an outgrowth from an organism that creates a new individual (asexual   reproduction)  "
+    }, 
+    {
+        "term": "chlorophyll", 
+        "id": 5, 
+        "description": "       a group of green pigments found in all plants that   are vital for the process of photosythesis, allowing plants to obtain   energy from light  "
+    }, 
+    {
+        "term": "chlorosis", 
+        "id": 6, 
+        "description": "          an abnormal yellowing or whitening in green plant tissue due to insufficient   chlorophyll production  "
+    }, 
+    {
+        "term": "chlorotic tissue", 
+        "id": 7, 
+        "description": "          plant tissue that has lost its normal green coloration  "
+    }, 
+    {
+        "term": "columella", 
+        "id": 8, 
+        "description": "          Any small columnlike structure in various plants and   animals, often forming the central axis of development for the organism or an   anatomical structure  "
+    }, 
+    {
+        "term": "conidia (singular: conidium)", 
+        "id": 9, 
+        "description": "          asexual, non-motile, fungal spores; when dispersed, they develop into   organisms genetically identical to the   parent (clone)  "
+    }, 
+    {
+        "term": "cultivar", 
+        "id": 10, 
+        "description": "          deliberately selected variants within a cultivated species that are grown for   horticultural and/or agricultural advantages  "
+    }, 
+    {
+        "term": "dieback", 
+        "id": 11, 
+        "description": "          progressive death of shoots, branches, and roots that generally begins at the   tip and works back to the main body of the plant  "
+    }, 
+    {
+        "term": "disease cycle", 
+        "id": 12, 
+        "description": "          the chain of events involved in disease development, including the stages of   development of the pathogen and the effect of the disease on the   host  "
+    }, 
+    {
+        "term": "fruiting body", 
+        "id": 13, 
+        "description": "        a reproductive structure produced by some fungi that is distinct in   size, shape, and coloration for each species and contains spore-producing   structures; part of the sexual phase of a fungal life cycle (also known as a   sporocarp)  "
+    }, 
+    {
+        "term": "gum", 
+        "id": 14, 
+        "description": "        complex polysaccharidal substances formed by plant cells in reaction to   wounding or infection  "
+    }, 
+    {
+        "term": "host", 
+        "id": 15, 
+        "description": "          an organism that is infected with or fed upon by a pathogenic or parasitic   organism  "
+    }, 
+    {
+        "term": "host range", 
+        "id": 16, 
+        "description": "        the various species or cell types that can act as a host to   a particular parasite or pathogen  "
+    }, 
+    {
+        "term": "hyphae (sing. hypha)", 
+        "id": 17, 
+        "description": "        the fine, branching tubes which make up the body (or mycelium) of a   multicellular fungus  "
+    }, 
+    {
+        "term": "inoculum", 
+        "id": 18, 
+        "description": "        a.) the pathogen or its part that causes infection of the host  b.) small amount of a microorganism that is transferred to a substrate   or a culture medium in order to propagate it  "
+    }, 
+    {
+        "term": "latent infection", 
+        "id": 19, 
+        "description": "          a state in which a host is infected with a pathogen but does not show   any symptoms  "
+    }, 
+    {
+        "term": "lesion", 
+        "id": 20, 
+        "description": "          any defined area of living tissue that has been structurally modified as   a result of a disease or damaging process  "
+    }, 
+    {
+        "term": "mottle", 
+        "id": 21, 
+        "description": "          an irregular pattern of indistinct light and dark areas  "
+    }, 
+    {
+        "term": "mutation", 
+        "id": 22, 
+        "description": "          a change in any portion of the genetic material that causes a   permanent structural alteration of the DNA, frequently resulting in the   appearance of a new characteristic in an individual; usually detrimental, but   may be beneficial or neutral  "
+    }, 
+    {
+        "term": "mycelium", 
+        "id": 23, 
+        "description": "          mass of hyphae that constitutes the vegetative parts of a fungus (the   conspicuous part in most cases is the fruiting body of fungi)  "
+    }, 
+    {
+        "term": "necrotic", 
+        "id": 24, 
+        "description": "          a cell, group of cells, or tissue that has suffered a rapid destruction   and quick death; typically localized and may be caused by injury, radiation,   chemicals, toxic substances, or microbiological interactions  "
+    }, 
+    {
+        "term": "oil gland", 
+        "id": 25, 
+        "description": "          special glands of the leaf and fruit that produce essential   oils  "
+    }, 
+    {
+        "term": "parasite", 
+        "id": 26, 
+        "description": "          an organism that lives on or in another organism (the host), obtaining   nourishment and shelter from the host; the host is often harmed and never   benefits from the presence of the parasite, but is rarely   killed  "
+    }, 
+    {
+        "term": "pathogen", 
+        "id": 27, 
+        "description": "          an organism, usually a microorganism, which causes disease by intimate   association with its host  "
+    }, 
+    {
+        "term": "pathovar (pv.)", 
+        "id": 28, 
+        "description": "          bacterial strain or set of strains with the same or similar characteristics,   but differing in the species they infect or symptoms they produce;   pathovars are below the species rank taxonomically  "
+    }, 
+    {
+        "term": "phialoconidia", 
+        "id": 29, 
+        "description": "          (sing. phialoconidium): a conidium that develops from a   phialide  "
+    }, 
+    {
+        "term": "phloem", 
+        "id": 30, 
+        "description": "          the plant vascular tissue that conducts products of photosynthesis and other   organic molecules such as hormones throughout the plant   body  "
+    }, 
+    {
+        "term": "pycnidium (pl. pycnidia)", 
+        "id": 31, 
+        "description": "          asexual fruiting body of certain fungi, generally spherical or inversely   pearshaped, with an internal cavity containing conidia  "
+    }, 
+    {
+        "term": "rootstock", 
+        "id": 32, 
+        "description": "          a living plant, sometimes just the stump, with a healthy,   established root system, used for grafting a cutting or budding   from another plant; the grafted portion is called the   scion  "
+    }, 
+    {
+        "term": "scab", 
+        "id": 33, 
+        "description": "           rough, crust-like, diseased or injured area on the surface of a   plant  "
+    }, 
+    {
+        "term": "scion", 
+        "id": 34, 
+        "description": "          young shoot or twig of a plant that is grafted onto the rootstock of another   plant, usually a related species  "
+    }, 
+    {
+        "term": "shot-hole", 
+        "id": 35, 
+        "description": "          symptom in which small diseased fragments of leaf tissue, usually dead, drop   out of the lesion, leaving small holes in their place  "
+    }, 
+    {
+        "term": "spore", 
+        "id": 36, 
+        "description": "          a.) small, walled reproductive body produced by non-flowing plants,   algae, fungi and some protozoans; usually microscopic and resistant to   desiccation and heat  b.) dormant, nonreproductive body formed by certain unicellular organisms,   especially bacteria, in response to harsh environmental   conditions  "
+    }, 
+    {
+        "term": "systemic", 
+        "id": 37, 
+        "description": "          spreading internally throughout the plant body; may refer to a pathogen or   chemical  "
+    }, 
+    {
+        "term": "tolerance", 
+        "id": 38, 
+        "description": "          ability of a plant to sustain the effects of a disease or damaging agent   without dying or suffering serious injury or crop loss  "
+    }, 
+    {
+        "term": "variety", 
+        "id": 39, 
+        "description": "          a taxonomic category, a subdivision of species, consisting of naturally   occurring or selectively bred populations or individuals that differ from others   of the same species in certain minor but heritable traits  "
+    }, 
+    {
+        "term": "conidiophore", 
+        "id": 40, 
+        "description": "          a specialized fungal hypha that produces   conidia  "
+    }
+]

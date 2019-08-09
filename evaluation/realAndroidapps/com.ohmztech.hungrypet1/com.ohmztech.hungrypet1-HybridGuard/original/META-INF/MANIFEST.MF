@@ -1,0 +1,90 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: GwyYI+UVBk0ofost3uV3vpcBCyc=
+
+Name: assets/www/resources/img/earth.png
+SHA1-Digest: /VxpmWEIxMp44G1YGNNW2S/IlWI=
+
+Name: res/drawable-mdpi/splashicon.png
+SHA1-Digest: uimcEakcczbh9dBDDRBuYEs7qEo=
+
+Name: res/drawable-xhdpi/splashicon.png
+SHA1-Digest: /AoZu2oJvV1SNYM2iYDUUQ4oVV0=
+
+Name: res/xml/config.xml
+SHA1-Digest: 3oO0yxdJLxFH2e6s7sPtMZtkQ98=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: 7I753VE5BOrkyfN0/nTUnSC67k4=
+
+Name: resources.arsc
+SHA1-Digest: j4r1OZryKg4GjAdhe+3tCQuGa2I=
+
+Name: res/drawable-hdpi/splashicon.png
+SHA1-Digest: /3/E6BhDtMjUocTd2oc2BHhTgOY=
+
+Name: assets/www/resources/img/star.png
+SHA1-Digest: M2oVubmbhuXD6Pr2k/lSqSU4E6Q=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: DR+H4x65D7rPLCYUgtb/nkM3Spw=
+
+Name: assets/www/resources/img/icon.png
+SHA1-Digest: Wh7/M454LFh4LHrhbUrpWpPORJU=
+
+Name: AndroidManifest.xml
+SHA1-Digest: +VZBFkdcIW+EAfj3vUNovwD6ebY=
+
+Name: assets/www/resources/css/app.css
+SHA1-Digest: hew5WN8S/YqI7RY2srLymK8OeUA=
+
+Name: assets/www/includes/galocal.js
+SHA1-Digest: YDE1PmfG5K168m5+Bzgdw/ZFlKA=
+
+Name: assets/www/includes/cordova-2.5.0-android.js
+SHA1-Digest: D5Sx/IguCDcaKLaqOxA+4FXkMiI=
+
+Name: assets/www/resources/img/loading.png
+SHA1-Digest: IzVTulKyLNT2+3DuYKGJTZtBZ4c=
+
+Name: assets/www/resources/img/phone.png
+SHA1-Digest: b3BUj668L/RVGmpKhX4zp6RW4n8=
+
+Name: assets/www/resources/img/otlogo.png
+SHA1-Digest: UjerPVnh9h9qnuCR89zCPggPaTs=
+
+Name: assets/www/app.js
+SHA1-Digest: Tmmc/vxGuk9jLbpV7y9Iw1BD1KI=
+
+Name: classes.dex
+SHA1-Digest: u4aTrVEfeWkVZKBABhw0k3AjRuQ=
+
+Name: assets/www/resources/img/cat.png
+SHA1-Digest: VwbdVh7PVlfG1K63IENQo7yIvLU=
+
+Name: res/layout/main.xml
+SHA1-Digest: N6TMy95Sco92vVV6UKiWTLsq/DQ=
+
+Name: assets/www/resources/img/navarrow.png
+SHA1-Digest: PT4QOsqF5NGW2+9gO8hwWC4TiaA=
+
+Name: res/drawable-ldpi/splashicon.png
+SHA1-Digest: /3/E6BhDtMjUocTd2oc2BHhTgOY=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: iEtgtXSj+z14K/jm7azpgq7GDQ4=
+
+Name: res/drawable/splash.xml
+SHA1-Digest: Bw+65S0ezpKCdFZx9m3PnlIyymM=
+
+Name: assets/www/resources/img/alert.png
+SHA1-Digest: qU1C5Dp56enCR01/X+eY4hMEu6Y=
+
+Name: assets/www/index.html
+SHA1-Digest: zqXKGJriQuN55aXGJ356058oK84=
+
+Name: assets/www/resources/img/dog.png
+SHA1-Digest: 4xGk2w+M560jPyQNsvrRwzNtGYM=
+

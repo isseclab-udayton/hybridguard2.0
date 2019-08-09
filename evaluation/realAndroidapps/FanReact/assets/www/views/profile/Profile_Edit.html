@@ -1,0 +1,290 @@
+<div id="Profile_Edit" data-role="page">
+
+    <div data-role="content" >
+
+
+        <style>
+        .profileHead .img.round {
+            background-image: url( '../../images/default-avatar.png' );
+            height: 6.5em;
+            width: 6.5em;
+            margin-right: 1.3em;
+        }
+        .profileLinks .profileNumbers li p {
+            margin: 0;
+            font-size: 1em;
+            text-transform: uppercase;
+            color: #BFBDBD;
+            font-weight: bold;
+        }
+        .profileLinks .profileNumbers li h4 {
+            color: #fff;
+            margin: 0 0 0 0;
+            font-size: 1.8em;
+            line-height: 1.2em;
+            font-weight: bold !important;
+        }
+        .profileLinks .profileNumbers {
+            margin-top: 37px;
+        }
+        .profileHead {
+            background-image: background-image: url('http://images.fineartamerica.com/images-medium-large-5/gillette-stadium-in-foxboro-juergen-roth.jpg');
+            color: white;
+            padding: 1em 1em 2em 1em;    
+            min-height: 5.8em;
+            background-blend-mode: hard-light;
+        }
+
+        .rounded.trans.ui-link {
+            color: white;
+        }
+        .rounded.trans.ui-link.Follow{
+            color: red;
+        }
+        </style>
+
+
+        <div class="ui-header ui-bar-a">
+
+            <h1 class="ui-title noBg ui-link" >
+
+                <span onclick="history.back();">
+                    <i style="padding:1em 0em .5em .5em;" class="fa fa-times"></i>
+                    &nbsp;Edit Profile
+                </span>
+                <style>
+                    .header-right-part .block {
+                        padding:1em .5em .5em .5em;
+                    }
+                </style>
+                <span class="header-right-part" style="float: right;">
+                    <i class="block fa fa-check" 
+                       onclick="
+                                window.UpdateProfile.Variables = profileNameSpace.edit.var.temp ;
+                                window.UpdateProfile.DataUpdatedEvent = function( data ){ 
+                                    if (window.UpdateProfile.JsonObject.ErrorCode === 0) {
+                                        history.back();	
+                                    }
+                                }
+                                window.UpdateProfile.Execute( window.FeedManager ) ;
+                                
+                                "></i>
+                    <i class="block fa fa-bars" onclick="$('#popupMenu').popup('open', { positionTo : this } )"></i>
+                </span>
+            </h1>
+        </div>
+        
+        <style>
+        	.profileHead .table{
+                  color: white;
+                  width: 100%;
+                  height: 100%;
+                  background-size: cover;
+                  background-image: url(http://api.fanreact.com/App_PostImages/264115_1_1_10_19_26.jpg);
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  border-radius: .3em;
+            }
+        </style>
+        <div class="profileHead" >
+            <div class="img round"
+                 onclick="
+                          $('#commonCapturePopup').popup('open');
+                          var onLocalSuccess = function( uri ){
+
+                              var data = { detail : { inputImageUrl : uri ,  loggedUserID : profileNameSpace.edit.var.temp.profileId } };
+                              var onSuccess = function( data ){  
+                                profileNameSpace.edit.var.temp.profilePhoto = data.detail.imageLink ;
+                                $('#Profile_Edit-data-profilePhoto').css( 'background-image' , 'url(\'' + profileNameSpace.edit.var.temp.profilePhoto + '\')' );
+                              }
+                              var onFail = function( data ){ customNamespace.popup.show({msg: data.ErrorMessage }) }
+                              postNameSpace.queue.customUpload.image( data, onSuccess , onFail );
+
+                          }
+                          customNamespace.commonPopupTakePhoto = function(){
+
+                                cameraNamespace.image.capture( { uid : 'Profile_Edit-takeImg', type : 'capture' },
+                                                                onLocalSuccess 
+                                                             );
+                          
+                           };
+                          
+                          customNamespace.commonPopupTakePhotoFromLibrary = function(){
+
+                                cameraNamespace.image.capture( { uid : 'Profile_Edit-takeImgFromLibrary', type : 'getPhotoFromLibrary' },
+                                                              onLocalSuccess 
+                                                             );
+                           };
+                        " 
+            >
+                <a class="hover" data-role="none">
+                    <table class="table" id="Profile_Edit-data-profilePhoto"       
+                    >
+                        <tr><td valign="middle">
+                            <center >
+                                <i class="fa fa-pencil"></i>
+                                <div style="font-size:.5em;">EDIT AVATAR</div>
+                            </center>
+                        </td></tr>
+                    </table>
+                </a>
+            </div>
+        </div>
+
+        
+        <style>
+            hr {
+            	margin:0;
+            }
+            .holder {
+                width: 100%;
+                background: white;
+				padding: 0 0 .6em 0;
+            }
+            .holder .text {
+                padding: 1em 1em 0em 1em;
+                font-size:.8em;
+                color: #A5A5A5;
+            }
+            .holder .fullWidthTextbox{
+                margin: 0 ;
+                padding: 0em 1em .2em .8em;
+                border: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+                font: inherit;
+                background-color: rgba(255, 255, 255, 1);
+                width: 100%;
+                outline: none;
+            }
+            .holder .fullWidthTextarea {
+                margin: 0 ;
+                padding: 0em 1em .2em .8em;
+                border: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+                font: inherit;
+                background-color: rgba(255, 255, 255, 1);
+                width: 100%;
+                outline: none;
+            }
+        </style>
+        
+        <div class="holder" >
+            <p class="text">
+                Username:
+            </p>
+            <input type="text" id="Profile_Edit-data-profileHandle" 
+                   class="fullWidthTextbox" data-role="none"
+                   onchange="profileNameSpace.edit.var.temp.profileHandle = $(this).val(); " type="text" value="" placeHolder="Change username here" 
+            />
+        </div>
+        <hr>
+        <div class="holder" >
+            <p class="text">
+                First & Last Name
+            </p>
+            <input type="text" id="Profile_Edit-data-profileFullName" 
+                   class="fullWidthTextbox" data-role="none"
+                   onchange="profileNameSpace.edit.var.temp.profileFullName = $(this).val(); " type="text" value="" placeHolder="Change full name here" 
+            />
+        </div>
+        <hr>
+        <div class="holder" >
+            <p class="text">
+                City and State
+            </p>
+            <input type="text" id="Profile_Edit-data-cityAndState" 
+                   class="fullWidthTextbox" data-role="none"
+                   onchange="profileNameSpace.edit.var.temp.cityAndState = $(this).val(); " type="text" value="" placeHolder="Change location here" 
+            />
+        </div>
+        <hr>
+        <div class="holder" >
+            <p class="text">
+                Description
+            </p>
+            <textarea type="text" id="Profile_Edit-data-profileDescription" 
+                   class="fullWidthTextarea" 
+                   onchange="profileNameSpace.edit.var.temp.profileDescription = $(this).val(); " type="text" value="" placeHolder="Change profile description here" 
+            ></textarea>
+        </div>
+        <hr>
+        
+        
+
+        <script type="text/x-kendo-template" id="Profile_Edit-followTeamList-template">
+
+            {{#each Data}}
+                    <li onclick="
+                                customNamespace.page.goTo( 'views/team/teampage.html' ); 
+                                teampageNameSpace.teamId = {{ teamId }};
+                                "  
+                        style="background-image: url('{{ teamIcon }}');"
+                    >
+                    </li>
+            {{/each}}
+
+            <li onclick="
+                        customNamespace.page.goTo( 'views/search/searchTeamView.html' )
+                        "
+                style="background-image: url('../../images/icon-add-gray.gif');"></li>
+
+        </script>    
+        
+        <div class="holder teamsFollowed">
+            <p class="text" style="  padding: 1em 1em 1em 1em;">
+                Add or remove teams followed
+            </p>
+            <ul class="clearfix" style="padding: 0 1em 0 1em;" id="Profile_Edit-followTeamList-display">
+            </ul>
+        </div>
+        <style>
+        	.list {
+                background-color: grey;  
+                background-color: rgb(247, 247, 247);
+  				padding: 1em 1em 1em .8em;
+            }
+        	.list .right {
+               float: right;
+            }
+        </style>
+        <ul>
+            <li class="list" onclick="customNamespace.page.goTo('views/settings/accountPreferencesView.html')">
+                Change Email <i class="right fa fa-chevron-right"></i>
+            </li>
+       		<hr>
+            <li class="list" onclick="customNamespace.page.goTo('views/settings/accountPreferencesView.html')">
+                Change Password <i class="right fa fa-chevron-right"></i>
+            </li>
+        </ul>
+
+    </div>
+    
+    <script>
+    
+        $(document).on('pageshow', '#Profile_Edit', function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+
+            var data = {};
+            var onSuccess = function( data ){
+                profileNameSpace.edit.var.temp = data.Data[0] ;                 
+                //console.log( profileNameSpace.edit.var.temp )
+
+                $('#Profile_Edit-data-profileHandle').val( profileNameSpace.edit.var.temp.profileHandle );
+                $('#Profile_Edit-data-profileFullName').val( profileNameSpace.edit.var.temp.profileFullName );
+                $('#Profile_Edit-data-profileCityAndState').val( profileNameSpace.edit.var.temp.profileCityAndState );
+                $('#Profile_Edit-data-profileDescription').val( profileNameSpace.edit.var.temp.profileDescription );
+                $('#Profile_Edit-data-profilePhoto').css( 'background-image' , "url('" + ( profileNameSpace.edit.var.temp.profilePhoto || '' ) + "')" );
+            }
+            var onFail = function( data ){
+                
+            }
+            profileNameSpace.edit.getInfo( data , onSuccess , onFail )
+            profileNameSpace.profileTeam.getAndDisplay();
+        });
+        
+    </script>
+</div>

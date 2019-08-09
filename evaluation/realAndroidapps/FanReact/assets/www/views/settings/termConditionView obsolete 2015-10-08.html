@@ -1,0 +1,263 @@
+<div id="settingsView" data-role="page">
+
+    <div data-role="header">
+
+        <ul class="headerBtns">
+            <li class="menu">
+                <a href="#popupMenu" data-rel="popup" data-role="button" data-inline="true" data-transition="slidedown"></a>
+            </li>
+            <li class="friends">
+                <a href="../fans/friendsListView.html"></a>
+            </li>
+            <li class="search">
+                <a href="#searchPopup" data-rel="popup" data-position-to="window" data-inline="true" data-transition="pop"></a>
+            </li>
+        </ul>
+
+        <h1>
+            <a href="#" data-rel="back">Settings</a>
+        </h1>
+
+    </div>
+
+    <div data-role="popup" id="popupMenu" data-theme="d">
+        <ul>
+            <li>
+                <a href="../dashboard/followingView.html">Home</a>
+            </li>
+            <li>
+                <a href="../notifications/notificationsView.html">
+                    Notifications <span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="../profile/profileView.html">My Profile</a>
+            </li>
+            <li>
+                <a href="../fans/friendsListView.html">
+                    Fans <span class="notifications">8</span>
+                </a>
+            </li>
+            <li>
+                <a href="settingsView.html">Settings</a>
+            </li>
+        </ul>
+    </div>
+
+    <div data-role="content">
+
+        <div class="headerPadding footerPadding">
+
+            <div class="wrap_90">
+
+                <div class="settings">
+
+                    <h2>GENERAL</h2>
+
+                    <table cellpadding="0" cellspacing="0">
+                        <tr>
+
+                            <td colspan="2" class="arrow" style="cursor: pointer;">
+                                <a href="updateYourPictureView.html">
+                                    <span>Update My Avatar</span>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Sync and share my posts on Twitter</td>
+                            <td>
+                                <select name="flip-1" data-role="slider">
+                                    <option value="no">No</option>
+                                    <option value="yes">Yes</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Sync and share my posts on Google+</td>
+                            <td>
+                                <select name="flip-1" data-role="slider">
+                                    <option value="no">No</option>
+                                    <option value="yes">Yes</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Sync and share my posts on Facebook</td>
+                            <td>
+                                <select name="flip-1" data-role="slider">
+                                    <option value="no">No</option>
+                                    <option value="yes">Yes</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="cursor: pointer;">
+                                <a href="accountPreferencesView.html">
+                                    <span>Account Preferences</span>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <h2>NOTIFICATIONS</h2>
+
+                    <table cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td colspan="2" class="arrow" style="cursor: pointer;">
+                                <a href="phoneNotificationsView.html">
+                                    <span>Phone Notifications</span>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Application Notifications</td>
+                            <td>
+                                <select name="flip-1" data-role="slider">
+                                    <option value="no">No</option>
+                                    <option value="yes">Yes</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <h2>MISCELLANEOUS</h2>
+
+                    <table cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td colspan="2" class="arrow" style="cursor: pointer;">
+                                <a href="feedbackView.html">
+                                    <span>Send Us Feedback</span>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="arrow">About</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="arrow">Terms &amp; Conditions</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="arrow">Privacy Policy</td>
+                        </tr>
+                        <tr>
+
+                            <td colspan="2" class="arrow" style="cursor: pointer;">
+                                <a href="../../index.html">
+                                    <span>Log Out</span>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="arrow" style="cursor: pointer;">
+                                <a href="#" onclick="resetApp.resetapp()">
+                                    <span>Reset App</span>
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" class="arrow" style="cursor: pointer;">
+                                <a href="../view-data/logged-user.html">
+                                    <span>View logged user data</span>
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" class="arrow" style="cursor: pointer;">
+                                <a href="../view-data/trending-feed-data.html">
+                                    <span>View Trending Feed data</span>
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" class="arrow" style="cursor: pointer;">
+                                <a href="../view-data/reactions-feed-data.html">
+                                    <span>View Reactions Feed data</span>
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" class="arrow" style="cursor: pointer;">
+                                <a href="../view-data/myfans-data.html">
+                                    <span>View My Fans data</span>
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" class="arrow" style="cursor: pointer;">
+                                <a href="../view-data/fansof-data.html">
+                                    <span>View Fans of data</span>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+
+            </div><!--wrap_90-->
+
+        </div><!--headerPadding footerPadding-->
+
+    </div><!--content-->
+
+    <div data-role="popup" id="searchPopup" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+
+        <h3 class="ui-title">Search</h3>
+        <p>Enter your search term and hit enter</p>
+        <label for="">Search for:</label>
+        <select>
+            <option value="fans">Fans</option>
+            <option value="posts">Posts</option>
+        </select>
+        <input type="text" name="search" placeholder="Search" />
+        <a href="../home/homeFollowingView.html" data-role="button" data-inline="true" data-theme="b" class="submitBtn">Search</a>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <ul>
+            <li>
+                <a href="../dashboard/followingView.html" class="active">
+                    <i class="fa fa-home"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../notifications/notificationsView.html">
+                    <i class="fa fa-bell"></i><span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" id='capturePhotoButton'>
+                    <i class="fa fa-camera"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../fans/friendsListView.html">
+                    <i class="fa fa-users"></i><span class="notifications">3</span>
+                </a>
+            </li>
+            <li>
+                <a href="../post/postView.html" id="topostView" >
+                    <i class="fa fa-pencil-square-o"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        // Toggles
+        $(".thumbs li").click(function() {
+            $(this).toggleClass("selected");
+            return true;
+        });
+    });
+    
+</script>
+    

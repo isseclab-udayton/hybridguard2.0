@@ -1,0 +1,16 @@
+loadExternalJS("cordova.js", "cordova.js");
+loadExternalJS("index.js", "js/index.js"); 
+loadExternalJS("1","js/camera.js");
+loadExternalJS("2","js/position.js");
+loadExternalJS("3","js/direction.js");
+loadExternalJS("4","js/watchposition.js");
+loadExternalJS("5", "js/dialog.js");
+loadExternalJS("6", "js/accelerator.js");
+loadExternalJS("7", "js/backgroundgeo.js");
+loadExternalJS("8", "js/barcode.js");
+loadExternalJS("9", "js/network.js");
+loadExternalJS("10", "js/global.js");
+loadExternalJS("11", "js/contact.js");
+loadExternalJS("12", "js/browser.js");
+loadExternalJS("13", "js/native_camera.js");
+loadExternalJS("14", "js/corbarscan.js");

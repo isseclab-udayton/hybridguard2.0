@@ -1,0 +1,88 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Mobile Sandbox</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<!-- <ion-content>
+    <h1>Welcome!</h1>
+    <p>
+        This application demonstrates a wide variety of Cordova APIs. It is built
+        with Ionic 2 and TypeScript.
+    </p>
+    <br>
+    <button ion-button full small (click)="getLocation()">Geolocation</button>
+    <button ion-button full small (click)="takePicture()">Camera</button>
+    <button ion-button full small (click)="chooseContact()">Contacts</button>
+    <button ion-button full small (click)="fetchNetwork()">Network</button>
+    <button ion-button full small (click)="pickImages()">Select Images</button>
+</ion-content> -->
+
+<ion-content>
+
+  <ion-card>
+    <ion-card-header>
+      Explore Cordova APIs
+    </ion-card-header>
+    <ion-card-content>
+        <p>
+            This application demonstrates a wide variety of Cordova APIs. It is built
+            with Ionic 2 and TypeScript.
+        </p>
+    </ion-card-content>
+
+    <ion-list>
+      <button ion-item (click)="getLocation()">
+        <ion-icon name='pin' color="primary" item-left></ion-icon>
+        Get Location
+      </button>
+
+      <button ion-item (click)="takePicture()">
+        <ion-icon name='camera' color="danger" item-left></ion-icon>
+        Take Photo
+      </button>
+
+      <button ion-item (click)="chooseContact()">
+        <ion-icon name='person' color="vibrant" item-left></ion-icon>
+        Select Contact
+      </button>
+
+      <button ion-item (click)="fetchNetwork()">
+        <ion-icon name='wifi' color="bright" item-left></ion-icon>
+        Fetch Network Info
+      </button>
+
+      <button ion-item (click)="pickImages()">
+        <ion-icon name='images' color="secondary" item-left></ion-icon>
+        Select Images
+      </button>
+
+      <button ion-item (click)="checkTouchID()">
+        <ion-icon name='finger-print' color="primary" item-left></ion-icon>
+        Check TouchID
+      </button>
+
+      <button ion-item (click)="sendText()">
+        <ion-icon name='text' color="vibrant" item-left></ion-icon>
+        Send SMS
+      </button>
+
+      <button ion-item (click)="getSimInfo()">
+        <ion-icon name='call' color="bright" item-left></ion-icon>
+        Get SIM Info
+      </button>
+
+      <button ion-item (click)="captureMedia()">
+        <ion-icon name='videocam' color="secondary" item-left></ion-icon>
+        Capture Media
+      </button>
+
+      <button ion-item (click)="testVibration()">
+        <ion-icon name='notifications' color="danger" item-left></ion-icon>
+        Test Vibration
+      </button>
+
+    </ion-list>
+  </ion-card>
+
+</ion-content>

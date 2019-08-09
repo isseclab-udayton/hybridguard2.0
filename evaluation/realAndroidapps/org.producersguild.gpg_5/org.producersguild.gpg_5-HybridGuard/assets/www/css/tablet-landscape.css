@@ -1,0 +1,18 @@
+#main-screen {
+    display: table;
+    height: 90%;
+}
+
+#main-screen .image {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.whiteButton, .redButton, .grayButton {
+    font-size: 18px;
+}
+
+.tablet-hidden {
+    display: none;
+}

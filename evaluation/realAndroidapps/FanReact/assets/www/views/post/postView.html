@@ -1,0 +1,467 @@
+<div id="post-view" data-role="page" >
+
+    <div data-role="content" style="background: white !important; ">
+
+        
+        <div class="ui-header ui-bar-a Id-customHeader">
+            
+	        <h1 class="ui-title noBg ui-link" >
+				<i style="padding:1em;" onclick="history.back();" class="fa fa-angle-left"></i>
+				<span id="post-view-title" onclick="$(this).hide();$('#post-view-clearContainer').fadeIn();">
+                    Create a New Reaction
+                </span>
+				<span id="post-view-clearContainer" onclick="$( this ).hide(); $('#post-view-title').fadeIn()" style="display:none;" >
+                    <span>Clear Form ? </span>
+                    <span onclick="postNameSpace.post.clearForm();">Yes</span>
+                </span>
+                <i style="float:right; padding:1em; " onclick="postNameSpace.submit();" class="fa fa-check"></i>
+
+            </h1>
+            
+			
+        </div>
+        
+       
+        <div class="post postView">
+        
+            <form action="javascript:postNameSpace.submit();">
+               
+                <div style="display:none;">
+
+                    <br>|<a onclick=" window.SavePostQueue.JsonObject.Data = [] ;     window.FeedManager.CacheFeed( window.SavePostQueue );">clear post</a>
+                    <br>|<a onclick=" console.log(  window.SavePostQueue.JsonObject.Data );">view post in console log </a>
+                    <br>|<a onclick=" customNamespace.display.html( window.SavePostQueue.JsonObject , 'post-view-queue-template' , 'post-view-queue-display') "> display in html  </a>
+
+                </div>
+                
+                <div class="greenwrap">
+
+                    <div id="postTitleDiv">
+                        
+
+                        <input type="text" id="post-view-input-title" 
+                              onfocus="$('#post-view-charsContainer').finish(); $('#post-view-charsContainer').slideDown(); " onblur="$('#post-view-charsContainer').slideUp();"
+                               onclick="console.log(  window.SavePostQueue.JsonObject.Data );"
+                               onchange="customNamespace.capFirst(this); postNameSpace.queue.var.object.postTitle = $(this).val(); "
+                               placeholder="Add a Reaction Title" 
+                               autocapitalize="on" 
+                               />
+
+                    </div>
+
+                    <div style="color:white;" onclick="postNameSpace.queue.var.object.submitType == undefined || postNameSpace.queue.var.object.submitType == 1  ?  customNamespace.page.goTo('views/post/post-view-dropdown-team.html') : console.log('cannot change') ;">
+
+                        <span id="post-view-text-selected-team" ></span>
+                        <i style="float:right;" id="post-view-text-selected-icon" class="fa fa-angle-down"></i>
+                    </div>
+
+                </div><!--greenwrap-->
+
+                <div class="textareaWrapper" onclick="$('#post-view-input-description').focus();" style="min-height:200px;">
+
+                    <div class="Id-tag">
+                        <textarea id="post-view-input-description" style="height:auto"
+                                  onfocus="$('#post-view-charsContainer').finish(); $('#post-view-charsContainer').slideDown(); " onblur="customNamespace.capFirst(this); postNameSpace.queue.var.object.postDesc = $(this).val(); $('#post-view-charsContainer').slideUp();customNamespace.sizing();this.value = this.value"
+                                  placeholder="Optional: Add some context and tag friends by adding the '@' sign in front of their name" 
+                                  autocapitalize="on" 
+                                  oninput="
+                                           var thisElement = this ;
+                                           var lastChar = $(this).val().split('').pop() ;
+                                       
+                                           var defaultTagsTemplateId = 'index-taggingItem-template';
+                                           
+                                           var onSuccess = function( data ){
+                                           		var thisElement = customNamespace.tag.input ;
+												$(thisElement).val( $(thisElement).val().substr( 0 , $(thisElement).val().lastIndexOf('@') ) + '@' + data.name + ' ' ) ;               
+                                           		var temp = $(thisElement).val(); $(thisElement).val('');
+                                                $(thisElement).focus(); 
+                                                $(thisElement).val(temp);
+                                           }
+                                           var onFail = function( data ){
+                                           		$(thisElement).closest('.Id-tag').find('.Id-tags-display').html('');
+                                           }
+                                           var display = function( thisElement, allpeople ){
+                                           		customNamespace.tag.input = thisElement ;
+												customNamespace.tag.item.data = allpeople ;
+                                                var html = customNamespace.display.html( { Data : allpeople } , defaultTagsTemplateId  )
+                                           		$(thisElement).closest('.Id-tag').find('.Id-tags-display').html( html );
+                                            
+                                           }
+                                           var query = $(thisElement).val().substr( $(thisElement).val().lastIndexOf('@') + 1 , $(thisElement).val().length );
+                                            
+                                           var re = /^[a-zA-Z0-9_]+$/; 
+                               				if( re.test( query ) == false || query.length > 14 || $(thisElement).val().search('@') == -1 ){ onFail(); return false ; }
+                                            var data = { profileId : loginNameSpace.loggedUserID , profileHandle : query }
+                                            customNamespace.tag = {};
+                                            customNamespace.tag.input = {} ;
+                                            customNamespace.tag.item = { data : {} };
+                                            customNamespace.tag.item.onclick = function( data ){
+                                                onSuccess( customNamespace.tag.item.data[ data.index ] ); 
+                                            }
+                                            window.GetAllUsers.Variables = data ;
+                                            window.GetAllUsers.DataUpdatedEvent = function () {
+                                                var allpeople = $.extend( true , [] , window.GetAllUsers.JsonObject.Data ) ; ;
+                                                $.each( allpeople , function( index, element ){
+                                                    allpeople[index].index = index ;
+                                                    allpeople[index].name = element.profileHandle ;
+                                                    allpeople[index].avatar = element.profilePhoto ;
+                                                    allpeople[index].avatar = element.profilePhoto ;
+                                                });
+                                           		display( thisElement , allpeople );
+                                            }
+
+                                            window.GetAllUsers.DataUpdatedEventOnFail = function () {
+
+                                                var peopleFollowThisUser = window.GetFanListFollowingThisUser.JsonObject.Data ;
+                                                var peopleThisUserFollow = window.GetFanListThisUserFollowing.JsonObject.Data ;
+                                                var allpeople = $.extend( true , [] , peopleFollowThisUser ) ;
+                                                $.each( peopleThisUserFollow, function( index, element ){
+                                                    var elementToAdd = element ;
+                                                    $.each( peopleFollowThisUser , function( i , e ){
+                                                       if( element.profileId == e.profileId ) {
+                                                           elementToAdd = null ;
+                                                           return false;
+                                                       }
+                                                    });
+                                                    elementToAdd != null && elementToAdd != undefined ? allpeople.push( elementToAdd ) : null ;
+                                                })
+                                                $.each( allpeople , function( index, element ){
+                                                    allpeople[index].id = index ;
+                                                    allpeople[index].name = element.profileHandle ;
+                                                    allpeople[index].avatar = element.profilePhoto ;
+                                                    allpeople[index].type = 'contact' ;
+                                                })
+                                                var match = [];
+                                                var unmatch = [];
+                                                $.each( allpeople , function( index, element ){
+                                                    if( element == undefined ){ allpeople.splice(index, 1) ; return true ; }
+                                                    element.name.toUpperCase().search( query.toUpperCase() ) == -1 ?  unmatch.push(element) : match.push(element );
+                                                });
+                                                match.sort(function(a, b){
+                                                    if(a.name < b.name) return -1;
+                                                    if(a.name > b.name) return 1;
+                                                    return 0;
+                                                })
+                                                
+                                           		display( thisElement , match );
+
+                                            }
+                                            window.GetAllUsers.Execute();
+
+                                          "
+                                  style="margin-top: 10px;"></textarea>
+                        
+                        <div class="Id-tags-display">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    <input type="submit" name="submit" style=" display:none;  background: black !important;"
+                           value="Post It" class="green"/>
+                    
+
+                </div><!--textareaWrapper-->
+                <div style="margin: 5px 10px 10px 10px; color: #555; color:#D4D4D4; " >
+                    <p id="post-view-charsContainer"  style=" text-align:right ; ">
+                        <span class="characters" ><b id="post-view-chars" >200</b> chars left</span>
+                    </p>
+                    <p>Upload a picture or video</p>
+                </div>
+
+            </form>
+
+            
+        	<div id="post-view-queue-display">
+            
+        	</div>
+            
+            <div>
+
+                <div id="post-view-attachFile-display" style="min-height:9em;">
+
+                </div>
+                <ul class="postMedia" >
+                    <li class="video"  >
+                        <a  data-rel="popup" href="#postView-popupVideo" data-position-to="window" data-inline="true" data-transition="pop">
+                            <i class="fa fa-video-camera"></i>
+                        </a>
+                    </li>
+                    <li class="picture">
+                        <a href='#popupPhoto' data-rel="popup" data-position-to="window" data-inline="true" data-transition="pop">
+                             <i class="fa fa-camera"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <style>
+            #post-view-image
+            {
+                height:400px;
+                background-image : url( 'images/blog-image.jpg' ) ;
+                background-size:contain;
+                background-repeat:no-repeat;
+            }
+            .post textarea.ui-input-text {
+                color: black !important ;
+            }
+        </style>
+        
+
+        
+        <script type="text/x-kendo-template" id="post-view-videoPlayer-template">
+    
+            <video style="-webkit-transform: translate3d(0px,0px,0px); width:100%;height:100%;" webkit-playsinline autobuffer autoplay controls>
+              <source src="{{fullPath}}" type="video/mp4">
+              <source src="{{fullPath}}" type="video/ogg">
+            Your browser does not support the video tag.
+            </video>
+        </script>
+        
+        <script type="text/x-kendo-template" id="post-view-image-template">
+
+            <img src="{{fullPath}}" style="width:100% ; " alt=""/>
+        </script>
+        
+        
+        <script type="text/x-kendo-template" id="post-view-queue-template">
+        
+            post-view-queue-display : 
+            <div style="color:black;">
+				<ul>
+                  {{#each Data}}
+                  	<li style="  
+                              background: rgb(223, 223, 223);
+                              padding: 20px;
+                           ">
+                    	<div>Index : {{ index }}</div>
+                    	<div>Status : {{ status }}</div>
+                    	<div>Attempt : {{ attempt }}</div>
+                    	<div>ErrorCode : {{ ErrorCode }}</div>
+                        <div>ErrorMessage : {{ ErrorMessage }}</div>
+                        <div style="  
+                                    border: blue;
+                                    border-style: double;
+                                   ">
+                        	Detail:
+                            <div>
+                            	loggedUserID : {{ detail.loggedUserID }} <br>
+                            	postDesc : {{ detail.postDesc }} <br>
+                            	postTitle : {{ detail.postTitle }} <br>
+                            	tagId : {{ detail.tagId }} <br>
+                            	tagName : {{ detail.tagName }} <br>
+                            	teamid : {{ detail.teamid }} <br>
+                            	inputImageUrl : {{ detail.inputImageUrl }} <br>
+                            	imageUrl : {{ detail.imageUrl }} <br>
+                            	inputVideoUrl : {{ detail.inputVideoUrl }} <br>
+                                inputVideoName : {{ detail.inputVideoName }} <br> 
+                            	videoLink : {{ detail.videoLink }} <br>
+                            	videoThumbnail : {{ detail.videoThumbnail }} <br>
+                                
+                            </div>
+                        </div>
+                        
+                    </li>
+                  {{/each}}
+                <ul>
+            </div>
+        </script>
+        
+    </div>
+
+    <div data-role="popup" data-history="false" id="popupPhoto" data-overlay-theme="a" data-theme="c" data-dismissible="true" style="max-width:400px;" class="ui-corner-all">
+
+        <a href="#" data-rel="back" 
+        	onclick="
+					cameraNamespace.image.capture( { uid : 'post-view-takeImg', type : 'capture' },
+                                                  function(uri)
+                                                  {                                                    
+                                                        postNameSpace.post.clearImageAndVideo();
+                        								customNamespace.display.html( { fullPath: uri } , 'post-view-image-template' , 'post-view-attachFile-display') 
+                                                        postNameSpace.queue.var.object.inputImageUrl = uri ;
+                                                 });
+        						
+					" 
+            data-role="button" data-inline="true" data-theme="b" class="submitBtn"
+        >
+              Take New Photo
+        </a>
+        <a href="#" data-rel="back" 
+        	onclick="
+					cameraNamespace.image.capture( { uid : 'post-view-takeImg', type : 'getPhotoFromLibrary' },
+                                                  function(uri)
+                                                  {                                                         
+                                                        postNameSpace.post.clearImageAndVideo();
+                        								customNamespace.display.html( { fullPath: uri } , 'post-view-image-template' , 'post-view-attachFile-display') 
+                                                        postNameSpace.queue.var.object.inputImageUrl = uri ;
+                                                  });
+        						
+					"  data-role="button" data-inline="true" data-theme="b" class="submitBtn">Choose From Library</a>
+        
+
+        <center class="insertUrl Id-insertUrl">
+
+            <input type="text" data-role="none" placeholder="Add an Image Url Here"
+                   class="fullWidthTextbox  Id-input" 
+            >
+            <i onclick="
+                        postNameSpace.post.clearImageAndVideo();
+                        postNameSpace.queue.var.object.imageLink = $(this).closest('.Id-insertUrl').find('.Id-input').val().trim();
+                        customNamespace.display.html( { fullPath: postNameSpace.queue.var.object.imageLink } , 'post-view-image-template' , 'post-view-attachFile-display') 
+                        $('#popupPhoto').popup('close');
+                       " class="fa fa-check"></i>
+        </center>
+        <a href="#" data-rel="back" data-role="button" data-inline="true" data-theme="b" class="submitBtn" 
+           
+        	onclick="
+                    postNameSpace.post.clearImageAndVideo(); 
+                    " 
+           >Remove Attachment</a>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+    </div>
+
+    <div data-role="popup" id="postView-popupVideo"  data-history="false" data-overlay-theme="a" data-theme="c" data-dismissible="true" style="max-width:400px;" class="ui-corner-all">
+
+        <a href="#" data-rel="back" data-role="button" data-inline="true" data-theme="b" class="submitBtn" 
+           onclick="
+					recordVideoNameSpace.helper.capture( 'post-view-takeVideo', 
+                                                  function( data )
+                                                  { 
+
+                                                        postNameSpace.post.clearImageAndVideo();                    									
+                    									customNamespace.display.html( data , 'post-view-videoPlayer-template' , 'post-view-attachFile-display') 
+                                                        postNameSpace.queue.var.object.videoObject = data ;
+                        								postNameSpace.queue.var.object.inputVideoUrl = data.fullPath ;
+                        								postNameSpace.queue.var.object.inputVideoName = data.name ;
+                                                  });
+        					
+                    "
+           >Take New Video</a>
+        <a href="#" data-rel="back" data-role="button" data-inline="true" data-theme="b" class="submitBtn" 
+           
+        	onclick="
+					cameraNamespace.image.capture( { uid : 'post-view-getVideo', type : 'getVideoFromLibrary' },
+                                                  function(uri)
+                                                  { 
+                                                        postNameSpace.post.clearImageAndVideo();
+                     
+                     									var data = {}; data.fullPath = uri ; data.name = uri ;
+                    									customNamespace.display.html( data , 'post-view-videoPlayer-template' , 'post-view-attachFile-display') 
+                        								postNameSpace.queue.var.object.videoObject = uri ;
+                     									postNameSpace.queue.var.object.inputVideoUrl = uri ;
+                        								postNameSpace.queue.var.object.inputVideoName = uri ;		
+                                                  });
+        						
+					" 
+           >Choose From Library</a>
+        
+        <a href="#" data-rel="back" data-role="button" data-inline="true" data-theme="b" class="submitBtn" 
+           
+        	onclick="
+                    postNameSpace.post.clearImageAndVideo(); 
+                    " 
+           >Remove Attachment</a>
+        <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+    </div>
+    
+    <script>
+
+        var elem = $("#post-view-chars");
+        $("#post-view-input-description").limiter(500, elem);
+        $("#post-view-input-title").limiter(200, elem);
+
+        // set title to remove the dropdown on display page from teampage
+        customNamespace.header.changeTitle( { text : 'Create New Post' } );
+
+        $('#post-view-clearForm').popup();
+        
+        $(document).on('pageshow', '#post-view', function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+            
+            postNameSpace.initializeVariableOnPage = function(){
+
+                try{ var teamName = postNameSpace.queue.var.object.team.teamName ; } catch( err ){} ; 
+                
+                // hide dropdown if is editing post
+                if( postNameSpace.queue.var.object.submitType != 3 ){ $('#post-view-text-selected-icon').hide() ;}
+                
+				
+                var IsNotUndefinedNorNullNorEmpty = function( text ){
+                    return text != null && text != undefined && text != '' ? text : null ;
+                }
+
+                var imageLink = IsNotUndefinedNorNullNorEmpty( postNameSpace.queue.var.object.imageLink ) ;
+                imageLink = imageLink != null ?  imageLink : IsNotUndefinedNorNullNorEmpty( postNameSpace.queue.var.object.inputImageUrl ) ;
+                if( imageLink != null ){ customNamespace.display.html( { fullPath : imageLink } , 'post-view-image-template' , 'post-view-attachFile-display' ) ; }
+                
+                var videoLink = IsNotUndefinedNorNullNorEmpty( postNameSpace.queue.var.object.videoLink ) ; 
+                videoLink = videoLink != null ? videoLink :  IsNotUndefinedNorNullNorEmpty( postNameSpace.queue.var.object.inputVideoUrl ) ;
+                if( videoLink != null ){ customNamespace.display.html( { fullPath : videoLink } , 'post-view-videoPlayer-template' , 'post-view-attachFile-display' ) ;  }
+                
+                $('#post-view-text-selected-team').html( teamName || 'Assign your post to a team board') ;
+                $('#post-view-input-title').val( postNameSpace.queue.var.object.postTitle ) ;
+                $('#post-view-input-description').val( postNameSpace.queue.var.object.postDesc ) ;
+            }
+             postNameSpace.initializeVariableOnPage();
+            
+            customNamespace.commonPopupTakePhoto = function () {
+                cameraApp._capturePhoto();
+                $("#commonCapturePopup").popup("close") ;
+            }
+
+            customNamespace.commonPopupTakeVideo = function () {
+                recordVideoNameSpace.CaptureVideo();
+                $("#commonCapturePopup").popup("close") ;
+            }
+
+
+            postNameSpace.submit = function(){
+                
+                var condition = function(){
+                    var error = {} ;
+                    error.ErrorCode = 0 ;
+                    error.Execute = null ;
+                    var ErrorOccured = function( msg, customFunction ) { 
+                        error.ErrorCode = 1; 
+                        error.Execute = function(){ customNamespace.popup.show( {msg:msg} ) ; } ; 
+                    }
+                    
+                    if( $('#post-view-text-selected-team').html() == 'Assign your post to a team board' ){
+                       ErrorOccured( 'Please, select a team.' );
+                    }
+                       
+                    if( $('#post-view-input-title').val() == '' || $('#post-view-input-title').val() == undefined ){
+                        ErrorOccured( 'Please, write your post\'s title.' );
+                    }
+                    
+                    var onSuccess = function(){
+   						postNameSpace.queue.var.object.tagName = '';
+   						postNameSpace.queue.var.object.tagId = '';
+                        postNameSpace.queue.var.object.videoLink = '' ;
+                        postNameSpace.queue.var.object.videoThumbnail = '' ;
+                        postNameSpace.queue.var.object.loggedUserID = loginNameSpace.loggedUserID ;
+
+                        var redirect = function(){
+                            
+                            if( postNameSpace.queue.var.object.submitType == 1 ){ customNamespace.page.goTo( 'views/dashboard/reactionsView.html' );  }
+                            if( postNameSpace.queue.var.object.submitType == 2 ){ customNamespace.page.goTo( 'views/game-center/gameCenterView.html' );  }
+                            if( postNameSpace.queue.var.object.submitType == 3 ){ customNamespace.page.goTo( 'views/comments/commentsView.html' );  }
+                            if( postNameSpace.queue.var.object.submitType == 4 ){ customNamespace.page.goTo( 'views/team/teampage.html' );  }                        
+                        }
+                        customNamespace.popup.show( {msg:"Sweet sassy molassy! Your post is now being uploaded. Don't worry, we will let you know when it's up!", onBottomButtonClick: redirect } );
+                    }
+                    
+                    error.ErrorCode == 0 ? onSuccess() : error.Execute()  ;
+                    return error ;
+                }
+                
+                var result = condition();
+                result.ErrorCode == 0 ? postNameSpace.queue.add( postNameSpace.queue.var.object ) : console.log('Post View Submit Failed') ;
+            }
+        });
+    </script>
+</div>

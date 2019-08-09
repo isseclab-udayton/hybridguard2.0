@@ -1,0 +1,29 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: be.gents.visitbruges.apk
+compressionType: false
+doNotCompress:
+- arsc
+- jpg
+- assets/www/RESOURCES/heritage_018P.Monney3_720_720_74auto_c1.jpg
+- assets/www/RESOURCES/single_ieper.menenpoort.poppies2_720_720_74auto_c1.jpg
+- mp4
+- png
+- gif
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '10'
+  targetSdkVersion: '15'
+sharedLibrary: false
+sparseResources: true
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '8'
+  versionName: '1.0'

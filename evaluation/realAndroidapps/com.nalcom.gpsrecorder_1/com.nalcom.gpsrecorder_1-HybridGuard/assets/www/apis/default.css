@@ -1,0 +1,348 @@
+ 
+/*
+	E S T I L O S 
+*/
+@font-face 					{	font-family: 'Champagne_Limousines';
+
+ 								/* Para Internet Explorer */
+								src: url('../fuentes/Champagne_Limousines.otf');
+
+ 								/*  Para el resto de navegadores */
+								src: local('Champagne_Limousines'),
+	     						url('../fuentes/Champagne_Limousines.ttf') format('truetype');
+}
+body{
+					   /* IE10 Consumer Preview */ 
+						background-image: -ms-linear-gradient(left, #7a7a7a 0%, #aaaaaa 50%, #7a7a7a 100%);
+						
+						/* Mozilla Firefox */ 
+						background-image: -moz-linear-gradient(left, #7a7a7a 0%, #aaaaaa 50%, #7a7a7a 100%);
+						
+						/* Opera */ 
+						background-image: -o-linear-gradient(left, #7a7a7a 0%, #aaaaaa 50%, #7a7a7a 100%);
+						
+						/* Webkit (Safari/Chrome 10) */ 
+						background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #7a7a7a), color-stop(0.5, #aaaaaa), color-stop(1, #7a7a7a));
+						
+						/* Webkit (Chrome 11+) */ 
+						background-image: -webkit-linear-gradient(left, #7a7a7a 0%, #aaaaaa 50%, #7a7a7a 100%);
+						
+						/* W3C Markup, IE10 Release Preview */ 
+						background-image: linear-gradient(to right, #7a7a7a 0%, #aaaaaa 50%, #7a7a7a 100%);
+	overflow:hidden;
+	text-align: center;
+}
+
+
+	/*position determina la posicion para esta capa---  display genera un tipo de caja*/
+
+	input				{	color: #32614d; background-color: #53545b; font-family: 'Champagne_Limousines'; font-size: 110%;
+						textarea::-webkit-input-placeholder {  color: #85d97d;}}
+	.boton			{color: #F5F5F5; background-color: #4F5B6A; background:#4F5B6A; font-family: 'Champagne_Limousines'; font-size: 110%;}
+	.li				{	width:100%; color: #464646; font-family: 'Champagne_Limousines'; font-size: 100%;  margin-left:0%; text-align:left;}
+	label			{	width:100%; color: #d1d1d1; font-family: 'Champagne_Limousines'; font-size: 100%;}
+	
+	#fondo			{  
+					text-align: center;
+					margin-left:0%;
+					
+	
+					background-image: -ms-linear-gradient(top, #F5F5F5 0%, #C7C7C7 100%);
+					
+					/* Mozilla Firefox */ 
+					background-image: -moz-linear-gradient(top, #F5F5F5 0%, #C7C7C7 100%);
+					
+					/* Opera */ 
+					background-image: -o-linear-gradient(top, #F5F5F5 0%, #C7C7C7 100%);
+					
+					/* Webkit (Safari/Chrome 10) */ 
+					background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F5F5F5), color-stop(1, #C7C7C7));
+					
+					/* Webkit (Chrome 11+) */ 
+					background-image: -webkit-linear-gradient(top, #F5F5F5 0%, #C7C7C7 100%);
+					
+					/* W3C Markup, IE10 Release Preview */ 
+					background-image: linear-gradient(to bottom, #F5F5F5 0%, #C7C7C7 100%);
+					-webkit-border-radius: 5px 5px 5px 5px;
+	
+	
+						
+						
+						
+					}
+					
+	#list			{ margin-right: 6%; overflow:hidden;}
+					   
+					   
+	#divBoton		{position:relative; margin-top:2%; overflow:hidden;width:100%; text-align:center;
+											/* IE10 Consumer Preview */ 
+					background-image: -ms-linear-gradient(top, #F5F5F5 0%, #C7C7C7 100%);
+					
+					/* Mozilla Firefox */ 
+					background-image: -moz-linear-gradient(top, #F5F5F5 0%, #C7C7C7 100%);
+					
+					/* Opera */ 
+					background-image: -o-linear-gradient(top, #F5F5F5 0%, #C7C7C7 100%);
+					
+					/* Webkit (Safari/Chrome 10) */ 
+					background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F5F5F5), color-stop(1, #C7C7C7));
+					
+					/* Webkit (Chrome 11+) */ 
+					background-image: -webkit-linear-gradient(top, #F5F5F5 0%, #C7C7C7 100%);
+					
+					/* W3C Markup, IE10 Release Preview */ 
+					background-image: linear-gradient(to bottom, #F5F5F5 0%, #C7C7C7 100%);
+					-webkit-border-radius: 5px 5px 5px 5px;
+	
+	}
+	#caja{margin-top:7%;size:100%; width:100%; height:auto;
+	 background-color:#F5F5F5; -moz-border-radius :5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px; border:2px solid #F5F5F5; color:#32614d; }
+	
+	#divScroll		{width:100%; height:60%; overflow: scroll; margin-top:5%; position:relative; text-align: left; margin-left: 0%;  }
+	
+	#map_canvas		{left:0; margin-right:2%; width: 98%; height:87%; border: 4px solid #F5F5F5 ; z-index:1; margin-bottom:1%; overflow:hidden;}
+	
+	
+	#Button_Navigator{z-index:2; position:absolute;}
+	
+	.del			{height: auto; width: 40px;}
+	
+	    #loading_1{
+      display:none;
+      background-color:grey;
+      position: fixed;
+      z-index:2;
+      filter:alpha(opacity=60);
+      opacity:.60;
+      overflow:hidden;
+      width:99% fixed;
+      heigth: 99% fixed;
+      bottom: 0;
+      top:0;
+      right: 0;
+      left:0;
+    }
+	
+	#loading{
+	  display:none;
+      background-color:#dbdbdb;
+      color:#595959;
+      margin-left:23%;
+      position: fixed;
+      text-align:center;
+      z-index:3;
+     /* filter:alpha(opacity=60);
+      opacity:.60;*/
+      top:45%;
+      overflow:hidden;
+      font-family: 'Champagne_Limousines';
+      font-size: 120%;
+      width:50%;
+      heigth: 70%;
+      -webkit-border-radius: 5px 5px 5px 5px; border:2px solid #dbdbdb;
+    }
+    
+    .texto{
+    text-align: center; 
+    margin-left:23%;
+    width:50%; height:50%;font-family: 'Champagne_Limousines'; font-size: 100%;margin-top:5%;
+	-moz-border-radius :5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    }
+    
+    .imagen{
+    text-align: center;
+	width:5% fixed; height:5%; 
+    margin-top:5%;
+    }
+    
+    #cancel{
+     background-color:#515151;color:#dbdbdb;
+    text-align: center; 
+    margin-left:23%;
+    width:50%; height:10%;font-family: 'Champagne_Limousines'; font-size: 100%;margin-top:5%;
+	-moz-border-radius :5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    }
+    
+   
+    
+    #fondoNumber{
+    text-align: center;
+	margin-left:0%;
+	height:100%;
+	margin-left:10%;
+	width:80%;
+	overflow: hidden;
+	position: relative;
+	
+	background-image: -ms-linear-gradient(top, #F5F5F5 0%, #C7C7C7 100%);
+					
+					/* Mozilla Firefox */ 
+					background-image: -moz-linear-gradient(top, #F5F5F5 0%, #C7C7C7 100%);
+					
+					/* Opera */ 
+					background-image: -o-linear-gradient(top, #F5F5F5 0%, #C7C7C7 100%);
+					
+					/* Webkit (Safari/Chrome 10) */ 
+					background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F5F5F5), color-stop(1, #C7C7C7));
+					
+					/* Webkit (Chrome 11+) */ 
+					background-image: -webkit-linear-gradient(top, #F5F5F5 0%, #C7C7C7 100%);
+					
+					/* W3C Markup, IE10 Release Preview */ 
+					background-image: linear-gradient(to bottom, #F5F5F5 0%, #C7C7C7 100%);
+	-webkit-border-radius: 5px 5px 5px 5px;
+    }
+    
+     	#config{
+	  display:none;
+      background-color:#dbdbdb;
+      color:#595959;
+      margin-left:23%;
+      position: absolute;
+      text-align:center;
+      z-index:3;
+     /* filter:alpha(opacity=60);
+      opacity:.60;*/
+      top:15%;
+      overflow:hidden;
+      font-family: 'Champagne_Limousines';
+      font-size: 120%;
+      width:50%;
+      heigth: 220 px;
+      -webkit-border-radius: 5px 5px 5px 5px; border:2px solid #dbdbdb;
+    }
+    
+    #divScrollNumber{
+    width:80%; height:200px; margin-top:0%; overflow:scroll;
+     text-align: center; position: relative;
+
+    }
+    
+    #listNumber{
+    text-align:center;
+    float: center;overflow:hidden;  
+    }
+    
+    .item{
+    text-align:center;
+    	margin-bottom: 10%;
+    	background-color: #515151;
+    	color:#c8c8c8;
+    	-webkit-border-radius: 5px 5px 5px 5px; border:2px solid #dbdbdb;
+    }
+    
+    .ctr_setting{
+     background-color:#515151;color:#dbdbdb;
+    text-align: center; 
+    margin-left:23%;
+    width:50%; height:10%;font-family: 'Champagne_Limousines'; font-size: 100%;margin-top:5%;
+	-moz-border-radius :5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    }
+    
+    #caja_timer{
+    margin-right:6%;size:100%;  width:20%; height:auto;
+	 background-color:#F5F5F5; -moz-border-radius :5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px; border:2px solid #F5F5F5; background-color:#aaaaaa; color:#32614d;
+    }
+    
+    
+    
+    #entrada{
+	    width:100%; heigth:auto; color: #FFFFFF; font-family: 'Champagne_Limousines'; 
+	    font-size: 100%; top:0; 
+    }
+    #settings{float:left; align:left; width: 10%; height: auto; margin-bottom:2%;}
+    #ayuda{float:left; align:left; width: 10%; height: auto; margin-left:2%;}
+    
+#toast{
+	position: fixed;
+	bottom: 10%;
+	left: 50%;
+	width: 200px;
+	margin-left: -100px;
+	border: 1px solid #666;
+	background-color: #B1BCCF;
+	padding: 10px 0 ;
+	text-align:center;
+	opacity: .9;
+ 
+	/*The good stuff */
+	-webkit-transition: opacity 0.5s ease-out;  /* Saf3.2+, Chrome */
+	-moz-transition: opacity 0.5s ease-out;  /* FF4+ */
+	-ms-transition: opacity 0.5s ease-out;  /* IE10? */
+	-o-transition: opacity 0.5s ease-out;  /* Opera 10.5+ */
+	transition: opacity 0.5s ease-out;	
+ 
+}
+
+
+
+	#control_mapa {float: bottom left; position: absolute; width:100%; display:block; color:#c8c8c8;
+				 font-family: 'Champagne_Limousines';font-size: 115%; left:0; overflow:hidden;margin-top:2%; }
+	#button_exit{float: left; align:left; margin-left:5%;}
+	#button_ruta{float: left; margin-left:8%}
+	
+	#research{margin-left:8%; float:left; text-align:center; width: 22%; height:auto; background-color:#515151 ;
+	-moz-border-radius :5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px; }
+	#stopresearch{margin-left:8%; float:left;text-align:center; width: 22%; height:auto;background-color:#515151 ;
+	-moz-border-radius :5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px; }
+	#cargando{margin-left:5%; float:left;}
+	
+	.ctr{margin-left:16%; float:left;text-align:center; width: 22%; height:auto;background-color:#515151 ;
+	-moz-border-radius :5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px; }
+	
+	#posiciones     {align:right; float:right; margin-right:3%; margin-top:2px;
+	position:relative; overflow:hidden;}
+	
+	
+
+
+    
+    #ayuda_capa{
+      display:none;
+      background-color:#dbdbdb;
+      color:#595959;
+      float: center;
+      margin-left:23%;
+      position: fixed;
+      text-align:center;
+      z-index:3;
+     /* filter:alpha(opacity=60);
+      opacity:.60;*/
+      top:15%;
+      overflow:hidden;
+      font-family: 'Champagne_Limousines';
+      font-size: 120%;
+      width:50%;
+      heigth: 60%;
+      -webkit-border-radius: 5px 5px 5px 5px; border:2px solid #dbdbdb;
+    }
+    
+    .ayuda_text{
+    	margin-left: 9%;
+    }
+    
+    .ayuda_img{
+    	margin-left: 9%;
+    }
+    .ayuda_img2{
+    	margin-left: 7%;
+    	margin-top: 5%;
+    }
+    #title_gps{
+    	margin-top: 2%;
+    	text-align: right;
+    	
+    	
+    }
+    
+    
+    
+						

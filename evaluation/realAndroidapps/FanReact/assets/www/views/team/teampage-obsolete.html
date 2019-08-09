@@ -1,0 +1,499 @@
+<div id="team-page" data-role="page">
+
+    <div data-role="popup" id="dropdownMenu" class="dropdownMenu" data-theme="d"></div>
+
+
+    <div data-role="content" > 
+                  
+        <script type="text/x-kendo-template" id="team-page-enterGameCenter-template">
+
+            <td colspan="3">
+                <a class="bigbutton white" 
+                	onclick="
+                    		 var data = teampageNameSpace.feedForSingleTeam.Data[0] ;
+                    		followingNameSpace.getEventFromTeamIdAndGoToGameCenter( data.teamId , data.teamName , data.teamIcon );
+                    		"
+                >Enter the Game Center <i class="fa fa-caret-square-o-right"></i>
+            	</a>
+            </td>
+            
+        </script>
+        
+        <script type="text/x-kendo-template" id="team-page-teamImage-template">
+
+            <div class="img" style="background-image: url('{{ teamIcon }}');"></div>
+            
+        </script>
+        
+        <script type="text/x-kendo-template" id="team-page-teamFollowButton-template">
+
+			<a onclick="
+            		   teampageNameSpace.followTeam( { thisButton : this , teamId : {{ teamId }} },
+                       								 function( data ){ $( data.thisButton ).html( 'Unfollow' ) },
+                       								 function( data ){ $( data.thisButton ).html( 'Follow' ) },
+                       								 function( data ){ console.log( data.response ) }
+                       								);
+                       "
+            	class="rounded trans white {{#if isFollowingByThisUser}}{{else}}active{{/if}}" >
+                {{#if isFollowingByThisUser}}Unfollow{{else}}Follow{{/if}}
+            </a>  
+            
+        </script>
+        <style>
+            table.gameBox td.logo {
+                padding: 20px 0px 10px 8px;
+            }
+            table.gameBox td.vs {
+                padding: 20px 0px 10px 0px;
+            }
+            table.gameBox td.rightSide {
+                padding: 20px 8px 10px 0px;
+            }
+        </style>
+        <script type="text/x-kendo-template" id="team-page-reactorOfTheMonth-template">
+
+            <div class="img" 
+            	 onclick="profileNameSpace.profileID = {{ profileId }} ; location.hash='../profile/profileByIdView.html';"
+            	 style="background-image: url('{{ profilePhoto }}');"
+            >
+            </div>
+            <table>
+                <tr>
+                    <td>
+                        <p class="name" onclick="profileNameSpace.profileID = {{ profileId }} ; location.hash='../profile/profileByIdView.html';" >@{{ profileHandle }}</p>
+                    </td>
+                </tr>    
+                <tr>
+                    <td>
+                    	{{#if hideFollowButton}}
+                        <a class="rounded trans white {{#if isFollowingByThisUser}}Follow{{else}}{{/if}}"
+                           id="team-page-teamFanOfTheMonthFollowButton" 
+                            onclick="
+                                	profileNameSpace.followPeople( this , {{ profileId }} , 
+                                    	function(data){ $('#team-page-teamFanOfTheMonthFollowButton').html('Unfollow')} , 
+                                        function(data){ $('#team-page-teamFanOfTheMonthFollowButton').html('Follow')}
+                                        );
+                            		"
+                            >{{#if isFollowingByThisUser}}Unfollow{{else}}Follow{{/if}}
+            			</a>
+                        
+                        {{else}}
+                            <p class="name"> <i class="fa fa-star-o"></i> Congrats! <i class="fa fa-star-o"></i></p>
+  						{{/if}}
+                    </td>
+                </tr> 
+            </table>
+        </script>
+        
+        
+        <script type="text/x-kendo-template" id="team-page-sponsor-teamFollowButton-template">
+            <a 
+               onclick="
+                       teampageNameSpace.followTeam( { thisButton : this , teamId : {{ teamId }} },
+                                                     function( data ){ $( data.thisButton ).html( 'Unfollow' ) },
+                                                     function( data ){ $( data.thisButton ).html( 'Follow' ) },
+                                                     function( data ){ console.log( data.response ) }
+                                                    );
+                       "
+               class="button rounded trans white {{#if isFollowingByThisUser}}{{else}}active{{/if}}" 
+            >
+                {{#if isFollowingByThisUser}}Unfollow{{else}}Follow{{/if}}
+            </a>
+        </script>
+        
+        <script type="text/x-kendo-template" id="team-page-sponsor-teamFollower-template">
+            <a onclick="
+                        customNamespace.page.goTo('views/team/teamFollower.html');
+                        teamFollowerNamespace.var.teamId = teampageNameSpace.teamId  ;
+                       "
+               class="button rounded trans white" 
+            >
+                {{ followers }} Follower{{#if followerIsMoreThanOne}}s{{/if}}
+            </a>
+        </script>
+        
+        <script type="text/x-kendo-template" id="team-page-sponsor-customButtonList-template">
+            {{#each button}}
+                <div class="half-width" >
+                    <a class="button rounded trans white" 
+                       onclick="
+                            	window.open('{{ link }}','_blank');
+                               "
+                    >
+                    	{{ name }}
+                    </a>
+                </div>
+            {{/each}}
+        </script>
+        
+        <script type="text/x-kendo-template" id="team-page-sponsor-enterGameCenter-template">
+            <div class="full-width" 
+                onclick="
+                         var data = teampageNameSpace.feedForSingleTeam.Data[0] ;
+                        followingNameSpace.getEventFromTeamIdAndGoToGameCenter( data.teamId , data.teamName , data.teamIcon );
+                        "
+            >
+                <a class="button rounded trans white">
+                    ENTER THE GAME CENTER
+                </a>
+            </div>
+        </script>
+        
+        <script type="text/x-kendo-template" id="team-page-dropdownMenu-teamList-template">
+            <ul>
+            	{{#each Data}}
+                    <li>
+                        <a 
+                            onclick="
+                            		$('#dropdownMenu').popup('close');
+                                    teampageNameSpace.teamId = {{ teamId }}; $('#teamPosts').empty();
+                                        
+                                    $('#team-page-team-info').fadeIn();
+
+                                    teampageNameSpace.getFeed();
+                                    teampageNameSpace.getThisTeam();
+                                    teampageNameSpace.displayTeamFanOfTheMonth();
+                                    teampageNameSpace.displayTeamTotalReactions();
+                                    teampageNameSpace.sponsor.get(); 
+        							teampageNameSpace.gameCenter.get();
+                                    
+                                    $('.active').removeClass('active'); 
+                                    $('#tabbedPanelstwoRecent').addClass('active');" 
+                           
+                           > 
+                            {{ teamName }}
+                        </a>
+                    </li>
+                {{/each}}
+            </ul>
+        </script>
+
+        <style>
+
+            .sponsor-box{
+                width: 100%;
+                background: #000000;
+                background-size: cover;
+                background-position: center;
+                height: 23em;
+                padding-bottom: .6em;
+                border-collapse: collapse;
+            }    
+            .sponsor-box .half-width {
+                display: inline-block ;
+                width: 45%;
+            }
+
+            .sponsor-box .half-width .button {
+                padding: 5%;
+                width: 85%;
+                background: transparent;
+                text-transform : none ;
+                margin-top: .8em;
+            }
+            .sponsor-box .full-width .button {
+                margin: .7em 0 0em 0;
+                width: 81%;
+                padding: .7em;
+                font-size: 1.2em;
+            }
+            .sponsor-box .buttonHolder {
+                padding-bottom: .6em;
+                padding-top: 1em;
+                background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 19%, rgba(0,0,0,0.65) 100%);
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(19%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0.65)));
+                background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 19%,rgba(0,0,0,0.65) 100%);
+                background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 19%,rgba(0,0,0,0.65) 100%);
+                background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 19%,rgba(0,0,0,0.65) 100%);
+                background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 19%,rgba(0,0,0,0.65) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+            }
+            }
+
+        </style>
+        
+        <table class="sponsor-box" id="team-page-sponsor-info"  style="display:none;">
+            <tr><td valign="bottom" style="padding:0;">
+                <div class="buttonHolder">
+                    <center>
+                        <div class="half-width" id="team-page-sponsor-teamFollowButton-display">
+                            <a class="button rounded trans white" >
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </a>
+                        </div>
+                        <div class="half-width" id="team-page-sponsor-teamFollower-display">
+                            <a class="button rounded trans white" >
+                                <i class="fa fa-spinner fa-spin">
+                                </i>
+                            </a>
+                        </div>
+
+                    </center>
+                    <center id="team-page-sponsor-customButtonList-display">
+                    </center>
+                    <center id="team-page-sponsor-enterGameCenter-display">
+                    </center>
+                </div>
+            </td></tr>
+        </table>
+        <table class="gameBox" id="team-page-team-info" >
+            <tr id="team-page-enterGameCenter-display">
+                <!--<td colspan="3" >
+                    <a class="bigbutton white" href="#">No Game Playing<i class="fa fa-caret-square-o-right"></i></a>
+                </td>-->
+            </tr>
+            <tr>
+                <td class="logo" id="team-page-teamImage-display">
+                    <div class="img" style="background:grey; opacity:.1; "><i class="fa fa-spinner fa-spin"></i></div>
+                </td>
+                <td class="vs">
+                    <p onclick="
+                                customNamespace.page.goTo('views/team/teamFollower.html');
+                                teamFollowerNamespace.var.teamId = teampageNameSpace.teamId  ;
+                               "
+                       class="number" id="team-page-fanNumber"
+                    >
+                        <i class="fa fa-spinner fa-spin" style="opacity:.3; "></i>
+                    </p>
+                    <p onclick="
+                                customNamespace.page.goTo('views/team/teamFollower.html');
+                                teamFollowerNamespace.var.teamId = teampageNameSpace.teamId  ;
+                               "
+                    >
+                        FANS
+                    </p>
+                    <p class="number" id="team-page-reactionNumber"><i class="fa fa-spinner fa-spin" style="opacity:.1; "></i></p>
+                    <p>REACTIONS</p>
+                </td>
+                <td class="rightSide" id="team-page-teamFollowButton-display">
+                    <a class="rounded trans white" style="background:grey; opacity:.1; " href="#"><i class="fa fa-spinner fa-spin"></i></a>
+                </td>
+            </tr>
+            
+            <tr id="team-page-reactorOftheMonthHolder">
+                <td colspan="3">
+
+                    <div class="reactorOfMonth" >
+                        <p>REACTOR OF THE MONTH</p>
+                        <div class="user" id="team-page-reactorOfTheMonth-display">
+                            <div class="img" style="background:grey;opacity:.1;"></div>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <p class="name" align="center" style="opacity:.1;"><i class="fa fa-spinner fa-spin"></i></p>
+                                    </td>
+                                </tr>    
+                               <tr>
+                                    <td>
+                                        <a class="rounded trans white" href="#" style="opacity:.1;">
+                                            <center><i class="fa fa-spinner fa-spin"></i></center>
+                                        </a>
+                                    </td>
+                                </tr> 
+                            </table>
+                        </div>
+
+                    </div>
+
+                </td>
+            </tr>
+        </table>
+
+        <div id="NotAllowEnterPage" style="display:none;height:500px;">
+
+            <br />
+            <pie class="circle" style="padding-top:10px;">
+                <p>Fans needed <br />to open this board</p>
+                <h1 style="padding-top:15px;"><span id="NotAllowEnterPageNumber" style="font-size:20px;"></span></h1>
+                <a href="#" onclick="customNamespace.invite();" style="color:#ffffff;">Click Here to<br>Invite friends</a>
+            </pie>
+        </div>
+
+
+        <div id="teamTrending" style="background:white;"></div>
+            
+        <script type="text/x-kendo-template" id="team-page-customStyle-template">
+            <style>
+            ul.tabbedPanels a {
+                background: {{ color }} ;
+                border-color: {{ color }} ; 
+            }
+            ul.tabbedPanels li {
+    			background: white;
+            }
+            ul.tabbedPanels li.active a {
+                background:  {{ color }} ; 
+            }
+            .ui-header .ui-title.noBg {
+                background:  {{ color }} !important;
+            }
+            </style>
+        </script>
+
+        <div id="team-page-customStyle-display">          
+        </div>
+        
+        
+        
+        <script type="text/x-kendo-template" id="team-page-teamPosts-template">
+        
+            <div class="entry">
+                <div class="avatar">
+                    <ul class="entryData">
+                        <li><i class="fa fa-clock-o"></i>{{ postCreateDate }}</li>
+                        <li><i class="fa fa-eye"></i>{{ postFlagMessage }}</li>
+                        <li><i class="fa fa-comments"></i>{{ postUpvoteDownvoteCount }}</li>
+                    </ul>
+                    <div class="img round" style="background-image: url('{{ profilePhoto }}');"></div>
+                    <p class="username">
+                    	<a onclick="profileNameSpace.profileID = {{ profileId }} ; location.hash='../profile/profileByIdView.html';" class="ui-link">
+                    		{{ profileHandle }}
+            			</a>
+            		</p>
+                    <p class="message title" onclick="  location.hash='../comments/commentsView.html';  commentNameSpace.postId={{ postId }};">{{ postTitle }}</p>
+                    <p class="message desc" onclick="  location.hash='../comments/commentsView.html';  commentNameSpace.postId={{ postId }};">{{ postDescription }}</p>
+                </div>
+                <div class="{{ classForimgDiv }}" style="background-image: url('{{ postImageLink }}');" 
+                	 onclick="  location.hash='../comments/commentsView.html';  commentNameSpace.postId={{ postId }};"><span></span></div>
+                <div class="postOptions" cellpadding="0" cellspacing="0" style="  width: 100%; margin: 0 -10px;">
+                    <p class="comment">
+                    	<a onclick="  
+                                    postNameSpace.queue.var.object.submitType = 4 ;
+                                    postNameSpace.queue.var.object.submitTypeDesc = 'Create A New Post For a Team Board' ;
+                                    postNameSpace.queue.var.object.teamid = {{ teamId }};  
+                                    postNameSpace.queue.var.object.team = { teamId : {{ teamId }} , teamName : '{{ PostedIn }}' } ;
+                                    location.hash='../post/postView.html';
+                            	   " 
+                            data-transition="none"
+                         >
+                            Add a reaction...
+            			</a>
+                    </p>
+                    <ul class="thumbs">
+                        <li class="up">
+                            <a href="#"><i onclick="votingNameSpace.checkIfThisPostVoteInSqlLiteAndAction( {{ postId }} , 1 )" class="fa fa-thumbs-o-up"></i>30</a>
+                        </li>
+                        <li class="down">
+                            <a href="#"><i onclick="votingNameSpace.checkIfThisPostVoteInSqlLiteAndAction( {{ postId }} , -1 )" class="fa fa-thumbs-o-down"></i>15</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </script>
+        
+        <div id="team-page-teamPosts-display" class="blogFeed">
+        </div>
+        
+    </div><!--content-->
+
+ 
+	<style>
+        .ui-header .ui-title a {
+            display: inline-block ;
+            padding: 0 ;
+        }
+    </style>
+
+    
+    
+    <script>
+        var html = '<span onclick="history.back();"><i class="fa fa-angle-left"></i> &nbsp; </span><a class="dropdown" style="  text-overflow: ellipsis; overflow:hidden ; " href="#dropdownMenu" data-rel="popup" data-role="button" data-inline="true" data-transition="slidedown"></a><a data-role="none"  onclick="$(\'#dropdownMenu\').popup(\'open\', { positionTo : this } )"><i class="fa fa-chevron-down"></i></a>';
+        customNamespace.header.changeTitle( { html : html , onclick : function(){ } } );
+
+        
+
+        $(document).on('pageshow', '#team-page', function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+
+            $('#tabbedPanelstwo').show();
+            customNamespace.sizing();
+
+            // display refresh button
+            $("#refresh").show();
+            // rewrite refresh button onclick event
+            customNamespace.refresh = function(){
+                
+                $('#refresh span').html('updating... ' );
+                
+                customNamespace.recent();
+                $( document ).ajaxComplete(function() {
+                    
+                    $('#refresh span').empty();
+                    $( document ).unbind('ajaxComplete');
+                });
+            }
+            
+        });
+
+                    
+        teampageNameSpace.getFeed();
+        teampageNameSpace.getThisTeam();
+        teampageNameSpace.getTeamsForDropDown();
+        teampageNameSpace.displayTeamFanOfTheMonth();
+        teampageNameSpace.displayTeamTotalReactions();
+        teampageNameSpace.sponsor.get(); 
+        teampageNameSpace.gameCenter.get();
+
+        if ( navigator.connection.type == 'none') {
+            $('#team-page').hide();
+        };
+
+        
+        $('.dropdownMenu').popup();
+        
+        $('#tabbedPanelstwoRecent').addClass('active');
+        // recent and trending onclick event
+        customNamespace.recent = function () {
+            $('.active').removeClass('active');
+            $('#team-page-teamPosts-display').empty();
+            $('#teamTrending').empty();
+            teampageNameSpace.getFeed();
+            
+            
+            // rewrite refresh button onclick event
+            customNamespace.refresh = function(){
+                
+                $('#refresh span').html('updating... ' );
+                
+                
+                teampageNameSpace.getFeed();
+                $( document ).ajaxComplete(function() {
+                    
+                    $('#refresh span').empty();
+                    
+                    $( document ).unbind('ajaxComplete');
+                });
+            }
+        }
+        customNamespace.trend = function () {
+            $('.active').removeClass('active');
+
+            $('#team-page-teamPosts-display').empty();
+            $('#teamTrending').empty();
+            teampageNameSpace.getTrend();
+            
+            
+            // rewrite refresh button onclick event
+            customNamespace.refresh = function(){
+                
+                $('#refresh span').html('updating... ' );
+                
+                teampageNameSpace.getTrend();
+                $( document ).ajaxComplete(function() {
+                    
+                    $('#refresh span').empty();
+                    
+                    $( document ).unbind('ajaxComplete');
+                });
+            }
+            
+        }
+        
+        
+	</script>
+    
+</div>
+

@@ -1,0 +1,609 @@
+* {
+    
+    -webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
+    
+    -webkit-text-size-adjust: none; /* prevent webkit from resizing text to fit */
+
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    
+    -webkit-user-select: text; /* prevent copy paste, to allow, change 'none' to 'text' */
+    
+}
+
+
+/****************** ALLGEMEIN *****************/
+.ui-page {
+    width: 100% !important;
+    
+}
+
+.noPaddingNoMargin{
+
+    margin:0;
+    padding: 0px;
+}
+
+.noDistanceTopLeftRight{
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.zentriert{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.source{
+    font-size: 10px;
+}
+
+.clearFloat{    
+	clear: both
+}
+
+.adView{
+    margin-bottom: -2px;
+}
+
+.adBanner{
+    width: 100%;
+}
+
+
+
+.checkBoxLeft{
+    position: absolute;
+    right: 50px;
+    top: 40%;
+}
+
+/************ HEADER ************  */
+.headerRight{
+    width: 90%; 
+    float: right;
+}
+
+.headerLeft{
+    width: 10%;
+}
+
+.headerImage{
+    width: 100%;
+    margin-bottom: -5px; 
+}
+
+
+
+/************** MAIN ***************/
+.mainImage{
+    width: 100%;
+    height: 100%;
+}
+
+.kachel{
+	float: left;
+	margin-left: 5px;
+	height: 200px;
+	width: 140px;
+}
+/* Main Menu */
+/*.hintergrund{ 
+	background: url('bilder/Hintergrund.png');
+}
+
+.mainSehenswert{
+    position: absolute;
+    top: 62px;
+    left: 8px;
+}
+
+.mainShop{
+    position: absolute;
+    top: 62px;
+    left: 167px;"
+}
+
+.mainParken{
+    position: absolute;
+    top: 179px;
+    left: 8px;
+}
+
+.mainGastro{
+    position: absolute;
+    top: 179px;
+    left: 167px;
+}
+
+.mainSpecial{
+    position: absolute;
+    top: 295px;
+    left: 8px;
+}
+
+.mainEvents{
+    position: absolute;
+    top: 295px;
+    left: 167px;
+}*/
+
+
+/************** Categorie Pages *************/
+/* Navigation */
+.sliderNavigation{
+    position: relative;
+    width: 100%;
+    background-color: black;
+    padding-left: 20px;
+}
+
+.leftArrow{
+    position:absolute;
+    left: 5px;
+    top: 120px;
+    z-index: 99;
+}
+
+.rightArrow{
+    position:absolute;
+    left: 295px;
+    top: 120px;
+    z-index: 99;
+}
+
+/* erste Listen eintrag für Shop und Gastro */
+.versial{
+    text-transform: uppercase;
+}
+
+.catPage, .catSubPage{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: none;
+}
+
+.catPage ul, .catSubPage ul{
+    margin-top: 0px;
+}
+
+.listDown{
+    margin-top: 15px; /* Iphone */
+}
+
+/*********************** LISTEN *****************/
+
+/*** linkes Item (bild) ***/
+.listPic{
+    padding: 5px;
+    float: left;
+    margin-left: -10px;
+    
+}
+
+.listPic img{
+    min-width: 40px;
+    max-width: 50px;
+    min-height: 40px;
+    max-height: 50px;
+}
+
+/*** rechtes Item (text) ***/
+.listWithPic{
+    margin-left: 50px;
+}
+
+.listWithoutPic{
+    margin-left: 5px;
+}
+
+
+/**** Text Liste **/
+.listInsiderImage{
+    background-image: url('../bilder/insider/Tipp_30.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.listTitle{
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+/* breakingNews */
+.listSpecialTitle{
+    font-size: 13px; 
+    font-weight: bold; 
+    color: red;
+}
+
+.listSubTitle{
+    font-weight: normal;
+    font-size: 12px; 
+}
+
+.listText{
+    font-weight: normal;
+    font-size: 12px; 
+}
+
+.listDate{
+    font-weight: normal;
+    font-size: 12px;
+}
+
+/****** Liste mit Checkboxen *****/
+.listLink{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    text-decoration: none !important;
+}
+
+.listFirstLabel{
+    border-top-width: 0px !important;
+    margin-top: 0px !important;
+    border-bottom-width: 0px !important;
+    margin-bottom: 0px !important;
+    border-left-width: 0px !important;
+    border-right-width: 0px !important;
+}
+.listSecondLabel{
+    border-top-width: 0px !important;
+    margin-top: 0px !important;
+    border-bottom-width: 0px !important;
+    margin-bottom: 0px !important;
+    border-left-width: 0px !important;
+    border-right-width: 0px !important;
+}
+/**** Button Liste ***/
+.nextButton{
+     text-align: right;
+}
+
+.prevButton{
+    text-align: left;
+}
+
+/*********************** DETAIL *********************/
+#detailPic{
+    text-align: center; 
+}
+.sliderDetail {
+	margin: 0 auto;
+	padding: 0;
+	height: 200px;
+	width: 320px;
+    overflow: hidden;
+	visibility: hidden;
+}
+
+.sliderPictureDetails{
+	height: 200px;
+	width: 320px;
+}
+
+.pagingDetail {
+    text-align: center;
+    margin-top: -20px;
+    
+}
+
+.pagingDetail span {
+    text-decoration: none;
+    color: silver;
+}
+
+.pagingDetail span.active {
+    font-size: 60px;
+    color: black;
+}
+
+.paging2 span {
+	font-size: 60px;
+}
+
+.noDots{
+    text-align: left;
+    margin-top: 0px;
+}
+
+.noDots span{
+    text-decoration: none;
+    color: white;
+}
+
+.noDots span.active{
+    font-size: 0px;
+    color: white;
+}
+
+
+.detailBereich{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.detailServerText{
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.detailServerText img{
+    max-width: 300px;
+    max-height: 350px;
+}
+
+
+.detailTitle, .detailServerText h1{
+    font-size: 14px; !important;
+    font-weight: bold; !important;
+}
+
+.detailSubTitle, .detailServerText h2{
+    font-weight: normal; !important;
+    font-size: 13px; !important;
+}
+
+.detailSubSubTitle{
+    font-weight: bold !important;
+    font-size: 13px !important;
+    padding: 0;
+}
+
+.detailText{
+    font-weight: normal; !important;
+    font-size: 12px; !important;
+}
+
+.detailDate{
+    font-weight: normal; !important;
+    font-size: 12px; !important;
+}
+
+.detailMinPic{
+    height: 100px;
+	width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.detailPic2{
+    width: 300px;
+}
+
+.detailButton{
+    text-align: left;
+    float: left;
+    margin-right: 13px;
+    margin-bottom: 10px;
+}
+
+.detailButton img{
+	height: 65px;
+}
+
+.detailButtonFacebook{
+    text-align: left;
+    float: left;
+    margin-top: 35px;
+    margin-right: 0px;
+}
+
+.detailButtonFacebook img{
+    height: 30px;
+}
+
+.detailLocation{
+    padding: 5px;
+    text-decoration: underline;
+}
+
+.detailInfoBox{
+    
+    border: 3px solid #717171;
+	min-height: 100px;
+    margin-top: 15px;
+}
+
+.detailInfoBox h1 {
+    font-size: 14px;
+	padding: 0;
+	margin: 0 0 2px 0;
+}
+
+.detailInfoBox div{
+	text-align: left;
+	padding: 5px 5px;
+}
+
+.videoTitle{
+    padding-bottom: 5px;
+}
+
+.detailLinkOptik{
+    color: blue;
+    text-decoration: underline;
+    
+}
+/******************** SEHENSWERT *************/
+/* Menü*/
+.backgroundImage{
+    position: absolute;
+    top: 30px;
+    width: 100%;
+}
+
+.menuePosition{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    z-index: 999;
+}
+
+.menue_sehenswert_left{
+    background: url('../bilder/menu/city/Button1_transp_20x140_2.png') no-repeat;
+    text-align: left;
+    width: 140px;
+    height: 20px;
+}
+
+.menue_sehenswert_left  h1 {
+    font-family: Arial,Verdana,sans-serif;
+    color: black;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-left: 5px;
+}
+
+.menue_sehenswert_right h1{
+    font-family: Arial,Verdana,sans-serif;
+    color: black;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-right: 5px;
+}
+
+.menue_sehenswert_right{
+    background: url('../bilder/menu/city/Buttonr_transp_20x140_2.png') no-repeat top right;
+    height: 20px;
+    
+    
+}
+
+.menue_sehenswert_abstandTop{
+	margin-top: 15px;
+}
+
+.leftSehenswertKirchen{
+	
+	text-align:left;
+    float:left;
+    margin-top: 15px;
+}
+
+.rightSehenswertKirchen{
+	
+	text-align:right;
+    margin-top: 15px;
+}
+
+
+/*********************** TITEL ******************/
+.eventsTitle{
+    color: #a246f9; 
+    font-weight: bold;
+}
+
+.specialTitle{
+    color: #ec8c51; 
+    font-weight: bold;
+}
+
+.radarReportTitle{
+    font-weight: bold;
+    color: #5A93ed;
+    text-align: center;
+}
+
+.trafficReportTitle{
+    font-weight: bold;
+    color: #5A93ed;
+    text-align: center;
+}
+/*********************** FORMS ******************/
+.form{
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-top: 10px; 
+}
+
+.formTitle{
+    font-size: 16px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: black;
+}
+
+.formLabel{
+    font-size: 13px;
+}
+
+.formSendButton{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+#deviceIDString {
+    position: absolute;
+    bottom: 70px;
+    left: 5px;
+    text-shadow: none;
+    font-size: 6px;
+    color: white;
+}
+
+
+/*********************** KARTE ******************/
+.showKarte{
+	width:320px;
+    height:351px;
+}
+
+/******************** IPHONE 5 *******************/
+
+/*@media only screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
+    
+    /* Main Menu 
+    .mainSehenswert{
+        position: absolute;
+        top: 82px;
+        left: 8px;
+    }
+    
+    .mainShop{
+        position: absolute;
+        top: 82px;
+        left: 168px;
+    }
+    
+    .mainParken{
+        position: absolute;
+        top: 210px;
+        left: 8px;
+    }
+    
+    .mainGastro{
+        position: absolute;
+        top: 210px;
+        left: 168px;
+    }
+    
+    .mainSpecial{
+        position: absolute;
+        top: 346px;
+        left: 8px;
+    }
+    
+    .mainEvents{
+        position: absolute;
+        top: 346px;
+        left: 168px;
+    }
+    
+    
+    /* Karte 
+    .showKarte{
+        width:320px;
+        height:455px;
+    }
+    
+}*/

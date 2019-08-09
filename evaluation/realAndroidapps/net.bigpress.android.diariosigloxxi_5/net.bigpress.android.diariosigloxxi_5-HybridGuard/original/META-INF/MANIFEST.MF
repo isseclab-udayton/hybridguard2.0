@@ -1,0 +1,533 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_191 (Oracle Corporation)
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/pics/paula_gates.jpg
+SHA-256-Digest: BJCsoQvPXLPzd522NpMJCgmYy4D3Xh/Jr0oxEm31l3M=
+
+Name: assets/www/js/policy_config.json
+SHA-256-Digest: fhZZxn32eSX/o5cbe4FFxMCwS7VkYv7N33GKH1b5YUQ=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/css/
+ styles.css
+SHA-256-Digest: XjCZFxidm+FwlUYong8hzQ/PFW0fvM0sB4KWACLwGE0=
+
+Name: assets/www/original_index.html
+SHA-256-Digest: Rihduv79HhSC1fbhU4CzmghVVyBUIVAZhknyWhVmAD4=
+
+Name: assets/www/js/HybridGuard.js
+SHA-256-Digest: 0zIOAIf9+bLCB9VHpmxNf7K8wQIRpmZERo21YfWWz7U=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/pics/james_king.jpg
+SHA-256-Digest: gwpHPOvA+1xZskXQXsw8BseXId8HGxGeOdy+IrYkgaE=
+
+Name: assets/www/js/jquery.js
+SHA-256-Digest: lR1rrjnrFy9XqIvWhvepIc8GD9IfWWSPDSC2qPmPxaU=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/css/
+ images/icons-18-black.png
+SHA-256-Digest: B9GlAZg9a3nBStOo3PFjgYyebDrbS/wZOJPXw4PrJHw=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/pics/paula_gates.jpg
+SHA-256-Digest: BJCsoQvPXLPzd522NpMJCgmYy4D3Xh/Jr0oxEm31l3M=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/inde
+ x.html
+SHA-256-Digest: Rihduv79HhSC1fbhU4CzmghVVyBUIVAZhknyWhVmAD4=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/css/images/icons-18-
+ black.png
+SHA-256-Digest: B9GlAZg9a3nBStOo3PFjgYyebDrbS/wZOJPXw4PrJHw=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/js/jquery.mobile-1.0
+ rc1.min.js
+SHA-256-Digest: uvKxlyu7YFHHD+RtSV0WaKshBggcFa5mUMvK+f1Y3Yk=
+
+Name: assets/www/css/images/icons-36-white.png
+SHA-256-Digest: zaKtanJS0Shb3XgJ1qBeJZQ/uwMc2AX7yXYCh1Aos04=
+
+Name: assets/www/pics/gary_donovan.jpg
+SHA-256-Digest: 2zIKewJatmZjRSTHIZqmgI9sD4qS8WGDDuKVLNiVAgA=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/js/jquery.mobile-1.0rc2.m
+ in.js
+SHA-256-Digest: xWlW/XSe0qktTShef2vXW0tFlL5d2QNX8YNbhPUIUog=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/pics/james_king.jpg
+SHA-256-Digest: gwpHPOvA+1xZskXQXsw8BseXId8HGxGeOdy+IrYkgaE=
+
+Name: assets/www/pics/james_king.jpg
+SHA-256-Digest: gwpHPOvA+1xZskXQXsw8BseXId8HGxGeOdy+IrYkgaE=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/services
+ /getreports.php
+SHA-256-Digest: MVHCgelxgetztsC0AEFZVrkc7QyVzOjybsmrYNZ1dfc=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/index.html
+SHA-256-Digest: Rihduv79HhSC1fbhU4CzmghVVyBUIVAZhknyWhVmAD4=
+
+Name: assets/www/index.html
+SHA-256-Digest: tN0o8vXHQIqp+wwbLT+liriZ5UqDHmQ8sQ/+a3gK/6A=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/index.php
+SHA-256-Digest: 5PlPJ1hps5qmiURf0zr+LQ17c0ZLgAG4T1GYA5lnDd4=
+
+Name: assets/www/js/employeedetails.js
+SHA-256-Digest: e0vTC2nwMHsseOZwLNwGZftj+UbRd91gtiTvK71Mq7E=
+
+Name: assets/www/css/images/icons-36-black.png
+SHA-256-Digest: p9ZUba35DWWIEA3ErtQac2mgc4t4gR8yIXjJZwHsXJU=
+
+Name: assets/www/pics/john_williams.jpg
+SHA-256-Digest: oNvDgtGa26TvTWKd6SjlYKYShumkuuqiLtTi/WpGQko=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/css/images/ajax-load
+ er.png
+SHA-256-Digest: R7M2umG2Gi6wFOLoDoZSRI7t9S6MOWg2FAztJ5TUtt8=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/pics/lisa_wong.jpg
+SHA-256-Digest: BR4Z0cWtQHbGibVKwAeTbp4TWDvzSG6SlaTAuHWLQ9g=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/js/e
+ mployeelist.js
+SHA-256-Digest: hehndE/lQDghpXjSJ5XZYhX9fKQ5XM+qfNtspUPXMjk=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/pics/john_williams.j
+ pg
+SHA-256-Digest: oNvDgtGa26TvTWKd6SjlYKYShumkuuqiLtTi/WpGQko=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/pics
+ /paula_gates.jpg
+SHA-256-Digest: BJCsoQvPXLPzd522NpMJCgmYy4D3Xh/Jr0oxEm31l3M=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/pics
+ /kathleen_byrne.jpg
+SHA-256-Digest: 0cI3kktr68xcbgS/YSeCYaV2WxkgMQFt/BkbRT99ZoI=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/css/images/icons-18-
+ white.png
+SHA-256-Digest: xADrueL8zr/kWvIY62/zOKMszFALFPy8wubxo62GHLs=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/js/employeedetails.j
+ s
+SHA-256-Digest: e0vTC2nwMHsseOZwLNwGZftj+UbRd91gtiTvK71Mq7E=
+
+Name: assets/www/pics/steven_wells.jpg
+SHA-256-Digest: yfo0HpmfYpyu4PNqeLreHYFfP8seujj4bsIUI6zKnCc=
+
+Name: assets/www/js/jquery.mobile-1.0rc1.min.js
+SHA-256-Digest: uvKxlyu7YFHHD+RtSV0WaKshBggcFa5mUMvK+f1Y3Yk=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/css/
+ images/icons-18-white.png
+SHA-256-Digest: xADrueL8zr/kWvIY62/zOKMszFALFPy8wubxo62GHLs=
+
+Name: assets/www/js/reportlist.js
+SHA-256-Digest: BYywxT3mzHaJ88bj0KIcMSjgEe18lIbC/07vt0a9Vz4=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/reportlist.php
+SHA-256-Digest: BaTf2R/BFgE20HZTU1crakpF7Waybs90z/axzhHBrCc=
+
+Name: resources.arsc
+SHA-256-Digest: vncXLDDQk9/kl6PaUi+Ibc76LCWORDlpYlZm59Db6jw=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/employeedetails.php
+SHA-256-Digest: vs2THWzsYz1AnfNImExUsArrwIt96TykcP9ON7zVTT4=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/js/j
+ query.js
+SHA-256-Digest: lR1rrjnrFy9XqIvWhvepIc8GD9IfWWSPDSC2qPmPxaU=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/pics/julie_taylor.jpg
+SHA-256-Digest: 5zk03Vny//Et+h/uwDdCmgvy2bsPh/lkdwABsEe2wGg=
+
+Name: assets/www/pics/kathleen_byrne.jpg
+SHA-256-Digest: 0cI3kktr68xcbgS/YSeCYaV2WxkgMQFt/BkbRT99ZoI=
+
+Name: AndroidManifest.xml
+SHA-256-Digest: fH8Bah1jaHQtHKoeOQNV6typXE67RRWiphH2Weo1jB4=
+
+Name: res/drawable-hdpi-v4/diario_512_24_bits.png
+SHA-256-Digest: 3s7ZvUXON+/WdyF9FD4iv2nlK0F7vmG8b3fOXj4pTRg=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP.zip
+SHA-256-Digest: dvyxMH8mH8e1nhtUBFn1VRSKeszN6Y6RHKCpt3zON4M=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/pics/gary_donovan.jp
+ g
+SHA-256-Digest: 2zIKewJatmZjRSTHIZqmgI9sD4qS8WGDDuKVLNiVAgA=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/pics/paul_jones.jpg
+SHA-256-Digest: jl7oOWPIupEIcNvw0O9P7il0rTlGWUT1Lni7B/TFsBw=
+
+Name: res/xml/plugins.xml
+SHA-256-Digest: KsB5zo83JFlAjr5innlHQCFO2UtGzinNfGBYZ236veE=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/pics/eugene_lee.jpg
+SHA-256-Digest: pFvASaN7WlMDwrwtCAFUlvmAgQ8VM5Rhyh+W/GmdCOw=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/config.php
+SHA-256-Digest: 74amlsfBMMZIlsbRSUKfB1J2dDLDdKl6gz8eic1VKVI=
+
+Name: assets/wwwold/jquery.mobile-1.0a4.1.js
+SHA-256-Digest: mCmgQzQTAhsS6XnkXaqOn0j5TOz+MOKfoERrOlSqIXw=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/css/styles.css
+SHA-256-Digest: XjCZFxidm+FwlUYong8hzQ/PFW0fvM0sB4KWACLwGE0=
+
+Name: assets/www/reportlist.html
+SHA-256-Digest: 2CnLZdP9or1TES9exvgv0w44V4YYqX/ntYnh1Kov8g4=
+
+Name: assets/www/css/images/ajax-loader.png
+SHA-256-Digest: R7M2umG2Gi6wFOLoDoZSRI7t9S6MOWg2FAztJ5TUtt8=
+
+Name: assets/www/css/images/icons-18-black.png
+SHA-256-Digest: B9GlAZg9a3nBStOo3PFjgYyebDrbS/wZOJPXw4PrJHw=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/services
+ /config.php
+SHA-256-Digest: 74amlsfBMMZIlsbRSUKfB1J2dDLDdKl6gz8eic1VKVI=
+
+Name: assets/www/pics/lisa_wong.jpg
+SHA-256-Digest: BR4Z0cWtQHbGibVKwAeTbp4TWDvzSG6SlaTAuHWLQ9g=
+
+Name: assets/wwwold/EmployeeDirectoryJQM.zip
+SHA-256-Digest: zfnNht2+fFfI7tsub/Iov/s2+p/kW4Ea/ErWiSj4IAw=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/pics/lisa_wong.jpg
+SHA-256-Digest: BR4Z0cWtQHbGibVKwAeTbp4TWDvzSG6SlaTAuHWLQ9g=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/css/images/icons-36-
+ black.png
+SHA-256-Digest: p9ZUba35DWWIEA3ErtQac2mgc4t4gR8yIXjJZwHsXJU=
+
+Name: assets/wwwold/jquery-1.6.1.min.js
+SHA-256-Digest: x4Q3aWDzFj3HYLwBnnLl/teCA3RaVRDGmZKjnR2P53Y=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/js/jquery.js
+SHA-256-Digest: lR1rrjnrFy9XqIvWhvepIc8GD9IfWWSPDSC2qPmPxaU=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/pics/steven_wells.jp
+ g
+SHA-256-Digest: yfo0HpmfYpyu4PNqeLreHYFfP8seujj4bsIUI6zKnCc=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/services/directory.sql
+SHA-256-Digest: 53yLih+kRA+xlB9veQAsRy2+gJfzNx2xxpIkR+yemXg=
+
+Name: assets/wwwold/images/ajax-loader.png
+SHA-256-Digest: R7M2umG2Gi6wFOLoDoZSRI7t9S6MOWg2FAztJ5TUtt8=
+
+Name: assets/wwwold/images/icon-search-black.png
+SHA-256-Digest: w3t+WtpqDK0ABV8Hk6YwY23PRgtC0IZCDchQgjv5HkI=
+
+Name: assets/www/css/images/icons-18-white.png
+SHA-256-Digest: xADrueL8zr/kWvIY62/zOKMszFALFPy8wubxo62GHLs=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/services
+ /directory.sql
+SHA-256-Digest: 53yLih+kRA+xlB9veQAsRy2+gJfzNx2xxpIkR+yemXg=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/css/images/icons-36-
+ white.png
+SHA-256-Digest: zaKtanJS0Shb3XgJ1qBeJZQ/uwMc2AX7yXYCh1Aos04=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/reportlist.html
+SHA-256-Digest: 2CnLZdP9or1TES9exvgv0w44V4YYqX/ntYnh1Kov8g4=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/services
+ /getemployee.php
+SHA-256-Digest: y5v2pc8442qlLzmOrf0d9lCUeaWH9QyCSYMPk3h6pdY=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/pics
+ /ray_moore.jpg
+SHA-256-Digest: vI/XiYzB5ixHMEs332hLc9ngCP6y72kxvDq6xR+MRgs=
+
+Name: assets/www/css/jquery.mobile-1.0rc1.min.css
+SHA-256-Digest: Hnrzf/bS3LC2y4hu8VEQjecaMyYbfAgOeb0Hu34l14c=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/services
+ /getemployees.php
+SHA-256-Digest: zD2hI4lhv/ihk4wnaNGG8tdUX6Y5ftbRTknGIPVC86M=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/pics/julie_taylor.jp
+ g
+SHA-256-Digest: 5zk03Vny//Et+h/uwDdCmgvy2bsPh/lkdwABsEe2wGg=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/css/images/icons-36-white
+ .png
+SHA-256-Digest: zaKtanJS0Shb3XgJ1qBeJZQ/uwMc2AX7yXYCh1Aos04=
+
+Name: assets/wwwold/jquery.mobile-1.0a4.1.min.css
+SHA-256-Digest: 978nI9A6V4ExfNFLy9I784E7HnhHhboeps9O3QWSCcY=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/css/
+ jquery.mobile-1.0rc1.min.css
+SHA-256-Digest: Hnrzf/bS3LC2y4hu8VEQjecaMyYbfAgOeb0Hu34l14c=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/pics/kathleen_byrne.
+ jpg
+SHA-256-Digest: 0cI3kktr68xcbgS/YSeCYaV2WxkgMQFt/BkbRT99ZoI=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/css/
+ images/ajax-loader.png
+SHA-256-Digest: R7M2umG2Gi6wFOLoDoZSRI7t9S6MOWg2FAztJ5TUtt8=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA-256-Digest: GOF1k/cD9mbOzTLBPIgMiKgz1lV6xzFC5cjXHWa/Nw0=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/pics
+ /paul_jones.jpg
+SHA-256-Digest: jl7oOWPIupEIcNvw0O9P7il0rTlGWUT1Lni7B/TFsBw=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/css/jquery.mobile-1.
+ 0rc1.min.css
+SHA-256-Digest: Hnrzf/bS3LC2y4hu8VEQjecaMyYbfAgOeb0Hu34l14c=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/js/r
+ eportlist.js
+SHA-256-Digest: BYywxT3mzHaJ88bj0KIcMSjgEe18lIbC/07vt0a9Vz4=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/pics
+ /amy_jones.jpg
+SHA-256-Digest: yRUK1wQhM/M/JTO1QFG1tO9hnCIEOBpeT6uJhr2Th8E=
+
+Name: assets/wwwold/images/icons-36-white.png
+SHA-256-Digest: X1CfWVsb0mAK1v0ksIhYTSuwgZWAkQo2gct0M9DdH5w=
+
+Name: assets/wwwold/jquery.mobile-1.0a4.1.css
+SHA-256-Digest: sV/vVZf84aXqV3Qb928K183yclsgQygCsuCY4mUc5Ug=
+
+Name: net/bigpress/android/diariosigloxxi/cordovaExample.java-e
+SHA-256-Digest: ViJ9Zizu9hNBLWCz83ieVAmPx1kJF30x3lZnysRdRz8=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/pics/amy_jones.jpg
+SHA-256-Digest: yRUK1wQhM/M/JTO1QFG1tO9hnCIEOBpeT6uJhr2Th8E=
+
+Name: res/drawable-ldpi-v4/ic_launcher.png
+SHA-256-Digest: LjAEw/EkKHNtQcVtTu9gANLHUgmOd6xzymTckmD1xOA=
+
+Name: assets/www/pics/amy_jones.jpg
+SHA-256-Digest: yRUK1wQhM/M/JTO1QFG1tO9hnCIEOBpeT6uJhr2Th8E=
+
+Name: assets/wwwold/index.html
+SHA-256-Digest: BNf+p/uVGHEyj63mr69q5do+dTA9EKc2E2FVyzyK3iw=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/services/getemployee.php
+SHA-256-Digest: y5v2pc8442qlLzmOrf0d9lCUeaWH9QyCSYMPk3h6pdY=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/js/employeelist.js
+SHA-256-Digest: 7lUSMkZQS3GIuA76TmUo70974PmdART3phaHMmNk6Ew=
+
+Name: res/drawable/icon.png
+SHA-256-Digest: epqy102Icl07x2Zr8eafKZgLhUaKG/lqBUeyFnbF4bg=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/js/jquery-1.6.4.min.js
+SHA-256-Digest: lR1rrjnrFy9XqIvWhvepIc8GD9IfWWSPDSC2qPmPxaU=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/empl
+ oyeedetails.html
+SHA-256-Digest: 2uffG3F0dxM64i3P3Rw/LQqDAzhuu6Z0c880wRGVcpQ=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/pics
+ /julie_taylor.jpg
+SHA-256-Digest: 5zk03Vny//Et+h/uwDdCmgvy2bsPh/lkdwABsEe2wGg=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA-256-Digest: 3s7ZvUXON+/WdyF9FD4iv2nlK0F7vmG8b3fOXj4pTRg=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/services/config.php
+SHA-256-Digest: 74amlsfBMMZIlsbRSUKfB1J2dDLDdKl6gz8eic1VKVI=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/pics
+ /eugene_lee.jpg
+SHA-256-Digest: pFvASaN7WlMDwrwtCAFUlvmAgQ8VM5Rhyh+W/GmdCOw=
+
+Name: assets/wwwold/images/icons-36-black.png
+SHA-256-Digest: 0uZNhgdaVaPjzDg+dkz5e/1xehEUgP0CzyRZGILLVdA=
+
+Name: res/xml/cordova.xml
+SHA-256-Digest: kcR5nDbaaCsZqXymqMoaqH0d03OjkLDnj3adnhtNv6o=
+
+Name: assets/www/employeedetails.html
+SHA-256-Digest: 2uffG3F0dxM64i3P3Rw/LQqDAzhuu6Z0c880wRGVcpQ=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/css/images/icons-36-black
+ .png
+SHA-256-Digest: p9ZUba35DWWIEA3ErtQac2mgc4t4gR8yIXjJZwHsXJU=
+
+Name: assets/www/pics/paula_gates.jpg
+SHA-256-Digest: BJCsoQvPXLPzd522NpMJCgmYy4D3Xh/Jr0oxEm31l3M=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/pics
+ /james_king.jpg
+SHA-256-Digest: gwpHPOvA+1xZskXQXsw8BseXId8HGxGeOdy+IrYkgaE=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/services/getemployees.ph
+ p
+SHA-256-Digest: zD2hI4lhv/ihk4wnaNGG8tdUX6Y5ftbRTknGIPVC86M=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/pics/ray_moore.jpg
+SHA-256-Digest: vI/XiYzB5ixHMEs332hLc9ngCP6y72kxvDq6xR+MRgs=
+
+Name: assets/www/js/HybridGuard.js.bak
+SHA-256-Digest: D4qXVR0qOr7IQGwik6yOb+rT/L7v38+cnrLWvbEnSXA=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/pics/kathleen_byrne.jpg
+SHA-256-Digest: 0cI3kktr68xcbgS/YSeCYaV2WxkgMQFt/BkbRT99ZoI=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/pics
+ /john_williams.jpg
+SHA-256-Digest: oNvDgtGa26TvTWKd6SjlYKYShumkuuqiLtTi/WpGQko=
+
+Name: assets/www/pics/eugene_lee.jpg
+SHA-256-Digest: pFvASaN7WlMDwrwtCAFUlvmAgQ8VM5Rhyh+W/GmdCOw=
+
+Name: assets/www/pics/paul_jones.jpg
+SHA-256-Digest: jl7oOWPIupEIcNvw0O9P7il0rTlGWUT1Lni7B/TFsBw=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/css/jquery.mobile-1.0rc2.
+ min.css
+SHA-256-Digest: ECpKRTbhh8/BNMsOCq1aSSqzmDEyQx2kHfCkEcSPu1o=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/services/getreports.php
+SHA-256-Digest: MVHCgelxgetztsC0AEFZVrkc7QyVzOjybsmrYNZ1dfc=
+
+Name: assets/wwwold/jquery.mobile-1.0a4.1.min.js
+SHA-256-Digest: tqTdt8IqY1OuU0Cb+oDwPh1XboZEhaLq7ZAgbF0uVUM=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/pics/ray_moore.jpg
+SHA-256-Digest: vI/XiYzB5ixHMEs332hLc9ngCP6y72kxvDq6xR+MRgs=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA-256-Digest: dIMYvwGPgUjagrW43QFjkz7PGCWDpJFP7WOpQLA1Vwc=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/employeedetails.html
+SHA-256-Digest: 2uffG3F0dxM64i3P3Rw/LQqDAzhuu6Z0c880wRGVcpQ=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/pics/paul_jones.jpg
+SHA-256-Digest: jl7oOWPIupEIcNvw0O9P7il0rTlGWUT1Lni7B/TFsBw=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/css/
+ images/icons-36-white.png
+SHA-256-Digest: zaKtanJS0Shb3XgJ1qBeJZQ/uwMc2AX7yXYCh1Aos04=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/pics/eugene_lee.jpg
+SHA-256-Digest: pFvASaN7WlMDwrwtCAFUlvmAgQ8VM5Rhyh+W/GmdCOw=
+
+Name: assets/wwwold/phonegap.0.9.5.js
+SHA-256-Digest: 5Q6B5alLNQ48RBSvujkVukIHeYHM8E7Dwgn4XsCh5oc=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/pics
+ /lisa_wong.jpg
+SHA-256-Digest: BR4Z0cWtQHbGibVKwAeTbp4TWDvzSG6SlaTAuHWLQ9g=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/js/reportlist.js
+SHA-256-Digest: BYywxT3mzHaJ88bj0KIcMSjgEe18lIbC/07vt0a9Vz4=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/pics
+ /steven_wells.jpg
+SHA-256-Digest: yfo0HpmfYpyu4PNqeLreHYFfP8seujj4bsIUI6zKnCc=
+
+Name: assets/wwwold/images/icons-18-black.png
+SHA-256-Digest: /XO7aXNqJ40vt9W5IbkXoZrGiMgxwjiK6PB77GcJwFo=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/css/images/ajax-loader.pn
+ g
+SHA-256-Digest: R7M2umG2Gi6wFOLoDoZSRI7t9S6MOWg2FAztJ5TUtt8=
+
+Name: assets/wwwold/lala/EmployeeDirectoryJQM/www/pics/amy_jones.jpg
+SHA-256-Digest: yRUK1wQhM/M/JTO1QFG1tO9hnCIEOBpeT6uJhr2Th8E=
+
+Name: assets/wwwold/images/icons-18-white.png
+SHA-256-Digest: FIDxNSVCoUxZTTHQJuPiqqR5vVNN5G+dAswyz3ccMP4=
+
+Name: res/layout/main.xml
+SHA-256-Digest: JoFSr8mi+Dk6+TVBilXOChX4hD7ZkjJCbTeZtHx4iP8=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/repo
+ rtlist.html
+SHA-256-Digest: 2CnLZdP9or1TES9exvgv0w44V4YYqX/ntYnh1Kov8g4=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/css/images/icons-18-white
+ .png
+SHA-256-Digest: xADrueL8zr/kWvIY62/zOKMszFALFPy8wubxo62GHLs=
+
+Name: assets/wwwold/cms.js
+SHA-256-Digest: JIUxlAlFe5CR+KTOKnyLH8vrsXq8+fyFIe5FOAVl3CY=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/css/
+ images/icons-36-black.png
+SHA-256-Digest: p9ZUba35DWWIEA3ErtQac2mgc4t4gR8yIXjJZwHsXJU=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/css/styles.css
+SHA-256-Digest: dVdSysuhtsu6qc894XMF080ZhpjubsJB/aQ1P7jDgo8=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/pics/gary_donovan.jpg
+SHA-256-Digest: 2zIKewJatmZjRSTHIZqmgI9sD4qS8WGDDuKVLNiVAgA=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/pics/steven_wells.jpg
+SHA-256-Digest: yfo0HpmfYpyu4PNqeLreHYFfP8seujj4bsIUI6zKnCc=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/js/j
+ query.mobile-1.0rc1.min.js
+SHA-256-Digest: uvKxlyu7YFHHD+RtSV0WaKshBggcFa5mUMvK+f1Y3Yk=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/css/images/icons-18-black
+ .png
+SHA-256-Digest: B9GlAZg9a3nBStOo3PFjgYyebDrbS/wZOJPXw4PrJHw=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/www/pics/john_williams.jpg
+SHA-256-Digest: oNvDgtGa26TvTWKd6SjlYKYShumkuuqiLtTi/WpGQko=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/pics
+ /gary_donovan.jpg
+SHA-256-Digest: 2zIKewJatmZjRSTHIZqmgI9sD4qS8WGDDuKVLNiVAgA=
+
+Name: assets/www/js/employeelist.js
+SHA-256-Digest: hehndE/lQDghpXjSJ5XZYhX9fKQ5XM+qfNtspUPXMjk=
+
+Name: assets/www/css/styles.css
+SHA-256-Digest: XjCZFxidm+FwlUYong8hzQ/PFW0fvM0sB4KWACLwGE0=
+
+Name: assets/www/pics/ray_moore.jpg
+SHA-256-Digest: vI/XiYzB5ixHMEs332hLc9ngCP6y72kxvDq6xR+MRgs=
+
+Name: classes.dex
+SHA-256-Digest: JL5asQve6y6Pg2CUAlQvhRJmRGo2mJPzZP1RuTV1YLU=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/www/js/e
+ mployeedetails.js
+SHA-256-Digest: e0vTC2nwMHsseOZwLNwGZftj+UbRd91gtiTvK71Mq7E=
+
+Name: assets/www/pics/julie_taylor.jpg
+SHA-256-Digest: 5zk03Vny//Et+h/uwDdCmgvy2bsPh/lkdwABsEe2wGg=
+
+Name: assets/wwwold/EmployeeDirectoryJQM/EmployeeDirectoryJQM/Employee
+ DirectoryJQMPHP/EmployeeDirectoryJQMPHP/db/directory.sql
+SHA-256-Digest: 53yLih+kRA+xlB9veQAsRy2+gJfzNx2xxpIkR+yemXg=
+

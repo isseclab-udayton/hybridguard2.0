@@ -1,0 +1,472 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>H&aring;ll Sverige Rent</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/jquery.mobile-1.2.0.min.css" rel="stylesheet" type="text/css">
+    <link href="css/reportMap.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/jquery.mobile-1.2.0.min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3.9&language=sv&sensor=true&libraries=places"></script>
+    <script type="text/javascript" charset="utf-8" src="js/generic.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/messageDialog.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/report.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/profile.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/reportStore.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/getReport.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/photo.js"></script>
+    <script type="text/javascript" charset="utf-8" src="coreFlashJax.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/reportMap.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/address.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/spam.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/allreportsMap.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/share.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/info.js"></script>
+
+    <script type="text/javascript" charset="utf-8" src="js/facebook/cdv-plugin-fb-connect.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/facebook/facebook-js-sdk.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/facebook/fbShare.js"></script>
+
+    <script type="text/javascript" charset="utf-8" src="js/ios/EmailComposer.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/ios/TwitterPlugin.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/ios/iosShare.js"></script>
+
+    <script type="text/javascript" charset="utf-8" src="js/android/androidShare.js"></script>
+</head>
+<body>
+<!-- This initializes the Facebook JS SDK. -->
+<div id="fb-root"></div>
+
+<!--MENU-->
+<div data-role="page" id="menu">
+    <div data-role="header" data-theme="b" data-id="hsrHeader" data-position="fixed">
+        <h1 class="headerTitle">HSR</h1>
+    </div>
+
+    <div data-role="content" id="menuContent">
+        <img id="logo" src="images/hsr_logo_transparent.png">
+        <a href="#" id="facebookHSR" onclick="openFacebookPage();"><img src="images/iconFacebook.gif"></a>
+        <a href="#" id="twitterHSR" onclick="openTwitterPage();"><img src="images/iconTwitter.gif"></a>
+        <a href="#report" data-role="button" data-icon="arrow-r" data-transition="none" onclick="newReport();">Skapa
+            rapport</a>
+        <a href="#storedReports" data-role="button" data-icon="arrow-r" data-transition="none">Mina rapporter</a>
+        <a href="#reports_map" data-role="button" data-icon="arrow-r" data-transition="none">Karta</a>
+        <a href="#profile" data-role="button" data-icon="gear" data-transition="none"
+           onclick="viewProfile();">Profil</a>
+        <a href="#info" data-role="button" data-icon="info" data-transition="none">Information</a>
+    </div>
+</div>
+<!--END MENU-->
+
+<!--MESSAGE-->
+<div data-role="page" id="messageDialog">
+    <div data-role="header" data-theme="b" data-id="hsrHeader" data-position="fixed">
+        <h1 class="headerTitle" id="messageType">Meddelande</h1>
+    </div>
+    <div data-role="content" id="messageContainer">
+        <div id="message"></div>
+        <p></p>
+        <div id="messageDialogShare">
+            <a href="#" data-role="button" data-icon="star" onclick="getIdAndDisplayReportToShare();">Visa/Dela</a>
+        </div>
+        <a href="#" id="messageRedirect" data-role="button" onclick="messageRedirect();">Ok</a>
+    </div>
+</div>
+<!--END MESSAGE-->
+
+<!--EULA-->
+<div data-role="page" id="eula">
+    <div data-role="header" data-theme="b" data-id="hsrHeader" data-position="fixed">
+        <h1 class="headerTitle">Avtal</h1>
+    </div>
+
+    <div data-role="content" id="eulaContent">
+        <img id="logo" src="images/hsr_logo_transparent.png">
+        <br/>
+
+        <div id="eulaData"></div>
+        <a href="#" id="acceptEULA" data-role="button" data-icon="check" onclick="acceptEULA();">Jag accepterar</a>
+    </div>
+</div>
+<!--END EULA-->
+
+<!--ENCOURAGE PROFILE-->
+<div data-role="page" id="encourageProfile">
+    <div data-role="header" data-theme="b" data-id="hsrHeader" data-position="fixed">
+        <h1 class="headerTitle">Profil</h1>
+    </div>
+
+    <div data-role="content" id="encourageProfileContent">
+        <img id="logo" src="images/hsr_logo_transparent.png">
+        <br/>
+
+        <div id="encourageProfileData">Vill du fylla i din profil? Du kan &auml;ven g&ouml;ra det vid ett senare tillf&auml;lle.</div>
+        <a href="#" id="acceptEnterProfile" data-role="button" data-icon="check" onclick="acceptEnterProfile();">Ja</a>
+        <a href="#" id="rejectEnterProfile" data-role="button" data-icon="delete"
+           onclick="rejectEnterProfile();">Nej</a>
+    </div>
+</div>
+<!--END ENCOURAGE PROFILE-->
+
+<!--ENCOURAGE PROFILE CONTEST-->
+<div data-role="page" id="encourageProfileContest">
+    <div data-role="header" data-theme="b" data-id="hsrHeader" data-position="fixed">
+        <h1 class="headerTitle">T&auml;vling</h1>
+    </div>
+
+    <div data-role="content" id="encourageProfileContestContent">
+        <div id="encourageProfileContestData">
+            Kampanjen du valt ing&aring;r i en t&auml;vling. F&ouml;r att vara med i t&auml;vlingen m&aring;ste du fylla
+            i din profil.
+            <br/><br/>
+            Vill du delta i t&auml;vlingen?
+        </div>
+        <a href="#" id="acceptEnterProfileContest" data-role="button" data-icon="check"
+           onclick="acceptEnterProfileContest();">Ja</a>
+        <a href="#" id="rejectEnterProfileContest" data-role="button" data-icon="delete"
+           onclick="rejectEnterProfileContest();">Nej</a>
+    </div>
+</div>
+<!--END ENCOURAGE PROFILE CONTEST-->
+
+<!--PROFILE-->
+<div data-role="page" id="profile">
+    <div data-role="header" data-id="hsrHeader" data-position="fixed" data-theme="b">
+        <a href="#menu" data-transition="none" data-role="button" data-icon="grid" data-iconpos="notext"></a>
+
+        <h1 class="headerTitle">Profil</h1>
+    </div>
+    <div data-role="content">
+        <form name="profileForm" id="profileForm">
+            <label>F&ouml;rnamn</label>
+            <input type="text" id="firstName" name="firstName" data-theme="d"/>
+            <label>Efternamn</label>
+            <input type="text" id="lastName" name="lastName" data-theme="d"/>
+            <label>Email</label>
+            <input type="email" id="email" name="email" data-theme="d"/>
+            <label>Telefon</label>
+            <input type="tel" id="phone" name="phone" data-theme="d"/>
+
+            <h3>F&ouml;retagsinst&auml;llningar</h3>
+            <label>Anv&auml;ndargrupp</label>
+            <input type="text" id="userGroup" name="userGroup" data-theme="d"/>
+            <label>Tagg</label>
+            <input type="text" id="tag" name="tag" data-theme="d"/>
+        </form>
+        <a href="#profile" data-role="button" data-icon="check" class="ui-btn-right"
+           onclick="submitProfile();">Spara</a>
+    </div>
+</div>
+<!--END PROFILE-->
+
+<!--REPORT-->
+<div data-role="page" id="report">
+    <div data-role="header" data-id="hsrHeader" data-position="fixed" data-theme="b">
+        <a href="#menu" data-transition="none" data-role="button" data-icon="grid" data-iconpos="notext"></a>
+
+        <h1 class="headerTitle">Skapa rapport</h1>
+    </div>
+    <div data-role="content">
+        <div id="errorMessage"></div>
+        <div id="photoContainer">
+            <img id="image" src="images/camera.png"/>
+
+            <div data-role="controlgroup" data-type="horizontal">
+                <button onclick="capturePhoto();">Ta bild</button>
+                <button onclick="getPhoto();">H&auml;mta bild</button>
+            </div>
+        </div>
+        <p class="separator"></p>
+
+        <div id="addressContainer">
+            <label>Adress</label>
+
+            <div>
+                <div id="address">Lokaliserar plats... Anv&auml;nd kartan om du vill v&auml;lja plats sj&auml;lv.</div>
+                <a id="mapButton" href="#map" data-transition="none" data-role="button" data-inline="true">
+                    <input type="image" src="images/map.png" name="image">
+                </a>
+
+                <p style="clear: both"></p>
+            </div>
+        </div>
+        <div id="reportContainer">
+            <form name="reportForm" id="reportForm">
+
+                <label>Jag vill rapportera</label>
+                <select name="reportType" id="reportType">
+                    <option value="Nedskr&auml;pning">Nedskr&auml;pning</option>
+                    <option value="Illegal tippning">Illegal tippning</option>
+                    <option value="Skrotbil">Skrotbil</option>
+                    <option value="B&aring;tvrak">B&aring;tvrak</option>
+                    <option value="Klotter">Klotter</option>
+                    <option value="Skadeg&ouml;relse">Skadeg&ouml;relse</option>
+                    <option value="Trasig belysning">Trasig belysning</option>
+                    <option value="&Ouml;vrigt">&Ouml;vrigt</option>
+                </select>
+
+                <div id="tippingContainer" style="display:none;">
+                    <label>Typ av avfall</label>
+                    <select name="tippingType" id="tippingType">
+                        <option value="Byggavfall">Byggavfall (Gips, betong, br&auml;dor)</option>
+                        <option value="Sops&auml;ckar">Sops&auml;ckar - ok&auml;nt inneh&aring;ll</option>
+                        <option value=">Bildelar">Bildelar (D&auml;ck, karossdelar)</option>
+                        <option value="Tr&auml;dg&aring;rdsavfall">Tr&auml;dg&aring;rdsavfall (Kvistar, l&ouml;v, mossa)
+                        </option>
+                        <option value="Elektriska produkter">Elektriska produkter (TV, vitvaror)</option>
+                        <option value="Farligt avfall">Farligt avfall (Olja, f&auml;rg, kemikalier, lysr&ouml;r)
+                        </option>
+                        <option value="Hush&aring;llsavfall">Hush&aring;llsavfall (Blandat avfall fr&aring;n
+                            hush&aring;ll)
+                        </option>
+                        <option value="Restaurangavfall">Restaurangavfall (Emballage, matrester)</option>
+                        <option value="Entreprenadavfall">Entreprenadavfall (Asfalt, fyllnadsmassor)</option>
+                        <option value="&Ouml;vrigt">&Ouml;vrigt</option>
+                    </select>
+                </div>
+
+                <div id="carWreckContainer" style="display:none;">
+                    <label>Registreringsnummer</label>
+                    <input type="text" id="licensePlate" name="licensePlate">
+                    <label>Bilens skick</label>
+                    <select name="carCondition" id="carCondition">
+                        <option value="Bra skick">Bra skick</option>
+                        <option value="Trasig">Trasig</option>
+                        <option value="Vandaliserad">Vandaliserad</option>
+                        <option value="Utbr&auml;nd">Utbr&auml;nd</option>
+                    </select>
+                </div>
+
+                <div id="boatWreckContainer" style="display:none;">
+                    <label>Typ av b&aring;t</label>
+                    <select id="boatType" name="boatType">
+                        <option value="Roddb&aring;t">Roddb&aring;t</option>
+                        <option value="Motorb&aring;t">Motorb&aring;t</option>
+                        <option value="Segelb&aring;t">Segelb&aring;t</option>
+                        <option value="Kanot">Kanot</option>
+                    </select>
+                    <label>Material</label>
+                    <select id="boatMaterial" name="boatMaterial">
+                        <option value="Tr&auml;b&aring;t">Tr&auml;b&aring;t</option>
+                        <option value="Plastb&aring;t">Plastb&aring;t</option>
+                        <option value="Metallb&aring;t">Metallb&aring;t</option>
+                    </select>
+                    <label>Uppskattad storlek</label>
+                    <select id="boatSize" name="boatSize">
+                        <option value="0-4m">0-4m</option>
+                        <option value="4-7m">4-7m</option>
+                        <option value="7-10m">7-10m</option>
+                        <option value="10m-">10m-</option>
+                    </select>
+                    <label>B&aring;tmotor</label>
+                    <select id="boatMotor" name="boatMotor">
+                        <option value="Nej">Nej</option>
+                        <option value="Inombordare">Inombordare</option>
+                        <option value="Utombordare">Utombordare</option>
+                    </select>
+                </div>
+
+                <label>Kommentar</label>
+                <textarea cols="40" rows="8" name="comment" id="comment"></textarea>
+
+                <label>Hur l&auml;nge har det legat h&auml;r?</label>
+                <select name="estimatedTime" id="estimatedTime">
+                    <option value="Ok&auml;nt">Ok&auml;nt</option>
+                    <option value="1 dag">Minst 1 dag</option>
+                    <option value="1 vecka">Minst 1 vecka</option>
+                    <option value="1 m&aring;nad">Minst 1 m&aring;nad</option>
+                    <option value="6 m&aring;nader">Minst 6 m&aring;nader</option>
+                    <option value="1 &aring;r">Minst 1 &aring;r</option>
+                </select>
+
+                <label>Kampanj (frivillig)</label>
+                <select name="campaignName" id="campaignName" onchange="setCampaignName();">
+                    <option value="0">V&auml;lj kampanj</option>
+                </select>
+                <input type="text" id="campaignCode" name="campaignCode" data-theme="d"/>
+
+                <input type="hidden" id="street" name="street">
+                <input type="hidden" id="streetNbr" name="streetNbr">
+                <input type="hidden" id="zipCode" name="zipCode">
+                <input type="hidden" id="city" name="city">
+                <input type="hidden" id="municipality" name="municipality">
+                <input type="hidden" id="country" name="country">
+
+                <input type="hidden" id="imageEncode" name="imageEncode">
+                <input type="hidden" id="latitude" name="latitude">
+                <input type="hidden" id="longitude" name="longitude">
+                <input type="hidden" id="accuracy" name="accuracy">
+
+                <input type="hidden" id="devicePlatform" name="devicePlatform">
+                <input type="hidden" id="deviceVersion" name="deviceVersion">
+                <input type="hidden" id="createDate" name="createDate">
+            </form>
+            <p class="separator"></p>
+
+            <div data-role="controlgroup" data-type="horizontal">
+                <a href="#" id="saveBtn" data-role="button" data-icon="check" onclick="saveReportData();">Spara</a>
+                <a href="#" id="submitBtn" data-role="button" data-icon="forward" onclick="submitReportButton();">Skicka</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--END REPORT-->
+
+<!--SENT REPORTS-->
+<div data-role="page" id="sentReports">
+    <div data-role="header" data-id="hsrHeader" data-position="fixed" data-theme="b">
+        <a href="#menu" data-transition="none" data-role="button" data-icon="grid" data-iconpos="notext"></a>
+
+        <h1 class="headerTitle">Skickade</h1>
+    </div>
+    <div data-role="content">
+        <div id="sentReportsContent"></div>
+        <div data-role="controlgroup" data-type="horizontal" id="sentReportsControlGroup">
+            <a href="#" data-role="button" data-icon="delete" onclick="deleteMarkedSentReports();">Ta bort</a>
+        </div>
+        <div data-role="footer" data-position="fixed" data-id="hsrFooter" data-theme="b">
+            <div data-role="navbar" class="reportsFooter">
+                <ul>
+                    <li><a href="#storedReports" data-transition="none">Sparade</a></li>
+                    <li><a href="#sentReports" data-transition="none">Skickade</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--END SENT REPORTS-->
+
+<!--STORED REPORTS-->
+<div data-role="page" id="storedReports">
+    <div data-role="header" data-id="hsrHeader" data-position="fixed" data-theme="b">
+        <a href="#menu" data-transition="none" data-role="button" data-icon="grid" data-iconpos="notext"></a>
+
+        <h1 class="headerTitle">Sparade</h1>
+    </div>
+    <div data-role="content">
+        <div id="storedReportsContent"></div>
+        <div data-role="controlgroup" data-type="horizontal" id="storedReportsControlGroup">
+            <a href="#" id="deleteReportStore" data-role="button" data-icon="delete" onclick="deleteMarkedReports();">Ta bort</a>
+            <a href="#" id="sendReportStore" data-role="button" data-icon="check" onclick="sendMarkedReports();">Skicka</a>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed" data-id="hsrFooter" data-theme="b">
+        <div data-role="navbar" class="reportsFooter">
+            <ul>
+                <li><a href="#storedReports" data-transition="none">Sparade</a></li>
+                <li><a href="#sentReports" data-transition="none">Skickade</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--END STORED REPORTS-->
+
+<!--SHOW REPORT-->
+<div data-role="page" id="showReport">
+    <div data-role="header" data-id="hsrHeader" data-position="fixed" data-theme="b">
+        <a href="#" id="showReportBackBtn" data-role="button" data-rel="back" data-icon="arrow-l" data-transition="none">Tillbaka</a>
+        <a href="#menu" id="showReportMenuBtn" data-transition="none" data-role="button" data-icon="grid" data-iconpos="notext"></a>
+
+        <h1 class="headerTitle">Rapport</h1>
+    </div>
+    <div data-role="content" id="showReportContent">
+        <input type="hidden" id="reportId" name="reportId">
+        <img id="reportImage" src=""/>
+
+        <p id="reportCreateDate"></p>
+
+        <label for="id">Rapportid</label>
+
+        <p id="id"></p>
+
+        <label for="reportReportType">Typ</label>
+
+        <p id="reportReportType"></p>
+        <label for="reportAddress">Adress</label>
+
+        <p id="reportAddress"></p>
+        <label for="reportStatus">Status</label>
+
+        <p id="reportStatus"></p>
+        <label for="reportComment">Kommentar</label>
+
+        <p id="reportComment"></p>
+
+        <a href="#" id="spamBtn" data-role="button" data-icon="alert" onclick="reportAsSpam();">Spam</a>
+        <a href="#" id="shareFBAndroid" data-role="button" data-icon="arrow-u" onclick="shareReportToMyFBWall();">Facebook</a>
+        <a href="#" data-role="button" data-icon="star" onclick="shareReport();">Dela</a>
+    </div>
+</div>
+<!--END SHOW REPORT-->
+
+<!--SHARE BUTTONS -->
+<div data-role="page" id="iosShareButtons">
+    <div data-role="header" data-id="hsrHeader" data-position="fixed" data-theme="b">
+        <a href="#" data-role="button" data-rel="back" data-icon="arrow-l" data-transition="none">Tillbaka</a>
+
+        <h1 class="headerTitle">Dela rapport</h1>
+    </div>
+
+    <div data-role="content" id="iosShareButtonsContent">
+        <a href="#" id="tweet" data-role="button" data-icon="arrow-u" onclick="tweet();">Twitter</a>
+        <a href="#" id="shareMail" data-role="button" data-icon="arrow-u" onclick="sendEmail();">Mail</a>
+        <a href="#" id="shareFB" data-role="button" data-icon="arrow-u" onclick="shareReportToMyFBWall();">Facebook</a>
+    </div>
+</div>
+<!--END SHARE BUTTONS -->
+
+<!--INFO-->
+<div data-role="page" id="info">
+    <div data-role="header" data-id="hsrHeader" data-position="fixed" data-theme="b">
+        <a href="#menu" data-transition="none" data-role="button" data-icon="grid" data-iconpos="notext"></a>
+
+        <h1 class="headerTitle">Information</h1>
+    </div>
+    <div data-role="content">
+        <div id="infoText">H&auml;mtar information...</div>
+    </div>
+</div>
+<!--END INFO-->
+
+<!-- REPORTS MAP -->
+<div data-role="page" id="reports_map">
+    <div data-role="header" data-theme="b" id="mapHeaderReports">
+        <div data-role="controlgroup" data-type="horizontal" id="reportMapsControl">
+            <a href="#" data-role="button" data-rel="back" data-icon="arrow-l">Tillbaka</a>
+            <a href="#" data-role="button" data-icon="refresh" onclick="getCurrentLocationForReportsMap();">Min
+                position</a>
+        </div>
+    </div>
+    <div id="reports_map_canvas"></div>
+</div>
+<!-- END REPORTS MAP -->
+
+<!--GOOGLE MAPS-->
+<div data-role="page" id="map">
+    <div data-role="header" data-theme="b" id="mapHeader">
+        <div data-role="controlgroup" data-type="horizontal" id="mapsControl">
+            <a href="#" data-role="button" data-rel="back" data-icon="arrow-l" data-transition="none">Klar</a>
+            <a href="#" data-role="button" data-icon="refresh" onclick="getCurrentGeoLocation();">Min position</a>
+        </div>
+    </div>
+    <div id="addressSearch">
+        <input id="addressAutocomplete" data-role="none"/>
+    </div>
+    <div id="map_canvas"></div>
+</div>
+<!--END GOOGLE MAPS-->
+
+<script>
+    // Initialize the Facebook SDK
+    document.addEventListener('deviceready', function () {
+        FB.init({
+            appId: '175789955869512',
+            nativeInterface: CDV.FB,
+            useCachedDialogs: false
+        });
+    });
+</script>
+</body>
+</html>

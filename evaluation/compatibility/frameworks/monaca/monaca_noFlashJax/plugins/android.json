@@ -1,0 +1,63 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.example.helloworld"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.example.helloworld"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.example.helloworld"
+        },
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.example.helloworld"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.example.helloworld"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.example.helloworld"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.example.helloworld"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.example.helloworld"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.example.helloworld"
+        },
+        "cordova-plugin-barcodescanner": {
+            "PACKAGE_NAME": "com.example.helloworld"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.example.helloworld"
+        },
+        "com.manateeworks.barcodescanner": {
+            "PACKAGE_NAME": "com.example.helloworld"
+        },
+        "cordova-native-camera": {
+            "PACKAGE_NAME": "com.example.helloworld"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.example.helloworld"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.example.helloworld"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.example.helloworld"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.example.helloworld"
+        }
+    },
+    "dependent_plugins": {}
+}
