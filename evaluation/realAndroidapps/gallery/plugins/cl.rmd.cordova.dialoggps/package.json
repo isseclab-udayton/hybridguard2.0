@@ -1,0 +1,24 @@
+{
+  "name": "cordova-dialog-gps",
+  "version": "1.0.0",
+  "description": "cordova dialog gps when user has location disabled",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfonsolrmoreno/cordova-dialog-gps.git"
+  },
+  "keywords": [
+    "cordova",
+    "dialog",
+    "gps"
+  ],
+  "author": "rudibr78 <rudi.feijo@multidadosti.com.br>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfonsolrmoreno/cordova-dialog-gps/issues"
+  },
+  "homepage": "https://github.com/alfonsolrmoreno/cordova-dialog-gps#readme"
+}

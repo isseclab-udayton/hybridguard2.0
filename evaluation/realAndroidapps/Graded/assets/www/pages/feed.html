@@ -1,0 +1,122 @@
+<div class="container">
+    <div class="row">
+        <div id="bulletin">
+
+        </div>
+    
+    <div class="{{hNew}}">
+
+        <div class="card orange darken-2 placeholder fadeInUp" >
+            <div class="card-content white-text">
+                <span class="card-title">New version of graded is out!</span>
+                <p>Version {{versionNum}} for {{plat}} has been released. Please update to get the new features. Also this version of the app may break after the new update.</p>
+                <br>
+                <p><b>NEW FEATURES:</b></p>
+                <ul>
+                    <li ng-repeat="newthing in changeLog">{{newthing}}</li>
+                </ul>
+            </div>
+            <div class="card-action white-text">
+                <a class=" waves-effect waves-light btn-flat white-text {{hideAndroid}}" onclick="window.open('https://play.google.com/store/apps/details?id=io.graded', '_system')">UPDATE</a>
+                <a class=" waves-effect waves-light btn-flat white-text {{hideIos}}" onclick="window.open('https://itunes.apple.com/us/app/graded-check-your-hac-grades/id1048807913?ls=1&mt=8', '_system')">UPDATE</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="" style="display:{{firstTime}}">
+
+        <div class="card purple darken-2 placeholder fadeInUp" >
+            <div class="card-content white-text">
+                <span class="card-title">Welcome to graded!</span>
+                <p>This page will show you new items that have been published since the last time you logged in. It is empty now becuase you are new.</p>
+                <p>Check out the other options by pulling left. Or by tapping on the <i class="mdi-navigation-menu" ></i></p>
+            </div>
+        </div>
+
+    </div>
+        <div class="card red darken-2 placeholder fadeInUp hide" >
+            <div class="card-content white-text">
+                <span class="card-title">Note</span>
+                <p>This is the unofficial build of the app. This will NOT be able to update automatically</p>
+                <p>It is recomended that you get the app from the iOS App Store once it comes out to get automatic updates</p>
+                <p>All all beta builds will be posted on the graded website</p>
+            </div>
+            <div class="card-action">
+                <a class=" waves-effect waves-light btn-flat orange-text" style="margin-left: 5px; padding-left: 5px; padding-right: 5px" onclick="window.open('https://github.com/geooot/gradedapp/issues', '_system')">Report Bug</a>
+            </div>
+        </div>
+    <div class="" >
+
+        <div class="card placeholder fadeInUp">
+            <div class="card-content">
+                <span class="card-title purple-text" style="color: black">{{newMessage}}</span>
+                <div >
+                    <table class="striped" style="display: {{hideNew}}" >
+                        <thead>
+                        <tr>
+                            <th>Assignment</th>
+                            <th>Grade</th>
+                            <th>Class</th>
+                        </tr>
+                        </thead>
+                        <tbody ng-repeat="assignment in newItems">
+                            <tr ng-repeat="item in assignment[0]">
+                                <td><a href="#/class/{{assignment[1]}}">{{item[2]}}</a></td>
+                                <td><a href="#/class/{{assignment[1]}}">{{item[4]}}</a></td>
+                                <td><a href="#/class/{{assignment[1]}}">{{assignment[1]}}</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </div>
+    </div>
+    <div class="ad" ng-if="ad !== null" url="{{ad['TargetUrl'] ? ad['TargetUrl']:null}}" identity="{{ad['Id'] ? ad['Id']:null}}"
+    pageId="{{ad['PageId'] ? ad['PageId']:null}}" ng-bind-html="adHTML" onclick="adClicked();">
+
+    </div>
+    <div class="">
+        <div class="card placeholder fadeInUp">
+            <div class="card-content">
+                <span class="card-title purple-text" style="color: black">{{duesMessage}}</span>
+                <p>{{duesSubMessage}}</p>
+                <div style="display: {{hideDues}}">
+                    <br>
+                    <p class="grey-text text-darken-1">DUE TODAY</p>
+                    <table >
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Course</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        <tr ng-repeat="assignment in duetoday">
+                            <td><a href="#/class/{{assignment['name']}}">{{assignment['assignment'][2]}}</a></td>
+                            <td><a href="#/class/{{assignment['name']}}">{{assignment['name']}}</a></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <p class="grey-text text-darken-1">DUE TOMMOROW</p>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Course</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        <tr ng-repeat="assignment in duetmrw">
+                            <td><a href="#/class/{{assignment['name']}}">{{assignment['assignment'][2]}}</a></td>
+                            <td><a href="#/class/{{assignment['name']}}">{{assignment['name']}}</a></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

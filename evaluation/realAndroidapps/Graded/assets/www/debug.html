@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+</head>
+<body style="margin-top: 40px;">
+    <a href="index.html" >Go back</a>
+    <p >GCM/APNS ID: <span id="str"></span></p>
+    <script>
+        $(document).ready(function(){
+            $('#str').text(localStorage.getItem('pushID'));
+        });
+    </script>
+</body>
+</html>

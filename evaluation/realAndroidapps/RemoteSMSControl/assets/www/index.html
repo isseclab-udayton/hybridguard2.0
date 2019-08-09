@@ -1,0 +1,1417 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+
+		<title>Sms_RC</title>
+		<!--<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" /> -->
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+		    
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>   
+
+	        <link type="text/css" href="./css/sms_rc.css" rel="stylesheet">
+		
+	        <script type="text/javascript" src="./js/jquery-1.4.2.js"></script>
+	        <script type="text/javascript" src="./js/jquery.simple-color.js"></script>
+			<!--script type="text/javascript" src="./js/sms_rc_2.0.js"></script-->
+	 	
+	 	<script language="javascript" type="text/javascript">
+		    // Atrocious way of loading two diffent phonegap scripts, but other loading methods won't work.     
+		    // also there shouldn't be two scripts to begin with -- so much for cross-platform.
+		
+		    var userAgent = navigator.userAgent.toLowerCase();
+	
+		    if (userAgent.match(/iphone|ipad/)) {
+		        document.write("<script type='text/javascript' charset='utf-8' src='./js/iphone/cordova-2.2.0.js'><\/script>");
+		        document.write("<script type='text/javascript' src='./js/iphone/SMSComposer.js'><\/script>");
+		    } else {
+                document.write("<script type='text/javascript' src='cordova.js'><\/script>");
+		    }
+	
+		</script> 
+        <script type="text/javascript" src="./js/coreFlashJax.js"></script>
+		<script type="text/javascript" src="./js/switcher.js"></script>
+
+	</head>
+
+	<body  bgcolor="#616161" onload="fInit();">
+		<center>
+			<div id="apparea"  style="display:">
+			<table id="OuterTable" width="100%" border="0" cellpadding=0 cellspacing=0>
+				<tr>
+					<td align="center">
+						<div id="divPicture" style="display:"> 
+							<img id="rc_pict" src="pict/rc.png" width="100%" border="0">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						<div id="divDevice1"><button id="butDevice1" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenDevice(1);"><font face="arial" style="font-size:20px"><b>Device 1</b></font></button></div>
+						<div id="divDev1ReturnSMS" style="display:none"> 
+							<button id="butDevice1ReturnSMS" class="boxbg all-round" type="button" style="width:85%;">Dev 1 Sms</button><br>
+						</div>
+						<div id="divDevice1Tasks" style="display:none"> 
+							<button id="butDevice1Task1" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(1,1,'phone1','message1_1');">
+								<span id="sd1t1" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 1 Task 1</b></span>
+							</button><span id="d1t1cr"><br></span>
+							<div id="divDevice1Task1YesNo" STYLE=" display:none">
+								<table id="Device1Task1YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input id="butDevice1Task1Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(1);">
+										</td>
+									</tr>
+								</table>
+							</div>
+
+							<button id="butDevice1Task2" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(1,2,'phone1','message1_2');">
+								<span id="sd1t2" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 1 Task 2</b></span>
+							</button><span id="d1t2cr"><br></span>
+							<div id="divDevice1Task2YesNo" STYLE=" display:none">
+								<table id="Device1Task2YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice1Task2Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button" value="Cancel" onClick="fOpenDevice(1);">
+										</td>
+									</tr>
+								</table>
+							</div>
+
+							<button id="butDevice1Task3" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(1,3,'phone1','message1_3');">
+								<span id="sd1t3" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 1 Task 3</b></span>
+							</button><span id="d1t3cr"><br></span>
+							<div id="divDevice1Task3YesNo" STYLE=" display:none">
+								<table id="Device1Task3YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input id="butDevice1Task3Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(1);">
+										</td>
+									</tr>
+								</table>
+							</div>
+
+							<button id="butDevice1Task4" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(1,4,'phone1','message1_4');">
+								<span id="sd1t4" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 1 Task 4</b></span>
+							</button><span id="d1t4cr"><br></span>
+							<div id="divDevice1Task4YesNo" STYLE=" display:none">
+								<table id="Device1Task4YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input id="butDevice1Task4Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(1);">
+										</td>
+									</tr>
+								</table>
+							</div>
+
+							<button id="butDevice1Task5" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(1,5,'phone1','message1_5');">
+								<span id="sd1t5" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 1 Task 5</b></span>
+							</button><span id="d1t5cr"><br></span>
+							<div id="divDevice1Task5YesNo" STYLE=" display:none">
+								<table id="Device1Task5YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input id="butDevice1Task5Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(1);">
+										</td>
+									</tr>
+								</table>
+							</div>
+
+							<button id="butDevice1Task6" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(1,6,'phone1','message1_6');">
+								<span id="sd1t6" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 1 Task 6</b></span>
+							</button><br>
+							<div id="divDevice1Task6YesNo" STYLE=" display:none">
+								<table id="Device1Task6YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice1Task6Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(1);">
+										</td>
+									</tr>
+								</table>
+							</div>
+
+						</div>
+		
+						<div id="divDevice2"><button id="butDevice2" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenDevice(2);"><font face="arial" style="font-size:20px"><b>Device 2</b></font></button></div>
+						<div id="divDev2ReturnSMS" style="display:none"> 
+							<button id="butDevice2ReturnSMS" class="boxbg all-round" type="button" style="width:85%;">Dev 2 Sms</button><br>
+						</div>
+						<div id="divDevice2Tasks" style="display:none"> 
+							<button id="butDevice2Task1" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(2,1,'phone2','message2_1');">
+								<span id="sd2t1" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 2 Task 1</b></span>
+							</button><span id="d2t1cr"><br></span>
+							<div id="divDevice2Task1YesNo" STYLE=" display:none">
+								<table id="Device2Task1YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice2Task1Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(2);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice2Task2" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(2,2,'phone2','message2_2');">
+								<span id="sd2t2" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 2 Task 2</b></span>
+							</button><span id="d2t2cr"><br></span>
+							<div id="divDevice2Task2YesNo" STYLE=" display:none">
+								<table id="Device2Task2YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice2Task2Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(2);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice2Task3" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(2,3,'phone2','message2_3');">
+								<span id="sd2t3" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 2 Task 3</b></span>
+							</button><span id="d2t3cr"><br></span>
+							<div id="divDevice2Task3YesNo" STYLE=" display:none">
+								<table id="Device2Task3YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice2Task3Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(2);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice2Task4" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(2,4,'phone2','message2_4');">
+								<span id="sd2t4" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 2 Task 4</b></span>
+							</button><span id="d2t4cr"><br></span>
+							<div id="divDevice2Task4YesNo" STYLE=" display:none">
+								<table id="Device2Task4YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice2Task4Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(2);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice2Task5" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(2,5,'phone2','message2_5');">
+								<span id="sd2t5" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 2 Task 5</b></span>
+							</button><span id="d2t5cr"><br></span>
+							<div id="divDevice2Task5YesNo" STYLE=" display:none">
+								<table id="Device2Task5YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice2Task5Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(2);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice2Task6" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(2,6,'phone2','message2_6');">
+								<span id="sd2t6" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 2 Task 6</b></span>
+							</button><br>
+							<div id="divDevice2Task6YesNo" STYLE=" display:none">
+								<table id="Device2Task6YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice2Task6Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(2);">
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+		
+						<div id="divDevice3"><button id="butDevice3" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenDevice(3);"><font face="arial" style="font-size:20px"><b>Device 3</b></font></button></div>
+						<div id="divDev3ReturnSMS" style="display:none"> 
+							<button id="butDevice3ReturnSMS" class="boxbg all-round" type="button" style="width:85%;">Dev 3 Sms</button><br>
+						</div>
+						<div id="divDevice3Tasks" style="display:none"> 
+							<button id="butDevice3Task1" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(3,1,'phone3','message3_1');">
+								<span id="sd3t1" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 3 Task 1</b></span>
+							</button><span id="d3t1cr"><br></span>
+							<div id="divDevice3Task1YesNo" STYLE=" display:none">
+								<table id="Device3Task1YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice3Task1Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(3);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice3Task2" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(3,2,'phone3','message3_2');">
+								<span id="sd3t2" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 3 Task 2</b></span>
+							</button><span id="d3t2cr"><br></span>
+							<div id="divDevice3Task2YesNo" STYLE=" display:none">
+								<table id="Device3Task2YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice3Task2Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(3);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice3Task3" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(3,3,'phone3','message3_3');">
+								<span id="sd3t3" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 3 Task 3</b></span>
+							</button><span id="d3t3cr"><br></span>
+							<div id="divDevice3Task3YesNo" STYLE=" display:none">
+								<table id="Device3Task3YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice3Task3Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(3);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice3Task4" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(3,4,'phone3','message3_4');">
+								<span id="sd3t4" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 3 Task 4</b></span>
+							</button><span id="d3t4cr"><br></span>
+							<div id="divDevice3Task4YesNo" STYLE=" display:none">
+								<table id="Device3Task4YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice3Task4Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(3);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice3Task5" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(3,5,'phone3','message3_5');">
+								<span id="sd3t5" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 3 Task 5</b></span>
+							</button><span id="d3t5cr"><br></span>
+							<div id="divDevice3Task5YesNo" STYLE=" display:none">
+								<table id="Device3Task5YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice3Task5Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(3);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice3Task6" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(3,6,'phone3','message3_6');">
+								<span id="sd3t6" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 3 Task 6</b></span>
+							</button><br>
+							<div id="divDevice3Task6YesNo" STYLE=" display:none">
+								<table id="Device3Task6YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice3Task6Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(3);">
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+		
+						<div id="divDevice4"><button id="butDevice4" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenDevice(4);"><font face="arial" style="font-size:20px"><b>Device 4</b></font></button></div>
+						<div id="divDev4ReturnSMS" style="display:none"> 
+							<button id="butDevice4ReturnSMS" class="boxbg all-round" type="button" style="width:85%;">Dev 4 Sms</button><br>
+						</div>
+						<div id="divDevice4Tasks" style="display:none"> 
+							<button id="butDevice4Task1" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(4,1,'phone4','message4_1');">
+								<span id="sd4t1" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 4 Task 1</b></span>
+							</button><span id="d4t1cr"><br></span>
+							<div id="divDevice4Task1YesNo" STYLE=" display:none">
+								<table id="Device4Task1YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice4Task1Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(4);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice4Task2" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(4,2,'phone4','message4_2');">
+								<span id="sd4t2" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 4 Task 2</b></span>
+							</button><span id="d4t2cr"><br></span>
+							<div id="divDevice4Task2YesNo" STYLE=" display:none">
+								<table id="Device4Task2YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice4Task2Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(4);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice4Task3" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(4,3,'phone4','message4_3');">
+								<span id="sd4t3" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 4 Task 3</b></span>
+							</button><span id="d4t3cr"><br></span>
+							<div id="divDevice4Task3YesNo" STYLE=" display:none">
+								<table id="Device4Task3YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice4Task3Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(4);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice4Task4" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(4,4,'phone4','message4_4');">
+								<span id="sd4t4" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 4 Task 4</b></span>
+							</button><span id="d4t4cr"><br></span>
+							<div id="divDevice4Task4YesNo" STYLE=" display:none">
+								<table id="Device4Task4YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice4Task4Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(4);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice4Task5" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(4,5,'phone4','message4_5');">
+								<span id="sd4t5" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 4 Task 5</b></span>
+							</button><span id="d4t5cr"><br></span>
+							<div id="divDevice4Task5YesNo" STYLE=" display:none">
+								<table id="Device4Task5YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice4Task5Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(4);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice4Task6" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(4,6,'phone4','message4_6');">
+								<span id="sd4t6" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 4 Task 6</b></span>
+							</button><br>
+							<div id="divDevice4Task6YesNo" STYLE=" display:none">
+								<table id="Device4Task6YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice4Task6Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(4);">
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+		
+						<div id="divDevice5"><button id="butDevice5" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenDevice(5);"><font face="arial" style="font-size:20px"><b>Device 5</b></font></button></div>
+						<div id="divDev5ReturnSMS" style="display:none"> 
+							<button id="butDevice5ReturnSMS" class="boxbg all-round" type="button" style="width:85%;">Dev 5 Sms</button><br>
+						</div>
+						<div id="divDevice5Tasks" style="display:none"> 
+							<button id="butDevice5Task1" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(5,1,'phone5','message5_1');">
+								<span id="sd5t1" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 5 Task 1</b></span>
+							</button><span id="d5t1cr"><br></span>
+							<div id="divDevice5Task1YesNo" STYLE=" display:none">
+								<table id="Device5Task1YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice5Task1Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(5);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice5Task2" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(5,2,'phone5','message5_2');">
+								<span id="sd5t2" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 5 Task 2</b></span>
+							</button><span id="d5t2cr"><br></span>
+							<div id="divDevice5Task2YesNo" STYLE=" display:none">
+								<table id="Device5Task2YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice5Task2Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(5);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice5Task3" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(5,3,'phone5','message5_3');">
+								<span id="sd5t3" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 5 Task 3</b></span>
+							</button><span id="d5t3cr"><br></span>
+							<div id="divDevice5Task3YesNo" STYLE=" display:none">
+								<table id="Device5Task3YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice5Task3Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(5);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice5Task4" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(5,4,'phone5','message5_4');">
+								<span id="sd5t4" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 5 Task 4</b></span>
+							</button><span id="d5t4cr"><br></span>
+							<div id="divDevice5Task4YesNo" STYLE=" display:none">
+								<table id="Device5Task4YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice5Task4Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(5);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice5Task5" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(5,5,'phone5','message5_5');">
+								<span id="sd5t5" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 5 Task 5</b></span>
+							</button><span id="d5t5cr"><br></span>
+							<div id="divDevice5Task5YesNo" STYLE=" display:none">
+								<table id="Device5Task5YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice5Task5Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(5);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice5Task6" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(5,6,'phone5','message5_6');">
+								<span id="sd5t6" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 5 Task 6</b></span>
+							</button><br>
+							<div id="divDevice5Task6YesNo" STYLE=" display:none">
+								<table id="Device5Task6YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice5Task6Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(5);">
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+		
+						<div id="divDevice6"><button id="butDevice6" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenDevice(6);"><font face="arial" style="font-size:20px"><b>Device 6</b></font></button></div>
+						<div id="divDev6ReturnSMS" style="display:none"> 
+							<button id="butDevice6ReturnSMS" class="boxbg all-round" type="button" style="width:85%;">Dev 6 Sms</button><br>
+						</div>
+						<div id="divDevice6Tasks" style="display:none"> 
+							<button id="butDevice6Task1" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(6,1,'phone6','message6_1');">
+								<span id="sd6t1" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 6 Task 1</b></span>
+							</button><span id="d6t1cr"><br></span>
+							<div id="divDevice6Task1YesNo" STYLE=" display:none">
+								<table id="Device6Task1YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice6Task1Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(6);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice6Task2" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(6,2,'phone6','message6_2');">
+								<span id="sd6t2" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 6 Task 2</b></span>
+							</button><span id="d6t2cr"><br></span>
+							<div id="divDevice6Task2YesNo" STYLE=" display:none">
+								<table id="Device6Task2YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice6Task2Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(6);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice6Task3" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(6,3,'phone6','message6_3');">
+								<span id="sd6t3" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 6 Task 3</b></span>
+							</button><span id="d6t3cr"><br></span>
+							<div id="divDevice6Task3YesNo" STYLE=" display:none">
+								<table id="Device6Task3YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice6Task3Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(6);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice6Task4" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(6,4,'phone6','message6_4');">
+								<span id="sd6t4" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 6 Task 4</b></span>
+							</button><span id="d6t4cr"><br></span>
+							<div id="divDevice6Task4YesNo" STYLE=" display:none">
+								<table id="Device6Task4YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice6Task4Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(6);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice6Task5" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(6,5,'phone6','message6_5');">
+								<span id="sd6t5" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 6 Task 5</b></span>
+							</button><span id="d6t5cr"><br></span>
+							<div id="divDevice6Task5YesNo" STYLE=" display:none">
+								<table id="Device6Task5YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice6Task5Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(6);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice6Task6" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(6,6,'phone6','message6_6');">
+								<span id="sd6t6" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 6 Task 6</b></span>
+							</button><br>
+							<div id="divDevice6Task6YesNo" STYLE=" display:none">
+								<table id="Device6Task6YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice6Task6Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(6);">
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+		
+						<div id="divDevice7"><button id="butDevice7" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenDevice(7);"><font face="arial" style="font-size:20px"><b>Device 7</b></font></button></div>
+						<div id="divDev7ReturnSMS" style="display:none"> 
+							<button id="butDevice7ReturnSMS" class="boxbg all-round" type="button" style="width:85%;">Dev 7 Sms</button><br>
+						</div>
+						<div id="divDevice7Tasks" style="display:none"> 
+							<button id="butDevice7Task1" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(7,1,'phone7','message7_1');">
+								<span id="sd7t1" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 7 Task 1</b></span>
+							</button><span id="d7t1cr"><br></span>
+							<div id="divDevice7Task1YesNo" STYLE=" display:none">
+								<table id="Device7Task1YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice7Task1Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(7);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice7Task2" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(7,2,'phone7','message7_2');">
+								<span id="sd7t2" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 7 Task 2</b></span>
+							</button><span id="d7t2cr"><br></span>
+							<div id="divDevice7Task2YesNo" STYLE=" display:none">
+								<table id="Device7Task2YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice7Task2Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(7);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice7Task3" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(7,3,'phone6','message7_3');">
+								<span id="sd7t3" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 7 Task 3</b></span>
+							</button><span id="d7t3cr"><br></span>
+							<div id="divDevice7Task3YesNo" STYLE=" display:none">
+								<table id="Device7Task3YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice7Task3Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(7);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice7Task4" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(7,4,'phone6','message7_4');">
+								<span id="sd7t4" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 7 Task 4</b></span>
+							</button><span id="d7t4cr"><br></span>
+							<div id="divDevice7Task4YesNo" STYLE=" display:none">
+								<table id="Device7Task4YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice7Task4Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(7);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice7Task5" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(7,5,'phone6','message7_5');">
+								<span id="sd7t5" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 7 Task 5</b></span>
+							</button><span id="d7t5cr"><br></span>
+							<div id="divDevice7Task5YesNo" STYLE=" display:none">
+								<table id="Device7Task5YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice7Task5Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(7);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice7Task6" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(7,6,'phone6','message7_6');">
+								<span id="sd7t6" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 7 Task 6</b></span>
+							</button><br>
+							<div id="divDevice7Task6YesNo" STYLE=" display:none">
+								<table id="Device7Task6YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice7Task6Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(7);">
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+		
+						<div id="divDevice8"><button id="butDevice8" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenDevice(8);"><font face="arial" style="font-size:20px"><b>Device 8</b></font></button></div>
+						<div id="divDev8ReturnSMS" style="display:none"> 
+							<button id="butDevice8ReturnSMS" class="boxbg all-round" type="button" style="width:85%;">Dev 8 Sms</button><br>
+						</div>
+						<div id="divDevice8Tasks" style="display:none"> 
+							<button id="butDevice8Task1" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(8,1,'phone8','message8_1');">
+								<span id="sd8t1" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 8 Task 1</b></span>
+							</button><span id="d8t1cr"><br></span>
+							<div id="divDevice8Task1YesNo" STYLE=" display:none">
+								<table id="Device1Task8YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice8Task1Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(8);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice8Task2" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(8,2,'phone8','message8_2');">
+								<span id="sd8t2" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 8 Task 2</b></span>
+							</button><span id="d8t2cr"><br></span>
+							<div id="divDevice8Task2YesNo" STYLE=" display:none">
+								<table id="Device8Task2YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice8Task2Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(8);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice8Task3" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(8,3,'phone8','message8_3');">
+								<span id="sd8t3" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 8 Task 3</b></span>
+							</button><span id="d8t3cr"><br></span>
+							<div id="divDevice8Task3YesNo" STYLE=" display:none">
+								<table id="Device8Task3YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice8Task3Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(8);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice8Task4" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(8,4,'phone8','message8_4');">
+								<span id="sd8t4" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 8 Task 4</b></span>
+							</button><span id="d8t4cr"><br></span>
+							<div id="divDevice8Task4YesNo" STYLE=" display:none">
+								<table id="Device8Task4YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice8Task4Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(8);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice8Task5" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(8,5,'phone8','message8_5');">
+								<span id="sd8t5" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 8 Task 5</b></span>
+							</button><span id="d8t5cr"><br></span>
+							<div id="divDevice8Task5YesNo" STYLE=" display:none">
+								<table id="Device8Task5YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice8Task5Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(8);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice8Task6" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(8,6,'phone8','message8_6');">
+								<span id="sd8t6" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 8 Task 6</b></span>
+							</button><br>
+							<div id="divDevice8Task6YesNo" STYLE=" display:none">
+								<table id="Device8Task6YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice8Task6Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(8);">
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+		
+						<div id="divDevice9"><button id="butDevice9" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenDevice(9);"><font face="arial" style="font-size:20px"><b>Device 9</b></font></button></div>
+						<div id="divDev9ReturnSMS" style="display:none"> 
+							<button id="butDevice9ReturnSMS" class="boxbg all-round" type="button" style="width:85%;">Dev 9 Sms</button><br>
+						</div>
+						<div id="divDevice9Tasks" style="display:none"> 
+							<button id="butDevice9Task1" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(9,1,'phone9','message9_1');">
+								<span id="sd9t1" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 9 Task 1</b></span>
+							</button><span id="d9t1cr"><br></span>
+							<div id="divDevice9Task1YesNo" STYLE=" display:none">
+								<table id="Device9Task1YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice9Task1Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(9);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice9Task2" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(9,2,'phone9','message9_2');">
+								<span id="sd9t2" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 9 Task 2</b></span>
+							</button><span id="d9t2cr"><br></span>
+							<div id="divDevice9Task2YesNo" STYLE=" display:none">
+								<table id="Device9Task2YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice9Task2Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(9);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice9Task3" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(9,3,'phone9','message9_3');">
+								<span id="sd9t3" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 9 Task 3</b></span>
+							</button><span id="d9t3cr"><br></span>
+							<div id="divDevice9Task3YesNo" STYLE=" display:none">
+								<table id="Device9Task3YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice9Task3Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(9);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice9Task4" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(9,4,'phone9','message9_4');">
+								<span id="sd9t4" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 9 Task 4</b></span>
+							</button><span id="d9t4cr"><br></span>
+							<div id="divDevice9Task4YesNo" STYLE=" display:none">
+								<table id="Device9Task4YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice9Task4Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(9);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice9Task5" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(9,5,'phone9','message9_5');">
+								<span id="sd9t5" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 9 Task 5</b></span>
+							</button><span id="d9t5cr"><br></span>
+							<div id="divDevice9Task5YesNo" STYLE=" display:none">
+								<table id="Device9Task5YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice9Task5Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(9);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice9Task6" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(9,6,'phone9','message9_6');">
+								<span id="sd9t6" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 9 Task 6</b></span>
+							</button><br>
+							<div id="divDevice9Task6YesNo" STYLE=" display:none">
+								<table id="Device9Task6YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice9Task6Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(9);">
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+		
+						<div id="divDevice10"><button id="butDevice10" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenDevice(10);"><font face="arial" style="font-size:20px"><b>Device 10</b></font></button></div>
+						<div id="divDev10ReturnSMS" style="display:none"> 
+							<button id="butDevice10ReturnSMS" class="boxbg all-round" type="button" style="width:85%;">Dev 10 Sms</button><br>
+						</div>
+						<div id="divDevice10Tasks" style="display:none"> 
+							<button id="butDevice10Task1" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(10,1,'phone10','message10_1');">
+								<span id="sd10t1" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 10 Task 1</b></span>
+							</button><span id="d10t1cr"><br></span>
+							<div id="divDevice10Task1YesNo" STYLE=" display:none">
+								<table id="Device10Task1YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice10Task1Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(10);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice10Task2" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(10,2,'phone10','message10_2');">
+								<span id="sd10t2" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 10 Task 2</b></span>
+							</button><span id="d10t2cr"><br></span>
+							<div id="divDevice10Task2YesNo" STYLE=" display:none">
+								<table id="Device10Task2YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice10Task2Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(10);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice10Task3" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(10,3,'phone10','message10_3');">
+								<span id="sd10t3" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 10 Task 3</b></span>
+							</button><span id="d10t3cr"><br></span>
+							<div id="divDevice10Task3YesNo" STYLE=" display:none">
+								<table id="Device10Task3YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice10Task3Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(10);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice10Task4" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(10,4,'phone10','message10_4');">
+								<span id="sd10t4" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 10 Task 4</b></span>
+							</button><span id="d10t4cr"><br></span>
+							<div id="divDevice10Task4YesNo" STYLE=" display:none">
+								<table id="Device10Task4YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input id="butDevice10Task4Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(10);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice10Task5" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(10,5,'phone10','message10_5');">
+								<span id="sd10t5" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 10 Task 5</b></span>
+							</button><span id="d10t5cr"><br></span>
+							<div id="divDevice10Task5YesNo" STYLE=" display:none">
+								<table id="Device10Task5YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice10Task5Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(10);">
+										</td>
+									</tr>
+								</table>
+							</div>
+							<button id="butDevice10Task6" class="boxbg all-round" type="button" style="width:75%; height:65px" onClick="fOpenTask(10,6,'phone10','message10_6');">
+								<span id="sd10t6" style="font-family:Arial; color:#000000; font-size:20px"><b>Device 10 Task 6</b></span>
+							</button><br>
+							<div id="divDevice10Task6YesNo" STYLE=" display:none">
+								<table id="Device10Task6YesNoTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  id="butDevice10Task6Yes" class="boxbg all-round send" type="button" value="Send" onClick="">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round nosend" type="button"  value="Cancel" onClick="fOpenDevice(10);">
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+		
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						<div id="divSetup">
+							<button id="butSetup" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fSetupOpen();"><font face="arial" style="font-size:20px"><b><div id="divSetupText">Setup</div></b></font></button>
+						</div>
+						<form id="formSetup" action="javascript:fUpdate()" method="post" onsubmit="return checkform(this);">
+							<div id="divSetupDeviceButtons"  STYLE=" display:none">
+								<div id="divDevice0Setup">
+									<button id="butDevice0Setup" class="boxbg all-round" type="button" style="width:71%; height:65px" onClick="fOpenSetupDevice(0);">
+										<font face="arial" style="font-size:20px"><b>APP Parameters</b></font>
+									</button>
+									<button id="butDevice0Help" class="boxbg all-round" type="button" style="width:25%; height:65px; color:#FF0000;" onClick="fShowHelp();">
+										<font face="arial" style="font-size:20px"><b>Help</b></font>
+									</button>
+								</div>
+								<div id="divSetupDevice0" STYLE="width:90%; display:none" class="boxbg all-round">	
+									<table width="70%">
+										<tr><td align="left"><nobr>Picture size:</nobr></td><td><nobr><input type="radio" name="picturesize" id="picturesmall">Small&nbsp;&nbsp;<input type="radio" name="picturesize" id="picturenormal">Normal</nobr></td></tr>
+										<tr><td align="left"><nobr>Box size:</nobr></td><td><nobr><input type="radio" name="boxsize" id="boxsmall">Small&nbsp;&nbsp;<input type="radio" name="boxsize" id="boxnormal">Normal</nobr></td></tr>
+									</table>
+								</div>					
+								<div id="divOpenInfoPro" STYLE="width:100%">	
+									<button id="butOpenInfo" class="boxbg all-round" type="button" style="width:96%; background-color:#D65930" onClick="fOpenCloseInfoPro();">
+										<font face="arial" style="font-size:18px"><nobr><b><i><div id="DivOpenClose">Information about Pro-version</div></i></b></nobr></font>
+									</button>
+									<div id="divInfoProBody" style="display:none; background-color:#99ccff" >
+										Besides all functions the free version SMS Remote Control GSM has, the following features are available in de PRO-version:
+										<table width="100%" cellpadding="0" cellspacing="0" >
+											<tr>
+												<td align="left">
+													<ul>
+														<li>A possibility to protect the APP with a pin code</li>
+														<li>This pin code can be transferred to the SMS by using #### in the message</li>
+														<li>When you open an account at Clickatel, you can send SMS via the internet and you don't need a sim card or a phone, a tablet will do</li>
+														<li>No ads are shown</li>
+														<li>It is possible to add the name and phone number of your alarm company, and call them with a click from the start screen</li>
+														<li>The XML-parameter file is not readable so your codes and commands are kept secret</li>
+													</ul>
+												</td>
+											</tr>
+											<tr>
+												<td align="center">
+													<button id="butGotoStore" class="boxbg all-round" type="button" style="width:50%; background-color:#D65930" onClick="fGotoMarket();">
+														<font face="arial" style="font-size:18px">Watch the PRO-version in the store</font>
+													</button><br>
+												</td>
+											</tr>
+										</table>
+										&nbsp;
+									</div>									
+								</div>													
+								<div id="divDevice1Setup"><button id="butDevice1Setup" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenSetupDevice(1);"><font face="arial" style="font-size:20px"><b>Device 1</b></font></button></div>
+								<div id="divSetupDevice1" STYLE="width:96%; display:none" class="boxbg all-round">
+									<table cellpadding="0" cellspacing="0" border="0" width="94%">
+										<tr><td>Device:</td><td>&nbsp;</td><td align="right"><input type="text" name="device1" /></td></tr>
+										<tr><td>Color:</td><td>&nbsp;</td><td align="right"><input type="text" name="color1" class="simple_color_custom" onChange="fChangeColors();" /></td></tr>
+										<tr><td>GSM number:</td><td>&nbsp;</td><td align="right"><input type="text" name="phone1" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 1:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" size="17" name="device1task1" /><input type="checkbox" name="d1t1cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message1_1" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 2:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device1task2" /><input type="checkbox" name="d1t2cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message1_2" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 3:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device1task3" /><input type="checkbox" name="d1t3cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message1_3" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 4:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device1task4" /><input type="checkbox" name="d1t4cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message1_4" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 5:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device1task5" /><input type="checkbox" name="d1t5cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message1_5" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 6:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" name="device1task6" /></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message1_6" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+									</table>
+								</div>
+								<div id="divDevice2Setup"><button id="butDevice2Setup" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenSetupDevice(2);"><font face="arial" style="font-size:20px"><b>Device 2</b></font></button></div>
+								<div id="divSetupDevice2" STYLE=" display:none" class="boxbg all-round">
+									<table cellpadding="0" cellspacing="0" border="0" width="94%">
+										<tr><td>Device:</td><td>&nbsp;</td><td align="right"><input type="text" name="device2" /></td></tr>
+										<tr><td>Color:</td><td>&nbsp;</td><td align="right"><input type="text" name="color2" class="simple_color_custom" onChange="fChangeColors();" /></td></tr>
+										<tr><td>GSM number:</td><td>&nbsp;</td><td align="right"><input type="text" name="phone2" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 1:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" size="17" name="device2task1" /><input type="checkbox" name="d2t1cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message2_1" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 2:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device2task2" /><input type="checkbox" name="d2t2cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message2_2" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 3:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device2task3" /><input type="checkbox" name="d2t3cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message2_3" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 4:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device2task4" /><input type="checkbox" name="d2t4cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message2_4" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 5:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device2task5" /><input type="checkbox" name="d2t5cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message2_5" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 6:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" name="device2task6" /></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message2_6" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+									</table>
+								</div>
+								<div id="divDevice3Setup"><button id="butDevice3Setup" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenSetupDevice(3);"><font face="arial" style="font-size:20px"><b>Device 3</b></font></button></div>
+								<div id="divSetupDevice3" STYLE=" display:none" class="boxbg all-round">
+									<table cellpadding="0" cellspacing="0" border="0" width="94%">
+										<tr><td>Device:</td><td>&nbsp;</td><td align="right"><input type="text" name="device3" /></td></tr>
+										<tr><td>Color:</td><td>&nbsp;</td><td align="right"><input type="text" name="color3" class="simple_color_custom" onChange="fChangeColors();" /></td></tr>
+										<tr><td>GSM number:</td><td>&nbsp;</td><td align="right"><input type="text" name="phone3" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 1:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" size="17" name="device3task1" /><input type="checkbox" name="d3t1cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message3_1" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 2:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device3task2" /><input type="checkbox" name="d3t2cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message3_2" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 3:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device3task3" /><input type="checkbox" name="d3t3cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message3_3" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 4:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device3task4" /><input type="checkbox" name="d3t4cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message3_4" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 5:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device3task5" /><input type="checkbox" name="d3t5cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message3_5" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 6:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" name="device3task6" /></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message3_6" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+									</table>
+								</div>
+								<div id="divDevice4Setup"><button id="butDevice4Setup" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenSetupDevice(4);"><font face="arial" style="font-size:20px"><b>Device 4</b></font></button></div>
+								<div id="divSetupDevice4" STYLE=" display:none" class="boxbg all-round">
+									<table cellpadding="0" cellspacing="0" border="0" width="94%">
+										<tr><td>Device:</td><td>&nbsp;</td><td align="right"><input type="text" name="device4" /></td></tr>
+										<tr><td>Color:</td><td>&nbsp;</td><td align="right"><input type="text" name="color4" class="simple_color_custom" onChange="fChangeColors();" /></td></tr>
+										<tr><td>GSM number:</td><td>&nbsp;</td><td align="right"><input type="text" name="phone4" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 1:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" size="17" name="device4task1" /><input type="checkbox" name="d4t1cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message4_1" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 2:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device4task2" /><input type="checkbox" name="d4t2cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message4_2" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 3:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device4task3" /><input type="checkbox" name="d4t3cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message4_3" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 4:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device4task4" /><input type="checkbox" name="d4t4cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message4_4" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 5:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device4task5" /><input type="checkbox" name="d4t5cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message4_5" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 6:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" name="device4task6" /></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message4_6" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+									</table>
+								</div>
+								<div id="divDevice5Setup"><button id="butDevice5Setup" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenSetupDevice(5);"><font face="arial" style="font-size:20px"><b>Device 5</b></font></button></div>
+								<div id="divSetupDevice5" STYLE=" display:none" class="boxbg all-round">
+									<table cellpadding="0" cellspacing="0" border="0" width="94%">
+										<tr><td>Device:</td><td>&nbsp;</td><td align="right"><input type="text" name="device5" /></td></tr>
+										<tr><td>Color:</td><td>&nbsp;</td><td align="right"><input type="text" name="color5" class="simple_color_custom" onChange="fChangeColors();" /></td></tr>
+										<tr><td>GSM number:</td><td>&nbsp;</td><td align="right"><input type="text" name="phone5" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 1:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" size="17" name="device5task1" /><input type="checkbox" name="d5t1cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message5_1" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 2:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device5task2" /><input type="checkbox" name="d5t2cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message5_2" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 3:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device5task3" /><input type="checkbox" name="d5t3cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message5_3" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 4:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device5task4" /><input type="checkbox" name="d5t4cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message5_4" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 5:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device5task5" /><input type="checkbox" name="d5t5cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message5_5" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 6:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" name="device5task6" /></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message5_6" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+									</table>
+								</div>
+								<div id="divDevice6Setup"><button id="butDevice6Setup" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenSetupDevice(6);"><font face="arial" style="font-size:20px"><b>Device 6</b></font></button></div>
+								<div id="divSetupDevice6" STYLE=" display:none" class="boxbg all-round">
+									<table cellpadding="0" cellspacing="0" border="0" width="94%">
+										<tr><td>Device:</td><td>&nbsp;</td><td align="right"><input type="text" name="device6" /></td></tr>
+										<tr><td>Color:</td><td>&nbsp;</td><td align="right"><input type="text" name="color6" class="simple_color_custom" onChange="fChangeColors();" /></td></tr>
+										<tr><td>GSM number:</td><td>&nbsp;</td><td align="right"><input type="text" name="phone6" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 1:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" size="17" name="device6task1" /><input type="checkbox" name="d6t1cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message6_1" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 2:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device6task2" /><input type="checkbox" name="d6t2cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message6_2" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 3:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device6task3" /><input type="checkbox" name="d6t3cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message6_3" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 4:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device6task4" /><input type="checkbox" name="d6t4cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message6_4" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 5:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device6task5" /><input type="checkbox" name="d6t5cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message6_5" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 6:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" name="device6task6" /></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message6_6" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+									</table>
+								</div>
+								<div id="divDevice7Setup"><button id="butDevice7Setup" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenSetupDevice(7);"><font face="arial" style="font-size:20px"><b>Device 7</b></font></button></div>
+								<div id="divSetupDevice7" STYLE="width:96%; display:none" class="boxbg all-round">
+									<table cellpadding="0" cellspacing="0" border="0" width="94%">
+										<tr><td>Device:</td><td>&nbsp;</td><td align="right"><input type="text" name="device7" /></td></tr>
+										<tr><td>Color:</td><td>&nbsp;</td><td align="right"><input type="text" name="color7" class="simple_color_custom" onChange="fChangeColors();" /></td></tr>
+										<tr><td>GSM number:</td><td>&nbsp;</td><td align="right"><input type="text" name="phone7" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 1</td><td>&nbsp;</td><td align="right"><nobr><input type="text" size="17" name="device7task1" /><input type="checkbox" name="d7t1cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message7_1" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 2:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device7task2" /><input type="checkbox" name="d7t2cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message7_2" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 3:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device7task3" /><input type="checkbox" name="d7t3cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message7_3" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 4:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device7task4" /><input type="checkbox" name="d7t4cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message7_4" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 5:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device7task5" /><input type="checkbox" name="d7t5cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message7_5" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 6:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" name="device7task6" /></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message7_6" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+									</table>
+								</div>
+								<div id="divDevice8Setup"><button id="butDevice8Setup" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenSetupDevice(8);"><font face="arial" style="font-size:20px"><b>Device 8</b></font></button></div>
+								<div id="divSetupDevice8" STYLE="width:96%; display:none" class="boxbg all-round">
+									<table cellpadding="0" cellspacing="0" border="0" width="94%">
+										<tr><td>Device:</td><td>&nbsp;</td><td align="right"><input type="text" name="device8" /></td></tr>
+										<tr><td>Color:</td><td>&nbsp;</td><td align="right"><input type="text" name="color8" class="simple_color_custom" onChange="fChangeColors();" /></td></tr>
+										<tr><td>GSM number:</td><td>&nbsp;</td><td align="right"><input type="text" name="phone8" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 1:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" size="17" name="device8task1" /><input type="checkbox" name="d8t1cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message8_1" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 2:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device8task2" /><input type="checkbox" name="d8t2cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message8_2" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 3:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device8task3" /><input type="checkbox" name="d8t3cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message8_3" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 4:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device8task4" /><input type="checkbox" name="d8t4cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message8_4" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 5:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device8task5" /><input type="checkbox" name="d8t5cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message8_5" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 6:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" name="device8task6" /></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message8_6" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+									</table>
+								</div>
+								<div id="divDevice9Setup"><button id="butDevice9Setup" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenSetupDevice(9);"><font face="arial" style="font-size:20px"><b>Device 9</b></font></button></div>
+								<div id="divSetupDevice9" STYLE="width:96%; display:none" class="boxbg all-round">
+									<table cellpadding="0" cellspacing="0" border="0" width="94%">
+										<tr><td>Device:</td><td>&nbsp;</td><td align="right"><input type="text" name="device9" /></td></tr>
+										<tr><td>Color:</td><td>&nbsp;</td><td align="right"><input type="text" name="color9" class="simple_color_custom" onChange="fChangeColors();" /></td></tr>
+										<tr><td>GSM number:</td><td>&nbsp;</td><td align="right"><input type="text" name="phone9" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 1:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" size="17" name="device9task1" /><input type="checkbox" name="d9t1cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message9_1" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 2:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device9task2" /><input type="checkbox" name="d9t2cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message9_2" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 3:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device9task3" /><input type="checkbox" name="d9t3cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message9_3" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 4:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device9task4" /><input type="checkbox" name="d9t4cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message9_4" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 5:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device9task5" /><input type="checkbox" name="d9t5cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message9_5" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 6:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" name="device9task6" /></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message9_6" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+									</table>
+								</div>
+								<div id="divDevice10Setup"><button id="butDevice10Setup" class="boxbg all-round" type="button" style="width:96%; height:65px" onClick="fOpenSetupDevice(10);"><font face="arial" style="font-size:20px"><b>Device 10</b></font></button></div>
+								<div id="divSetupDevice10" STYLE="width:96%; display:none" class="boxbg all-round">
+									<table cellpadding="0" cellspacing="0" border="0" width="94%">
+										<tr><td>Device:</td><td>&nbsp;</td><td align="right"><input type="text" name="device10" /></td></tr>
+										<tr><td>Color:</td><td>&nbsp;</td><td align="right"><input type="text" name="color10" class="simple_color_custom" onChange="fChangeColors();" /></td></tr>
+										<tr><td>GSM number:</td><td>&nbsp;</td><td align="right"><input type="text" name="phone10" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 1:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" size="17" name="device10task1" /><input type="checkbox" name="d10t1cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message10_1" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 2:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device10task2" /><input type="checkbox" name="d10t2cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message10_2" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 3:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device10task3" /><input type="checkbox" name="d10t3cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message10_3" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 4:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device10task4" /><input type="checkbox" name="d10t4cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message10_4" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 5:</td><td>&nbsp;</td><td align="right"><nobr><input type="text"  size="17" name="device10task5" /><input type="checkbox" name="d10t5cr" value="0"></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message10_5" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+										<tr><td>Task 6:</td><td>&nbsp;</td><td align="right"><nobr><input type="text" name="device10task6" /></nobr></td></tr>
+										<tr><td><nobr>- sms text:</nobr></td><td>&nbsp;</td><td align="right"><input type="text" size="20" name="message10_6" /></td></tr>
+										<tr><td colspan="4"><hr></td></tr>
+									</table>
+								</div>
+							</div>
+							<div id="divMenuYN" class="lock" style="display:none">
+							   <center>
+								<table id="MenuYNTable" width="300">
+									<tr>
+										<td width="50%" align="left">
+											<input  class="boxbg all-round" type="submit" style="font: bold 20px Arial; width:90px; height:70px; background-color:#00FF00" value="Save">
+										</td>
+										<td width="50%" align="right">
+											<input class="boxbg all-round" type="button"  style="font: bold 20px Arial; width:90px; height:70px;  background-color:#FF0000" value="Cancel" onClick="fSetupCancel();">
+										</td>
+									</tr>
+								</table>
+							   </center>
+							</div>
+						</form>
+						
+					</td>
+				</tr>
+			</table>
+			</div>
+
+			<div id="helparea"  style="display:none">
+			<table id="OuterTable" width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td align="center">
+						<img id="rc_pict" src="pict/rc_small.png"  width="100%" border="0">
+					</td>
+				</tr>
+				<tr>
+					<td align="left">
+						After entering the setup mode, you can define 10 devices. Here  you see a sample of a device:
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						<img id="device" src="pict/device.jpg"  width="100%" border="0">
+					</td>
+				</tr>
+				<tr>
+					<td align="left">
+						For every device you can define 6 tasks that can be send to the device. It's pretty much straight
+						forward how to add those tasks. The check box behind every task tells the program that the
+						task after this task will be on the same line. The following picture illustrates that. 
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						<img id="device" src="pict/cr.jpg"  width="100%" border="0">
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						<button id="butBack" type="button" style="width:85%;" onclick="fCloseHelp();">Close this page</button>
+					</td>
+				</tr>
+			</table>
+			</div>
+			
+		</center>
+		<div id="divAdPlaceholder"  style="display:none">
+			&nbsp;<br>&nbsp;<br>&nbsp;<br>
+		</div>	
+	</body>
+</html>

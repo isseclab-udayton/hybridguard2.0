@@ -1,0 +1,41 @@
+		.boxbg { background-color:#ccc; }
+		.all-round {
+			border-radius:1em;
+			-moz-border-radius:1em;
+			-webkit-border-radius:1em;
+		}
+		.send {
+			font: bold 26px Arial; 
+			color:#0000FF;
+			width:110px; 
+			height:50px; 
+			background-color:#FFFFFF;
+		}
+		.nosend {
+			font: bold 26px Arial; 
+			color:#FF0000;
+			width:110px; 
+			height:50px; 
+			background-color:#FFFFFF;
+		 }
+		
+		
+		input#alert_button {
+			display: block;
+			margin-top: 20px;
+		}
+		
+		.simpleColorDisplay {
+			float: left;
+			margin-top: 6px;
+			font-family: Helvetica;
+		}
+		
+		.button {
+			clear: right;
+		}
+	
+		.lock {
+			position:absolute;
+			top: 0%;
+		}

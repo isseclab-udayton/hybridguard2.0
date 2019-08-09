@@ -1,0 +1,178 @@
+* {
+    user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+.side-nav{
+    width:280px;
+    box-shadow: initial;
+}
+html{
+    background-color: #f9f9f9;
+}
+.profile{
+    background-color: #8e24aa !important;
+}
+.text{
+    position: relative;
+    margin: 0px !important;
+    padding-left: 20px;
+}
+.class-card{
+    padding: 15px 0px 0px;
+    margin-bottom: 0px;
+    box-shadow: none;
+    margin-top: 5px;
+    border-radius: 0px;
+}
+.class-cont{
+    margin-left: -0.60rem;
+    margin-right: -0.60rem; 
+    background-color:#f3f3f3
+}
+@media (min-width: 700px) {
+  .class-cont{
+    margin-left: 0em;
+    margin-right: 0rem; 
+    background-color:#f3f3f3
+  }
+}
+#pColor::before{
+    background-color: rgba(0,0,0,0.5);
+}
+.smallText{
+
+    font-size: 12px;
+}
+.nav-icns{
+    margin-right: 15px !important;
+    font-size: 24px !important;
+    height: 48px !important;
+}
+a.active{
+	background-color: #f3f3f3
+}
+.moveDown{
+
+    top: 40px;
+}
+.Daily{
+    background-color: #e3f2fd !important;
+}
+.Minor{
+    background-color: #e0f2f1 !important;
+}
+.Major{
+    background-color: #ffebee !important;
+}
+.table{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.badger{
+    position: inherit !important;
+}
+
+h5.A{
+    color: #9ccc65;
+}
+
+h5.B{
+    color: #29b6f6;
+}
+h5.C{
+    color: #ffb74d
+}
+
+h5.F{
+    color: #ef5350;
+}
+div.A{
+    background-color: #9ccc65;
+}
+
+div.B{
+    background-color: #29b6f6;
+}
+div.C{
+    background-color: #ffb74d
+}
+
+div.F{
+    background-color: #ef5350;
+}
+#sidenav-overlay{
+    z-index: 996;
+}
+.anim{
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+@keyframes drop {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(180deg);}
+}
+@keyframes up {
+    from {transform: rotate(180deg);}
+    to {transform: rotate(0deg);}
+}
+.dropdown{
+    transform: rotate(180deg);
+    animation-name: drop;
+    animation-duration: 0.25s;
+}
+.return{
+    transform: rotate(0deg);
+    animation-name: up;
+    animation-duration: 0.25s;
+}
+.smtext{
+    line-height: inherit !important;
+    font-size: 1.5em !important;
+}
+.minus{
+    color: white;
+    background-color: #ff6b6d;
+}
+.iosNav{
+    padding-top: 24px;
+    height:80px;
+}
+.iosBody{
+    margin-top: 30px;
+}
+.plus{
+    background-color: #4fb93c;
+    color: white;
+}
+.dank{
+    background-image: url("Pepe_rare.png");
+    font-family: "Dank Sans", cursive, sans-serif !important;
+}
+.memes{
+    background-image: url("meme.gif" );
+    background-position: center -20px;
+}
+.sub{
+    font-size: 15px;
+    font-weight: 300;
+}
+.drag-target{
+    margin-top: 64px;
+    width: 20px;
+    z-index: 998;
+    height: calc(100% - 64px);
+}
+.profile-dropdown{
+    overflow: hidden;
+    transition: height 0.25s;
+    height: 0px;
+    color: #333;
+    font-weight: 300;
+}
+.profile-dropdown a{
+    color: #333;
+    font-weight: 300;
+    padding-left: 35px;
+}

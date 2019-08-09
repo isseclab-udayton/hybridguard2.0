@@ -1,0 +1,58 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cl.rmd.cordova.dialoggps": {
+            "PACKAGE_NAME": "com.falc0n.gallery"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.falc0n.gallery"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.falc0n.gallery"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "com.falc0n.gallery"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.falc0n.gallery"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.falc0n.gallery"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.falc0n.gallery"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.falc0n.gallery"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.falc0n.gallery"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.falc0n.gallery"
+        },
+        "cordova-plugin-secure-storage": {
+            "PACKAGE_NAME": "com.falc0n.gallery"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.falc0n.gallery"
+        },
+        "cordova-sms-plugin": {
+            "PACKAGE_NAME": "com.falc0n.gallery"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.falc0n.gallery"
+        },
+        "cordova-plugin-fileopener": {
+            "PACKAGE_NAME": "com.falc0n.gallery"
+        }
+    }
+}

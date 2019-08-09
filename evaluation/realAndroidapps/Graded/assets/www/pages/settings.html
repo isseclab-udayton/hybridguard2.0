@@ -1,0 +1,66 @@
+<div class="container">
+    <div class="row">
+        <div class="card">
+            <div class="card-content">
+                <div class="card-title black-text">Visual Options</div>
+                <p style="padding-top: 10px;" class="grey-text text-darken-1">COLOR SCHEME</p>
+                <form action="#">
+                    <p>
+                        <input class="with-gap purple-text" name="group1" type="radio" id="purple" onclick="changeNavColor('purple','purple lighten-1','#7b1fa2','#9c27b0')"/>
+                        <label for="purple" class="purple-text">Purple</label>
+                    </p>
+                    <p>
+                        <input class="with-gap orange-text" name="group1" type="radio" id="red" onclick="changeNavColor('orange','orange lighten-1','#ef6c00','#ff9800')"/>
+                        <label for="red" class="red-text">Orange</label>
+                    </p>
+                    <p>
+                        <input class="with-gap black-text" name="group1" type="radio" id="grey" onclick="changeNavColor('grey darken-2','grey darken-1','#424242','#616161')"/>
+                        <label for="grey" class="black-text">Dark Grey</label>
+                    </p>
+                    <p>
+                        <input class="with-gap blue-text" name="group1" type="radio" id="blue" onclick="changeNavColor('blue darken-3','blue darken-2','#0d47a1','#1565c0')"/>
+                        <label for="blue" class="blue-text">Blue</label>
+                    </p>
+                    <p>
+                        <input class="with-gap " name="group1" type="radio" id="green" onclick="changeNavColor('green darken-2','green darken-1','#2e7d32','#43a047')"/>
+                        <label for="green" class="green-text">Green</label>
+                    </p>
+                    <p style="padding-top: 10px;" class="grey-text text-darken-1">DEFAULT PAGE</p>
+                    <input class="with-gap " name="group1" type="radio" id="feed" onclick="localStorage.setItem('defaultPage','feed')"/>
+                    <label for="feed">Whats New</label>
+                    <input class="with-gap " name="group1" type="radio" id='classwork' onclick="localStorage.setItem('defaultPage','classwork');"/>
+                    <label for="classwork">Classwork</label>
+                </form>
+
+                <div ng-if="dank">
+                    <button class="btn green" id="dankToggler" onclick="dank();" style="width:100%; margin-top: 20px; background-image: url(img/water.gif); background-size:cover; background-position-y: -40px;font-family: 'Dank Sans', cursive, sans-serif !important;">Enable Dank Memes!</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-panel white black-text" ng-if="sudo">
+            <p class="card-title" style="font-size: 16px;">Debug Panel <small>(Only visible to George Thayamkery)</small></p>
+            <p class="grey-text" style="margin-bottom:0;">FCM TOKEN</p>
+            <p style="overflow:auto;"><code style="user-select: initial; " id="fcm-tkn">{{fcm}}</code></p>
+            </br>
+            <button class="btn white black-text" data-clipboard-action="copy" data-clipboard-text="{{fcm}}">
+                Copy to clipboard (Android)
+            </button>
+            <p class="grey-text" style="margin-bottom:0;">LOG</p>
+            <div style="width:100%; height: 200px; overflow:auto; background-color:#f3f3f3">
+                <p ng-repeat="l in log track by $index">
+                    <code>{{l}}</code>
+                </p>
+            </div>
+            <div style="text-align:center">
+                <a href='javascript:newPushNotification("This is a test message", 3,"morning");' class="btn-flat">Test Notifications (Morning)</a>
+                <a href='javascript:newPushNotification("This is a test message", 3,"afternoon");' class="btn-flat">Test Notifications (Afternoon)</a>
+                <a href='javascript:notifInFive();' class="btn-flat">Test Notifications (in 5 sec)</a>
+                <a href='javascript:cancelNotifs();' class="btn-flat">Cancel notifications</a>
+                <a href='javascript:showNotifs();' class="btn-flat">Refresh Scheduled Notifications</a>
+            </div>
+            <p class="grey-text" style="margin-bottom:0;">SCHEDULED NOTIFICATIONS</p>
+            <div id="notifContainer">
+            </div>
+        </div>
+    </div>
+</div>

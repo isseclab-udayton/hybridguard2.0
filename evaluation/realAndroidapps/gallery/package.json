@@ -1,0 +1,21 @@
+{
+    "name": "com.falc0n.gallery",
+    "version": "1.0.0",
+    "displayName": "Gallery",
+    "cordova": {
+        "platforms": [
+            "browser",
+            "ios"
+        ],
+        "plugins": {
+            "cordova-plugin-contacts": {},
+            "cordova-plugin-whitelist": {}
+        }
+    },
+    "dependencies": {
+        "cordova-browser": "^4.1.0",
+        "cordova-ios": "~4.4.0",
+        "cordova-plugin-contacts": "2",
+        "cordova-plugin-whitelist": "1"
+    }
+}

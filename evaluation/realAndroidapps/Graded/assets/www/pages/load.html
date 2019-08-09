@@ -1,0 +1,73 @@
+<div class="center" style="margin-top: 15px;" id="loading">
+
+    <div class="preloader-wrapper small active">
+        <div class="spinner-layer spinner-blue">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div><div class="gap-patch">
+            <div class="circle"></div>
+        </div><div class="circle-clipper right">
+            <div class="circle"></div>
+        </div>
+        </div>
+
+        <div class="spinner-layer spinner-red">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div><div class="gap-patch">
+            <div class="circle"></div>
+        </div><div class="circle-clipper right">
+            <div class="circle"></div>
+        </div>
+        </div>
+
+        <div class="spinner-layer spinner-yellow">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div><div class="gap-patch">
+            <div class="circle"></div>
+        </div><div class="circle-clipper right">
+            <div class="circle"></div>
+        </div>
+        </div>
+
+        <div class="spinner-layer spinner-green">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div><div class="gap-patch">
+            <div class="circle"></div>
+        </div><div class="circle-clipper right">
+            <div class="circle"></div>
+        </div>
+        </div>
+    </div>
+
+</div>
+<div class="container" hidden id="404">
+    <div class="row animated fadeIn">
+    <div style="padding: 10px; margin-bottom: 20px;">
+    <h1>¯\_(ツ)_/¯</h1>
+    <h3>Failed to connect to the server</h3>
+    <p>Either my server is blocked on your wifi (hosted by Azure), your HAC website is down, or the server pooped (try refreshing)</p>
+        <p>Error Code: <b><span id="code"></span></b></p>
+        <p>Diagnostic Code: <span><b><code id="traceback"></code></b></span></p>
+        <div id="resp" hidden>
+            <iframe style="border:none" height="300" id="respframe"></iframe>
+        </div>
+        <button class="btn-flat orange-text right" onclick="reload()" style="padding-right:0px">Try to reconnect</button>
+
+        <button class="btn-flat orange-text right" onclick="reportBug('#errorPageBtn')" error="N/A" traceback="N/A" id="errorPageBtn" style="padding-right:0px">Report Bug</button>
+
+    </div>
+    </div>
+</div>
+<div class="container" hidden id="offline">
+    <div class="row">
+    <div style="padding: 10px;margin-bottom: 20px;">
+        <h1>¯\_(ツ)_/¯</h1>
+        <h3>You are not connected to the Internet</h3>
+        <p>Please turn on wifi or your mobile data.</p>
+        <button class="btn-flat orange-text right" onclick="reload()"  style="padding-right:0px">Try to reconnect</button>
+    </div>
+    </div>
+</div>

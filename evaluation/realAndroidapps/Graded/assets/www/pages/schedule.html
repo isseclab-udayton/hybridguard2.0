@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="progress {{hideLoad}}">
+        <div class="indeterminate"></div>
+    </div>
+    <div class="row">
+        <div class="card placeholder fadeIn anim" id="one">
+            <div class="card-content" style="padding-bottom: 0px; padding-left: 15px; padding-right: 15px; padding-top: 15px;">
+                <span class="card-title flow-text" style="color: black; font-size: 18px">Schedule</span>
+            </div>
+            <div>
+                <table class="striped">
+                    <thead>
+                    <tr>
+                        <th data-field="id">Class</th>
+                        <th data-field="price" class="truncate">Teachers</th>
+                        <th data-field="price">Period</th>
+                        <th data-field="price" class="">Room</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    <tr ng-repeat="classes in sched.values">
+                        <td class="table ">{{classes[1]}}</td>
+                        <td class="table ">{{classes[3]}}</td>
+                        <td class="table ">{{classes[2]}} {{classes[5]}}</td>
+                        <td class="table">{{classes[4]}}</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-action">
+
+            </div>
+        </div>
+    <div class="ad" ng-if="ad !== null" url="{{ad['TargetUrl'] ? ad['TargetUrl']:null}}" identity="{{ad['Id'] ? ad['Id']:null}}"
+    pageId="{{ad['PageId'] ? ad['PageId']:null}}" ng-bind-html="adHTML" onclick="adClicked();">
+
+    </div>
+    </div>
+
+</div>
