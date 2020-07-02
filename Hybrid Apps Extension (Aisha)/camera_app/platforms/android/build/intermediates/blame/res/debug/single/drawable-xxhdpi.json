@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable-xxhdpi/launcher_icon.png",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/drawable-xxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable-xxhdpi/launcher_icon.png",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/drawable-xxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_previous_item.png",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/drawable-xxhdpi/ic_action_previous_item.png"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_previous_item.png",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/drawable-xxhdpi/ic_action_previous_item.png"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_next_item.png",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/drawable-xxhdpi/ic_action_next_item.png"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_next_item.png",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/drawable-xxhdpi/ic_action_next_item.png"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_remove.png",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/drawable-xxhdpi/ic_action_remove.png"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_remove.png",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/drawable-xxhdpi/ic_action_remove.png"
+    }
+]
