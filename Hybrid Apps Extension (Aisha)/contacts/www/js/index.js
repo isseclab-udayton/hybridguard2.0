@@ -28,13 +28,12 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
     //  alert("myData1");
-      //alert("Aishu Baby");
-
+     
       document.getElementById("showcontacts").addEventListener("click", createContact);
 	function createContact()
 	{
-		var myContact1 = navigator.contacts.create({"displayName": "Aisha   "});
-    var myContact2 = navigator.contacts.create({"displayName": "Adi  "});
+		var myContact1 = navigator.contacts.create({"displayName": "Green  "});
+    var myContact2 = navigator.contacts.create({"displayName": "Red  "});
     var myContact3 = navigator.contacts.create({"displayName": "Stephan   "});
     var myContact4 = navigator.contacts.create({"displayName": "Thomas"});
     var disp=myContact1.displayName+myContact2.displayName+myContact3.displayName+myContact4.displayName;
