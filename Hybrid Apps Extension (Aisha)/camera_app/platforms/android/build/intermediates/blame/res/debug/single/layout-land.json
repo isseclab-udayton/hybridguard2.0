@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/layout-land/share.xml",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/layout-land/share.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/layout-land/encode.xml",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/layout-land/encode.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/layout-land/share.xml",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/layout-land/share.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/layout-land/encode.xml",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/layout-land/encode.xml"
+    }
+]
