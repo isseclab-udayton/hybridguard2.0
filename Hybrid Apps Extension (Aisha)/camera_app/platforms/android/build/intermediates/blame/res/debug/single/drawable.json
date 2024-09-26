@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable/flashbuttonoff.png",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/drawable/flashbuttonoff.png"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable/shopper_icon.png",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/drawable/shopper_icon.png"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable/zoom.png",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/drawable/zoom.png"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable/flashbuttonoff.png",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/drawable/flashbuttonoff.png"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable/share_via_barcode.png",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/drawable/share_via_barcode.png"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable/flashbuttonon.png",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/drawable/flashbuttonon.png"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable/flashbuttonon.png",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/drawable/flashbuttonon.png"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable/launcher_icon.png",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/drawable/launcher_icon.png"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable/overlay_mw.png",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/drawable/overlay_mw.png"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable/overlay_mw.png",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/drawable/overlay_mw.png"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable/share_via_barcode.png",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/drawable/share_via_barcode.png"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable/shopper_icon.png",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/drawable/shopper_icon.png"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable/zoom.png",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/drawable/zoom.png"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/drawable/launcher_icon.png",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/drawable/launcher_icon.png"
+    }
+]

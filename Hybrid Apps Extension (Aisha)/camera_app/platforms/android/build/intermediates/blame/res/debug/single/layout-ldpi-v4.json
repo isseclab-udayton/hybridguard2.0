@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/layout-ldpi-v4/capture.xml",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/layout-ldpi/capture.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/layout-ldpi-v4/capture.xml",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/layout-ldpi/capture.xml"
+    }
+]

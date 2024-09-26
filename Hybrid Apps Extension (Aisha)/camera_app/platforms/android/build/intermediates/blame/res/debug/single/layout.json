@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/history_list_item.xml",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/layout/history_list_item.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/search_book_contents_header.xml",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/layout/search_book_contents_header.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/capture.xml",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/layout/capture.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/help.xml",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/layout/help.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/history_list_item.xml",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/layout/history_list_item.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/search_book_contents_list_item.xml",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/layout/search_book_contents_list_item.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/search_book_contents.xml",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/layout/search_book_contents.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/scanner.xml",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/layout/scanner.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/search_book_contents_list_item.xml",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/layout/search_book_contents_list_item.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/scanner.xml",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/layout/scanner.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/encode.xml",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/layout/encode.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/encode.xml",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/layout/encode.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/bookmark_picker_list_item.xml",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/layout/bookmark_picker_list_item.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/bookmark_picker_list_item.xml",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/layout/bookmark_picker_list_item.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/share.xml",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/layout/share.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/capture.xml",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/layout/capture.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/search_book_contents_header.xml",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/layout/search_book_contents_header.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/share.xml",
+        "source": "/Volumes/disk0s6/camera_app/platforms/android/res/layout/share.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/search_book_contents.xml",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/layout/search_book_contents.xml"
+    },
+    {
+        "merged": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/res/merged/debug/layout/help.xml",
+        "source": "/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/res/layout/help.xml"
+    }
+]

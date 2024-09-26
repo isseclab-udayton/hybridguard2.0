@@ -1,0 +1,392 @@
+{
+  "resources": [
+    {
+      "name": "contacts",
+      "permissions": [
+        {
+          "principal_id": "trusted",
+          "read": "true",
+          "write": "true",
+          "longitude": "-122.1234",
+          "latitude": "37",
+          "distanceAround": "0.005",
+          "solid": "false",
+          "notUseDay": "1 2 3 4 5",
+          "timeStart": "9:10",
+          "timeEnd": "17:00",
+          "curUseLimit": "100",
+          "maxUseLimit": "100",
+          "useLength": "60000",
+          "startUse": "true",
+          "curTimeLimit": "120",
+          "maxTimeLimit": "30",
+          "date": "7:18",
+          "timeLimitBool": "true"
+        },
+
+
+        {
+          "principal_id": "untrusted",
+          "read": "false",
+          "write": "false",
+          "longitude": "-122.1234",
+          "latitude": "37",
+          "distanceAround": "0.005",
+          "solid": "false",
+          "notUseDay": "1 2 3 4 5",
+          "timeStart": "9:10",
+          "timeEnd": "17:00",
+          "curUseLimit": "100",
+          "maxUseLimit": "100",
+          "useLength": "60000",
+          "startUse": "true",
+          "curTimeLimit": "120",
+          "maxTimeLimit": "30",
+          "date": "7:18",
+          "timeLimitBool": "true"
+        }
+      ]
+
+    },
+
+    {
+      "name": "geolocation",
+      "permissions": [
+        {
+          "principal_id": "trusted",
+          "read": "true",
+          "longitude": "-122.1234",
+          "latitude": "37",
+          "distanceAround": "0.005",
+          "solid": "false",
+          "notUseDay": "1 2 3 4 5",
+          "timeStart": "9:10",
+          "timeEnd": "17:00",
+          "curUseLimit": "500",
+          "maxUseLimit": "500",
+          "useLength": "60000",
+          "startUse": "true",
+          "curTimeLimit": "120",
+          "maxTimeLimit": "30",
+          "date": "7:18",
+          "timeLimitBool": "true"
+        },
+
+
+        {
+          "principal_id": "untrusted",
+          "read": "false",
+          "longitude": "-122.1234",
+          "latitude": "37",
+          "distanceAround": "0.005",
+          "solid": "false",
+          "notUseDay": "1 2 3 4 5",
+          "timeStart": "9:10",
+          "timeEnd": "17:00",
+          "curUseLimit": "100",
+          "maxUseLimit": "100",
+          "useLength": "60000",
+          "startUse": "true",
+          "curTimeLimit": "120",
+          "maxTimeLimit": "30",
+          "date": "7:18",
+          "timeLimitBool": "true"
+        }
+      ]
+
+    },
+
+    {
+      "name": "sms",
+      "permissions": [
+        {
+          "principal_id": "trusted",
+          "read": "true",
+          "send": "true",
+          "longitude": "-122.1234",
+          "latitude": "37",
+          "distanceAround": "0.005",
+          "solid": "false",
+          "notUseDay": "1 2 3 4 5",
+          "timeStart": "9:10",
+          "timeEnd": "17:00",
+          "curUseLimit": "100",
+          "maxUseLimit": "100",
+          "useLength": "60000",
+          "startUse": "true",
+          "curTimeLimit": "120",
+          "maxTimeLimit": "30",
+          "date": "7:18",
+          "timeLimitBool": "true"
+        },
+
+        {
+          "principal_id": "untrusted",
+          "read": "false",
+          "send": "false",
+          "longitude": "-122.1234",
+          "latitude": "37",
+          "distanceAround": "0.005",
+          "solid": "false",
+          "notUseDay": "1 2 3 4 5",
+          "timeStart": "9:10",
+          "timeEnd": "17:00",
+          "curUseLimit": "100",
+          "maxUseLimit": "100",
+          "useLength": "60000",
+          "startUse": "true",
+          "curTimeLimit": "120",
+          "maxTimeLimit": "30",
+          "date": "7:18",
+          "timeLimitBool": "true"
+        }
+      ]
+
+    },
+
+    {
+      "name": "sms_whitelist",
+      "numbers": [
+        "9804284888",
+        "5167543456",
+        "9376609221"
+      ]
+    },
+
+    {
+      "name": "camera",
+      "permissions": [
+        {
+          "principal_id": "trusted",
+          "read": "true",
+          "write": "true",
+          "longitude": "-122.1234",
+          "latitude": "37",
+          "distanceAround": "0.005",
+          "solid": "false",
+          "notUseDay": "1 2 3 4 5",
+          "timeStart": "9:10",
+          "timeEnd": "17:00",
+          "curUseLimit": "100",
+          "maxUseLimit": "100",
+          "useLength": "60000",
+          "startUse": "true",
+          "curTimeLimit": "120",
+          "maxTimeLimit": "30",
+          "date": "7:18",
+          "timeLimitBool": "true"
+        },
+
+        {
+          "principal_id": "untrusted",
+          "read": "false",
+          "write": "false",
+          "longitude": "-122.1234",
+          "latitude": "37",
+          "distanceAround": "0.005",
+          "solid": "false",
+          "notUseDay": "1 2 3 4 5",
+          "timeStart": "9:10",
+          "timeEnd": "17:00",
+          "curUseLimit": "100",
+          "maxUseLimit": "100",
+          "useLength": "60000",
+          "startUse": "true",
+          "curTimeLimit": "120",
+          "maxTimeLimit": "30",
+          "date": "7:18",
+          "timeLimitBool": "true"
+        }
+      ]
+
+    },
+    {
+      "name": "notification",
+      "permissions": [
+        {
+          "principal_id": "trusted",
+          "read": "true",
+          "write": "true",
+          "longitude": "-122.1234",
+          "latitude": "37",
+          "distanceAround": "0.005",
+          "solid": "false",
+          "notUseDay": "1 2 3 4 5",
+          "timeStart": "9:10",
+          "timeEnd": "17:00",
+          "curUseLimit": "100",
+          "maxUseLimit": "100",
+          "useLength": "60000",
+          "startUse": "true",
+          "curTimeLimit": "120",
+          "maxTimeLimit": "30",
+          "date": "7:18",
+          "timeLimitBool": "true"
+        },
+
+        {
+          "principal_id": "untrusted",
+          "read": "false",
+          "write": "false",
+          "longitude": "-122.1234",
+          "latitude": "37",
+          "distanceAround": "0.005",
+          "solid": "false",
+          "notUseDay": "1 2 3 4 5",
+          "timeStart": "9:10",
+          "timeEnd": "17:00",
+          "curUseLimit": "100",
+          "maxUseLimit": "100",
+          "useLength": "60000",
+          "startUse": "true",
+          "curTimeLimit": "120",
+          "maxTimeLimit": "30",
+          "date": "7:18",
+          "timeLimitBool": "true"
+        }
+      ]
+
+    },
+
+    {
+      "name": "browser",
+      "permissions": [
+        {
+          "principal_id": "trusted",
+          "read": "true",
+          "write": "true",
+          "longitude": "-122.1234",
+          "latitude": "37",
+          "distanceAround": "0.005",
+          "solid": "false",
+          "notUseDay": "1 2 3 4 5",
+          "timeStart": "9:10",
+          "timeEnd": "17:00",
+          "curUseLimit": "100",
+          "maxUseLimit": "100",
+          "useLength": "60000",
+          "startUse": "true",
+          "curTimeLimit": "120",
+          "maxTimeLimit": "30",
+          "date": "7:18",
+          "timeLimitBool": "true"
+        },
+
+        {
+          "principal_id": "untrusted",
+          "read": "false",
+          "write": "false",
+          "longitude": "-122.1234",
+          "latitude": "37",
+          "distanceAround": "0.005",
+          "solid": "false",
+          "notUseDay": "1 2 3 4 5",
+          "timeStart": "9:10",
+          "timeEnd": "17:00",
+          "curUseLimit": "100",
+          "maxUseLimit": "100",
+          "useLength": "60000",
+          "startUse": "true",
+          "curTimeLimit": "120",
+          "maxTimeLimit": "30",
+          "date": "7:18",
+          "timeLimitBool": "true"
+        }
+      ]
+
+    },
+    {
+      "name": "compass",
+      "permissions": [
+        {
+          "principal_id": "trusted",
+          "read": "true",
+          "write": "true",
+          "longitude": "-122.1234",
+          "latitude": "37",
+          "distanceAround": "0.005",
+          "solid": "false",
+          "notUseDay": "1 2 3 4 5",
+          "timeStart": "9:10",
+          "timeEnd": "17:00",
+          "curUseLimit": "100",
+          "maxUseLimit": "100",
+          "useLength": "60000",
+          "startUse": "true",
+          "curTimeLimit": "120",
+          "maxTimeLimit": "30",
+          "date": "7:18",
+          "timeLimitBool": "true"
+        },
+
+        {
+          "principal_id": "untrusted",
+          "read": "false",
+          "write": "false",
+          "longitude": "-122.1234",
+          "latitude": "37",
+          "distanceAround": "0.005",
+          "solid": "false",
+          "notUseDay": "1 2 3 4 5",
+          "timeStart": "9:10",
+          "timeEnd": "17:00",
+          "curUseLimit": "100",
+          "maxUseLimit": "100",
+          "useLength": "60000",
+          "startUse": "true",
+          "curTimeLimit": "120",
+          "maxTimeLimit": "30",
+          "date": "7:18",
+          "timeLimitBool": "true"
+        }
+      ]
+
+    },
+    {
+      "name": "accelerometer",
+      "permissions": [
+        {
+          "principal_id": "trusted",
+          "read": "true",
+          "send": "true",
+          "longitude": "-122.1234",
+          "latitude": "37",
+          "distanceAround": "0.005",
+          "solid": "false",
+          "notUseDay": "1 2 3 4 5",
+          "timeStart": "9:10",
+          "timeEnd": "17:00",
+          "curUseLimit": "100",
+          "maxUseLimit": "100",
+          "useLength": "60000",
+          "startUse": "true",
+          "curTimeLimit": "120",
+          "maxTimeLimit": "30",
+          "date": "7:18",
+          "timeLimitBool": "true"
+        },
+
+        {
+          "principal_id": "untrusted",
+          "read": "true",
+          "send": "true",
+          "longitude": "-122.1234",
+          "latitude": "37",
+          "distanceAround": "0.005",
+          "solid": "false",
+          "notUseDay": "1 2 3 4 5",
+          "timeStart": "9:10",
+          "timeEnd": "17:00",
+          "curUseLimit": "100",
+          "maxUseLimit": "100",
+          "useLength": "60000",
+          "startUse": "true",
+          "curTimeLimit": "120",
+          "maxTimeLimit": "30",
+          "date": "7:18",
+          "timeLimitBool": "true"
+        }
+      ]
+    }
+  ]
+}

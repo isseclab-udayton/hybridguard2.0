@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/exploded-aar/org.apache.cordova/CordovaLib/6.2.3/debug/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.3"
+        sha1="5e9dd3c14ce9ec0f48decd5f41f82909ce588860">
+        <dex dex="/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-6.2.3-debug_6b9f6263cf83e58c373134f26c07eb0c717ca39b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.3"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/pre-dexed/debug/internal_impl-24.1.1_a57884857b6b8a8e75b110d2ba10545abc0416f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.3"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.1_577fc438f207aa1dd7041a9f2fd15419e6efdae1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.3"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.1_88173691710cd00435685a72e7e37de144ae79b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/exploded-aar/org.apache.cordova/CordovaLib/6.2.3/debug/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.3"
+        sha1="5e9dd3c14ce9ec0f48decd5f41f82909ce588860">
+        <dex dex="/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-6.2.3-debug_6de01a8faff1258fa0bafd322f0423add7305c6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/libs/com.google.zxing.client.android.captureactivity.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.3"
+        sha1="92d1409f739c4ebcfbab79b2a11ec63d1bf668f5">
+        <dex dex="/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/pre-dexed/debug/com.google.zxing.client.android.captureactivity_3b1cfa7ddc4c39ff1f8ba8c5da5ff1fb743f670e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/disk0s6/camera_app/platforms/android/libs/com.google.zxing.client.android.captureactivity.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.3"
+        sha1="92d1409f739c4ebcfbab79b2a11ec63d1bf668f5">
+        <dex dex="/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/pre-dexed/debug/com.google.zxing.client.android.captureactivity_6b04b11c40dcb16547e37e8be15922c9bbe7288a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.3"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Volumes/disk0s6/camera_app/platforms/android/build/intermediates/pre-dexed/debug/internal_impl-24.1.1_54310a5c93fa07f25bfaf18fccbbd7db577d6b47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aish/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.3"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Volumes/disk0s4/hybridguard2.0-master/evaluation/compatibility/frameworks/cordova/camera_app/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_79d1bfd692e23acf0ae4ea73b77af8ffaf2d708e.jar" />
+    </item>
+
+</items>
